@@ -1,0 +1,3644 @@
+{
+  "election": {
+    "jurisdiction": "Hawaii",
+    "general_date": "2026-11-03",
+    "primary_date": "2026-08-08",
+    "primary_certified_source": "https://elections.hawaii.gov/wp-content/results/2026%20Primary/summary.txt"
+  },
+  "nominees": {
+    "U.S. Representative, Dist I": [
+      {
+        "office": "U.S. Representative, Dist I",
+        "kind": "us_house",
+        "district": "01",
+        "party": "Nonpartisan",
+        "party_code": "N",
+        "name": "BERNING, Nathan M.",
+        "primary_votes": 977,
+        "field": "general_nominee"
+      },
+      {
+        "office": "U.S. Representative, Dist I",
+        "kind": "us_house",
+        "district": "01",
+        "party": "Green Party",
+        "party_code": "G",
+        "name": "CONLEY, Jordan S.",
+        "primary_votes": 402,
+        "field": "general_nominee"
+      },
+      {
+        "office": "U.S. Representative, Dist I",
+        "kind": "us_house",
+        "district": "01",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "LAM, Adriel C.",
+        "primary_votes": 18530,
+        "field": "general_nominee"
+      },
+      {
+        "office": "U.S. Representative, Dist I",
+        "kind": "us_house",
+        "district": "01",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "CASE, Ed",
+        "primary_votes": 63784,
+        "field": "general_nominee"
+      }
+    ],
+    "U.S. Representative, Dist II": [
+      {
+        "office": "U.S. Representative, Dist II",
+        "kind": "us_house",
+        "district": "02",
+        "party": "Nonpartisan",
+        "party_code": "N",
+        "name": "CODELIA, Edward A.",
+        "primary_votes": 1230,
+        "field": "general_nominee"
+      },
+      {
+        "office": "U.S. Representative, Dist II",
+        "kind": "us_house",
+        "district": "02",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "AWA, Brenton",
+        "primary_votes": 26290,
+        "field": "general_nominee"
+      },
+      {
+        "office": "U.S. Representative, Dist II",
+        "kind": "us_house",
+        "district": "02",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "TOKUDA, Jill N.",
+        "primary_votes": 92075,
+        "field": "general_nominee"
+      }
+    ],
+    "Governor": [
+      {
+        "office": "Governor",
+        "kind": "governor",
+        "district": null,
+        "party": "Nonpartisan",
+        "party_code": "N",
+        "name": "HILL, Bu Laia",
+        "primary_votes": 1326,
+        "field": "general_nominee"
+      },
+      {
+        "office": "Governor",
+        "kind": "governor",
+        "district": null,
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "CORDERY, Gary",
+        "primary_votes": 36428,
+        "field": "general_nominee"
+      },
+      {
+        "office": "Governor",
+        "kind": "governor",
+        "district": null,
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "GREEN, Josh",
+        "primary_votes": 184289,
+        "field": "general_nominee"
+      }
+    ],
+    "Lieutenant Governor": [
+      {
+        "office": "Lieutenant Governor",
+        "kind": "lt_governor",
+        "district": null,
+        "party": "Nonpartisan",
+        "party_code": "N",
+        "name": "KAMAU, Kilakila",
+        "primary_votes": 2525,
+        "field": "general_nominee"
+      },
+      {
+        "office": "Lieutenant Governor",
+        "kind": "lt_governor",
+        "district": null,
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "ANTHONY, Daniel",
+        "primary_votes": 16982,
+        "field": "general_nominee"
+      },
+      {
+        "office": "Lieutenant Governor",
+        "kind": "lt_governor",
+        "district": null,
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KAWAKAMI, Derek S.K.",
+        "primary_votes": 140247,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 2": [
+      {
+        "office": "State Senator, Dist 2",
+        "kind": "state_senate",
+        "district": "02",
+        "party": "Libertarian Party",
+        "party_code": "L",
+        "name": "FOGEL, Frederick F.",
+        "primary_votes": 41,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Senator, Dist 2",
+        "kind": "state_senate",
+        "district": "02",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "SAN BUENAVENTURA, Joy",
+        "primary_votes": 5258,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 5": [
+      {
+        "office": "State Senator, Dist 5",
+        "kind": "state_senate",
+        "district": "05",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "HASHIMOTO, Troy N.",
+        "primary_votes": 7822,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 8": [
+      {
+        "office": "State Senator, Dist 8",
+        "kind": "state_senate",
+        "district": "08",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KOUCHI, Ronald D.",
+        "primary_votes": 10811,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 9": [
+      {
+        "office": "State Senator, Dist 9",
+        "kind": "state_senate",
+        "district": "09",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "CROSWELL, David A.",
+        "primary_votes": 1713,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Senator, Dist 9",
+        "kind": "state_senate",
+        "district": "09",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "CHANG, Stanley",
+        "primary_votes": 10129,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 10": [
+      {
+        "office": "State Senator, Dist 10",
+        "kind": "state_senate",
+        "district": "10",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "SAYAMA, Jackson D.",
+        "primary_votes": 6505,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 11": [
+      {
+        "office": "State Senator, Dist 11",
+        "kind": "state_senate",
+        "district": "11",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "FUKUNAGA, Carol",
+        "primary_votes": 8728,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 13": [
+      {
+        "office": "State Senator, Dist 13",
+        "kind": "state_senate",
+        "district": "13",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "CHRISTIAN, Wallyn Kanoelani",
+        "primary_votes": 1090,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Senator, Dist 13",
+        "kind": "state_senate",
+        "district": "13",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "NAKAMATSU, Tricia Kwai Lin",
+        "primary_votes": 4460,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 14": [
+      {
+        "office": "State Senator, Dist 14",
+        "kind": "state_senate",
+        "district": "14",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KIM, Donna Mercado",
+        "primary_votes": 3462,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 15": [
+      {
+        "office": "State Senator, Dist 15",
+        "kind": "state_senate",
+        "district": "15",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "WAKAI, Glenn",
+        "primary_votes": 4958,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 17": [
+      {
+        "office": "State Senator, Dist 17",
+        "kind": "state_senate",
+        "district": "17",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "DELA CRUZ, Donovan",
+        "primary_votes": 6461,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 19 Vacancy": [
+      {
+        "office": "State Senator, Dist 19 Vacancy",
+        "kind": "state_senate",
+        "district": "19",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "PIERICK, Elijah",
+        "primary_votes": 1190,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Senator, Dist 19 Vacancy",
+        "kind": "state_senate",
+        "district": "19",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "LAMOSAO, Rachele F.",
+        "primary_votes": 3888,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 20": [
+      {
+        "office": "State Senator, Dist 20",
+        "kind": "state_senate",
+        "district": "20",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "FEVELLA, Kurt",
+        "primary_votes": 1212,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Senator, Dist 20",
+        "kind": "state_senate",
+        "district": "20",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "OWENS, Markus",
+        "primary_votes": 3716,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 21": [
+      {
+        "office": "State Senator, Dist 21",
+        "kind": "state_senate",
+        "district": "21",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "GABBARD, Mike",
+        "primary_votes": 3651,
+        "field": "general_nominee"
+      }
+    ],
+    "State Senator, Dist 25": [
+      {
+        "office": "State Senator, Dist 25",
+        "kind": "state_senate",
+        "district": "25",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "LEE, Chris",
+        "primary_votes": 9285,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 1": [
+      {
+        "office": "State Representative, Dist 1",
+        "kind": "state_house",
+        "district": "01",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KUSCH, Matthias",
+        "primary_votes": 3775,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 2": [
+      {
+        "office": "State Representative, Dist 2",
+        "kind": "state_house",
+        "district": "02",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "KENNEALY, Jonathan",
+        "primary_votes": 759,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 2",
+        "kind": "state_house",
+        "district": "02",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KEOHOKAPU LEE LOY, Sue",
+        "primary_votes": 4055,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 3": [
+      {
+        "office": "State Representative, Dist 3",
+        "kind": "state_house",
+        "district": "03",
+        "party": "Libertarian Party",
+        "party_code": "L",
+        "name": "MARTIN, Austin",
+        "primary_votes": 16,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 3",
+        "kind": "state_house",
+        "district": "03",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "TODD, Christopher L.T.",
+        "primary_votes": 2446,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 4": [
+      {
+        "office": "State Representative, Dist 4",
+        "kind": "state_house",
+        "district": "04",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "WITTENHAGEN, Zak",
+        "primary_votes": 789,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 4",
+        "kind": "state_house",
+        "district": "04",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "ILAGAN, Greggor",
+        "primary_votes": 2468,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 5": [
+      {
+        "office": "State Representative, Dist 5",
+        "kind": "state_house",
+        "district": "05",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "MCCORMICK, Dalene",
+        "primary_votes": 874,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 5",
+        "kind": "state_house",
+        "district": "05",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KAPELA, Jeanne",
+        "primary_votes": 2706,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 6": [
+      {
+        "office": "State Representative, Dist 6",
+        "kind": "state_house",
+        "district": "06",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KAHALOA, Kirstin",
+        "primary_votes": 3368,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 7": [
+      {
+        "office": "State Representative, Dist 7",
+        "kind": "state_house",
+        "district": "07",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "LOWEN, Nicole",
+        "primary_votes": 2450,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 8": [
+      {
+        "office": "State Representative, Dist 8",
+        "kind": "state_house",
+        "district": "08",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "PERREIRA, Monique",
+        "primary_votes": 783,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 8",
+        "kind": "state_house",
+        "district": "08",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "TARNAS, David A.",
+        "primary_votes": 3426,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 9": [
+      {
+        "office": "State Representative, Dist 9",
+        "kind": "state_house",
+        "district": "09",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "WOODSON, Justin H.",
+        "primary_votes": 3069,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 10": [
+      {
+        "office": "State Representative, Dist 10",
+        "kind": "state_house",
+        "district": "10",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "BUMANGLAG, Travis",
+        "primary_votes": 934,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 10",
+        "kind": "state_house",
+        "district": "10",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "MIYAKE, Tyson K.",
+        "primary_votes": 3764,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 11": [
+      {
+        "office": "State Representative, Dist 11",
+        "kind": "state_house",
+        "district": "11",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "WALKER, Sheila",
+        "primary_votes": 1050,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 11",
+        "kind": "state_house",
+        "district": "11",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "AMATO, Terez (T.Amato)",
+        "primary_votes": 2938,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 12": [
+      {
+        "office": "State Representative, Dist 12",
+        "kind": "state_house",
+        "district": "12",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "JOHNSON, Dan",
+        "primary_votes": 991,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 12",
+        "kind": "state_house",
+        "district": "12",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "YAMASHITA, Kyle T.",
+        "primary_votes": 3071,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 13": [
+      {
+        "office": "State Representative, Dist 13",
+        "kind": "state_house",
+        "district": "13",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "VANDERPOOL, Robin D.",
+        "primary_votes": 720,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 13",
+        "kind": "state_house",
+        "district": "13",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "POEPOE, Mahina",
+        "primary_votes": 3070,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 14": [
+      {
+        "office": "State Representative, Dist 14",
+        "kind": "state_house",
+        "district": "14",
+        "party": "Green Party",
+        "party_code": "G",
+        "name": "KIAKONA, Pa'ele",
+        "primary_votes": 181,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 14",
+        "kind": "state_house",
+        "district": "14",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "COCHRAN, Elle",
+        "primary_votes": 726,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 14",
+        "kind": "state_house",
+        "district": "14",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "PATEL, Sne",
+        "primary_votes": 995,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 15": [
+      {
+        "office": "State Representative, Dist 15",
+        "kind": "state_house",
+        "district": "15",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "NAKAMURA, Nadine K.",
+        "primary_votes": 3476,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 16": [
+      {
+        "office": "State Representative, Dist 16",
+        "kind": "state_house",
+        "district": "16",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "HAZLEBECK, David",
+        "primary_votes": 934,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 16",
+        "kind": "state_house",
+        "district": "16",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "EVSLIN, Luke A.",
+        "primary_votes": 4147,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 17": [
+      {
+        "office": "State Representative, Dist 17",
+        "kind": "state_house",
+        "district": "17",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "CLUETT, Misty",
+        "primary_votes": 768,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 17",
+        "kind": "state_house",
+        "district": "17",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "MORIKAWA, Daynette (Dee)",
+        "primary_votes": 3251,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 18": [
+      {
+        "office": "State Representative, Dist 18",
+        "kind": "state_house",
+        "district": "18",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "GEDEON, Joe",
+        "primary_votes": 1309,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 18",
+        "kind": "state_house",
+        "district": "18",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "WATARU, James (Jamie)",
+        "primary_votes": 5105,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 19": [
+      {
+        "office": "State Representative, Dist 19",
+        "kind": "state_house",
+        "district": "19",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "HASHEM, Mark Jun",
+        "primary_votes": 4161,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 20": [
+      {
+        "office": "State Representative, Dist 20",
+        "kind": "state_house",
+        "district": "20",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "ASING, David",
+        "primary_votes": 653,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 20",
+        "kind": "state_house",
+        "district": "20",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "NAKADA GRANDINETTI, Tina",
+        "primary_votes": 4461,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 21": [
+      {
+        "office": "State Representative, Dist 21",
+        "kind": "state_house",
+        "district": "21",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "TURBIN, Derek",
+        "primary_votes": 2638,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 22": [
+      {
+        "office": "State Representative, Dist 22",
+        "kind": "state_house",
+        "district": "22",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "GARRETT, Andrew Takuya",
+        "primary_votes": 4958,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 23": [
+      {
+        "office": "State Representative, Dist 23",
+        "kind": "state_house",
+        "district": "23",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "MUH, Victor",
+        "primary_votes": 504,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 23",
+        "kind": "state_house",
+        "district": "23",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "OLDS, Ikaika M.",
+        "primary_votes": 2918,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 24": [
+      {
+        "office": "State Representative, Dist 24",
+        "kind": "state_house",
+        "district": "24",
+        "party": "Nonpartisan",
+        "party_code": "N",
+        "name": "CLAUSEN, Jonathan",
+        "primary_votes": 74,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 24",
+        "kind": "state_house",
+        "district": "24",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "TAM, Adrian",
+        "primary_votes": 3061,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 25": [
+      {
+        "office": "State Representative, Dist 25",
+        "kind": "state_house",
+        "district": "25",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "IWAMOTO, Kim Coco",
+        "primary_votes": 3757,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 26": [
+      {
+        "office": "State Representative, Dist 26",
+        "kind": "state_house",
+        "district": "26",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "SILVA, Tony",
+        "primary_votes": 393,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 26",
+        "kind": "state_house",
+        "district": "26",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "ROSS, Ian M.A.",
+        "primary_votes": 2017,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 27": [
+      {
+        "office": "State Representative, Dist 27",
+        "kind": "state_house",
+        "district": "27",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "TAKENOUCHI, Jenna W.Y.C.",
+        "primary_votes": 5585,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 28": [
+      {
+        "office": "State Representative, Dist 28",
+        "kind": "state_house",
+        "district": "28",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "RATCLIFFE, Michael (Cov)",
+        "primary_votes": 732,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 29": [
+      {
+        "office": "State Representative, Dist 29",
+        "kind": "state_house",
+        "district": "29",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "ABALOS, Tess",
+        "primary_votes": 447,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 29",
+        "kind": "state_house",
+        "district": "29",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "HUSSEY, Ikaika",
+        "primary_votes": 1398,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 30": [
+      {
+        "office": "State Representative, Dist 30",
+        "kind": "state_house",
+        "district": "30",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "YBANEZ, Amanda",
+        "primary_votes": 220,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 30",
+        "kind": "state_house",
+        "district": "30",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "TEMPLO, Shirley Ann",
+        "primary_votes": 1192,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 31": [
+      {
+        "office": "State Representative, Dist 31",
+        "kind": "state_house",
+        "district": "31",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "VALDEZ, Nancy",
+        "primary_votes": 602,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 31",
+        "kind": "state_house",
+        "district": "31",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "ICHIYAMA, Linda",
+        "primary_votes": 3145,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 32": [
+      {
+        "office": "State Representative, Dist 32",
+        "kind": "state_house",
+        "district": "32",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "SHIMIZU, Garner M.",
+        "primary_votes": 904,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 32",
+        "kind": "state_house",
+        "district": "32",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "AIU, Micah Pookela Kim",
+        "primary_votes": 2800,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 33": [
+      {
+        "office": "State Representative, Dist 33",
+        "kind": "state_house",
+        "district": "33",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KONG, Sam Satoru",
+        "primary_votes": 5089,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 34": [
+      {
+        "office": "State Representative, Dist 34",
+        "kind": "state_house",
+        "district": "34",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "DUPIO, Gaius, II (Kipi)",
+        "primary_votes": 828,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 34",
+        "kind": "state_house",
+        "district": "34",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "TAKAYAMA, Gregg",
+        "primary_votes": 4031,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 35": [
+      {
+        "office": "State Representative, Dist 35",
+        "kind": "state_house",
+        "district": "35",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "CHUN, Cory M.",
+        "primary_votes": 2973,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 36": [
+      {
+        "office": "State Representative, Dist 36",
+        "kind": "state_house",
+        "district": "36",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "HARTSFIELD, Daisy Balais",
+        "primary_votes": 988,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 37": [
+      {
+        "office": "State Representative, Dist 37",
+        "kind": "state_house",
+        "district": "37",
+        "party": "Nonpartisan",
+        "party_code": "N",
+        "name": "SVRCINA, Emil",
+        "primary_votes": 59,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 37",
+        "kind": "state_house",
+        "district": "37",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "LA CHICA, Trish",
+        "primary_votes": 5043,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 38": [
+      {
+        "office": "State Representative, Dist 38",
+        "kind": "state_house",
+        "district": "38",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "CHEAPE MATSUMOTO, Lauren",
+        "primary_votes": 1289,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 39": [
+      {
+        "office": "State Representative, Dist 39",
+        "kind": "state_house",
+        "district": "39",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "DEGRACIA, Daniel (Danny)",
+        "primary_votes": 776,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 39",
+        "kind": "state_house",
+        "district": "39",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "ROSENLEE, Corey",
+        "primary_votes": 2186,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 40": [
+      {
+        "office": "State Representative, Dist 40",
+        "kind": "state_house",
+        "district": "40",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "REYES ODA, Julie",
+        "primary_votes": 1163,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 40",
+        "kind": "state_house",
+        "district": "40",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "MARTINEZ, Rose",
+        "primary_votes": 1895,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 41": [
+      {
+        "office": "State Representative, Dist 41",
+        "kind": "state_house",
+        "district": "41",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "ALCOS, David A., III",
+        "primary_votes": 1217,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 42": [
+      {
+        "office": "State Representative, Dist 42",
+        "kind": "state_house",
+        "district": "42",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "GARCIA, Diamond",
+        "primary_votes": 941,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 42",
+        "kind": "state_house",
+        "district": "42",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "PARIS, Anthony Makana",
+        "primary_votes": 1996,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 43": [
+      {
+        "office": "State Representative, Dist 43",
+        "kind": "state_house",
+        "district": "43",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "MEDEIROS, Sheila",
+        "primary_votes": 842,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 44": [
+      {
+        "office": "State Representative, Dist 44",
+        "kind": "state_house",
+        "district": "44",
+        "party": "Nonpartisan",
+        "party_code": "N",
+        "name": "DE LA CRUZ, Blessings",
+        "primary_votes": 41,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 44",
+        "kind": "state_house",
+        "district": "44",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "WEAVER, Charla (Kahealani)",
+        "primary_votes": 900,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 44",
+        "kind": "state_house",
+        "district": "44",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KILA, Darius K.",
+        "primary_votes": 1760,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 45": [
+      {
+        "office": "State Representative, Dist 45",
+        "kind": "state_house",
+        "district": "45",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "MURAOKA, Chris",
+        "primary_votes": 910,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 45",
+        "kind": "state_house",
+        "district": "45",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KAOPUA, Kalehua",
+        "primary_votes": 1416,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 46": [
+      {
+        "office": "State Representative, Dist 46",
+        "kind": "state_house",
+        "district": "46",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "GABRIEL, Daniel Michael",
+        "primary_votes": 800,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 46",
+        "kind": "state_house",
+        "district": "46",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "PERRUSO, Amy A.",
+        "primary_votes": 2760,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 47": [
+      {
+        "office": "State Representative, Dist 47",
+        "kind": "state_house",
+        "district": "47",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "TALAEAI, Mark",
+        "primary_votes": 1007,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 47",
+        "kind": "state_house",
+        "district": "47",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "QUINLAN, Sean",
+        "primary_votes": 1765,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 48": [
+      {
+        "office": "State Representative, Dist 48",
+        "kind": "state_house",
+        "district": "48",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "KITAGAWA, Lisa C.",
+        "primary_votes": 4308,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 49": [
+      {
+        "office": "State Representative, Dist 49",
+        "kind": "state_house",
+        "district": "49",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "RODAS, 'Ale",
+        "primary_votes": 1024,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 49",
+        "kind": "state_house",
+        "district": "49",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "MATAYOSHI, Scot",
+        "primary_votes": 4365,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 50": [
+      {
+        "office": "State Representative, Dist 50",
+        "kind": "state_house",
+        "district": "50",
+        "party": "Green Party",
+        "party_code": "G",
+        "name": "FITZGERALD, Jesse W.M.",
+        "primary_votes": 23,
+        "field": "general_nominee"
+      },
+      {
+        "office": "State Representative, Dist 50",
+        "kind": "state_house",
+        "district": "50",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "LEE, Mike",
+        "primary_votes": 4856,
+        "field": "general_nominee"
+      }
+    ],
+    "State Representative, Dist 51": [
+      {
+        "office": "State Representative, Dist 51",
+        "kind": "state_house",
+        "district": "51",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "MARTEN, Lisa",
+        "primary_votes": 3387,
+        "field": "general_nominee"
+      }
+    ]
+  },
+  "nonpartisan_primary": {
+    "At-Large Trustee": [
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "GALUTERIA, Brickwood M.",
+        "party": "Nonpartisan",
+        "primary_votes": 74796,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "WAIHEE, John, IV",
+        "party": "Nonpartisan",
+        "primary_votes": 70761,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "ANDERSON, Ikaika",
+        "party": "Nonpartisan",
+        "primary_votes": 58918,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "SOUZA, Keoni",
+        "party": "Nonpartisan",
+        "primary_votes": 58000,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "AKINA, Adrian (Kealii)",
+        "party": "Nonpartisan",
+        "primary_votes": 44038,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "CRABBE, Kanekoa (Koa)",
+        "party": "Nonpartisan",
+        "primary_votes": 30308,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "PARISH, Kalena A.",
+        "party": "Nonpartisan",
+        "primary_votes": 28309,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "LEE, Brendon Kalei'aina",
+        "party": "Nonpartisan",
+        "primary_votes": 23497,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "COSTELLO, Michelle (Mikala)",
+        "party": "Nonpartisan",
+        "primary_votes": 22754,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "BAKER, Karl Veto",
+        "party": "Nonpartisan",
+        "primary_votes": 19976,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "NIHIPALI, R. Kunani, Sr.",
+        "party": "Nonpartisan",
+        "primary_votes": 19194,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "BURKE, Jackie Kahookele",
+        "party": "Nonpartisan",
+        "primary_votes": 14488,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "BILLIONAIRE, Shelby Pikachu",
+        "party": "Nonpartisan",
+        "primary_votes": 11458,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "MARTIN, Philip (Kawika)",
+        "party": "Nonpartisan",
+        "primary_votes": 9126,
+        "field": "certified_primary"
+      },
+      {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "KAUAULA, Clifford K.",
+        "party": "Nonpartisan",
+        "primary_votes": 9077,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 1": [
+      {
+        "office": "Councilmember, Dist 1",
+        "kind": "council",
+        "district": "01",
+        "name": "KIMBALL, Heather L.",
+        "party": "Nonpartisan",
+        "primary_votes": 2684,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 1",
+        "kind": "council",
+        "district": "01",
+        "name": "DEL ROSARIO, Ren",
+        "party": "Nonpartisan",
+        "primary_votes": 1558,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 1",
+        "kind": "council",
+        "district": "01",
+        "name": "PENN, BJ",
+        "party": "Nonpartisan",
+        "primary_votes": 234,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 2": [
+      {
+        "office": "Councilmember, Dist 2",
+        "kind": "council",
+        "district": "02",
+        "name": "KAGIWADA, Jennifer (Jenn)",
+        "party": "Nonpartisan",
+        "primary_votes": 2980,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 2",
+        "kind": "council",
+        "district": "02",
+        "name": "BOTELHO, Wendy S.",
+        "party": "Nonpartisan",
+        "primary_votes": 1043,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 2",
+        "kind": "council",
+        "district": "02",
+        "name": "FUKUSHIMA, JoNelle (Jo)",
+        "party": "Nonpartisan",
+        "primary_votes": 924,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 2",
+        "kind": "council",
+        "district": "02",
+        "name": "BAUTISTA, Blaine Kenji",
+        "party": "Nonpartisan",
+        "primary_votes": 834,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 2",
+        "kind": "council",
+        "district": "02",
+        "name": "HALVERSEN, William John",
+        "party": "Nonpartisan",
+        "primary_votes": 110,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 3": [
+      {
+        "office": "Councilmember, Dist 3",
+        "kind": "council",
+        "district": "03",
+        "name": "ONISHI, Dennis (Fresh)",
+        "party": "Nonpartisan",
+        "primary_votes": 3430,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 3",
+        "kind": "council",
+        "district": "03",
+        "name": "CHANG, Kelton K.",
+        "party": "Nonpartisan",
+        "primary_votes": 1974,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 4": [
+      {
+        "office": "Councilmember, Dist 4",
+        "kind": "council",
+        "district": "04",
+        "name": "OHARA, Eileen",
+        "party": "Nonpartisan",
+        "primary_votes": 1591,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 4",
+        "kind": "council",
+        "district": "04",
+        "name": "ENRIQUEZ, Lloyd K.",
+        "party": "Nonpartisan",
+        "primary_votes": 1151,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 4",
+        "kind": "council",
+        "district": "04",
+        "name": "HOFFELD, Cyd L. (Makanui)",
+        "party": "Nonpartisan",
+        "primary_votes": 818,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 4",
+        "kind": "council",
+        "district": "04",
+        "name": "BURROWS, Shannon (Smiley)",
+        "party": "Nonpartisan",
+        "primary_votes": 754,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 5": [
+      {
+        "office": "Councilmember, Dist 5",
+        "kind": "council",
+        "district": "05",
+        "name": "MATSON, Shannon Lopeka",
+        "party": "Nonpartisan",
+        "primary_votes": 983,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 5",
+        "kind": "council",
+        "district": "05",
+        "name": "RODENHURST, Ikaika",
+        "party": "Nonpartisan",
+        "primary_votes": 953,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 5",
+        "kind": "council",
+        "district": "05",
+        "name": "KANEALII-KLEINFELDER, Dawn",
+        "party": "Nonpartisan",
+        "primary_votes": 906,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 5",
+        "kind": "council",
+        "district": "05",
+        "name": "TUPA'I, Jr",
+        "party": "Nonpartisan",
+        "primary_votes": 806,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 5",
+        "kind": "council",
+        "district": "05",
+        "name": "MAKUAOLE-PERRIN, Chantel",
+        "party": "Nonpartisan",
+        "primary_votes": 428,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 6": [
+      {
+        "office": "Councilmember, Dist 6",
+        "kind": "council",
+        "district": "06",
+        "name": "ENRIQUES, Guy",
+        "party": "Nonpartisan",
+        "primary_votes": 1364,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 6",
+        "kind": "council",
+        "district": "06",
+        "name": "AKI, Zed Kaapana",
+        "party": "Nonpartisan",
+        "primary_votes": 1026,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 6",
+        "kind": "council",
+        "district": "06",
+        "name": "CANELAS, Justin R.",
+        "party": "Nonpartisan",
+        "primary_votes": 935,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 6",
+        "kind": "council",
+        "district": "06",
+        "name": "MASTERS, Jason R",
+        "party": "Nonpartisan",
+        "primary_votes": 768,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 6",
+        "kind": "council",
+        "district": "06",
+        "name": "JONES, Kyle Kepano",
+        "party": "Nonpartisan",
+        "primary_votes": 343,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 7": [
+      {
+        "office": "Councilmember, Dist 7",
+        "kind": "council",
+        "district": "07",
+        "name": "POWERS, Manu",
+        "party": "Nonpartisan",
+        "primary_votes": 2663,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 7",
+        "kind": "council",
+        "district": "07",
+        "name": "OMBAC, Edgar B. (Eddie O)",
+        "party": "Nonpartisan",
+        "primary_votes": 867,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist 7",
+        "kind": "council",
+        "district": "07",
+        "name": "HENRIQUES, Mark G.",
+        "party": "Nonpartisan",
+        "primary_votes": 507,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 8": [
+      {
+        "office": "Councilmember, Dist 8",
+        "kind": "council",
+        "district": "08",
+        "name": "INABA, Holeka Goro",
+        "party": "Nonpartisan",
+        "primary_votes": 2657,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist 9": [
+      {
+        "office": "Councilmember, Dist 9",
+        "kind": "council",
+        "district": "09",
+        "name": "HUSTACE, James E.",
+        "party": "Nonpartisan",
+        "primary_votes": 3763,
+        "field": "certified_primary"
+      }
+    ],
+    "Mayor": [
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "BISSEN, Richard T., Jr.",
+        "party": "Nonpartisan",
+        "primary_votes": 15785,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "SUGIMURA, Yuki Lei Kashiwa",
+        "party": "Nonpartisan",
+        "primary_votes": 11491,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "RAPOZO, Mel",
+        "party": "Nonpartisan",
+        "primary_votes": 7618,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "CARVALHO, Bernard, Jr.",
+        "party": "Nonpartisan",
+        "primary_votes": 5744,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "LA COSTA, P. Denise",
+        "party": "Nonpartisan",
+        "primary_votes": 3970,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "COWDEN, Felicia E.",
+        "party": "Nonpartisan",
+        "primary_votes": 3199,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "PETTERSON, Amy",
+        "party": "Nonpartisan",
+        "primary_votes": 851,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "ANDAYA-LINDSEY, Laura",
+        "party": "Nonpartisan",
+        "primary_votes": 504,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "WIDENER, Michaela B.",
+        "party": "Nonpartisan",
+        "primary_votes": 382,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "DUNBAR, John",
+        "party": "Nonpartisan",
+        "primary_votes": 364,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "LIGGETT, Travis A.",
+        "party": "Nonpartisan",
+        "primary_votes": 240,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "DENIS, Megeso-William",
+        "party": "Nonpartisan",
+        "primary_votes": 234,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "WELSH, Callahan P.",
+        "party": "Nonpartisan",
+        "primary_votes": 209,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "MOSES, Joseph",
+        "party": "Nonpartisan",
+        "primary_votes": 164,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "HERRMANN, Justin",
+        "party": "Nonpartisan",
+        "primary_votes": 135,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Mayor",
+        "kind": "mayor",
+        "district": null,
+        "name": "ZAHND, Laurent",
+        "party": "Nonpartisan",
+        "primary_votes": 74,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember (Wailuku-Waihee-Waikapu)": [
+      {
+        "office": "Councilmember (Wailuku-Waihee-Waikapu)",
+        "kind": "council",
+        "district": null,
+        "name": "MONIZ, Marvin",
+        "party": "Nonpartisan",
+        "primary_votes": 11119,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Wailuku-Waihee-Waikapu)",
+        "kind": "council",
+        "district": null,
+        "name": "LINDSEY, Ashley Awakea",
+        "party": "Nonpartisan",
+        "primary_votes": 6358,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Wailuku-Waihee-Waikapu)",
+        "kind": "council",
+        "district": null,
+        "name": "FORREST, James (Nahele)",
+        "party": "Nonpartisan",
+        "primary_votes": 5337,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Wailuku-Waihee-Waikapu)",
+        "kind": "council",
+        "district": null,
+        "name": "KONOHIA, Randy Ha'aheo",
+        "party": "Nonpartisan",
+        "primary_votes": 4355,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Wailuku-Waihee-Waikapu)",
+        "kind": "council",
+        "district": null,
+        "name": "LLOYD, Alan Peter",
+        "party": "Nonpartisan",
+        "primary_votes": 1661,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember (Kahului)": [
+      {
+        "office": "Councilmember (Kahului)",
+        "kind": "council",
+        "district": null,
+        "name": "BATANGAN, Kauanoe",
+        "party": "Nonpartisan",
+        "primary_votes": 14272,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Kahului)",
+        "kind": "council",
+        "district": null,
+        "name": "KAMEKONA, Carol Lee",
+        "party": "Nonpartisan",
+        "primary_votes": 11242,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Kahului)",
+        "kind": "council",
+        "district": null,
+        "name": "ABABAN, Jason",
+        "party": "Nonpartisan",
+        "primary_votes": 2488,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember (Upcountry)": [
+      {
+        "office": "Councilmember (Upcountry)",
+        "kind": "council",
+        "district": null,
+        "name": "PAHIA, Bobby",
+        "party": "Nonpartisan",
+        "primary_votes": 14434,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Upcountry)",
+        "kind": "council",
+        "district": null,
+        "name": "YOKOUCHI, Jon Masaru",
+        "party": "Nonpartisan",
+        "primary_votes": 6014,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Upcountry)",
+        "kind": "council",
+        "district": null,
+        "name": "CABILES, Derrick W.",
+        "party": "Nonpartisan",
+        "primary_votes": 5252,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember (Upcountry)",
+        "kind": "council",
+        "district": null,
+        "name": "GUARD, John B., IV (Jb)",
+        "party": "Nonpartisan",
+        "primary_votes": 3055,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember": [
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "KANESHIRO, Arryl J.",
+        "party": "Nonpartisan",
+        "primary_votes": 8250,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "HOLLAND, Fern Anuenue",
+        "party": "Nonpartisan",
+        "primary_votes": 8233,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "OZAKI, Todd R.",
+        "party": "Nonpartisan",
+        "primary_votes": 8060,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "CORREA, Michelle Kaleiohi",
+        "party": "Nonpartisan",
+        "primary_votes": 7474,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "BULOSAN, Addison",
+        "party": "Nonpartisan",
+        "primary_votes": 6332,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "SHIGEMOTO, Taylor H.",
+        "party": "Nonpartisan",
+        "primary_votes": 5308,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "APPLEGATE, Paul Noboru",
+        "party": "Nonpartisan",
+        "primary_votes": 5301,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "DECOSTA, Billy D.",
+        "party": "Nonpartisan",
+        "primary_votes": 5110,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "SMITH, Dane",
+        "party": "Nonpartisan",
+        "primary_votes": 4780,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "COOTS, Mike",
+        "party": "Nonpartisan",
+        "primary_votes": 4132,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "MARTIN, Umi",
+        "party": "Nonpartisan",
+        "primary_votes": 4014,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "RAPOZO, Cheree",
+        "party": "Nonpartisan",
+        "primary_votes": 3463,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "KAIMINAAUAO, Keola",
+        "party": "Nonpartisan",
+        "primary_votes": 2886,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "MATTOS, John H. (Scooby)",
+        "party": "Nonpartisan",
+        "primary_votes": 2406,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "POAI, Michael Roven",
+        "party": "Nonpartisan",
+        "primary_votes": 2080,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "TRUJILLO, James (Jimmy T)",
+        "party": "Nonpartisan",
+        "primary_votes": 1996,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "SECRETARIO, Rachel M.",
+        "party": "Nonpartisan",
+        "primary_votes": 1948,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "FERNANDES CABERTO, Trysten",
+        "party": "Nonpartisan",
+        "primary_votes": 1791,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "OKHMAN, Yelena",
+        "party": "Nonpartisan",
+        "primary_votes": 1674,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "MUKAI, Nelson",
+        "party": "Nonpartisan",
+        "primary_votes": 1616,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "HAUPT, Jeremy",
+        "party": "Nonpartisan",
+        "primary_votes": 1274,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "LINDSEY, Thomas, Jr. (Tom)",
+        "party": "Nonpartisan",
+        "primary_votes": 1000,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "WORKMAN, Skyler",
+        "party": "Nonpartisan",
+        "primary_votes": 901,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "MONTEMAYOR, John",
+        "party": "Nonpartisan",
+        "primary_votes": 810,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "WILSON, Herman K.",
+        "party": "Nonpartisan",
+        "primary_votes": 574,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember",
+        "kind": "council",
+        "district": null,
+        "name": "LANGTAD, James R.",
+        "party": "Nonpartisan",
+        "primary_votes": 464,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist II": [
+      {
+        "office": "Councilmember, Dist II",
+        "kind": "council",
+        "district": "02",
+        "name": "WEYER, Matt",
+        "party": "Nonpartisan",
+        "primary_votes": 9552,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist IV": [
+      {
+        "office": "Councilmember, Dist IV",
+        "kind": "council",
+        "district": "04",
+        "name": "OZAWA, Trevor",
+        "party": "Nonpartisan",
+        "primary_votes": 12279,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist IV",
+        "kind": "council",
+        "district": "04",
+        "name": "WATERS, Tommy",
+        "party": "Nonpartisan",
+        "primary_votes": 8678,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist IV",
+        "kind": "council",
+        "district": "04",
+        "name": "GREGORY, Tara Malia",
+        "party": "Nonpartisan",
+        "primary_votes": 4225,
+        "field": "certified_primary"
+      },
+      {
+        "office": "Councilmember, Dist IV",
+        "kind": "council",
+        "district": "04",
+        "name": "LIANG, Jason K.",
+        "party": "Nonpartisan",
+        "primary_votes": 2684,
+        "field": "certified_primary"
+      }
+    ],
+    "Councilmember, Dist VIII": [
+      {
+        "office": "Councilmember, Dist VIII",
+        "kind": "council",
+        "district": null,
+        "name": "OKIMOTO, Val Aquino",
+        "party": "Nonpartisan",
+        "primary_votes": 19328,
+        "field": "certified_primary"
+      }
+    ]
+  },
+  "geo_by_zip": {
+    "96701": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15016",
+        "name": "State Senate District 16",
+        "district": "16"
+      },
+      "sldl": {
+        "geoid": "15033",
+        "name": "State House District 33",
+        "district": "33"
+      }
+    },
+    "96703": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15015",
+        "name": "State House District 15",
+        "district": "15"
+      }
+    },
+    "96704": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15003",
+        "name": "State Senate District 3",
+        "district": "03"
+      },
+      "sldl": {
+        "geoid": "15005",
+        "name": "State House District 5",
+        "district": "05"
+      }
+    },
+    "96705": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96706": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15020",
+        "name": "State Senate District 20",
+        "district": "20"
+      },
+      "sldl": {
+        "geoid": "15040",
+        "name": "State House District 40",
+        "district": "40"
+      }
+    },
+    "96707": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15021",
+        "name": "State Senate District 21",
+        "district": "21"
+      },
+      "sldl": {
+        "geoid": "15043",
+        "name": "State House District 43",
+        "district": "43"
+      }
+    },
+    "96708": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96710": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96712": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15047",
+        "name": "State House District 47",
+        "district": "47"
+      }
+    },
+    "96713": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96714": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15015",
+        "name": "State House District 15",
+        "district": "15"
+      }
+    },
+    "96716": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96717": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15047",
+        "name": "State House District 47",
+        "district": "47"
+      }
+    },
+    "96719": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15008",
+        "name": "State House District 8",
+        "district": "08"
+      }
+    },
+    "96720": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15001",
+        "name": "State Senate District 1",
+        "district": "01"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96722": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15015",
+        "name": "State House District 15",
+        "district": "15"
+      }
+    },
+    "96725": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15003",
+        "name": "State Senate District 3",
+        "district": "03"
+      },
+      "sldl": {
+        "geoid": "15006",
+        "name": "State House District 6",
+        "district": "06"
+      }
+    },
+    "96726": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15003",
+        "name": "State Senate District 3",
+        "district": "03"
+      },
+      "sldl": {
+        "geoid": "15005",
+        "name": "State House District 5",
+        "district": "05"
+      }
+    },
+    "96727": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96728": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96729": {
+      "island": "Molokaʻi",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96730": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15048",
+        "name": "State House District 48",
+        "district": "48"
+      }
+    },
+    "96731": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15047",
+        "name": "State House District 47",
+        "district": "47"
+      }
+    },
+    "96732": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15005",
+        "name": "State Senate District 5",
+        "district": "05"
+      },
+      "sldl": {
+        "geoid": "15009",
+        "name": "State House District 9",
+        "district": "09"
+      }
+    },
+    "96734": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15024",
+        "name": "State Senate District 24",
+        "district": "24"
+      },
+      "sldl": {
+        "geoid": "15050",
+        "name": "State House District 50",
+        "district": "50"
+      }
+    },
+    "96737": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15003",
+        "name": "State Senate District 3",
+        "district": "03"
+      },
+      "sldl": {
+        "geoid": "15005",
+        "name": "State House District 5",
+        "district": "05"
+      }
+    },
+    "96738": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15007",
+        "name": "State House District 7",
+        "district": "07"
+      }
+    },
+    "96740": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15007",
+        "name": "State House District 7",
+        "district": "07"
+      }
+    },
+    "96741": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96742": {
+      "island": null,
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96743": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15008",
+        "name": "State House District 8",
+        "district": "08"
+      }
+    },
+    "96744": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15048",
+        "name": "State House District 48",
+        "district": "48"
+      }
+    },
+    "96746": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15015",
+        "name": "State House District 15",
+        "district": "15"
+      }
+    },
+    "96747": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96748": {
+      "island": "Molokaʻi",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96749": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15002",
+        "name": "State Senate District 2",
+        "district": "02"
+      },
+      "sldl": {
+        "geoid": "15003",
+        "name": "State House District 3",
+        "district": "03"
+      }
+    },
+    "96750": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15003",
+        "name": "State Senate District 3",
+        "district": "03"
+      },
+      "sldl": {
+        "geoid": "15006",
+        "name": "State House District 6",
+        "district": "06"
+      }
+    },
+    "96751": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15015",
+        "name": "State House District 15",
+        "district": "15"
+      }
+    },
+    "96752": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96753": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15006",
+        "name": "State Senate District 6",
+        "district": "06"
+      },
+      "sldl": {
+        "geoid": "15011",
+        "name": "State House District 11",
+        "district": "11"
+      }
+    },
+    "96754": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15015",
+        "name": "State House District 15",
+        "district": "15"
+      }
+    },
+    "96755": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15008",
+        "name": "State House District 8",
+        "district": "08"
+      }
+    },
+    "96756": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96757": {
+      "island": "Molokaʻi",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96759": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15046",
+        "name": "State House District 46",
+        "district": "46"
+      }
+    },
+    "96760": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15002",
+        "name": "State Senate District 2",
+        "district": "02"
+      },
+      "sldl": {
+        "geoid": "15003",
+        "name": "State House District 3",
+        "district": "03"
+      }
+    },
+    "96761": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15006",
+        "name": "State Senate District 6",
+        "district": "06"
+      },
+      "sldl": {
+        "geoid": "15014",
+        "name": "State House District 14",
+        "district": "14"
+      }
+    },
+    "96762": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15047",
+        "name": "State House District 47",
+        "district": "47"
+      }
+    },
+    "96763": {
+      "island": "Lānaʻi",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96764": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96765": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96766": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15016",
+        "name": "State House District 16",
+        "district": "16"
+      }
+    },
+    "96768": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15012",
+        "name": "State House District 12",
+        "district": "12"
+      }
+    },
+    "96769": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96770": {
+      "island": "Molokaʻi",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96771": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15002",
+        "name": "State Senate District 2",
+        "district": "02"
+      },
+      "sldl": {
+        "geoid": "15005",
+        "name": "State House District 5",
+        "district": "05"
+      }
+    },
+    "96772": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15003",
+        "name": "State Senate District 3",
+        "district": "03"
+      },
+      "sldl": {
+        "geoid": "15005",
+        "name": "State House District 5",
+        "district": "05"
+      }
+    },
+    "96773": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96774": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96776": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96777": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15003",
+        "name": "State Senate District 3",
+        "district": "03"
+      },
+      "sldl": {
+        "geoid": "15005",
+        "name": "State House District 5",
+        "district": "05"
+      }
+    },
+    "96778": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15002",
+        "name": "State Senate District 2",
+        "district": "02"
+      },
+      "sldl": {
+        "geoid": "15004",
+        "name": "State House District 4",
+        "district": "04"
+      }
+    },
+    "96779": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15013",
+        "name": "State House District 13",
+        "district": "13"
+      }
+    },
+    "96780": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96781": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15001",
+        "name": "State Senate District 1",
+        "district": "01"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96782": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15017",
+        "name": "State Senate District 17",
+        "district": "17"
+      },
+      "sldl": {
+        "geoid": "15037",
+        "name": "State House District 37",
+        "district": "37"
+      }
+    },
+    "96783": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15004",
+        "name": "State Senate District 4",
+        "district": "04"
+      },
+      "sldl": {
+        "geoid": "15001",
+        "name": "State House District 1",
+        "district": "01"
+      }
+    },
+    "96785": {
+      "island": "Hawaiʻi Island",
+      "sldu": {
+        "geoid": "15003",
+        "name": "State Senate District 3",
+        "district": "03"
+      },
+      "sldl": {
+        "geoid": "15005",
+        "name": "State House District 5",
+        "district": "05"
+      }
+    },
+    "96786": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15047",
+        "name": "State House District 47",
+        "district": "47"
+      }
+    },
+    "96789": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15017",
+        "name": "State Senate District 17",
+        "district": "17"
+      },
+      "sldl": {
+        "geoid": "15038",
+        "name": "State House District 38",
+        "district": "38"
+      }
+    },
+    "96790": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15007",
+        "name": "State Senate District 7",
+        "district": "07"
+      },
+      "sldl": {
+        "geoid": "15012",
+        "name": "State House District 12",
+        "district": "12"
+      }
+    },
+    "96791": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15046",
+        "name": "State House District 46",
+        "district": "46"
+      }
+    },
+    "96792": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15022",
+        "name": "State Senate District 22",
+        "district": "22"
+      },
+      "sldl": {
+        "geoid": "15045",
+        "name": "State House District 45",
+        "district": "45"
+      }
+    },
+    "96793": {
+      "island": "Maui",
+      "sldu": {
+        "geoid": "15005",
+        "name": "State Senate District 5",
+        "district": "05"
+      },
+      "sldl": {
+        "geoid": "15010",
+        "name": "State House District 10",
+        "district": "10"
+      }
+    },
+    "96795": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15025",
+        "name": "State Senate District 25",
+        "district": "25"
+      },
+      "sldl": {
+        "geoid": "15051",
+        "name": "State House District 51",
+        "district": "51"
+      }
+    },
+    "96796": {
+      "island": "Kauaʻi",
+      "sldu": {
+        "geoid": "15008",
+        "name": "State Senate District 8",
+        "district": "08"
+      },
+      "sldl": {
+        "geoid": "15017",
+        "name": "State House District 17",
+        "district": "17"
+      }
+    },
+    "96797": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15018",
+        "name": "State Senate District 18",
+        "district": "18"
+      },
+      "sldl": {
+        "geoid": "15039",
+        "name": "State House District 39",
+        "district": "39"
+      }
+    },
+    "96813": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15013",
+        "name": "State Senate District 13",
+        "district": "13"
+      },
+      "sldl": {
+        "geoid": "15027",
+        "name": "State House District 27",
+        "district": "27"
+      },
+      "point_check": {
+        "address": "415 S BERETANIA ST, HONOLULU, HI, 96813",
+        "sldu": {
+          "geoid": "15013",
+          "name": "State Senate District 13",
+          "district": "13"
+        },
+        "sldl": {
+          "geoid": "15025",
+          "name": "State House District 25",
+          "district": "25"
+        }
+      },
+      "disagreement": [
+        "state_house"
+      ]
+    },
+    "96814": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15012",
+        "name": "State Senate District 12",
+        "district": "12"
+      },
+      "sldl": {
+        "geoid": "15025",
+        "name": "State House District 25",
+        "district": "25"
+      }
+    },
+    "96815": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15012",
+        "name": "State Senate District 12",
+        "district": "12"
+      },
+      "sldl": {
+        "geoid": "15024",
+        "name": "State House District 24",
+        "district": "24"
+      }
+    },
+    "96816": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15010",
+        "name": "State Senate District 10",
+        "district": "10"
+      },
+      "sldl": {
+        "geoid": "15021",
+        "name": "State House District 21",
+        "district": "21"
+      }
+    },
+    "96817": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15013",
+        "name": "State Senate District 13",
+        "district": "13"
+      },
+      "sldl": {
+        "geoid": "15027",
+        "name": "State House District 27",
+        "district": "27"
+      }
+    },
+    "96818": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15015",
+        "name": "State Senate District 15",
+        "district": "15"
+      },
+      "sldl": {
+        "geoid": "15030",
+        "name": "State House District 30",
+        "district": "30"
+      }
+    },
+    "96819": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15014",
+        "name": "State Senate District 14",
+        "district": "14"
+      },
+      "sldl": {
+        "geoid": "15032",
+        "name": "State House District 32",
+        "district": "32"
+      }
+    },
+    "96820": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15015",
+        "name": "State Senate District 15",
+        "district": "15"
+      },
+      "sldl": {
+        "geoid": "15030",
+        "name": "State House District 30",
+        "district": "30"
+      }
+    },
+    "96821": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15009",
+        "name": "State Senate District 9",
+        "district": "09"
+      },
+      "sldl": {
+        "geoid": "15019",
+        "name": "State House District 19",
+        "district": "19"
+      }
+    },
+    "96822": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15011",
+        "name": "State Senate District 11",
+        "district": "11"
+      },
+      "sldl": {
+        "geoid": "15022",
+        "name": "State House District 22",
+        "district": "22"
+      }
+    },
+    "96825": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15025",
+        "name": "State Senate District 25",
+        "district": "25"
+      },
+      "sldl": {
+        "geoid": "15018",
+        "name": "State House District 18",
+        "district": "18"
+      }
+    },
+    "96826": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15010",
+        "name": "State Senate District 10",
+        "district": "10"
+      },
+      "sldl": {
+        "geoid": "15023",
+        "name": "State House District 23",
+        "district": "23"
+      }
+    },
+    "96848": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15011",
+        "name": "State Senate District 11",
+        "district": "11"
+      },
+      "sldl": {
+        "geoid": "15022",
+        "name": "State House District 22",
+        "district": "22"
+      }
+    },
+    "96850": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15012",
+        "name": "State Senate District 12",
+        "district": "12"
+      },
+      "sldl": {
+        "geoid": "15025",
+        "name": "State House District 25",
+        "district": "25"
+      }
+    },
+    "96853": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15015",
+        "name": "State Senate District 15",
+        "district": "15"
+      },
+      "sldl": {
+        "geoid": "15030",
+        "name": "State House District 30",
+        "district": "30"
+      }
+    },
+    "96857": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15023",
+        "name": "State Senate District 23",
+        "district": "23"
+      },
+      "sldl": {
+        "geoid": "15046",
+        "name": "State House District 46",
+        "district": "46"
+      }
+    },
+    "96858": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15014",
+        "name": "State Senate District 14",
+        "district": "14"
+      },
+      "sldl": {
+        "geoid": "15032",
+        "name": "State House District 32",
+        "district": "32"
+      }
+    },
+    "96859": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15014",
+        "name": "State Senate District 14",
+        "district": "14"
+      },
+      "sldl": {
+        "geoid": "15032",
+        "name": "State House District 32",
+        "district": "32"
+      }
+    },
+    "96860": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15015",
+        "name": "State Senate District 15",
+        "district": "15"
+      },
+      "sldl": {
+        "geoid": "15031",
+        "name": "State House District 31",
+        "district": "31"
+      }
+    },
+    "96863": {
+      "island": "Oʻahu",
+      "sldu": {
+        "geoid": "15024",
+        "name": "State Senate District 24",
+        "district": "24"
+      },
+      "sldl": {
+        "geoid": "15050",
+        "name": "State House District 50",
+        "district": "50"
+      }
+    }
+  },
+  "islands": {
+    "Oʻahu": {
+      "state": "HI",
+      "cds": [
+        "01",
+        "02"
+      ],
+      "split": true,
+      "note": "Oʻahu includes both HI-01 (urban Honolulu) and HI-02. Enter a ZIP for the district that covers your address.",
+      "counties": [
+        "Honolulu County"
+      ]
+    },
+    "Maui": {
+      "state": "HI",
+      "cds": [
+        "02"
+      ],
+      "split": false,
+      "counties": [
+        "Maui County"
+      ]
+    },
+    "Molokaʻi": {
+      "state": "HI",
+      "cds": [
+        "02"
+      ],
+      "split": false,
+      "counties": [
+        "Maui County"
+      ]
+    },
+    "Lānaʻi": {
+      "state": "HI",
+      "cds": [
+        "02"
+      ],
+      "split": false,
+      "counties": [
+        "Maui County"
+      ]
+    },
+    "Kauaʻi": {
+      "state": "HI",
+      "cds": [
+        "02"
+      ],
+      "split": false,
+      "counties": [
+        "Kauaʻi County"
+      ]
+    },
+    "Hawaiʻi Island": {
+      "state": "HI",
+      "cds": [
+        "02"
+      ],
+      "split": false,
+      "counties": [
+        "Hawaiʻi County"
+      ]
+    }
+  },
+  "state_filings": {
+    "wired": true,
+    "csc_public": "https://csc.hawaii.gov/CFSPublic/",
+    "csc_searchable": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
+    "donors": {
+      "status": "linked",
+      "reason": "Hawaii CSC publishes Schedule A on the Candidate Filing System. This site links to those official filings rather than restating contributor names that were not copied from a retrieved extract."
+    }
+  }
+}

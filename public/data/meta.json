@@ -1,0 +1,94 @@
+{
+  "product": "We The People",
+  "user_agent": "WeThePeople-CivicBot/1.0",
+  "generated_at": "2026-08-27T21:45:46Z",
+  "general_election_date": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/cd-sld/tab20_cd11920_zcta520_natl.txt",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Census 119th Congressional District to 2020 ZCTA relationship file."
+    },
+    {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Census 2020 ZCTA to county relationship file."
+    },
+    {
+      "url": "https://elections.hawaii.gov/wp-content/results/2026%20Primary/summary.txt",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Hawaii Office of Elections certified 2026 Primary statewide summary."
+    },
+    {
+      "url": "https://elections.hawaii.gov/election-results/",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Hawaii Office of Elections results index (2026 Primary certified reports)."
+    },
+    {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Census 2024 ZCTA national gazetteer (internal points)."
+    },
+    {
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Census Geocoder Current vintage: 2024 state legislative districts at ZCTA internal points."
+    },
+    {
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Census Geocoder address lookup for 415 S Beretania St, Honolulu, HI 96813 (Hawaii State Capitol)."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "FEC candidate master file for the 2025–2026 cycle (House and Senate, election year 2026)."
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "U.S. House Clerk MemberData.xml (119th Congress)."
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "U.S. Senate senators contact XML."
+    },
+    {
+      "url": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "FEC_API_KEY not set. Federal Schedule A $200+ donor names are not shown (honest-empty)."
+    },
+    {
+      "url": "https://www.fec.gov/data/receipts/individual-contributions/",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "FEC public individual contribution search (Schedule A)."
+    },
+    {
+      "url": "https://csc.hawaii.gov/CFSPublic/",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Hawaii Campaign Spending Commission Candidate Filing System public site."
+    },
+    {
+      "url": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Hawaii CSC searchable candidate committee data (Schedule A–F). State donor rows are linked, not scraped."
+    },
+    {
+      "url": "https://elections.hawaii.gov/candidates/candidate-reports/",
+      "retrieved_at": "2026-08-27T21:45:46Z",
+      "note": "Hawaii Office of Elections candidate reports page."
+    }
+  ],
+  "fec_api_key_present": false,
+  "donor_policy": "FEC_API_KEY not set. Federal Schedule A $200+ donor names are not shown (honest-empty).",
+  "rules": [
+    "Official and primary sources only.",
+    "No Ballotpedia or BallotReady scrape.",
+    "No scores.",
+    "Every fact has source URL + retrieved_at.",
+    "If sources disagree, show both and flag.",
+    "Never invent votes or donor names.",
+    "Lookup is always free."
+  ]
+}

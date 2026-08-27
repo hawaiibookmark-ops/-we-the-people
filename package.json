@@ -1,0 +1,24 @@
+{
+  "name": "we-the-people",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Nonpartisan voter hub. Official sources only.",
+  "scripts": {
+    "data": "python3 scripts/build_data.py",
+    "verify": "python3 scripts/verify_data.py",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "typescript": "^5.8.3"
+  }
+}

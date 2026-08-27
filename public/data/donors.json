@@ -1,0 +1,7 @@
+{
+  "fec_api_key_present": false,
+  "policy": "FEC_API_KEY not set. Federal Schedule A $200+ donor names are not shown (honest-empty).",
+  "by_candidate": {},
+  "retrieved_at": "2026-08-27T21:45:46Z",
+  "source": "https://api.open.fec.gov/v1/schedules/schedule_a/"
+}
