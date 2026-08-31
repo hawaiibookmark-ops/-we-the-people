@@ -93,6 +93,31 @@
       "url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
       "retrieved_at": "2026-08-31T14:42:24Z",
       "note": "Hawaii CSC SODA Schedule A (jexd-xbcg), election_period contains 2026. Street addresses omitted from the public extract."
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-08-31T15:13:49Z",
+      "note": "House Clerk EVS 2026 roll-call index. Case and Tokuda votes from official roll XML (example roll283.xml)."
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/roll283.xml",
+      "retrieved_at": "2026-08-31T15:13:49Z",
+      "note": "Example House Clerk EVS roll-call XML."
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-08-31T15:13:49Z",
+      "note": "Senate LIS 119th Congress 2nd session vote menu for Hirono and Schatz."
+    },
+    {
+      "url": "https://data.capitol.hawaii.gov/session/measure_indiv.aspx",
+      "retrieved_at": "2026-08-31T15:13:49Z",
+      "note": "Hawaii official measure status pages (data.capitol.hawaii.gov host; capitol.hawaii.gov 403 with CivicBot). Named floor votes only."
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/",
+      "retrieved_at": "2026-08-31T15:13:49Z",
+      "note": "Hawaii Legislature landing. Measure status retrieved via official data.capitol.hawaii.gov after capitol.hawaii.gov 403."
     }
   ],
   "fec_api_key_present": false,
@@ -142,6 +167,53 @@
           "2024-2026"
         ]
       }
+    }
+  },
+  "vote_extracts": {
+    "congress": {
+      "path": "/data/congress-votes.json",
+      "retrieved_at": "2026-08-31T15:13:49Z",
+      "row_count": 200,
+      "by_incumbent": {
+        "C001055": 50,
+        "T000487": 50,
+        "H001042": 50,
+        "S001194": 50
+      },
+      "disagreement_flags": []
+    },
+    "hawaii": {
+      "path": "/data/hawaii-votes.json",
+      "retrieved_at": "2026-08-31T15:13:49Z",
+      "row_count": 8433,
+      "counts": {
+        "named_votes_floor": 8433,
+        "named_votes_including_committee": 48369,
+        "frozen_named_votes": 1241,
+        "measures_with_floor_named_votes": 1223,
+        "pages_cached": 6127
+      },
+      "disagreement_flags": [
+        {
+          "field": "named_votes",
+          "frozen": 1241,
+          "this_extract": 8433,
+          "committee_named_also_seen": 39602,
+          "note": "This extract keeps floor named votes only (aye with reservations, no, excused). Unnamed unanimous/majority floor Ayes are not expanded. Fully named committee rolls were retrieved but not shipped in the public file so they are not mistaken for invented floor Ayes. Both counts are recorded."
+        },
+        {
+          "field": "house_sitting_names_seen",
+          "frozen": 51,
+          "this_extract": 51,
+          "note": "Distinct House names in floor named official status text. Not forced to 51."
+        },
+        {
+          "field": "senate_sitting_names_seen",
+          "frozen": 25,
+          "this_extract": 24,
+          "note": "Distinct Senate names in floor named official status text. A sitting senator with only unnamed majority Ayes is not invented."
+        }
+      ]
     }
   }
 }

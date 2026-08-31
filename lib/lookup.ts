@@ -46,7 +46,7 @@ type Bundle = {
   >;
   incumbents: {
     house: Record<string, IncumbentHouse>;
-    senate: Record<string, { name: string; votes_url: string; member_url: string; senate_class?: string; party?: string }[]>;
+    senate: Record<string, { name: string; bioguide?: string; votes_url: string; member_url: string; senate_class?: string; party?: string }[]>;
   };
   donors: {
     fec_api_key_present: boolean;
@@ -74,6 +74,51 @@ type Bundle = {
     retrieved_at: string;
     source_url?: string;
     source?: string;
+  };
+  congressVotes: {
+    retrieved_at: string;
+    source_url: string;
+    row_count: number;
+    by_incumbent: Record<
+      string,
+      {
+        incumbent_name: string;
+        item_count_all: number;
+        items: {
+          vote_date?: string;
+          question?: string;
+          measure?: string;
+          vote_cast: string;
+          vote_desc?: string;
+          result?: string;
+          source_url: string;
+          retrieved_at: string;
+          roll_call_number?: number;
+        }[];
+      }
+    >;
+  };
+  hawaiiVotes: {
+    retrieved_at: string;
+    source_url: string;
+    row_count: number;
+    by_member: Record<
+      string,
+      {
+        incumbent_name: string;
+        item_count_all: number;
+        items: {
+          vote_date?: string;
+          question?: string;
+          measure?: string;
+          vote_cast: string;
+          vote_desc?: string;
+          source_url: string;
+          retrieved_at: string;
+          chamber?: string;
+        }[];
+      }
+    >;
   };
   cscDonors: {
     retrieved_at: string;
@@ -121,7 +166,7 @@ async function loadJson<T>(file: string): Promise<T> {
 
 export async function loadBundle(): Promise<Bundle> {
   if (cache) return cache;
-  const [zips, hawaii, federal, incumbents, donors, meta, cscDonors] = await Promise.all([
+  const [zips, hawaii, federal, incumbents, donors, meta, cscDonors, congressVotes, hawaiiVotes] = await Promise.all([
     loadJson<Bundle["zips"]>("zips.json"),
     loadJson<Bundle["hawaii"]>("hawaii.json"),
     loadJson<Bundle["federal"]>("federal.json"),
@@ -129,8 +174,10 @@ export async function loadBundle(): Promise<Bundle> {
     loadJson<Bundle["donors"]>("donors.json"),
     loadJson<Bundle["meta"]>("meta.json"),
     loadJson<Bundle["cscDonors"]>("csc-donors.json"),
+    loadJson<Bundle["congressVotes"]>("congress-votes.json"),
+    loadJson<Bundle["hawaiiVotes"]>("hawaii-votes.json"),
   ]);
-  cache = { zips, hawaii, federal, incumbents, donors, meta, cscDonors };
+  cache = { zips, hawaii, federal, incumbents, donors, meta, cscDonors, congressVotes, hawaiiVotes };
   return cache;
 }
 
@@ -178,6 +225,14 @@ export type CandidateCard = {
   fecId?: string;
   fecUrl?: string;
   voteLinks?: { label: string; url: string }[];
+  votes: {
+    status: "ok" | "empty";
+    reason: string;
+    items: { date?: string; measure?: string; question?: string; voteCast: string; sourceUrl: string }[];
+    sourceUrl: string;
+    retrievedAt?: string;
+    itemCountAll?: number;
+  };
   donors: {
     status: "ok" | "empty" | "linked" | "unmatched";
     reason: string;
@@ -490,13 +545,108 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
     };
   }
 
+  function matchHiVoteMember(candidateName: string) {
+    const members = bundle.hawaiiVotes?.by_member || {};
+    const keys = Object.keys(members);
+    const exact = keys.filter((k) => k.toLowerCase() === candidateName.toLowerCase());
+    if (exact.length === 1) return members[exact[0]];
+    const last = candidateName.split(",")[0]?.replace(/[^A-Za-z]/g, "") || "";
+    const lastHits = keys.filter((k) => k.replace(/[^A-Za-z]/g, "").toLowerCase() === last.toLowerCase());
+    if (lastHits.length === 1) return members[lastHits[0]];
+    if (lastHits.length > 1) return null;
+    const loose = keys.filter((k) => lastNameAndToken(k, candidateName) || lastNameAndToken(candidateName, k));
+    if (loose.length === 1) return members[loose[0]];
+    return null;
+  }
+
+  function votesFor(opts: {
+    bioguide?: string;
+    isHiState?: boolean;
+    candidateName?: string;
+  }): CandidateCard["votes"] {
+    if (opts.isHiState) {
+      const hv = bundle.hawaiiVotes;
+      const sourceUrl = hv?.source_url || "https://data.capitol.hawaii.gov/session/measure_indiv.aspx";
+      if (!opts.candidateName) {
+        return {
+          status: "empty",
+          reason: "No nominee name on this row. Hawaii votes are not invented.",
+          items: [],
+          sourceUrl,
+          retrievedAt: hv?.retrieved_at,
+        };
+      }
+      const hit = matchHiVoteMember(opts.candidateName);
+      if (!hit?.items?.length) {
+        return {
+          status: "empty",
+          reason: `No conservative named-vote match on official 2026 measure status pages for “${opts.candidateName}”. Unnamed unanimous tallies are not expanded into Ayes.`,
+          items: [],
+          sourceUrl,
+          retrievedAt: hv?.retrieved_at,
+        };
+      }
+      return {
+        status: "ok",
+        reason: "Named votes from official Hawaii measure status pages. Unnamed unanimous tallies are not expanded.",
+        items: hit.items.slice(0, 12).map((i) => ({
+          date: i.vote_date,
+          measure: i.measure,
+          question: i.question,
+          voteCast: i.vote_cast,
+          sourceUrl: i.source_url,
+        })),
+        sourceUrl: hit.items[0]?.source_url || sourceUrl,
+        retrievedAt: hv?.retrieved_at,
+        itemCountAll: hit.item_count_all,
+      };
+    }
+    const cv = bundle.congressVotes;
+    const sourceUrl = cv?.source_url || "https://clerk.house.gov/evs/2026/index.asp";
+    if (!opts.bioguide || !cv?.by_incumbent?.[opts.bioguide]) {
+      return {
+        status: "empty",
+        reason: "No official House Clerk EVS / Senate LIS roll-call extract for this name. Votes are not invented.",
+        items: [],
+        sourceUrl,
+        retrievedAt: cv?.retrieved_at,
+      };
+    }
+    const row = cv.by_incumbent[opts.bioguide];
+    return {
+      status: "ok",
+      reason: "Official House Clerk EVS / Senate LIS roll-call extract. vote_cast is the exact official text.",
+      items: (row.items || []).slice(0, 12).map((i) => ({
+        date: i.vote_date,
+        measure: i.measure,
+        question: i.question,
+        voteCast: i.vote_cast,
+        sourceUrl: i.source_url,
+      })),
+      sourceUrl: row.items[0]?.source_url || sourceUrl,
+      retrievedAt: cv.retrieved_at,
+      itemCountAll: row.item_count_all,
+    };
+  }
+
+  function houseBioguide(stateCode: string, dist: string, candidateName: string) {
+    const inc = bundle.incumbents.house[`${stateCode}-${padDist(dist)}`];
+    if (inc && namesMatch(inc.name, candidateName)) return inc.bioguide;
+    return undefined;
+  }
+
+  function senateBioguide(stateCode: string, candidateName: string) {
+    const hit = (bundle.incumbents.senate[stateCode] || []).find((m) => namesMatch(m.name, candidateName));
+    return hit?.bioguide;
+  }
+
   function voteLinks(stateCode: string, dist: string, candidateName: string, isIncumbent: boolean) {
     if (!isIncumbent) return [];
     const key = `${stateCode}-${padDist(dist)}`;
     const inc = bundle.incumbents.house[key];
     if (inc && namesMatch(inc.name, candidateName)) {
       return [
-        { label: "Congress.gov roll-call votes", url: inc.votes_url },
+        { label: "House Clerk EVS 2026 rolls", url: "https://clerk.house.gov/evs/2026/index.asp" },
         { label: "House Clerk member page", url: inc.clerk_url },
       ];
     }
@@ -506,7 +656,12 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
   function senateVoteLinks(stateCode: string, candidateName: string) {
     const members = bundle.incumbents.senate[stateCode] || [];
     const hit = members.find((m) => namesMatch(m.name, candidateName));
-    if (hit) return [{ label: "Congress.gov roll-call votes", url: hit.votes_url }];
+    if (hit) {
+      return [
+        { label: "Senate LIS roll-call votes", url: "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml" },
+        { label: "Congress.gov member votes", url: hit.votes_url },
+      ];
+    }
     return [];
   }
 
@@ -534,6 +689,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           fecId: fecHit?.candidate_id,
           fecUrl: fecHit?.fec_url,
           voteLinks: voteLinks(state, dist, n.name || "", isInc),
+          votes: votesFor({ bioguide: houseBioguide(state, dist, n.name || ""), candidateName: n.name || undefined }),
           donors: donorFor(fecHit?.candidate_id),
           sources: [
             { url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary (party nominee)" },
@@ -564,6 +720,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             fecId: f.candidate_id,
             fecUrl: f.fec_url,
             voteLinks: [],
+            votes: votesFor({ bioguide: houseBioguide(state, dist, f.name), candidateName: f.name }),
             donors: donorFor(f.candidate_id),
             sources: [{ url: f.fec_url, retrieved_at: retrieved, label: "FEC 2026 candidate filing (not OE nominee)" }],
           });
@@ -590,6 +747,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           fecId: f.candidate_id,
           fecUrl: f.fec_url,
           voteLinks: voteLinks(state, dist, f.name, isInc),
+          votes: votesFor({ bioguide: houseBioguide(state, dist, f.name), candidateName: f.name }),
           donors: donorFor(f.candidate_id),
           sources: [{ url: f.fec_url, retrieved_at: retrieved, label: "FEC 2026 House candidate filing" }],
         });
@@ -617,6 +775,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
         fecId: f.candidate_id,
         fecUrl: f.fec_url,
         voteLinks: senateVoteLinks(state, f.name),
+        votes: votesFor({ bioguide: senateBioguide(state, f.name), candidateName: f.name }),
         donors: donorFor(f.candidate_id),
         sources: [{ url: f.fec_url, retrieved_at: retrieved, label: "FEC 2026 Senate candidate filing" }],
       });
@@ -642,6 +801,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           fecId: f.candidate_id,
           fecUrl: f.fec_url,
           voteLinks: [],
+          votes: votesFor({ bioguide: senateBioguide(state, f.name), candidateName: f.name }),
           donors: donorFor(f.candidate_id),
           sources: [{ url: f.fec_url, retrieved_at: retrieved, label: "FEC 2026 Senate filing" }],
         })),
@@ -670,6 +830,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           primaryVotes: n.primary_votes ?? undefined,
           list: "general_nominee" as const,
           voteLinks: [],
+          votes: votesFor({ isHiState: true, candidateName: n.name || undefined }),
           donors: donorFor(undefined, true, n.name || undefined),
           sources: [{ url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" }],
         })),
@@ -692,6 +853,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             district: dist,
             primaryVotes: n.primary_votes ?? undefined,
             list: "general_nominee" as const,
+            votes: votesFor({ isHiState: true, candidateName: n.name || undefined }),
             donors: donorFor(undefined, true, n.name || undefined),
             sources: [{ url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" }],
           })),
@@ -717,6 +879,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             district: dist,
             primaryVotes: n.primary_votes ?? undefined,
             list: "general_nominee" as const,
+            votes: votesFor({ isHiState: true, candidateName: n.name || undefined }),
             donors: donorFor(undefined, true, n.name || undefined),
             sources: [{ url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" }],
           })),

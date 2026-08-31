@@ -139,6 +139,62 @@ if not csc.get("retrieved_at") or not csc.get("source_url"):
 if "hicscdata.hawaii.gov" not in (csc.get("source_url") or ""):
     errors.append("csc source_url should be official SODA")
 
+congress = json.loads((ROOT / "congress-votes.json").read_text())
+hivotes = json.loads((ROOT / "hawaii-votes.json").read_text())
+if congress.get("row_count") != 200:
+    errors.append(f"congress-votes row_count {congress.get('row_count')} != 200")
+byc = congress.get("by_incumbent") or {}
+for bio, n in {"C001055": 50, "T000487": 50, "H001042": 50, "S001194": 50}.items():
+    got = (byc.get(bio) or {}).get("item_count_all")
+    if got != n:
+        errors.append(f"{bio} congress votes {got} != {n}")
+case_items = (byc.get("C001055") or {}).get("items") or []
+if not case_items or not case_items[0].get("vote_cast") or not case_items[0].get("source_url") or not case_items[0].get("retrieved_at"):
+    errors.append("Case vote missing official vote_cast/source_url/retrieved_at")
+def _urls(obj):
+    out = []
+    if isinstance(obj, dict):
+        if obj.get("source_url"):
+            out.append(str(obj.get("source_url")))
+        for v in obj.values():
+            out.extend(_urls(v))
+    elif isinstance(obj, list):
+        for v in obj:
+            out.extend(_urls(v))
+    return out
+
+if any("ballotpedia" in u.lower() for u in _urls(congress) + _urls(hivotes)):
+    errors.append("vote extracts must not use Ballotpedia")
+if hivotes.get("row_count", 0) < 1 or not hivotes.get("by_member"):
+    errors.append("hawaii-votes.json must not be empty")
+if hivotes.get("unnamed_tallies_unexpanded") is not True:
+    errors.append("hawaii-votes must keep unnamed tallies unexpanded")
+iw = None
+for rec in (hivotes.get("by_member") or {}).values():
+    if rec.get("incumbent_name") == "Iwamoto":
+        iw = rec
+        break
+if not iw:
+    errors.append("Iwamoto missing from hawaii-votes")
+else:
+    hit = [
+        i
+        for i in iw.get("items") or []
+        if i.get("measure") == "HB389" and "2026-04-23" in (i.get("vote_date") or "").replace("/", "-")
+        or (i.get("measure") == "HB389" and i.get("vote_date") == "4/23/2026")
+    ]
+    if not any(i.get("vote_cast") == "Aye with reservations" for i in hit):
+        errors.append(f"Iwamoto HB389 2026-04-23 aye with reservations missing: {hit[:2]}")
+    for i in (iw.get("items") or [])[:1]:
+        if not i.get("source_url") or not i.get("retrieved_at"):
+            errors.append("Hawaii vote missing source_url/retrieved_at")
+if (hivotes.get("sitting") or {}).get("house_names_seen") != 51:
+    errors.append(f"house names seen {hivotes.get('sitting')} expected 51")
+if hivotes.get("row_count") != 1241:
+    flags = hivotes.get("disagreement_flags") or []
+    if not any(f.get("field") == "named_votes" for f in flags):
+        errors.append("hawaii named-vote count disagrees with 1241 freeze and is unflagged")
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -154,4 +210,10 @@ print(
     csc.get("row_count"),
     "unmatched",
     len(unmatched),
+)
+print(
+    "OK votes congress",
+    congress.get("row_count"),
+    "hawaii floor named",
+    hivotes.get("row_count"),
 )

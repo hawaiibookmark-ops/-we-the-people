@@ -27,6 +27,8 @@ Test lookups: `96813`, `90210`, `82001`.
 
 Federal Schedule A $200+ names are committed in `public/data/donors.json` from official FEC bulk (`indiv26.zip` + `cn26`/`ccl26`). OpenFEC and `DEMO_KEY` are not used. Hawaiʻi CSC names are committed in `public/data/csc-donors.json` from the official SODA resource. Street addresses are omitted. Names are never invented. Donor lists are not sold.
 
+Incumbent votes are committed in `public/data/congress-votes.json` (House Clerk EVS + Senate LIS) and `public/data/hawaii-votes.json` (named votes on official measure status pages). Votes are never invented. Unnamed unanimous floor tallies are not expanded into per-member Ayes. No Ballotpedia. No scores. Rebuild with `python3 scripts/build_votes.py`.
+
 `python3 scripts/build_data.py` refreshes Census / OE / FEC *candidate* extracts and **preserves** the committed donor files. Do not re-download the 2GB FEC individual file on GitHub Pages.
 
 ## Deploy (GitHub Pages, $0)

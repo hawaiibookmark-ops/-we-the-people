@@ -92,19 +92,59 @@ export function ResultsView({ result }: { result: LookupResult }) {
                       : "FEC filing"}
                 </span>
               </div>
-              {c.voteLinks && c.voteLinks.length > 0 && (
+              <div className="votes">
                 <p className="src">
-                  Incumbent votes (official links, not restated):{" "}
-                  {c.voteLinks.map((v, vi) => (
-                    <span key={v.url}>
-                      {vi > 0 ? " · " : ""}
-                      <a href={v.url} rel="noreferrer">
-                        {v.label}
-                      </a>
-                    </span>
-                  ))}
+                  Votes
+                  {c.votes.itemCountAll != null
+                    ? ` · ${c.votes.itemCountAll.toLocaleString()} official named roll${c.votes.itemCountAll === 1 ? "" : "s"}`
+                    : ""}
+                  {c.votes.status === "ok" &&
+                  c.votes.itemCountAll != null &&
+                  c.votes.itemCountAll > c.votes.items.length
+                    ? ` · latest ${c.votes.items.length} shown`
+                    : ""}
                 </p>
-              )}
+                {c.votes.status === "ok" && c.votes.items.length > 0 ? (
+                  <ul className="donor-list">
+                    {c.votes.items.map((v, vi) => (
+                      <li key={`${v.measure || ""}-${v.date || ""}-${vi}`}>
+                        {v.sourceUrl ? (
+                          <a href={v.sourceUrl} rel="noreferrer">
+                            {v.measure || "Official roll"}
+                          </a>
+                        ) : (
+                          v.measure || "Official roll"
+                        )}
+                        {v.voteCast ? ` · ${v.voteCast}` : ""}
+                        {v.date ? ` · ${v.date}` : ""}
+                        {v.question ? ` · ${v.question}` : ""}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="src">{c.votes.reason}</p>
+                )}
+                <p className="src">
+                  {c.voteLinks && c.voteLinks.length > 0 && (
+                    <>
+                      {c.voteLinks.map((v, vi) => (
+                        <span key={v.url}>
+                          {vi > 0 ? " · " : ""}
+                          <a href={v.url} rel="noreferrer">
+                            {v.label}
+                          </a>
+                        </span>
+                      ))}
+                      {" · "}
+                    </>
+                  )}
+                  <a href={c.votes.sourceUrl} rel="noreferrer">
+                    Source
+                  </a>
+                  {c.votes.retrievedAt ? ` · retrieved ${c.votes.retrievedAt}` : ""}
+                  {" · Official text only. Votes are not invented. No scores."}
+                </p>
+              </div>
               <div className="donors">
                 <p className="src">
                   Donors

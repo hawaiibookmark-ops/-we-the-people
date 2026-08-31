@@ -20,7 +20,8 @@ export default function HomePage() {
             ZIP, address, or island lookup. Federal races from the Office of Elections certified
             2026 primary plus FEC filings. State nominees from that same certified summary. Donor
             names from official FEC bulk Schedule A ($200+) and the Hawaii Campaign Spending
-            Commission SODA extract. Names are never invented. Donor lists are not sold.
+            Commission SODA extract. Incumbent votes from House Clerk EVS, Senate LIS, and named
+            Hawaii measure-status rolls. Names and votes are never invented. Donor lists are not sold.
           </p>
         </article>
         <article className="note">
