@@ -19,8 +19,8 @@ export default function HomePage() {
           <p className="muted">
             ZIP, address, or island lookup. Federal races from the Office of Elections certified
             2026 primary plus FEC filings. State nominees from that same certified summary. Donor
-            names from FEC Schedule A ($200+) when an API key is present; otherwise honest-empty
-            with a link. Hawaiʻi Campaign Spending Commission filings are linked, not scraped.
+            names from official FEC bulk Schedule A ($200+) and the Hawaii Campaign Spending
+            Commission SODA extract. Names are never invented. Donor lists are not sold.
           </p>
         </article>
         <article className="note">

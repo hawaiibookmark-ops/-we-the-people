@@ -40,9 +40,10 @@ export default function AboutPage() {
           lists are shown and flagged.
         </p>
         <p>
-          Without <code>FEC_API_KEY</code>, federal Schedule A $200+ donor names stay empty and
-          the FEC search is linked instead. Hawaiʻi state donors are linked to the Campaign
-          Spending Commission public filing system.
+          Federal Schedule A $200+ names come from the official FEC bulk individual
+          contributions file, not OpenFEC. Hawaiʻi state donor names come from the Campaign
+          Spending Commission SODA extract. Street addresses are omitted. Matches to Office of
+          Elections nominees are not forced. Donor lists are not sold.
         </p>
       </article>
       <article className="card" style={{ marginTop: 16 }}>

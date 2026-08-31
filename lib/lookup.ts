@@ -21,7 +21,16 @@ type Bundle = {
       wired: boolean;
       csc_public: string;
       csc_searchable: string;
-      donors: { status: string; reason: string };
+      donors: {
+        status: string;
+        reason?: string;
+        path?: string;
+        source_url?: string;
+        retrieved_at?: string;
+        counts?: Record<string, unknown>;
+        cfs_public?: string;
+        csc_searchable?: string;
+      };
     };
   };
   federal: Record<
@@ -44,10 +53,55 @@ type Bundle = {
     policy: string;
     by_candidate: Record<
       string,
-      { status: string; reason?: string | null; items: { contributor_name: string; amount: number; date?: string; fec_url?: string }[] }
+      {
+        status: string;
+        reason?: string | null;
+        item_count_all?: number;
+        items: {
+          contributor_name: string;
+          amount: number;
+          date?: string;
+          city?: string;
+          state?: string;
+          employer?: string;
+          image_number?: string;
+          fec_url?: string;
+        }[];
+        retrieved_at?: string;
+        source_url?: string;
+      }
     >;
     retrieved_at: string;
-    source: string;
+    source_url?: string;
+    source?: string;
+  };
+  cscDonors: {
+    retrieved_at: string;
+    source_url: string;
+    policy: string;
+    cfs_public_url?: string;
+    landing_url?: string;
+    by_candidate: Record<
+      string,
+      {
+        official_name: string;
+        reg_no: string;
+        status: string;
+        matched_site_nominee?: string | null;
+        reason?: string | null;
+        item_count_all: number;
+        items: {
+          contributor_name: string;
+          amount: number;
+          date?: string;
+          city?: string;
+          state?: string;
+          employer?: string | null;
+          retrieved_at?: string;
+          source_url?: string;
+        }[];
+      }
+    >;
   };
   meta: {
     generated_at: string;
@@ -67,15 +121,16 @@ async function loadJson<T>(file: string): Promise<T> {
 
 export async function loadBundle(): Promise<Bundle> {
   if (cache) return cache;
-  const [zips, hawaii, federal, incumbents, donors, meta] = await Promise.all([
+  const [zips, hawaii, federal, incumbents, donors, meta, cscDonors] = await Promise.all([
     loadJson<Bundle["zips"]>("zips.json"),
     loadJson<Bundle["hawaii"]>("hawaii.json"),
     loadJson<Bundle["federal"]>("federal.json"),
     loadJson<Bundle["incumbents"]>("incumbents.json"),
     loadJson<Bundle["donors"]>("donors.json"),
     loadJson<Bundle["meta"]>("meta.json"),
+    loadJson<Bundle["cscDonors"]>("csc-donors.json"),
   ]);
-  cache = { zips, hawaii, federal, incumbents, donors, meta };
+  cache = { zips, hawaii, federal, incumbents, donors, meta, cscDonors };
   return cache;
 }
 
@@ -124,10 +179,12 @@ export type CandidateCard = {
   fecUrl?: string;
   voteLinks?: { label: string; url: string }[];
   donors: {
-    status: "ok" | "empty" | "linked";
+    status: "ok" | "empty" | "linked" | "unmatched";
     reason: string;
-    items: { name: string; amount: number; date?: string }[];
+    items: { name: string; amount: number; date?: string; city?: string; state?: string; fecUrl?: string }[];
     sourceUrl: string;
+    retrievedAt?: string;
+    itemCountAll?: number;
   };
   sources: { url: string; retrieved_at: string; label: string }[];
 };
@@ -162,6 +219,28 @@ function officeHasDist(office: string, dist: string) {
 function padDist(d: string) {
   if (d === "00" || d.toLowerCase() === "al") return "00";
   return d.replace(/\D/g, "").padStart(2, "0") || d;
+}
+
+function lastNameAndToken(a: string, b: string) {
+  const last = (s: string) => s.split(",")[0]?.toUpperCase().replace(/[^A-Z]/g, "") || "";
+  const tokens = (s: string) =>
+    new Set(
+      s
+        .toUpperCase()
+        .replace(/[^A-Z ]/g, " ")
+        .split(/\s+/)
+        .filter((t) => t.length > 1),
+    );
+  const lastA = last(a);
+  const lastB = last(b);
+  if (!lastA || lastA !== lastB) return false;
+  const as = tokens(a);
+  const bs = tokens(b);
+  for (const t of as) {
+    if (t === lastA) continue;
+    if (bs.has(t)) return true;
+  }
+  return false;
 }
 
 function namesMatch(a: string, b: string) {
@@ -269,45 +348,145 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
     retrieved_at: retrieved,
   };
 
-  function donorFor(fecId?: string, isHiState?: boolean): CandidateCard["donors"] {
-    if (isHiState) {
+  function cscDonorFor(candidateName?: string): CandidateCard["donors"] {
+    const filings = bundle.hawaii.state_filings;
+    const cfs = filings.csc_public;
+    const csc = bundle.cscDonors;
+    const sourcedUrl = filings.donors.source_url || csc?.source_url || filings.csc_searchable;
+    const retrievedAt = filings.donors.retrieved_at || csc?.retrieved_at;
+    if (!csc || filings.donors.status !== "sourced") {
       return {
         status: "linked",
-        reason: bundle.hawaii.state_filings.donors.reason,
+        reason: filings.donors.reason || "Hawaii CSC filings are linked, not invented.",
         items: [],
-        sourceUrl: bundle.hawaii.state_filings.csc_public,
+        sourceUrl: cfs,
+        retrievedAt,
       };
     }
-    if (!bundle.donors.fec_api_key_present) {
+    if (!candidateName) {
+      return {
+        status: "unmatched",
+        reason:
+          "No Office of Elections nominee name on this row. CSC donor names are not invented or forced onto a blank name.",
+        items: [],
+        sourceUrl: cfs,
+        retrievedAt,
+      };
+    }
+    const rows = Object.values(csc.by_candidate);
+    const tagged = rows.filter((r) => r.matched_site_nominee === candidateName);
+    let hit = tagged.length === 1 ? tagged[0] : null;
+    if (tagged.length > 1) {
+      return {
+        status: "unmatched",
+        reason: `Ambiguous CSC match for ${candidateName}; matches are not forced. Official unmatched names stay in the extract.`,
+        items: [],
+        sourceUrl: sourcedUrl,
+        retrievedAt,
+      };
+    }
+    if (!hit) {
+      const loose = rows.filter(
+        (r) => r.matched_site_nominee && lastNameAndToken(r.matched_site_nominee, candidateName),
+      );
+      if (loose.length === 1) hit = loose[0];
+      else if (loose.length > 1) {
+        return {
+          status: "unmatched",
+          reason: `Ambiguous CSC match for ${candidateName}; matches are not forced.`,
+          items: [],
+          sourceUrl: sourcedUrl,
+          retrievedAt,
+        };
+      }
+    }
+    if (!hit) {
+      return {
+        status: "unmatched",
+        reason: `No conservative CSC name match to “${candidateName}”. Official unmatched CSC names are kept in the extract and are not forced onto site nominees.`,
+        items: [],
+        sourceUrl: cfs,
+        retrievedAt,
+      };
+    }
+    const items = (hit.items || []).map((i) => ({
+      name: i.contributor_name,
+      amount: i.amount,
+      date: i.date,
+      city: i.city,
+      state: i.state,
+    }));
+    if (!items.length) {
       return {
         status: "empty",
-        reason: bundle.donors.policy,
+        reason: hit.reason || `CSC extract has no Schedule A rows for ${hit.official_name} (${hit.reg_no}).`,
         items: [],
-        sourceUrl: "https://www.fec.gov/data/receipts/individual-contributions/",
+        sourceUrl: hit.items?.[0]?.source_url || sourcedUrl,
+        retrievedAt,
+        itemCountAll: hit.item_count_all ?? 0,
       };
     }
+    return {
+      status: "ok",
+      reason: `Hawaii CSC Schedule A (official SODA extract). ${hit.item_count_all} rows for ${hit.official_name} (${hit.reg_no}). Street addresses omitted. Donor lists are not sold.`,
+      items,
+      sourceUrl: items[0] ? sourcedUrl : sourcedUrl,
+      retrievedAt: hit.items[0]?.retrieved_at || retrievedAt,
+      itemCountAll: hit.item_count_all,
+    };
+  }
+
+  function donorFor(fecId?: string, isHiState?: boolean, candidateName?: string): CandidateCard["donors"] {
+    if (isHiState) return cscDonorFor(candidateName);
+    const bulkUrl =
+      bundle.donors.source_url ||
+      bundle.donors.source ||
+      "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip";
     if (!fecId) {
       return {
         status: "empty",
         reason: "No FEC candidate ID matched this name. Donor names are not invented.",
         items: [],
         sourceUrl: "https://www.fec.gov/data/receipts/individual-contributions/",
+        retrievedAt: bundle.donors.retrieved_at,
       };
     }
     const row = bundle.donors.by_candidate[fecId];
-    if (!row || !row.items?.length) {
+    if (!row) {
       return {
         status: "empty",
-        reason: row?.reason || "No Schedule A $200+ individual receipts returned.",
+        reason: "This FEC id is outside the committed HI 2026 Schedule A extract. Donor names are not invented.",
         items: [],
-        sourceUrl: bundle.donors.source,
+        sourceUrl: bulkUrl,
+        retrievedAt: bundle.donors.retrieved_at,
+      };
+    }
+    const items = (row.items || []).map((i) => ({
+      name: i.contributor_name,
+      amount: i.amount,
+      date: i.date,
+      city: i.city,
+      state: i.state,
+      fecUrl: i.fec_url,
+    }));
+    if (!items.length) {
+      return {
+        status: "empty",
+        reason: row.reason || bundle.donors.policy,
+        items: [],
+        sourceUrl: row.source_url || bulkUrl,
+        retrievedAt: row.retrieved_at || bundle.donors.retrieved_at,
+        itemCountAll: row.item_count_all ?? 0,
       };
     }
     return {
       status: "ok",
-      reason: "FEC Schedule A individual receipts of $200+ (as returned by OpenFEC).",
-      items: row.items.map((i) => ({ name: i.contributor_name, amount: i.amount, date: i.date })),
-      sourceUrl: row.items[0]?.fec_url || bundle.donors.source,
+      reason:
+        "FEC bulk Schedule A individual receipts of $200+ (indiv26). MEMO_CD=X skipped. Official names only; donor lists are not sold.",
+      items,
+      sourceUrl: items[0]?.fecUrl || row.source_url || bulkUrl,
+      retrievedAt: row.retrieved_at || bundle.donors.retrieved_at,
+      itemCountAll: row.item_count_all,
     };
   }
 
@@ -491,7 +670,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           primaryVotes: n.primary_votes ?? undefined,
           list: "general_nominee" as const,
           voteLinks: [],
-          donors: donorFor(undefined, true),
+          donors: donorFor(undefined, true, n.name || undefined),
           sources: [{ url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" }],
         })),
       });
@@ -513,7 +692,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             district: dist,
             primaryVotes: n.primary_votes ?? undefined,
             list: "general_nominee" as const,
-            donors: donorFor(undefined, true),
+            donors: donorFor(undefined, true, n.name || undefined),
             sources: [{ url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" }],
           })),
           emptyNote: noms.length ? undefined : "No certified party nominee row found for this Senate district in the 2026 primary summary.",
@@ -538,7 +717,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             district: dist,
             primaryVotes: n.primary_votes ?? undefined,
             list: "general_nominee" as const,
-            donors: donorFor(undefined, true),
+            donors: donorFor(undefined, true, n.name || undefined),
             sources: [{ url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" }],
           })),
           emptyNote: noms.length ? undefined : "No certified party nominee row found for this House district in the 2026 primary summary.",
