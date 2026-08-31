@@ -31,8 +31,9 @@ export default function AboutPage() {
           Hawaiʻi November 3, 2026 nominees come from the Office of Elections certified 2026
           primary summary. Federal finance and out-of-state House/Senate names come from the FEC.
           District geography comes from Census ZCTA relationship files and the Census Geocoder.
-          Incumbent vote <em>links</em> go to Congress.gov and the House Clerk — roll calls are
-          not copied or invented here.
+          Incumbent votes come from official House Clerk EVS XML, Senate LIS roll-call XML, and
+          Hawaii measure status pages. Each vote carries a source URL and <code>retrieved_at</code>.
+          vote_cast is the official text. Unnamed unanimous tallies are not expanded into Ayes.
         </p>
         <p>
           If Census says a ZIP overlaps two congressional districts, both are shown. If FEC

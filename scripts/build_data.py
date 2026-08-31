@@ -830,6 +830,10 @@ def main() -> int:
         )
     if existing_csc:
         print("Preserving committed csc-donors.json (Hawaii CSC SODA extract).", flush=True)
+    if (OUT / "congress-votes.json").exists():
+        print("Preserving committed congress-votes.json (House Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "hawaii-votes.json").exists():
+        print("Preserving committed hawaii-votes.json (named Hawaii measure-status votes).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote", OUT)
     print("ZIPs", len(zips_compact), "HI contests", len(hi_contests), "federal states", len(federal_plain))
