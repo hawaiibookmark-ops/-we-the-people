@@ -16,7 +16,7 @@ Origin (`jeff-gomes/tmp-fa5d24de97533fcc`) remains source of truth. This reposit
 ## Run locally
 
 ```bash
-python3 scripts/build_data.py   # refresh Census / OE / FEC extracts (needs network)
+python3 scripts/verify_data.py
 npm install
 npm run dev
 ```
@@ -25,7 +25,9 @@ Open http://localhost:3000/-we-the-people/ (the app is mounted at the GitHub Pag
 
 Test lookups: `96813`, `90210`, `82001`.
 
-`FEC_API_KEY` is optional. Without it, federal Schedule A $200+ donor names stay honest-empty and link to FEC. Hawaiʻi Campaign Spending Commission donors are linked to [CSC Public](https://csc.hawaii.gov/CFSPublic/), not copied.
+Federal Schedule A $200+ names are committed in `public/data/donors.json` from official FEC bulk (`indiv26.zip` + `cn26`/`ccl26`). OpenFEC and `DEMO_KEY` are not used. Hawaiʻi CSC names are committed in `public/data/csc-donors.json` from the official SODA resource. Street addresses are omitted. Names are never invented. Donor lists are not sold.
+
+`python3 scripts/build_data.py` refreshes Census / OE / FEC *candidate* extracts and **preserves** the committed donor files. Do not re-download the 2GB FEC individual file on GitHub Pages.
 
 ## Deploy (GitHub Pages, $0)
 

@@ -105,18 +105,48 @@ export function ResultsView({ result }: { result: LookupResult }) {
                   ))}
                 </p>
               )}
-              <p className="src">
-                Donors:{" "}
-                {c.donors.status === "ok"
-                  ? c.donors.items
-                      .slice(0, 8)
-                      .map((d) => `${d.name} ${money(d.amount)}`)
-                      .join("; ")
-                  : c.donors.reason}{" "}
-                <a href={c.donors.sourceUrl} rel="noreferrer">
-                  Source
-                </a>
-              </p>
+              <div className="donors">
+                <p className="src">
+                  Donors
+                  {c.donors.itemCountAll != null
+                    ? ` · ${c.donors.itemCountAll.toLocaleString()} official ${
+                        c.fecId ? "Schedule A $200+" : "CSC"
+                      } row${c.donors.itemCountAll === 1 ? "" : "s"}`
+                    : ""}
+                  {c.donors.status === "ok" &&
+                  c.donors.itemCountAll != null &&
+                  c.donors.itemCountAll > c.donors.items.length
+                    ? ` · top ${c.donors.items.length} by amount`
+                    : ""}
+                </p>
+                {c.donors.status === "ok" && c.donors.items.length > 0 ? (
+                  <ul className="donor-list">
+                    {c.donors.items.map((d, di) => (
+                      <li key={`${d.name}-${d.date || ""}-${di}`}>
+                        {d.fecUrl ? (
+                          <a href={d.fecUrl} rel="noreferrer">
+                            {d.name}
+                          </a>
+                        ) : (
+                          d.name
+                        )}{" "}
+                        {money(d.amount)}
+                        {d.date ? ` · ${d.date}` : ""}
+                        {d.city || d.state ? ` · ${[d.city, d.state].filter(Boolean).join(", ")}` : ""}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="src">{c.donors.reason}</p>
+                )}
+                <p className="src">
+                  <a href={c.donors.sourceUrl} rel="noreferrer">
+                    Source
+                  </a>
+                  {c.donors.retrievedAt ? ` · retrieved ${c.donors.retrievedAt}` : ""}
+                  {" · Official names only. Donor lists are not sold."}
+                </p>
+              </div>
               <p className="src">
                 {c.sources.map((s, si) => (
                   <span key={s.url + si}>

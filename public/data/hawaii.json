@@ -3637,8 +3637,24 @@
     "csc_public": "https://csc.hawaii.gov/CFSPublic/",
     "csc_searchable": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
     "donors": {
-      "status": "linked",
-      "reason": "Hawaii CSC publishes Schedule A on the Candidate Filing System. This site links to those official filings rather than restating contributor names that were not copied from a retrieved extract."
+      "status": "sourced",
+      "path": "/data/csc-donors.json",
+      "source_url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
+      "retrieved_at": "2026-08-31T14:42:24Z",
+      "counts": {
+        "rows": 18108,
+        "candidates": 246,
+        "ok": 82,
+        "unmatched": 164,
+        "empty": 0,
+        "election_periods": [
+          "2022-2026",
+          "2024-2026"
+        ]
+      },
+      "reason": "Official Hawaii Campaign Spending Commission Schedule A extract via the public SODA resource jexd-xbcg (election_period contains 2026). Street addresses are omitted. Names are copied from the official file only and are never invented. Donor lists are not sold. Site nominee matches are not forced; unmatched official names are kept and flagged.",
+      "cfs_public": "https://csc.hawaii.gov/CFSPublic/",
+      "csc_searchable": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/"
     }
   }
 }

@@ -248,6 +248,17 @@ footer {
 
 .src a { word-break: break-all; }
 
+.donor-list {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.donor-list li { margin: 2px 0; }
+
+.donors { margin-top: 8px; }
+
 .pro-box {
   background: var(--navy);
   color: var(--paper);

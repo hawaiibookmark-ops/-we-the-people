@@ -1,7 +1,1438 @@
 {
   "fec_api_key_present": false,
-  "policy": "FEC_API_KEY not set. Federal Schedule A $200+ donor names are not shown (honest-empty).",
-  "by_candidate": {},
-  "retrieved_at": "2026-08-27T21:45:46Z",
-  "source": "https://api.open.fec.gov/v1/schedules/schedule_a/"
+  "policy": "Official FEC bulk Schedule A individual receipts of $200+ from indiv26.zip (plus cn26/ccl26 for committee linkage). MEMO_CD=X rows skipped. Names are copied from the filing extract only and are never invented. Donor lists are not sold. OpenFEC/DEMO_KEY is not used.",
+  "by_candidate": {
+    "H2HI02128": {
+      "candidate_id": "H2HI02128",
+      "candidate_name": "CASE, EDWARD",
+      "committee_id": "C00680918",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 430,
+      "items": [
+        {
+          "contributor_name": "DURRER, AUSTIN",
+          "amount": 3500.0,
+          "date": "2025-02-05",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "US HOUSE OF REPRESENTATIVES",
+          "image_number": "202504049755049797",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504049755049797"
+        },
+        {
+          "contributor_name": "KALIN, IAN",
+          "amount": 3500.0,
+          "date": "2025-02-13",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "TURBINEONE",
+          "image_number": "202504049755049800",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504049755049800"
+        },
+        {
+          "contributor_name": "STANARD, JAMES",
+          "amount": 3500.0,
+          "date": "2025-03-28",
+          "city": "SARASOTA",
+          "state": "FL",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504049755049803",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504049755049803"
+        },
+        {
+          "contributor_name": "STANARD, JAMES",
+          "amount": 3500.0,
+          "date": "2025-03-28",
+          "city": "SARASOTA",
+          "state": "FL",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504049755049803",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504049755049803"
+        },
+        {
+          "contributor_name": "ZAVERTNIK, MEGAN",
+          "amount": 3500.0,
+          "date": "2025-03-28",
+          "city": "VIENNA",
+          "state": "VA",
+          "employer": "MZ ADVISING, LLC",
+          "image_number": "202504049755049805",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504049755049805"
+        },
+        {
+          "contributor_name": "MAYER, NATHAN",
+          "amount": 3500.0,
+          "date": "2025-03-31",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "CAPE",
+          "image_number": "202504049755049801",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504049755049801"
+        },
+        {
+          "contributor_name": "SILBEY, ALEXANDER",
+          "amount": 3500.0,
+          "date": "2025-03-31",
+          "city": "ARLINGTON",
+          "state": "VA",
+          "employer": "SILBEY STRATEGIES",
+          "image_number": "202504049755049802",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504049755049802"
+        },
+        {
+          "contributor_name": "SILBEY, ALEXANDER",
+          "amount": 3500.0,
+          "date": "2025-03-31",
+          "city": "ARLINGTON",
+          "state": "VA",
+          "employer": "SILBEY STRATEGIES",
+          "image_number": "202504049755049802",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504049755049802"
+        },
+        {
+          "contributor_name": "MISHRA, SHUBHI",
+          "amount": 3500.0,
+          "date": "2025-04-30",
+          "city": "VIENNA",
+          "state": "VA",
+          "employer": "RAFT LLC",
+          "image_number": "202507119762768886",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768886"
+        },
+        {
+          "contributor_name": "AGUA CALIENTE BAND OF CAHUILLA INDIANS",
+          "amount": 3500.0,
+          "date": "2025-05-05",
+          "city": "PALM SPRINGS",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202507119762768880",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768880"
+        },
+        {
+          "contributor_name": "CLEMENTI, MICHAEL",
+          "amount": 3500.0,
+          "date": "2025-05-05",
+          "city": "ARNOLD",
+          "state": "MD",
+          "employer": "ICEBREAKER STRATEGIES",
+          "image_number": "202507119762768882",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768882"
+        },
+        {
+          "contributor_name": "FALTAS, MINA",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "city": "MCLEAN",
+          "state": "VA",
+          "employer": "WASHINGTON HARBOUR PARTNERS",
+          "image_number": "202507119762768884",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768884"
+        },
+        {
+          "contributor_name": "FOLEY, PATRICK",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "city": "ALEXANDRIA",
+          "state": "VA",
+          "employer": "WASHINGTON HARBOUR PARTNERS",
+          "image_number": "202507119762768884",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768884"
+        },
+        {
+          "contributor_name": "GUFFEY, STEPHEN",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "city": "ARLINGTON",
+          "state": "VA",
+          "employer": "WASHINGTON HARBOUR PARTNERS",
+          "image_number": "202507119762768884",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768884"
+        },
+        {
+          "contributor_name": "SOUHAN, CLAIRE",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "WASHINGTON HARBOUR PARTNERS",
+          "image_number": "202507119762768888",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768888"
+        },
+        {
+          "contributor_name": "SPEIGEL, JERAD",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "city": "MCLEAN",
+          "state": "VA",
+          "employer": "GROUNDSWELL",
+          "image_number": "202507119762768888",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768888"
+        },
+        {
+          "contributor_name": "AN, MIN",
+          "amount": 3500.0,
+          "date": "2025-05-14",
+          "city": "ELLICOTT CITY",
+          "state": "MD",
+          "employer": "WASHINGTON HARBOUR PARTNERS",
+          "image_number": "202507119762768880",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768880"
+        },
+        {
+          "contributor_name": "ROCKENFELLER, UWE",
+          "amount": 3500.0,
+          "date": "2025-05-16",
+          "city": "BOULDER CITY",
+          "state": "NV",
+          "employer": "EO SOLUTIONS",
+          "image_number": "202507119762768887",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768887"
+        },
+        {
+          "contributor_name": "SAGE, ROBERT",
+          "amount": 3500.0,
+          "date": "2025-05-25",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "WORK NOW HAWAII",
+          "image_number": "202507119762768887",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768887"
+        },
+        {
+          "contributor_name": "WEINER, KANE",
+          "amount": 3500.0,
+          "date": "2025-05-29",
+          "city": "HOUSTON",
+          "state": "TX",
+          "employer": "TEXAS CRUDE ENERGY LLC",
+          "image_number": "202507119762768889",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768889"
+        },
+        {
+          "contributor_name": "CROTTY, THOMAS",
+          "amount": 3500.0,
+          "date": "2025-06-02",
+          "city": "SCOTTSDALE",
+          "state": "AZ",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507119762768883",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768883"
+        },
+        {
+          "contributor_name": "CROTTY, THOMAS",
+          "amount": 3500.0,
+          "date": "2025-06-02",
+          "city": "SCOTTSDALE",
+          "state": "AZ",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507119762768883",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768883"
+        },
+        {
+          "contributor_name": "STAVIS, ROBERT",
+          "amount": 3500.0,
+          "date": "2025-06-20",
+          "city": "LARCHMONT",
+          "state": "NY",
+          "employer": "BESSEMER VENTURE CAPITAL",
+          "image_number": "202507119762768889",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768889"
+        },
+        {
+          "contributor_name": "STAVIS, ROBERT",
+          "amount": 3500.0,
+          "date": "2025-06-20",
+          "city": "LARCHMONT",
+          "state": "NY",
+          "employer": "BESSEMER VENTURE CAPITAL",
+          "image_number": "202507119762768889",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768889"
+        },
+        {
+          "contributor_name": "AK-CHIN INDIAN COMMUNITY",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "MARICOPA",
+          "state": "AZ",
+          "employer": null,
+          "image_number": "202507119762768880",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507119762768880"
+        }
+      ],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H2HI02581": {
+      "candidate_id": "H2HI02581",
+      "candidate_name": "TOKUDA, JILL NAOMI",
+      "committee_id": "C00813758",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 604,
+      "items": [
+        {
+          "contributor_name": "VULTEE, MICHAEL",
+          "amount": 5000.0,
+          "date": "2025-05-29",
+          "city": "MAKAWAO",
+          "state": "HI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202507159763442003",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763442003"
+        },
+        {
+          "contributor_name": "SWEETLAND, MARIE",
+          "amount": 3500.0,
+          "date": "2025-03-30",
+          "city": "KAHULUI",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755632713",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755632713"
+        },
+        {
+          "contributor_name": "BARR, LYNN",
+          "amount": 3500.0,
+          "date": "2025-06-06",
+          "city": "LAHAINA",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763441912",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763441912"
+        },
+        {
+          "contributor_name": "BILLS, STEVEN",
+          "amount": 3500.0,
+          "date": "2025-08-28",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "ANTHROPIC",
+          "image_number": "202510159791452426",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791452426"
+        },
+        {
+          "contributor_name": "KOSASA, THOMAS",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202510159791452460",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791452460"
+        },
+        {
+          "contributor_name": "BILLS, STEVEN",
+          "amount": 3500.0,
+          "date": "2025-10-21",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "ANTHROPIC",
+          "image_number": "202601309795279918",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795279918"
+        },
+        {
+          "contributor_name": "LIN, TAO",
+          "amount": 3500.0,
+          "date": "2025-10-25",
+          "city": "WORCESTER",
+          "state": "MA",
+          "employer": "ANTHROPIC PBC",
+          "image_number": "202601309795280039",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795280039"
+        },
+        {
+          "contributor_name": "LIN, TAO",
+          "amount": 3500.0,
+          "date": "2025-10-25",
+          "city": "WORCESTER",
+          "state": "MA",
+          "employer": "ANTHROPIC PBC",
+          "image_number": "202601309795280058",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795280058"
+        },
+        {
+          "contributor_name": "FOSTER, LAUREN",
+          "amount": 3500.0,
+          "date": "2025-10-29",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "AGE BOLD",
+          "image_number": "202601309795279914",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795279914"
+        },
+        {
+          "contributor_name": "PASHA, GEORGE W. IV",
+          "amount": 3500.0,
+          "date": "2025-12-01",
+          "city": "SAN RAFAEL",
+          "state": "CA",
+          "employer": "THE PASHA GROUP",
+          "image_number": "202601309795280014",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795280014"
+        },
+        {
+          "contributor_name": "MOHR, MICHAEL G",
+          "amount": 3500.0,
+          "date": "2025-12-06",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "COMPREHENSIVE FINANCIAL MANAGEMENT",
+          "image_number": "202601309795280028",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795280028"
+        },
+        {
+          "contributor_name": "HOUCHARD, JEFFERY",
+          "amount": 3500.0,
+          "date": "2025-12-31",
+          "city": "KIHEI",
+          "state": "HI",
+          "employer": "EO SOLUTIONS",
+          "image_number": "202601309795280008",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795280008"
+        },
+        {
+          "contributor_name": "HOUCHARD, JEFFERY",
+          "amount": 3500.0,
+          "date": "2025-12-31",
+          "city": "KIHEI",
+          "state": "HI",
+          "employer": "EO SOLUTIONS",
+          "image_number": "202601309795279993",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795279993"
+        },
+        {
+          "contributor_name": "NISHIMOTO, DARON",
+          "amount": 3500.0,
+          "date": "2025-12-31",
+          "city": "KULA",
+          "state": "HI",
+          "employer": "EO SOLUTIONS",
+          "image_number": "202601309795279916",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795279916"
+        },
+        {
+          "contributor_name": "NISHIMOTO, DARON",
+          "amount": 3500.0,
+          "date": "2025-12-31",
+          "city": "KULA",
+          "state": "HI",
+          "employer": "EO SOLUTIONS",
+          "image_number": "202601309795279931",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795279931"
+        },
+        {
+          "contributor_name": "PETRY, JOHN",
+          "amount": 3500.0,
+          "date": "2025-12-31",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "SESSA CAPITAL",
+          "image_number": "202601309795280041",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795280041"
+        },
+        {
+          "contributor_name": "ROCKENFELLER, UWE",
+          "amount": 3500.0,
+          "date": "2025-12-31",
+          "city": "BOULDER CITY",
+          "state": "NV",
+          "employer": "EO SOLUTIONS",
+          "image_number": "202601309795279968",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795279968"
+        },
+        {
+          "contributor_name": "WINER, ANDREW",
+          "amount": 3500.0,
+          "date": "2026-01-31",
+          "city": "ALEXANDRIA",
+          "state": "VA",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202604159862556692",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862556692"
+        },
+        {
+          "contributor_name": "KOSASA, PAUL J.",
+          "amount": 3500.0,
+          "date": "2026-02-04",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "MNS LTD",
+          "image_number": "202604159862556591",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862556591"
+        },
+        {
+          "contributor_name": "TANOUYE, ERIC",
+          "amount": 3500.0,
+          "date": "2026-02-12",
+          "city": "KEAAU",
+          "state": "HI",
+          "employer": "GREEN POINT NURSERIES",
+          "image_number": "202604159862556680",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862556680"
+        },
+        {
+          "contributor_name": "HELM, NELSON",
+          "amount": 3500.0,
+          "date": "2026-03-06",
+          "city": "LOUISVILLE",
+          "state": "KY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604159862556544",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862556544"
+        },
+        {
+          "contributor_name": "HELM, NELSON",
+          "amount": 3500.0,
+          "date": "2026-03-06",
+          "city": "LOUISVILLE",
+          "state": "KY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604159862556545",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862556545"
+        },
+        {
+          "contributor_name": "SHRINER, SUZANNE",
+          "amount": 3500.0,
+          "date": "2026-03-11",
+          "city": "HONAUNAU",
+          "state": "HI",
+          "employer": "SYNERGISTIC HAWAII AGRICULTURE COUNCIL",
+          "image_number": "202604159862556666",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862556666"
+        },
+        {
+          "contributor_name": "CONLON, KIRA",
+          "amount": 3500.0,
+          "date": "2026-04-08",
+          "city": "LOS ANGELES",
+          "state": "CA",
+          "employer": "SOMOS LAW GROUP LLP",
+          "image_number": "202607159890682065",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890682065"
+        },
+        {
+          "contributor_name": "FUKUSHIMA, GLEN",
+          "amount": 3500.0,
+          "date": "2026-04-16",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "STANFORD UNIVERSITY",
+          "image_number": "202607159890682088",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890682088"
+        }
+      ],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6HI01311": {
+      "candidate_id": "H6HI01311",
+      "candidate_name": "KEOHOKALOLE, JARRETT",
+      "committee_id": "C00913848",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 795,
+      "items": [
+        {
+          "contributor_name": "COPPA, BRUCE",
+          "amount": 3500.0,
+          "date": "2025-08-03",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "CAPITAL CONSULTANTS",
+          "image_number": "202510159791513665",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513665"
+        },
+        {
+          "contributor_name": "KEOHOKALOLE, ADRIAN",
+          "amount": 3500.0,
+          "date": "2025-08-08",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791513678",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513678"
+        },
+        {
+          "contributor_name": "SCHAUER, ALFRED",
+          "amount": 3500.0,
+          "date": "2025-08-11",
+          "city": "WASHOUGAL",
+          "state": "WA",
+          "employer": "POINT NORTH CONSULTING",
+          "image_number": "202510159791513712",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513712"
+        },
+        {
+          "contributor_name": "SCHAUER, LISA",
+          "amount": 3500.0,
+          "date": "2025-08-11",
+          "city": "WASHOUGAL",
+          "state": "WA",
+          "employer": "POINT NORTH CONSULTING INC",
+          "image_number": "202510159791513712",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513712"
+        },
+        {
+          "contributor_name": "SCHAUER, SYDNEY",
+          "amount": 3500.0,
+          "date": "2025-08-11",
+          "city": "WASHOUGAL",
+          "state": "WA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791513712",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513712"
+        },
+        {
+          "contributor_name": "TOYOFUKU, ROBERT",
+          "amount": 3500.0,
+          "date": "2025-08-22",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "BT CONSULTING",
+          "image_number": "202510159791513724",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513724"
+        },
+        {
+          "contributor_name": "OSHIRO, BLAKE",
+          "amount": 3500.0,
+          "date": "2025-08-25",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "STATE OF HAWAII OFFICE OF GOVERNOR",
+          "image_number": "202510159791513703",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513703"
+        },
+        {
+          "contributor_name": "TOMAR, LIBBY",
+          "amount": 3500.0,
+          "date": "2025-09-03",
+          "city": "KAILUA",
+          "state": "HI",
+          "employer": "LAW OFFICE LIBBY ELLET TOMAR",
+          "image_number": "202510159791513721",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513721"
+        },
+        {
+          "contributor_name": "JOHNS, TIMOTHY",
+          "amount": 3500.0,
+          "date": "2025-09-05",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "ZEPHYR INSURANCE COMPANY INC.",
+          "image_number": "202510159791513676",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513676"
+        },
+        {
+          "contributor_name": "IOSUA, MICHAEL",
+          "amount": 3500.0,
+          "date": "2025-09-10",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "IMANAKA ASTO LAW COMPANY",
+          "image_number": "202510159791513673",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513673"
+        },
+        {
+          "contributor_name": "YONAMINE, PAUL",
+          "amount": 3500.0,
+          "date": "2025-09-13",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "CENTRAL PACIFIC BANK",
+          "image_number": "202510159791513729",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513729"
+        },
+        {
+          "contributor_name": "LEONG, LEONARD",
+          "amount": 3500.0,
+          "date": "2025-09-15",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "ROYAL CONTRACTING CO., LTD.",
+          "image_number": "202510159791513686",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513686"
+        },
+        {
+          "contributor_name": "YAMASAKI, ROSS",
+          "amount": 3500.0,
+          "date": "2025-09-15",
+          "city": "KAAAWA",
+          "state": "HI",
+          "employer": "G.A. MORRIS INC.",
+          "image_number": "202510159791513728",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513728"
+        },
+        {
+          "contributor_name": "KUIOKA, SCOTT A",
+          "amount": 3500.0,
+          "date": "2025-09-16",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "ISLAND INSURANCE",
+          "image_number": "202510159791513684",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513684"
+        },
+        {
+          "contributor_name": "MORRIS, GEORGE A",
+          "amount": 3500.0,
+          "date": "2025-09-16",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791513696",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513696"
+        },
+        {
+          "contributor_name": "NOBRIGA, ROBERT K W H",
+          "amount": 3500.0,
+          "date": "2025-09-16",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "ISLAND HOLDINGS, INC",
+          "image_number": "202510159791513700",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513700"
+        },
+        {
+          "contributor_name": "ONO, JEFFREY T",
+          "amount": 3500.0,
+          "date": "2025-09-16",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "WATANABE ING LLP",
+          "image_number": "202510159791513702",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513702"
+        },
+        {
+          "contributor_name": "ANTHONY, NAALEHU",
+          "amount": 3500.0,
+          "date": "2025-09-19",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "OIWI TV",
+          "image_number": "202510159791513657",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513657"
+        },
+        {
+          "contributor_name": "MORIWAKE, ISAAC",
+          "amount": 3500.0,
+          "date": "2025-09-20",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "EARTHJUSTICE",
+          "image_number": "202510159791513696",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513696"
+        },
+        {
+          "contributor_name": "KOSASA, THOMAS",
+          "amount": 3500.0,
+          "date": "2025-09-29",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "HAWAII PACIFIC HEALTH",
+          "image_number": "202510159791513683",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513683"
+        },
+        {
+          "contributor_name": "CHANG, JASON",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "THE QUEEN'S HEALTH SYSTEMS",
+          "image_number": "202510159791513662",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513662"
+        },
+        {
+          "contributor_name": "COLE, DAVID",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "KULA",
+          "state": "HI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202510159791513665",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513665"
+        },
+        {
+          "contributor_name": "PICKARD, ELISSA M",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "HAWAII DEPT OF EDUCATION",
+          "image_number": "202510159791513707",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513707"
+        },
+        {
+          "contributor_name": "PICKARD, JOSEPH",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "ENVIRONET INC.",
+          "image_number": "202510159791513707",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513707"
+        },
+        {
+          "contributor_name": "TONAKI, TRACY",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "D.R. HORTON HAWAII",
+          "image_number": "202510159791513722",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791513722"
+        }
+      ],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6HI01337": {
+      "candidate_id": "H6HI01337",
+      "candidate_name": "FRAZIER, MAXWELL",
+      "committee_id": "C00917971",
+      "status": "empty",
+      "reason": "Principal campaign committee C00917971 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6HI01345": {
+      "candidate_id": "H6HI01345",
+      "candidate_name": "BELATTI, DELLA AU",
+      "committee_id": "C00920884",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 118,
+      "items": [
+        {
+          "contributor_name": "AU, LINDA",
+          "amount": 3500.0,
+          "date": "2025-09-13",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202510159791121145",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121145"
+        },
+        {
+          "contributor_name": "GUCKENHEIMER, SAM",
+          "amount": 3500.0,
+          "date": "2025-09-25",
+          "city": "CAPTAIN COOK",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791121147",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121147"
+        },
+        {
+          "contributor_name": "JARVIS, CINDY",
+          "amount": 3500.0,
+          "date": "2025-09-25",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202510159791121148",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121148"
+        },
+        {
+          "contributor_name": "SMITH, LARRY",
+          "amount": 3500.0,
+          "date": "2025-09-25",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202510159791121155",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121155"
+        },
+        {
+          "contributor_name": "CORCORAN, ANDREW",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202510159791121146",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121146"
+        },
+        {
+          "contributor_name": "KOSASA, THOMAS",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202601309794861924",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794861924"
+        },
+        {
+          "contributor_name": "MONK, AMY",
+          "amount": 3500.0,
+          "date": "2026-06-12",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": null,
+          "image_number": "202607159875999917",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875999917"
+        },
+        {
+          "contributor_name": "UEHARA, DEAN",
+          "amount": 3100.0,
+          "date": "2026-03-30",
+          "city": "KAPOLEI",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202606079870434674",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606079870434674"
+        },
+        {
+          "contributor_name": "FUJIMURA, SUSAN",
+          "amount": 3000.0,
+          "date": "2025-11-04",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "NONE",
+          "image_number": "202601309794861919",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794861919"
+        },
+        {
+          "contributor_name": "WILCOX, CAROL",
+          "amount": 3000.0,
+          "date": "2026-03-06",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202606079870434675",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606079870434675"
+        },
+        {
+          "contributor_name": "KALANI, JEFF",
+          "amount": 3000.0,
+          "date": "2026-03-23",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "YK HOLDINGS",
+          "image_number": "202606079870434652",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606079870434652"
+        },
+        {
+          "contributor_name": "BREINER, MYLES",
+          "amount": 2000.0,
+          "date": "2025-09-29",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "LAW OFFICE OF MYLES S BREINER",
+          "image_number": "202510159791121145",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121145"
+        },
+        {
+          "contributor_name": "HANAKAHI, WENDY",
+          "amount": 2000.0,
+          "date": "2026-03-11",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "DENTONS US LLP",
+          "image_number": "202606079870434649",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606079870434649"
+        },
+        {
+          "contributor_name": "MONK, AMY",
+          "amount": 2000.0,
+          "date": "2026-03-17",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202606079870434660",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606079870434660"
+        },
+        {
+          "contributor_name": "MATSUMOTO, EILEEN",
+          "amount": 2000.0,
+          "date": "2026-03-30",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202606079870434656",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606079870434656"
+        },
+        {
+          "contributor_name": "MONK, AMY",
+          "amount": 1750.0,
+          "date": "2025-11-20",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "NONE",
+          "image_number": "202601309794861929",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794861929"
+        },
+        {
+          "contributor_name": "LUKENS, ASHLEY",
+          "amount": 1500.0,
+          "date": "2025-12-10",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "SELF",
+          "image_number": "202601309794861925",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794861925"
+        },
+        {
+          "contributor_name": "NIELSEN, JADINE",
+          "amount": 1000.0,
+          "date": "2025-09-26",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791121153",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121153"
+        },
+        {
+          "contributor_name": "EBESUGAWA, LIANN",
+          "amount": 1000.0,
+          "date": "2025-09-29",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "HEI",
+          "image_number": "202510159791121146",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121146"
+        },
+        {
+          "contributor_name": "FRITZ, COLLIN",
+          "amount": 1000.0,
+          "date": "2025-09-29",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202510159791121146",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121146"
+        },
+        {
+          "contributor_name": "LOO, JENNIFER",
+          "amount": 1000.0,
+          "date": "2025-09-29",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791121149",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121149"
+        },
+        {
+          "contributor_name": "MURANAKA, CAROL",
+          "amount": 1000.0,
+          "date": "2025-09-29",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "CAROL K. MURANAKA",
+          "image_number": "202510159791121153",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791121153"
+        },
+        {
+          "contributor_name": "MEACHAM, LAWRENCE",
+          "amount": 1000.0,
+          "date": "2025-10-12",
+          "city": "WAHIAWA",
+          "state": "HI",
+          "employer": "HONOLULU CC",
+          "image_number": "202601309794861927",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794861927"
+        },
+        {
+          "contributor_name": "ONO, DIANE",
+          "amount": 1000.0,
+          "date": "2025-11-14",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601309794861931",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794861931"
+        },
+        {
+          "contributor_name": "SABAS, JENNIFER",
+          "amount": 1000.0,
+          "date": "2025-11-20",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202601309794861933",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794861933"
+        }
+      ],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6HI01352": {
+      "candidate_id": "H6HI01352",
+      "candidate_name": "FATULA, BENJAMIN DAVID",
+      "committee_id": "C00939769",
+      "status": "empty",
+      "reason": "Principal campaign committee C00939769 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6HI01360": {
+      "candidate_id": "H6HI01360",
+      "candidate_name": "LAM, ADRIEL C",
+      "committee_id": "C00946970",
+      "status": "empty",
+      "reason": "Principal campaign committee C00946970 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6HI01378": {
+      "candidate_id": "H6HI01378",
+      "candidate_name": "GELT, SHOLOM",
+      "committee_id": null,
+      "status": "empty",
+      "reason": "No principal campaign committee on FEC candidate master (cn26). Honest-empty.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6HI01386": {
+      "candidate_id": "H6HI01386",
+      "candidate_name": "BERNING, NATHAN M.",
+      "committee_id": "C00954842",
+      "status": "empty",
+      "reason": "Principal campaign committee C00954842 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6HI02426": {
+      "candidate_id": "H6HI02426",
+      "candidate_name": "AWA, BRENTON",
+      "committee_id": "C00923854",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 74,
+      "items": [
+        {
+          "contributor_name": "CORREA, COREY",
+          "amount": 3500.0,
+          "date": "2025-10-14",
+          "city": "LAS VEGAS",
+          "state": "NV",
+          "employer": "ALOHA FREIGHT FORWARDERS",
+          "image_number": "202601289794259730",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259730"
+        },
+        {
+          "contributor_name": "AH SUE, ERIN",
+          "amount": 3500.0,
+          "date": "2025-10-23",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "MALAMA RESTORATION",
+          "image_number": "202601289794259728",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259728"
+        },
+        {
+          "contributor_name": "ISRAEL, JANELL",
+          "amount": 3500.0,
+          "date": "2025-11-05",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202601289794259734",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259734"
+        },
+        {
+          "contributor_name": "ROMPEL, KARLA",
+          "amount": 3500.0,
+          "date": "2025-12-12",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "POSSO PIZZA",
+          "image_number": "202601289794259741",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259741"
+        },
+        {
+          "contributor_name": "ROMPEL, MICHAEL",
+          "amount": 3500.0,
+          "date": "2025-12-12",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "DOMINO'S HAWAII",
+          "image_number": "202601289794259741",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259741"
+        },
+        {
+          "contributor_name": "VIVAS, PATRICK",
+          "amount": 3500.0,
+          "date": "2026-03-06",
+          "city": "HAUULA",
+          "state": "HI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202604149857168106",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857168106"
+        },
+        {
+          "contributor_name": "CATES, JOHN",
+          "amount": 3500.0,
+          "date": "2026-05-02",
+          "city": "KAILUA",
+          "state": "HI",
+          "employer": "CATES MARINE SERVICE",
+          "image_number": "202607159875946319",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875946319"
+        },
+        {
+          "contributor_name": "MCCLELLAN, WILLIAM HENRY",
+          "amount": 3500.0,
+          "date": "2026-05-29",
+          "city": "PEARL CITY",
+          "state": "HI",
+          "employer": "THE MCCLELLAN",
+          "image_number": "202607159875946320",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875946320"
+        },
+        {
+          "contributor_name": "AWA, VERNON",
+          "amount": 3000.0,
+          "date": "2025-11-13",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "HECO",
+          "image_number": "202601289794259729",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259729"
+        },
+        {
+          "contributor_name": "KARNUTH, JEANNE",
+          "amount": 3000.0,
+          "date": "2025-11-13",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202601289794259734",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259734"
+        },
+        {
+          "contributor_name": "SMART, MARY",
+          "amount": 2500.0,
+          "date": "2025-11-07",
+          "city": "MILILANI",
+          "state": "HI",
+          "employer": "COLDWELL BANKER",
+          "image_number": "202601289794259744",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259744"
+        },
+        {
+          "contributor_name": "LINGLE, LINDA",
+          "amount": 2327.0,
+          "date": "2025-12-09",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202601289794259737",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259737"
+        },
+        {
+          "contributor_name": "PETERSEN, GRANT JR.",
+          "amount": 2000.0,
+          "date": "2025-12-10",
+          "city": "BOISE",
+          "state": "ID",
+          "employer": "TRINITY MOUNTAIN LLC",
+          "image_number": "202601289794259740",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259740"
+        },
+        {
+          "contributor_name": "LIM, MARGARET",
+          "amount": 2000.0,
+          "date": "2025-12-20",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202601289794259736",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259736"
+        },
+        {
+          "contributor_name": "SOUZA, ALFRED",
+          "amount": 2000.0,
+          "date": "2025-12-28",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202601289794259744",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259744"
+        },
+        {
+          "contributor_name": "SILLERS, COLIN JR.",
+          "amount": 2000.0,
+          "date": "2025-12-29",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202601289794259743",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259743"
+        },
+        {
+          "contributor_name": "AWA, TJ",
+          "amount": 1900.0,
+          "date": "2025-12-31",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "CITY AND COUNTY OF HONOLULU",
+          "image_number": "202601289794259729",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259729"
+        },
+        {
+          "contributor_name": "HANNEMANN, ARTHUR",
+          "amount": 1000.0,
+          "date": "2025-10-15",
+          "city": "LAIE",
+          "state": "HI",
+          "employer": "SEVEN BROTHERS",
+          "image_number": "202601289794259733",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259733"
+        },
+        {
+          "contributor_name": "MELEMAI, JENNIFER",
+          "amount": 1000.0,
+          "date": "2025-10-28",
+          "city": "KANEOHE",
+          "state": "HI",
+          "employer": "OAHU TRANSIT",
+          "image_number": "202601289794259738",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259738"
+        },
+        {
+          "contributor_name": "AWA FAUROT, MELODY",
+          "amount": 1000.0,
+          "date": "2025-10-29",
+          "city": "EWA BEACH",
+          "state": "HI",
+          "employer": "HAWAIIAN AIRLINES",
+          "image_number": "202601289794259729",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259729"
+        },
+        {
+          "contributor_name": "OKAMOTO, CHRISTINE",
+          "amount": 1000.0,
+          "date": "2025-10-29",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "FPS PAINTING & CONTRACTORS",
+          "image_number": "202601289794259740",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259740"
+        },
+        {
+          "contributor_name": "LEE, ADAM",
+          "amount": 1000.0,
+          "date": "2025-10-31",
+          "city": "WAIALUA",
+          "state": "HI",
+          "employer": "NORTH SHORE STABLES",
+          "image_number": "202601289794259735",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259735"
+        },
+        {
+          "contributor_name": "ADARO, CHARISSE",
+          "amount": 1000.0,
+          "date": "2025-11-04",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "D.O.E",
+          "image_number": "202601289794259728",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259728"
+        },
+        {
+          "contributor_name": "GODFREY, SIGNE",
+          "amount": 1000.0,
+          "date": "2025-11-05",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202601289794259731",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259731"
+        },
+        {
+          "contributor_name": "VAN, WILLIAM",
+          "amount": 1000.0,
+          "date": "2025-11-05",
+          "city": "KAPOLEI",
+          "state": "HI",
+          "employer": "RETIRED",
+          "image_number": "202601289794259746",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601289794259746"
+        }
+      ],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6HI00313": {
+      "candidate_id": "S6HI00313",
+      "candidate_name": "CARLSON, OWEN NICHOLAS",
+      "committee_id": "C00928689",
+      "status": "empty",
+      "reason": "Principal campaign committee C00928689 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6HI00321": {
+      "candidate_id": "S6HI00321",
+      "candidate_name": "SOLOMON, GAVIN",
+      "committee_id": null,
+      "status": "empty",
+      "reason": "No principal campaign committee on FEC candidate master (cn26). Joint fundraising committee C00915710 is not used.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    }
+  },
+  "retrieved_at": "2026-08-31T14:40:58Z",
+  "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+  "sources": [
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "FEC individual contributions bulk file (itcont.txt)."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "FEC candidate master (principal campaign committee id)."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "FEC candidate-committee linkage. Joint committees (CMTE_DSGN=J) are not treated as PCC."
+    },
+    {
+      "url": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "Individual contributions file layout."
+    }
+  ],
+  "scope": "Hawaii 2026 House/Senate candidate ids present in federal.json.",
+  "prior_extract": {
+    "retrieved_at": "2026-08-31T14:32:27Z",
+    "counts": {
+      "H2HI02128": 430,
+      "H2HI02581": 604,
+      "H6HI01311": 795,
+      "H6HI01345": 118,
+      "H6HI02426": 74,
+      "H6HI01337": 0,
+      "H6HI01352": 0,
+      "H6HI01360": 0,
+      "H6HI01378": 0,
+      "H6HI01386": 0,
+      "S6HI00313": 0,
+      "S6HI00321": 0
+    }
+  },
+  "disagreement_flags": [],
+  "memo_cd_x_skipped_on_scoped_committees": 5,
+  "do_not_sell_donor_lists": true
 }

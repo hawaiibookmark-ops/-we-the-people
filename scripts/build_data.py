@@ -320,12 +320,6 @@ def geocode_point(lat: float, lon: float) -> dict | None:
     return out or None
 
 
-def fec_get(path: str, params: dict, api_key: str) -> dict:
-    q = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
-    url = f"https://api.open.fec.gov/v1/{path}?api_key={api_key}&{q}"
-    return json.loads(fetch_text(url))
-
-
 FEC_PARTY = {
     "DEM": "Democratic Party",
     "REP": "Republican Party",
@@ -392,58 +386,35 @@ def fec_candidates(_api_key: str) -> dict:
     return out
 
 
-def fec_schedule_a(api_key: str, candidate_ids: list[str]) -> dict:
-    donors = {}
-    for cid in candidate_ids:
-        items = []
-        try:
-            data = fec_get(
-                "schedules/schedule_a/",
-                {
-                    "candidate_id": cid,
-                    "two_year_transaction_period": 2026,
-                    "min_amount": 200,
-                    "per_page": 50,
-                    "sort": "-contribution_receipt_amount",
-                    "is_individual": "true",
-                },
-                api_key,
-            )
-            for r in data.get("results") or []:
-                name = r.get("contributor_name")
-                amount = r.get("contribution_receipt_amount")
-                date = r.get("contribution_receipt_date")
-                if not name or amount is None:
-                    continue
-                items.append(
-                    {
-                        "contributor_name": name,
-                        "amount": amount,
-                        "date": date,
-                        "city": r.get("contributor_city"),
-                        "state": r.get("contributor_state"),
-                        "employer": r.get("contributor_employer"),
-                        "image_number": r.get("image_number"),
-                        "fec_url": (
-                            "https://www.fec.gov/data/receipts/individual-contributions/"
-                            f"?candidate_id={cid}&min_amount=200"
-                        ),
-                    }
-                )
-        except Exception as e:
-            donors[cid] = {
-                "status": "error",
-                "reason": f"FEC Schedule A request failed ({e}). Donors left empty rather than invented.",
-                "items": [],
-            }
-            continue
-        donors[cid] = {
-            "status": "ok" if items else "empty",
-            "reason": None if items else "No Schedule A individual receipts of $200+ returned for this candidate in the 2026 period.",
-            "items": items[:25],
+def load_existing_json(path: Path) -> dict | None:
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    return None
+
+
+def hawaii_donors_block(existing_hawaii: dict | None, csc: dict | None) -> dict:
+    """Keep the committed CSC extract. Do not reset to linked or invent names."""
+    if csc:
+        filings = (existing_hawaii or {}).get("state_filings") or {}
+        return {
+            "status": "sourced",
+            "path": "/data/csc-donors.json",
+            "source_url": csc.get("source_url"),
+            "retrieved_at": csc.get("retrieved_at"),
+            "counts": csc.get("counts"),
+            "reason": csc.get("policy")
+            or "Official Hawaii CSC Schedule A extract. Names are never invented. Donor lists are not sold.",
+            "cfs_public": filings.get("csc_public") or "https://csc.hawaii.gov/CFSPublic/",
+            "csc_searchable": filings.get("csc_searchable")
+            or "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
         }
-        time.sleep(0.2)
-    return donors
+    prior = ((existing_hawaii or {}).get("state_filings") or {}).get("donors")
+    if prior:
+        return prior
+    return {
+        "status": "linked",
+        "reason": "Hawaii CSC Schedule A extract is not in this checkout. CFS is linked rather than inventing donor names.",
+    }
 
 
 def parse_house_clerk(xml_text: str) -> dict:
@@ -675,7 +646,6 @@ def main() -> int:
     ))
 
     fec_key = os.environ.get("FEC_API_KEY") or "DEMO_KEY"
-    have_real_fec_key = bool(os.environ.get("FEC_API_KEY"))
     print("Fetching FEC 2026 candidate master (cn26 bulk) …", flush=True)
     try:
         federal = fec_candidates(fec_key)
@@ -717,29 +687,21 @@ def main() -> int:
             if "2" in klass or klass.upper() in {"II", "CLASS II"}:
                 senate_2026_states.add(st)
 
-    donors = {}
-    donor_note = "FEC_API_KEY not set. Federal Schedule A $200+ donor names are not shown (honest-empty)."
-    if have_real_fec_key:
-        gold_ids = []
-        for st in ("HI", "CA", "WY"):
-            for dist, cands in (federal.get(st, {}).get("house") or {}).items():
-                for c in cands:
-                    if c.get("candidate_id") and (
-                        st == "HI" or (st == "CA" and dist in {"30", "32", "36"}) or (st == "WY")
-                    ):
-                        gold_ids.append(c["candidate_id"])
-            for c in federal.get(st, {}).get("senate") or []:
-                if c.get("candidate_id"):
-                    gold_ids.append(c["candidate_id"])
-        gold_ids = list(dict.fromkeys(gold_ids))[:30]
-        print(f"Fetching FEC Schedule A $200+ for {len(gold_ids)} candidates …", flush=True)
-        donors = fec_schedule_a(os.environ["FEC_API_KEY"], gold_ids)
-        donor_note = "Schedule A individual receipts of $200+ from FEC OpenFEC, when returned."
-    sources.append(source(
-        "https://api.open.fec.gov/v1/schedules/schedule_a/",
-        retrieved,
-        donor_note,
-    ))
+    # Federal Schedule A and Hawaii CSC donor extracts are committed JSON
+    # (official bulk / SODA). Do not clobber them with OpenFEC or DEMO_KEY.
+    existing_donors = load_existing_json(OUT / "donors.json")
+    existing_csc = load_existing_json(OUT / "csc-donors.json")
+    existing_hawaii = load_existing_json(OUT / "hawaii.json")
+    donor_note = (existing_donors or {}).get("policy") or (
+        "Official FEC bulk Schedule A individual receipts of $200+ from indiv26.zip. "
+        "MEMO_CD=X skipped. Names are never invented. Donor lists are not sold. OpenFEC/DEMO_KEY is not used."
+    )
+    if existing_donors:
+        sources.append(source(
+            existing_donors.get("source_url") or "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+            existing_donors.get("retrieved_at") or retrieved,
+            "Committed FEC bulk Schedule A extract (donors.json). OpenFEC/DEMO_KEY is not used.",
+        ))
     sources.append(source(
         "https://www.fec.gov/data/receipts/individual-contributions/",
         retrieved,
@@ -747,14 +709,20 @@ def main() -> int:
     ))
     sources.append(source(
         "https://csc.hawaii.gov/CFSPublic/",
-        retrieved,
-        "Hawaii Campaign Spending Commission Candidate Filing System public site.",
+        (existing_csc or {}).get("retrieved_at") or retrieved,
+        "Hawaii Campaign Spending Commission Candidate Filing System public site (CFS links kept).",
     ))
     sources.append(source(
         "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
-        retrieved,
-        "Hawaii CSC searchable candidate committee data (Schedule A–F). State donor rows are linked, not scraped.",
+        (existing_csc or {}).get("retrieved_at") or retrieved,
+        "Hawaii CSC searchable candidate committee data landing.",
     ))
+    if existing_csc:
+        sources.append(source(
+            existing_csc.get("source_url") or "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json",
+            existing_csc.get("retrieved_at") or retrieved,
+            "Committed Hawaii CSC SODA Schedule A extract (csc-donors.json). Street addresses omitted.",
+        ))
     sources.append(source(
         "https://elections.hawaii.gov/candidates/candidate-reports/",
         retrieved,
@@ -794,10 +762,7 @@ def main() -> int:
             "wired": True,
             "csc_public": "https://csc.hawaii.gov/CFSPublic/",
             "csc_searchable": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
-            "donors": {
-                "status": "linked",
-                "reason": "Hawaii CSC publishes Schedule A on the Candidate Filing System. This site links to those official filings rather than restating contributor names that were not copied from a retrieved extract.",
-            },
+            "donors": hawaii_donors_block(existing_hawaii, existing_csc),
         },
     }
 
@@ -807,7 +772,7 @@ def main() -> int:
         "generated_at": retrieved,
         "general_election_date": "2026-11-03",
         "sources": sources,
-        "fec_api_key_present": have_real_fec_key,
+        "fec_api_key_present": False,
         "donor_policy": donor_note,
         "rules": [
             "Official and primary sources only.",
@@ -844,20 +809,27 @@ def main() -> int:
     (OUT / "hawaii.json").write_text(json.dumps(hawaii, ensure_ascii=False, indent=2), encoding="utf-8")
     (OUT / "federal.json").write_text(json.dumps(federal_plain, ensure_ascii=False), encoding="utf-8")
     (OUT / "incumbents.json").write_text(json.dumps(incumbents, ensure_ascii=False), encoding="utf-8")
-    (OUT / "donors.json").write_text(
-        json.dumps(
-            {
-                "fec_api_key_present": have_real_fec_key,
-                "policy": donor_note,
-                "by_candidate": donors,
-                "retrieved_at": retrieved,
-                "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
-            },
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
+    if existing_donors:
+        print("Preserving committed donors.json (FEC bulk extract; not rewriting via OpenFEC).", flush=True)
+    else:
+        (OUT / "donors.json").write_text(
+            json.dumps(
+                {
+                    "fec_api_key_present": False,
+                    "policy": donor_note,
+                    "by_candidate": {},
+                    "retrieved_at": retrieved,
+                    "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+                    "reason": "FEC bulk Schedule A extract is not in this checkout. Names are not invented.",
+                    "do_not_sell_donor_lists": True,
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+    if existing_csc:
+        print("Preserving committed csc-donors.json (Hawaii CSC SODA extract).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote", OUT)
     print("ZIPs", len(zips_compact), "HI contests", len(hi_contests), "federal states", len(federal_plain))

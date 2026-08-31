@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sanity-check gold-template ZIPs against generated JSON."""
+"""Sanity-check gold-template ZIPs and committed donor extracts."""
 import json
 from pathlib import Path
 
@@ -7,6 +7,8 @@ ROOT = Path(__file__).resolve().parents[1] / "public" / "data"
 zips = json.loads((ROOT / "zips.json").read_text())
 hi = json.loads((ROOT / "hawaii.json").read_text())
 fed = json.loads((ROOT / "federal.json").read_text())
+donors = json.loads((ROOT / "donors.json").read_text())
+csc = json.loads((ROOT / "csc-donors.json").read_text())
 
 errors = []
 
@@ -39,9 +41,117 @@ if not r or r.get("s") != "WY" or r["cd"][0][0] != "00":
 if not fed.get("WY", {}).get("senate_regular_2026"):
     errors.append("WY should have a 2026 Senate class II seat")
 
+# Federal Schedule A bulk extract
+if donors.get("fec_api_key_present"):
+    errors.append("fec_api_key_present must be false (OpenFEC/DEMO_KEY is not used)")
+src = donors.get("source_url") or ""
+if "open.fec.gov" in src:
+    errors.append("donors.json must not use OpenFEC / DEMO_KEY")
+if "indiv26.zip" not in src:
+    errors.append(f"donors.json source_url should be FEC bulk indiv26, got {src}")
+if not donors.get("retrieved_at"):
+    errors.append("donors.json missing retrieved_at")
+if not donors.get("by_candidate"):
+    errors.append("donors.json by_candidate is empty")
+if not donors.get("do_not_sell_donor_lists"):
+    errors.append("donors.json must say do_not_sell_donor_lists")
+policy = donors.get("policy") or ""
+if "OpenFEC" not in policy or "not sold" not in policy.lower():
+    errors.append("donor policy must name official FEC bulk, no invented names, do not sell lists")
+
+expected = {
+    "H2HI02128": 430,
+    "H2HI02581": 604,
+    "H6HI01311": 795,
+    "H6HI01345": 118,
+    "H6HI02426": 74,
+    "H6HI01337": 0,
+    "H6HI01352": 0,
+    "H6HI01360": 0,
+    "H6HI01378": 0,
+    "H6HI01386": 0,
+    "S6HI00313": 0,
+    "S6HI00321": 0,
+}
+for cid, n in expected.items():
+    row = (donors.get("by_candidate") or {}).get(cid) or {}
+    got = row.get("item_count_all")
+    if got != n:
+        errors.append(f"{cid} item_count_all {got} != this extract {n}")
+    items = row.get("items") or []
+    if n > 0:
+        if len(items) != min(25, n):
+            errors.append(f"{cid} expected top {min(25, n)} items, got {len(items)}")
+        for it in items:
+            if not it.get("contributor_name"):
+                errors.append(f"{cid} item missing contributor_name")
+            if not it.get("fec_url"):
+                errors.append(f"{cid} item missing fec_url")
+            if it.get("amount") is None:
+                errors.append(f"{cid} item missing amount")
+    else:
+        if items:
+            errors.append(f"{cid} honest-empty should have no items")
+
+gelt = (donors.get("by_candidate") or {}).get("H6HI01378") or {}
+if gelt.get("committee_id"):
+    errors.append("Gelt must have no PCC")
+sol = (donors.get("by_candidate") or {}).get("S6HI00321") or {}
+if sol.get("committee_id"):
+    errors.append("Solomon must have no PCC (do not use joint C00915710)")
+if sol.get("committee_id") == "C00915710":
+    errors.append("Solomon extract used joint committee C00915710")
+case = (donors.get("by_candidate") or {}).get("H2HI02128") or {}
+if not (case.get("items") or [{}])[0].get("contributor_name"):
+    errors.append("Case top donor name missing")
+
+# Hawaii CSC
+if hi.get("state_filings", {}).get("donors", {}).get("status") != "sourced":
+    errors.append("hawaii.json state_filings.donors must be sourced")
+if hi.get("state_filings", {}).get("csc_public") != "https://csc.hawaii.gov/CFSPublic/":
+    errors.append("CFS public link missing")
+if "view-searchable-data" not in (hi.get("state_filings", {}).get("csc_searchable") or ""):
+    errors.append("CSC searchable landing missing")
+if csc.get("row_count") != 18108:
+    errors.append(f"csc row_count {csc.get('row_count')} != 18108")
+if not csc.get("streets_omitted"):
+    errors.append("csc-donors.json must omit street addresses")
+street_keys = {"street", "address", "addr", "contributor_street_1", "contributor_street_2"}
+for rec in (csc.get("by_candidate") or {}).values():
+    for it in rec.get("items") or []:
+        if street_keys & set(k.lower() for k in it.keys()):
+            errors.append("csc-donors item has a street-address field")
+            break
+        if not it.get("source_url") or not it.get("retrieved_at"):
+            errors.append("csc item missing source_url or retrieved_at")
+            break
+    else:
+        continue
+    break
+unmatched = csc.get("unmatched_official_names") or []
+if len(unmatched) != (csc.get("counts") or {}).get("unmatched"):
+    errors.append("unmatched official names not kept/flagged")
+iw = next((v for v in csc["by_candidate"].values() if v.get("matched_site_nominee") == "IWAMOTO, Kim Coco"), None)
+if not iw or not iw.get("items"):
+    errors.append("Iwamoto CSC match missing items")
+if not csc.get("retrieved_at") or not csc.get("source_url"):
+    errors.append("csc-donors.json missing source_url/retrieved_at")
+if "hicscdata.hawaii.gov" not in (csc.get("source_url") or ""):
+    errors.append("csc source_url should be official SODA")
+
 if errors:
     print("FAIL")
     for e in errors:
         print(" -", e)
     raise SystemExit(1)
 print("OK gold ZIPs 96813, 90210, 82001")
+print(
+    "OK donors Case",
+    case.get("item_count_all"),
+    "Tokuda",
+    donors["by_candidate"]["H2HI02581"]["item_count_all"],
+    "CSC rows",
+    csc.get("row_count"),
+    "unmatched",
+    len(unmatched),
+)

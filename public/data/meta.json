@@ -41,8 +41,8 @@
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "retrieved_at": "2026-08-27T21:45:46Z",
-      "note": "FEC candidate master file for the 2025–2026 cycle (House and Senate, election year 2026)."
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "FEC candidate master (principal campaign committee id)."
     },
     {
       "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
@@ -55,33 +55,48 @@
       "note": "U.S. Senate senators contact XML."
     },
     {
-      "url": "https://api.open.fec.gov/v1/schedules/schedule_a/",
-      "retrieved_at": "2026-08-27T21:45:46Z",
-      "note": "FEC_API_KEY not set. Federal Schedule A $200+ donor names are not shown (honest-empty)."
-    },
-    {
       "url": "https://www.fec.gov/data/receipts/individual-contributions/",
-      "retrieved_at": "2026-08-27T21:45:46Z",
-      "note": "FEC public individual contribution search (Schedule A)."
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "FEC public individual contribution search. Displayed federal $200+ names come from official bulk indiv26, not OpenFEC."
     },
     {
       "url": "https://csc.hawaii.gov/CFSPublic/",
-      "retrieved_at": "2026-08-27T21:45:46Z",
-      "note": "Hawaii Campaign Spending Commission Candidate Filing System public site."
+      "retrieved_at": "2026-08-31T14:42:24Z",
+      "note": "Hawaii Campaign Spending Commission Candidate Filing System public site (CFS links kept)."
     },
     {
       "url": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
-      "retrieved_at": "2026-08-27T21:45:46Z",
-      "note": "Hawaii CSC searchable candidate committee data (Schedule A–F). State donor rows are linked, not scraped."
+      "retrieved_at": "2026-08-31T14:42:24Z",
+      "note": "Hawaii CSC searchable candidate committee data landing. State Schedule A names come from the official SODA extract (csc-donors.json), not from a scrape of this page."
     },
     {
       "url": "https://elections.hawaii.gov/candidates/candidate-reports/",
       "retrieved_at": "2026-08-27T21:45:46Z",
       "note": "Hawaii Office of Elections candidate reports page."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "FEC individual contributions bulk file (itcont.txt). Schedule A $200+ for HI 2026 House/Senate. MEMO_CD=X skipped. OpenFEC/DEMO_KEY not used."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "FEC candidate-committee linkage. Joint committees (CMTE_DSGN=J) are not treated as PCC."
+    },
+    {
+      "url": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "note": "Individual contributions file layout."
+    },
+    {
+      "url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
+      "retrieved_at": "2026-08-31T14:42:24Z",
+      "note": "Hawaii CSC SODA Schedule A (jexd-xbcg), election_period contains 2026. Street addresses omitted from the public extract."
     }
   ],
   "fec_api_key_present": false,
-  "donor_policy": "FEC_API_KEY not set. Federal Schedule A $200+ donor names are not shown (honest-empty).",
+  "donor_policy": "Official FEC bulk Schedule A individual receipts of $200+ from indiv26.zip (plus cn26/ccl26 for committee linkage). MEMO_CD=X rows skipped. Names are copied from the filing extract only and are never invented. Donor lists are not sold. OpenFEC/DEMO_KEY is not used.",
   "rules": [
     "Official and primary sources only.",
     "No Ballotpedia or BallotReady scrape.",
@@ -90,5 +105,43 @@
     "If sources disagree, show both and flag.",
     "Never invent votes or donor names.",
     "Lookup is always free."
-  ]
+  ],
+  "donor_extracts": {
+    "federal": {
+      "path": "/data/donors.json",
+      "retrieved_at": "2026-08-31T14:40:58Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "item_counts": {
+        "H2HI02128": 430,
+        "H2HI02581": 604,
+        "H6HI01311": 795,
+        "H6HI01337": 0,
+        "H6HI01345": 118,
+        "H6HI01352": 0,
+        "H6HI01360": 0,
+        "H6HI01378": 0,
+        "H6HI01386": 0,
+        "H6HI02426": 74,
+        "S6HI00313": 0,
+        "S6HI00321": 0
+      },
+      "disagreement_flags": []
+    },
+    "hawaii_csc": {
+      "path": "/data/csc-donors.json",
+      "retrieved_at": "2026-08-31T14:42:24Z",
+      "source_url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
+      "counts": {
+        "rows": 18108,
+        "candidates": 246,
+        "ok": 82,
+        "unmatched": 164,
+        "empty": 0,
+        "election_periods": [
+          "2022-2026",
+          "2024-2026"
+        ]
+      }
+    }
+  }
 }
