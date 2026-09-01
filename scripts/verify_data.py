@@ -25,6 +25,11 @@ if "IWAMOTO, Kim Coco" not in {n["name"] for n in hi["nominees"].get("State Repr
     errors.append("HD25 nominee missing Iwamoto")
 if "NAKAMATSU, Tricia Kwai Lin" not in {n["name"] for n in hi["nominees"].get("State Senator, Dist 13", [])}:
     errors.append("SD13 nominee missing Nakamatsu")
+sd18v = hi["nominees"].get("State Senator, Dist 18 Vacancy") or []
+if not any((n.get("name") or "") == "BASS, Danielle Maliekekai" for n in sd18v):
+    errors.append("SD18 Vacancy OLVR nominee missing BASS, Danielle Maliekekai")
+elif any("primary_votes" in n for n in sd18v if n.get("name") == "BASS, Danielle Maliekekai"):
+    errors.append("Bass SD18 Vacancy must not invent primary_votes")
 
 r = zips.get("90210")
 if not r or r.get("s") != "CA":

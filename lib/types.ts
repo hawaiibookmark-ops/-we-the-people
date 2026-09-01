@@ -40,8 +40,12 @@ export type HiNominee = {
   party: string;
   party_code: string;
   name: string | null;
-  primary_votes: number | null;
+  primary_votes?: number | null;
   field: string;
+  legal_name?: string;
+  status?: string;
+  source_url?: string;
+  retrieved_at?: string;
 };
 
 export type IncumbentHouse = {

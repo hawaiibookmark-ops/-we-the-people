@@ -294,6 +294,21 @@
         "field": "general_nominee"
       }
     ],
+    "State Senator, Dist 18 Vacancy": [
+      {
+        "office": "State Senator, Dist 18 Vacancy",
+        "kind": "state_senate",
+        "district": "18",
+        "party": "Democratic Party",
+        "party_code": "D",
+        "name": "BASS, Danielle Maliekekai",
+        "legal_name": "DANIELLE MARIE MALIEKEKAI BASS",
+        "field": "general_nominee",
+        "status": "In General",
+        "source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "retrieved_at": "2026-09-01T18:10:47.519Z"
+      }
+    ],
     "State Senator, Dist 19 Vacancy": [
       {
         "office": "State Senator, Dist 19 Vacancy",

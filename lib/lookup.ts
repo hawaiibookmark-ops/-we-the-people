@@ -855,7 +855,15 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             list: "general_nominee" as const,
             votes: votesFor({ isHiState: true, candidateName: n.name || undefined }),
             donors: donorFor(undefined, true, n.name || undefined),
-            sources: [{ url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" }],
+            sources: [
+              n.source_url
+                ? {
+                    url: n.source_url,
+                    retrieved_at: n.retrieved_at || hiOe.retrieved_at,
+                    label: "Hawaii Office of Elections Online Voter Registration candidate filing (OLVR)",
+                  }
+                : { url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" },
+            ],
           })),
           emptyNote: noms.length ? undefined : "No certified party nominee row found for this Senate district in the 2026 primary summary.",
         });
