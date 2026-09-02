@@ -1046,18 +1046,63 @@ if (ROOT / "mi" / "fec-donors.json").exists():
     if mifec.get("row_count") != 54868 or mifec.get("candidate_count") != 127:
         errors.append(f"MI FEC {mifec.get('row_count')}/{mifec.get('candidate_count')} != 54868/127")
 
-# New York: votes + FEC + NYSBOE; no candidates (Who Filed blocked)
+# New York: Who Filed 1685 (1338 pri + 347 gen / 175 keys) + votes + FEC + NYSBOE
 ny_stub_path = ROOT / "ny.json"
 if not ny_stub_path.exists():
     errors.append("missing public/data/ny.json")
 else:
     nyj = json.loads(ny_stub_path.read_text())
-    if nyj.get("candidates_path"):
-        errors.append("ny.json must not claim candidates while Who Filed is blocked")
+    if nyj.get("candidates_path") != "/data/ny/candidates.json":
+        errors.append("ny.json candidates_path missing")
     if nyj.get("votes_path") != "/data/ny/votes.json":
         errors.append("ny.json votes_path missing")
     if any("ballotpedia" in u.lower() for u in _urls(nyj)):
         errors.append("ny.json must not use Ballotpedia")
+    cand_block = ((nyj.get("state_filings") or {}).get("candidates") or {})
+    if cand_block.get("status") != "partial" or cand_block.get("complete") is not False:
+        errors.append("ny.json candidates must be partial complete=false")
+    if cand_block.get("path") != "/data/ny/candidates.json":
+        errors.append("ny.json candidates.path missing")
+    counts = cand_block.get("counts") or {}
+    if counts.get("rows") != 1685 or counts.get("primary") != 1338 or counts.get("general") != 347 or counts.get("contest_keys") != 175:
+        errors.append(f"ny.json Who Filed counts {counts}")
+ny_cands_path = ROOT / "ny" / "candidates.json"
+if not ny_cands_path.exists():
+    errors.append("missing public/data/ny/candidates.json")
+else:
+    ny_cands = json.loads(ny_cands_path.read_text())
+    if not isinstance(ny_cands, list) or len(ny_cands) != 1685:
+        errors.append(f"NY candidates.json rows {len(ny_cands) if isinstance(ny_cands, list) else type(ny_cands)} != 1685")
+    else:
+        kinds = Counter(r.get("list_kind") for r in ny_cands)
+        if kinds.get("who_filed_primary") != 1338 or kinds.get("who_filed_general") != 347:
+            errors.append(f"NY list_kind split {dict(kinds)} != 1338/347")
+        keys = {r.get("contest_key") for r in ny_cands}
+        if len(keys) != 175:
+            errors.append(f"NY contest_keys {len(keys)} != 175")
+        if any(not str(r.get("contest_key") or "").startswith("NY|") or str(r.get("contest_key") or "").count("|") != 3 for r in ny_cands):
+            errors.append("NY contest_key must be NY|OFFICE|DIST|DIST2")
+        if any(r.get("complete") is not False for r in ny_cands):
+            errors.append("NY candidates must be labeled complete=false")
+        if any(r.get("retrieved_at") != "2026-09-02T17:06:00Z" for r in ny_cands):
+            errors.append("NY candidates retrieved_at must be 2026-09-02T17:06:00Z")
+        if any("publicreporting.elections.ny.gov/WhoFiled" not in (r.get("source_url") or "") for r in ny_cands):
+            errors.append("NY candidates source_url must be official NYSBOE Who Filed")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in ny_cands):
+            errors.append("NY candidates must not use Ballotpedia")
+        if not any(r.get("candidate_name") == "Kathy C. Hochul" for r in ny_cands):
+            errors.append("NY list missing filed name Kathy C. Hochul")
+        if not any(r.get("candidate_name") == "George S. Latimer" for r in ny_cands):
+            errors.append("NY list missing filed name George S. Latimer")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in ny_cands):
+            errors.append("NY candidates must omit streets/email/phone")
+if (ROOT / "ny" / "candidate-summary.json").exists():
+    ny_sum = json.loads((ROOT / "ny" / "candidate-summary.json").read_text())
+    if ny_sum.get("row_count") != 1685 or ny_sum.get("contest_key_count") != 175 or ny_sum.get("complete") is not False:
+        errors.append(f"NY candidate-summary {ny_sum}")
+else:
+    errors.append("missing public/data/ny/candidate-summary.json")
 _check_votes(ROOT / "ny" / "votes.json", "NY", 1100, {"S000148", "G000555"})
 if (ROOT / "ny" / "fec-donors.json").exists():
     nyfec = json.loads((ROOT / "ny" / "fec-donors.json").read_text())
@@ -1504,6 +1549,8 @@ if (ROOT / "ny" / "votes.json").exists():
         json.loads((ROOT / "ny" / "votes.json").read_text()).get("count"),
         "NY FEC",
         json.loads((ROOT / "ny" / "fec-donors.json").read_text()).get("row_count"),
+        "NY ballots",
+        len(json.loads((ROOT / "ny" / "candidates.json").read_text())) if (ROOT / "ny" / "candidates.json").exists() else 0,
     )
 if (ROOT / "tx" / "candidates.json").exists():
     print(

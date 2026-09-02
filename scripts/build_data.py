@@ -908,6 +908,8 @@ def main() -> int:
         print("Preserving committed ny/fec-donors.json (FEC Schedule A $200+).", flush=True)
     if (OUT / "ny" / "nysboe-donors.json").exists():
         print("Preserving committed ny/nysboe-donors.json (NYSBOE SODA A-D).", flush=True)
+    if (OUT / "ny" / "candidates.json").exists():
+        print("Preserving committed ny/candidates.json (NYSBOE Who Filed 2026).", flush=True)
     if (OUT / "tx.json").exists():
         print("Preserving committed tx.json (Texas state module stub).", flush=True)
     if (OUT / "tx" / "candidates.json").exists():
