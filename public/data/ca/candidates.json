@@ -1,7 +1,7 @@
 [
   {
     "state": "CA",
-    "contest_key": "Governor",
+    "contest_key": "CA|Governor||",
     "office": "Governor",
     "district": null,
     "party": "Democratic",
@@ -13,7 +13,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Governor",
+    "contest_key": "CA|Governor||",
     "office": "Governor",
     "district": null,
     "party": "Republican",
@@ -25,7 +25,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Lieutenant Governor",
+    "contest_key": "CA|Lieutenant Governor||",
     "office": "Lieutenant Governor",
     "district": null,
     "party": "Democratic",
@@ -37,7 +37,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Lieutenant Governor",
+    "contest_key": "CA|Lieutenant Governor||",
     "office": "Lieutenant Governor",
     "district": null,
     "party": "Republican",
@@ -49,7 +49,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Secretary of State",
+    "contest_key": "CA|Secretary of State||",
     "office": "Secretary of State",
     "district": null,
     "party": "Democratic",
@@ -61,7 +61,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Secretary of State",
+    "contest_key": "CA|Secretary of State||",
     "office": "Secretary of State",
     "district": null,
     "party": "Republican",
@@ -73,7 +73,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Controller",
+    "contest_key": "CA|Controller||",
     "office": "Controller",
     "district": null,
     "party": "Democratic",
@@ -85,7 +85,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Controller",
+    "contest_key": "CA|Controller||",
     "office": "Controller",
     "district": null,
     "party": "Republican",
@@ -97,7 +97,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Treasurer",
+    "contest_key": "CA|Treasurer||",
     "office": "Treasurer",
     "district": null,
     "party": "Democratic",
@@ -109,7 +109,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Treasurer",
+    "contest_key": "CA|Treasurer||",
     "office": "Treasurer",
     "district": null,
     "party": "Republican",
@@ -121,7 +121,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Attorney General",
+    "contest_key": "CA|Attorney General||",
     "office": "Attorney General",
     "district": null,
     "party": "Democratic",
@@ -133,7 +133,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Attorney General",
+    "contest_key": "CA|Attorney General||",
     "office": "Attorney General",
     "district": null,
     "party": "Republican",
@@ -145,7 +145,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Insurance Commissioner",
+    "contest_key": "CA|Insurance Commissioner||",
     "office": "Insurance Commissioner",
     "district": null,
     "party": "Democratic",
@@ -157,7 +157,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Insurance Commissioner",
+    "contest_key": "CA|Insurance Commissioner||",
     "office": "Insurance Commissioner",
     "district": null,
     "party": "Democratic",
@@ -169,7 +169,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Superintendent of Public Instruction",
+    "contest_key": "CA|Superintendent of Public Instruction||",
     "office": "Superintendent of Public Instruction",
     "district": null,
     "party": "Non-Partisan",
@@ -181,7 +181,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Superintendent of Public Instruction",
+    "contest_key": "CA|Superintendent of Public Instruction||",
     "office": "Superintendent of Public Instruction",
     "district": null,
     "party": "Non-Partisan",
@@ -193,7 +193,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Board of Equalization, Dist 1",
+    "contest_key": "CA|Board of Equalization Member|1|",
     "office": "Board of Equalization Member",
     "district": "1",
     "party": "Democratic",
@@ -205,7 +205,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Board of Equalization, Dist 1",
+    "contest_key": "CA|Board of Equalization Member|1|",
     "office": "Board of Equalization Member",
     "district": "1",
     "party": "Republican",
@@ -217,7 +217,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Board of Equalization, Dist 2",
+    "contest_key": "CA|Board of Equalization Member|2|",
     "office": "Board of Equalization Member",
     "district": "2",
     "party": "Democratic",
@@ -229,7 +229,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Board of Equalization, Dist 2",
+    "contest_key": "CA|Board of Equalization Member|2|",
     "office": "Board of Equalization Member",
     "district": "2",
     "party": "Democratic",
@@ -241,7 +241,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Board of Equalization, Dist 3",
+    "contest_key": "CA|Board of Equalization Member|3|",
     "office": "Board of Equalization Member",
     "district": "3",
     "party": "Democratic",
@@ -253,7 +253,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Board of Equalization, Dist 3",
+    "contest_key": "CA|Board of Equalization Member|3|",
     "office": "Board of Equalization Member",
     "district": "3",
     "party": "Democratic",
@@ -265,7 +265,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Board of Equalization, Dist 4",
+    "contest_key": "CA|Board of Equalization Member|4|",
     "office": "Board of Equalization Member",
     "district": "4",
     "party": "Democratic",
@@ -277,7 +277,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Board of Equalization, Dist 4",
+    "contest_key": "CA|Board of Equalization Member|4|",
     "office": "Board of Equalization Member",
     "district": "4",
     "party": "Republican",
@@ -289,7 +289,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 1",
+    "contest_key": "CA|United States Representative|1|",
     "office": "United States Representative",
     "district": "1",
     "party": "Democratic",
@@ -301,7 +301,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 1",
+    "contest_key": "CA|United States Representative|1|",
     "office": "United States Representative",
     "district": "1",
     "party": "Republican",
@@ -313,7 +313,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 2",
+    "contest_key": "CA|United States Representative|2|",
     "office": "United States Representative",
     "district": "2",
     "party": "Democratic",
@@ -325,7 +325,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 2",
+    "contest_key": "CA|United States Representative|2|",
     "office": "United States Representative",
     "district": "2",
     "party": "Republican",
@@ -337,7 +337,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 3",
+    "contest_key": "CA|United States Representative|3|",
     "office": "United States Representative",
     "district": "3",
     "party": "Democratic",
@@ -349,7 +349,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 3",
+    "contest_key": "CA|United States Representative|3|",
     "office": "United States Representative",
     "district": "3",
     "party": "Republican",
@@ -361,7 +361,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 4",
+    "contest_key": "CA|United States Representative|4|",
     "office": "United States Representative",
     "district": "4",
     "party": "Democratic",
@@ -373,7 +373,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 4",
+    "contest_key": "CA|United States Representative|4|",
     "office": "United States Representative",
     "district": "4",
     "party": "Democratic",
@@ -385,7 +385,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 5",
+    "contest_key": "CA|United States Representative|5|",
     "office": "United States Representative",
     "district": "5",
     "party": "Democratic",
@@ -397,7 +397,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 5",
+    "contest_key": "CA|United States Representative|5|",
     "office": "United States Representative",
     "district": "5",
     "party": "Republican",
@@ -409,7 +409,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 6",
+    "contest_key": "CA|United States Representative|6|",
     "office": "United States Representative",
     "district": "6",
     "party": "Democratic",
@@ -421,7 +421,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 6",
+    "contest_key": "CA|United States Representative|6|",
     "office": "United States Representative",
     "district": "6",
     "party": "No Party Preference",
@@ -433,7 +433,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 7",
+    "contest_key": "CA|United States Representative|7|",
     "office": "United States Representative",
     "district": "7",
     "party": "Democratic",
@@ -445,7 +445,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 7",
+    "contest_key": "CA|United States Representative|7|",
     "office": "United States Representative",
     "district": "7",
     "party": "Democratic",
@@ -457,7 +457,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 8",
+    "contest_key": "CA|United States Representative|8|",
     "office": "United States Representative",
     "district": "8",
     "party": "Democratic",
@@ -469,7 +469,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 8",
+    "contest_key": "CA|United States Representative|8|",
     "office": "United States Representative",
     "district": "8",
     "party": "Republican",
@@ -481,7 +481,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 9",
+    "contest_key": "CA|United States Representative|9|",
     "office": "United States Representative",
     "district": "9",
     "party": "Democratic",
@@ -493,7 +493,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 9",
+    "contest_key": "CA|United States Representative|9|",
     "office": "United States Representative",
     "district": "9",
     "party": "Republican",
@@ -505,7 +505,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 10",
+    "contest_key": "CA|United States Representative|10|",
     "office": "United States Representative",
     "district": "10",
     "party": "Democratic",
@@ -517,7 +517,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 10",
+    "contest_key": "CA|United States Representative|10|",
     "office": "United States Representative",
     "district": "10",
     "party": "Republican",
@@ -529,7 +529,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 11",
+    "contest_key": "CA|United States Representative|11|",
     "office": "United States Representative",
     "district": "11",
     "party": "Democratic",
@@ -541,7 +541,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 11",
+    "contest_key": "CA|United States Representative|11|",
     "office": "United States Representative",
     "district": "11",
     "party": "Democratic",
@@ -553,7 +553,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 12",
+    "contest_key": "CA|United States Representative|12|",
     "office": "United States Representative",
     "district": "12",
     "party": "Democratic",
@@ -565,7 +565,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 12",
+    "contest_key": "CA|United States Representative|12|",
     "office": "United States Representative",
     "district": "12",
     "party": "Democratic",
@@ -577,7 +577,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 13",
+    "contest_key": "CA|United States Representative|13|",
     "office": "United States Representative",
     "district": "13",
     "party": "Democratic",
@@ -589,7 +589,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 13",
+    "contest_key": "CA|United States Representative|13|",
     "office": "United States Representative",
     "district": "13",
     "party": "Republican",
@@ -601,7 +601,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 14",
+    "contest_key": "CA|United States Representative|14|",
     "office": "United States Representative",
     "district": "14",
     "party": "Democratic",
@@ -613,7 +613,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 14",
+    "contest_key": "CA|United States Representative|14|",
     "office": "United States Representative",
     "district": "14",
     "party": "Democratic",
@@ -625,7 +625,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 15",
+    "contest_key": "CA|United States Representative|15|",
     "office": "United States Representative",
     "district": "15",
     "party": "Democratic",
@@ -637,7 +637,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 15",
+    "contest_key": "CA|United States Representative|15|",
     "office": "United States Representative",
     "district": "15",
     "party": "Republican",
@@ -649,7 +649,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 16",
+    "contest_key": "CA|United States Representative|16|",
     "office": "United States Representative",
     "district": "16",
     "party": "Democratic",
@@ -661,7 +661,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 16",
+    "contest_key": "CA|United States Representative|16|",
     "office": "United States Representative",
     "district": "16",
     "party": "Republican",
@@ -673,7 +673,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 17",
+    "contest_key": "CA|United States Representative|17|",
     "office": "United States Representative",
     "district": "17",
     "party": "Democratic",
@@ -685,7 +685,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 17",
+    "contest_key": "CA|United States Representative|17|",
     "office": "United States Representative",
     "district": "17",
     "party": "Republican",
@@ -697,7 +697,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 18",
+    "contest_key": "CA|United States Representative|18|",
     "office": "United States Representative",
     "district": "18",
     "party": "Democratic",
@@ -709,7 +709,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 18",
+    "contest_key": "CA|United States Representative|18|",
     "office": "United States Representative",
     "district": "18",
     "party": "Republican",
@@ -721,7 +721,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 19",
+    "contest_key": "CA|United States Representative|19|",
     "office": "United States Representative",
     "district": "19",
     "party": "Democratic",
@@ -733,7 +733,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 19",
+    "contest_key": "CA|United States Representative|19|",
     "office": "United States Representative",
     "district": "19",
     "party": "Republican",
@@ -745,7 +745,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 20",
+    "contest_key": "CA|United States Representative|20|",
     "office": "United States Representative",
     "district": "20",
     "party": "Democratic",
@@ -757,7 +757,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 20",
+    "contest_key": "CA|United States Representative|20|",
     "office": "United States Representative",
     "district": "20",
     "party": "Republican",
@@ -769,7 +769,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 21",
+    "contest_key": "CA|United States Representative|21|",
     "office": "United States Representative",
     "district": "21",
     "party": "Democratic",
@@ -781,7 +781,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 21",
+    "contest_key": "CA|United States Representative|21|",
     "office": "United States Representative",
     "district": "21",
     "party": "Republican",
@@ -793,7 +793,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 22",
+    "contest_key": "CA|United States Representative|22|",
     "office": "United States Representative",
     "district": "22",
     "party": "Democratic",
@@ -805,7 +805,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 22",
+    "contest_key": "CA|United States Representative|22|",
     "office": "United States Representative",
     "district": "22",
     "party": "Republican",
@@ -817,7 +817,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 23",
+    "contest_key": "CA|United States Representative|23|",
     "office": "United States Representative",
     "district": "23",
     "party": "Democratic",
@@ -829,7 +829,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 23",
+    "contest_key": "CA|United States Representative|23|",
     "office": "United States Representative",
     "district": "23",
     "party": "Republican",
@@ -841,7 +841,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 24",
+    "contest_key": "CA|United States Representative|24|",
     "office": "United States Representative",
     "district": "24",
     "party": "Democratic",
@@ -853,7 +853,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 24",
+    "contest_key": "CA|United States Representative|24|",
     "office": "United States Representative",
     "district": "24",
     "party": "Republican",
@@ -865,7 +865,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 25",
+    "contest_key": "CA|United States Representative|25|",
     "office": "United States Representative",
     "district": "25",
     "party": "Democratic",
@@ -877,7 +877,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 25",
+    "contest_key": "CA|United States Representative|25|",
     "office": "United States Representative",
     "district": "25",
     "party": "Republican",
@@ -889,7 +889,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 26",
+    "contest_key": "CA|United States Representative|26|",
     "office": "United States Representative",
     "district": "26",
     "party": "Democratic",
@@ -901,7 +901,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 26",
+    "contest_key": "CA|United States Representative|26|",
     "office": "United States Representative",
     "district": "26",
     "party": "Republican",
@@ -913,7 +913,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 27",
+    "contest_key": "CA|United States Representative|27|",
     "office": "United States Representative",
     "district": "27",
     "party": "Democratic",
@@ -925,7 +925,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 27",
+    "contest_key": "CA|United States Representative|27|",
     "office": "United States Representative",
     "district": "27",
     "party": "Republican",
@@ -937,7 +937,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 28",
+    "contest_key": "CA|United States Representative|28|",
     "office": "United States Representative",
     "district": "28",
     "party": "Democratic",
@@ -949,7 +949,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 28",
+    "contest_key": "CA|United States Representative|28|",
     "office": "United States Representative",
     "district": "28",
     "party": "Republican",
@@ -961,7 +961,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 29",
+    "contest_key": "CA|United States Representative|29|",
     "office": "United States Representative",
     "district": "29",
     "party": "Democratic",
@@ -973,7 +973,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 29",
+    "contest_key": "CA|United States Representative|29|",
     "office": "United States Representative",
     "district": "29",
     "party": "Democratic",
@@ -985,7 +985,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 30",
+    "contest_key": "CA|United States Representative|30|",
     "office": "United States Representative",
     "district": "30",
     "party": "Democratic",
@@ -997,7 +997,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 30",
+    "contest_key": "CA|United States Representative|30|",
     "office": "United States Representative",
     "district": "30",
     "party": "Republican",
@@ -1009,7 +1009,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 31",
+    "contest_key": "CA|United States Representative|31|",
     "office": "United States Representative",
     "district": "31",
     "party": "Democratic",
@@ -1021,7 +1021,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 31",
+    "contest_key": "CA|United States Representative|31|",
     "office": "United States Representative",
     "district": "31",
     "party": "Republican",
@@ -1033,7 +1033,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 32",
+    "contest_key": "CA|United States Representative|32|",
     "office": "United States Representative",
     "district": "32",
     "party": "Democratic",
@@ -1045,7 +1045,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 32",
+    "contest_key": "CA|United States Representative|32|",
     "office": "United States Representative",
     "district": "32",
     "party": "Republican",
@@ -1057,7 +1057,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 33",
+    "contest_key": "CA|United States Representative|33|",
     "office": "United States Representative",
     "district": "33",
     "party": "Democratic",
@@ -1069,7 +1069,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 33",
+    "contest_key": "CA|United States Representative|33|",
     "office": "United States Representative",
     "district": "33",
     "party": "Republican",
@@ -1081,7 +1081,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 34",
+    "contest_key": "CA|United States Representative|34|",
     "office": "United States Representative",
     "district": "34",
     "party": "Democratic",
@@ -1093,7 +1093,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 34",
+    "contest_key": "CA|United States Representative|34|",
     "office": "United States Representative",
     "district": "34",
     "party": "Democratic",
@@ -1105,7 +1105,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 35",
+    "contest_key": "CA|United States Representative|35|",
     "office": "United States Representative",
     "district": "35",
     "party": "Democratic",
@@ -1117,7 +1117,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 35",
+    "contest_key": "CA|United States Representative|35|",
     "office": "United States Representative",
     "district": "35",
     "party": "Republican",
@@ -1129,7 +1129,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 36",
+    "contest_key": "CA|United States Representative|36|",
     "office": "United States Representative",
     "district": "36",
     "party": "Democratic",
@@ -1141,7 +1141,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 36",
+    "contest_key": "CA|United States Representative|36|",
     "office": "United States Representative",
     "district": "36",
     "party": "Republican",
@@ -1153,7 +1153,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 37",
+    "contest_key": "CA|United States Representative|37|",
     "office": "United States Representative",
     "district": "37",
     "party": "Democratic",
@@ -1165,7 +1165,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 37",
+    "contest_key": "CA|United States Representative|37|",
     "office": "United States Representative",
     "district": "37",
     "party": "Democratic",
@@ -1177,7 +1177,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 38",
+    "contest_key": "CA|United States Representative|38|",
     "office": "United States Representative",
     "district": "38",
     "party": "Democratic",
@@ -1189,7 +1189,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 38",
+    "contest_key": "CA|United States Representative|38|",
     "office": "United States Representative",
     "district": "38",
     "party": "Republican",
@@ -1201,7 +1201,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 39",
+    "contest_key": "CA|United States Representative|39|",
     "office": "United States Representative",
     "district": "39",
     "party": "Democratic",
@@ -1213,7 +1213,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 39",
+    "contest_key": "CA|United States Representative|39|",
     "office": "United States Representative",
     "district": "39",
     "party": "Republican",
@@ -1225,7 +1225,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 40",
+    "contest_key": "CA|United States Representative|40|",
     "office": "United States Representative",
     "district": "40",
     "party": "Republican",
@@ -1237,7 +1237,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 40",
+    "contest_key": "CA|United States Representative|40|",
     "office": "United States Representative",
     "district": "40",
     "party": "Republican",
@@ -1249,7 +1249,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 41",
+    "contest_key": "CA|United States Representative|41|",
     "office": "United States Representative",
     "district": "41",
     "party": "Democratic",
@@ -1261,7 +1261,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 41",
+    "contest_key": "CA|United States Representative|41|",
     "office": "United States Representative",
     "district": "41",
     "party": "Republican",
@@ -1273,7 +1273,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 42",
+    "contest_key": "CA|United States Representative|42|",
     "office": "United States Representative",
     "district": "42",
     "party": "Democratic",
@@ -1285,7 +1285,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 42",
+    "contest_key": "CA|United States Representative|42|",
     "office": "United States Representative",
     "district": "42",
     "party": "Republican",
@@ -1297,7 +1297,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 43",
+    "contest_key": "CA|United States Representative|43|",
     "office": "United States Representative",
     "district": "43",
     "party": "Democratic",
@@ -1309,7 +1309,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 43",
+    "contest_key": "CA|United States Representative|43|",
     "office": "United States Representative",
     "district": "43",
     "party": "Republican",
@@ -1321,7 +1321,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 44",
+    "contest_key": "CA|United States Representative|44|",
     "office": "United States Representative",
     "district": "44",
     "party": "Democratic",
@@ -1333,7 +1333,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 44",
+    "contest_key": "CA|United States Representative|44|",
     "office": "United States Representative",
     "district": "44",
     "party": "Republican",
@@ -1345,7 +1345,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 45",
+    "contest_key": "CA|United States Representative|45|",
     "office": "United States Representative",
     "district": "45",
     "party": "Democratic",
@@ -1357,7 +1357,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 45",
+    "contest_key": "CA|United States Representative|45|",
     "office": "United States Representative",
     "district": "45",
     "party": "Republican",
@@ -1369,7 +1369,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 46",
+    "contest_key": "CA|United States Representative|46|",
     "office": "United States Representative",
     "district": "46",
     "party": "Democratic",
@@ -1381,7 +1381,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 46",
+    "contest_key": "CA|United States Representative|46|",
     "office": "United States Representative",
     "district": "46",
     "party": "Republican",
@@ -1393,7 +1393,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 47",
+    "contest_key": "CA|United States Representative|47|",
     "office": "United States Representative",
     "district": "47",
     "party": "Democratic",
@@ -1405,7 +1405,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 47",
+    "contest_key": "CA|United States Representative|47|",
     "office": "United States Representative",
     "district": "47",
     "party": "Republican",
@@ -1417,7 +1417,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 48",
+    "contest_key": "CA|United States Representative|48|",
     "office": "United States Representative",
     "district": "48",
     "party": "Democratic",
@@ -1429,7 +1429,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 48",
+    "contest_key": "CA|United States Representative|48|",
     "office": "United States Representative",
     "district": "48",
     "party": "Republican",
@@ -1441,7 +1441,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 49",
+    "contest_key": "CA|United States Representative|49|",
     "office": "United States Representative",
     "district": "49",
     "party": "Democratic",
@@ -1453,7 +1453,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 49",
+    "contest_key": "CA|United States Representative|49|",
     "office": "United States Representative",
     "district": "49",
     "party": "Republican",
@@ -1465,7 +1465,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 50",
+    "contest_key": "CA|United States Representative|50|",
     "office": "United States Representative",
     "district": "50",
     "party": "Democratic",
@@ -1477,7 +1477,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 50",
+    "contest_key": "CA|United States Representative|50|",
     "office": "United States Representative",
     "district": "50",
     "party": "Republican",
@@ -1489,7 +1489,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 51",
+    "contest_key": "CA|United States Representative|51|",
     "office": "United States Representative",
     "district": "51",
     "party": "Democratic",
@@ -1501,7 +1501,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 51",
+    "contest_key": "CA|United States Representative|51|",
     "office": "United States Representative",
     "district": "51",
     "party": "Republican",
@@ -1513,7 +1513,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 52",
+    "contest_key": "CA|United States Representative|52|",
     "office": "United States Representative",
     "district": "52",
     "party": "Democratic",
@@ -1525,7 +1525,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "U.S. Representative, Dist 52",
+    "contest_key": "CA|United States Representative|52|",
     "office": "United States Representative",
     "district": "52",
     "party": "Republican",
@@ -1537,8 +1537,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 2",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|2|",
+    "office": "State Senate",
     "district": "2",
     "party": "Democratic",
     "candidate_name": "Damon Connolly",
@@ -1549,8 +1549,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 2",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|2|",
+    "office": "State Senate",
     "district": "2",
     "party": "Republican",
     "candidate_name": "Tief Gibbs",
@@ -1561,8 +1561,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 4",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|4|",
+    "office": "State Senate",
     "district": "4",
     "party": "Democratic",
     "candidate_name": "Jaron Brandon",
@@ -1573,8 +1573,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 4",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|4|",
+    "office": "State Senate",
     "district": "4",
     "party": "Republican",
     "candidate_name": "Alexandra Duarte",
@@ -1585,8 +1585,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 6",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|6|",
+    "office": "State Senate",
     "district": "6",
     "party": "Democratic",
     "candidate_name": "Sean Frame",
@@ -1597,8 +1597,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 6",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|6|",
+    "office": "State Senate",
     "district": "6",
     "party": "Republican",
     "candidate_name": "Roger Niello",
@@ -1609,8 +1609,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 8",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|8|",
+    "office": "State Senate",
     "district": "8",
     "party": "Democratic",
     "candidate_name": "Angelique Ashby",
@@ -1621,8 +1621,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 8",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|8|",
+    "office": "State Senate",
     "district": "8",
     "party": "Republican",
     "candidate_name": "Susan A Mason",
@@ -1633,8 +1633,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 10",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|10|",
+    "office": "State Senate",
     "district": "10",
     "party": "Democratic",
     "candidate_name": "Scott Sakakihara",
@@ -1645,8 +1645,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 10",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|10|",
+    "office": "State Senate",
     "district": "10",
     "party": "Republican",
     "candidate_name": "Linda R. Price",
@@ -1657,8 +1657,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 12",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|12|",
+    "office": "State Senate",
     "district": "12",
     "party": "Republican",
     "candidate_name": "Nathan Magsig",
@@ -1669,8 +1669,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 12",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|12|",
+    "office": "State Senate",
     "district": "12",
     "party": "Libertarian",
     "candidate_name": "William Brown Jr.",
@@ -1681,8 +1681,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 14",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|14|",
+    "office": "State Senate",
     "district": "14",
     "party": "Democratic",
     "candidate_name": "Esmeralda Soria",
@@ -1693,8 +1693,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 14",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|14|",
+    "office": "State Senate",
     "district": "14",
     "party": "Republican",
     "candidate_name": "Darin S. DuPont",
@@ -1705,8 +1705,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 16",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|16|",
+    "office": "State Senate",
     "district": "16",
     "party": "Democratic",
     "candidate_name": "Melissa Hurtado",
@@ -1717,8 +1717,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 16",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|16|",
+    "office": "State Senate",
     "district": "16",
     "party": "Republican",
     "candidate_name": "Guillermo Asuncion Gonzalez",
@@ -1729,8 +1729,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 18",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|18|",
+    "office": "State Senate",
     "district": "18",
     "party": "Democratic",
     "candidate_name": "Steve Padilla",
@@ -1741,8 +1741,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 18",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|18|",
+    "office": "State Senate",
     "district": "18",
     "party": "Republican",
     "candidate_name": "Art Hodges",
@@ -1753,8 +1753,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 20",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|20|",
+    "office": "State Senate",
     "district": "20",
     "party": "Democratic",
     "candidate_name": "Caroline Menjivar",
@@ -1765,8 +1765,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 20",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|20|",
+    "office": "State Senate",
     "district": "20",
     "party": "Republican",
     "candidate_name": "Tony Rodriguez",
@@ -1777,8 +1777,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 22",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|22|",
+    "office": "State Senate",
     "district": "22",
     "party": "Democratic",
     "candidate_name": "Susan Rubio",
@@ -1789,8 +1789,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 22",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|22|",
+    "office": "State Senate",
     "district": "22",
     "party": "Republican",
     "candidate_name": "Mike Netter",
@@ -1801,8 +1801,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 24",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|24|",
+    "office": "State Senate",
     "district": "24",
     "party": "Democratic",
     "candidate_name": "John M. Erickson",
@@ -1813,8 +1813,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 24",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|24|",
+    "office": "State Senate",
     "district": "24",
     "party": "Democratic",
     "candidate_name": "Brian Goldsmith",
@@ -1825,8 +1825,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 26",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|26|",
+    "office": "State Senate",
     "district": "26",
     "party": "Democratic",
     "candidate_name": "Sara Hernandez",
@@ -1837,8 +1837,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 26",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|26|",
+    "office": "State Senate",
     "district": "26",
     "party": "Democratic",
     "candidate_name": "Sarah Rascón",
@@ -1849,8 +1849,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 28",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|28|",
+    "office": "State Senate",
     "district": "28",
     "party": "Democratic",
     "candidate_name": "Lola Smallwood-Cuevas",
@@ -1861,8 +1861,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 28",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|28|",
+    "office": "State Senate",
     "district": "28",
     "party": "Republican",
     "candidate_name": "Joe Lisuzzo",
@@ -1873,8 +1873,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 30",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|30|",
+    "office": "State Senate",
     "district": "30",
     "party": "Democratic",
     "candidate_name": "Bob J. Archuleta",
@@ -1885,8 +1885,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 30",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|30|",
+    "office": "State Senate",
     "district": "30",
     "party": "Republican",
     "candidate_name": "Araceli Martinez",
@@ -1897,8 +1897,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 32",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|32|",
+    "office": "State Senate",
     "district": "32",
     "party": "Democratic",
     "candidate_name": "Tiffanie Tate",
@@ -1909,8 +1909,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 32",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|32|",
+    "office": "State Senate",
     "district": "32",
     "party": "Republican",
     "candidate_name": "Kelly Seyarto",
@@ -1921,8 +1921,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 34",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|34|",
+    "office": "State Senate",
     "district": "34",
     "party": "Democratic",
     "candidate_name": "Avelino Valencia",
@@ -1933,8 +1933,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 34",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|34|",
+    "office": "State Senate",
     "district": "34",
     "party": "Republican",
     "candidate_name": "Rhonda Shader",
@@ -1945,8 +1945,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 36",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|36|",
+    "office": "State Senate",
     "district": "36",
     "party": "Democratic",
     "candidate_name": "Chris Duncan",
@@ -1957,8 +1957,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 36",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|36|",
+    "office": "State Senate",
     "district": "36",
     "party": "Republican",
     "candidate_name": "Tony Strickland",
@@ -1969,8 +1969,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 38",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|38|",
+    "office": "State Senate",
     "district": "38",
     "party": "Democratic",
     "candidate_name": "Catherine S. Blakespear",
@@ -1981,8 +1981,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 38",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|38|",
+    "office": "State Senate",
     "district": "38",
     "party": "Republican",
     "candidate_name": "Laura Bassett",
@@ -1993,8 +1993,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 40",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|40|",
+    "office": "State Senate",
     "district": "40",
     "party": "Democratic",
     "candidate_name": "Mara Elliott",
@@ -2005,8 +2005,8 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Senator, Dist 40",
-    "office": "State Senator",
+    "contest_key": "CA|State Senate|40|",
+    "office": "State Senate",
     "district": "40",
     "party": "Republican",
     "candidate_name": "Kristie Bruce-Lane",
@@ -2017,7 +2017,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 1",
+    "contest_key": "CA|State Assembly Member|1|",
     "office": "State Assembly Member",
     "district": "1",
     "party": "Democratic",
@@ -2029,7 +2029,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 1",
+    "contest_key": "CA|State Assembly Member|1|",
     "office": "State Assembly Member",
     "district": "1",
     "party": "Republican",
@@ -2041,7 +2041,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 2",
+    "contest_key": "CA|State Assembly Member|2|",
     "office": "State Assembly Member",
     "district": "2",
     "party": "Democratic",
@@ -2053,7 +2053,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 2",
+    "contest_key": "CA|State Assembly Member|2|",
     "office": "State Assembly Member",
     "district": "2",
     "party": "Republican",
@@ -2065,7 +2065,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 3",
+    "contest_key": "CA|State Assembly Member|3|",
     "office": "State Assembly Member",
     "district": "3",
     "party": "Republican",
@@ -2077,7 +2077,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 3",
+    "contest_key": "CA|State Assembly Member|3|",
     "office": "State Assembly Member",
     "district": "3",
     "party": "Republican",
@@ -2089,7 +2089,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 4",
+    "contest_key": "CA|State Assembly Member|4|",
     "office": "State Assembly Member",
     "district": "4",
     "party": "Democratic",
@@ -2101,7 +2101,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 5",
+    "contest_key": "CA|State Assembly Member|5|",
     "office": "State Assembly Member",
     "district": "5",
     "party": "Democratic",
@@ -2113,7 +2113,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 5",
+    "contest_key": "CA|State Assembly Member|5|",
     "office": "State Assembly Member",
     "district": "5",
     "party": "Republican",
@@ -2125,7 +2125,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 6",
+    "contest_key": "CA|State Assembly Member|6|",
     "office": "State Assembly Member",
     "district": "6",
     "party": "Democratic",
@@ -2137,7 +2137,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 6",
+    "contest_key": "CA|State Assembly Member|6|",
     "office": "State Assembly Member",
     "district": "6",
     "party": "Democratic",
@@ -2149,7 +2149,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 7",
+    "contest_key": "CA|State Assembly Member|7|",
     "office": "State Assembly Member",
     "district": "7",
     "party": "Democratic",
@@ -2161,7 +2161,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 7",
+    "contest_key": "CA|State Assembly Member|7|",
     "office": "State Assembly Member",
     "district": "7",
     "party": "Republican",
@@ -2173,7 +2173,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 8",
+    "contest_key": "CA|State Assembly Member|8|",
     "office": "State Assembly Member",
     "district": "8",
     "party": "Republican",
@@ -2185,7 +2185,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 9",
+    "contest_key": "CA|State Assembly Member|9|",
     "office": "State Assembly Member",
     "district": "9",
     "party": "Democratic",
@@ -2197,7 +2197,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 9",
+    "contest_key": "CA|State Assembly Member|9|",
     "office": "State Assembly Member",
     "district": "9",
     "party": "Republican",
@@ -2209,7 +2209,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 10",
+    "contest_key": "CA|State Assembly Member|10|",
     "office": "State Assembly Member",
     "district": "10",
     "party": "Democratic",
@@ -2221,7 +2221,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 10",
+    "contest_key": "CA|State Assembly Member|10|",
     "office": "State Assembly Member",
     "district": "10",
     "party": "Republican",
@@ -2233,7 +2233,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 11",
+    "contest_key": "CA|State Assembly Member|11|",
     "office": "State Assembly Member",
     "district": "11",
     "party": "Democratic",
@@ -2245,7 +2245,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 11",
+    "contest_key": "CA|State Assembly Member|11|",
     "office": "State Assembly Member",
     "district": "11",
     "party": "No Party Preference",
@@ -2257,7 +2257,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 12",
+    "contest_key": "CA|State Assembly Member|12|",
     "office": "State Assembly Member",
     "district": "12",
     "party": "Democratic",
@@ -2269,7 +2269,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 12",
+    "contest_key": "CA|State Assembly Member|12|",
     "office": "State Assembly Member",
     "district": "12",
     "party": "Democratic",
@@ -2281,7 +2281,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 13",
+    "contest_key": "CA|State Assembly Member|13|",
     "office": "State Assembly Member",
     "district": "13",
     "party": "Democratic",
@@ -2293,7 +2293,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 13",
+    "contest_key": "CA|State Assembly Member|13|",
     "office": "State Assembly Member",
     "district": "13",
     "party": "Republican",
@@ -2305,7 +2305,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 14",
+    "contest_key": "CA|State Assembly Member|14|",
     "office": "State Assembly Member",
     "district": "14",
     "party": "Democratic",
@@ -2317,7 +2317,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 14",
+    "contest_key": "CA|State Assembly Member|14|",
     "office": "State Assembly Member",
     "district": "14",
     "party": "Green",
@@ -2329,7 +2329,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 15",
+    "contest_key": "CA|State Assembly Member|15|",
     "office": "State Assembly Member",
     "district": "15",
     "party": "Democratic",
@@ -2341,7 +2341,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 15",
+    "contest_key": "CA|State Assembly Member|15|",
     "office": "State Assembly Member",
     "district": "15",
     "party": "No Party Preference",
@@ -2353,7 +2353,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 16",
+    "contest_key": "CA|State Assembly Member|16|",
     "office": "State Assembly Member",
     "district": "16",
     "party": "Democratic",
@@ -2365,7 +2365,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 16",
+    "contest_key": "CA|State Assembly Member|16|",
     "office": "State Assembly Member",
     "district": "16",
     "party": "Republican",
@@ -2377,7 +2377,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 17",
+    "contest_key": "CA|State Assembly Member|17|",
     "office": "State Assembly Member",
     "district": "17",
     "party": "Democratic",
@@ -2389,7 +2389,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 17",
+    "contest_key": "CA|State Assembly Member|17|",
     "office": "State Assembly Member",
     "district": "17",
     "party": "Republican",
@@ -2401,7 +2401,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 18",
+    "contest_key": "CA|State Assembly Member|18|",
     "office": "State Assembly Member",
     "district": "18",
     "party": "Democratic",
@@ -2413,7 +2413,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 18",
+    "contest_key": "CA|State Assembly Member|18|",
     "office": "State Assembly Member",
     "district": "18",
     "party": "Democratic",
@@ -2425,7 +2425,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 19",
+    "contest_key": "CA|State Assembly Member|19|",
     "office": "State Assembly Member",
     "district": "19",
     "party": "Democratic",
@@ -2437,7 +2437,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 19",
+    "contest_key": "CA|State Assembly Member|19|",
     "office": "State Assembly Member",
     "district": "19",
     "party": "Republican",
@@ -2449,7 +2449,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 20",
+    "contest_key": "CA|State Assembly Member|20|",
     "office": "State Assembly Member",
     "district": "20",
     "party": "Democratic",
@@ -2461,7 +2461,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 20",
+    "contest_key": "CA|State Assembly Member|20|",
     "office": "State Assembly Member",
     "district": "20",
     "party": "Republican",
@@ -2473,7 +2473,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 21",
+    "contest_key": "CA|State Assembly Member|21|",
     "office": "State Assembly Member",
     "district": "21",
     "party": "Democratic",
@@ -2485,7 +2485,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 21",
+    "contest_key": "CA|State Assembly Member|21|",
     "office": "State Assembly Member",
     "district": "21",
     "party": "Republican",
@@ -2497,7 +2497,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 22",
+    "contest_key": "CA|State Assembly Member|22|",
     "office": "State Assembly Member",
     "district": "22",
     "party": "Republican",
@@ -2509,7 +2509,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 23",
+    "contest_key": "CA|State Assembly Member|23|",
     "office": "State Assembly Member",
     "district": "23",
     "party": "Democratic",
@@ -2521,7 +2521,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 23",
+    "contest_key": "CA|State Assembly Member|23|",
     "office": "State Assembly Member",
     "district": "23",
     "party": "Republican",
@@ -2533,7 +2533,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 24",
+    "contest_key": "CA|State Assembly Member|24|",
     "office": "State Assembly Member",
     "district": "24",
     "party": "Democratic",
@@ -2545,7 +2545,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 24",
+    "contest_key": "CA|State Assembly Member|24|",
     "office": "State Assembly Member",
     "district": "24",
     "party": "Republican",
@@ -2557,7 +2557,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 25",
+    "contest_key": "CA|State Assembly Member|25|",
     "office": "State Assembly Member",
     "district": "25",
     "party": "Democratic",
@@ -2569,7 +2569,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 25",
+    "contest_key": "CA|State Assembly Member|25|",
     "office": "State Assembly Member",
     "district": "25",
     "party": "Republican",
@@ -2581,7 +2581,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 26",
+    "contest_key": "CA|State Assembly Member|26|",
     "office": "State Assembly Member",
     "district": "26",
     "party": "Democratic",
@@ -2593,7 +2593,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 26",
+    "contest_key": "CA|State Assembly Member|26|",
     "office": "State Assembly Member",
     "district": "26",
     "party": "Republican",
@@ -2605,7 +2605,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 27",
+    "contest_key": "CA|State Assembly Member|27|",
     "office": "State Assembly Member",
     "district": "27",
     "party": "Democratic",
@@ -2617,7 +2617,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 27",
+    "contest_key": "CA|State Assembly Member|27|",
     "office": "State Assembly Member",
     "district": "27",
     "party": "Republican",
@@ -2629,7 +2629,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 28",
+    "contest_key": "CA|State Assembly Member|28|",
     "office": "State Assembly Member",
     "district": "28",
     "party": "Democratic",
@@ -2641,7 +2641,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 28",
+    "contest_key": "CA|State Assembly Member|28|",
     "office": "State Assembly Member",
     "district": "28",
     "party": "Republican",
@@ -2653,7 +2653,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 29",
+    "contest_key": "CA|State Assembly Member|29|",
     "office": "State Assembly Member",
     "district": "29",
     "party": "Democratic",
@@ -2665,7 +2665,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 29",
+    "contest_key": "CA|State Assembly Member|29|",
     "office": "State Assembly Member",
     "district": "29",
     "party": "Republican",
@@ -2677,7 +2677,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 30",
+    "contest_key": "CA|State Assembly Member|30|",
     "office": "State Assembly Member",
     "district": "30",
     "party": "Democratic",
@@ -2689,7 +2689,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 30",
+    "contest_key": "CA|State Assembly Member|30|",
     "office": "State Assembly Member",
     "district": "30",
     "party": "Republican",
@@ -2701,7 +2701,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 31",
+    "contest_key": "CA|State Assembly Member|31|",
     "office": "State Assembly Member",
     "district": "31",
     "party": "Democratic",
@@ -2713,7 +2713,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 31",
+    "contest_key": "CA|State Assembly Member|31|",
     "office": "State Assembly Member",
     "district": "31",
     "party": "Republican",
@@ -2725,7 +2725,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 32",
+    "contest_key": "CA|State Assembly Member|32|",
     "office": "State Assembly Member",
     "district": "32",
     "party": "Republican",
@@ -2737,7 +2737,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 33",
+    "contest_key": "CA|State Assembly Member|33|",
     "office": "State Assembly Member",
     "district": "33",
     "party": "Democratic",
@@ -2749,7 +2749,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 33",
+    "contest_key": "CA|State Assembly Member|33|",
     "office": "State Assembly Member",
     "district": "33",
     "party": "Republican",
@@ -2761,7 +2761,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 34",
+    "contest_key": "CA|State Assembly Member|34|",
     "office": "State Assembly Member",
     "district": "34",
     "party": "Democratic",
@@ -2773,7 +2773,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 34",
+    "contest_key": "CA|State Assembly Member|34|",
     "office": "State Assembly Member",
     "district": "34",
     "party": "Republican",
@@ -2785,7 +2785,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 35",
+    "contest_key": "CA|State Assembly Member|35|",
     "office": "State Assembly Member",
     "district": "35",
     "party": "Democratic",
@@ -2797,7 +2797,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 35",
+    "contest_key": "CA|State Assembly Member|35|",
     "office": "State Assembly Member",
     "district": "35",
     "party": "Republican",
@@ -2809,7 +2809,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 36",
+    "contest_key": "CA|State Assembly Member|36|",
     "office": "State Assembly Member",
     "district": "36",
     "party": "Democratic",
@@ -2821,7 +2821,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 36",
+    "contest_key": "CA|State Assembly Member|36|",
     "office": "State Assembly Member",
     "district": "36",
     "party": "Republican",
@@ -2833,7 +2833,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 37",
+    "contest_key": "CA|State Assembly Member|37|",
     "office": "State Assembly Member",
     "district": "37",
     "party": "Democratic",
@@ -2845,7 +2845,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 37",
+    "contest_key": "CA|State Assembly Member|37|",
     "office": "State Assembly Member",
     "district": "37",
     "party": "Republican",
@@ -2857,7 +2857,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 38",
+    "contest_key": "CA|State Assembly Member|38|",
     "office": "State Assembly Member",
     "district": "38",
     "party": "Democratic",
@@ -2869,7 +2869,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 38",
+    "contest_key": "CA|State Assembly Member|38|",
     "office": "State Assembly Member",
     "district": "38",
     "party": "Democratic",
@@ -2881,7 +2881,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 39",
+    "contest_key": "CA|State Assembly Member|39|",
     "office": "State Assembly Member",
     "district": "39",
     "party": "Democratic",
@@ -2893,7 +2893,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 39",
+    "contest_key": "CA|State Assembly Member|39|",
     "office": "State Assembly Member",
     "district": "39",
     "party": "Republican",
@@ -2905,7 +2905,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 40",
+    "contest_key": "CA|State Assembly Member|40|",
     "office": "State Assembly Member",
     "district": "40",
     "party": "Democratic",
@@ -2917,7 +2917,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 40",
+    "contest_key": "CA|State Assembly Member|40|",
     "office": "State Assembly Member",
     "district": "40",
     "party": "Republican",
@@ -2929,7 +2929,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 41",
+    "contest_key": "CA|State Assembly Member|41|",
     "office": "State Assembly Member",
     "district": "41",
     "party": "Democratic",
@@ -2941,7 +2941,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 41",
+    "contest_key": "CA|State Assembly Member|41|",
     "office": "State Assembly Member",
     "district": "41",
     "party": "Republican",
@@ -2953,7 +2953,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 42",
+    "contest_key": "CA|State Assembly Member|42|",
     "office": "State Assembly Member",
     "district": "42",
     "party": "Democratic",
@@ -2965,7 +2965,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 42",
+    "contest_key": "CA|State Assembly Member|42|",
     "office": "State Assembly Member",
     "district": "42",
     "party": "Republican",
@@ -2977,7 +2977,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 43",
+    "contest_key": "CA|State Assembly Member|43|",
     "office": "State Assembly Member",
     "district": "43",
     "party": "Democratic",
@@ -2989,7 +2989,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 43",
+    "contest_key": "CA|State Assembly Member|43|",
     "office": "State Assembly Member",
     "district": "43",
     "party": "Republican",
@@ -3001,7 +3001,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 44",
+    "contest_key": "CA|State Assembly Member|44|",
     "office": "State Assembly Member",
     "district": "44",
     "party": "Democratic",
@@ -3013,7 +3013,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 44",
+    "contest_key": "CA|State Assembly Member|44|",
     "office": "State Assembly Member",
     "district": "44",
     "party": "Republican",
@@ -3025,7 +3025,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 45",
+    "contest_key": "CA|State Assembly Member|45|",
     "office": "State Assembly Member",
     "district": "45",
     "party": "Democratic",
@@ -3037,7 +3037,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 45",
+    "contest_key": "CA|State Assembly Member|45|",
     "office": "State Assembly Member",
     "district": "45",
     "party": "Republican",
@@ -3049,7 +3049,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 46",
+    "contest_key": "CA|State Assembly Member|46|",
     "office": "State Assembly Member",
     "district": "46",
     "party": "Democratic",
@@ -3061,7 +3061,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 46",
+    "contest_key": "CA|State Assembly Member|46|",
     "office": "State Assembly Member",
     "district": "46",
     "party": "Republican",
@@ -3073,7 +3073,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 47",
+    "contest_key": "CA|State Assembly Member|47|",
     "office": "State Assembly Member",
     "district": "47",
     "party": "Democratic",
@@ -3085,7 +3085,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 47",
+    "contest_key": "CA|State Assembly Member|47|",
     "office": "State Assembly Member",
     "district": "47",
     "party": "Republican",
@@ -3097,7 +3097,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 48",
+    "contest_key": "CA|State Assembly Member|48|",
     "office": "State Assembly Member",
     "district": "48",
     "party": "Democratic",
@@ -3109,7 +3109,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 48",
+    "contest_key": "CA|State Assembly Member|48|",
     "office": "State Assembly Member",
     "district": "48",
     "party": "Republican",
@@ -3121,7 +3121,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 49",
+    "contest_key": "CA|State Assembly Member|49|",
     "office": "State Assembly Member",
     "district": "49",
     "party": "Democratic",
@@ -3133,7 +3133,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 49",
+    "contest_key": "CA|State Assembly Member|49|",
     "office": "State Assembly Member",
     "district": "49",
     "party": "Republican",
@@ -3145,7 +3145,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 50",
+    "contest_key": "CA|State Assembly Member|50|",
     "office": "State Assembly Member",
     "district": "50",
     "party": "Democratic",
@@ -3157,7 +3157,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 50",
+    "contest_key": "CA|State Assembly Member|50|",
     "office": "State Assembly Member",
     "district": "50",
     "party": "Republican",
@@ -3169,7 +3169,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 51",
+    "contest_key": "CA|State Assembly Member|51|",
     "office": "State Assembly Member",
     "district": "51",
     "party": "Democratic",
@@ -3181,7 +3181,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 51",
+    "contest_key": "CA|State Assembly Member|51|",
     "office": "State Assembly Member",
     "district": "51",
     "party": "Democratic",
@@ -3193,7 +3193,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 52",
+    "contest_key": "CA|State Assembly Member|52|",
     "office": "State Assembly Member",
     "district": "52",
     "party": "Democratic",
@@ -3205,7 +3205,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 52",
+    "contest_key": "CA|State Assembly Member|52|",
     "office": "State Assembly Member",
     "district": "52",
     "party": "Republican",
@@ -3217,7 +3217,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 53",
+    "contest_key": "CA|State Assembly Member|53|",
     "office": "State Assembly Member",
     "district": "53",
     "party": "Democratic",
@@ -3229,7 +3229,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 53",
+    "contest_key": "CA|State Assembly Member|53|",
     "office": "State Assembly Member",
     "district": "53",
     "party": "Republican",
@@ -3241,7 +3241,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 54",
+    "contest_key": "CA|State Assembly Member|54|",
     "office": "State Assembly Member",
     "district": "54",
     "party": "Democratic",
@@ -3253,7 +3253,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 54",
+    "contest_key": "CA|State Assembly Member|54|",
     "office": "State Assembly Member",
     "district": "54",
     "party": "Republican",
@@ -3265,7 +3265,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 55",
+    "contest_key": "CA|State Assembly Member|55|",
     "office": "State Assembly Member",
     "district": "55",
     "party": "Democratic",
@@ -3277,7 +3277,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 55",
+    "contest_key": "CA|State Assembly Member|55|",
     "office": "State Assembly Member",
     "district": "55",
     "party": "Democratic",
@@ -3289,7 +3289,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 56",
+    "contest_key": "CA|State Assembly Member|56|",
     "office": "State Assembly Member",
     "district": "56",
     "party": "Democratic",
@@ -3301,7 +3301,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 56",
+    "contest_key": "CA|State Assembly Member|56|",
     "office": "State Assembly Member",
     "district": "56",
     "party": "Republican",
@@ -3313,7 +3313,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 57",
+    "contest_key": "CA|State Assembly Member|57|",
     "office": "State Assembly Member",
     "district": "57",
     "party": "Democratic",
@@ -3325,7 +3325,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 57",
+    "contest_key": "CA|State Assembly Member|57|",
     "office": "State Assembly Member",
     "district": "57",
     "party": "Republican",
@@ -3337,7 +3337,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 58",
+    "contest_key": "CA|State Assembly Member|58|",
     "office": "State Assembly Member",
     "district": "58",
     "party": "Democratic",
@@ -3349,7 +3349,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 58",
+    "contest_key": "CA|State Assembly Member|58|",
     "office": "State Assembly Member",
     "district": "58",
     "party": "Republican",
@@ -3361,7 +3361,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 59",
+    "contest_key": "CA|State Assembly Member|59|",
     "office": "State Assembly Member",
     "district": "59",
     "party": "Republican",
@@ -3373,7 +3373,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 59",
+    "contest_key": "CA|State Assembly Member|59|",
     "office": "State Assembly Member",
     "district": "59",
     "party": "Green",
@@ -3385,7 +3385,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 60",
+    "contest_key": "CA|State Assembly Member|60|",
     "office": "State Assembly Member",
     "district": "60",
     "party": "Democratic",
@@ -3397,7 +3397,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 60",
+    "contest_key": "CA|State Assembly Member|60|",
     "office": "State Assembly Member",
     "district": "60",
     "party": "Republican",
@@ -3409,7 +3409,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 61",
+    "contest_key": "CA|State Assembly Member|61|",
     "office": "State Assembly Member",
     "district": "61",
     "party": "Democratic",
@@ -3421,7 +3421,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 61",
+    "contest_key": "CA|State Assembly Member|61|",
     "office": "State Assembly Member",
     "district": "61",
     "party": "Republican",
@@ -3433,7 +3433,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 62",
+    "contest_key": "CA|State Assembly Member|62|",
     "office": "State Assembly Member",
     "district": "62",
     "party": "Democratic",
@@ -3445,7 +3445,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 62",
+    "contest_key": "CA|State Assembly Member|62|",
     "office": "State Assembly Member",
     "district": "62",
     "party": "Republican",
@@ -3457,7 +3457,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 63",
+    "contest_key": "CA|State Assembly Member|63|",
     "office": "State Assembly Member",
     "district": "63",
     "party": "Republican",
@@ -3469,7 +3469,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 63",
+    "contest_key": "CA|State Assembly Member|63|",
     "office": "State Assembly Member",
     "district": "63",
     "party": "Peace and Freedom",
@@ -3481,7 +3481,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 64",
+    "contest_key": "CA|State Assembly Member|64|",
     "office": "State Assembly Member",
     "district": "64",
     "party": "Democratic",
@@ -3493,7 +3493,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 64",
+    "contest_key": "CA|State Assembly Member|64|",
     "office": "State Assembly Member",
     "district": "64",
     "party": "Republican",
@@ -3505,7 +3505,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 65",
+    "contest_key": "CA|State Assembly Member|65|",
     "office": "State Assembly Member",
     "district": "65",
     "party": "Democratic",
@@ -3517,7 +3517,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 65",
+    "contest_key": "CA|State Assembly Member|65|",
     "office": "State Assembly Member",
     "district": "65",
     "party": "Republican",
@@ -3529,7 +3529,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 66",
+    "contest_key": "CA|State Assembly Member|66|",
     "office": "State Assembly Member",
     "district": "66",
     "party": "Democratic",
@@ -3541,7 +3541,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 66",
+    "contest_key": "CA|State Assembly Member|66|",
     "office": "State Assembly Member",
     "district": "66",
     "party": "Democratic",
@@ -3553,7 +3553,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 67",
+    "contest_key": "CA|State Assembly Member|67|",
     "office": "State Assembly Member",
     "district": "67",
     "party": "Democratic",
@@ -3565,7 +3565,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 67",
+    "contest_key": "CA|State Assembly Member|67|",
     "office": "State Assembly Member",
     "district": "67",
     "party": "Republican",
@@ -3577,7 +3577,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 68",
+    "contest_key": "CA|State Assembly Member|68|",
     "office": "State Assembly Member",
     "district": "68",
     "party": "Democratic",
@@ -3589,7 +3589,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 68",
+    "contest_key": "CA|State Assembly Member|68|",
     "office": "State Assembly Member",
     "district": "68",
     "party": "Democratic",
@@ -3601,7 +3601,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 69",
+    "contest_key": "CA|State Assembly Member|69|",
     "office": "State Assembly Member",
     "district": "69",
     "party": "Democratic",
@@ -3613,7 +3613,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 69",
+    "contest_key": "CA|State Assembly Member|69|",
     "office": "State Assembly Member",
     "district": "69",
     "party": "Democratic",
@@ -3625,7 +3625,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 70",
+    "contest_key": "CA|State Assembly Member|70|",
     "office": "State Assembly Member",
     "district": "70",
     "party": "Democratic",
@@ -3637,7 +3637,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 70",
+    "contest_key": "CA|State Assembly Member|70|",
     "office": "State Assembly Member",
     "district": "70",
     "party": "Republican",
@@ -3649,7 +3649,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 71",
+    "contest_key": "CA|State Assembly Member|71|",
     "office": "State Assembly Member",
     "district": "71",
     "party": "Democratic",
@@ -3661,7 +3661,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 71",
+    "contest_key": "CA|State Assembly Member|71|",
     "office": "State Assembly Member",
     "district": "71",
     "party": "Republican",
@@ -3673,7 +3673,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 72",
+    "contest_key": "CA|State Assembly Member|72|",
     "office": "State Assembly Member",
     "district": "72",
     "party": "Democratic",
@@ -3685,7 +3685,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 72",
+    "contest_key": "CA|State Assembly Member|72|",
     "office": "State Assembly Member",
     "district": "72",
     "party": "Republican",
@@ -3697,7 +3697,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 73",
+    "contest_key": "CA|State Assembly Member|73|",
     "office": "State Assembly Member",
     "district": "73",
     "party": "Democratic",
@@ -3709,7 +3709,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 73",
+    "contest_key": "CA|State Assembly Member|73|",
     "office": "State Assembly Member",
     "district": "73",
     "party": "Republican",
@@ -3721,7 +3721,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 74",
+    "contest_key": "CA|State Assembly Member|74|",
     "office": "State Assembly Member",
     "district": "74",
     "party": "Democratic",
@@ -3733,7 +3733,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 74",
+    "contest_key": "CA|State Assembly Member|74|",
     "office": "State Assembly Member",
     "district": "74",
     "party": "Republican",
@@ -3745,7 +3745,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 75",
+    "contest_key": "CA|State Assembly Member|75|",
     "office": "State Assembly Member",
     "district": "75",
     "party": "Democratic",
@@ -3757,7 +3757,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 75",
+    "contest_key": "CA|State Assembly Member|75|",
     "office": "State Assembly Member",
     "district": "75",
     "party": "Republican",
@@ -3769,7 +3769,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 76",
+    "contest_key": "CA|State Assembly Member|76|",
     "office": "State Assembly Member",
     "district": "76",
     "party": "Democratic",
@@ -3781,7 +3781,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 76",
+    "contest_key": "CA|State Assembly Member|76|",
     "office": "State Assembly Member",
     "district": "76",
     "party": "Republican",
@@ -3793,7 +3793,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 77",
+    "contest_key": "CA|State Assembly Member|77|",
     "office": "State Assembly Member",
     "district": "77",
     "party": "Democratic",
@@ -3805,7 +3805,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 77",
+    "contest_key": "CA|State Assembly Member|77|",
     "office": "State Assembly Member",
     "district": "77",
     "party": "Republican",
@@ -3817,7 +3817,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 78",
+    "contest_key": "CA|State Assembly Member|78|",
     "office": "State Assembly Member",
     "district": "78",
     "party": "Democratic",
@@ -3829,7 +3829,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 78",
+    "contest_key": "CA|State Assembly Member|78|",
     "office": "State Assembly Member",
     "district": "78",
     "party": "Republican",
@@ -3841,7 +3841,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 79",
+    "contest_key": "CA|State Assembly Member|79|",
     "office": "State Assembly Member",
     "district": "79",
     "party": "Democratic",
@@ -3853,7 +3853,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 79",
+    "contest_key": "CA|State Assembly Member|79|",
     "office": "State Assembly Member",
     "district": "79",
     "party": "Republican",
@@ -3865,7 +3865,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 80",
+    "contest_key": "CA|State Assembly Member|80|",
     "office": "State Assembly Member",
     "district": "80",
     "party": "Democratic",
@@ -3877,7 +3877,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "State Assembly Member, Dist 80",
+    "contest_key": "CA|State Assembly Member|80|",
     "office": "State Assembly Member",
     "district": "80",
     "party": "Republican",
@@ -3889,7 +3889,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice of the Supreme Court — KELLI M. EVANS",
+    "contest_key": "CA|Associate Justice of the Supreme Court||KELLI M. EVANS",
     "office": "Associate Justice of the Supreme Court",
     "district": null,
     "party": "Non-Partisan",
@@ -3901,7 +3901,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice of the Supreme Court — JOSHUA GROBAN",
+    "contest_key": "CA|Associate Justice of the Supreme Court||JOSHUA GROBAN",
     "office": "Associate Justice of the Supreme Court",
     "district": null,
     "party": "Non-Partisan",
@@ -3913,7 +3913,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — CHARLES A. SMILEY",
+    "contest_key": "CA|Associate Justice, Court of Appeal||CHARLES A. SMILEY",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -3925,7 +3925,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — KATHLEEN M. BANKE",
+    "contest_key": "CA|Associate Justice, Court of Appeal||KATHLEEN M. BANKE",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -3937,7 +3937,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — MONIQUE LANGHORNE WILSON",
+    "contest_key": "CA|Associate Justice, Court of Appeal||MONIQUE LANGHORNE WILSON",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -3949,7 +3949,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Presiding Justice, Court of Appeal — THERESE M. STEWART",
+    "contest_key": "CA|Presiding Justice, Court of Appeal||THERESE M. STEWART",
     "office": "Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -3961,7 +3961,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — TARA M. DESAUTELS",
+    "contest_key": "CA|Associate Justice, Court of Appeal||TARA M. DESAUTELS",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -3973,7 +3973,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — IOANA PETROU",
+    "contest_key": "CA|Associate Justice, Court of Appeal||IOANA PETROU",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -3985,7 +3985,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — VICTOR A. RODRIGUEZ",
+    "contest_key": "CA|Associate Justice, Court of Appeal||VICTOR A. RODRIGUEZ",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -3997,7 +3997,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Presiding Justice, Court of Appeal — TRACIE L. BROWN",
+    "contest_key": "CA|Presiding Justice, Court of Appeal||TRACIE L. BROWN",
     "office": "Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4009,7 +4009,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — MARK SIMONS",
+    "contest_key": "CA|Associate Justice, Court of Appeal||MARK SIMONS",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4021,7 +4021,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — DANNY Y. CHOU",
+    "contest_key": "CA|Associate Justice, Court of Appeal||DANNY Y. CHOU",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4033,7 +4033,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — GORDON BURNS",
+    "contest_key": "CA|Associate Justice, Court of Appeal||GORDON BURNS",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4045,7 +4045,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — MICHELLE C. KIM",
+    "contest_key": "CA|Associate Justice, Court of Appeal||MICHELLE C. KIM",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4057,7 +4057,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — GREGORY J. WEINGART",
+    "contest_key": "CA|Associate Justice, Court of Appeal||GREGORY J. WEINGART",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4069,7 +4069,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — STEVE GOORVITCH",
+    "contest_key": "CA|Associate Justice, Court of Appeal||STEVE GOORVITCH",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4081,7 +4081,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — ANNE RICHARDSON",
+    "contest_key": "CA|Associate Justice, Court of Appeal||ANNE RICHARDSON",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4093,7 +4093,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Presiding Justice, Court of Appeal — RASHIDA A. ADAMS",
+    "contest_key": "CA|Presiding Justice, Court of Appeal||RASHIDA A. ADAMS",
     "office": "Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4105,7 +4105,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — MARK HANASONO",
+    "contest_key": "CA|Associate Justice, Court of Appeal||MARK HANASONO",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4117,7 +4117,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Presiding Justice, Court of Appeal — HELEN ZUKIN",
+    "contest_key": "CA|Presiding Justice, Court of Appeal||HELEN ZUKIN",
     "office": "Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4129,7 +4129,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — AUDRA M. MORI",
+    "contest_key": "CA|Associate Justice, Court of Appeal||AUDRA M. MORI",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4141,7 +4141,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — NICHOLAS DAUM",
+    "contest_key": "CA|Associate Justice, Court of Appeal||NICHOLAS DAUM",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4153,7 +4153,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — ARMEN TAMZARIAN",
+    "contest_key": "CA|Associate Justice, Court of Appeal||ARMEN TAMZARIAN",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4165,7 +4165,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Presiding Justice, Court of Appeal — BRIAN M. HOFFSTADT",
+    "contest_key": "CA|Presiding Justice, Court of Appeal||BRIAN M. HOFFSTADT",
     "office": "Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4177,7 +4177,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Presiding Justice, Court of Appeal — TARI L. CODY",
+    "contest_key": "CA|Presiding Justice, Court of Appeal||TARI L. CODY",
     "office": "Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4189,7 +4189,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — KENNETH R. YEGAN",
+    "contest_key": "CA|Associate Justice, Court of Appeal||KENNETH R. YEGAN",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4201,7 +4201,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Presiding Justice, Court of Appeal — GONZALO C. MARTINEZ",
+    "contest_key": "CA|Presiding Justice, Court of Appeal||GONZALO C. MARTINEZ",
     "office": "Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4213,7 +4213,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — NATALIE STONE",
+    "contest_key": "CA|Associate Justice, Court of Appeal||NATALIE STONE",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4225,7 +4225,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — JOHN WILEY",
+    "contest_key": "CA|Associate Justice, Court of Appeal||JOHN WILEY",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4237,7 +4237,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — MATTHEW A. SCHERB",
+    "contest_key": "CA|Associate Justice, Court of Appeal||MATTHEW A. SCHERB",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4249,7 +4249,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — VICTOR G. VIRAMONTES",
+    "contest_key": "CA|Associate Justice, Court of Appeal||VICTOR G. VIRAMONTES",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4261,7 +4261,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Administrative Presiding Justice, Court of Appeal — LAURIE EARL",
+    "contest_key": "CA|Administrative Presiding Justice, Court of Appeal||LAURIE EARL",
     "office": "Administrative Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4273,7 +4273,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — SHAMA MESIWALA",
+    "contest_key": "CA|Associate Justice, Court of Appeal||SHAMA MESIWALA",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4285,7 +4285,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — DAVID B. SAPP",
+    "contest_key": "CA|Associate Justice, Court of Appeal||DAVID B. SAPP",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4297,7 +4297,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — LAURI DAMRELL",
+    "contest_key": "CA|Associate Justice, Court of Appeal||LAURI DAMRELL",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4309,7 +4309,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — STACY BOULWARE EURIE",
+    "contest_key": "CA|Associate Justice, Court of Appeal||STACY BOULWARE EURIE",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4321,7 +4321,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — AIMEE A. FEINBERG",
+    "contest_key": "CA|Associate Justice, Court of Appeal||AIMEE A. FEINBERG",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4333,7 +4333,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — JONATHAN RENNER",
+    "contest_key": "CA|Associate Justice, Court of Appeal||JONATHAN RENNER",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4345,7 +4345,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — ERAN M. BERMUDEZ",
+    "contest_key": "CA|Associate Justice, Court of Appeal||ERAN M. BERMUDEZ",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4357,7 +4357,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — JOSE S. CASTILLO",
+    "contest_key": "CA|Associate Justice, Court of Appeal||JOSE S. CASTILLO",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4369,7 +4369,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — TRUC T. DO",
+    "contest_key": "CA|Associate Justice, Court of Appeal||TRUC T. DO",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4381,7 +4381,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — LISA RODRIGUEZ",
+    "contest_key": "CA|Associate Justice, Court of Appeal||LISA RODRIGUEZ",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4393,7 +4393,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — DAVID M. RUBIN",
+    "contest_key": "CA|Associate Justice, Court of Appeal||DAVID M. RUBIN",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4405,7 +4405,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — WILLIAM S. DATO",
+    "contest_key": "CA|Associate Justice, Court of Appeal||WILLIAM S. DATO",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4417,7 +4417,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — JULIA C. KELETY",
+    "contest_key": "CA|Associate Justice, Court of Appeal||JULIA C. KELETY",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4429,7 +4429,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — COREY G. LEE",
+    "contest_key": "CA|Associate Justice, Court of Appeal||COREY G. LEE",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4441,7 +4441,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — MICHAEL J. RAPHAEL",
+    "contest_key": "CA|Associate Justice, Court of Appeal||MICHAEL J. RAPHAEL",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4453,7 +4453,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Presiding Justice, Court of Appeal — JOANNE MOTOIKE",
+    "contest_key": "CA|Presiding Justice, Court of Appeal||JOANNE MOTOIKE",
     "office": "Presiding Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4465,7 +4465,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — NATHAN R. SCOTT",
+    "contest_key": "CA|Associate Justice, Court of Appeal||NATHAN R. SCOTT",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4477,7 +4477,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — JULIET O. MACAULAY",
+    "contest_key": "CA|Associate Justice, Court of Appeal||JULIET O. MACAULAY",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4489,7 +4489,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — MARTHA K. GOODING",
+    "contest_key": "CA|Associate Justice, Court of Appeal||MARTHA K. GOODING",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4501,7 +4501,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — THOMAS A. DELANEY",
+    "contest_key": "CA|Associate Justice, Court of Appeal||THOMAS A. DELANEY",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4513,7 +4513,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — DEBORAH C. SERVINO",
+    "contest_key": "CA|Associate Justice, Court of Appeal||DEBORAH C. SERVINO",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4525,7 +4525,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — ARLAN L. HARRELL",
+    "contest_key": "CA|Associate Justice, Court of Appeal||ARLAN L. HARRELL",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4537,7 +4537,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — SONNY S. SANDHU",
+    "contest_key": "CA|Associate Justice, Court of Appeal||SONNY S. SANDHU",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4549,7 +4549,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — AMY K. GUERRA",
+    "contest_key": "CA|Associate Justice, Court of Appeal||AMY K. GUERRA",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4561,7 +4561,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — KATHLEEN A. MEEHAN",
+    "contest_key": "CA|Associate Justice, Court of Appeal||KATHLEEN A. MEEHAN",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4573,7 +4573,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — MARK W. SNAUFFER",
+    "contest_key": "CA|Associate Justice, Court of Appeal||MARK W. SNAUFFER",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4585,7 +4585,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — THOMAS DESANTOS",
+    "contest_key": "CA|Associate Justice, Court of Appeal||THOMAS DESANTOS",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4597,7 +4597,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — DANIEL H. BROMBERG",
+    "contest_key": "CA|Associate Justice, Court of Appeal||DANIEL H. BROMBERG",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4609,7 +4609,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — CHARLES E. WILSON II",
+    "contest_key": "CA|Associate Justice, Court of Appeal||CHARLES E. WILSON II",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4621,7 +4621,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — CHARLES F. ADAMS",
+    "contest_key": "CA|Associate Justice, Court of Appeal||CHARLES F. ADAMS",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4633,7 +4633,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — FREDERICK S. CHUNG",
+    "contest_key": "CA|Associate Justice, Court of Appeal||FREDERICK S. CHUNG",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",
@@ -4645,7 +4645,7 @@
   },
   {
     "state": "CA",
-    "contest_key": "Associate Justice, Court of Appeal — ALLISON MARSTON DANNER",
+    "contest_key": "CA|Associate Justice, Court of Appeal||ALLISON MARSTON DANNER",
     "office": "Associate Justice, Court of Appeal",
     "district": null,
     "party": "Non-Partisan",

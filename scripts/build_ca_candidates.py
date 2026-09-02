@@ -88,11 +88,27 @@ STATEWIDE = {
 }
 
 
-def pdf_text() -> str:
-    pdf = Path("/tmp/ca-sos/cert-list-candidates.pdf")
-    txt = Path("/tmp/ca-sos/cert-list.txt")
-    if not txt.exists():
-        subprocess.check_call(["pdftotext", "-layout", str(pdf), str(txt)])
+def contest_key(office: str, dist: str | None = None, vacancy: str | None = None) -> str:
+    return f"CA|{office}|{dist or ''}|{vacancy or ''}"
+
+
+def fetch_official_text() -> str:
+    work = Path("/tmp/ca-sos")
+    work.mkdir(parents=True, exist_ok=True)
+    pdf = work / "cert-list-candidates.pdf"
+    txt = work / "cert-list-candidates.txt"
+    subprocess.check_call(
+        [
+            "curl",
+            "-L",
+            "-A",
+            UA,
+            "-o",
+            str(pdf),
+            PDF_URL,
+        ]
+    )
+    subprocess.check_call(["pdftotext", "-layout", str(pdf), str(txt)])
     return txt.read_text(encoding="utf-8", errors="replace")
 
 
@@ -104,39 +120,27 @@ def contest_from_header(line: str) -> dict | None:
     s = line.strip()
     if s in STATEWIDE:
         office, dist = STATEWIDE[s]
-        return {"contest_key": office, "office": office, "district": dist}
+        return {"contest_key": contest_key(office, dist), "office": office, "district": dist}
     m = re.match(r"Board of Equalization Member District\s+(\d+)\s*$", s)
     if m:
         d = m.group(1)
-        return {
-            "contest_key": f"Board of Equalization, Dist {d}",
-            "office": "Board of Equalization Member",
-            "district": d,
-        }
+        office = "Board of Equalization Member"
+        return {"contest_key": contest_key(office, d), "office": office, "district": d}
     m = re.match(r"United States Representative District\s+(\d+)\s*$", s)
     if m:
         d = m.group(1)
-        return {
-            "contest_key": f"U.S. Representative, Dist {d}",
-            "office": "United States Representative",
-            "district": d,
-        }
+        office = "United States Representative"
+        return {"contest_key": contest_key(office, d), "office": office, "district": d}
     m = re.match(r"State Senate District\s+(\d+)\s*$", s)
     if m:
         d = m.group(1)
-        return {
-            "contest_key": f"State Senator, Dist {d}",
-            "office": "State Senator",
-            "district": d,
-        }
+        office = "State Senate"
+        return {"contest_key": contest_key(office, d), "office": office, "district": d}
     m = re.match(r"State Assembly Member District\s+(\d+)\s*$", s)
     if m:
         d = m.group(1)
-        return {
-            "contest_key": f"State Assembly Member, Dist {d}",
-            "office": "State Assembly Member",
-            "district": d,
-        }
+        office = "State Assembly Member"
+        return {"contest_key": contest_key(office, d), "office": office, "district": d}
     return None
 
 
@@ -227,11 +231,11 @@ def parse_judicial(text: str) -> list[dict]:
         office = extract_judicial_office(q1)
         if not name:
             continue
-        contest_key = f"{office} — {name}"
+        # Fourth field holds the retention seat (justice name). Not a vacancy election.
         rows.append(
             {
                 "state": "CA",
-                "contest_key": contest_key,
+                "contest_key": contest_key(office, None, name),
                 "office": office,
                 "district": None,
                 "party": "Non-Partisan",
@@ -292,7 +296,7 @@ def extract_judicial_office(q: str) -> str:
 def summary(rows: list[dict]) -> dict:
     keys = {r["contest_key"] for r in rows}
     house = [r for r in rows if r["office"] == "United States Representative"]
-    senate = [r for r in rows if r["office"] == "State Senator"]
+    senate = [r for r in rows if r["office"] in {"State Senate", "State Senator"}]
     assembly = [r for r in rows if r["office"] == "State Assembly Member"]
     judicial = [
         r
@@ -347,7 +351,7 @@ def merge_ca_stub(retrieved_votes: str | None = None) -> None:
 
 
 def main() -> int:
-    text = pdf_text()
+    text = fetch_official_text()
     partisan = parse_partisan(text)
     judicial = parse_judicial(text)
     rows = partisan + judicial

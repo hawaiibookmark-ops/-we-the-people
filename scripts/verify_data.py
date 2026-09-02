@@ -307,7 +307,9 @@ else:
     else:
         keys = {r.get("contest_key") for r in ca_cands}
         house = [r for r in ca_cands if r.get("office") == "United States Representative"]
-        senate = [r for r in ca_cands if r.get("office") == "State Senator"]
+        senate = [r for r in ca_cands if r.get("office") in {"State Senate", "State Senator"}]
+        if any(not str(r.get("contest_key") or "").startswith("CA|") or str(r.get("contest_key") or "").count("|") != 3 for r in ca_cands):
+            errors.append("CA contest_key must be CA|OFFICE|DIST|VACANCY")
         assembly = [r for r in ca_cands if r.get("office") == "State Assembly Member"]
         judicial = [r for r in ca_cands if "Justice" in (r.get("office") or "") or "Supreme Court" in (r.get("office") or "")]
         if len(keys) != 228:
