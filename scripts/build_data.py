@@ -852,6 +852,10 @@ def main() -> int:
         print("Preserving committed wa/votes.json (Clerk EVS + Senate LIS).", flush=True)
     if (OUT / "wa" / "candidates.json").exists():
         print("Preserving committed wa/candidates.json (VoteWA GENERAL 2026 list).", flush=True)
+    if (OUT / "co" / "candidates.json").exists():
+        print("Preserving committed co/candidates.json (CO SOS Excel lists).", flush=True)
+    if (OUT / "co" / "votes.json").exists():
+        print("Preserving committed co/votes.json (Clerk EVS + Senate LIS).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote", OUT)
     print("ZIPs", len(zips_compact), "HI contests", len(hi_contests), "federal states", len(federal_plain))

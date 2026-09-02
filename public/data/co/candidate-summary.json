@@ -1,0 +1,31 @@
+{
+  "row_count": 661,
+  "contest_key_count": 166,
+  "primary_official_rows": 251,
+  "general_unofficial_rows": 410,
+  "us_senate": 9,
+  "us_house": 38,
+  "us_house_districts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "governor": 7,
+  "state_senate": 50,
+  "state_house": 137,
+  "by_list_kind": {
+    "primary_official": 251,
+    "general_unofficial": 410
+  },
+  "source_urls": [
+    "https://www.sos.state.co.us/pubs/elections/vote/files/2026/2026PrimaryCandidateListOfficial.xlsx",
+    "https://www.sos.state.co.us/pubs/elections/vote/files/2026/2026GeneralCandidateListUnofficial.xlsx"
+  ],
+  "retrieved_at": "2026-09-02T11:12:00Z",
+  "note": "Filed names from official Colorado SOS Excel. Primary official and general unofficial lists are kept separate (list_kind). People are not merged across lists. contest_key_count is unique general_unofficial contests. End-of-Data rows skipped. No Ballotpedia. Streets omitted."
+}

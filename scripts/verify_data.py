@@ -454,8 +454,62 @@ if wa_sum_path.exists():
 else:
     errors.append("missing public/data/wa/candidate-summary.json")
 if (ROOT / "co.json").exists():
-    if ((json.loads((ROOT / "co.json").read_text()).get("state_filings") or {}).get("donors") or {}).get("status") != "sourced":
+    coj = json.loads((ROOT / "co.json").read_text())
+    if ((coj.get("state_filings") or {}).get("donors") or {}).get("status") != "sourced":
         errors.append("co.json donors were wiped")
+    if ((coj.get("state_filings") or {}).get("donors") or {}).get("path") != "/data/co/tracer-donors.json":
+        errors.append("co.json donors.path must stay /data/co/tracer-donors.json")
+    if ((coj.get("state_filings") or {}).get("donors") or {}).get("counts", {}).get("rows") != 256892:
+        errors.append("co.json donor row count was changed")
+    if coj.get("candidates_path") != "/data/co/candidates.json":
+        errors.append("co.json candidates_path missing")
+    if coj.get("candidate_summary_path") != "/data/co/candidate-summary.json":
+        errors.append("co.json candidate_summary_path missing")
+    if coj.get("votes_path") != "/data/co/votes.json":
+        errors.append("co.json votes_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(coj)):
+        errors.append("co.json must not use Ballotpedia")
+co_cands_path = ROOT / "co" / "candidates.json"
+co_sum_path = ROOT / "co" / "candidate-summary.json"
+if not co_cands_path.exists():
+    errors.append("missing public/data/co/candidates.json")
+else:
+    co_cands = json.loads(co_cands_path.read_text())
+    if not isinstance(co_cands, list) or len(co_cands) != 661:
+        errors.append(f"CO candidates.json rows {len(co_cands) if isinstance(co_cands, list) else type(co_cands)} != 661")
+    else:
+        if any(not str(r.get("contest_key") or "").startswith("CO|") or str(r.get("contest_key") or "").count("|") != 3 for r in co_cands):
+            errors.append("CO contest_key must be CO|OFFICE|DIST|VACANCY")
+        kinds = {r.get("list_kind") for r in co_cands}
+        if kinds != {"primary_official", "general_unofficial"}:
+            errors.append(f"CO list_kind set {kinds}")
+        primary = [r for r in co_cands if r.get("list_kind") == "primary_official"]
+        general = [r for r in co_cands if r.get("list_kind") == "general_unofficial"]
+        if len(primary) != 251 or len(general) != 410:
+            errors.append(f"CO primary/general split {len(primary)}/{len(general)}")
+        gen_keys = {r.get("contest_key") for r in general}
+        if len(gen_keys) != 166:
+            errors.append(f"CO general contest_keys {len(gen_keys)} != 166")
+        if any(r.get("retrieved_at") != "2026-09-02T11:12:00Z" for r in co_cands):
+            errors.append("CO candidates retrieved_at must be 2026-09-02T11:12:00Z")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in co_cands):
+            errors.append("CO candidates must not use Ballotpedia")
+        if any("sos.state.co.us" not in (r.get("source_url") or "") for r in co_cands):
+            errors.append("CO candidates source_url must be official SOS Excel")
+        if not any(r.get("candidate_name") == "John Hickenlooper" and r.get("office") == "US Senate" and r.get("list_kind") == "general_unofficial" for r in co_cands):
+            errors.append("CO general list missing filed name John Hickenlooper")
+        if not any(r.get("candidate_name") == "Diana DeGette" for r in co_cands):
+            errors.append("CO list missing filed name Diana DeGette")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in co_cands):
+            errors.append("CO candidates must omit streets/email/phone")
+if co_sum_path.exists():
+    co_sum = json.loads(co_sum_path.read_text())
+    if co_sum.get("row_count") != 661 or co_sum.get("contest_key_count") != 166:
+        errors.append(f"CO candidate-summary counts {co_sum}")
+else:
+    errors.append("missing public/data/co/candidate-summary.json")
+_check_votes(ROOT / "co" / "votes.json", "CO", 380, {"D000197", "B001267", "H000273", "N000191"})
 
 if errors:
     print("FAIL")
@@ -492,4 +546,8 @@ print(
     json.loads((ROOT / "ca" / "calaccess-donors.json").read_text()).get("filer_count"),
     "WA ballots",
     len(json.loads((ROOT / "wa" / "candidates.json").read_text())),
+    "CO ballots",
+    len(json.loads((ROOT / "co" / "candidates.json").read_text())),
+    "CO votes",
+    json.loads((ROOT / "co" / "votes.json").read_text()).get("count"),
 )
