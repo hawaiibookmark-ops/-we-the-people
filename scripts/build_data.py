@@ -872,6 +872,16 @@ def main() -> int:
         print("Preserving committed az/votes.json (Clerk EVS + Senate LIS).", flush=True)
     if (OUT / "az" / "fec-donors.json").exists():
         print("Preserving committed az/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "mi.json").exists():
+        print("Preserving committed mi.json (Michigan state module stub).", flush=True)
+    if (OUT / "mi" / "mitn-donors.json").exists():
+        print("Preserving committed mi/mitn-donors.json (Michigan MiTN Schedule A extract).", flush=True)
+    if (OUT / "il.json").exists():
+        print("Preserving committed il.json (Illinois state module stub).", flush=True)
+    if (OUT / "il" / "sbe-donors.json").exists():
+        print("Preserving committed il/sbe-donors.json (Illinois SBE Receipts extract).", flush=True)
+    if (OUT / "il" / "fec-donors.json").exists():
+        print("Preserving committed il/fec-donors.json (FEC Schedule A $200+).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote", OUT)
     print("ZIPs", len(zips_compact), "HI contests", len(hi_contests), "federal states", len(federal_plain))

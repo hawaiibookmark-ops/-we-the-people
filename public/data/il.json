@@ -1,0 +1,53 @@
+{
+  "election": {
+    "jurisdiction": "Illinois",
+    "state_code": "IL",
+    "general_date": null,
+    "note": "Official Illinois SBE Schedule A receipts (RcvDate 2025–2026, not archived) first. Federal FEC Schedule A $200+ alongside when present. Ballots and votes TBD. Donor lists are not sold."
+  },
+  "state_filings": {
+    "wired": true,
+    "sbe": "https://downloads.elections.il.gov/Receipts.txt",
+    "sbe_landing": "https://elections.il.gov/CampaignDisclosure/DownloadCDDataFiles.aspx",
+    "donors": {
+      "status": "sourced",
+      "path": "/data/il/sbe-donors.json",
+      "source_url": "https://downloads.elections.il.gov/Receipts.txt",
+      "retrieved_at": "2026-09-02T13:26:08Z",
+      "counts": {
+        "rows": 191759,
+        "filers": 2851,
+        "items_per_filer_cap": 25,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "federal_fec": {
+      "status": "partial",
+      "path": "/data/il/fec-donors.json",
+      "scope": "Federal FEC Schedule A $200+ only (indiv26 + cn26 CAND_PCC).",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T13:26:08Z",
+      "do_not_sell_donor_lists": true
+    }
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://downloads.elections.il.gov/Receipts.txt",
+      "retrieved_at": "2026-09-02T13:26:08Z",
+      "note": "Illinois SBE Receipts.txt"
+    },
+    {
+      "url": "https://downloads.elections.il.gov/Committees.txt",
+      "retrieved_at": "2026-09-02T13:26:08Z",
+      "note": "Illinois SBE Committees.txt"
+    },
+    {
+      "url": "https://elections.il.gov/CampaignDisclosure/DownloadCDDataFiles.aspx",
+      "retrieved_at": "2026-09-02T13:26:08Z",
+      "note": "Illinois SBE campaign-disclosure downloads"
+    }
+  ]
+}
