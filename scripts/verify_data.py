@@ -756,6 +756,137 @@ else:
     if gosar.get("candidate_name") != "GOSAR, PAUL DR." or not (gosar.get("items") or []):
         errors.append("Gosar FEC extract missing official name/items")
 
+# Michigan MiTN Schedule A (optional until that package lands; do not wipe when present)
+mi_path = ROOT / "mi" / "mitn-donors.json"
+mi_stub = ROOT / "mi.json"
+if mi_path.exists() and mi_stub.exists():
+    mi = json.loads(mi_path.read_text())
+    mi_json = json.loads(mi_stub.read_text())
+    donors_block = ((mi_json.get("state_filings") or {}).get("donors") or {})
+    if not (mi_json.get("state_filings") or {}).get("wired"):
+        errors.append("mi.json state_filings.wired must be true")
+    if donors_block.get("status") != "sourced":
+        errors.append("mi.json state_filings.donors.status must be sourced")
+    if donors_block.get("path") != "/data/mi/mitn-donors.json":
+        errors.append("mi.json donors.path must be /data/mi/mitn-donors.json")
+    if donors_block.get("counts", {}).get("rows") != 964108 or donors_block.get("counts", {}).get("filers") != 1378:
+        errors.append(f"mi.json donor counts {donors_block.get('counts')}")
+    if donors_block.get("counts", {}).get("items_per_filer_cap") != 25:
+        errors.append("mi.json items_per_filer_cap must be 25")
+    if donors_block.get("counts", {}).get("election_year") != 2026:
+        errors.append("mi.json election_year must be 2026")
+    if not donors_block.get("do_not_sell_donor_lists"):
+        errors.append("mi.json must say do_not_sell_donor_lists")
+    if "id=21077" not in (mi.get("source_url") or "") or "mi-boe.entellitrak.com" not in (mi.get("source_url") or ""):
+        errors.append("mitn-donors.json source_url must be official MiTN ZIP id 21077")
+    if "cfrexportdownload" not in (mi.get("landing_url") or "") or "mi-boe.entellitrak.com" not in (mi.get("landing_url") or ""):
+        errors.append("mitn-donors.json landing_url must be official MiTN download page")
+    if any("ballotpedia" in u.lower() for u in _urls(mi) + _urls(mi_json)):
+        errors.append("MI extract must not use Ballotpedia")
+    if mi.get("row_count") != 964108 or (mi.get("counts") or {}).get("rows") != 964108:
+        errors.append(f"MI row_count {mi.get('row_count')} != 964108")
+    if mi.get("filer_count") != 1378 or len(mi.get("by_candidate") or {}) != 1378:
+        errors.append(f"MI filer_count {mi.get('filer_count')} != 1378")
+    if not mi.get("streets_omitted") or not mi.get("do_not_sell_donor_lists"):
+        errors.append("MI extract must omit streets and say do_not_sell_donor_lists")
+    if mi.get("retrieved_at") != "2026-09-02T13:00:04Z":
+        errors.append("mitn-donors.json retrieved_at must be 2026-09-02T13:00:04Z")
+    if mi_json.get("election", {}).get("state_code") != "MI" or mi_json.get("election", {}).get("jurisdiction") != "Michigan":
+        errors.append("mi.json election must be Michigan / MI")
+    if mi_json.get("nominees") != {} or mi_json.get("geo_by_zip") != {}:
+        errors.append("mi.json nominees/geo must stay empty until ballots land")
+    if mi_json.get("candidates_path") or mi_json.get("votes_path"):
+        errors.append("mi.json must not claim ballots/votes before those packages land")
+    benson = (mi.get("by_candidate") or {}).get("JOCELYN BENSON FOR GOVERNOR") or {}
+    if not benson or benson.get("status") != "unmatched_no_roster" or benson.get("matched_to_site") is not False:
+        errors.append("JOCELYN BENSON FOR GOVERNOR MiTN filer missing or incorrectly matched")
+    if not (benson.get("items") or []):
+        errors.append("JOCELYN BENSON FOR GOVERNOR must keep official top contributions")
+    if any("primary_votes" in (it or {}) for it in benson.get("items") or []):
+        errors.append("MI donor items must not invent primary_votes")
+    mi_street = {
+        "street",
+        "address",
+        "addr",
+        "address1",
+        "address2",
+        "contributor_address",
+        "zip",
+        "zipcode",
+        "contributor_zip",
+    }
+    for rec in (mi.get("by_candidate") or {}).values():
+        for it in rec.get("items") or []:
+            if mi_street & {k.lower() for k in it}:
+                errors.append("mitn-donors item has a street-address or zip field")
+                break
+        else:
+            continue
+        break
+
+# Illinois SBE Schedule A (does not replace HI/WA/CO/CA/OR/AZ/MI)
+il_path = ROOT / "il" / "sbe-donors.json"
+il_stub = ROOT / "il.json"
+if not il_path.exists() or not il_stub.exists():
+    errors.append("IL SBE extract missing public/data/il/sbe-donors.json or public/data/il.json")
+else:
+    il = json.loads(il_path.read_text())
+    il_json = json.loads(il_stub.read_text())
+    donors_block = ((il_json.get("state_filings") or {}).get("donors") or {})
+    fec_block = ((il_json.get("state_filings") or {}).get("federal_fec") or {})
+    if not (il_json.get("state_filings") or {}).get("wired"):
+        errors.append("il.json state_filings.wired must be true")
+    if donors_block.get("status") != "sourced":
+        errors.append("il.json state_filings.donors.status must be sourced")
+    if donors_block.get("path") != "/data/il/sbe-donors.json":
+        errors.append("il.json donors.path must be /data/il/sbe-donors.json")
+    if donors_block.get("counts", {}).get("rows") != 191759 or donors_block.get("counts", {}).get("filers") != 2851:
+        errors.append(f"il.json donor counts {donors_block.get('counts')}")
+    if not donors_block.get("do_not_sell_donor_lists"):
+        errors.append("il.json must say do_not_sell_donor_lists")
+    if fec_block.get("path") != "/data/il/fec-donors.json" or fec_block.get("status") != "partial":
+        errors.append("il.json federal_fec must stay partial at /data/il/fec-donors.json")
+    if il.get("source_url") != "https://downloads.elections.il.gov/Receipts.txt":
+        errors.append("sbe-donors.json source_url must be official downloads.elections.il.gov/Receipts.txt")
+    if "DownloadCDDataFiles" not in (il.get("landing_url") or ""):
+        errors.append("sbe-donors.json landing_url must be official SBE DownloadCDDataFiles")
+    if any("ballotpedia" in u.lower() for u in _urls(il) + _urls(il_json)):
+        errors.append("IL extract must not use Ballotpedia")
+    if il.get("row_count") != 191759 or (il.get("counts") or {}).get("rows") != 191759:
+        errors.append(f"IL row_count {il.get('row_count')} != 191759")
+    if il.get("filer_count") != 2851 or len(il.get("by_candidate") or {}) != 2851:
+        errors.append(f"IL filer_count {il.get('filer_count')} != 2851")
+    if not il.get("streets_omitted") or not il.get("do_not_sell_donor_lists"):
+        errors.append("IL extract must omit streets and say do_not_sell_donor_lists")
+    if il.get("retrieved_at") != "2026-09-02T13:26:08Z":
+        errors.append("sbe-donors.json retrieved_at must be 2026-09-02T13:26:08Z")
+    if il_json.get("election", {}).get("state_code") != "IL" or il_json.get("election", {}).get("jurisdiction") != "Illinois":
+        errors.append("il.json election must be Illinois / IL")
+    jb = (il.get("by_candidate") or {}).get("JB for Governor") or {}
+    if not jb or jb.get("status") != "unmatched_no_roster" or jb.get("matched_to_site") is not False:
+        errors.append("JB for Governor SBE filer missing or incorrectly matched")
+    if not (jb.get("items") or []):
+        errors.append("JB for Governor must keep official top contributions")
+    il_street = {
+        "street",
+        "address",
+        "addr",
+        "address1",
+        "address2",
+        "contributor_address",
+        "zip",
+        "zipcode",
+        "contributor_zip",
+    }
+    for rec in (il.get("by_candidate") or {}).values():
+        for it in rec.get("items") or []:
+            if il_street & {k.lower() for k in it}:
+                errors.append("sbe-donors item has a street-address or zip field")
+                break
+        else:
+            continue
+        break
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -808,3 +939,17 @@ print(
     "AZ FEC donors",
     json.loads((ROOT / "az" / "fec-donors.json").read_text()).get("candidate_count"),
 )
+if (ROOT / "mi" / "mitn-donors.json").exists():
+    print(
+        "OK MI MiTN rows",
+        json.loads((ROOT / "mi" / "mitn-donors.json").read_text()).get("row_count"),
+        "filers",
+        json.loads((ROOT / "mi" / "mitn-donors.json").read_text()).get("filer_count"),
+    )
+if (ROOT / "il" / "sbe-donors.json").exists():
+    print(
+        "OK IL SBE rows",
+        json.loads((ROOT / "il" / "sbe-donors.json").read_text()).get("row_count"),
+        "filers",
+        json.loads((ROOT / "il" / "sbe-donors.json").read_text()).get("filer_count"),
+    )
