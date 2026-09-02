@@ -292,6 +292,90 @@ else:
             continue
         break
 
+# California SOS certified list + CA/WA federal votes (do not wipe HI/WA/CO donors)
+ca_cands_path = ROOT / "ca" / "candidates.json"
+ca_sum_path = ROOT / "ca" / "candidate-summary.json"
+ca_votes_path = ROOT / "ca" / "votes.json"
+wa_votes_path = ROOT / "wa" / "votes.json"
+ca_json = json.loads((ROOT / "ca.json").read_text()) if (ROOT / "ca.json").exists() else {}
+if not ca_cands_path.exists():
+    errors.append("missing public/data/ca/candidates.json")
+else:
+    ca_cands = json.loads(ca_cands_path.read_text())
+    if not isinstance(ca_cands, list) or len(ca_cands) != 388:
+        errors.append(f"CA candidates.json rows {len(ca_cands) if isinstance(ca_cands, list) else type(ca_cands)} != 388")
+    else:
+        keys = {r.get("contest_key") for r in ca_cands}
+        house = [r for r in ca_cands if r.get("office") == "United States Representative"]
+        senate = [r for r in ca_cands if r.get("office") == "State Senator"]
+        assembly = [r for r in ca_cands if r.get("office") == "State Assembly Member"]
+        judicial = [r for r in ca_cands if "Justice" in (r.get("office") or "") or "Supreme Court" in (r.get("office") or "")]
+        if len(keys) != 228:
+            errors.append(f"CA contest_keys {len(keys)} != 228")
+        if len(house) != 104 or {int(r["district"]) for r in house} != set(range(1, 53)):
+            errors.append(f"CA US House {len(house)} dists {sorted({r.get('district') for r in house})}")
+        if len(senate) != 40:
+            errors.append(f"CA State Senate {len(senate)} != 40")
+        if len(assembly) != 156:
+            errors.append(f"CA Assembly {len(assembly)} != 156")
+        if len(judicial) != 64:
+            errors.append(f"CA judicial {len(judicial)} != 64")
+        if any("senate" in (r.get("office") or "").lower() and "united states" in (r.get("office") or "").lower() for r in ca_cands):
+            errors.append("CA certified list must not include U.S. Senate")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in ca_cands):
+            errors.append("CA candidates must not use Ballotpedia")
+        if any(r.get("list_kind") != "general_certified_pdf" for r in ca_cands):
+            errors.append("CA candidates list_kind must be general_certified_pdf")
+        if any(r.get("retrieved_at") != "2026-09-02T11:21:25Z" for r in ca_cands):
+            errors.append("CA candidates retrieved_at must be 2026-09-02T11:21:25Z")
+        if not any(r.get("candidate_name") == "Shirley N. Weber" and r.get("office") == "Secretary of State" for r in ca_cands):
+            errors.append("CA SOS nominee Shirley N. Weber missing")
+if ca_sum_path.exists():
+    ca_sum = json.loads(ca_sum_path.read_text())
+    if ca_sum.get("row_count") != 388 or ca_sum.get("contest_key_count") != 228:
+        errors.append(f"CA candidate-summary counts {ca_sum}")
+else:
+    errors.append("missing public/data/ca/candidate-summary.json")
+if ca_json.get("election", {}).get("general_date") != "2026-11-03":
+    errors.append("ca.json election.general_date must be 2026-11-03")
+if ca_json.get("candidates_path") != "/data/ca/candidates.json":
+    errors.append("ca.json candidates_path missing")
+if ca_json.get("votes_path") != "/data/ca/votes.json":
+    errors.append("ca.json votes_path missing")
+if ((ca_json.get("state_filings") or {}).get("donors") or {}).get("status") != "pending":
+    errors.append("ca.json donors must remain pending Cal-Access")
+
+def _check_votes(path, state, expected, members):
+    if not path.exists():
+        errors.append(f"missing {path}")
+        return
+    payload = json.loads(path.read_text())
+    if payload.get("count") != expected or len(payload.get("votes") or []) != expected:
+        errors.append(f"{state} votes count {payload.get('count')} != {expected}")
+    if payload.get("state") != state:
+        errors.append(f"{state} votes.json state field {payload.get('state')}")
+    if any("ballotpedia" in (v.get("source_url") or "").lower() for v in payload.get("votes") or []):
+        errors.append(f"{state} votes used Ballotpedia")
+    if any(not v.get("vote_cast") or not v.get("source_url") or not v.get("retrieved_at") for v in (payload.get("votes") or [])[:3]):
+        errors.append(f"{state} vote rows missing official vote_cast/source_url/retrieved_at")
+    if any((v.get("district") or "") == "CA-14" for v in payload.get("votes") or []):
+        errors.append("CA-14 vacant seat must be skipped")
+    got_members = set((payload.get("counts_by_member") or {}).keys())
+    if not members <= got_members:
+        errors.append(f"{state} missing bioguides {sorted(members - got_members)}")
+
+_check_votes(ca_votes_path, "CA", 2100, {"G000607", "V000130", "S001150", "P000145"})
+_check_votes(wa_votes_path, "WA", 460, {"D000617", "S001159", "C000127", "M001111"})
+if (ROOT / "wa.json").exists():
+    waj = json.loads((ROOT / "wa.json").read_text())
+    if ((waj.get("state_filings") or {}).get("donors") or {}).get("status") != "sourced":
+        errors.append("wa.json donors were wiped")
+    if waj.get("votes_path") != "/data/wa/votes.json":
+        errors.append("wa.json votes_path not merged")
+if (ROOT / "co.json").exists():
+    if ((json.loads((ROOT / "co.json").read_text()).get("state_filings") or {}).get("donors") or {}).get("status") != "sourced":
+        errors.append("co.json donors were wiped")
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -316,3 +400,11 @@ print(
 )
 print("OK WA PDC rows", wa.get("row_count"), "filers", wa.get("filer_count"))
 print("OK CO TRACER rows", co.get("row_count"), "filers", co.get("filer_count"))
+print(
+    "OK CA candidates",
+    len(json.loads((ROOT / "ca" / "candidates.json").read_text())),
+    "CA votes",
+    json.loads((ROOT / "ca" / "votes.json").read_text()).get("count"),
+    "WA votes",
+    json.loads((ROOT / "wa" / "votes.json").read_text()).get("count"),
+)

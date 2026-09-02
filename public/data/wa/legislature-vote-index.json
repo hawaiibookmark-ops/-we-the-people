@@ -1,0 +1,16 @@
+{
+  "state": "WA",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T11:26:28Z",
+  "sources": [
+    {
+      "label": "Washington State Legislature bill information",
+      "url": "https://app.leg.wa.gov/billinfo/"
+    },
+    {
+      "label": "Washington State Legislature roll calls",
+      "url": "https://leg.wa.gov/"
+    }
+  ]
+}

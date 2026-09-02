@@ -29,6 +29,17 @@
     {
       "url": "https://data.wa.gov/resource/kv7h-kjye.json",
       "retrieved_at": "2026-09-02T11:17:16Z"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T11:26:28Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T11:26:28Z"
     }
-  ]
+  ],
+  "votes_path": "/data/wa/votes.json",
+  "congress_delegation_path": "/data/wa/congress-delegation.json",
+  "legislature_vote_index_path": "/data/wa/legislature-vote-index.json"
 }

@@ -1,0 +1,333 @@
+{
+  "state": "CA",
+  "retrieved_at": "2026-09-02T11:26:28Z",
+  "source_url": "https://www.congress.gov/members",
+  "house": [
+    {
+      "bioguide": "G000607",
+      "name": "James Gallagher",
+      "district": "CA-01",
+      "votes_url": "https://clerk.house.gov/Members/G000607"
+    },
+    {
+      "bioguide": "H001068",
+      "name": "Jared Huffman",
+      "district": "CA-02",
+      "votes_url": "https://clerk.house.gov/Members/H001068"
+    },
+    {
+      "bioguide": "K000401",
+      "name": "Kevin Kiley",
+      "district": "CA-03",
+      "votes_url": "https://clerk.house.gov/Members/K000401"
+    },
+    {
+      "bioguide": "T000460",
+      "name": "Mike Thompson",
+      "district": "CA-04",
+      "votes_url": "https://clerk.house.gov/Members/T000460"
+    },
+    {
+      "bioguide": "M001177",
+      "name": "Tom McClintock",
+      "district": "CA-05",
+      "votes_url": "https://clerk.house.gov/Members/M001177"
+    },
+    {
+      "bioguide": "B001287",
+      "name": "Ami Bera",
+      "district": "CA-06",
+      "votes_url": "https://clerk.house.gov/Members/B001287"
+    },
+    {
+      "bioguide": "M001163",
+      "name": "Doris O. Matsui",
+      "district": "CA-07",
+      "votes_url": "https://clerk.house.gov/Members/M001163"
+    },
+    {
+      "bioguide": "G000559",
+      "name": "John Garamendi",
+      "district": "CA-08",
+      "votes_url": "https://clerk.house.gov/Members/G000559"
+    },
+    {
+      "bioguide": "H001090",
+      "name": "Josh Harder",
+      "district": "CA-09",
+      "votes_url": "https://clerk.house.gov/Members/H001090"
+    },
+    {
+      "bioguide": "D000623",
+      "name": "Mark DeSaulnier",
+      "district": "CA-10",
+      "votes_url": "https://clerk.house.gov/Members/D000623"
+    },
+    {
+      "bioguide": "P000197",
+      "name": "Nancy Pelosi",
+      "district": "CA-11",
+      "votes_url": "https://clerk.house.gov/Members/P000197"
+    },
+    {
+      "bioguide": "S001231",
+      "name": "Lateefah Simon",
+      "district": "CA-12",
+      "votes_url": "https://clerk.house.gov/Members/S001231"
+    },
+    {
+      "bioguide": "G000605",
+      "name": "Adam Gray",
+      "district": "CA-13",
+      "votes_url": "https://clerk.house.gov/Members/G000605"
+    },
+    {
+      "bioguide": "M001225",
+      "name": "Kevin Mullin",
+      "district": "CA-15",
+      "votes_url": "https://clerk.house.gov/Members/M001225"
+    },
+    {
+      "bioguide": "L000607",
+      "name": "Sam T. Liccardo",
+      "district": "CA-16",
+      "votes_url": "https://clerk.house.gov/Members/L000607"
+    },
+    {
+      "bioguide": "K000389",
+      "name": "Ro Khanna",
+      "district": "CA-17",
+      "votes_url": "https://clerk.house.gov/Members/K000389"
+    },
+    {
+      "bioguide": "L000397",
+      "name": "Zoe Lofgren",
+      "district": "CA-18",
+      "votes_url": "https://clerk.house.gov/Members/L000397"
+    },
+    {
+      "bioguide": "P000613",
+      "name": "Jimmy Panetta",
+      "district": "CA-19",
+      "votes_url": "https://clerk.house.gov/Members/P000613"
+    },
+    {
+      "bioguide": "F000480",
+      "name": "Vince Fong",
+      "district": "CA-20",
+      "votes_url": "https://clerk.house.gov/Members/F000480"
+    },
+    {
+      "bioguide": "C001059",
+      "name": "Jim Costa",
+      "district": "CA-21",
+      "votes_url": "https://clerk.house.gov/Members/C001059"
+    },
+    {
+      "bioguide": "V000129",
+      "name": "David G. Valadao",
+      "district": "CA-22",
+      "votes_url": "https://clerk.house.gov/Members/V000129"
+    },
+    {
+      "bioguide": "O000019",
+      "name": "Jay Obernolte",
+      "district": "CA-23",
+      "votes_url": "https://clerk.house.gov/Members/O000019"
+    },
+    {
+      "bioguide": "C001112",
+      "name": "Salud O. Carbajal",
+      "district": "CA-24",
+      "votes_url": "https://clerk.house.gov/Members/C001112"
+    },
+    {
+      "bioguide": "R000599",
+      "name": "Raul Ruiz",
+      "district": "CA-25",
+      "votes_url": "https://clerk.house.gov/Members/R000599"
+    },
+    {
+      "bioguide": "B001285",
+      "name": "Julia Brownley",
+      "district": "CA-26",
+      "votes_url": "https://clerk.house.gov/Members/B001285"
+    },
+    {
+      "bioguide": "W000830",
+      "name": "George Whitesides",
+      "district": "CA-27",
+      "votes_url": "https://clerk.house.gov/Members/W000830"
+    },
+    {
+      "bioguide": "C001080",
+      "name": "Judy Chu",
+      "district": "CA-28",
+      "votes_url": "https://clerk.house.gov/Members/C001080"
+    },
+    {
+      "bioguide": "R000620",
+      "name": "Luz M. Rivas",
+      "district": "CA-29",
+      "votes_url": "https://clerk.house.gov/Members/R000620"
+    },
+    {
+      "bioguide": "F000483",
+      "name": "Laura Friedman",
+      "district": "CA-30",
+      "votes_url": "https://clerk.house.gov/Members/F000483"
+    },
+    {
+      "bioguide": "C001123",
+      "name": "Gilbert Ray Cisneros, Jr.",
+      "district": "CA-31",
+      "votes_url": "https://clerk.house.gov/Members/C001123"
+    },
+    {
+      "bioguide": "S000344",
+      "name": "Brad Sherman",
+      "district": "CA-32",
+      "votes_url": "https://clerk.house.gov/Members/S000344"
+    },
+    {
+      "bioguide": "A000371",
+      "name": "Pete Aguilar",
+      "district": "CA-33",
+      "votes_url": "https://clerk.house.gov/Members/A000371"
+    },
+    {
+      "bioguide": "G000585",
+      "name": "Jimmy Gomez",
+      "district": "CA-34",
+      "votes_url": "https://clerk.house.gov/Members/G000585"
+    },
+    {
+      "bioguide": "T000474",
+      "name": "Norma J. Torres",
+      "district": "CA-35",
+      "votes_url": "https://clerk.house.gov/Members/T000474"
+    },
+    {
+      "bioguide": "L000582",
+      "name": "Ted Lieu",
+      "district": "CA-36",
+      "votes_url": "https://clerk.house.gov/Members/L000582"
+    },
+    {
+      "bioguide": "K000400",
+      "name": "Sydney Kamlager-Dove",
+      "district": "CA-37",
+      "votes_url": "https://clerk.house.gov/Members/K000400"
+    },
+    {
+      "bioguide": "S001156",
+      "name": "Linda T. Sánchez",
+      "district": "CA-38",
+      "votes_url": "https://clerk.house.gov/Members/S001156"
+    },
+    {
+      "bioguide": "T000472",
+      "name": "Mark Takano",
+      "district": "CA-39",
+      "votes_url": "https://clerk.house.gov/Members/T000472"
+    },
+    {
+      "bioguide": "K000397",
+      "name": "Young Kim",
+      "district": "CA-40",
+      "votes_url": "https://clerk.house.gov/Members/K000397"
+    },
+    {
+      "bioguide": "C000059",
+      "name": "Ken Calvert",
+      "district": "CA-41",
+      "votes_url": "https://clerk.house.gov/Members/C000059"
+    },
+    {
+      "bioguide": "G000598",
+      "name": "Robert Garcia",
+      "district": "CA-42",
+      "votes_url": "https://clerk.house.gov/Members/G000598"
+    },
+    {
+      "bioguide": "W000187",
+      "name": "Maxine Waters",
+      "district": "CA-43",
+      "votes_url": "https://clerk.house.gov/Members/W000187"
+    },
+    {
+      "bioguide": "B001300",
+      "name": "Nanette Diaz Barragán",
+      "district": "CA-44",
+      "votes_url": "https://clerk.house.gov/Members/B001300"
+    },
+    {
+      "bioguide": "T000491",
+      "name": "Derek Tran",
+      "district": "CA-45",
+      "votes_url": "https://clerk.house.gov/Members/T000491"
+    },
+    {
+      "bioguide": "C001110",
+      "name": "J. Luis Correa",
+      "district": "CA-46",
+      "votes_url": "https://clerk.house.gov/Members/C001110"
+    },
+    {
+      "bioguide": "M001241",
+      "name": "Dave Min",
+      "district": "CA-47",
+      "votes_url": "https://clerk.house.gov/Members/M001241"
+    },
+    {
+      "bioguide": "I000056",
+      "name": "Darrell Issa",
+      "district": "CA-48",
+      "votes_url": "https://clerk.house.gov/Members/I000056"
+    },
+    {
+      "bioguide": "L000593",
+      "name": "Mike Levin",
+      "district": "CA-49",
+      "votes_url": "https://clerk.house.gov/Members/L000593"
+    },
+    {
+      "bioguide": "P000608",
+      "name": "Scott H. Peters",
+      "district": "CA-50",
+      "votes_url": "https://clerk.house.gov/Members/P000608"
+    },
+    {
+      "bioguide": "J000305",
+      "name": "Sara Jacobs",
+      "district": "CA-51",
+      "votes_url": "https://clerk.house.gov/Members/J000305"
+    },
+    {
+      "bioguide": "V000130",
+      "name": "Juan Vargas",
+      "district": "CA-52",
+      "votes_url": "https://clerk.house.gov/Members/V000130"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "S001150",
+      "name": "Adam B. Schiff",
+      "last_name": "Schiff",
+      "votes_url": "https://www.congress.gov/member/S001150"
+    },
+    {
+      "bioguide": "P000145",
+      "name": "Alex Padilla",
+      "last_name": "Padilla",
+      "votes_url": "https://www.congress.gov/member/P000145"
+    }
+  ],
+  "vacant": [
+    {
+      "district": "CA-14",
+      "note": "Vacant seat; skipped in federal vote extract."
+    }
+  ]
+}

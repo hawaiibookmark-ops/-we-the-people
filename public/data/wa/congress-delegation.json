@@ -1,0 +1,82 @@
+{
+  "state": "WA",
+  "retrieved_at": "2026-09-02T11:26:28Z",
+  "source_url": "https://www.congress.gov/members",
+  "house": [
+    {
+      "bioguide": "D000617",
+      "name": "Suzan K. DelBene",
+      "district": "WA-01",
+      "votes_url": "https://clerk.house.gov/Members/D000617"
+    },
+    {
+      "bioguide": "L000560",
+      "name": "Rick Larsen",
+      "district": "WA-02",
+      "votes_url": "https://clerk.house.gov/Members/L000560"
+    },
+    {
+      "bioguide": "G000600",
+      "name": "Marie Gluesenkamp Perez",
+      "district": "WA-03",
+      "votes_url": "https://clerk.house.gov/Members/G000600"
+    },
+    {
+      "bioguide": "N000189",
+      "name": "Dan Newhouse",
+      "district": "WA-04",
+      "votes_url": "https://clerk.house.gov/Members/N000189"
+    },
+    {
+      "bioguide": "B001322",
+      "name": "Michael Baumgartner",
+      "district": "WA-05",
+      "votes_url": "https://clerk.house.gov/Members/B001322"
+    },
+    {
+      "bioguide": "R000621",
+      "name": "Emily Randall",
+      "district": "WA-06",
+      "votes_url": "https://clerk.house.gov/Members/R000621"
+    },
+    {
+      "bioguide": "J000298",
+      "name": "Pramila Jayapal",
+      "district": "WA-07",
+      "votes_url": "https://clerk.house.gov/Members/J000298"
+    },
+    {
+      "bioguide": "S001216",
+      "name": "Kim Schrier",
+      "district": "WA-08",
+      "votes_url": "https://clerk.house.gov/Members/S001216"
+    },
+    {
+      "bioguide": "S000510",
+      "name": "Adam Smith",
+      "district": "WA-09",
+      "votes_url": "https://clerk.house.gov/Members/S000510"
+    },
+    {
+      "bioguide": "S001159",
+      "name": "Marilyn Strickland",
+      "district": "WA-10",
+      "votes_url": "https://clerk.house.gov/Members/S001159"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "C000127",
+      "name": "Maria Cantwell",
+      "last_name": "Cantwell",
+      "votes_url": "https://www.congress.gov/member/C000127"
+    },
+    {
+      "bioguide": "M001111",
+      "name": "Patty Murray",
+      "last_name": "Murray",
+      "votes_url": "https://www.congress.gov/member/M001111"
+    }
+  ],
+  "vacant": []
+}

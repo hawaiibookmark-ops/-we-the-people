@@ -1,0 +1,20 @@
+{
+  "state": "CA",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T11:26:28Z",
+  "sources": [
+    {
+      "label": "California Legislature bill information (official vote history on measure pages)",
+      "url": "https://leginfo.legislature.ca.gov/"
+    },
+    {
+      "label": "California Assembly Clerk roll-call / Daily Journal",
+      "url": "https://clerk.assembly.ca.gov/"
+    },
+    {
+      "label": "California Senate Floor votes",
+      "url": "https://www.senate.ca.gov/floor-votes"
+    }
+  ]
+}

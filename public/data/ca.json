@@ -1,0 +1,36 @@
+{
+  "election": {
+    "jurisdiction": "California",
+    "state_code": "CA",
+    "general_date": "2026-11-03",
+    "note": "Official SOS certified list of candidates plus Clerk/LIS federal votes. Donors pending Cal-Access."
+  },
+  "state_filings": {
+    "donors": {
+      "status": "pending",
+      "reason": "Cal-Access extract not in this populate. Donor names are not invented.",
+      "cal_access": "https://cal-access.sos.ca.gov/"
+    }
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T11:26:28Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T11:26:28Z"
+    },
+    {
+      "url": "http://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+      "retrieved_at": "2026-09-02T11:21:25Z"
+    }
+  ],
+  "votes_path": "/data/ca/votes.json",
+  "congress_delegation_path": "/data/ca/congress-delegation.json",
+  "legislature_vote_index_path": "/data/ca/legislature-vote-index.json",
+  "candidates_path": "/data/ca/candidates.json",
+  "candidate_summary_path": "/data/ca/candidate-summary.json"
+}

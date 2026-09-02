@@ -842,6 +842,12 @@ def main() -> int:
         print("Preserving committed co/tracer-donors.json (Colorado TRACER bulk extract).", flush=True)
     if (OUT / "co.json").exists():
         print("Preserving committed co.json (Colorado state module stub).", flush=True)
+    if (OUT / "ca" / "candidates.json").exists():
+        print("Preserving committed ca/candidates.json (CA SOS certified list).", flush=True)
+    if (OUT / "ca" / "votes.json").exists():
+        print("Preserving committed ca/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "wa" / "votes.json").exists():
+        print("Preserving committed wa/votes.json (Clerk EVS + Senate LIS).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote", OUT)
     print("ZIPs", len(zips_compact), "HI contests", len(hi_contests), "federal states", len(federal_plain))
