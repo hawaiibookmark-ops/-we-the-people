@@ -2,8 +2,8 @@
   "election": {
     "jurisdiction": "Illinois",
     "state_code": "IL",
-    "general_date": null,
-    "note": "Official Illinois SBE Schedule A receipts (RcvDate 2025–2026, not archived) first. Federal FEC Schedule A $200+ alongside when present. Ballots and votes TBD. Donor lists are not sold."
+    "general_date": "2026-11-03",
+    "note": "Official Illinois SBE Schedule A receipts, SBE Latest Candidates Filed RSS (partial, not certified), Clerk/LIS federal votes, and federal FEC Schedule A $200+ when present. Donor lists are not sold."
   },
   "state_filings": {
     "wired": true,
@@ -25,11 +25,22 @@
     "federal_fec": {
       "status": "partial",
       "path": "/data/il/fec-donors.json",
-      "scope": "Federal FEC Schedule A $200+ only (indiv26 + cn26 CAND_PCC).",
+      "scope": "Illinois 2026 House/Senate federal FEC Schedule A $200+ only. State SBE Schedule A is a separate sourced extract.",
       "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
-      "retrieved_at": "2026-09-02T13:26:08Z",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "counts": {
+        "candidates": 189,
+        "with_receipts": 122,
+        "honest_empty": 67,
+        "kept_rows": 48312,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
       "do_not_sell_donor_lists": true
-    }
+    },
+    "sbe_candidates_filed": "https://elections.il.gov/ElectionOperations/CandidatesFiled.aspx",
+    "sbe_candidates_rss": "https://elections.il.gov/RSS/LatestCandidatesFiled.aspx?ID=sejIrI%2BQmww%3D"
   },
   "nominees": {},
   "geo_by_zip": {},
@@ -48,6 +59,54 @@
       "url": "https://elections.il.gov/CampaignDisclosure/DownloadCDDataFiles.aspx",
       "retrieved_at": "2026-09-02T13:26:08Z",
       "note": "Illinois SBE campaign-disclosure downloads"
+    },
+    {
+      "url": "https://elections.il.gov/ElectionOperations/CandidatesFiled.aspx",
+      "retrieved_at": "2026-09-02T14:35:00Z",
+      "note": "Illinois SBE Candidates Filed (2026 general)"
+    },
+    {
+      "url": "https://elections.il.gov/RSS/LatestCandidatesFiled.aspx?ID=sejIrI%2BQmww%3D",
+      "retrieved_at": "2026-09-02T14:35:00Z",
+      "note": "Official Latest Candidates Filed RSS (partial, not certified)"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T14:32:00Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z",
+      "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC bulk Schedule A $200+ (IL federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC candidate-committee linkage"
     }
-  ]
+  ],
+  "candidates_path": "/data/il/candidates.json",
+  "candidate_summary_path": "/data/il/candidate-summary.json",
+  "votes_path": "/data/il/votes.json",
+  "congress_delegation_path": "/data/il/congress-delegation.json",
+  "legislature_vote_index_path": "/data/il/legislature-vote-index.json"
 }

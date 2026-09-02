@@ -1,0 +1,16 @@
+{
+  "state": "FL",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T12:53:50Z",
+  "sources": [
+    {
+      "label": "Florida Senate (official)",
+      "url": "https://www.flsenate.gov/"
+    },
+    {
+      "label": "Florida House of Representatives (official)",
+      "url": "https://www.myfloridahouse.gov/"
+    }
+  ]
+}

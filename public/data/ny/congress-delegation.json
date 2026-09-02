@@ -1,0 +1,178 @@
+{
+  "state": "NY",
+  "retrieved_at": "2026-09-02T14:32:00Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "L000598",
+      "name": "Nick LaLota",
+      "district": "NY-01",
+      "votes_url": "https://clerk.house.gov/Members/L000598"
+    },
+    {
+      "bioguide": "G000597",
+      "name": "Andrew R. Garbarino",
+      "district": "NY-02",
+      "votes_url": "https://clerk.house.gov/Members/G000597"
+    },
+    {
+      "bioguide": "S001201",
+      "name": "Thomas R. Suozzi",
+      "district": "NY-03",
+      "votes_url": "https://clerk.house.gov/Members/S001201"
+    },
+    {
+      "bioguide": "G000602",
+      "name": "Laura Gillen",
+      "district": "NY-04",
+      "votes_url": "https://clerk.house.gov/Members/G000602"
+    },
+    {
+      "bioguide": "M001137",
+      "name": "Gregory W. Meeks",
+      "district": "NY-05",
+      "votes_url": "https://clerk.house.gov/Members/M001137"
+    },
+    {
+      "bioguide": "M001188",
+      "name": "Grace Meng",
+      "district": "NY-06",
+      "votes_url": "https://clerk.house.gov/Members/M001188"
+    },
+    {
+      "bioguide": "V000081",
+      "name": "Nydia M. Velázquez",
+      "district": "NY-07",
+      "votes_url": "https://clerk.house.gov/Members/V000081"
+    },
+    {
+      "bioguide": "J000294",
+      "name": "Hakeem S. Jeffries",
+      "district": "NY-08",
+      "votes_url": "https://clerk.house.gov/Members/J000294"
+    },
+    {
+      "bioguide": "C001067",
+      "name": "Yvette D. Clarke",
+      "district": "NY-09",
+      "votes_url": "https://clerk.house.gov/Members/C001067"
+    },
+    {
+      "bioguide": "G000599",
+      "name": "Daniel S. Goldman",
+      "district": "NY-10",
+      "votes_url": "https://clerk.house.gov/Members/G000599"
+    },
+    {
+      "bioguide": "M000317",
+      "name": "Nicole Malliotakis",
+      "district": "NY-11",
+      "votes_url": "https://clerk.house.gov/Members/M000317"
+    },
+    {
+      "bioguide": "N000002",
+      "name": "Jerrold Nadler",
+      "district": "NY-12",
+      "votes_url": "https://clerk.house.gov/Members/N000002"
+    },
+    {
+      "bioguide": "E000297",
+      "name": "Adriano Espaillat",
+      "district": "NY-13",
+      "votes_url": "https://clerk.house.gov/Members/E000297"
+    },
+    {
+      "bioguide": "O000172",
+      "name": "Alexandria Ocasio-Cortez",
+      "district": "NY-14",
+      "votes_url": "https://clerk.house.gov/Members/O000172"
+    },
+    {
+      "bioguide": "T000486",
+      "name": "Ritchie Torres",
+      "district": "NY-15",
+      "votes_url": "https://clerk.house.gov/Members/T000486"
+    },
+    {
+      "bioguide": "L000606",
+      "name": "George Latimer",
+      "district": "NY-16",
+      "votes_url": "https://clerk.house.gov/Members/L000606"
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Michael Lawler",
+      "district": "NY-17",
+      "votes_url": "https://clerk.house.gov/Members/L000599"
+    },
+    {
+      "bioguide": "R000579",
+      "name": "Patrick Ryan",
+      "district": "NY-18",
+      "votes_url": "https://clerk.house.gov/Members/R000579"
+    },
+    {
+      "bioguide": "R000622",
+      "name": "Josh Riley",
+      "district": "NY-19",
+      "votes_url": "https://clerk.house.gov/Members/R000622"
+    },
+    {
+      "bioguide": "T000469",
+      "name": "Paul Tonko",
+      "district": "NY-20",
+      "votes_url": "https://clerk.house.gov/Members/T000469"
+    },
+    {
+      "bioguide": "S001196",
+      "name": "Elise M. Stefanik",
+      "district": "NY-21",
+      "votes_url": "https://clerk.house.gov/Members/S001196"
+    },
+    {
+      "bioguide": "M001231",
+      "name": "John W. Mannion",
+      "district": "NY-22",
+      "votes_url": "https://clerk.house.gov/Members/M001231"
+    },
+    {
+      "bioguide": "L000600",
+      "name": "Nicholas A. Langworthy",
+      "district": "NY-23",
+      "votes_url": "https://clerk.house.gov/Members/L000600"
+    },
+    {
+      "bioguide": "T000478",
+      "name": "Claudia Tenney",
+      "district": "NY-24",
+      "votes_url": "https://clerk.house.gov/Members/T000478"
+    },
+    {
+      "bioguide": "M001206",
+      "name": "Joseph D. Morelle",
+      "district": "NY-25",
+      "votes_url": "https://clerk.house.gov/Members/M001206"
+    },
+    {
+      "bioguide": "K000402",
+      "name": "Timothy M. Kennedy",
+      "district": "NY-26",
+      "votes_url": "https://clerk.house.gov/Members/K000402"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "G000555",
+      "name": "Kirsten E. Gillibrand",
+      "last_name": "Gillibrand",
+      "votes_url": "https://www.congress.gov/member/G000555"
+    },
+    {
+      "bioguide": "S000148",
+      "name": "Charles E. Schumer",
+      "last_name": "Schumer",
+      "votes_url": "https://www.congress.gov/member/S000148"
+    }
+  ],
+  "vacant": []
+}

@@ -1,0 +1,107 @@
+{
+  "election": {
+    "jurisdiction": "Texas",
+    "state_code": "TX",
+    "general_date": "2026-11-03",
+    "note": "Official Texas SOS 2026 general ballot certification PDF, TEC itemized 2025–2026 contributions, Clerk/LIS federal votes, and federal FEC Schedule A $200+. Donor lists are not sold."
+  },
+  "votes_path": "/data/tx/votes.json",
+  "congress_delegation_path": "/data/tx/congress-delegation.json",
+  "legislature_vote_index_path": "/data/tx/legislature-vote-index.json",
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T14:32:00Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z",
+      "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC bulk Schedule A $200+ (TX federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC candidate-committee linkage"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf",
+      "retrieved_at": "2026-09-02T14:42:00Z",
+      "note": "Texas SOS 2026 Ballot Certification PDF"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/laws/2026-november-general-election.shtml",
+      "retrieved_at": "2026-09-02T14:42:00Z",
+      "note": "Texas SOS 2026 November general election information"
+    },
+    {
+      "url": "https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip",
+      "retrieved_at": "2026-09-02T14:48:00Z",
+      "note": "Texas Ethics Commission TEC_CF_CSV.zip"
+    },
+    {
+      "url": "https://www.ethics.state.tx.us/search/cf/",
+      "retrieved_at": "2026-09-02T14:48:00Z",
+      "note": "TEC campaign-finance search / bulk"
+    }
+  ],
+  "state_filings": {
+    "wired": true,
+    "donors": {
+      "status": "sourced",
+      "path": "/data/tx/tec-donors.json",
+      "source_url": "https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip",
+      "retrieved_at": "2026-09-02T14:48:00Z",
+      "counts": {
+        "rows": 3429754,
+        "filers": 3006,
+        "items_per_filer_cap": 25,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "tx_sos_cert_pdf": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf",
+    "tx_sos_landing": "https://www.sos.state.tx.us/elections/laws/2026-november-general-election.shtml",
+    "federal_fec": {
+      "status": "partial",
+      "path": "/data/tx/fec-donors.json",
+      "scope": "Texas 2026 House/Senate federal FEC Schedule A $200+ only. State TEC filings are a separate extract when present.",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "counts": {
+        "candidates": 389,
+        "with_receipts": 242,
+        "honest_empty": 147,
+        "kept_rows": 83868,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "tec_zip": "https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip",
+    "tec_landing": "https://www.ethics.state.tx.us/search/cf/"
+  },
+  "candidates_path": "/data/tx/candidates.json",
+  "candidate_summary_path": "/data/tx/candidate-summary.json"
+}

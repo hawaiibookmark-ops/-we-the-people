@@ -1,0 +1,100 @@
+{
+  "state": "MI",
+  "retrieved_at": "2026-09-02T14:32:00Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "B001301",
+      "name": "Jack Bergman",
+      "district": "MI-01",
+      "votes_url": "https://clerk.house.gov/Members/B001301"
+    },
+    {
+      "bioguide": "M001194",
+      "name": "John R. Moolenaar",
+      "district": "MI-02",
+      "votes_url": "https://clerk.house.gov/Members/M001194"
+    },
+    {
+      "bioguide": "S001221",
+      "name": "Hillary J. Scholten",
+      "district": "MI-03",
+      "votes_url": "https://clerk.house.gov/Members/S001221"
+    },
+    {
+      "bioguide": "H001058",
+      "name": "Bill Huizenga",
+      "district": "MI-04",
+      "votes_url": "https://clerk.house.gov/Members/H001058"
+    },
+    {
+      "bioguide": "W000798",
+      "name": "Tim Walberg",
+      "district": "MI-05",
+      "votes_url": "https://clerk.house.gov/Members/W000798"
+    },
+    {
+      "bioguide": "D000624",
+      "name": "Debbie Dingell",
+      "district": "MI-06",
+      "votes_url": "https://clerk.house.gov/Members/D000624"
+    },
+    {
+      "bioguide": "B001321",
+      "name": "Tom Barrett",
+      "district": "MI-07",
+      "votes_url": "https://clerk.house.gov/Members/B001321"
+    },
+    {
+      "bioguide": "M001237",
+      "name": "Kristen McDonald Rivet",
+      "district": "MI-08",
+      "votes_url": "https://clerk.house.gov/Members/M001237"
+    },
+    {
+      "bioguide": "M001136",
+      "name": "Lisa C. McClain",
+      "district": "MI-09",
+      "votes_url": "https://clerk.house.gov/Members/M001136"
+    },
+    {
+      "bioguide": "J000307",
+      "name": "John James",
+      "district": "MI-10",
+      "votes_url": "https://clerk.house.gov/Members/J000307"
+    },
+    {
+      "bioguide": "S001215",
+      "name": "Haley M. Stevens",
+      "district": "MI-11",
+      "votes_url": "https://clerk.house.gov/Members/S001215"
+    },
+    {
+      "bioguide": "T000481",
+      "name": "Rashida Tlaib",
+      "district": "MI-12",
+      "votes_url": "https://clerk.house.gov/Members/T000481"
+    },
+    {
+      "bioguide": "T000488",
+      "name": "Shri Thanedar",
+      "district": "MI-13",
+      "votes_url": "https://clerk.house.gov/Members/T000488"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "P000595",
+      "name": "Gary C. Peters",
+      "last_name": "Peters",
+      "votes_url": "https://www.congress.gov/member/P000595"
+    },
+    {
+      "bioguide": "S001208",
+      "name": "Elissa Slotkin",
+      "last_name": "Slotkin",
+      "votes_url": "https://www.congress.gov/member/S001208"
+    }
+  ],
+  "vacant": []
+}

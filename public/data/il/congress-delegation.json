@@ -1,0 +1,124 @@
+{
+  "state": "IL",
+  "retrieved_at": "2026-09-02T14:32:00Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "J000309",
+      "name": "Jonathan L. Jackson",
+      "district": "IL-01",
+      "votes_url": "https://clerk.house.gov/Members/J000309"
+    },
+    {
+      "bioguide": "K000385",
+      "name": "Robin L. Kelly",
+      "district": "IL-02",
+      "votes_url": "https://clerk.house.gov/Members/K000385"
+    },
+    {
+      "bioguide": "R000617",
+      "name": "Delia C. Ramirez",
+      "district": "IL-03",
+      "votes_url": "https://clerk.house.gov/Members/R000617"
+    },
+    {
+      "bioguide": "G000586",
+      "name": "Jesús G. \"Chuy\" García",
+      "district": "IL-04",
+      "votes_url": "https://clerk.house.gov/Members/G000586"
+    },
+    {
+      "bioguide": "Q000023",
+      "name": "Mike Quigley",
+      "district": "IL-05",
+      "votes_url": "https://clerk.house.gov/Members/Q000023"
+    },
+    {
+      "bioguide": "C001117",
+      "name": "Sean Casten",
+      "district": "IL-06",
+      "votes_url": "https://clerk.house.gov/Members/C001117"
+    },
+    {
+      "bioguide": "D000096",
+      "name": "Danny K. Davis",
+      "district": "IL-07",
+      "votes_url": "https://clerk.house.gov/Members/D000096"
+    },
+    {
+      "bioguide": "K000391",
+      "name": "Raja Krishnamoorthi",
+      "district": "IL-08",
+      "votes_url": "https://clerk.house.gov/Members/K000391"
+    },
+    {
+      "bioguide": "S001145",
+      "name": "Janice D. Schakowsky",
+      "district": "IL-09",
+      "votes_url": "https://clerk.house.gov/Members/S001145"
+    },
+    {
+      "bioguide": "S001190",
+      "name": "Bradley Scott Schneider",
+      "district": "IL-10",
+      "votes_url": "https://clerk.house.gov/Members/S001190"
+    },
+    {
+      "bioguide": "F000454",
+      "name": "Bill Foster",
+      "district": "IL-11",
+      "votes_url": "https://clerk.house.gov/Members/F000454"
+    },
+    {
+      "bioguide": "B001295",
+      "name": "Mike Bost",
+      "district": "IL-12",
+      "votes_url": "https://clerk.house.gov/Members/B001295"
+    },
+    {
+      "bioguide": "B001315",
+      "name": "Nikki Budzinski",
+      "district": "IL-13",
+      "votes_url": "https://clerk.house.gov/Members/B001315"
+    },
+    {
+      "bioguide": "U000040",
+      "name": "Lauren Underwood",
+      "district": "IL-14",
+      "votes_url": "https://clerk.house.gov/Members/U000040"
+    },
+    {
+      "bioguide": "M001211",
+      "name": "Mary E. Miller",
+      "district": "IL-15",
+      "votes_url": "https://clerk.house.gov/Members/M001211"
+    },
+    {
+      "bioguide": "L000585",
+      "name": "Darin LaHood",
+      "district": "IL-16",
+      "votes_url": "https://clerk.house.gov/Members/L000585"
+    },
+    {
+      "bioguide": "S001225",
+      "name": "Eric Sorensen",
+      "district": "IL-17",
+      "votes_url": "https://clerk.house.gov/Members/S001225"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "D000622",
+      "name": "Tammy Duckworth",
+      "last_name": "Duckworth",
+      "votes_url": "https://www.congress.gov/member/D000622"
+    },
+    {
+      "bioguide": "D000563",
+      "name": "Richard J. Durbin",
+      "last_name": "Durbin",
+      "votes_url": "https://www.congress.gov/member/D000563"
+    }
+  ],
+  "vacant": []
+}
