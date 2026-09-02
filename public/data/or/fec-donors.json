@@ -1,0 +1,4829 @@
+{
+  "fec_api_key_present": false,
+  "policy": "Official FEC bulk Schedule A individual receipts of $200+ from indiv26.zip (plus cn26 for CAND_PCC and ccl26 to assign a shared PCC once). CAND_OFFICE_ST=OR, CAND_ELECTION_YR=2026, House+Senate only. MEMO_CD=X skipped. Joint committees (CMTE_DSGN=J) are not treated as PCC. This is federal FEC only; Oregon has no free statewide ORESTAR/Schedule A bulk. Names are copied from the filing extract only and are never invented. Street addresses omitted. Donor lists are not sold. OpenFEC/DEMO_KEY is not used. No Ballotpedia. No scores.",
+  "by_candidate": {
+    "H0OR02127": {
+      "candidate_id": "H0OR02127",
+      "candidate_name": "BENTZ, CLIFF",
+      "office": "H",
+      "district": "02",
+      "party": "REP",
+      "committee_id": "C00725465",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 333,
+      "items": [
+        {
+          "contributor_name": "GANDER, WILLIAM D. MR.",
+          "amount": 7000.0,
+          "date": "2026-02-17",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NONE",
+          "image_number": "202604159857761563",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159857761563"
+        },
+        {
+          "contributor_name": "FLOWERREE, JOHN MR.",
+          "amount": 7000.0,
+          "date": "2026-06-01",
+          "city": "RENO",
+          "state": "NV",
+          "employer": "NONE",
+          "image_number": "202607159875570301",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875570301"
+        },
+        {
+          "contributor_name": "SAN PABLO LYTTON BAND OF POM INDIANS",
+          "amount": 5000.0,
+          "date": "2025-04-09",
+          "city": "SAN PABLO",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202507159762919410",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919410"
+        },
+        {
+          "contributor_name": "GANDER, WILLIAM D. MR.",
+          "amount": 4000.0,
+          "date": "2026-04-29",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NONE",
+          "image_number": "202605079866887813",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866887813"
+        },
+        {
+          "contributor_name": "GANDER, WILLIAM D. MR.",
+          "amount": 4000.0,
+          "date": "2026-06-26",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159875570376",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875570376"
+        },
+        {
+          "contributor_name": "BAIRD, SHAWN",
+          "amount": 3500.0,
+          "date": "2025-02-12",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "METRO WEST AMBULANCE",
+          "image_number": "202504159755366809",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755366809"
+        },
+        {
+          "contributor_name": "KREBS, SKYE HENRY MR.",
+          "amount": 3500.0,
+          "date": "2025-04-21",
+          "city": "IONE",
+          "state": "OR",
+          "employer": "KREBS SHEEP COMPANY",
+          "image_number": "202507159762919395",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919395"
+        },
+        {
+          "contributor_name": "LEVY, EDWARD MR.",
+          "amount": 3500.0,
+          "date": "2025-04-24",
+          "city": "BIRMINGHAM",
+          "state": "MI",
+          "employer": "EDW C. LEVY CO.",
+          "image_number": "202507159762919396",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919396"
+        },
+        {
+          "contributor_name": "VON SCHLEGELL, FRAN",
+          "amount": 3500.0,
+          "date": "2025-04-28",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202507159762919416",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919416"
+        },
+        {
+          "contributor_name": "VON SCHLEGELL, FRAN",
+          "amount": 3500.0,
+          "date": "2025-04-28",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202507159762919417",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919417"
+        },
+        {
+          "contributor_name": "VON SCHLEGELL, JOHN",
+          "amount": 3500.0,
+          "date": "2025-04-28",
+          "city": "FORT KLAMATH",
+          "state": "OR",
+          "employer": "ENDEAVOUR CAPITAL",
+          "image_number": "202507159762919417",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919417"
+        },
+        {
+          "contributor_name": "VON SCHLEGELL, JOHN",
+          "amount": 3500.0,
+          "date": "2025-04-28",
+          "city": "FORT KLAMATH",
+          "state": "OR",
+          "employer": "ENDEAVOUR CAPITAL",
+          "image_number": "202507159762919417",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919417"
+        },
+        {
+          "contributor_name": "PLISKA, JAMES",
+          "amount": 3500.0,
+          "date": "2025-05-06",
+          "city": "CLACKAMAS",
+          "state": "OR",
+          "employer": "SPACE AGE FUEL",
+          "image_number": "202507159762919406",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919406"
+        },
+        {
+          "contributor_name": "SOHN, RICHARD F. MR.",
+          "amount": 3500.0,
+          "date": "2025-05-15",
+          "city": "ROSEBURG",
+          "state": "OR",
+          "employer": "NONE",
+          "image_number": "202507159762919413",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919413"
+        },
+        {
+          "contributor_name": "AGUA CALIENTE BAND OF CAHUILLA INDIANS",
+          "amount": 3500.0,
+          "date": "2025-06-10",
+          "city": "PALM SPRINGS",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202507159762919381",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919381"
+        },
+        {
+          "contributor_name": "STEPHEN, STEPHEN",
+          "amount": 3500.0,
+          "date": "2025-06-13",
+          "city": "LAKE OSWEGO",
+          "state": "OR",
+          "employer": "DVSM LP",
+          "image_number": "202507159762919413",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762919413"
+        },
+        {
+          "contributor_name": "BLAIR, GREGORY",
+          "amount": 3500.0,
+          "date": "2025-07-14",
+          "city": "WHITE CITY",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202510149790799561",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790799561"
+        },
+        {
+          "contributor_name": "FRERES, THEODORE KYLE",
+          "amount": 3500.0,
+          "date": "2025-07-16",
+          "city": "AUMSVILLE",
+          "state": "OR",
+          "employer": "FRERES ENGINEERED WOOD",
+          "image_number": "202510149790799565",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790799565"
+        },
+        {
+          "contributor_name": "WALKER, KENT",
+          "amount": 3500.0,
+          "date": "2025-08-29",
+          "city": "MOUNTAIN VIEW",
+          "state": "CA",
+          "employer": "GOOGLE LLC",
+          "image_number": "202510149790799580",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790799580"
+        },
+        {
+          "contributor_name": "CONFEDERATED TRIBES OF THE COLVILLE RESERVATION",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "NESPELEM",
+          "state": "WA",
+          "employer": null,
+          "image_number": "202510149790799563",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790799563"
+        },
+        {
+          "contributor_name": "PECHANGA BAND OF LUISENO INDIANS",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "TEMECULA",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202510149790799572",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790799572"
+        },
+        {
+          "contributor_name": "YOCHA DEHE WINTUN NATION",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "city": "BROOKS",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202510149790799582",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790799582"
+        },
+        {
+          "contributor_name": "FRERES, TYLER",
+          "amount": 3500.0,
+          "date": "2025-10-20",
+          "city": "STAYTON",
+          "state": "OR",
+          "employer": "FRERES ENGINEERED WOOD",
+          "image_number": "202601309795011069",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795011069"
+        },
+        {
+          "contributor_name": "UNGER, PAUL MR.",
+          "amount": 3500.0,
+          "date": "2025-11-17",
+          "city": "REDMOND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202601309795011075",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795011075"
+        },
+        {
+          "contributor_name": "BROWN, DAVID W. MR.",
+          "amount": 3500.0,
+          "date": "2026-01-23",
+          "city": "LAKE OSWEGO",
+          "state": "OR",
+          "employer": "OBSIDIAN RENEWABLES LLC",
+          "image_number": "202604159857761561",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159857761561"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H2OR01133": {
+      "candidate_id": "H2OR01133",
+      "candidate_name": "BONAMICI, SUZANNE MS.",
+      "office": "H",
+      "district": "01",
+      "party": "DEM",
+      "committee_id": "C00500421",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 345,
+      "items": [
+        {
+          "contributor_name": "MARTIN, CHRYS A.",
+          "amount": 4500.0,
+          "date": "2026-03-05",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604159857665609",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159857665609"
+        },
+        {
+          "contributor_name": "SHERMAN, JOHN LEE",
+          "amount": 3500.0,
+          "date": "2025-03-20",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763283663",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763283663"
+        },
+        {
+          "contributor_name": "VERNIER, CHRISTINE",
+          "amount": 3500.0,
+          "date": "2025-04-04",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "VERNIER SCIENCE EDUCATION",
+          "image_number": "202507159763449156",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763449156"
+        },
+        {
+          "contributor_name": "MCCABE, MOLLY E.",
+          "amount": 3500.0,
+          "date": "2025-05-07",
+          "city": "SANTA MONICA",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763449135",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763449135"
+        },
+        {
+          "contributor_name": "BAIRD, SHAWN",
+          "amount": 3500.0,
+          "date": "2025-06-02",
+          "city": "HILLSBORO",
+          "state": "OR",
+          "employer": "METRO WEST",
+          "image_number": "202507159763449103",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763449103"
+        },
+        {
+          "contributor_name": "ULLMAN, ROGER",
+          "amount": 3500.0,
+          "date": "2025-06-05",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "ADVOCATES FOR CLIMATE INNOVATION",
+          "image_number": "202507159763449153",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763449153"
+        },
+        {
+          "contributor_name": "LINDEN, LAWRENCE",
+          "amount": 3500.0,
+          "date": "2025-06-12",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "RETIRED",
+          "image_number": "202507159763449129",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763449129"
+        },
+        {
+          "contributor_name": "LINDEN, LAWRENCE",
+          "amount": 3500.0,
+          "date": "2025-06-12",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "RETIRED",
+          "image_number": "202507159763449129",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763449129"
+        },
+        {
+          "contributor_name": "CHAPMAN, MATT",
+          "amount": 3500.0,
+          "date": "2025-07-10",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790796315",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796315"
+        },
+        {
+          "contributor_name": "NIERENBERG, DAVID",
+          "amount": 3500.0,
+          "date": "2025-08-11",
+          "city": "CAMAS",
+          "state": "WA",
+          "employer": "NIERENBERG INVESTMENT MGMT CO",
+          "image_number": "202510149790796344",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796344"
+        },
+        {
+          "contributor_name": "FUITEN, JD",
+          "amount": 3500.0,
+          "date": "2025-09-04",
+          "city": "HILLSBORO",
+          "state": "OR",
+          "employer": "METRO WEST AMBULA",
+          "image_number": "202510149790796324",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796324"
+        },
+        {
+          "contributor_name": "FUITEN, JD",
+          "amount": 3500.0,
+          "date": "2025-09-04",
+          "city": "HILLSBORO",
+          "state": "OR",
+          "employer": "METRO WEST AMBULA",
+          "image_number": "202510149790796325",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796325"
+        },
+        {
+          "contributor_name": "BEATTY-WALTERS, ROBERT",
+          "amount": 3500.0,
+          "date": "2025-09-08",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202510149790796309",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796309"
+        },
+        {
+          "contributor_name": "BUTLER, CAROL",
+          "amount": 3500.0,
+          "date": "2025-09-16",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790796313",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796313"
+        },
+        {
+          "contributor_name": "BUTLER, CAROL",
+          "amount": 3500.0,
+          "date": "2025-09-16",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790796314",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796314"
+        },
+        {
+          "contributor_name": "WALSH, PHIL",
+          "amount": 3500.0,
+          "date": "2025-09-19",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202510149790796365",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796365"
+        },
+        {
+          "contributor_name": "ARCHER, ANITA",
+          "amount": 3500.0,
+          "date": "2025-10-31",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202601309794773346",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794773346"
+        },
+        {
+          "contributor_name": "MARGOLIN, PHIL",
+          "amount": 3500.0,
+          "date": "2025-12-30",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601309794773383",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794773383"
+        },
+        {
+          "contributor_name": "MCCABE, MOLLY E.",
+          "amount": 3500.0,
+          "date": "2026-01-05",
+          "city": "SANTA MONICA",
+          "state": "CA",
+          "employer": "SELF",
+          "image_number": "202604159857665611",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159857665611"
+        },
+        {
+          "contributor_name": "VERNIER, DAVID",
+          "amount": 3500.0,
+          "date": "2026-03-16",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "VERNIER SCIENCE EDUCATION",
+          "image_number": "202604159857665646",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159857665646"
+        },
+        {
+          "contributor_name": "SCHNITZER, JORDAN",
+          "amount": 3500.0,
+          "date": "2026-04-29",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "HARSCH INVESTMENT",
+          "image_number": "202605079866868743",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866868743"
+        },
+        {
+          "contributor_name": "BARNHART, PHILIP NEIL",
+          "amount": 3500.0,
+          "date": "2026-05-19",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607159875217525",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875217525"
+        },
+        {
+          "contributor_name": "BARNHART, PHILIP NEIL",
+          "amount": 3500.0,
+          "date": "2026-06-03",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607159875217526",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875217526"
+        },
+        {
+          "contributor_name": "CHAPMAN, MATT",
+          "amount": 3300.0,
+          "date": "2025-03-20",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763283648",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763283648"
+        },
+        {
+          "contributor_name": "PAULSON, JANE S",
+          "amount": 3300.0,
+          "date": "2025-07-20",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "PAULSON COLETTI",
+          "image_number": "202510149790796348",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790796348"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H2OR01240": {
+      "candidate_id": "H2OR01240",
+      "candidate_name": "RUSS, DAVID HONORABLE",
+      "office": "H",
+      "district": "06",
+      "party": "REP",
+      "committee_id": "C00763946",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 1,
+      "items": [
+        {
+          "contributor_name": "NIEZGODSKI, LINDA",
+          "amount": 507.0,
+          "date": "2026-06-24",
+          "city": "TIJERAS",
+          "state": "NM",
+          "employer": "SELF",
+          "image_number": "202607109874855948",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607109874855948"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H2OR04095": {
+      "candidate_id": "H2OR04095",
+      "candidate_name": "HOYLE, VALERIE",
+      "office": "H",
+      "district": "04",
+      "party": "DEM",
+      "committee_id": "C00796144",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 465,
+      "items": [
+        {
+          "contributor_name": "BARNHART, FLORENCE V.",
+          "amount": 7000.0,
+          "date": "2025-09-30",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790799728",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790799728"
+        },
+        {
+          "contributor_name": "BARNHART, PHIL N. SR",
+          "amount": 7000.0,
+          "date": "2025-09-30",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790799729",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790799729"
+        },
+        {
+          "contributor_name": "ATKINS, CHET",
+          "amount": 3500.0,
+          "date": "2025-03-20",
+          "city": "HANCOCK",
+          "state": "NH",
+          "employer": "TREMONT STRATEGIES GROUP LLC",
+          "image_number": "202504159755794762",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755794762"
+        },
+        {
+          "contributor_name": "ALSOP, JOSEPH",
+          "amount": 3500.0,
+          "date": "2025-03-25",
+          "city": "BEVERLY",
+          "state": "MA",
+          "employer": "ALSOP LOUIE PARTNERS",
+          "image_number": "202504159755794761",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755794761"
+        },
+        {
+          "contributor_name": "SIMMONS, LIZ",
+          "amount": 3500.0,
+          "date": "2025-03-27",
+          "city": "ATHERTON",
+          "state": "CA",
+          "employer": "NONE",
+          "image_number": "202504159755794788",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755794788"
+        },
+        {
+          "contributor_name": "SIMMONS, LIZ",
+          "amount": 3500.0,
+          "date": "2025-03-27",
+          "city": "ATHERTON",
+          "state": "CA",
+          "employer": "NONE",
+          "image_number": "202504159755794788",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755794788"
+        },
+        {
+          "contributor_name": "BARNHART, FLORENCE",
+          "amount": 3500.0,
+          "date": "2025-03-31",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755794764",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755794764"
+        },
+        {
+          "contributor_name": "BARNHART, PHILIP N",
+          "amount": 3500.0,
+          "date": "2025-03-31",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755794764",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755794764"
+        },
+        {
+          "contributor_name": "HARRIS, WILLIAM H. SR",
+          "amount": 3500.0,
+          "date": "2025-03-31",
+          "city": "LEXINGTON",
+          "state": "MA",
+          "employer": "RETIRED",
+          "image_number": "202504159755794772",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755794772"
+        },
+        {
+          "contributor_name": "HARRIS, WILLIAM H. SR",
+          "amount": 3500.0,
+          "date": "2025-03-31",
+          "city": "LEXINGTON",
+          "state": "MA",
+          "employer": "RETIRED",
+          "image_number": "202504159755794773",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755794773"
+        },
+        {
+          "contributor_name": "COQUILLE INDIAN TRIBE",
+          "amount": 3500.0,
+          "date": "2025-04-09",
+          "city": "NORTH BEND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202507159763448934",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448934"
+        },
+        {
+          "contributor_name": "COQUILLE INDIAN TRIBE",
+          "amount": 3500.0,
+          "date": "2025-04-09",
+          "city": "NORTH BEND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202507159763448934",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448934"
+        },
+        {
+          "contributor_name": "AGUA CALIENTE BAND OF CAHUILLA INDIANS",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "city": "PALM SPRINGS",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202507159763448927",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448927"
+        },
+        {
+          "contributor_name": "AK-CHIN INDIAN COMMUNITY",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "city": "MARICOPA",
+          "state": "AZ",
+          "employer": null,
+          "image_number": "202507159763448928",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448928"
+        },
+        {
+          "contributor_name": "TOLOWA DEE-NI NATION",
+          "amount": 3500.0,
+          "date": "2025-06-05",
+          "city": "SMITH RIVER",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202507159763448994",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448994"
+        },
+        {
+          "contributor_name": "CONFEDERATED TRIBES OF SILETZ INDIANS",
+          "amount": 3500.0,
+          "date": "2025-06-18",
+          "city": "SILETZ",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202507159763448933",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448933"
+        },
+        {
+          "contributor_name": "JURASEVICH, LEE",
+          "amount": 3500.0,
+          "date": "2025-06-27",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202507159763448960",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448960"
+        },
+        {
+          "contributor_name": "JURASEVICH, LEE",
+          "amount": 3500.0,
+          "date": "2025-06-27",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202507159763448961",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448961"
+        },
+        {
+          "contributor_name": "BUTLER, CAROL",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763448932",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448932"
+        },
+        {
+          "contributor_name": "GURAL, JEFFREY",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "GFP REAL ESTATE",
+          "image_number": "202507159763448947",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448947"
+        },
+        {
+          "contributor_name": "KWAN, KATHY",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "MENLO PARK",
+          "state": "CA",
+          "employer": "RETIRED",
+          "image_number": "202507159763448961",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448961"
+        },
+        {
+          "contributor_name": "MCCONNELL, ALFRED",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "EVANSTON",
+          "state": "IL",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202507159763448967",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448967"
+        },
+        {
+          "contributor_name": "PECHANGA BAND OF INDIANS",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "TEMECULA",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202507159763448976",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448976"
+        },
+        {
+          "contributor_name": "STEPHENS, JACOB",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "NEWSUN PRINCIPAL LLC",
+          "image_number": "202507159763448992",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448992"
+        },
+        {
+          "contributor_name": "WELCH, TERESA",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "TERESA WELCH",
+          "image_number": "202507159763448997",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763448997"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H2OR06066": {
+      "candidate_id": "H2OR06066",
+      "candidate_name": "SALINAS, ANDREA",
+      "office": "H",
+      "district": "06",
+      "party": "DEM",
+      "committee_id": "C00793703",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 842,
+      "items": [
+        {
+          "contributor_name": "KEANE, GORDON",
+          "amount": 3500.0,
+          "date": "2025-02-27",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639744",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639744"
+        },
+        {
+          "contributor_name": "BENNETT, RAY",
+          "amount": 3500.0,
+          "date": "2025-03-06",
+          "city": "AURORA",
+          "state": "IL",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639726",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639726"
+        },
+        {
+          "contributor_name": "GABEL, CAROLINE",
+          "amount": 3500.0,
+          "date": "2025-03-09",
+          "city": "CHESTERTOWN",
+          "state": "MD",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639725",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639725"
+        },
+        {
+          "contributor_name": "GABEL, CAROLINE",
+          "amount": 3500.0,
+          "date": "2025-03-09",
+          "city": "CHESTERTOWN",
+          "state": "MD",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639779",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639779"
+        },
+        {
+          "contributor_name": "GURAL, JEFFREY",
+          "amount": 3500.0,
+          "date": "2025-03-10",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "GFP REAL ESTATE",
+          "image_number": "202504159755639688",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639688"
+        },
+        {
+          "contributor_name": "NIERENBERG, DAVID",
+          "amount": 3500.0,
+          "date": "2025-03-11",
+          "city": "CAMAS",
+          "state": "WA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639719",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639719"
+        },
+        {
+          "contributor_name": "NIERENBERG, PATRICIA",
+          "amount": 3500.0,
+          "date": "2025-03-11",
+          "city": "CAMAS",
+          "state": "WA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639746",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639746"
+        },
+        {
+          "contributor_name": "SAMUELS, BENJAMIN",
+          "amount": 3500.0,
+          "date": "2025-03-14",
+          "city": "BELLAIRE",
+          "state": "TX",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639689",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639689"
+        },
+        {
+          "contributor_name": "LACROUTE, RONNI",
+          "amount": 3500.0,
+          "date": "2025-03-14",
+          "city": "MCMINNVILLE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639781",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639781"
+        },
+        {
+          "contributor_name": "SIMONS, ELIZABETH",
+          "amount": 3500.0,
+          "date": "2025-03-21",
+          "city": "ATHERTON",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639676",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639676"
+        },
+        {
+          "contributor_name": "SIMONS, ELIZABETH",
+          "amount": 3500.0,
+          "date": "2025-03-21",
+          "city": "ATHERTON",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755639738",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639738"
+        },
+        {
+          "contributor_name": "BAIRD, SHAWN",
+          "amount": 3500.0,
+          "date": "2025-03-25",
+          "city": "HILLSBORO",
+          "state": "OR",
+          "employer": "METRO WEST AMBULANCE",
+          "image_number": "202504159755639728",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755639728"
+        },
+        {
+          "contributor_name": "RICHARDSON, SAMANTHA",
+          "amount": 3500.0,
+          "date": "2025-04-05",
+          "city": "LAKE OSWEGO",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763201264",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763201264"
+        },
+        {
+          "contributor_name": "LAUFER, HENRY",
+          "amount": 3500.0,
+          "date": "2025-04-09",
+          "city": "LANTANA",
+          "state": "FL",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763201221",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763201221"
+        },
+        {
+          "contributor_name": "LAUFER, MARSHA",
+          "amount": 3500.0,
+          "date": "2025-04-09",
+          "city": "LANTANA",
+          "state": "FL",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763201222",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763201222"
+        },
+        {
+          "contributor_name": "MENNET, LISA",
+          "amount": 3500.0,
+          "date": "2025-04-25",
+          "city": "SEATTLE",
+          "state": "WA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763201240",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763201240"
+        },
+        {
+          "contributor_name": "ALSOP, JOSEPH",
+          "amount": 3500.0,
+          "date": "2025-04-26",
+          "city": "BEVERLY",
+          "state": "MA",
+          "employer": "ALSOP LOUIE PARTNERS",
+          "image_number": "202507159763201130",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763201130"
+        },
+        {
+          "contributor_name": "SAKITT, RITA",
+          "amount": 3500.0,
+          "date": "2025-07-12",
+          "city": "SOUTH SETAUKET",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808410810",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808410810"
+        },
+        {
+          "contributor_name": "SAKITT, RITA",
+          "amount": 3500.0,
+          "date": "2025-07-12",
+          "city": "SOUTH SETAUKET",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808410811",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808410811"
+        },
+        {
+          "contributor_name": "SALINAS, ROBERTO",
+          "amount": 3500.0,
+          "date": "2025-07-22",
+          "city": "PLEASANT HILL",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808410812",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808410812"
+        },
+        {
+          "contributor_name": "SALINAS, ROBERTO",
+          "amount": 3500.0,
+          "date": "2025-07-22",
+          "city": "PLEASANT HILL",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808410812",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808410812"
+        },
+        {
+          "contributor_name": "KAFOURY, GREG",
+          "amount": 3500.0,
+          "date": "2025-07-30",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202601319808410722",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808410722"
+        },
+        {
+          "contributor_name": "VERNIER, CHRISTINE",
+          "amount": 3500.0,
+          "date": "2025-08-08",
+          "city": "BEAVERTON",
+          "state": "OR",
+          "employer": "VERNIER SCIENCE EDUCATION",
+          "image_number": "202601319808410832",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808410832"
+        },
+        {
+          "contributor_name": "HSU, SALLY",
+          "amount": 3500.0,
+          "date": "2025-09-01",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808410713",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808410713"
+        },
+        {
+          "contributor_name": "MAKIHARA, JUN",
+          "amount": 3500.0,
+          "date": "2025-09-10",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808410748",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808410748"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H4OR01121": {
+      "candidate_id": "H4OR01121",
+      "candidate_name": "CHAUDHRY-AHMAD, JAMIL O",
+      "office": "H",
+      "district": "01",
+      "party": "DEM",
+      "committee_id": "C00870303",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 1,
+      "items": [
+        {
+          "contributor_name": "SHETH, KARNA",
+          "amount": 301.0,
+          "date": "2026-03-17",
+          "city": "CHICAGO",
+          "state": "IL",
+          "employer": "SELF",
+          "image_number": "202604159857248568",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159857248568"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H4OR02228": {
+      "candidate_id": "H4OR02228",
+      "candidate_name": "HUBER, RAIPH R",
+      "office": "H",
+      "district": "04",
+      "party": "REP",
+      "committee_id": "C00765925",
+      "status": "empty",
+      "reason": "Principal campaign committee C00765925 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H4OR03192": {
+      "candidate_id": "H4OR03192",
+      "candidate_name": "DEXTER, MAXINE",
+      "office": "H",
+      "district": "03",
+      "party": "DEM",
+      "committee_id": "C00859108",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 602,
+      "items": [
+        {
+          "contributor_name": "HSU, SALLY",
+          "amount": 5000.0,
+          "date": "2026-02-27",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604159862392599",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862392599"
+        },
+        {
+          "contributor_name": "KEANE, GORDON",
+          "amount": 4000.0,
+          "date": "2026-03-11",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "DIGITAL VISION INC",
+          "image_number": "202604159862392609",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862392609"
+        },
+        {
+          "contributor_name": "VERNIER, CHRISTINE",
+          "amount": 3500.0,
+          "date": "2025-02-09",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "VERNIER SCIENCE EDUCATION",
+          "image_number": "202504159755797389",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797389"
+        },
+        {
+          "contributor_name": "HANCKEL, FRANCES",
+          "amount": 3500.0,
+          "date": "2025-02-11",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202504159755797366",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797366"
+        },
+        {
+          "contributor_name": "WILLIAMS, HOMER",
+          "amount": 3500.0,
+          "date": "2025-02-19",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "WILLAMS DAME & ASSOCIATES INC",
+          "image_number": "202504159755797389",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797389"
+        },
+        {
+          "contributor_name": "NIERENBERG, DAVID",
+          "amount": 3500.0,
+          "date": "2025-03-04",
+          "city": "CAMAS",
+          "state": "WA",
+          "employer": "NIERENBERG INVESTMENT MANAGEMENT COMPA",
+          "image_number": "202504159755797380",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797380"
+        },
+        {
+          "contributor_name": "NIERENBERG, PATRICIA",
+          "amount": 3500.0,
+          "date": "2025-03-04",
+          "city": "CAMAS",
+          "state": "WA",
+          "employer": "NIERENBERG INVESTMENT MANAGEMENT CO IN",
+          "image_number": "202504159755797380",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797380"
+        },
+        {
+          "contributor_name": "HARRIS, WILLIAM SR",
+          "amount": 3500.0,
+          "date": "2025-03-06",
+          "city": "LEXINGTON",
+          "state": "MA",
+          "employer": "MASS GENERAL",
+          "image_number": "202504159755797367",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797367"
+        },
+        {
+          "contributor_name": "HARRIS, WILLIAM SR",
+          "amount": 3500.0,
+          "date": "2025-03-06",
+          "city": "LEXINGTON",
+          "state": "MA",
+          "employer": "MASS GENERAL",
+          "image_number": "202504159755797367",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797367"
+        },
+        {
+          "contributor_name": "DEXTER, ANGELIKE",
+          "amount": 3500.0,
+          "date": "2025-03-09",
+          "city": "LOS ANGELES",
+          "state": "CA",
+          "employer": "SELF",
+          "image_number": "202504159755797356",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797356"
+        },
+        {
+          "contributor_name": "DEXTER, ANGELIKE",
+          "amount": 3500.0,
+          "date": "2025-03-09",
+          "city": "LOS ANGELES",
+          "state": "CA",
+          "employer": "SELF",
+          "image_number": "202504159755797357",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797357"
+        },
+        {
+          "contributor_name": "GOLDBLATT, BRETT",
+          "amount": 3500.0,
+          "date": "2025-03-09",
+          "city": "LOS ANGELES",
+          "state": "CA",
+          "employer": "ARPININE",
+          "image_number": "202504159755797363",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797363"
+        },
+        {
+          "contributor_name": "GOLDBLATT, BRETT",
+          "amount": 3500.0,
+          "date": "2025-03-09",
+          "city": "LOS ANGELES",
+          "state": "CA",
+          "employer": "ARPININE",
+          "image_number": "202504159755797363",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797363"
+        },
+        {
+          "contributor_name": "FUITEN, JD",
+          "amount": 3500.0,
+          "date": "2025-03-10",
+          "city": "HILLSBORO",
+          "state": "OR",
+          "employer": "METRO WEST AMBULA",
+          "image_number": "202504159755797362",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755797362"
+        },
+        {
+          "contributor_name": "HILLMAN, HENRY",
+          "amount": 3500.0,
+          "date": "2025-04-04",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763447231",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447231"
+        },
+        {
+          "contributor_name": "ROWE, ANDREW",
+          "amount": 3500.0,
+          "date": "2025-04-16",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763447252",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447252"
+        },
+        {
+          "contributor_name": "RICHARDSON, SAMANTHA",
+          "amount": 3500.0,
+          "date": "2025-05-22",
+          "city": "CHICAGO",
+          "state": "IL",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763447248",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447248"
+        },
+        {
+          "contributor_name": "BARNHART, FLORENCE",
+          "amount": 3500.0,
+          "date": "2025-06-19",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202507159763447210",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447210"
+        },
+        {
+          "contributor_name": "BARNHART, FLORENCE",
+          "amount": 3500.0,
+          "date": "2025-06-19",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202507159763447210",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447210"
+        },
+        {
+          "contributor_name": "BARNHART, PHILIP",
+          "amount": 3500.0,
+          "date": "2025-06-19",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "EDMUNSON BARNHART KNIGHT",
+          "image_number": "202507159763447211",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447211"
+        },
+        {
+          "contributor_name": "BARNHART, PHILIP",
+          "amount": 3500.0,
+          "date": "2025-06-19",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "EDMUNSON BARNHART KNIGHT",
+          "image_number": "202507159763447211",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447211"
+        },
+        {
+          "contributor_name": "GALLO, ERNEST",
+          "amount": 3500.0,
+          "date": "2025-06-26",
+          "city": "MODESTO",
+          "state": "CA",
+          "employer": "GALLO",
+          "image_number": "202507159763447229",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447229"
+        },
+        {
+          "contributor_name": "MENGES, JOHN K. JR",
+          "amount": 3500.0,
+          "date": "2025-06-26",
+          "city": "MODESTO",
+          "state": "CA",
+          "employer": "E. J. GALLO WINERY",
+          "image_number": "202507159763447240",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447240"
+        },
+        {
+          "contributor_name": "BENDER, JEREMY",
+          "amount": 3500.0,
+          "date": "2025-06-29",
+          "city": "BURLINGAME",
+          "state": "CA",
+          "employer": "DAY ONE BIOPHARMACEUTICALS",
+          "image_number": "202507159763447212",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447212"
+        },
+        {
+          "contributor_name": "MCCALL, EDMUND",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "MCCALL COMPANIES",
+          "image_number": "202507159763447238",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763447238"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H4OR05304": {
+      "candidate_id": "H4OR05304",
+      "candidate_name": "BYNUM, JANELLE",
+      "office": "H",
+      "district": "05",
+      "party": "DEM",
+      "committee_id": "C00843425",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 1885,
+      "items": [
+        {
+          "contributor_name": "SIMONS, LIZ",
+          "amount": 7000.0,
+          "date": "2025-03-21",
+          "city": "ATHERTON",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763270342",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763270342"
+        },
+        {
+          "contributor_name": "HARRIS, WILLIAM SR. SR",
+          "amount": 7000.0,
+          "date": "2025-03-31",
+          "city": "LEXINGTON",
+          "state": "MA",
+          "employer": "MASS GENERAL HOSPITAL",
+          "image_number": "202507159763270281",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763270281"
+        },
+        {
+          "contributor_name": "BLUMENSTEIN, RICHARD",
+          "amount": 7000.0,
+          "date": "2025-04-01",
+          "city": "BINGHAM FARMS",
+          "state": "MI",
+          "employer": "DOVER DEVELOPMENT",
+          "image_number": "202507159763518266",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518266"
+        },
+        {
+          "contributor_name": "MARKOVICH, PAUL",
+          "amount": 7000.0,
+          "date": "2025-05-25",
+          "city": "OAKLAND",
+          "state": "CA",
+          "employer": "BLUE SHIELD OF CALIFORNIA",
+          "image_number": "202507159763518278",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518278"
+        },
+        {
+          "contributor_name": "WOMER, ROD",
+          "amount": 7000.0,
+          "date": "2025-06-06",
+          "city": "NEWBURY PARK",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763518290",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518290"
+        },
+        {
+          "contributor_name": "HARNISCH, RUTH ANN",
+          "amount": 7000.0,
+          "date": "2025-06-17",
+          "city": "HAMPTON BAYS",
+          "state": "NY",
+          "employer": "THE HARNISCH FOUNDATION",
+          "image_number": "202507159763518297",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518297"
+        },
+        {
+          "contributor_name": "KLARMAN, SETH",
+          "amount": 7000.0,
+          "date": "2025-06-20",
+          "city": "BOSTON",
+          "state": "MA",
+          "employer": "THE BAUPOST GROUP",
+          "image_number": "202507159763518050",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518050"
+        },
+        {
+          "contributor_name": "KARPLUS, BARBARA",
+          "amount": 7000.0,
+          "date": "2025-06-25",
+          "city": "NEWBURY PARK",
+          "state": "CA",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202507159763517988",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763517988"
+        },
+        {
+          "contributor_name": "SAKITT, RITA",
+          "amount": 7000.0,
+          "date": "2025-06-25",
+          "city": "SOUTH SETAUKET",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763518122",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518122"
+        },
+        {
+          "contributor_name": "WADSWORTH, JACK",
+          "amount": 7000.0,
+          "date": "2025-09-29",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794176647",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794176647"
+        },
+        {
+          "contributor_name": "KNIGHT, ERIC",
+          "amount": 7000.0,
+          "date": "2026-01-16",
+          "city": "SANDS POINT",
+          "state": "NY",
+          "employer": "JANE STREET CAPITAL",
+          "image_number": "202604159862947547",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862947547"
+        },
+        {
+          "contributor_name": "MANSOUR, TAREK",
+          "amount": 7000.0,
+          "date": "2026-02-04",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "KALSHI",
+          "image_number": "202604159862947598",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862947598"
+        },
+        {
+          "contributor_name": "TURTLETAUB, MARC",
+          "amount": 7000.0,
+          "date": "2026-02-12",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "BIG BEACH LLC",
+          "image_number": "202604159862947374",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862947374"
+        },
+        {
+          "contributor_name": "SIMONS, NATHANIEL",
+          "amount": 7000.0,
+          "date": "2026-02-26",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "MERITAGE GROUP LP",
+          "image_number": "202604159862947589",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862947589"
+        },
+        {
+          "contributor_name": "BAKES, DANIELA",
+          "amount": 7000.0,
+          "date": "2026-03-02",
+          "city": "NEEDHAM",
+          "state": "MA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604159862947282",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862947282"
+        },
+        {
+          "contributor_name": "BAKES, JUSTIN",
+          "amount": 7000.0,
+          "date": "2026-03-02",
+          "city": "NEEDHAM",
+          "state": "MA",
+          "employer": "ALCAZAR CAPITAL",
+          "image_number": "202604159862947955",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862947955"
+        },
+        {
+          "contributor_name": "GATES, RORY",
+          "amount": 7000.0,
+          "date": "2026-05-12",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "U.S. SENATE",
+          "image_number": "202607159890729380",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890729380"
+        },
+        {
+          "contributor_name": "CHAPMAN, MATT",
+          "amount": 6600.0,
+          "date": "2025-01-10",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763270343",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763270343"
+        },
+        {
+          "contributor_name": "GABBERT, MARTHA",
+          "amount": 6600.0,
+          "date": "2025-04-08",
+          "city": "MINNEAPOLIS",
+          "state": "MN",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763518150",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518150"
+        },
+        {
+          "contributor_name": "KEANE, GORDON",
+          "amount": 6000.0,
+          "date": "2025-06-17",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "DIGITAL VISION INC",
+          "image_number": "202507159763518028",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518028"
+        },
+        {
+          "contributor_name": "DUNCAN, ELAINE",
+          "amount": 5000.0,
+          "date": "2025-06-04",
+          "city": "LOUISVILLE",
+          "state": "KY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202507159763518127",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763518127"
+        },
+        {
+          "contributor_name": "KOSTROUN, VENA",
+          "amount": 5000.0,
+          "date": "2025-09-18",
+          "city": "BOULDER",
+          "state": "CO",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794176748",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794176748"
+        },
+        {
+          "contributor_name": "ERICKSEN, EUGENE",
+          "amount": 5000.0,
+          "date": "2025-11-29",
+          "city": "PHILADELPHIA",
+          "state": "PA",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202601319808550113",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808550113"
+        },
+        {
+          "contributor_name": "THOMAS, TINA",
+          "amount": 5000.0,
+          "date": "2026-03-04",
+          "city": "SACRAMENTO",
+          "state": "CA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604159862947587",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862947587"
+        },
+        {
+          "contributor_name": "GLYNN, BARBARA",
+          "amount": 4166.0,
+          "date": "2025-10-07",
+          "city": "ATHERTON",
+          "state": "CA",
+          "employer": "GLYNN CAPITAL MANAGEMENT",
+          "image_number": "202601319808549894",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808549894"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR01308": {
+      "candidate_id": "H6OR01308",
+      "candidate_name": "KAHL, BARBARA J DR DVM",
+      "office": "H",
+      "district": "01",
+      "party": "REP",
+      "committee_id": "C00942839",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 4,
+      "items": [
+        {
+          "contributor_name": "HUGGINS, ANITA",
+          "amount": 985.0,
+          "date": "2026-04-09",
+          "city": "ALOHA",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202605089866912774",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605089866912774"
+        },
+        {
+          "contributor_name": "HUGGINS, ANITA",
+          "amount": 985.0,
+          "date": "2026-04-09",
+          "city": "ALOHA",
+          "state": "OR",
+          "employer": "IN HOME NURSING CARE COMPANY",
+          "image_number": "202607099874817036",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607099874817036"
+        },
+        {
+          "contributor_name": "FRYER, RANDALL",
+          "amount": 500.0,
+          "date": "2026-06-21",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202607119874881282",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607119874881282"
+        },
+        {
+          "contributor_name": "RICE, KIM",
+          "amount": 250.0,
+          "date": "2026-06-09",
+          "city": "BEAVERTON",
+          "state": "OR",
+          "employer": "RESTORING OREGON",
+          "image_number": "202607119874881282",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607119874881282"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02207": {
+      "candidate_id": "H6OR02207",
+      "candidate_name": "KNIGHT, MITCHEL IAN",
+      "office": "H",
+      "district": "02",
+      "party": "DEM",
+      "committee_id": "C00907196",
+      "status": "empty",
+      "reason": "Principal campaign committee C00907196 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02215": {
+      "candidate_id": "H6OR02215",
+      "candidate_name": "SNOW, PATTY",
+      "office": "H",
+      "district": "02",
+      "party": "DEM",
+      "committee_id": "C00911594",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 24,
+      "items": [
+        {
+          "contributor_name": "LANE, DAVID",
+          "amount": 5000.0,
+          "date": "2025-11-20",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189067",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189067"
+        },
+        {
+          "contributor_name": "SNOW, STEPHEN",
+          "amount": 3300.0,
+          "date": "2025-08-14",
+          "city": "MESQUITE",
+          "state": "NV",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790788456",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790788456"
+        },
+        {
+          "contributor_name": "SNOW, STEPHEN",
+          "amount": 3191.0,
+          "date": "2026-06-12",
+          "city": "MESQUITE",
+          "state": "NV",
+          "employer": null,
+          "image_number": "202607159875292167",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875292167"
+        },
+        {
+          "contributor_name": "BARTZ, DEBRA",
+          "amount": 3000.0,
+          "date": "2026-02-23",
+          "city": "TALENT",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604149857193740",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857193740"
+        },
+        {
+          "contributor_name": "LANE, DAVID",
+          "amount": 2500.0,
+          "date": "2026-05-21",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159875292167",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875292167"
+        },
+        {
+          "contributor_name": "LANE, DAVID",
+          "amount": 1000.0,
+          "date": "2025-09-11",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790788456",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790788456"
+        },
+        {
+          "contributor_name": "RATZLAFF, JAMES",
+          "amount": 1000.0,
+          "date": "2025-11-20",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202601269794189067",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189067"
+        },
+        {
+          "contributor_name": "DOYLE, DIANE",
+          "amount": 500.0,
+          "date": "2025-09-18",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202510149790788455",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790788455"
+        },
+        {
+          "contributor_name": "KNOKE, MARY",
+          "amount": 500.0,
+          "date": "2025-11-03",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189067",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189067"
+        },
+        {
+          "contributor_name": "LUNDAHL, LEINANI",
+          "amount": 500.0,
+          "date": "2026-04-08",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605079866896839",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866896839"
+        },
+        {
+          "contributor_name": "TAYLOR, SUZANNE",
+          "amount": 333.0,
+          "date": "2025-11-20",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189068",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189068"
+        },
+        {
+          "contributor_name": "JENSEN, PATRICIA",
+          "amount": 260.0,
+          "date": "2025-09-26",
+          "city": "EAGLE POINT",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790788455",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790788455"
+        },
+        {
+          "contributor_name": "TOLOUI, KAREN",
+          "amount": 250.0,
+          "date": "2025-08-14",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "DIABLO VALLEY COLLEGE",
+          "image_number": "202510149790788457",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790788457"
+        },
+        {
+          "contributor_name": "BARTZ, DEBRA",
+          "amount": 250.0,
+          "date": "2025-08-24",
+          "city": "TALENT",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790788455",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790788455"
+        },
+        {
+          "contributor_name": "POLISH, ED",
+          "amount": 250.0,
+          "date": "2025-08-24",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202510149790788456",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790788456"
+        },
+        {
+          "contributor_name": "WHITAKER, ROBYNNE",
+          "amount": 250.0,
+          "date": "2025-08-24",
+          "city": "TALENT",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202510149790788457",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790788457"
+        },
+        {
+          "contributor_name": "BROMBACHER, VICKI",
+          "amount": 250.0,
+          "date": "2025-11-20",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189065",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189065"
+        },
+        {
+          "contributor_name": "COLEMAN, ANNE",
+          "amount": 250.0,
+          "date": "2025-11-20",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189066",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189066"
+        },
+        {
+          "contributor_name": "CRAWFORD, CHERYL",
+          "amount": 250.0,
+          "date": "2025-11-20",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189066",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189066"
+        },
+        {
+          "contributor_name": "JAHNKE, PEGGY",
+          "amount": 250.0,
+          "date": "2025-11-20",
+          "city": "GOLD HILL",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189066",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189066"
+        },
+        {
+          "contributor_name": "STOEHR, SUSAN",
+          "amount": 250.0,
+          "date": "2025-11-20",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189068",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189068"
+        },
+        {
+          "contributor_name": "STOVER, JAN",
+          "amount": 250.0,
+          "date": "2025-11-21",
+          "city": "TALENT",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601269794189068",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794189068"
+        },
+        {
+          "contributor_name": "PHILLIPS, FRANCIS",
+          "amount": 250.0,
+          "date": "2026-02-06",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604149857193741",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857193741"
+        },
+        {
+          "contributor_name": "TOLOUI, KAREN",
+          "amount": 250.0,
+          "date": "2026-04-23",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605079866896840",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866896840"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02223": {
+      "candidate_id": "H6OR02223",
+      "candidate_name": "BLACK, PETER RUSSELL MR.",
+      "office": "H",
+      "district": "02",
+      "party": "DEM",
+      "committee_id": "C00912691",
+      "status": "empty",
+      "reason": "Principal campaign committee C00912691 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02231": {
+      "candidate_id": "H6OR02231",
+      "candidate_name": "RASMUSSEN, DAWN",
+      "office": "H",
+      "district": "02",
+      "party": "DEM",
+      "committee_id": "C00918516",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 67,
+      "items": [
+        {
+          "contributor_name": "SCHULTZ, SYDNEY",
+          "amount": 3700.0,
+          "date": "2025-08-26",
+          "city": "CLEARWATER",
+          "state": "FL",
+          "employer": "RETIRED",
+          "image_number": "202510149790786731",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786731"
+        },
+        {
+          "contributor_name": "NOYES, EDWARD O.",
+          "amount": 3200.0,
+          "date": "2026-04-25",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149875017775",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875017775"
+        },
+        {
+          "contributor_name": "RASMUSSEN, DAWN",
+          "amount": 2500.0,
+          "date": "2026-03-12",
+          "city": "THE DALLES",
+          "state": "OR",
+          "employer": "PATHFINDER WRITING AND CAREER SERVICES",
+          "image_number": "202607149875016477",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016477"
+        },
+        {
+          "contributor_name": "LANE, DAVID",
+          "amount": 2500.0,
+          "date": "2026-03-17",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149875016468",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016468"
+        },
+        {
+          "contributor_name": "ARCHULETA, GLORIA",
+          "amount": 1500.0,
+          "date": "2026-04-07",
+          "city": "LYLE",
+          "state": "WA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149875017771",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875017771"
+        },
+        {
+          "contributor_name": "CROMLEY, VICTORIA",
+          "amount": 1000.0,
+          "date": "2025-08-24",
+          "city": "POWELL",
+          "state": "OH",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790786727",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786727"
+        },
+        {
+          "contributor_name": "CAMP, SANDRA",
+          "amount": 1000.0,
+          "date": "2025-08-27",
+          "city": "THE DALLES",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202510149790786727",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786727"
+        },
+        {
+          "contributor_name": "MILLER MCCUNE, KELLY",
+          "amount": 1000.0,
+          "date": "2025-08-27",
+          "city": "HOOD RIVER",
+          "state": "OR",
+          "employer": "RUNCIBLE CIDER COMPANY",
+          "image_number": "202510149790786728",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786728"
+        },
+        {
+          "contributor_name": "ODEN, HEATHER",
+          "amount": 1000.0,
+          "date": "2025-08-28",
+          "city": "MILWAUKIE",
+          "state": "OR",
+          "employer": "DAVIS WRIGHT TREMAINE",
+          "image_number": "202510149790786729",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786729"
+        },
+        {
+          "contributor_name": "SMITH, SIEGLINDE",
+          "amount": 1000.0,
+          "date": "2025-09-08",
+          "city": "MOSIER",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790786732",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786732"
+        },
+        {
+          "contributor_name": "GLASS, MICHAEL",
+          "amount": 1000.0,
+          "date": "2025-11-08",
+          "city": "THE DALLES",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604149857194344",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857194344"
+        },
+        {
+          "contributor_name": "MILLER, ROBERT",
+          "amount": 1000.0,
+          "date": "2025-11-08",
+          "city": "HOOD RIVER",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202604149857194345",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857194345"
+        },
+        {
+          "contributor_name": "JOYCE, SUSAN",
+          "amount": 1000.0,
+          "date": "2026-01-10",
+          "city": "NORTHBOROUGH",
+          "state": "MA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149875016465",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016465"
+        },
+        {
+          "contributor_name": "ODEN, HEATHER",
+          "amount": 1000.0,
+          "date": "2026-04-03",
+          "city": "MILWAUKIE",
+          "state": "OR",
+          "employer": "DUNN CARNEY",
+          "image_number": "202607149875017776",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875017776"
+        },
+        {
+          "contributor_name": "SIMMONS, SUZANNE",
+          "amount": 1000.0,
+          "date": "2026-04-09",
+          "city": "EAGLE POINT",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149875017777",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875017777"
+        },
+        {
+          "contributor_name": "LABUHN, CYNTHIA",
+          "amount": 630.0,
+          "date": "2026-01-23",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "ARDEN EVENT COLLECTIVE",
+          "image_number": "202607149875016468",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016468"
+        },
+        {
+          "contributor_name": "PRICHARD, MAC",
+          "amount": 500.0,
+          "date": "2025-08-26",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202510149790786730",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786730"
+        },
+        {
+          "contributor_name": "SHOEMAKER, ROB",
+          "amount": 500.0,
+          "date": "2025-08-26",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202510149790786731",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786731"
+        },
+        {
+          "contributor_name": "TIETZ, MICHELLE",
+          "amount": 500.0,
+          "date": "2025-09-07",
+          "city": "SHERWOOD",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790786732",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790786732"
+        },
+        {
+          "contributor_name": "LOVELL, TEDD",
+          "amount": 500.0,
+          "date": "2026-01-12",
+          "city": "THE DALLES",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149875016470",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016470"
+        },
+        {
+          "contributor_name": "SHOEMAKER, ROB",
+          "amount": 500.0,
+          "date": "2026-01-24",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607149875016474",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016474"
+        },
+        {
+          "contributor_name": "LEMANN, ELEANOR",
+          "amount": 500.0,
+          "date": "2026-01-26",
+          "city": "THE DALLES",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149875016469",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016469"
+        },
+        {
+          "contributor_name": "PRICHARD, MAC",
+          "amount": 500.0,
+          "date": "2026-01-26",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "MAC'S LIST",
+          "image_number": "202607149875016473",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016473"
+        },
+        {
+          "contributor_name": "O'ROURKE, TIMOTHY",
+          "amount": 500.0,
+          "date": "2026-02-02",
+          "city": "PENDLETON",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202607149875016472",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016472"
+        },
+        {
+          "contributor_name": "LEWIS, SCOTT",
+          "amount": 500.0,
+          "date": "2026-03-15",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607149875016470",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149875016470"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02249": {
+      "candidate_id": "H6OR02249",
+      "candidate_name": "CARR, ANDREA",
+      "office": "H",
+      "district": "02",
+      "party": "REP",
+      "committee_id": "C00927640",
+      "status": "empty",
+      "reason": "Principal campaign committee C00927640 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02264": {
+      "candidate_id": "H6OR02264",
+      "candidate_name": "MCALMOND, RUSSELL 5035244864",
+      "office": "H",
+      "district": "02",
+      "party": "REP",
+      "committee_id": null,
+      "status": "empty",
+      "reason": "No principal campaign committee on FEC candidate master (cn26). Honest-empty. Joint fundraising committees are not used.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02280": {
+      "candidate_id": "H6OR02280",
+      "candidate_name": "MUELLER, REBECCA MCKAY",
+      "office": "H",
+      "district": "02",
+      "party": "DEM",
+      "committee_id": "C00927079",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 17,
+      "items": [
+        {
+          "contributor_name": "LANE, DAVID",
+          "amount": 2500.0,
+          "date": "2026-02-25",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605069866843221",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843221"
+        },
+        {
+          "contributor_name": "LOUGHLAND, JACK",
+          "amount": 1103.0,
+          "date": "2026-04-06",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202605069866843250",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843250"
+        },
+        {
+          "contributor_name": "JOHNSON, PATRICIA",
+          "amount": 1000.0,
+          "date": "2025-11-30",
+          "city": "URBANDALE",
+          "state": "IA",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601279794214590",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601279794214590"
+        },
+        {
+          "contributor_name": "PERRIN, ANDREW",
+          "amount": 1000.0,
+          "date": "2025-12-21",
+          "city": "ZIONSVILLE",
+          "state": "IN",
+          "employer": "PNC FINANCIAL SERVICES",
+          "image_number": "202601279794214590",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601279794214590"
+        },
+        {
+          "contributor_name": "MUELLER, REBECCA",
+          "amount": 676.0,
+          "date": "2025-12-26",
+          "city": "WHITE CITY",
+          "state": "OR",
+          "employer": "LA CLINICA",
+          "image_number": "202601279794214592",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601279794214592"
+        },
+        {
+          "contributor_name": "SAGE, PETER",
+          "amount": 525.0,
+          "date": "2026-05-03",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607119874885528",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607119874885528"
+        },
+        {
+          "contributor_name": "OKEEFE, LEONA",
+          "amount": 500.0,
+          "date": "2026-01-04",
+          "city": "GRANTS PASS",
+          "state": "OR",
+          "employer": "JCC",
+          "image_number": "202605069866843223",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843223"
+        },
+        {
+          "contributor_name": "SAGE, PETER",
+          "amount": 500.0,
+          "date": "2026-02-02",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605069866843223",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843223"
+        },
+        {
+          "contributor_name": "O'DONNELL, LINDA",
+          "amount": 500.0,
+          "date": "2026-02-24",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605069866843222",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843222"
+        },
+        {
+          "contributor_name": "GREEK, JANET",
+          "amount": 500.0,
+          "date": "2026-03-01",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605069866843221",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843221"
+        },
+        {
+          "contributor_name": "NEIL, CAROL",
+          "amount": 500.0,
+          "date": "2026-03-01",
+          "city": "JACKSONVILLE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605069866843222",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843222"
+        },
+        {
+          "contributor_name": "CURRY, JANEL",
+          "amount": 500.0,
+          "date": "2026-03-08",
+          "city": "SOUTH HAMILTON",
+          "state": "MA",
+          "employer": "GORDON COLLEGGE",
+          "image_number": "202605069866843221",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843221"
+        },
+        {
+          "contributor_name": "ROTHSCHILD, HERBERT JR",
+          "amount": 500.0,
+          "date": "2026-03-21",
+          "city": "TALENT",
+          "state": "OR",
+          "employer": "NONE",
+          "image_number": "202605069866843223",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843223"
+        },
+        {
+          "contributor_name": "NAUMANN, RONALD",
+          "amount": 500.0,
+          "date": "2026-03-22",
+          "city": "TALENT",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605069866843222",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843222"
+        },
+        {
+          "contributor_name": "MORRIS, NANCY",
+          "amount": 250.0,
+          "date": "2025-11-22",
+          "city": "TRAVERSE CITY",
+          "state": "MI",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601279794214590",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601279794214590"
+        },
+        {
+          "contributor_name": "VERSTEEG, CHARLES JR",
+          "amount": 250.0,
+          "date": "2026-03-21",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "NONE",
+          "image_number": "202605069866843224",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843224"
+        },
+        {
+          "contributor_name": "BRENDER, ERIN",
+          "amount": 250.0,
+          "date": "2026-04-18",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "SOUTHERN OREGON HOSPITALISTS",
+          "image_number": "202605069866843250",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605069866843250"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02298": {
+      "candidate_id": "H6OR02298",
+      "candidate_name": "DOYLE, MARY",
+      "office": "H",
+      "district": "02",
+      "party": "DEM",
+      "committee_id": "C00931642",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 5,
+      "items": [
+        {
+          "contributor_name": "LANE, DAVID",
+          "amount": 1000.0,
+          "date": "2026-04-06",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202606269874274301",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606269874274301"
+        },
+        {
+          "contributor_name": "LANE, PATRICIA",
+          "amount": 1000.0,
+          "date": "2026-04-06",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202606269874274301",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606269874274301"
+        },
+        {
+          "contributor_name": "DENNIS, JONATHAN",
+          "amount": 900.0,
+          "date": "2026-02-24",
+          "city": "ONTARIO",
+          "state": "OR",
+          "employer": "SAGEBRUSH LAW",
+          "image_number": "202606269874270757",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606269874270757"
+        },
+        {
+          "contributor_name": "KAPLAN, KARYN",
+          "amount": 500.0,
+          "date": "2026-01-08",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202606269874270757",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606269874270757"
+        },
+        {
+          "contributor_name": "KAPLAN, KARYN",
+          "amount": 250.0,
+          "date": "2025-11-13",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202606269874270757",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202606269874270757"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02306": {
+      "candidate_id": "H6OR02306",
+      "candidate_name": "LARSON, PETER JAMES",
+      "office": "H",
+      "district": "02",
+      "party": "REP",
+      "committee_id": "C00934927",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 2,
+      "items": [
+        {
+          "contributor_name": "LARSON, PETER JAMES",
+          "amount": 7034.0,
+          "date": "2026-01-31",
+          "city": "LA GRANDE",
+          "state": "OR",
+          "employer": "EASTERN OREGON UNIVERSITY",
+          "image_number": "202604139857138128",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604139857138128"
+        },
+        {
+          "contributor_name": "LARSON, PETER JAMES",
+          "amount": 762.0,
+          "date": "2026-04-01",
+          "city": "LA GRANDE",
+          "state": "OR",
+          "employer": "EASTERN OREGON UNIVERSITY",
+          "image_number": "202605049866793151",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605049866793151"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02314": {
+      "candidate_id": "H6OR02314",
+      "candidate_name": "QUINCE, PETER L",
+      "office": "H",
+      "district": null,
+      "party": "02",
+      "committee_id": "C00938464",
+      "status": "empty",
+      "reason": "Principal campaign committee C00938464 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR02322": {
+      "candidate_id": "H6OR02322",
+      "candidate_name": "BECK, CHRIS",
+      "office": "H",
+      "district": "02",
+      "party": "DEM",
+      "committee_id": "C00940791",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 106,
+      "items": [
+        {
+          "contributor_name": "LANE, DAVID",
+          "amount": 5000.0,
+          "date": "2026-06-05",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202607149874995101",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995101"
+        },
+        {
+          "contributor_name": "WALTON, CHRISTY",
+          "amount": 3500.0,
+          "date": "2026-06-26",
+          "city": "BENTONVILLE",
+          "state": "AR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607149874995111",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995111"
+        },
+        {
+          "contributor_name": "INKSTER, JIM",
+          "amount": 2500.0,
+          "date": "2026-05-20",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607149874995098",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995098"
+        },
+        {
+          "contributor_name": "MORRISON, ANNE",
+          "amount": 2000.0,
+          "date": "2026-06-22",
+          "city": "BAKER CITY",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149874995107",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995107"
+        },
+        {
+          "contributor_name": "TAYLOR, TASMIN",
+          "amount": 2000.0,
+          "date": "2026-06-24",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202607149874995111",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995111"
+        },
+        {
+          "contributor_name": "BRANDT, JONATHAN",
+          "amount": 1500.0,
+          "date": "2026-03-30",
+          "city": "LYME",
+          "state": "CT",
+          "employer": "RUANE CUNNIFF",
+          "image_number": "202605079866860194",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860194"
+        },
+        {
+          "contributor_name": "LANE, DAVID",
+          "amount": 1500.0,
+          "date": "2026-06-25",
+          "city": "ASHLAND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607149874995127",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995127"
+        },
+        {
+          "contributor_name": "BATSON, BLAIR",
+          "amount": 1000.0,
+          "date": "2026-03-04",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "1000 FRIENDS OF OREGON",
+          "image_number": "202605079866860192",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860192"
+        },
+        {
+          "contributor_name": "INKSTER, JIM",
+          "amount": 1000.0,
+          "date": "2026-03-05",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202605079866860196",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860196"
+        },
+        {
+          "contributor_name": "YASSKY, DAVID",
+          "amount": 1000.0,
+          "date": "2026-03-05",
+          "city": "BROOKLYN",
+          "state": "NY",
+          "employer": "RHB FOUNDATION",
+          "image_number": "202605079866860202",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860202"
+        },
+        {
+          "contributor_name": "WEBBER, MATTHEW",
+          "amount": 1000.0,
+          "date": "2026-03-10",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "MERCY FOR ANIMALS",
+          "image_number": "202605079866860201",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860201"
+        },
+        {
+          "contributor_name": "SAXL, STEPHEN",
+          "amount": 1000.0,
+          "date": "2026-03-14",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "GREENBERG TRAURIG, LLP",
+          "image_number": "202605079866860201",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860201"
+        },
+        {
+          "contributor_name": "RUSSELL, AUBREY",
+          "amount": 1000.0,
+          "date": "2026-03-26",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605079866860200",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860200"
+        },
+        {
+          "contributor_name": "ZULKO, BRYAN",
+          "amount": 1000.0,
+          "date": "2026-03-28",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "US FED GOVT",
+          "image_number": "202605079866860202",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860202"
+        },
+        {
+          "contributor_name": "WILLIS, THOMAS",
+          "amount": 1000.0,
+          "date": "2026-04-21",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "OLSON REMCHO",
+          "image_number": "202605079866860357",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860357"
+        },
+        {
+          "contributor_name": "CHAPMAN, PEYTON",
+          "amount": 1000.0,
+          "date": "2026-04-28",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "PORTLAND PUBLIC SCHOOLS",
+          "image_number": "202605079866860354",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860354"
+        },
+        {
+          "contributor_name": "LAVOY, RICHARD",
+          "amount": 1000.0,
+          "date": "2026-04-28",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605079866860355",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866860355"
+        },
+        {
+          "contributor_name": "HAYES, JOYCE",
+          "amount": 1000.0,
+          "date": "2026-05-23",
+          "city": "INDIALANTIC",
+          "state": "FL",
+          "employer": "3M",
+          "image_number": "202607149874995097",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995097"
+        },
+        {
+          "contributor_name": "MACDIARMID, JOHN",
+          "amount": 1000.0,
+          "date": "2026-05-24",
+          "city": "CENTRAL POINT",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149874995104",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995104"
+        },
+        {
+          "contributor_name": "NAIMAN, THOMAS",
+          "amount": 1000.0,
+          "date": "2026-05-24",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "THE MARITIME AQUARIUM",
+          "image_number": "202607149874995108",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995108"
+        },
+        {
+          "contributor_name": "BAILEY, BRIDGET",
+          "amount": 1000.0,
+          "date": "2026-06-01",
+          "city": "MADRAS",
+          "state": "OR",
+          "employer": "BRIDGES IMMIGRATION LAW LLC",
+          "image_number": "202607149874995090",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995090"
+        },
+        {
+          "contributor_name": "FENDLEY, EDWARD",
+          "amount": 1000.0,
+          "date": "2026-06-02",
+          "city": "FLAGLER BEACH",
+          "state": "FL",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149874995094",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995094"
+        },
+        {
+          "contributor_name": "GILBERT, JIM",
+          "amount": 1000.0,
+          "date": "2026-06-02",
+          "city": "MOLALLA",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607149874995096",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995096"
+        },
+        {
+          "contributor_name": "HALLMAN, GENE",
+          "amount": 1000.0,
+          "date": "2026-06-12",
+          "city": "PENDLETON",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607149874995097",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995097"
+        },
+        {
+          "contributor_name": "SIEVERS, ERIC",
+          "amount": 1000.0,
+          "date": "2026-06-12",
+          "city": "LA JOLLA",
+          "state": "CA",
+          "employer": "BIOATLA",
+          "image_number": "202607149874995110",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874995110"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR03189": {
+      "candidate_id": "H6OR03189",
+      "candidate_name": "SALAS, JESSICA",
+      "office": "H",
+      "district": "03",
+      "party": "NNE",
+      "committee_id": "C00923581",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 3,
+      "items": [
+        {
+          "contributor_name": "EVANS, RYAN",
+          "amount": 300.0,
+          "date": "2025-12-15",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "DAY ONE DISTRIBUTION",
+          "image_number": "202601309795260023",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309795260023"
+        },
+        {
+          "contributor_name": "SEVERY, RYAN",
+          "amount": 250.0,
+          "date": "2026-03-04",
+          "city": "ARLINGTON",
+          "state": "MA",
+          "employer": "FIDELITY INVESTMENTS",
+          "image_number": "202607019874306230",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607019874306230"
+        },
+        {
+          "contributor_name": "DILULLO, LOUIS",
+          "amount": 225.0,
+          "date": "2026-03-24",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607019874306230",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607019874306230"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR04203": {
+      "candidate_id": "H6OR04203",
+      "candidate_name": "PERKINS, JO RAE",
+      "office": "H",
+      "district": "05",
+      "party": "REP",
+      "committee_id": "C00932558",
+      "status": "empty",
+      "reason": "cn26 CAND_PCC C00932558 is linked in ccl26 (CMTE_DSGN=P) to S4OR00156 only. Receipts are not duplicated onto this candidacy.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR04237": {
+      "candidate_id": "H6OR04237",
+      "candidate_name": "KING, SIR WILLIAM RICHARD",
+      "office": "H",
+      "district": "04",
+      "party": "DEM",
+      "committee_id": "C00897793",
+      "status": "empty",
+      "reason": "Principal campaign committee C00897793 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR04245": {
+      "candidate_id": "H6OR04245",
+      "candidate_name": "BIRD, MELISSA",
+      "office": "H",
+      "district": "04",
+      "party": "DEM",
+      "committee_id": "C00913350",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 57,
+      "items": [
+        {
+          "contributor_name": "HAMP, DOUGLAS",
+          "amount": 3500.0,
+          "date": "2026-01-29",
+          "city": "SIERRA VISTA",
+          "state": "AZ",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605059866805003",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866805003"
+        },
+        {
+          "contributor_name": "FRANZ, AMARIS",
+          "amount": 3500.0,
+          "date": "2026-05-12",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607159875548568",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875548568"
+        },
+        {
+          "contributor_name": "HEADRICK, CHARLOTTE",
+          "amount": 2500.0,
+          "date": "2025-08-23",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790785590",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785590"
+        },
+        {
+          "contributor_name": "HECHT, BRUCE",
+          "amount": 1500.0,
+          "date": "2026-05-01",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607159875548572",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875548572"
+        },
+        {
+          "contributor_name": "DENCKLA, MATTHEW",
+          "amount": 1270.0,
+          "date": "2025-12-03",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "SELF",
+          "image_number": "202605059866804751",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866804751"
+        },
+        {
+          "contributor_name": "BAUER-LEFFLER, JENNIFER",
+          "amount": 1100.0,
+          "date": "2026-03-08",
+          "city": "SALEM",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202605059866804992",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866804992"
+        },
+        {
+          "contributor_name": "CHAMBERS, DANIELLE",
+          "amount": 1000.0,
+          "date": "2025-07-06",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "RESOLUTION SYSTEMS",
+          "image_number": "202510149790785587",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785587"
+        },
+        {
+          "contributor_name": "STEELE, STEPHANIE",
+          "amount": 1000.0,
+          "date": "2025-08-18",
+          "city": "MILLCREEK",
+          "state": "UT",
+          "employer": "SELF",
+          "image_number": "202510149790785592",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785592"
+        },
+        {
+          "contributor_name": "MCGEE, ALEX",
+          "amount": 1000.0,
+          "date": "2025-09-13",
+          "city": "CHARLOTTESVILLE",
+          "state": "VA",
+          "employer": "UNITARIAN UNIVERSALIST FELLOWSHIP",
+          "image_number": "202510149790785590",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785590"
+        },
+        {
+          "contributor_name": "ANDERSON, SUSAN",
+          "amount": 1000.0,
+          "date": "2025-09-27",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790785587",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785587"
+        },
+        {
+          "contributor_name": "GELBRICH, COURTNEY",
+          "amount": 1000.0,
+          "date": "2026-01-02",
+          "city": "HAPPY VALLEY",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202605059866804997",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866804997"
+        },
+        {
+          "contributor_name": "MCGUIRE, JOSEPH",
+          "amount": 1000.0,
+          "date": "2026-02-02",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605059866805009",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866805009"
+        },
+        {
+          "contributor_name": "SHAMEY, KATHY",
+          "amount": 1000.0,
+          "date": "2026-03-12",
+          "city": "FLORENCE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605059866805014",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866805014"
+        },
+        {
+          "contributor_name": "DEVOE-STRATTON, DIANA",
+          "amount": 1000.0,
+          "date": "2026-04-29",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605079866885429",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866885429"
+        },
+        {
+          "contributor_name": "GREGOIRE, DIANE",
+          "amount": 785.0,
+          "date": "2026-05-07",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607159875548570",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875548570"
+        },
+        {
+          "contributor_name": "DENCKLA, MATTHEW",
+          "amount": 730.0,
+          "date": "2025-08-04",
+          "city": "SAN FRANCISCO",
+          "state": "CA",
+          "employer": "SELF",
+          "image_number": "202510149790785588",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785588"
+        },
+        {
+          "contributor_name": "HAMILTON, AMBER",
+          "amount": 700.0,
+          "date": "2025-07-21",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202510149790785589",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785589"
+        },
+        {
+          "contributor_name": "HAMILTON, AMBER",
+          "amount": 700.0,
+          "date": "2025-08-23",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202510149790785589",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785589"
+        },
+        {
+          "contributor_name": "CHAVEZ-HOUCK, REBECCA",
+          "amount": 500.0,
+          "date": "2025-07-02",
+          "city": "SALT LAKE CITY",
+          "state": "UT",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790785587",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790785587"
+        },
+        {
+          "contributor_name": "FLACCAVENTO, ANTHONY",
+          "amount": 500.0,
+          "date": "2025-10-21",
+          "city": "ABINGDON",
+          "state": "VA",
+          "employer": "RURAL URBAN BRIDGE INITIATIVE",
+          "image_number": "202605059866804752",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866804752"
+        },
+        {
+          "contributor_name": "AMSLER, JENNIFER",
+          "amount": 500.0,
+          "date": "2025-11-18",
+          "city": "VANCOUVER",
+          "state": "WA",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202605059866804751",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866804751"
+        },
+        {
+          "contributor_name": "APPERSON, KIMBERLY",
+          "amount": 500.0,
+          "date": "2026-01-18",
+          "city": "SOUTH BEACH",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605059866804991",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866804991"
+        },
+        {
+          "contributor_name": "PRINCE, JUANITA",
+          "amount": 500.0,
+          "date": "2026-01-20",
+          "city": "YACHATS",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605059866805010",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866805010"
+        },
+        {
+          "contributor_name": "GREGOIRE, DIANE",
+          "amount": 500.0,
+          "date": "2026-01-29",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202605059866805000",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866805000"
+        },
+        {
+          "contributor_name": "CHILDERS, LAURIE",
+          "amount": 500.0,
+          "date": "2026-02-03",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202605059866804993",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605059866804993"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR04252": {
+      "candidate_id": "H6OR04252",
+      "candidate_name": "WIEDENFELD-NEEDHAM, BORIS \"BO\"",
+      "office": "H",
+      "district": "04",
+      "party": "DEM",
+      "committee_id": "C00916031",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 6,
+      "items": [
+        {
+          "contributor_name": "SCHLOSSER, BARBARA",
+          "amount": 500.0,
+          "date": "2025-09-11",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790795066",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790795066"
+        },
+        {
+          "contributor_name": "ELISDRIEL, EVA",
+          "amount": 300.0,
+          "date": "2025-09-11",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "SOLE PRACTICE",
+          "image_number": "202510149790795065",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790795065"
+        },
+        {
+          "contributor_name": "BLOOMGARDEN, ROBIN",
+          "amount": 200.0,
+          "date": "2025-09-11",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510149790795065",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790795065"
+        },
+        {
+          "contributor_name": "ELISDRIEL, EVA",
+          "amount": 200.0,
+          "date": "2025-09-11",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "SOLE PRACTICE",
+          "image_number": "202510149790795065",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510149790795065"
+        },
+        {
+          "contributor_name": "ELISDRIEL, EVA",
+          "amount": 200.0,
+          "date": "2025-10-29",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "SOLE PRACTICE",
+          "image_number": "202601269794191042",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601269794191042"
+        },
+        {
+          "contributor_name": "BLOOMGARDEN, ROBIN",
+          "amount": 200.0,
+          "date": "2026-02-09",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202604079857016831",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604079857016831"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR04260": {
+      "candidate_id": "H6OR04260",
+      "candidate_name": "DESPAIN, MONIQUE",
+      "office": "H",
+      "district": "04",
+      "party": "REP",
+      "committee_id": "C00921544",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 198,
+      "items": [
+        {
+          "contributor_name": "MORGAN, DAVID",
+          "amount": 7000.0,
+          "date": "2026-02-06",
+          "city": "LITCHFIELD PARK",
+          "state": "AZ",
+          "employer": "RETIRED",
+          "image_number": "202604159862510708",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862510708"
+        },
+        {
+          "contributor_name": "MORGAN, WENDY",
+          "amount": 7000.0,
+          "date": "2026-02-06",
+          "city": "LITCHFIELD PARK",
+          "state": "AZ",
+          "employer": "RETIRED",
+          "image_number": "202604159862510708",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862510708"
+        },
+        {
+          "contributor_name": "FRERES, DEANA",
+          "amount": 3643.0,
+          "date": "2025-12-16",
+          "city": "STAYTON",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808487195",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487195"
+        },
+        {
+          "contributor_name": "FRERES, THEODORE KYLE",
+          "amount": 3643.0,
+          "date": "2026-02-05",
+          "city": "AUMSVILLE",
+          "state": "OR",
+          "employer": "FRERES ENGINEERED WOOD",
+          "image_number": "202604159862510701",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862510701"
+        },
+        {
+          "contributor_name": "ROPP, HOWARD L.",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "ALBANY",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601319808487180",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487180"
+        },
+        {
+          "contributor_name": "ROPP, HOWARD L.",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "ALBANY",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601319808487181",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487181"
+        },
+        {
+          "contributor_name": "ROPP, JUDY",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "ALBANY",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601319808487181",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487181"
+        },
+        {
+          "contributor_name": "ROPP, JUDY",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "ALBANY",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601319808487181",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487181"
+        },
+        {
+          "contributor_name": "WAHL, FRED",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "REEDSPORT",
+          "state": "OR",
+          "employer": "FRED WAHL MARINE CONSTRUCTION",
+          "image_number": "202601319808487184",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487184"
+        },
+        {
+          "contributor_name": "WAHL, FRED",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "REEDSPORT",
+          "state": "OR",
+          "employer": "FRED WAHL MARINE CONSTRUCTION",
+          "image_number": "202601319808487184",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487184"
+        },
+        {
+          "contributor_name": "WAHL, MARCI",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "REEDSPORT",
+          "state": "OR",
+          "employer": "FRED WAHL MARINE CONSTRUCTION",
+          "image_number": "202601319808487185",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487185"
+        },
+        {
+          "contributor_name": "WAHL, MARCI",
+          "amount": 3500.0,
+          "date": "2025-10-09",
+          "city": "REEDSPORT",
+          "state": "OR",
+          "employer": "FRED WAHL MARINE CONSTRUCTION",
+          "image_number": "202601319808487185",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487185"
+        },
+        {
+          "contributor_name": "WITHNELL, RICHARD",
+          "amount": 3500.0,
+          "date": "2026-03-03",
+          "city": "KEIZER",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159862510666",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862510666"
+        },
+        {
+          "contributor_name": "POLLMAN, DEAN",
+          "amount": 3500.0,
+          "date": "2026-03-27",
+          "city": "TUALATIN",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202604159862510662",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862510662"
+        },
+        {
+          "contributor_name": "STEED, JOHN",
+          "amount": 3300.0,
+          "date": "2026-03-31",
+          "city": "SCIO",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159862510664",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862510664"
+        },
+        {
+          "contributor_name": "POLAND, BRENDA",
+          "amount": 3000.0,
+          "date": "2026-03-31",
+          "city": "ROSEBURG",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159862510662",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862510662"
+        },
+        {
+          "contributor_name": "GOLDER, MARY JO",
+          "amount": 3000.0,
+          "date": "2026-04-23",
+          "city": "NORTH BEND",
+          "state": "OR",
+          "employer": "GOLDER NAPA",
+          "image_number": "202605089866912198",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605089866912198"
+        },
+        {
+          "contributor_name": "HALLSTROM, DIANE",
+          "amount": 3000.0,
+          "date": "2026-06-30",
+          "city": "SISTERS",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159875818242",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875818242"
+        },
+        {
+          "contributor_name": "GIUSTINA, DAN",
+          "amount": 2500.0,
+          "date": "2025-10-17",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "GIUSTINA RESOURCES",
+          "image_number": "202601319808487189",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487189"
+        },
+        {
+          "contributor_name": "GONYEA, JOMAE",
+          "amount": 2500.0,
+          "date": "2025-12-30",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601319808487172",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487172"
+        },
+        {
+          "contributor_name": "GONYEA, JOSEPH II",
+          "amount": 2500.0,
+          "date": "2025-12-30",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601319808487172",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487172"
+        },
+        {
+          "contributor_name": "KELLEHER, SHAUN",
+          "amount": 2500.0,
+          "date": "2025-12-30",
+          "city": "ALEXANDRIA",
+          "state": "VA",
+          "employer": null,
+          "image_number": "202601319808487175",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487175"
+        },
+        {
+          "contributor_name": "EGGE, VERNON",
+          "amount": 2500.0,
+          "date": "2025-12-31",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202601319808487170",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808487170"
+        },
+        {
+          "contributor_name": "PAPPAS, BONNIE",
+          "amount": 2500.0,
+          "date": "2026-05-19",
+          "city": "ROSEBURG",
+          "state": "OR",
+          "employer": "VICTORY BUILDERS INC.",
+          "image_number": "202607159875818248",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875818248"
+        },
+        {
+          "contributor_name": "CLICK, JIM",
+          "amount": 2500.0,
+          "date": "2026-06-30",
+          "city": "TUCSON",
+          "state": "AZ",
+          "employer": "RETIRED",
+          "image_number": "202607159875818317",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159875818317"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR05200": {
+      "candidate_id": "H6OR05200",
+      "candidate_name": "LEHMAN, JOSEPH",
+      "office": "H",
+      "district": "05",
+      "party": "LIB",
+      "committee_id": "C00920090",
+      "status": "empty",
+      "reason": "Principal campaign committee C00920090 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR05234": {
+      "candidate_id": "H6OR05234",
+      "candidate_name": "LOCKWOOD, JONATHAN",
+      "office": "H",
+      "district": "05",
+      "party": "REP",
+      "committee_id": "C00924647",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 11,
+      "items": [
+        {
+          "contributor_name": "STEINBAUGH, HARRISON",
+          "amount": 3643.0,
+          "date": "2026-04-28",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "PWE ACQUISITIONS LLC",
+          "image_number": "202605079866863245",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863245"
+        },
+        {
+          "contributor_name": "THOMAS, CONNOR",
+          "amount": 3643.0,
+          "date": "2026-04-28",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "SUBARU OF BEND",
+          "image_number": "202605079866863245",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863245"
+        },
+        {
+          "contributor_name": "SONNEN, CHAEL",
+          "amount": 1000.0,
+          "date": "2026-05-12",
+          "city": "LINN",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202607129874892366",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607129874892366"
+        },
+        {
+          "contributor_name": "ZINSERLING, KYLE",
+          "amount": 1000.0,
+          "date": "2026-06-30",
+          "city": "LEBANON",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202607129874892366",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607129874892366"
+        },
+        {
+          "contributor_name": "BARNES, DON",
+          "amount": 520.0,
+          "date": "2026-02-27",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605079866863242",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863242"
+        },
+        {
+          "contributor_name": "BARNES, DON",
+          "amount": 520.0,
+          "date": "2026-02-27",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605079866863242",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863242"
+        },
+        {
+          "contributor_name": "TOURTELLOTTE JR, WALLACE",
+          "amount": 520.0,
+          "date": "2026-03-20",
+          "city": "ALBANY",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605079866863245",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863245"
+        },
+        {
+          "contributor_name": "FULLER, DILLON",
+          "amount": 500.0,
+          "date": "2026-02-25",
+          "city": "CORVALLIS",
+          "state": "OR",
+          "employer": "100 ACRE FARMS",
+          "image_number": "202605079866863244",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863244"
+        },
+        {
+          "contributor_name": "BRYAN, EVAN",
+          "amount": 250.0,
+          "date": "2025-12-08",
+          "city": "JOSEPH",
+          "state": "OR",
+          "employer": "DOUGLAS-PINE ENTERPRISES, LLC",
+          "image_number": "202605079866863243",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863243"
+        },
+        {
+          "contributor_name": "LOCKWOOD, JONATHAN",
+          "amount": 250.0,
+          "date": "2026-02-25",
+          "city": "LEBANON",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202605079866863244",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863244"
+        },
+        {
+          "contributor_name": "GREEN, REBECCA",
+          "amount": 208.0,
+          "date": "2026-03-29",
+          "city": "HILLSBORO",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605079866863244",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866863244"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR05242": {
+      "candidate_id": "H6OR05242",
+      "candidate_name": "ADAIR, PATTI",
+      "office": "H",
+      "district": "05",
+      "party": "REP",
+      "committee_id": "C00927228",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 217,
+      "items": [
+        {
+          "contributor_name": "GRUNDHOFER, JERRY A",
+          "amount": 7000.0,
+          "date": "2025-12-31",
+          "city": "PARK CITY",
+          "state": "UT",
+          "employer": "RETIRED",
+          "image_number": "202601319808499449",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499449"
+        },
+        {
+          "contributor_name": "GRUNDHOFER, KATHLEEN A",
+          "amount": 7000.0,
+          "date": "2025-12-31",
+          "city": "PARK CITY",
+          "state": "UT",
+          "employer": "RETIRED",
+          "image_number": "202601319808499450",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499450"
+        },
+        {
+          "contributor_name": "KILKENNY, PATRICK J",
+          "amount": 7000.0,
+          "date": "2026-03-04",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605079866887656",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866887656"
+        },
+        {
+          "contributor_name": "KILKENNY, STEPHANIE",
+          "amount": 7000.0,
+          "date": "2026-03-04",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605079866887657",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866887657"
+        },
+        {
+          "contributor_name": "PEYTON, MIKE",
+          "amount": 5000.0,
+          "date": "2025-11-26",
+          "city": "SISTERS",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202601319808499462",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499462"
+        },
+        {
+          "contributor_name": "KINGZETT, ED",
+          "amount": 5000.0,
+          "date": "2025-12-15",
+          "city": "WEST LINN",
+          "state": "OR",
+          "employer": "ENTREPRENEUR",
+          "image_number": "202601319808499454",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499454"
+        },
+        {
+          "contributor_name": "CURTIS, AARON B",
+          "amount": 5000.0,
+          "date": "2026-04-30",
+          "city": "REDMOND",
+          "state": "OR",
+          "employer": "REDMOND CONSTRUCTION",
+          "image_number": "202607159890069269",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890069269"
+        },
+        {
+          "contributor_name": "CURTIS, REBECCA",
+          "amount": 5000.0,
+          "date": "2026-04-30",
+          "city": "REDMOND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159890069270",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890069270"
+        },
+        {
+          "contributor_name": "PEYTON, MIKE",
+          "amount": 5000.0,
+          "date": "2026-06-15",
+          "city": "SISTERS",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202607159890069279",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890069279"
+        },
+        {
+          "contributor_name": "PEYTON, HEIDI ANN",
+          "amount": 5000.0,
+          "date": "2026-06-16",
+          "city": "SISTERS",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159890069279",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890069279"
+        },
+        {
+          "contributor_name": "SAWYER, JAMIE",
+          "amount": 3643.0,
+          "date": "2025-11-26",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "DS HYDRAULICS",
+          "image_number": "202601319808499475",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499475"
+        },
+        {
+          "contributor_name": "BRYE, MICHAEL",
+          "amount": 3643.0,
+          "date": "2025-12-16",
+          "city": "HARRISBURG",
+          "state": "OR",
+          "employer": "CAMP CREEK ELECTRIC LLC",
+          "image_number": "202601319808499482",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499482"
+        },
+        {
+          "contributor_name": "ADAIR, PATTI J",
+          "amount": 3643.0,
+          "date": "2025-12-31",
+          "city": "SISTERS",
+          "state": "OR",
+          "employer": "DESCHUTES COUNTY",
+          "image_number": "202601319808499490",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499490"
+        },
+        {
+          "contributor_name": "BENSON, DAVID",
+          "amount": 3500.0,
+          "date": "2025-11-18",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "BASX",
+          "image_number": "202601319808499470",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499470"
+        },
+        {
+          "contributor_name": "FEATHERSTONE, MARYL",
+          "amount": 3500.0,
+          "date": "2025-11-25",
+          "city": "PHOENIX",
+          "state": "AZ",
+          "employer": "RETIRED",
+          "image_number": "202601319808499474",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499474"
+        },
+        {
+          "contributor_name": "BABIOR, LAUREN",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "MARINA DEL REY",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202601319808499439",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499439"
+        },
+        {
+          "contributor_name": "BABIOR, LAUREN",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "MARINA DEL REY",
+          "state": "CA",
+          "employer": null,
+          "image_number": "202601319808499439",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499439"
+        },
+        {
+          "contributor_name": "BACKSEN, KERRY",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "REDMOND",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202601319808499440",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499440"
+        },
+        {
+          "contributor_name": "HERMRECK, SUSAN",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "PAULINA",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202601319808499452",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499452"
+        },
+        {
+          "contributor_name": "KENTNER, PATRICIA",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202601319808499454",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499454"
+        },
+        {
+          "contributor_name": "KNOWLES, MARY LYNN",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "HEPPNER",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601319808499455",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499455"
+        },
+        {
+          "contributor_name": "MURRAY DAVIS, ELIZABETH",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "BEND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601319808499457",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499457"
+        },
+        {
+          "contributor_name": "PINDLER, GERRY",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "LAKE SHERWOOD",
+          "state": "CA",
+          "employer": "CURT R AND GERRY PINDLER FOUNDATION",
+          "image_number": "202601319808499463",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499463"
+        },
+        {
+          "contributor_name": "TENNANT, MICHAEL",
+          "amount": 3500.0,
+          "date": "2025-11-26",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "TENNANT DEVELOPMENTS",
+          "image_number": "202601319808499468",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499468"
+        },
+        {
+          "contributor_name": "MOSS, GARY W",
+          "amount": 3500.0,
+          "date": "2025-12-15",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "SECURE STORAGE",
+          "image_number": "202601319808499457",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808499457"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR06018": {
+      "candidate_id": "H6OR06018",
+      "candidate_name": "FALER, JASON J",
+      "office": "H",
+      "district": "06",
+      "party": "NPA",
+      "committee_id": "C00938217",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 12,
+      "items": [
+        {
+          "contributor_name": "SUTHERLAND, JEREM",
+          "amount": 3500.0,
+          "date": "2026-06-14",
+          "city": "STATELINE",
+          "state": "NV",
+          "employer": "OX BIOMED",
+          "image_number": "202607159885320946",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320946"
+        },
+        {
+          "contributor_name": "ZELLER, PATRICK",
+          "amount": 1000.0,
+          "date": "2026-04-08",
+          "city": "KANSAS CITY",
+          "state": "MO",
+          "employer": "OREGON ANESTHESIOLOGY GROUP",
+          "image_number": "202607159885320917",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320917"
+        },
+        {
+          "contributor_name": "FALER, MARILYN",
+          "amount": 1000.0,
+          "date": "2026-04-17",
+          "city": "SALEM",
+          "state": "OR",
+          "employer": "N/A",
+          "image_number": "202607159885320917",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320917"
+        },
+        {
+          "contributor_name": "DIPAOLO, JOSEPH",
+          "amount": 1000.0,
+          "date": "2026-05-06",
+          "city": "SANTEE",
+          "state": "SC",
+          "employer": "N/A",
+          "image_number": "202607159885320944",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320944"
+        },
+        {
+          "contributor_name": "ZELLER, CAROLINE",
+          "amount": 500.0,
+          "date": "2026-03-18",
+          "city": "TIGARD",
+          "state": "OR",
+          "employer": "GENTLEDENTAL",
+          "image_number": "202607159885319194",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885319194"
+        },
+        {
+          "contributor_name": "WHITNEY, JENNIFER",
+          "amount": 500.0,
+          "date": "2026-04-30",
+          "city": "NEWTON",
+          "state": "MA",
+          "employer": "ROPES AND GRAY",
+          "image_number": "202607159885320946",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320946"
+        },
+        {
+          "contributor_name": "HOYT, COURTNEY",
+          "amount": 500.0,
+          "date": "2026-06-09",
+          "city": "MARANA",
+          "state": "AZ",
+          "employer": "SUNDT CONSTRUCTION",
+          "image_number": "202607159885320945",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320945"
+        },
+        {
+          "contributor_name": "DIX, TONY",
+          "amount": 500.0,
+          "date": "2026-06-11",
+          "city": "WILSONVILLE",
+          "state": "OR",
+          "employer": "FORESIGHT SECURITY CONSULTING",
+          "image_number": "202607159885320945",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320945"
+        },
+        {
+          "contributor_name": "HUANG, ROBERT",
+          "amount": 300.0,
+          "date": "2026-06-14",
+          "city": "GLENDALE",
+          "state": "AZ",
+          "employer": "SALT RIVER PROJECT",
+          "image_number": "202607159885320945",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320945"
+        },
+        {
+          "contributor_name": "BARNETT, DLILI",
+          "amount": 250.0,
+          "date": "2026-03-18",
+          "city": "CITRUS HEIGHTS",
+          "state": "CA",
+          "employer": "BLACK PINE COMMUNITIES",
+          "image_number": "202607159885319194",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885319194"
+        },
+        {
+          "contributor_name": "CROSS, BRIAN",
+          "amount": 250.0,
+          "date": "2026-05-01",
+          "city": "SALEM",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202607159885320944",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320944"
+        },
+        {
+          "contributor_name": "BURKE, JOHN",
+          "amount": 250.0,
+          "date": "2026-06-11",
+          "city": "NORTH TONAWANDA",
+          "state": "NY",
+          "employer": "N/A",
+          "image_number": "202607159885320944",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159885320944"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6OR16017": {
+      "candidate_id": "H6OR16017",
+      "candidate_name": "ROSENBAUM, ZEVA",
+      "office": "H",
+      "district": "05",
+      "party": "DEM",
+      "committee_id": "C00925644",
+      "status": "empty",
+      "reason": "Principal campaign committee C00925644 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S4OR00156": {
+      "candidate_id": "S4OR00156",
+      "candidate_name": "PERKINS, JO RAE",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
+      "committee_id": "C00932558",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 9,
+      "items": [
+        {
+          "contributor_name": "PAHL, TONI",
+          "amount": 521.0,
+          "date": "2026-04-29",
+          "city": "FALLON",
+          "state": "NV",
+          "employer": "RETIRED",
+          "image_number": "202605089866913040",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605089866913040"
+        },
+        {
+          "contributor_name": "SONNEN, CHAEL",
+          "amount": 500.0,
+          "date": "2026-01-14",
+          "city": "WEST LINN",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202604159863042899",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159863042899"
+        },
+        {
+          "contributor_name": "ARASMITH, JUDY",
+          "amount": 500.0,
+          "date": "2026-03-15",
+          "city": "MILLERSBURG",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159863042897",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159863042897"
+        },
+        {
+          "contributor_name": "PAULSON, PATRICIA",
+          "amount": 500.0,
+          "date": "2026-04-14",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605089866913040",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605089866913040"
+        },
+        {
+          "contributor_name": "PLOTYCIA, MIKE",
+          "amount": 300.0,
+          "date": "2026-03-14",
+          "city": "COOS BAY",
+          "state": "OR",
+          "employer": "COAST GUARD",
+          "image_number": "202604159863042899",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159863042899"
+        },
+        {
+          "contributor_name": "PALMATIER, CYNTHIA",
+          "amount": 300.0,
+          "date": "2026-04-26",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202605089866913040",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605089866913040"
+        },
+        {
+          "contributor_name": "GUTHRIDGE, BILL",
+          "amount": 250.0,
+          "date": "2026-01-16",
+          "city": "SALEM",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159863042897",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159863042897"
+        },
+        {
+          "contributor_name": "SIELAFF, ROBIN",
+          "amount": 250.0,
+          "date": "2026-01-31",
+          "city": "BEAVERTON",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202604159863042899",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159863042899"
+        },
+        {
+          "contributor_name": "BROWN, LARRY",
+          "amount": 250.0,
+          "date": "2026-03-07",
+          "city": "LEBANON",
+          "state": "OR",
+          "employer": "SELF",
+          "image_number": "202604159863042897",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159863042897"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6OR05184": {
+      "candidate_id": "S6OR05184",
+      "candidate_name": "SKELTON, TIMOTHY WILLIAM",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
+      "committee_id": "C00903138",
+      "status": "empty",
+      "reason": "Principal campaign committee C00903138 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6OR05192": {
+      "candidate_id": "S6OR05192",
+      "candidate_name": "RYAN, JACOB",
+      "office": "S",
+      "district": "00",
+      "party": "DEM",
+      "committee_id": "C00907071",
+      "status": "empty",
+      "reason": "Principal campaign committee C00907071 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6OR05200": {
+      "candidate_id": "S6OR05200",
+      "candidate_name": "MCALMOND, RUSSELL",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
+      "committee_id": "C00930354",
+      "status": "empty",
+      "reason": "Principal campaign committee C00930354 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6OR05218": {
+      "candidate_id": "S6OR05218",
+      "candidate_name": "SMITH, DAVID BROCK",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
+      "committee_id": "C00941559",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 63,
+      "items": [
+        {
+          "contributor_name": "HEARD, RICHARD",
+          "amount": 3643.0,
+          "date": "2026-03-29",
+          "city": "ROSEBURG",
+          "state": "OR",
+          "employer": "HEARD FARMS INC",
+          "image_number": "202604159862587108",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862587108"
+        },
+        {
+          "contributor_name": "VAN ZANTE, DIRK",
+          "amount": 3643.0,
+          "date": "2026-04-01",
+          "city": "GOLD BEACH",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605079866887933",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866887933"
+        },
+        {
+          "contributor_name": "GILDING, DONNA",
+          "amount": 3500.0,
+          "date": "2026-03-31",
+          "city": "GOLD BEACH",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159862587098",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862587098"
+        },
+        {
+          "contributor_name": "SMITH, BONNIE S",
+          "amount": 3500.0,
+          "date": "2026-03-31",
+          "city": "PORT ORFORD",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159862587099",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862587099"
+        },
+        {
+          "contributor_name": "TUTTLE, THOMAS R",
+          "amount": 3500.0,
+          "date": "2026-03-31",
+          "city": "GOLD BEACH",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159862587099",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862587099"
+        },
+        {
+          "contributor_name": "PLISKA, JAMES",
+          "amount": 3500.0,
+          "date": "2026-05-08",
+          "city": "CLACKAMAS",
+          "state": "OR",
+          "employer": "SPACE AGE FUEL",
+          "image_number": "202607159890690365",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690365"
+        },
+        {
+          "contributor_name": "BEETHAM, DENNIS",
+          "amount": 3500.0,
+          "date": "2026-05-18",
+          "city": "NORTH BEND",
+          "state": "OR",
+          "employer": "DB WESTERN",
+          "image_number": "202607159890690352",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690352"
+        },
+        {
+          "contributor_name": "BEETHAM, JANET",
+          "amount": 3500.0,
+          "date": "2026-05-18",
+          "city": "NORTH BEND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159890690353",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690353"
+        },
+        {
+          "contributor_name": "POLAND, RICK A",
+          "amount": 3500.0,
+          "date": "2026-05-18",
+          "city": "ROSEBURG",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159890690358",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690358"
+        },
+        {
+          "contributor_name": "BEETHAM, DENNIS",
+          "amount": 3500.0,
+          "date": "2026-06-30",
+          "city": "NORTH BEND",
+          "state": "OR",
+          "employer": "DB WESTERN",
+          "image_number": "202607159890690352",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690352"
+        },
+        {
+          "contributor_name": "BEETHAM, JANET",
+          "amount": 3500.0,
+          "date": "2026-06-30",
+          "city": "NORTH BEND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159890690353",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690353"
+        },
+        {
+          "contributor_name": "MOORE, KATHLEEN A",
+          "amount": 2500.0,
+          "date": "2026-05-12",
+          "city": "VANCOUVER",
+          "state": "WA",
+          "employer": null,
+          "image_number": "202607159890690357",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690357"
+        },
+        {
+          "contributor_name": "POLLMAN, DEAN",
+          "amount": 2500.0,
+          "date": "2026-05-18",
+          "city": "TUALATIN",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159890690358",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690358"
+        },
+        {
+          "contributor_name": "GETLIN, MICHAEL",
+          "amount": 1750.0,
+          "date": "2026-05-06",
+          "city": "OREGON CITY",
+          "state": "OR",
+          "employer": "NECTAR",
+          "image_number": "202607159890690362",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690362"
+        },
+        {
+          "contributor_name": "SNAZUK, DAVID",
+          "amount": 1561.0,
+          "date": "2026-06-05",
+          "city": "GOLD BEACH",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202607159890690376",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690376"
+        },
+        {
+          "contributor_name": "LEEPER, JIM",
+          "amount": 1500.0,
+          "date": "2026-05-06",
+          "city": "SANDY",
+          "state": "OR",
+          "employer": "LUCKY DS",
+          "image_number": "202607159890690363",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690363"
+        },
+        {
+          "contributor_name": "SMITH, STEVEN J.",
+          "amount": 1500.0,
+          "date": "2026-05-07",
+          "city": "CRESWELL",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202607159890690358",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690358"
+        },
+        {
+          "contributor_name": "CAMPBELL, SCOTT",
+          "amount": 1250.0,
+          "date": "2026-03-31",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202604159862587098",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862587098"
+        },
+        {
+          "contributor_name": "HURFORD, DEAN",
+          "amount": 1041.0,
+          "date": "2026-05-07",
+          "city": "GRESHAM",
+          "state": "OR",
+          "employer": "DH INC",
+          "image_number": "202607159890690363",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690363"
+        },
+        {
+          "contributor_name": "BRATTAIN, DAN",
+          "amount": 1041.0,
+          "date": "2026-05-12",
+          "city": "BROOKINGS",
+          "state": "OR",
+          "employer": "DK AIR",
+          "image_number": "202607159890690366",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690366"
+        },
+        {
+          "contributor_name": "MEGSON, SHELIA",
+          "amount": 1041.0,
+          "date": "2026-06-05",
+          "city": "SIXES",
+          "state": "OR",
+          "employer": "STATE OF OREGON",
+          "image_number": "202607159890690376",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690376"
+        },
+        {
+          "contributor_name": "BUEHLET, KNUTE",
+          "amount": 1000.0,
+          "date": "2026-03-11",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "BUEHLER RESEARCH AND DESIGN",
+          "image_number": "202604159862587102",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862587102"
+        },
+        {
+          "contributor_name": "SHINDLER, FRANZ A",
+          "amount": 1000.0,
+          "date": "2026-03-31",
+          "city": "GOLD BEACH",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202604159862587098",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159862587098"
+        },
+        {
+          "contributor_name": "WITHNELL, RICHARD",
+          "amount": 1000.0,
+          "date": "2026-04-29",
+          "city": "KEIZER",
+          "state": "OR",
+          "employer": "RETIRED",
+          "image_number": "202605079866887942",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202605079866887942"
+        },
+        {
+          "contributor_name": "SKORO, ANTE",
+          "amount": 1000.0,
+          "date": "2026-05-07",
+          "city": "CLACKAMAS",
+          "state": "OR",
+          "employer": "CLEARWATER HOMES",
+          "image_number": "202607159890690364",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607159890690364"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6OR05226": {
+      "candidate_id": "S6OR05226",
+      "candidate_name": "SOLOMON, GAVIN",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
+      "committee_id": null,
+      "status": "empty",
+      "reason": "No principal campaign committee on FEC candidate master (cn26). Honest-empty. Joint fundraising committees are not used.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6OR05234": {
+      "candidate_id": "S6OR05234",
+      "candidate_name": "SOLOMON, GAVIN",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
+      "committee_id": null,
+      "status": "empty",
+      "reason": "No principal campaign committee on FEC candidate master (cn26). Honest-empty. Joint fundraising committees are not used.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S8OR00207": {
+      "candidate_id": "S8OR00207",
+      "candidate_name": "MERKLEY, JEFFREY ALAN",
+      "office": "S",
+      "district": "00",
+      "party": "DEM",
+      "committee_id": "C00437277",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 2247,
+      "items": [
+        {
+          "contributor_name": "KEANE, KATHERINE",
+          "amount": 6173.0,
+          "date": "2025-09-10",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202510159791026748",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026748"
+        },
+        {
+          "contributor_name": "CONFEDERATED TRIBES OF SILETZ INDIANS",
+          "amount": 6000.0,
+          "date": "2025-10-28",
+          "city": "SILETZ",
+          "state": "OR",
+          "employer": null,
+          "image_number": "202601309794787200",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794787200"
+        },
+        {
+          "contributor_name": "MARTINSEN, PAUL L.",
+          "amount": 4950.0,
+          "date": "2025-10-09",
+          "city": "SALEM",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601309794786030",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601309794786030"
+        },
+        {
+          "contributor_name": "KEANE, KATHERINE",
+          "amount": 4000.0,
+          "date": "2025-09-05",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791025415",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791025415"
+        },
+        {
+          "contributor_name": "SPRICK, RANDALL",
+          "amount": 3500.0,
+          "date": "2025-04-21",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "TEACHING STRATEGIES INC.",
+          "image_number": "202507159763065979",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763065979"
+        },
+        {
+          "contributor_name": "SPRICK, MARILYN",
+          "amount": 3500.0,
+          "date": "2025-04-21",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "TEACHING STRATEGIES, INC.",
+          "image_number": "202507159763066166",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763066166"
+        },
+        {
+          "contributor_name": "SPRICK, MARILYN",
+          "amount": 3500.0,
+          "date": "2025-04-21",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "TEACHING STRATEGIES, INC.",
+          "image_number": "202507159763066347",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763066347"
+        },
+        {
+          "contributor_name": "SPRICK, RANDALL",
+          "amount": 3500.0,
+          "date": "2025-04-21",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "TEACHING STRATEGIES INC.",
+          "image_number": "202507159763066532",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763066532"
+        },
+        {
+          "contributor_name": "GOLDMAN FOWLER, AMY",
+          "amount": 3500.0,
+          "date": "2025-05-09",
+          "city": "RHINEBECK",
+          "state": "NY",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202507159763066550",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763066550"
+        },
+        {
+          "contributor_name": "SMOLA-FOTI, BRENDA",
+          "amount": 3500.0,
+          "date": "2025-07-22",
+          "city": "CARLTON",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202510159791025078",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791025078"
+        },
+        {
+          "contributor_name": "FOTI, FRANK",
+          "amount": 3500.0,
+          "date": "2025-07-22",
+          "city": "VANCOUVER",
+          "state": "WA",
+          "employer": "THE GROUND",
+          "image_number": "202510159791025351",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791025351"
+        },
+        {
+          "contributor_name": "FOTI, FRANK",
+          "amount": 3500.0,
+          "date": "2025-07-22",
+          "city": "VANCOUVER",
+          "state": "WA",
+          "employer": "THE GROUND",
+          "image_number": "202510159791026001",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026001"
+        },
+        {
+          "contributor_name": "SMOLA-FOTI, BRENDA",
+          "amount": 3500.0,
+          "date": "2025-07-22",
+          "city": "CARLTON",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202510159791026267",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026267"
+        },
+        {
+          "contributor_name": "KERREY, BOB",
+          "amount": 3500.0,
+          "date": "2025-07-24",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "ALLEN AND COMPANY",
+          "image_number": "202510159791025903",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791025903"
+        },
+        {
+          "contributor_name": "GREENFIELD, NICHOLAS",
+          "amount": 3500.0,
+          "date": "2025-07-25",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "HKM EMPLOYMENT ATTORNEYS LLP",
+          "image_number": "202510159791025629",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791025629"
+        },
+        {
+          "contributor_name": "KELLY, JAMES",
+          "amount": 3500.0,
+          "date": "2025-08-13",
+          "city": "KIMBERLY",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202510159791024127",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791024127"
+        },
+        {
+          "contributor_name": "PORTER KELLY, SUE",
+          "amount": 3500.0,
+          "date": "2025-08-13",
+          "city": "KIMBERLY",
+          "state": "OR",
+          "employer": "BLUE BASIN BEEF",
+          "image_number": "202510159791024398",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791024398"
+        },
+        {
+          "contributor_name": "PORTER KELLY, SUE",
+          "amount": 3500.0,
+          "date": "2025-08-13",
+          "city": "KIMBERLY",
+          "state": "OR",
+          "employer": "BLUE BASIN BEEF",
+          "image_number": "202510159791024684",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791024684"
+        },
+        {
+          "contributor_name": "LEE, DEBRA",
+          "amount": 3500.0,
+          "date": "2025-08-13",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "CENTER FOR NONPROFIT LEGAL SERVICES",
+          "image_number": "202510159791026018",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026018"
+        },
+        {
+          "contributor_name": "SAGE, PETER",
+          "amount": 3500.0,
+          "date": "2025-08-13",
+          "city": "MEDFORD",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791026283",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026283"
+        },
+        {
+          "contributor_name": "KELLY, JAMES",
+          "amount": 3500.0,
+          "date": "2025-08-13",
+          "city": "KIMBERLY",
+          "state": "OR",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202510159791026537",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026537"
+        },
+        {
+          "contributor_name": "REAGAN, PETER",
+          "amount": 3500.0,
+          "date": "2025-08-20",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202510159791026057",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026057"
+        },
+        {
+          "contributor_name": "WORTHINGTON, ROGER G.",
+          "amount": 3500.0,
+          "date": "2025-08-21",
+          "city": "BEND",
+          "state": "OR",
+          "employer": "WORTHY BREWING",
+          "image_number": "202510159791026582",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026582"
+        },
+        {
+          "contributor_name": "CORSON, DON",
+          "amount": 3500.0,
+          "date": "2025-08-23",
+          "city": "EUGENE",
+          "state": "OR",
+          "employer": "CORSON & JOHNSON",
+          "image_number": "202510159791026439",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791026439"
+        },
+        {
+          "contributor_name": "FREEMAN-BENSON, BJORN",
+          "amount": 3500.0,
+          "date": "2025-08-31",
+          "city": "PORTLAND",
+          "state": "OR",
+          "employer": "OVERJET",
+          "image_number": "202510159791024841",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791024841"
+        }
+      ],
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    }
+  },
+  "retrieved_at": "2026-09-02T12:14:47Z",
+  "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+  "sources": [
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "note": "FEC individual contributions bulk file (itcont.txt)."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "note": "FEC candidate master (CAND_PCC)."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "note": "FEC candidate-committee linkage. Joint committees (CMTE_DSGN=J) are not treated as PCC. Shared CAND_PCC is assigned once via CMTE_DSGN=P."
+    },
+    {
+      "url": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "note": "Individual contributions file layout."
+    }
+  ],
+  "scope": "Oregon 2026 House/Senate federal FEC Schedule A $200+ only. State ORESTAR donor bulk is not available for this populate.",
+  "row_count": 7522,
+  "candidate_count": 40,
+  "counts": {
+    "candidates": 40,
+    "with_receipts": 25,
+    "honest_empty": 15,
+    "kept_rows": 7522,
+    "items_per_filer_cap": 25,
+    "cycle": 2026,
+    "election_year": 2026
+  },
+  "do_not_sell_donor_lists": true,
+  "streets_omitted": true
+}

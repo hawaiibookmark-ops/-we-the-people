@@ -521,15 +521,22 @@ if not or_stub_path.exists():
 else:
     orj = json.loads(or_stub_path.read_text())
     donors_block = ((orj.get("state_filings") or {}).get("donors") or {})
-    if donors_block.get("status") not in {"pending", "blocked"}:
-        errors.append("or.json donors.status must be pending/blocked (no free statewide bulk)")
-    if donors_block.get("path"):
-        errors.append("or.json must not invent a donor extract path")
+    if donors_block.get("status") not in {"sourced", "partial"}:
+        errors.append("or.json donors.status must be sourced/partial (federal FEC Schedule A $200+)")
+    if donors_block.get("path") != "/data/or/fec-donors.json":
+        errors.append("or.json donors.path must be /data/or/fec-donors.json")
+    if donors_block.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
+        errors.append("or.json donors.source_url must be official indiv26.zip")
     if not donors_block.get("do_not_sell_donor_lists"):
         errors.append("or.json donors must say do_not_sell_donor_lists")
-    reason = (donors_block.get("reason") or "").lower()
-    if "orestar" not in reason and "statewide" not in reason and "bulk" not in reason:
-        errors.append("or.json donors.reason must honestly say no free ORESTAR/statewide bulk")
+    scope = ((donors_block.get("scope") or "") + " " + (donors_block.get("reason") or "")).lower()
+    if "orestar" not in scope or "fec" not in scope:
+        errors.append("or.json donors must say federal FEC only and ORESTAR still blocked")
+    counts = donors_block.get("counts") or {}
+    if counts.get("candidates") != 40 or counts.get("kept_rows") != 7522:
+        errors.append(f"or.json donor counts {counts} != 40 candidates / 7522 kept rows")
+    if donors_block.get("retrieved_at") != "2026-09-02T12:14:47Z":
+        errors.append("or.json donors.retrieved_at must be 2026-09-02T12:14:47Z")
     if orj.get("election", {}).get("state_code") != "OR" or orj.get("election", {}).get("jurisdiction") != "Oregon":
         errors.append("or.json election must be Oregon / OR")
     if orj.get("candidates_path") != "/data/or/candidates.json":
@@ -545,7 +552,56 @@ else:
     if any("ballotpedia" in u.lower() for u in _urls(orj)):
         errors.append("or.json must not use Ballotpedia")
 if (ROOT / "or" / "pdc-donors.json").exists() or (ROOT / "or" / "orestar-donors.json").exists():
-    errors.append("OR must not invent a donor extract")
+    errors.append("OR must not invent a state ORESTAR/PDC donor extract")
+or_fec_path = ROOT / "or" / "fec-donors.json"
+if not or_fec_path.exists():
+    errors.append("missing public/data/or/fec-donors.json")
+else:
+    orfec = json.loads(or_fec_path.read_text())
+    if orfec.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
+        errors.append("or/fec-donors.json source_url must be official indiv26.zip")
+    if orfec.get("fec_api_key_present"):
+        errors.append("or/fec-donors.json must not use OpenFEC/DEMO_KEY")
+    if orfec.get("row_count") != 7522 or (orfec.get("counts") or {}).get("kept_rows") != 7522:
+        errors.append(f"OR FEC kept_rows {orfec.get('row_count')} != 7522")
+    if orfec.get("candidate_count") != 40 or len(orfec.get("by_candidate") or {}) != 40:
+        errors.append(f"OR FEC candidates {orfec.get('candidate_count')} != 40")
+    with_n = sum(1 for v in (orfec.get("by_candidate") or {}).values() if (v.get("item_count_all") or 0) > 0)
+    empty_n = sum(1 for v in (orfec.get("by_candidate") or {}).values() if (v.get("item_count_all") or 0) == 0)
+    if with_n != 25 or empty_n != 15:
+        errors.append(f"OR FEC with/empty {with_n}/{empty_n} != 25/15")
+    if not orfec.get("do_not_sell_donor_lists") or not orfec.get("streets_omitted"):
+        errors.append("OR FEC extract must omit streets and say do_not_sell_donor_lists")
+    if orfec.get("retrieved_at") != "2026-09-02T12:14:47Z":
+        errors.append("OR FEC retrieved_at must be 2026-09-02T12:14:47Z")
+    if any("ballotpedia" in u.lower() for u in _urls(orfec)):
+        errors.append("OR FEC extract must not use Ballotpedia")
+    if any("open.fec.gov" in u.lower() for u in _urls(orfec)):
+        errors.append("OR FEC extract must not use OpenFEC")
+    merk = (orfec.get("by_candidate") or {}).get("S8OR00207") or {}
+    if merk.get("candidate_name") != "MERKLEY, JEFFREY ALAN" or not (merk.get("items") or []):
+        errors.append("Merkley FEC extract missing official name/items")
+    if (merk.get("items") or [{}])[0].get("contributor_name") is None:
+        errors.append("Merkley top donor name missing")
+    sol = (orfec.get("by_candidate") or {}).get("S6OR05226") or {}
+    if sol.get("committee_id"):
+        errors.append("OR Solomon must have no PCC (do not use joint C00915710)")
+    house_perkins = (orfec.get("by_candidate") or {}).get("H6OR04203") or {}
+    senate_perkins = (orfec.get("by_candidate") or {}).get("S4OR00156") or {}
+    if (house_perkins.get("item_count_all") or 0) != 0 or (senate_perkins.get("item_count_all") or 0) != 9:
+        errors.append("shared Perkins PCC must be assigned once via ccl26 P (Senate 9 / House 0)")
+    or_street = {"street", "address", "addr", "zip", "zipcode", "contributor_zip", "occupation"}
+    for rec in (orfec.get("by_candidate") or {}).values():
+        for it in rec.get("items") or []:
+            if or_street & {k.lower() for k in it}:
+                errors.append("or/fec-donors item has a street-address or zip field")
+                break
+            if not it.get("contributor_name") or it.get("amount") is None:
+                errors.append("or/fec-donors item missing official contributor_name/amount")
+                break
+        else:
+            continue
+        break
 if not or_cands_path.exists():
     errors.append("missing public/data/or/candidates.json")
 else:
@@ -643,4 +699,6 @@ print(
     len(json.loads((ROOT / "or" / "candidates.json").read_text())),
     "OR votes",
     json.loads((ROOT / "or" / "votes.json").read_text()).get("count"),
+    "OR FEC donors",
+    json.loads((ROOT / "or" / "fec-donors.json").read_text()).get("row_count"),
 )
