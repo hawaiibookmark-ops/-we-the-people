@@ -3,7 +3,7 @@
     "jurisdiction": "New York",
     "state_code": "NY",
     "general_date": "2026-11-03",
-    "note": "Official NYSBOE Schedule A–D donors (Open NY e9ss-239a, election_year=2026), Clerk/LIS federal votes, and federal FEC Schedule A $200+. Who Filed AJAX candidate list is still blocked; candidates_path is not claimed. Donor lists are not sold."
+    "note": "Official NYSBOE Who Filed 2026 primary + general (complete=false), NYSBOE Schedule A–D donors (Open NY e9ss-239a), Clerk/LIS federal votes, and federal FEC Schedule A $200+. Donor lists are not sold."
   },
   "votes_path": "/data/ny/votes.json",
   "congress_delegation_path": "/data/ny/congress-delegation.json",
@@ -58,6 +58,11 @@
       "url": "https://publicreporting.elections.ny.gov/",
       "retrieved_at": "2026-09-02T14:45:00Z",
       "note": "NYSBOE public reporting"
+    },
+    {
+      "url": "https://publicreporting.elections.ny.gov/WhoFiled/WhoFiled",
+      "retrieved_at": "2026-09-02T17:06:00Z",
+      "note": "Official NYSBOE Who Filed 2026 primary + general (complete=false)"
     }
   ],
   "state_filings": {
@@ -93,6 +98,23 @@
       "do_not_sell_donor_lists": true
     },
     "nysboe_soda": "https://data.ny.gov/resource/e9ss-239a.json",
-    "nysboe_landing": "https://data.ny.gov/Government-Finance/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a"
-  }
+    "nysboe_landing": "https://data.ny.gov/Government-Finance/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a",
+    "who_filed": "https://publicreporting.elections.ny.gov/WhoFiled/WhoFiled",
+    "candidates": {
+      "status": "partial",
+      "path": "/data/ny/candidates.json",
+      "source_url": "https://publicreporting.elections.ny.gov/WhoFiled/WhoFiled",
+      "retrieved_at": "2026-09-02T17:06:00Z",
+      "complete": false,
+      "counts": {
+        "rows": 1685,
+        "primary": 1338,
+        "general": 347,
+        "contest_keys": 175
+      },
+      "do_not_sell_donor_lists": true
+    }
+  },
+  "candidates_path": "/data/ny/candidates.json",
+  "candidate_summary_path": "/data/ny/candidate-summary.json"
 }
