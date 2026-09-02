@@ -13,11 +13,11 @@ from collections import Counter
 from pathlib import Path
 
 UA = "WeThePeople-CivicBot/1.0"
-RETRIEVED = "2026-09-02T14:35:00Z"
+RETRIEVED = "2026-09-02T12:56:30Z"
 ELECTION_ID = "sejIrI+Qmww="
 LANDING = "https://elections.il.gov/ElectionOperations/CandidatesFiled.aspx"
 RSS_URL = f"https://elections.il.gov/RSS/LatestCandidatesFiled.aspx?ID={urllib.parse.quote(ELECTION_ID)}"
-LIST_KIND = "rss_filed_partial"
+LIST_KIND = "latest_filed_rss"
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "public" / "data" / "il"
 STUB = ROOT / "public" / "data" / "il.json"
@@ -122,9 +122,9 @@ def summarize(rows: list[dict]) -> dict:
         "retrieved_at": RETRIEVED,
         "note": (
             "Official Illinois SBE Latest Candidates Filed RSS for the 2026 general "
-            f"(ElectionID={ELECTION_ID}). This is an RSS-partial filed list, NOT a certified "
-            "general roster. Streets from the RSS Address field are omitted. Names as filed "
-            "only. No Ballotpedia."
+            f"(ElectionID={ELECTION_ID}). RSS-partial rolling latest-filed feed only — "
+            "NOT a certified full ballot. Full CandidatesFiled grid / Candidates.txt TBD. "
+            "Streets from the RSS Address field are omitted. Names as filed only. No Ballotpedia."
         ),
     }
 
@@ -133,18 +133,16 @@ def write_stub() -> None:
     stub = json.loads(STUB.read_text(encoding="utf-8")) if STUB.exists() else {}
     donors = ((stub.get("state_filings") or {}).get("donors") or {}).copy()
     fec = ((stub.get("state_filings") or {}).get("federal_fec") or {}).copy()
-    note = stub.get("election", {}).get("note") or ""
     stub["election"] = {
         "jurisdiction": "Illinois",
         "state_code": "IL",
         "general_date": "2026-11-03",
         "note": (
-            "Official Illinois SBE Schedule A receipts, SBE Latest Candidates Filed RSS "
-            "(partial, not certified), Clerk/LIS federal votes, and federal FEC Schedule A "
-            "$200+ when present. Donor lists are not sold."
-        )
-        if "SBE Schedule A" in note or True
-        else note,
+            "Official Illinois SBE Schedule A receipts, SBE Latest Candidates Filed RSS-partial "
+            "(rolling latest-filed feed, not a certified full ballot; full CandidatesFiled grid / "
+            "Candidates.txt TBD), Clerk/LIS federal votes, and federal FEC Schedule A $200+ when "
+            "present. Donor lists are not sold."
+        ),
     }
     filings = stub.setdefault("state_filings", {})
     filings["wired"] = True
@@ -165,12 +163,18 @@ def write_stub() -> None:
         {
             "url": RSS_URL,
             "retrieved_at": RETRIEVED,
-            "note": "Official Latest Candidates Filed RSS (partial, not certified)",
+            "note": "Official Latest Candidates Filed RSS-partial (not a certified full ballot; CandidatesFiled grid / Candidates.txt TBD)",
         },
     ]
     for src in extra:
         if src["url"] not in have:
             sources.append(src)
+        else:
+            for existing in sources:
+                if existing.get("url") == src["url"]:
+                    existing["retrieved_at"] = RETRIEVED
+                    if src.get("note"):
+                        existing["note"] = src["note"]
     STUB.write_text(json.dumps(stub, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("wrote stub", STUB, flush=True)
 

@@ -870,6 +870,9 @@ else:
         errors.append("sbe-donors.json retrieved_at must be 2026-09-02T13:26:08Z")
     if il_json.get("election", {}).get("state_code") != "IL" or il_json.get("election", {}).get("jurisdiction") != "Illinois":
         errors.append("il.json election must be Illinois / IL")
+    election_note = (il_json.get("election") or {}).get("note") or ""
+    if "RSS-partial" not in election_note or "Candidates.txt TBD" not in election_note:
+        errors.append("il.json election note must say RSS-partial and Candidates.txt TBD")
     jb = (il.get("by_candidate") or {}).get("JB for Governor") or {}
     if not jb or jb.get("status") != "unmatched_no_roster" or jb.get("matched_to_site") is not False:
         errors.append("JB for Governor SBE filer missing or incorrectly matched")
@@ -903,8 +906,13 @@ else:
     if not isinstance(il_cands, list) or len(il_cands) != 528:
         errors.append(f"IL candidates.json rows {len(il_cands) if isinstance(il_cands, list) else type(il_cands)} != 528")
     else:
-        if {r.get("list_kind") for r in il_cands} != {"rss_filed_partial"}:
-            errors.append("IL list_kind must be rss_filed_partial")
+        if {r.get("list_kind") for r in il_cands} != {"latest_filed_rss"}:
+            errors.append("IL list_kind must be latest_filed_rss")
+        keys = {r.get("contest_key") for r in il_cands}
+        if not (300 <= len(keys) <= 420):
+            errors.append(f"IL contest_key_count {len(keys)} not ~339")
+        if any(r.get("retrieved_at") != "2026-09-02T12:56:30Z" for r in il_cands):
+            errors.append("IL candidates retrieved_at must be 2026-09-02T12:56:30Z")
         if any(r.get("certified") is not False for r in il_cands):
             errors.append("IL candidates must be labeled not certified")
         if any(not str(r.get("contest_key") or "").startswith("IL|") or str(r.get("contest_key") or "").count("|") != 3 for r in il_cands):

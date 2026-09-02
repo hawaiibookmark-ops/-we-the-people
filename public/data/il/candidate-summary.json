@@ -1,7 +1,7 @@
 {
   "row_count": 528,
   "contest_key_count": 393,
-  "list_kind": "rss_filed_partial",
+  "list_kind": "latest_filed_rss",
   "certified": false,
   "complete": false,
   "by_office": {
@@ -241,6 +241,6 @@
   },
   "source_url": "https://elections.il.gov/RSS/LatestCandidatesFiled.aspx?ID=sejIrI%2BQmww%3D",
   "landing_url": "https://elections.il.gov/ElectionOperations/CandidatesFiled.aspx",
-  "retrieved_at": "2026-09-02T14:35:00Z",
-  "note": "Official Illinois SBE Latest Candidates Filed RSS for the 2026 general (ElectionID=sejIrI+Qmww=). This is an RSS-partial filed list, NOT a certified general roster. Streets from the RSS Address field are omitted. Names as filed only. No Ballotpedia."
+  "retrieved_at": "2026-09-02T12:56:30Z",
+  "note": "Official Illinois SBE Latest Candidates Filed RSS for the 2026 general (ElectionID=sejIrI+Qmww=). RSS-partial rolling latest-filed feed only — NOT a certified full ballot. Full CandidatesFiled grid / Candidates.txt TBD. Streets from the RSS Address field are omitted. Names as filed only. No Ballotpedia."
 }

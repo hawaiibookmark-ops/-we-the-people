@@ -1,6 +1,6 @@
 {
   "policy": "Official U.S. House Clerk EVS XML (2026 unpadded rolls 253-292) and U.S. Senate LIS roll-call XML (119th Congress 2nd session votes 202-231) for sitting IL members. House match is name-id==bioguide from Clerk MemberData.xml. Senate match is last name + state; names/bioguides from senate.gov contact XML. vote_cast is the exact official text. Votes are never invented. No Ballotpedia. No scores.",
-  "retrieved_at": "2026-09-02T14:32:00Z",
+  "retrieved_at": "2026-09-02T12:53:50Z",
   "state": "IL",
   "count": 740,
   "counts_by_member": {
@@ -43,7 +43,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -63,7 +63,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -83,7 +83,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -103,7 +103,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -123,7 +123,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -143,7 +143,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -163,7 +163,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -183,7 +183,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -203,7 +203,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -223,7 +223,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -243,7 +243,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -263,7 +263,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -283,7 +283,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -303,7 +303,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -323,7 +323,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -343,7 +343,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -363,7 +363,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -383,7 +383,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -403,7 +403,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -423,7 +423,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -443,7 +443,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -463,7 +463,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -483,7 +483,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -503,7 +503,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -523,7 +523,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -543,7 +543,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -563,7 +563,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -583,7 +583,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -603,7 +603,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -623,7 +623,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -643,7 +643,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -663,7 +663,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -683,7 +683,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -703,7 +703,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -723,7 +723,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -743,7 +743,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -763,7 +763,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -783,7 +783,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -803,7 +803,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -823,7 +823,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -843,7 +843,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -863,7 +863,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -883,7 +883,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -903,7 +903,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -923,7 +923,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -943,7 +943,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -963,7 +963,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -983,7 +983,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1003,7 +1003,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1023,7 +1023,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1043,7 +1043,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1063,7 +1063,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1083,7 +1083,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1103,7 +1103,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1123,7 +1123,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1143,7 +1143,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1163,7 +1163,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1183,7 +1183,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1203,7 +1203,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1223,7 +1223,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1243,7 +1243,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1263,7 +1263,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1283,7 +1283,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1303,7 +1303,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1323,7 +1323,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1343,7 +1343,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1363,7 +1363,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1383,7 +1383,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1403,7 +1403,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1423,7 +1423,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1443,7 +1443,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1463,7 +1463,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1483,7 +1483,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1503,7 +1503,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1523,7 +1523,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1543,7 +1543,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1563,7 +1563,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1583,7 +1583,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1603,7 +1603,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1623,7 +1623,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1643,7 +1643,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1663,7 +1663,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1683,7 +1683,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1703,7 +1703,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1723,7 +1723,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1743,7 +1743,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1763,7 +1763,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1783,7 +1783,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1803,7 +1803,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1823,7 +1823,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1843,7 +1843,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1863,7 +1863,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1883,7 +1883,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1903,7 +1903,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1923,7 +1923,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1943,7 +1943,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1963,7 +1963,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -1983,7 +1983,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2003,7 +2003,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2023,7 +2023,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2043,7 +2043,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2063,7 +2063,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2083,7 +2083,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2103,7 +2103,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2123,7 +2123,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2143,7 +2143,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2163,7 +2163,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2183,7 +2183,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2203,7 +2203,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2223,7 +2223,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2243,7 +2243,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2263,7 +2263,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2283,7 +2283,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2303,7 +2303,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2323,7 +2323,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2343,7 +2343,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2363,7 +2363,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2383,7 +2383,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2403,7 +2403,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2423,7 +2423,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2443,7 +2443,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2463,7 +2463,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2483,7 +2483,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2503,7 +2503,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2523,7 +2523,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2543,7 +2543,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2563,7 +2563,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2583,7 +2583,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2603,7 +2603,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2623,7 +2623,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2643,7 +2643,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2663,7 +2663,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2683,7 +2683,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2703,7 +2703,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2723,7 +2723,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2743,7 +2743,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2763,7 +2763,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2783,7 +2783,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2803,7 +2803,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2823,7 +2823,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2843,7 +2843,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2863,7 +2863,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2883,7 +2883,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2903,7 +2903,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2923,7 +2923,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2943,7 +2943,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2963,7 +2963,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -2983,7 +2983,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3003,7 +3003,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3023,7 +3023,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Not Voting",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3043,7 +3043,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3063,7 +3063,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3083,7 +3083,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3103,7 +3103,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3123,7 +3123,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3143,7 +3143,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3163,7 +3163,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3183,7 +3183,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3203,7 +3203,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3223,7 +3223,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3243,7 +3243,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3263,7 +3263,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3283,7 +3283,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3303,7 +3303,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3323,7 +3323,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3343,7 +3343,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3363,7 +3363,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3383,7 +3383,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3403,7 +3403,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3423,7 +3423,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3443,7 +3443,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3463,7 +3463,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3483,7 +3483,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3503,7 +3503,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3523,7 +3523,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3543,7 +3543,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3563,7 +3563,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3583,7 +3583,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3603,7 +3603,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3623,7 +3623,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3643,7 +3643,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3663,7 +3663,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3683,7 +3683,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3703,7 +3703,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3723,7 +3723,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3743,7 +3743,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3763,7 +3763,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3783,7 +3783,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3803,7 +3803,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3823,7 +3823,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3843,7 +3843,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3863,7 +3863,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3883,7 +3883,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3903,7 +3903,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3923,7 +3923,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3943,7 +3943,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3963,7 +3963,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -3983,7 +3983,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4003,7 +4003,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4023,7 +4023,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4043,7 +4043,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4063,7 +4063,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4083,7 +4083,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4103,7 +4103,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4123,7 +4123,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4143,7 +4143,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4163,7 +4163,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4183,7 +4183,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4203,7 +4203,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4223,7 +4223,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4243,7 +4243,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4263,7 +4263,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4283,7 +4283,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4303,7 +4303,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4323,7 +4323,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4343,7 +4343,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4363,7 +4363,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4383,7 +4383,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4403,7 +4403,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4423,7 +4423,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4443,7 +4443,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4463,7 +4463,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4483,7 +4483,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4503,7 +4503,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4523,7 +4523,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4543,7 +4543,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4563,7 +4563,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4583,7 +4583,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4603,7 +4603,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4623,7 +4623,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4643,7 +4643,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4663,7 +4663,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4683,7 +4683,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4703,7 +4703,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4723,7 +4723,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4743,7 +4743,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4763,7 +4763,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4783,7 +4783,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4803,7 +4803,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4823,7 +4823,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4843,7 +4843,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4863,7 +4863,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4883,7 +4883,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4903,7 +4903,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4923,7 +4923,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4943,7 +4943,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4963,7 +4963,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -4983,7 +4983,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5003,7 +5003,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5023,7 +5023,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5043,7 +5043,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5063,7 +5063,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5083,7 +5083,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5103,7 +5103,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5123,7 +5123,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5143,7 +5143,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5163,7 +5163,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5183,7 +5183,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5203,7 +5203,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5223,7 +5223,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5243,7 +5243,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5263,7 +5263,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5283,7 +5283,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5303,7 +5303,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5323,7 +5323,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5343,7 +5343,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5363,7 +5363,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5383,7 +5383,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5403,7 +5403,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5423,7 +5423,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5443,7 +5443,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5463,7 +5463,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5483,7 +5483,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5503,7 +5503,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5523,7 +5523,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5543,7 +5543,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5563,7 +5563,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5583,7 +5583,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5603,7 +5603,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5623,7 +5623,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5643,7 +5643,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5663,7 +5663,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5683,7 +5683,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5703,7 +5703,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5723,7 +5723,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5743,7 +5743,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5763,7 +5763,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5783,7 +5783,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5803,7 +5803,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5823,7 +5823,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5843,7 +5843,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5863,7 +5863,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5883,7 +5883,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5903,7 +5903,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5923,7 +5923,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5943,7 +5943,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5963,7 +5963,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -5983,7 +5983,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6003,7 +6003,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6023,7 +6023,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6043,7 +6043,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6063,7 +6063,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6083,7 +6083,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6103,7 +6103,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6123,7 +6123,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6143,7 +6143,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6163,7 +6163,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6183,7 +6183,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6203,7 +6203,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6223,7 +6223,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6243,7 +6243,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6263,7 +6263,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6283,7 +6283,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6303,7 +6303,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6323,7 +6323,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6343,7 +6343,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6363,7 +6363,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6383,7 +6383,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6403,7 +6403,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6423,7 +6423,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6443,7 +6443,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6463,7 +6463,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6483,7 +6483,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6503,7 +6503,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6523,7 +6523,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6543,7 +6543,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6563,7 +6563,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6583,7 +6583,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6603,7 +6603,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6623,7 +6623,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6643,7 +6643,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6663,7 +6663,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6683,7 +6683,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6703,7 +6703,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6723,7 +6723,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6743,7 +6743,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6763,7 +6763,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6783,7 +6783,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6803,7 +6803,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6823,7 +6823,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6843,7 +6843,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6863,7 +6863,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6883,7 +6883,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6903,7 +6903,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6923,7 +6923,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6943,7 +6943,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6963,7 +6963,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -6983,7 +6983,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7003,7 +7003,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7023,7 +7023,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7043,7 +7043,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7063,7 +7063,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7083,7 +7083,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7103,7 +7103,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7123,7 +7123,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7143,7 +7143,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7163,7 +7163,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7183,7 +7183,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7203,7 +7203,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7223,7 +7223,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7243,7 +7243,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7263,7 +7263,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7283,7 +7283,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7303,7 +7303,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7323,7 +7323,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7343,7 +7343,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7363,7 +7363,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7383,7 +7383,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7403,7 +7403,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7423,7 +7423,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7443,7 +7443,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7463,7 +7463,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7483,7 +7483,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7503,7 +7503,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7523,7 +7523,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7543,7 +7543,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7563,7 +7563,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7583,7 +7583,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7603,7 +7603,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7623,7 +7623,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7643,7 +7643,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7663,7 +7663,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7683,7 +7683,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7703,7 +7703,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7723,7 +7723,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7743,7 +7743,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7763,7 +7763,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7783,7 +7783,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7803,7 +7803,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7823,7 +7823,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7843,7 +7843,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7863,7 +7863,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7883,7 +7883,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7903,7 +7903,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7923,7 +7923,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7943,7 +7943,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7963,7 +7963,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -7983,7 +7983,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8003,7 +8003,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8023,7 +8023,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8043,7 +8043,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8063,7 +8063,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8083,7 +8083,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8103,7 +8103,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8123,7 +8123,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8143,7 +8143,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8163,7 +8163,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8183,7 +8183,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8203,7 +8203,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8223,7 +8223,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8243,7 +8243,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8263,7 +8263,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8283,7 +8283,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8303,7 +8303,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8323,7 +8323,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8343,7 +8343,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8363,7 +8363,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8383,7 +8383,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8403,7 +8403,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8423,7 +8423,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8443,7 +8443,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8463,7 +8463,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8483,7 +8483,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8503,7 +8503,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8523,7 +8523,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8543,7 +8543,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8563,7 +8563,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8583,7 +8583,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8603,7 +8603,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8623,7 +8623,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8643,7 +8643,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8663,7 +8663,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8683,7 +8683,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8703,7 +8703,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8723,7 +8723,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8743,7 +8743,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8763,7 +8763,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8783,7 +8783,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8803,7 +8803,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8823,7 +8823,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8843,7 +8843,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8863,7 +8863,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8883,7 +8883,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8903,7 +8903,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8923,7 +8923,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8943,7 +8943,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8963,7 +8963,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -8983,7 +8983,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9003,7 +9003,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9023,7 +9023,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9043,7 +9043,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9063,7 +9063,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9083,7 +9083,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9103,7 +9103,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9123,7 +9123,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9143,7 +9143,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9163,7 +9163,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9183,7 +9183,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9203,7 +9203,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9223,7 +9223,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9243,7 +9243,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9263,7 +9263,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9283,7 +9283,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9303,7 +9303,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9323,7 +9323,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9343,7 +9343,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9363,7 +9363,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9383,7 +9383,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9403,7 +9403,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9423,7 +9423,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9443,7 +9443,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9463,7 +9463,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9483,7 +9483,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9503,7 +9503,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9523,7 +9523,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9543,7 +9543,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9563,7 +9563,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9583,7 +9583,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9603,7 +9603,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9623,7 +9623,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9643,7 +9643,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9663,7 +9663,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9683,7 +9683,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9703,7 +9703,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9723,7 +9723,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9743,7 +9743,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9763,7 +9763,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9783,7 +9783,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9803,7 +9803,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9823,7 +9823,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9843,7 +9843,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9863,7 +9863,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9883,7 +9883,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9903,7 +9903,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9923,7 +9923,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9943,7 +9943,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9963,7 +9963,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -9983,7 +9983,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10003,7 +10003,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10023,7 +10023,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10043,7 +10043,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10063,7 +10063,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10083,7 +10083,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10103,7 +10103,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10123,7 +10123,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10143,7 +10143,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10163,7 +10163,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10183,7 +10183,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10203,7 +10203,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10223,7 +10223,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10243,7 +10243,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10263,7 +10263,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10283,7 +10283,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10303,7 +10303,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10323,7 +10323,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10343,7 +10343,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10363,7 +10363,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10383,7 +10383,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10403,7 +10403,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10423,7 +10423,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10443,7 +10443,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10463,7 +10463,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10483,7 +10483,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10503,7 +10503,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10523,7 +10523,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10543,7 +10543,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10563,7 +10563,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10583,7 +10583,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10603,7 +10603,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10623,7 +10623,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10643,7 +10643,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10663,7 +10663,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10683,7 +10683,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10703,7 +10703,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10723,7 +10723,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10743,7 +10743,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10763,7 +10763,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10783,7 +10783,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10803,7 +10803,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10823,7 +10823,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10843,7 +10843,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10863,7 +10863,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10883,7 +10883,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10903,7 +10903,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10923,7 +10923,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10943,7 +10943,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10963,7 +10963,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -10983,7 +10983,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11003,7 +11003,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11023,7 +11023,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11043,7 +11043,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11063,7 +11063,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11083,7 +11083,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11103,7 +11103,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11123,7 +11123,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11143,7 +11143,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11163,7 +11163,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11183,7 +11183,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11203,7 +11203,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11223,7 +11223,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11243,7 +11243,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11263,7 +11263,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11283,7 +11283,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11303,7 +11303,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11323,7 +11323,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11343,7 +11343,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11363,7 +11363,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11383,7 +11383,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11403,7 +11403,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11423,7 +11423,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11443,7 +11443,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11463,7 +11463,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11483,7 +11483,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11503,7 +11503,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11523,7 +11523,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11543,7 +11543,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11563,7 +11563,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11583,7 +11583,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11603,7 +11603,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11623,7 +11623,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11643,7 +11643,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11663,7 +11663,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11683,7 +11683,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11703,7 +11703,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11723,7 +11723,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11743,7 +11743,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11763,7 +11763,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11783,7 +11783,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11803,7 +11803,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11823,7 +11823,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11843,7 +11843,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11863,7 +11863,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11883,7 +11883,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11903,7 +11903,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11923,7 +11923,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11943,7 +11943,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11963,7 +11963,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -11983,7 +11983,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12003,7 +12003,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12023,7 +12023,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12043,7 +12043,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12063,7 +12063,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12083,7 +12083,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12103,7 +12103,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12123,7 +12123,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12143,7 +12143,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12163,7 +12163,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12183,7 +12183,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12203,7 +12203,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12223,7 +12223,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12243,7 +12243,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12263,7 +12263,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12283,7 +12283,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12303,7 +12303,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12323,7 +12323,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12343,7 +12343,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12363,7 +12363,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12383,7 +12383,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12403,7 +12403,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12423,7 +12423,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12443,7 +12443,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12463,7 +12463,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12483,7 +12483,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12503,7 +12503,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12523,7 +12523,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12543,7 +12543,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12563,7 +12563,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12583,7 +12583,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12603,7 +12603,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12623,7 +12623,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12643,7 +12643,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12663,7 +12663,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12683,7 +12683,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12703,7 +12703,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12723,7 +12723,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12743,7 +12743,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12763,7 +12763,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12783,7 +12783,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12803,7 +12803,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12823,7 +12823,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12843,7 +12843,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12863,7 +12863,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12883,7 +12883,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12903,7 +12903,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12923,7 +12923,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12943,7 +12943,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12963,7 +12963,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -12983,7 +12983,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13003,7 +13003,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13023,7 +13023,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13043,7 +13043,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13063,7 +13063,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13083,7 +13083,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13103,7 +13103,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13123,7 +13123,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13143,7 +13143,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13163,7 +13163,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Aye",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13183,7 +13183,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13203,7 +13203,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13223,7 +13223,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13243,7 +13243,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13263,7 +13263,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13283,7 +13283,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "No",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13303,7 +13303,7 @@
       "bioguide_id": "B001295",
       "district": "IL-12",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13323,7 +13323,7 @@
       "bioguide_id": "B001315",
       "district": "IL-13",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13343,7 +13343,7 @@
       "bioguide_id": "C001117",
       "district": "IL-06",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13363,7 +13363,7 @@
       "bioguide_id": "D000096",
       "district": "IL-07",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13383,7 +13383,7 @@
       "bioguide_id": "F000454",
       "district": "IL-11",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13403,7 +13403,7 @@
       "bioguide_id": "G000586",
       "district": "IL-04",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13423,7 +13423,7 @@
       "bioguide_id": "J000309",
       "district": "IL-01",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13443,7 +13443,7 @@
       "bioguide_id": "K000385",
       "district": "IL-02",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13463,7 +13463,7 @@
       "bioguide_id": "K000391",
       "district": "IL-08",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13483,7 +13483,7 @@
       "bioguide_id": "L000585",
       "district": "IL-16",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13503,7 +13503,7 @@
       "bioguide_id": "M001211",
       "district": "IL-15",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13523,7 +13523,7 @@
       "bioguide_id": "Q000023",
       "district": "IL-05",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13543,7 +13543,7 @@
       "bioguide_id": "R000617",
       "district": "IL-03",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13563,7 +13563,7 @@
       "bioguide_id": "S001145",
       "district": "IL-09",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13583,7 +13583,7 @@
       "bioguide_id": "S001190",
       "district": "IL-10",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13603,7 +13603,7 @@
       "bioguide_id": "S001225",
       "district": "IL-17",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "House",
@@ -13623,7 +13623,7 @@
       "bioguide_id": "U000040",
       "district": "IL-14",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13643,7 +13643,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13663,7 +13663,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13683,7 +13683,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13703,7 +13703,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13723,7 +13723,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13743,7 +13743,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13763,7 +13763,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13783,7 +13783,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13803,7 +13803,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13823,7 +13823,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13843,7 +13843,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13863,7 +13863,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13883,7 +13883,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13903,7 +13903,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13923,7 +13923,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13943,7 +13943,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13963,7 +13963,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -13983,7 +13983,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14003,7 +14003,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14023,7 +14023,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14043,7 +14043,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14063,7 +14063,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14083,7 +14083,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14103,7 +14103,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14123,7 +14123,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14143,7 +14143,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14163,7 +14163,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14183,7 +14183,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14203,7 +14203,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14223,7 +14223,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14243,7 +14243,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14263,7 +14263,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14283,7 +14283,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14303,7 +14303,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14323,7 +14323,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14343,7 +14343,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14363,7 +14363,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14383,7 +14383,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14403,7 +14403,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14423,7 +14423,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14443,7 +14443,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14463,7 +14463,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14483,7 +14483,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14503,7 +14503,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14523,7 +14523,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14543,7 +14543,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14563,7 +14563,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14583,7 +14583,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14603,7 +14603,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14623,7 +14623,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14643,7 +14643,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14663,7 +14663,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14683,7 +14683,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14703,7 +14703,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14723,7 +14723,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14743,7 +14743,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14763,7 +14763,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Yea",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14783,7 +14783,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14803,7 +14803,7 @@
       "incumbent_name": "Richard J. Durbin",
       "bioguide_id": "D000563",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "chamber": "Senate",
@@ -14823,7 +14823,7 @@
       "incumbent_name": "Tammy Duckworth",
       "bioguide_id": "D000622",
       "vote_cast": "Nay",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     }
   ],
   "method": {

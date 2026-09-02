@@ -3,7 +3,7 @@
     "jurisdiction": "Illinois",
     "state_code": "IL",
     "general_date": "2026-11-03",
-    "note": "Official Illinois SBE Schedule A receipts, SBE Latest Candidates Filed RSS (partial, not certified), Clerk/LIS federal votes, and federal FEC Schedule A $200+ when present. Donor lists are not sold."
+    "note": "Official Illinois SBE Schedule A receipts, SBE Latest Candidates Filed RSS-partial (rolling latest-filed feed, not a certified full ballot; full CandidatesFiled grid / Candidates.txt TBD), Clerk/LIS federal votes, and federal FEC Schedule A $200+ when present. Donor lists are not sold."
   },
   "state_filings": {
     "wired": true,
@@ -62,30 +62,30 @@
     },
     {
       "url": "https://elections.il.gov/ElectionOperations/CandidatesFiled.aspx",
-      "retrieved_at": "2026-09-02T14:35:00Z",
+      "retrieved_at": "2026-09-02T12:56:30Z",
       "note": "Illinois SBE Candidates Filed (2026 general)"
     },
     {
       "url": "https://elections.il.gov/RSS/LatestCandidatesFiled.aspx?ID=sejIrI%2BQmww%3D",
-      "retrieved_at": "2026-09-02T14:35:00Z",
-      "note": "Official Latest Candidates Filed RSS (partial, not certified)"
+      "retrieved_at": "2026-09-02T12:56:30Z",
+      "note": "Official Latest Candidates Filed RSS-partial (not a certified full ballot; CandidatesFiled grid / Candidates.txt TBD)"
     },
     {
       "url": "https://clerk.house.gov/evs/2026/index.asp",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
-      "retrieved_at": "2026-09-02T14:32:00Z",
+      "retrieved_at": "2026-09-02T12:53:50Z",
       "note": "Clerk MemberData sitting House members"
     },
     {
       "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
-      "retrieved_at": "2026-09-02T14:32:00Z",
+      "retrieved_at": "2026-09-02T12:53:50Z",
       "note": "Senate.gov sitting senators"
     },
     {
