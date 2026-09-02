@@ -1080,21 +1080,38 @@ else:
     txj = json.loads(tx_stub_path.read_text())
     if txj.get("candidates_path") != "/data/tx/candidates.json" or txj.get("votes_path") != "/data/tx/votes.json":
         errors.append("tx.json candidates_path/votes_path missing")
+    donors_block = ((txj.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") != "sourced" or donors_block.get("path") != "/data/tx/tec-donors.json":
+        errors.append("tx.json donors must stay sourced at /data/tx/tec-donors.json")
+    if ((txj.get("state_filings") or {}).get("federal_fec") or {}).get("path") != "/data/tx/fec-donors.json":
+        errors.append("tx.json federal_fec.path must stay /data/tx/fec-donors.json")
     if any("ballotpedia" in u.lower() for u in _urls(txj)):
         errors.append("tx.json must not use Ballotpedia")
 if not tx_cands_path.exists():
     errors.append("missing public/data/tx/candidates.json")
 else:
     tx_cands = json.loads(tx_cands_path.read_text())
-    if not isinstance(tx_cands, list) or not (3800 <= len(tx_cands) <= 3840):
-        errors.append(f"TX candidates.json rows {len(tx_cands) if isinstance(tx_cands, list) else type(tx_cands)} not ~3823")
+    if not isinstance(tx_cands, list) or len(tx_cands) != 3823:
+        errors.append(f"TX candidates.json rows {len(tx_cands) if isinstance(tx_cands, list) else type(tx_cands)} != 3823")
     else:
-        if {r.get("list_kind") for r in tx_cands} != {"general_certified_pdf"}:
-            errors.append("TX list_kind must be general_certified_pdf")
+        if {r.get("list_kind") for r in tx_cands} != {"general_ballot_certification"}:
+            errors.append("TX list_kind must be general_ballot_certification")
+        keys = {r.get("contest_key") for r in tx_cands}
+        if not (3000 <= len(keys) <= 3200):
+            errors.append(f"TX contest_key_count {len(keys)} not ~3050")
+        if any(not str(r.get("contest_key") or "").startswith("TX|") or str(r.get("contest_key") or "").count("|") != 3 for r in tx_cands):
+            errors.append("TX contest_key must be TX|OFFICE|DIST|")
+        if any(r.get("retrieved_at") != "2026-09-02T12:56:00Z" for r in tx_cands):
+            errors.append("TX candidates retrieved_at must be 2026-09-02T12:56:00Z")
+        if any(r.get("certification_date") != "2026-08-28" for r in tx_cands):
+            errors.append("TX certification_date must be 2026-08-28")
         if not any(r.get("candidate_name") == "GREG ABBOTT" for r in tx_cands):
             errors.append("TX cert missing filed name GREG ABBOTT")
         if any("ballotpedia" in (r.get("source_url") or "").lower() for r in tx_cands):
             errors.append("TX candidates must not use Ballotpedia")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in tx_cands):
+            errors.append("TX candidates must omit streets/email/phone")
 _check_votes(ROOT / "tx" / "votes.json", "TX", 1540, {"C001056", "C001098"})
 if (ROOT / "tx" / "congress-delegation.json").exists():
     tx_del = json.loads((ROOT / "tx" / "congress-delegation.json").read_text())

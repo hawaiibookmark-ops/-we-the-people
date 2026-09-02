@@ -13,6 +13,12 @@ from pathlib import Path
 
 UA = "WeThePeople-CivicBot/1.0"
 RETRIEVED = "2026-09-02T14:32:00Z"
+RETRIEVED_BY_STATE = {
+    "IL": "2026-09-02T14:32:00Z",
+    "MI": "2026-09-02T14:32:00Z",
+    "NY": "2026-09-02T14:32:00Z",
+    "TX": "2026-09-02T12:53:50Z",
+}
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "public" / "data"
 CACHE = Path("/tmp/votes-wave2")
@@ -193,7 +199,7 @@ def download_rolls() -> None:
                 print(f"  fetched {done}/{len(jobs)}", flush=True)
 
 
-def parse_house(state: str, delegation: dict[str, tuple[str, str]]) -> list[dict]:
+def parse_house(state: str, delegation: dict[str, tuple[str, str]], retrieved_at: str = RETRIEVED) -> list[dict]:
     rows: list[dict] = []
     for num in HOUSE_ROLLS:
         url = f"https://clerk.house.gov/evs/2026/roll{num}.xml"
@@ -235,13 +241,13 @@ def parse_house(state: str, delegation: dict[str, tuple[str, str]]) -> list[dict
                     "bioguide_id": bio,
                     "district": dist,
                     "vote_cast": cast,
-                    "retrieved_at": RETRIEVED,
+                    "retrieved_at": retrieved_at,
                 }
             )
     return rows
 
 
-def parse_senate(state: str, delegation: dict[tuple[str, str], tuple[str, str]]) -> list[dict]:
+def parse_senate(state: str, delegation: dict[tuple[str, str], tuple[str, str]], retrieved_at: str = RETRIEVED) -> list[dict]:
     rows: list[dict] = []
     for num in SENATE_VOTES:
         url = f"https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_{num:05d}.xml"
@@ -284,7 +290,7 @@ def parse_senate(state: str, delegation: dict[tuple[str, str], tuple[str, str]])
                     "incumbent_name": name,
                     "bioguide_id": bio,
                     "vote_cast": cast,
-                    "retrieved_at": RETRIEVED,
+                    "retrieved_at": retrieved_at,
                 }
             )
     return rows
@@ -318,7 +324,7 @@ def write_state(state: str, house_rows: list[dict], senate_rows: list[dict], hou
             + (("Vacant " + ", ".join(exp["vacant"]) + " skipped. ") if exp["vacant"] else "")
             + "vote_cast is the exact official text. Votes are never invented. No Ballotpedia. No scores."
         ),
-        "retrieved_at": RETRIEVED,
+        "retrieved_at": RETRIEVED_BY_STATE[state],
         "state": state,
         "count": len(rows),
         "counts_by_member": dict(sorted(counts.items())),
@@ -345,7 +351,7 @@ def write_state(state: str, house_rows: list[dict], senate_rows: list[dict], hou
     (dest_dir / "votes.json").write_text(json.dumps(votes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     delegation = {
         "state": state,
-        "retrieved_at": RETRIEVED,
+        "retrieved_at": RETRIEVED_BY_STATE[state],
         "source_url": MEMBERDATA_URL,
         "house": [
             {
@@ -376,7 +382,7 @@ def write_state(state: str, house_rows: list[dict], senate_rows: list[dict], hou
                 "state": state,
                 "kind": "legislature_vote_index",
                 "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
-                "retrieved_at": RETRIEVED,
+                "retrieved_at": RETRIEVED_BY_STATE[state],
                 "sources": LEG_INDEX[state],
             },
             ensure_ascii=False,
@@ -406,14 +412,18 @@ def write_state(state: str, house_rows: list[dict], senate_rows: list[dict], hou
     sources = stub.setdefault("sources", [])
     have = {s.get("url") for s in sources if isinstance(s, dict)}
     extra = [
-        {"url": "https://clerk.house.gov/evs/2026/index.asp", "retrieved_at": RETRIEVED},
-        {"url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml", "retrieved_at": RETRIEVED},
-        {"url": MEMBERDATA_URL, "retrieved_at": RETRIEVED, "note": "Clerk MemberData sitting House members"},
-        {"url": SENATORS_URL, "retrieved_at": RETRIEVED, "note": "Senate.gov sitting senators"},
+        {"url": "https://clerk.house.gov/evs/2026/index.asp", "retrieved_at": RETRIEVED_BY_STATE[state]},
+        {"url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml", "retrieved_at": RETRIEVED_BY_STATE[state]},
+        {"url": MEMBERDATA_URL, "retrieved_at": RETRIEVED_BY_STATE[state], "note": "Clerk MemberData sitting House members"},
+        {"url": SENATORS_URL, "retrieved_at": RETRIEVED_BY_STATE[state], "note": "Senate.gov sitting senators"},
     ]
     for src in extra:
         if src["url"] not in have:
             sources.append(src)
+        else:
+            for existing in sources:
+                if existing.get("url") == src["url"]:
+                    existing["retrieved_at"] = RETRIEVED_BY_STATE[state]
     stub_path.write_text(json.dumps(stub, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{state} votes={len(rows)} house={len(house_rows)} senate={len(senate_rows)} vacant={vacant}", flush=True)
 
@@ -426,8 +436,8 @@ def main() -> int:
     download_rolls()
     for state in states:
         sitting, vacant = house_all[state]
-        house_rows = parse_house(state, sitting)
-        senate_rows = parse_senate(state, senate_all[state])
+        house_rows = parse_house(state, sitting, RETRIEVED_BY_STATE[state])
+        senate_rows = parse_senate(state, senate_all[state], RETRIEVED_BY_STATE[state])
         write_state(state, house_rows, senate_rows, sitting, senate_all[state], vacant)
     return 0
 

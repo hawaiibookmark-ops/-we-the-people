@@ -3,7 +3,7 @@
     "jurisdiction": "Texas",
     "state_code": "TX",
     "general_date": "2026-11-03",
-    "note": "Official Texas SOS 2026 general ballot certification PDF, TEC itemized 2025–2026 contributions, Clerk/LIS federal votes, and federal FEC Schedule A $200+. Donor lists are not sold."
+    "note": "Official Texas SOS 2026 general ballot certification PDF (certified 2026-08-28), TEC itemized 2025–2026 contributions, Clerk/LIS federal votes, and federal FEC Schedule A $200+. Donor lists are not sold."
   },
   "votes_path": "/data/tx/votes.json",
   "congress_delegation_path": "/data/tx/congress-delegation.json",
@@ -13,20 +13,20 @@
   "sources": [
     {
       "url": "https://clerk.house.gov/evs/2026/index.asp",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
-      "retrieved_at": "2026-09-02T14:32:00Z"
+      "retrieved_at": "2026-09-02T12:53:50Z"
     },
     {
       "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
-      "retrieved_at": "2026-09-02T14:32:00Z",
+      "retrieved_at": "2026-09-02T12:53:50Z",
       "note": "Clerk MemberData sitting House members"
     },
     {
       "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
-      "retrieved_at": "2026-09-02T14:32:00Z",
+      "retrieved_at": "2026-09-02T12:53:50Z",
       "note": "Senate.gov sitting senators"
     },
     {
@@ -46,12 +46,12 @@
     },
     {
       "url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf",
-      "retrieved_at": "2026-09-02T14:42:00Z",
+      "retrieved_at": "2026-09-02T12:56:00Z",
       "note": "Texas SOS 2026 Ballot Certification PDF"
     },
     {
       "url": "https://www.sos.state.tx.us/elections/laws/2026-november-general-election.shtml",
-      "retrieved_at": "2026-09-02T14:42:00Z",
+      "retrieved_at": "2026-09-02T12:56:00Z",
       "note": "Texas SOS 2026 November general election information"
     },
     {
