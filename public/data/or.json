@@ -3,14 +3,26 @@
     "jurisdiction": "Oregon",
     "state_code": "OR",
     "general_date": null,
-    "note": "Official ORESTAR 2026 primary/general candidate filings and Clerk/LIS federal votes. Oregon has no free statewide donor bulk dump; donor names are not invented. Donor lists are not sold."
+    "note": "Official ORESTAR 2026 primary/general candidate filings, Clerk/LIS federal votes, and federal FEC Schedule A $200+ donors. State ORESTAR donor bulk is still blocked (no free statewide Schedule A dump). Donor lists are not sold."
   },
   "state_filings": {
     "wired": true,
     "orestar_public": "https://secure.sos.state.or.us/orestar/CFSearchPage.do",
     "donors": {
-      "status": "pending",
-      "reason": "Oregon has no free statewide ORESTAR/Schedule A bulk dump for this populate. Donor names are not invented.",
+      "status": "partial",
+      "path": "/data/or/fec-donors.json",
+      "scope": "Federal FEC Schedule A $200+ only (indiv26 + cn26 CAND_PCC). State ORESTAR Schedule A remains blocked; no free statewide bulk.",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "counts": {
+        "candidates": 40,
+        "with_receipts": 25,
+        "honest_empty": 15,
+        "kept_rows": 7522,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
       "do_not_sell_donor_lists": true
     }
   },
@@ -46,6 +58,21 @@
       "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
       "retrieved_at": "2026-09-02T11:24:04Z",
       "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "note": "FEC bulk Schedule A $200+ (OR federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T12:14:47Z",
+      "note": "FEC candidate-committee linkage"
     }
   ],
   "votes_path": "/data/or/votes.json",
