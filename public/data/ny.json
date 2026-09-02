@@ -1,0 +1,98 @@
+{
+  "election": {
+    "jurisdiction": "New York",
+    "state_code": "NY",
+    "general_date": "2026-11-03",
+    "note": "Official NYSBOE Schedule A–D donors (Open NY e9ss-239a, election_year=2026), Clerk/LIS federal votes, and federal FEC Schedule A $200+. Who Filed AJAX candidate list is still blocked; candidates_path is not claimed. Donor lists are not sold."
+  },
+  "votes_path": "/data/ny/votes.json",
+  "congress_delegation_path": "/data/ny/congress-delegation.json",
+  "legislature_vote_index_path": "/data/ny/legislature-vote-index.json",
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T14:32:00Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z",
+      "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC bulk Schedule A $200+ (NY federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC candidate-committee linkage"
+    },
+    {
+      "url": "https://data.ny.gov/resource/e9ss-239a.json",
+      "retrieved_at": "2026-09-02T14:45:00Z",
+      "note": "Open NY SODA e9ss-239a NYSBOE disclosure (2026 A-D)"
+    },
+    {
+      "url": "https://data.ny.gov/Government-Finance/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a",
+      "retrieved_at": "2026-09-02T14:45:00Z",
+      "note": "Open NY Campaign Finance Disclosure Reports dataset"
+    },
+    {
+      "url": "https://publicreporting.elections.ny.gov/",
+      "retrieved_at": "2026-09-02T14:45:00Z",
+      "note": "NYSBOE public reporting"
+    }
+  ],
+  "state_filings": {
+    "wired": true,
+    "donors": {
+      "status": "sourced",
+      "path": "/data/ny/nysboe-donors.json",
+      "source_url": "https://data.ny.gov/resource/e9ss-239a.json",
+      "retrieved_at": "2026-09-02T14:45:00Z",
+      "counts": {
+        "rows": 682712,
+        "filers": 2783,
+        "items_per_filer_cap": 25,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "federal_fec": {
+      "status": "partial",
+      "path": "/data/ny/fec-donors.json",
+      "scope": "New York 2026 House/Senate federal FEC Schedule A $200+ only. State NYSBOE filings are a separate extract when present.",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "counts": {
+        "candidates": 202,
+        "with_receipts": 116,
+        "honest_empty": 86,
+        "kept_rows": 68908,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "nysboe_soda": "https://data.ny.gov/resource/e9ss-239a.json",
+    "nysboe_landing": "https://data.ny.gov/Government-Finance/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a"
+  }
+}

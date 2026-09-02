@@ -1,0 +1,20 @@
+{
+  "state": "MI",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T14:32:00Z",
+  "sources": [
+    {
+      "label": "Michigan Legislature (official)",
+      "url": "https://www.legislature.mi.gov/"
+    },
+    {
+      "label": "Michigan House of Representatives",
+      "url": "https://house.mi.gov/"
+    },
+    {
+      "label": "Michigan Senate",
+      "url": "https://senate.michigan.gov/"
+    }
+  ]
+}

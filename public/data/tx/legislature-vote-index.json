@@ -1,0 +1,20 @@
+{
+  "state": "TX",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T14:32:00Z",
+  "sources": [
+    {
+      "label": "Texas Legislature Online (official)",
+      "url": "https://capitol.texas.gov/"
+    },
+    {
+      "label": "Texas House of Representatives",
+      "url": "https://house.texas.gov/"
+    },
+    {
+      "label": "Texas Senate",
+      "url": "https://senate.texas.gov/"
+    }
+  ]
+}

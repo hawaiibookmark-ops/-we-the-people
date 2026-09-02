@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Sanity-check gold-template ZIPs and committed donor extracts."""
 import json
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / "public" / "data"
@@ -794,9 +795,7 @@ if mi_path.exists() and mi_stub.exists():
     if mi_json.get("election", {}).get("state_code") != "MI" or mi_json.get("election", {}).get("jurisdiction") != "Michigan":
         errors.append("mi.json election must be Michigan / MI")
     if mi_json.get("nominees") != {} or mi_json.get("geo_by_zip") != {}:
-        errors.append("mi.json nominees/geo must stay empty until ballots land")
-    if mi_json.get("candidates_path") or mi_json.get("votes_path"):
-        errors.append("mi.json must not claim ballots/votes before those packages land")
+        errors.append("mi.json nominees/geo must stay empty (use candidates_path)")
     benson = (mi.get("by_candidate") or {}).get("JOCELYN BENSON FOR GOVERNOR") or {}
     if not benson or benson.get("status") != "unmatched_no_roster" or benson.get("matched_to_site") is not False:
         errors.append("JOCELYN BENSON FOR GOVERNOR MiTN filer missing or incorrectly matched")
@@ -846,6 +845,15 @@ else:
         errors.append("il.json must say do_not_sell_donor_lists")
     if fec_block.get("path") != "/data/il/fec-donors.json" or fec_block.get("status") != "partial":
         errors.append("il.json federal_fec must stay partial at /data/il/fec-donors.json")
+    fec_counts = fec_block.get("counts") or {}
+    if fec_counts.get("candidates") != 189 or fec_counts.get("kept_rows") != 48312:
+        errors.append(f"il.json federal_fec counts {fec_counts} != 189 / 48312")
+    if il_json.get("candidates_path") != "/data/il/candidates.json":
+        errors.append("il.json candidates_path missing")
+    if il_json.get("votes_path") != "/data/il/votes.json":
+        errors.append("il.json votes_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(il_json)):
+        errors.append("il.json must not use Ballotpedia")
     if il.get("source_url") != "https://downloads.elections.il.gov/Receipts.txt":
         errors.append("sbe-donors.json source_url must be official downloads.elections.il.gov/Receipts.txt")
     if "DownloadCDDataFiles" not in (il.get("landing_url") or ""):
@@ -886,6 +894,222 @@ else:
         else:
             continue
         break
+
+il_cands_path = ROOT / "il" / "candidates.json"
+if not il_cands_path.exists():
+    errors.append("missing public/data/il/candidates.json")
+else:
+    il_cands = json.loads(il_cands_path.read_text())
+    if not isinstance(il_cands, list) or len(il_cands) != 528:
+        errors.append(f"IL candidates.json rows {len(il_cands) if isinstance(il_cands, list) else type(il_cands)} != 528")
+    else:
+        if {r.get("list_kind") for r in il_cands} != {"rss_filed_partial"}:
+            errors.append("IL list_kind must be rss_filed_partial")
+        if any(r.get("certified") is not False for r in il_cands):
+            errors.append("IL candidates must be labeled not certified")
+        if any(not str(r.get("contest_key") or "").startswith("IL|") or str(r.get("contest_key") or "").count("|") != 3 for r in il_cands):
+            errors.append("IL contest_key must be IL|OFFICE|DIST|")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in il_cands):
+            errors.append("IL candidates must not use Ballotpedia")
+        if any("elections.il.gov/RSS/LatestCandidatesFiled" not in (r.get("source_url") or "") for r in il_cands):
+            errors.append("IL candidates source_url must be official SBE RSS")
+        if not any(r.get("candidate_name") == "Jared Ploger" for r in il_cands):
+            errors.append("IL RSS missing filed name Jared Ploger")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in il_cands):
+            errors.append("IL candidates must omit streets/email/phone")
+il_fec_path = ROOT / "il" / "fec-donors.json"
+if not il_fec_path.exists():
+    errors.append("missing public/data/il/fec-donors.json")
+else:
+    ilfec = json.loads(il_fec_path.read_text())
+    if ilfec.get("row_count") != 48312 or ilfec.get("candidate_count") != 189:
+        errors.append(f"IL FEC {ilfec.get('row_count')}/{ilfec.get('candidate_count')} != 48312/189")
+    if not ilfec.get("do_not_sell_donor_lists") or not ilfec.get("streets_omitted"):
+        errors.append("IL FEC extract must omit streets and say do_not_sell_donor_lists")
+    if any("ballotpedia" in u.lower() or "open.fec.gov" in u.lower() for u in _urls(ilfec)):
+        errors.append("IL FEC extract must not use Ballotpedia or OpenFEC")
+_check_votes(ROOT / "il" / "votes.json", "IL", 740, {"D000622", "D000563"})
+if (ROOT / "il" / "legislature-vote-index.json").exists():
+    il_idx = json.loads((ROOT / "il" / "legislature-vote-index.json").read_text())
+    if il_idx.get("kind") != "legislature_vote_index":
+        errors.append("IL legislature-vote-index must be URL index only")
+    if not any("ilga.gov" in (s.get("url") or "") for s in il_idx.get("sources") or []):
+        errors.append("IL legislature index must cite official ilga.gov")
+    if any("ballotpedia" in (s.get("url") or "").lower() for s in il_idx.get("sources") or []):
+        errors.append("IL legislature index must not use Ballotpedia")
+
+# Florida DOS extracts + Clerk/LIS + federal FEC (state donors blocked)
+fl_stub_path = ROOT / "fl.json"
+fl_cands_path = ROOT / "fl" / "candidates.json"
+fl_votes_path = ROOT / "fl" / "votes.json"
+fl_fec_path = ROOT / "fl" / "fec-donors.json"
+if not fl_stub_path.exists():
+    errors.append("missing public/data/fl.json")
+else:
+    flj = json.loads(fl_stub_path.read_text())
+    donors_block = ((flj.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") != "partial" or donors_block.get("path") != "/data/fl/fec-donors.json":
+        errors.append("fl.json donors must be federal FEC partial (state bulk blocked)")
+    if not donors_block.get("do_not_sell_donor_lists"):
+        errors.append("fl.json donors must say do_not_sell_donor_lists")
+    scope = (donors_block.get("scope") or "").lower()
+    if "fec" not in scope or "form-limited" not in scope:
+        errors.append("fl.json donors.scope must say federal FEC and state form-limited")
+    if flj.get("candidates_path") != "/data/fl/candidates.json" or flj.get("votes_path") != "/data/fl/votes.json":
+        errors.append("fl.json candidates_path/votes_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(flj)):
+        errors.append("fl.json must not use Ballotpedia")
+    if flj.get("election", {}).get("state_code") != "FL":
+        errors.append("fl.json election must be Florida / FL")
+if not fl_cands_path.exists():
+    errors.append("missing public/data/fl/candidates.json")
+else:
+    fl_cands = json.loads(fl_cands_path.read_text())
+    if not isinstance(fl_cands, list) or len(fl_cands) != 3801:
+        errors.append(f"FL candidates.json rows {len(fl_cands) if isinstance(fl_cands, list) else type(fl_cands)} != 3801")
+    else:
+        kinds = Counter(r.get("list_kind") for r in fl_cands)
+        if kinds.get("state_extract") != 1145 or kinds.get("local_extract") != 2656:
+            errors.append(f"FL list_kind split {dict(kinds)} != 1145/2656")
+        if any(not str(r.get("contest_key") or "").startswith("FL|") or str(r.get("contest_key") or "").count("|") != 3 for r in fl_cands):
+            errors.append("FL contest_key must be FL|OFFICE|DIST|")
+        if not any(r.get("candidate_name") == "Byron Donalds" and r.get("office") == "Governor" for r in fl_cands):
+            errors.append("FL list missing filed name Byron Donalds")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone", "voterid"}
+        if any(street_keys & {k.lower() for k in r} for r in fl_cands):
+            errors.append("FL candidates must omit streets/email/phone")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in fl_cands):
+            errors.append("FL candidates must not use Ballotpedia")
+if fl_fec_path.exists():
+    flfec = json.loads(fl_fec_path.read_text())
+    if flfec.get("row_count") != 55918 or flfec.get("candidate_count") != 339:
+        errors.append(f"FL FEC {flfec.get('row_count')}/{flfec.get('candidate_count')} != 55918/339")
+_check_votes(fl_votes_path, "FL", 1140, {"S001217", "M001244", "W000797"})
+if (ROOT / "fl" / "congress-delegation.json").exists():
+    fl_del = json.loads((ROOT / "fl" / "congress-delegation.json").read_text())
+    if not any(v.get("district") == "FL-20" for v in fl_del.get("vacant") or []):
+        errors.append("FL congress-delegation must flag vacant FL-20")
+if any((v.get("district") or "") == "FL-20" for v in (json.loads(fl_votes_path.read_text()).get("votes") or []) if fl_votes_path.exists()):
+    errors.append("FL-20 vacant seat must be skipped")
+
+# Michigan MiTN + BOE listings + votes + FEC
+mi_path = ROOT / "mi" / "mitn-donors.json"
+mi_stub = ROOT / "mi.json"
+if not mi_path.exists() or not mi_stub.exists():
+    errors.append("MI extract missing public/data/mi/mitn-donors.json or public/data/mi.json")
+else:
+    mi = json.loads(mi_path.read_text())
+    mi_json = json.loads(mi_stub.read_text())
+    donors_block = ((mi_json.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") != "sourced" or donors_block.get("path") != "/data/mi/mitn-donors.json":
+        errors.append("mi.json donors must stay sourced at /data/mi/mitn-donors.json")
+    if donors_block.get("counts", {}).get("rows") != 964108:
+        errors.append(f"mi.json donor counts {donors_block.get('counts')}")
+    if mi.get("row_count") != 964108:
+        errors.append(f"MI row_count {mi.get('row_count')} != 964108")
+    if mi_json.get("candidates_path") != "/data/mi/candidates.json" or mi_json.get("votes_path") != "/data/mi/votes.json":
+        errors.append("mi.json candidates_path/votes_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(mi_json)):
+        errors.append("mi.json must not use Ballotpedia")
+mi_cands_path = ROOT / "mi" / "candidates.json"
+if not mi_cands_path.exists():
+    errors.append("missing public/data/mi/candidates.json")
+else:
+    mi_cands = json.loads(mi_cands_path.read_text())
+    if not isinstance(mi_cands, list) or len(mi_cands) != 1326:
+        errors.append(f"MI candidates.json rows {len(mi_cands) if isinstance(mi_cands, list) else type(mi_cands)} != 1326")
+    else:
+        pri = [r for r in mi_cands if r.get("list_kind") == "primary_official_listing"]
+        gen = [r for r in mi_cands if r.get("list_kind") == "general_unofficial_listing"]
+        if len(pri) != 611 or len(gen) != 715:
+            errors.append(f"MI pri/gen split {len(pri)}/{len(gen)} != 611/715")
+        if not any("Benson" in (r.get("candidate_name") or "") for r in mi_cands):
+            errors.append("MI list missing filed name Benson")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in mi_cands):
+            errors.append("MI candidates must not use Ballotpedia")
+if (ROOT / "mi" / "candidate-summary.json").exists():
+    mi_sum = json.loads((ROOT / "mi" / "candidate-summary.json").read_text())
+    if mi_sum.get("complete") is not False or mi_sum.get("general_unofficial_listing_rows") != 715:
+        errors.append("MI candidate-summary must label general 715/720 complete=false")
+_check_votes(ROOT / "mi" / "votes.json", "MI", 580, {"P000595", "S001208"})
+if (ROOT / "mi" / "fec-donors.json").exists():
+    mifec = json.loads((ROOT / "mi" / "fec-donors.json").read_text())
+    if mifec.get("row_count") != 54868 or mifec.get("candidate_count") != 127:
+        errors.append(f"MI FEC {mifec.get('row_count')}/{mifec.get('candidate_count')} != 54868/127")
+
+# New York: votes + FEC + NYSBOE; no candidates (Who Filed blocked)
+ny_stub_path = ROOT / "ny.json"
+if not ny_stub_path.exists():
+    errors.append("missing public/data/ny.json")
+else:
+    nyj = json.loads(ny_stub_path.read_text())
+    if nyj.get("candidates_path"):
+        errors.append("ny.json must not claim candidates while Who Filed is blocked")
+    if nyj.get("votes_path") != "/data/ny/votes.json":
+        errors.append("ny.json votes_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(nyj)):
+        errors.append("ny.json must not use Ballotpedia")
+_check_votes(ROOT / "ny" / "votes.json", "NY", 1100, {"S000148", "G000555"})
+if (ROOT / "ny" / "fec-donors.json").exists():
+    nyfec = json.loads((ROOT / "ny" / "fec-donors.json").read_text())
+    if nyfec.get("row_count") != 68908 or nyfec.get("candidate_count") != 202:
+        errors.append(f"NY FEC {nyfec.get('row_count')}/{nyfec.get('candidate_count')} != 68908/202")
+if not (ROOT / "ny" / "nysboe-donors.json").exists():
+    errors.append("missing public/data/ny/nysboe-donors.json")
+else:
+    nyd = json.loads((ROOT / "ny" / "nysboe-donors.json").read_text())
+    if (nyd.get("row_count") or 0) < 680000:
+        errors.append(f"NY NYSBOE row_count {nyd.get('row_count')} too low")
+    if not nyd.get("do_not_sell_donor_lists") or not nyd.get("streets_omitted"):
+        errors.append("NY NYSBOE extract must omit streets and say do_not_sell_donor_lists")
+    if "e9ss-239a" not in (nyd.get("source_url") or ""):
+        errors.append("nysboe-donors.json source_url must be official Open NY e9ss-239a")
+    nyj = json.loads((ROOT / "ny.json").read_text())
+    if ((nyj.get("state_filings") or {}).get("donors") or {}).get("path") != "/data/ny/nysboe-donors.json":
+        errors.append("ny.json donors.path must be /data/ny/nysboe-donors.json")
+    if ((nyj.get("state_filings") or {}).get("federal_fec") or {}).get("path") != "/data/ny/fec-donors.json":
+        errors.append("ny.json federal_fec.path must stay /data/ny/fec-donors.json")
+
+# Texas SOS cert + TEC + votes + FEC
+tx_stub_path = ROOT / "tx.json"
+tx_cands_path = ROOT / "tx" / "candidates.json"
+if not tx_stub_path.exists():
+    errors.append("missing public/data/tx.json")
+else:
+    txj = json.loads(tx_stub_path.read_text())
+    if txj.get("candidates_path") != "/data/tx/candidates.json" or txj.get("votes_path") != "/data/tx/votes.json":
+        errors.append("tx.json candidates_path/votes_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(txj)):
+        errors.append("tx.json must not use Ballotpedia")
+if not tx_cands_path.exists():
+    errors.append("missing public/data/tx/candidates.json")
+else:
+    tx_cands = json.loads(tx_cands_path.read_text())
+    if not isinstance(tx_cands, list) or not (3800 <= len(tx_cands) <= 3840):
+        errors.append(f"TX candidates.json rows {len(tx_cands) if isinstance(tx_cands, list) else type(tx_cands)} not ~3823")
+    else:
+        if {r.get("list_kind") for r in tx_cands} != {"general_certified_pdf"}:
+            errors.append("TX list_kind must be general_certified_pdf")
+        if not any(r.get("candidate_name") == "GREG ABBOTT" for r in tx_cands):
+            errors.append("TX cert missing filed name GREG ABBOTT")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in tx_cands):
+            errors.append("TX candidates must not use Ballotpedia")
+_check_votes(ROOT / "tx" / "votes.json", "TX", 1540, {"C001056", "C001098"})
+if (ROOT / "tx" / "congress-delegation.json").exists():
+    tx_del = json.loads((ROOT / "tx" / "congress-delegation.json").read_text())
+    if not any(v.get("district") == "TX-23" for v in tx_del.get("vacant") or []):
+        errors.append("TX congress-delegation must flag vacant TX-23")
+if (ROOT / "tx" / "fec-donors.json").exists():
+    txfec = json.loads((ROOT / "tx" / "fec-donors.json").read_text())
+    if txfec.get("row_count") != 83868 or txfec.get("candidate_count") != 389:
+        errors.append(f"TX FEC {txfec.get('row_count')}/{txfec.get('candidate_count')} != 83868/389")
+if (ROOT / "tx" / "tec-donors.json").exists():
+    tec = json.loads((ROOT / "tx" / "tec-donors.json").read_text())
+    if (tec.get("row_count") or 0) < 3_000_000:
+        errors.append(f"TX TEC row_count {tec.get('row_count')} too low")
+    if not tec.get("do_not_sell_donor_lists") or not tec.get("streets_omitted"):
+        errors.append("TX TEC extract must omit streets and say do_not_sell_donor_lists")
 
 if errors:
     print("FAIL")
@@ -952,4 +1176,45 @@ if (ROOT / "il" / "sbe-donors.json").exists():
         json.loads((ROOT / "il" / "sbe-donors.json").read_text()).get("row_count"),
         "filers",
         json.loads((ROOT / "il" / "sbe-donors.json").read_text()).get("filer_count"),
+    )
+if (ROOT / "il" / "candidates.json").exists():
+    print(
+        "OK IL ballots",
+        len(json.loads((ROOT / "il" / "candidates.json").read_text())),
+        "IL votes",
+        json.loads((ROOT / "il" / "votes.json").read_text()).get("count"),
+        "IL FEC",
+        json.loads((ROOT / "il" / "fec-donors.json").read_text()).get("row_count"),
+    )
+if (ROOT / "fl" / "candidates.json").exists():
+    print(
+        "OK FL ballots",
+        len(json.loads((ROOT / "fl" / "candidates.json").read_text())),
+        "FL votes",
+        json.loads((ROOT / "fl" / "votes.json").read_text()).get("count"),
+        "FL FEC",
+        json.loads((ROOT / "fl" / "fec-donors.json").read_text()).get("candidate_count"),
+    )
+if (ROOT / "mi" / "candidates.json").exists():
+    print(
+        "OK MI ballots",
+        len(json.loads((ROOT / "mi" / "candidates.json").read_text())),
+        "MI votes",
+        json.loads((ROOT / "mi" / "votes.json").read_text()).get("count"),
+    )
+if (ROOT / "ny" / "votes.json").exists():
+    print(
+        "OK NY votes",
+        json.loads((ROOT / "ny" / "votes.json").read_text()).get("count"),
+        "NY FEC",
+        json.loads((ROOT / "ny" / "fec-donors.json").read_text()).get("row_count"),
+    )
+if (ROOT / "tx" / "candidates.json").exists():
+    print(
+        "OK TX ballots",
+        len(json.loads((ROOT / "tx" / "candidates.json").read_text())),
+        "TX votes",
+        json.loads((ROOT / "tx" / "votes.json").read_text()).get("count"),
+        "TX TEC",
+        json.loads((ROOT / "tx" / "tec-donors.json").read_text()).get("row_count"),
     )

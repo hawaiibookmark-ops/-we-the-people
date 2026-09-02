@@ -1,0 +1,20 @@
+{
+  "state": "IL",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T14:32:00Z",
+  "sources": [
+    {
+      "label": "Illinois General Assembly (official)",
+      "url": "https://www.ilga.gov/"
+    },
+    {
+      "label": "Illinois House of Representatives",
+      "url": "https://www.ilga.gov/house/"
+    },
+    {
+      "label": "Illinois Senate",
+      "url": "https://www.ilga.gov/senate/"
+    }
+  ]
+}

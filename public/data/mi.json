@@ -1,0 +1,108 @@
+{
+  "election": {
+    "jurisdiction": "Michigan",
+    "state_code": "MI",
+    "general_date": "2026-11-03",
+    "note": "Official MiTN Schedule A donors, Michigan BOE 2026 primary/general candidate listings (general 715/720 so complete=false), Clerk/LIS federal votes, and federal FEC Schedule A $200+. Donor lists are not sold."
+  },
+  "state_filings": {
+    "wired": true,
+    "mitn": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=gov.mi.boe.component.cfrexport.page.cfrexportfile&id=21077",
+    "mitn_landing": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=gov.mi.boe.component.cfrexport.page.cfrexportdownload",
+    "sos_cfr": "https://www.michigan.gov/sos/elections/disclosure/cfr",
+    "donors": {
+      "status": "sourced",
+      "path": "/data/mi/mitn-donors.json",
+      "source_url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=gov.mi.boe.component.cfrexport.page.cfrexportfile&id=21077",
+      "retrieved_at": "2026-09-02T13:00:04Z",
+      "counts": {
+        "rows": 964108,
+        "filers": 1378,
+        "items_per_filer_cap": 25,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "federal_fec": {
+      "status": "partial",
+      "path": "/data/mi/fec-donors.json",
+      "scope": "Michigan 2026 House/Senate federal FEC Schedule A $200+ only. State MiTN Schedule A is a separate sourced extract.",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "counts": {
+        "candidates": 127,
+        "with_receipts": 71,
+        "honest_empty": 56,
+        "kept_rows": 54868,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    }
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=gov.mi.boe.component.cfrexport.page.cfrexportfile&id=21077",
+      "retrieved_at": "2026-09-02T13:00:04Z"
+    },
+    {
+      "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=gov.mi.boe.component.cfrexport.page.cfrexportdownload",
+      "retrieved_at": "2026-09-02T13:00:04Z"
+    },
+    {
+      "url": "https://www.michigan.gov/sos/elections/disclosure/cfr",
+      "retrieved_at": "2026-09-02T13:00:04Z"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T14:32:00Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T14:32:00Z",
+      "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC bulk Schedule A $200+ (MI federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T14:30:00Z",
+      "note": "FEC candidate-committee linkage"
+    },
+    {
+      "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboePublicReport&electionType=PRI&electionYear=2026",
+      "retrieved_at": "2026-09-02T14:40:00Z",
+      "note": "MI BOE 2026 primary official candidate listing"
+    },
+    {
+      "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboePublicReport&electionType=GEN&electionYear=2026",
+      "retrieved_at": "2026-09-02T14:40:00Z",
+      "note": "MI BOE 2026 general unofficial candidate listing (715/720, complete=false)"
+    }
+  ],
+  "votes_path": "/data/mi/votes.json",
+  "congress_delegation_path": "/data/mi/congress-delegation.json",
+  "legislature_vote_index_path": "/data/mi/legislature-vote-index.json",
+  "candidates_path": "/data/mi/candidates.json",
+  "candidate_summary_path": "/data/mi/candidate-summary.json"
+}

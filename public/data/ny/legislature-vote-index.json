@@ -1,0 +1,16 @@
+{
+  "state": "NY",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T14:32:00Z",
+  "sources": [
+    {
+      "label": "New York State Senate (official)",
+      "url": "https://www.nysenate.gov/"
+    },
+    {
+      "label": "New York State Assembly (official)",
+      "url": "https://nyassembly.gov/"
+    }
+  ]
+}

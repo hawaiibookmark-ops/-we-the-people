@@ -1,0 +1,249 @@
+{
+  "state": "TX",
+  "retrieved_at": "2026-09-02T14:32:00Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "M001224",
+      "name": "Nathaniel Moran",
+      "district": "TX-01",
+      "votes_url": "https://clerk.house.gov/Members/M001224"
+    },
+    {
+      "bioguide": "C001120",
+      "name": "Dan Crenshaw",
+      "district": "TX-02",
+      "votes_url": "https://clerk.house.gov/Members/C001120"
+    },
+    {
+      "bioguide": "S001224",
+      "name": "Keith Self",
+      "district": "TX-03",
+      "votes_url": "https://clerk.house.gov/Members/S001224"
+    },
+    {
+      "bioguide": "F000246",
+      "name": "Pat Fallon",
+      "district": "TX-04",
+      "votes_url": "https://clerk.house.gov/Members/F000246"
+    },
+    {
+      "bioguide": "G000589",
+      "name": "Lance Gooden",
+      "district": "TX-05",
+      "votes_url": "https://clerk.house.gov/Members/G000589"
+    },
+    {
+      "bioguide": "E000071",
+      "name": "Jake Ellzey",
+      "district": "TX-06",
+      "votes_url": "https://clerk.house.gov/Members/E000071"
+    },
+    {
+      "bioguide": "F000468",
+      "name": "Lizzie Fletcher",
+      "district": "TX-07",
+      "votes_url": "https://clerk.house.gov/Members/F000468"
+    },
+    {
+      "bioguide": "L000603",
+      "name": "Morgan Luttrell",
+      "district": "TX-08",
+      "votes_url": "https://clerk.house.gov/Members/L000603"
+    },
+    {
+      "bioguide": "G000553",
+      "name": "Al Green",
+      "district": "TX-09",
+      "votes_url": "https://clerk.house.gov/Members/G000553"
+    },
+    {
+      "bioguide": "M001157",
+      "name": "Michael T. McCaul",
+      "district": "TX-10",
+      "votes_url": "https://clerk.house.gov/Members/M001157"
+    },
+    {
+      "bioguide": "P000048",
+      "name": "August Pfluger",
+      "district": "TX-11",
+      "votes_url": "https://clerk.house.gov/Members/P000048"
+    },
+    {
+      "bioguide": "G000601",
+      "name": "Craig A. Goldman",
+      "district": "TX-12",
+      "votes_url": "https://clerk.house.gov/Members/G000601"
+    },
+    {
+      "bioguide": "J000304",
+      "name": "Ronny Jackson",
+      "district": "TX-13",
+      "votes_url": "https://clerk.house.gov/Members/J000304"
+    },
+    {
+      "bioguide": "W000814",
+      "name": "Randy K. Weber, Sr.",
+      "district": "TX-14",
+      "votes_url": "https://clerk.house.gov/Members/W000814"
+    },
+    {
+      "bioguide": "D000594",
+      "name": "Monica De La Cruz",
+      "district": "TX-15",
+      "votes_url": "https://clerk.house.gov/Members/D000594"
+    },
+    {
+      "bioguide": "E000299",
+      "name": "Veronica Escobar",
+      "district": "TX-16",
+      "votes_url": "https://clerk.house.gov/Members/E000299"
+    },
+    {
+      "bioguide": "S000250",
+      "name": "Pete Sessions",
+      "district": "TX-17",
+      "votes_url": "https://clerk.house.gov/Members/S000250"
+    },
+    {
+      "bioguide": "M001245",
+      "name": "Christian D. Menefee",
+      "district": "TX-18",
+      "votes_url": "https://clerk.house.gov/Members/M001245"
+    },
+    {
+      "bioguide": "A000375",
+      "name": "Jodey C. Arrington",
+      "district": "TX-19",
+      "votes_url": "https://clerk.house.gov/Members/A000375"
+    },
+    {
+      "bioguide": "C001091",
+      "name": "Joaquin Castro",
+      "district": "TX-20",
+      "votes_url": "https://clerk.house.gov/Members/C001091"
+    },
+    {
+      "bioguide": "R000614",
+      "name": "Chip Roy",
+      "district": "TX-21",
+      "votes_url": "https://clerk.house.gov/Members/R000614"
+    },
+    {
+      "bioguide": "N000026",
+      "name": "Troy E. Nehls",
+      "district": "TX-22",
+      "votes_url": "https://clerk.house.gov/Members/N000026"
+    },
+    {
+      "bioguide": "V000134",
+      "name": "Beth Van Duyne",
+      "district": "TX-24",
+      "votes_url": "https://clerk.house.gov/Members/V000134"
+    },
+    {
+      "bioguide": "W000816",
+      "name": "Roger Williams",
+      "district": "TX-25",
+      "votes_url": "https://clerk.house.gov/Members/W000816"
+    },
+    {
+      "bioguide": "G000603",
+      "name": "Brandon Gill",
+      "district": "TX-26",
+      "votes_url": "https://clerk.house.gov/Members/G000603"
+    },
+    {
+      "bioguide": "C001115",
+      "name": "Michael Cloud",
+      "district": "TX-27",
+      "votes_url": "https://clerk.house.gov/Members/C001115"
+    },
+    {
+      "bioguide": "C001063",
+      "name": "Henry Cuellar",
+      "district": "TX-28",
+      "votes_url": "https://clerk.house.gov/Members/C001063"
+    },
+    {
+      "bioguide": "G000587",
+      "name": "Sylvia R. Garcia",
+      "district": "TX-29",
+      "votes_url": "https://clerk.house.gov/Members/G000587"
+    },
+    {
+      "bioguide": "C001130",
+      "name": "Jasmine Crockett",
+      "district": "TX-30",
+      "votes_url": "https://clerk.house.gov/Members/C001130"
+    },
+    {
+      "bioguide": "C001051",
+      "name": "John R. Carter",
+      "district": "TX-31",
+      "votes_url": "https://clerk.house.gov/Members/C001051"
+    },
+    {
+      "bioguide": "J000310",
+      "name": "Julie Johnson",
+      "district": "TX-32",
+      "votes_url": "https://clerk.house.gov/Members/J000310"
+    },
+    {
+      "bioguide": "V000131",
+      "name": "Marc A. Veasey",
+      "district": "TX-33",
+      "votes_url": "https://clerk.house.gov/Members/V000131"
+    },
+    {
+      "bioguide": "G000581",
+      "name": "Vicente Gonzalez",
+      "district": "TX-34",
+      "votes_url": "https://clerk.house.gov/Members/G000581"
+    },
+    {
+      "bioguide": "C001131",
+      "name": "Greg Casar",
+      "district": "TX-35",
+      "votes_url": "https://clerk.house.gov/Members/C001131"
+    },
+    {
+      "bioguide": "B001291",
+      "name": "Brian Babin",
+      "district": "TX-36",
+      "votes_url": "https://clerk.house.gov/Members/B001291"
+    },
+    {
+      "bioguide": "D000399",
+      "name": "Lloyd Doggett",
+      "district": "TX-37",
+      "votes_url": "https://clerk.house.gov/Members/D000399"
+    },
+    {
+      "bioguide": "H001095",
+      "name": "Wesley Hunt",
+      "district": "TX-38",
+      "votes_url": "https://clerk.house.gov/Members/H001095"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "C001056",
+      "name": "John Cornyn",
+      "last_name": "Cornyn",
+      "votes_url": "https://www.congress.gov/member/C001056"
+    },
+    {
+      "bioguide": "C001098",
+      "name": "Ted Cruz",
+      "last_name": "Cruz",
+      "votes_url": "https://www.congress.gov/member/C001098"
+    }
+  ],
+  "vacant": [
+    {
+      "district": "TX-23",
+      "note": "Vacancy due to the resignation of Tony Gonzales, April 14, 2026."
+    }
+  ]
+}

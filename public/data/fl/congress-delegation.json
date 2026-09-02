@@ -1,0 +1,189 @@
+{
+  "state": "FL",
+  "retrieved_at": "2026-09-02T12:53:50Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "P000622",
+      "name": "Jimmy Patronis",
+      "district": "FL-01",
+      "votes_url": "https://clerk.house.gov/Members/P000622"
+    },
+    {
+      "bioguide": "D000628",
+      "name": "Neal P. Dunn",
+      "district": "FL-02",
+      "votes_url": "https://clerk.house.gov/Members/D000628"
+    },
+    {
+      "bioguide": "C001039",
+      "name": "Kat Cammack",
+      "district": "FL-03",
+      "votes_url": "https://clerk.house.gov/Members/C001039"
+    },
+    {
+      "bioguide": "B001314",
+      "name": "Aaron Bean",
+      "district": "FL-04",
+      "votes_url": "https://clerk.house.gov/Members/B001314"
+    },
+    {
+      "bioguide": "R000609",
+      "name": "John H. Rutherford",
+      "district": "FL-05",
+      "votes_url": "https://clerk.house.gov/Members/R000609"
+    },
+    {
+      "bioguide": "F000484",
+      "name": "Randy Fine",
+      "district": "FL-06",
+      "votes_url": "https://clerk.house.gov/Members/F000484"
+    },
+    {
+      "bioguide": "M001216",
+      "name": "Cory Mills",
+      "district": "FL-07",
+      "votes_url": "https://clerk.house.gov/Members/M001216"
+    },
+    {
+      "bioguide": "H001099",
+      "name": "Mike Haridopolos",
+      "district": "FL-08",
+      "votes_url": "https://clerk.house.gov/Members/H001099"
+    },
+    {
+      "bioguide": "S001200",
+      "name": "Darren Soto",
+      "district": "FL-09",
+      "votes_url": "https://clerk.house.gov/Members/S001200"
+    },
+    {
+      "bioguide": "F000476",
+      "name": "Maxwell Frost",
+      "district": "FL-10",
+      "votes_url": "https://clerk.house.gov/Members/F000476"
+    },
+    {
+      "bioguide": "W000806",
+      "name": "Daniel Webster",
+      "district": "FL-11",
+      "votes_url": "https://clerk.house.gov/Members/W000806"
+    },
+    {
+      "bioguide": "B001257",
+      "name": "Gus M. Bilirakis",
+      "district": "FL-12",
+      "votes_url": "https://clerk.house.gov/Members/B001257"
+    },
+    {
+      "bioguide": "L000596",
+      "name": "Anna Paulina Luna",
+      "district": "FL-13",
+      "votes_url": "https://clerk.house.gov/Members/L000596"
+    },
+    {
+      "bioguide": "C001066",
+      "name": "Kathy Castor",
+      "district": "FL-14",
+      "votes_url": "https://clerk.house.gov/Members/C001066"
+    },
+    {
+      "bioguide": "L000597",
+      "name": "Laurel M. Lee",
+      "district": "FL-15",
+      "votes_url": "https://clerk.house.gov/Members/L000597"
+    },
+    {
+      "bioguide": "B001260",
+      "name": "Vern Buchanan",
+      "district": "FL-16",
+      "votes_url": "https://clerk.house.gov/Members/B001260"
+    },
+    {
+      "bioguide": "S001214",
+      "name": "W. Gregory Steube",
+      "district": "FL-17",
+      "votes_url": "https://clerk.house.gov/Members/S001214"
+    },
+    {
+      "bioguide": "F000472",
+      "name": "Scott Franklin",
+      "district": "FL-18",
+      "votes_url": "https://clerk.house.gov/Members/F000472"
+    },
+    {
+      "bioguide": "D000032",
+      "name": "Byron Donalds",
+      "district": "FL-19",
+      "votes_url": "https://clerk.house.gov/Members/D000032"
+    },
+    {
+      "bioguide": "M001199",
+      "name": "Brian J. Mast",
+      "district": "FL-21",
+      "votes_url": "https://clerk.house.gov/Members/M001199"
+    },
+    {
+      "bioguide": "F000462",
+      "name": "Lois Frankel",
+      "district": "FL-22",
+      "votes_url": "https://clerk.house.gov/Members/F000462"
+    },
+    {
+      "bioguide": "M001217",
+      "name": "Jared Moskowitz",
+      "district": "FL-23",
+      "votes_url": "https://clerk.house.gov/Members/M001217"
+    },
+    {
+      "bioguide": "W000808",
+      "name": "Frederica S. Wilson",
+      "district": "FL-24",
+      "votes_url": "https://clerk.house.gov/Members/W000808"
+    },
+    {
+      "bioguide": "W000797",
+      "name": "Debbie Wasserman Schultz",
+      "district": "FL-25",
+      "votes_url": "https://clerk.house.gov/Members/W000797"
+    },
+    {
+      "bioguide": "D000600",
+      "name": "Mario Diaz-Balart",
+      "district": "FL-26",
+      "votes_url": "https://clerk.house.gov/Members/D000600"
+    },
+    {
+      "bioguide": "S000168",
+      "name": "Maria Elvira Salazar",
+      "district": "FL-27",
+      "votes_url": "https://clerk.house.gov/Members/S000168"
+    },
+    {
+      "bioguide": "G000593",
+      "name": "Carlos A. Gimenez",
+      "district": "FL-28",
+      "votes_url": "https://clerk.house.gov/Members/G000593"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "M001244",
+      "name": "Ashley Moody",
+      "last_name": "Moody",
+      "votes_url": "https://www.congress.gov/member/M001244"
+    },
+    {
+      "bioguide": "S001217",
+      "name": "Rick Scott",
+      "last_name": "Scott",
+      "votes_url": "https://www.congress.gov/member/S001217"
+    }
+  ],
+  "vacant": [
+    {
+      "district": "FL-20",
+      "note": "Vacancy due to the resignation of Sheila Cherfilus-McCormick, April 21, 2026."
+    }
+  ]
+}

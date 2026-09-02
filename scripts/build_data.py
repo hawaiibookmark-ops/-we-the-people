@@ -882,6 +882,42 @@ def main() -> int:
         print("Preserving committed il/sbe-donors.json (Illinois SBE Receipts extract).", flush=True)
     if (OUT / "il" / "fec-donors.json").exists():
         print("Preserving committed il/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "il" / "candidates.json").exists():
+        print("Preserving committed il/candidates.json (SBE Latest Candidates Filed RSS).", flush=True)
+    if (OUT / "il" / "votes.json").exists():
+        print("Preserving committed il/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "fl.json").exists():
+        print("Preserving committed fl.json (Florida state module stub).", flush=True)
+    if (OUT / "fl" / "candidates.json").exists():
+        print("Preserving committed fl/candidates.json (Florida DOS extracts).", flush=True)
+    if (OUT / "fl" / "votes.json").exists():
+        print("Preserving committed fl/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "fl" / "fec-donors.json").exists():
+        print("Preserving committed fl/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "mi" / "candidates.json").exists():
+        print("Preserving committed mi/candidates.json (MI BOE listings).", flush=True)
+    if (OUT / "mi" / "votes.json").exists():
+        print("Preserving committed mi/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "mi" / "fec-donors.json").exists():
+        print("Preserving committed mi/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "ny.json").exists():
+        print("Preserving committed ny.json (New York state module stub).", flush=True)
+    if (OUT / "ny" / "votes.json").exists():
+        print("Preserving committed ny/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "ny" / "fec-donors.json").exists():
+        print("Preserving committed ny/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "ny" / "nysboe-donors.json").exists():
+        print("Preserving committed ny/nysboe-donors.json (NYSBOE SODA A-D).", flush=True)
+    if (OUT / "tx.json").exists():
+        print("Preserving committed tx.json (Texas state module stub).", flush=True)
+    if (OUT / "tx" / "candidates.json").exists():
+        print("Preserving committed tx/candidates.json (Texas SOS cert PDF).", flush=True)
+    if (OUT / "tx" / "votes.json").exists():
+        print("Preserving committed tx/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "tx" / "fec-donors.json").exists():
+        print("Preserving committed tx/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "tx" / "tec-donors.json").exists():
+        print("Preserving committed tx/tec-donors.json (TEC itemized contributions).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote", OUT)
     print("ZIPs", len(zips_compact), "HI contests", len(hi_contests), "federal states", len(federal_plain))
