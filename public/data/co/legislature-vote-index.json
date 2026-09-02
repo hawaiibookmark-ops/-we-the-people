@@ -1,0 +1,16 @@
+{
+  "state": "CO",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T11:24:04Z",
+  "sources": [
+    {
+      "label": "Colorado General Assembly bill information",
+      "url": "https://leg.colorado.gov/bills"
+    },
+    {
+      "label": "Colorado General Assembly (official legislature home)",
+      "url": "https://leg.colorado.gov/"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
     "jurisdiction": "Colorado",
     "state_code": "CO",
     "general_date": null,
-    "note": "State module first populate: official TRACER Schedule A donors only. Candidate/ballot and vote packages TBD."
+    "note": "Official SOS primary/general candidate lists, Clerk/LIS federal votes, and TRACER Schedule A donors. Donor lists are not sold."
   },
   "state_filings": {
     "wired": true,
@@ -33,6 +33,39 @@
     {
       "url": "https://tracer.sos.colorado.gov/PublicSite/DataDownload.aspx",
       "retrieved_at": "2026-09-02T11:21:26Z"
+    },
+    {
+      "url": "https://www.sos.state.co.us/pubs/elections/vote/files/2026/2026PrimaryCandidateListOfficial.xlsx",
+      "retrieved_at": "2026-09-02T11:12:00Z",
+      "note": "CO SOS 2026 primary official candidate Excel"
+    },
+    {
+      "url": "https://www.sos.state.co.us/pubs/elections/vote/files/2026/2026GeneralCandidateListUnofficial.xlsx",
+      "retrieved_at": "2026-09-02T11:12:00Z",
+      "note": "CO SOS 2026 general unofficial candidate Excel"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T11:24:04Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z",
+      "note": "Senate.gov sitting senators"
     }
-  ]
+  ],
+  "candidates_path": "/data/co/candidates.json",
+  "candidate_summary_path": "/data/co/candidate-summary.json",
+  "votes_path": "/data/co/votes.json",
+  "congress_delegation_path": "/data/co/congress-delegation.json",
+  "legislature_vote_index_path": "/data/co/legislature-vote-index.json"
 }

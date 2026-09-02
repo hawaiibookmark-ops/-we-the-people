@@ -1,0 +1,70 @@
+{
+  "state": "CO",
+  "retrieved_at": "2026-09-02T11:24:04Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "D000197",
+      "name": "Diana DeGette",
+      "district": "CO-01",
+      "votes_url": "https://clerk.house.gov/Members/D000197"
+    },
+    {
+      "bioguide": "N000191",
+      "name": "Joe Neguse",
+      "district": "CO-02",
+      "votes_url": "https://clerk.house.gov/Members/N000191"
+    },
+    {
+      "bioguide": "H001100",
+      "name": "Jeff Hurd",
+      "district": "CO-03",
+      "votes_url": "https://clerk.house.gov/Members/H001100"
+    },
+    {
+      "bioguide": "B000825",
+      "name": "Lauren Boebert",
+      "district": "CO-04",
+      "votes_url": "https://clerk.house.gov/Members/B000825"
+    },
+    {
+      "bioguide": "C001137",
+      "name": "Jeff Crank",
+      "district": "CO-05",
+      "votes_url": "https://clerk.house.gov/Members/C001137"
+    },
+    {
+      "bioguide": "C001121",
+      "name": "Jason Crow",
+      "district": "CO-06",
+      "votes_url": "https://clerk.house.gov/Members/C001121"
+    },
+    {
+      "bioguide": "P000620",
+      "name": "Brittany Pettersen",
+      "district": "CO-07",
+      "votes_url": "https://clerk.house.gov/Members/P000620"
+    },
+    {
+      "bioguide": "E000300",
+      "name": "Gabe Evans",
+      "district": "CO-08",
+      "votes_url": "https://clerk.house.gov/Members/E000300"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "B001267",
+      "name": "Michael F. Bennet",
+      "last_name": "Bennet",
+      "votes_url": "https://www.congress.gov/member/B001267"
+    },
+    {
+      "bioguide": "H000273",
+      "name": "John W. Hickenlooper",
+      "last_name": "Hickenlooper",
+      "votes_url": "https://www.congress.gov/member/H000273"
+    }
+  ],
+  "vacant": []
+}
