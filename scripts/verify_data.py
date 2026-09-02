@@ -344,8 +344,35 @@ if ca_json.get("candidates_path") != "/data/ca/candidates.json":
     errors.append("ca.json candidates_path missing")
 if ca_json.get("votes_path") != "/data/ca/votes.json":
     errors.append("ca.json votes_path missing")
-if ((ca_json.get("state_filings") or {}).get("donors") or {}).get("status") != "pending":
-    errors.append("ca.json donors must remain pending Cal-Access")
+ca_donors_block = (ca_json.get("state_filings") or {}).get("donors") or {}
+if ca_donors_block.get("status") != "sourced" or ca_donors_block.get("path") != "/data/ca/calaccess-donors.json":
+    errors.append("ca.json donors must be sourced at /data/ca/calaccess-donors.json")
+if not (ca_json.get("state_filings") or {}).get("wired"):
+    errors.append("ca.json state_filings.wired must be true")
+ca_donors_path = ROOT / "ca" / "calaccess-donors.json"
+if not ca_donors_path.exists():
+    errors.append("missing public/data/ca/calaccess-donors.json")
+else:
+    cad = json.loads(ca_donors_path.read_text())
+    if cad.get("source_url") != "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip":
+        errors.append("calaccess-donors.json source_url must be official dbwebexport.zip")
+    if cad.get("row_count") != 1928278:
+        errors.append(f"CAL-ACCESS row_count {cad.get('row_count')} != 1928278")
+    if not (2380 <= int(cad.get("filer_count") or 0) <= 2400):
+        errors.append(f"CAL-ACCESS filer_count {cad.get('filer_count')} not ~2392")
+    if not cad.get("streets_omitted") or not cad.get("do_not_sell_donor_lists"):
+        errors.append("CAL-ACCESS extract must omit streets and say do_not_sell_donor_lists")
+    if any("ballotpedia" in u.lower() for u in _urls(cad)):
+        errors.append("CAL-ACCESS extract must not use Ballotpedia")
+    ca_street = {"street", "address", "addr", "zip", "zipcode", "contributor_zip", "ctrib_zip4"}
+    for rec in (cad.get("by_candidate") or {}).values():
+        for it in rec.get("items") or []:
+            if ca_street & {k.lower() for k in it}:
+                errors.append("calaccess-donors item has a street-address or zip field")
+                break
+        else:
+            continue
+        break
 
 def _check_votes(path, state, expected, members):
     if not path.exists():
@@ -409,4 +436,6 @@ print(
     json.loads((ROOT / "ca" / "votes.json").read_text()).get("count"),
     "WA votes",
     json.loads((ROOT / "wa" / "votes.json").read_text()).get("count"),
+    "CA CAL-ACCESS filers",
+    json.loads((ROOT / "ca" / "calaccess-donors.json").read_text()).get("filer_count"),
 )

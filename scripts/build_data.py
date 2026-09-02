@@ -846,6 +846,8 @@ def main() -> int:
         print("Preserving committed ca/candidates.json (CA SOS certified list).", flush=True)
     if (OUT / "ca" / "votes.json").exists():
         print("Preserving committed ca/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "ca" / "calaccess-donors.json").exists():
+        print("Preserving committed ca/calaccess-donors.json (CAL-ACCESS RCPT extract).", flush=True)
     if (OUT / "wa" / "votes.json").exists():
         print("Preserving committed wa/votes.json (Clerk EVS + Senate LIS).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")

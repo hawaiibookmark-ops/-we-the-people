@@ -3,14 +3,29 @@
     "jurisdiction": "California",
     "state_code": "CA",
     "general_date": "2026-11-03",
-    "note": "Official SOS certified list of candidates plus Clerk/LIS federal votes. Donors pending Cal-Access."
+    "note": "Official SOS certified list, Clerk/LIS federal votes, and CAL-ACCESS RCPT (Schedules A/C) donors. Donor lists are not sold."
   },
   "state_filings": {
     "donors": {
-      "status": "pending",
-      "reason": "Cal-Access extract not in this populate. Donor names are not invented.",
-      "cal_access": "https://cal-access.sos.ca.gov/"
-    }
+      "status": "sourced",
+      "path": "/data/ca/calaccess-donors.json",
+      "source_url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip",
+      "landing_url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/raw-data-campaign-finance-and-lobbying-activity",
+      "retrieved_at": "2026-09-02T11:23:29Z",
+      "counts": {
+        "rows": 1928278,
+        "filers": 2388,
+        "items_per_filer_cap": 25,
+        "receipt_years": [
+          2025,
+          2026
+        ]
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "wired": true,
+    "calaccess_public": "https://cal-access.sos.ca.gov/",
+    "calaccess_data": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/raw-data-campaign-finance-and-lobbying-activity"
   },
   "nominees": {},
   "geo_by_zip": {},
@@ -26,6 +41,16 @@
     {
       "url": "http://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
       "retrieved_at": "2026-09-02T11:21:25Z"
+    },
+    {
+      "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip",
+      "retrieved_at": "2026-09-02T11:23:29Z",
+      "note": "CAL-ACCESS dbwebexport.zip → RCPT_CD.TSV"
+    },
+    {
+      "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/raw-data-campaign-finance-and-lobbying-activity",
+      "retrieved_at": "2026-09-02T11:23:29Z",
+      "note": "SOS raw data landing"
     }
   ],
   "votes_path": "/data/ca/votes.json",
