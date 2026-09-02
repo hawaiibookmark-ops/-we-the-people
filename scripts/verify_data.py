@@ -31,6 +31,18 @@ if not any((n.get("name") or "") == "BASS, Danielle Maliekekai" for n in sd18v):
     errors.append("SD18 Vacancy OLVR nominee missing BASS, Danielle Maliekekai")
 elif any("primary_votes" in n for n in sd18v if n.get("name") == "BASS, Danielle Maliekekai"):
     errors.append("Bass SD18 Vacancy must not invent primary_votes")
+kit = next((n for n in sd18v if (n.get("name") or "") == "KITASHIMA, Kelly Puamailani"), None)
+if not kit:
+    errors.append("SD18 Vacancy OLVR nominee missing KITASHIMA, Kelly Puamailani")
+else:
+    if kit.get("party_code") != "R" or "Republican" not in (kit.get("party") or ""):
+        errors.append("Kitashima must be Republican from official OLVR")
+    if kit.get("status") != "In General":
+        errors.append("Kitashima OLVR status must be In General")
+    if "primary_votes" in kit:
+        errors.append("Kitashima SD18 Vacancy must not invent primary_votes")
+    if "olvr.hawaii.gov" not in (kit.get("source_url") or ""):
+        errors.append("Kitashima must cite official OLVR candidate report")
 
 r = zips.get("90210")
 if not r or r.get("s") != "CA":
@@ -114,12 +126,21 @@ if not (case.get("items") or [{}])[0].get("contributor_name"):
 # Hawaii CSC
 if hi.get("state_filings", {}).get("donors", {}).get("status") != "sourced":
     errors.append("hawaii.json state_filings.donors must be sourced")
+hi_donor_counts = (hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}
+if hi_donor_counts.get("rows") != 18875:
+    errors.append(f"hawaii.json CSC counts.rows {hi_donor_counts.get('rows')} != 18875")
+if (hi.get("state_filings", {}).get("donors") or {}).get("retrieved_at") != "2026-09-02T18:11:34Z":
+    errors.append("hawaii.json CSC retrieved_at must be weekday refresh 2026-09-02T18:11:34Z")
 if hi.get("state_filings", {}).get("csc_public") != "https://csc.hawaii.gov/CFSPublic/":
     errors.append("CFS public link missing")
 if "view-searchable-data" not in (hi.get("state_filings", {}).get("csc_searchable") or ""):
     errors.append("CSC searchable landing missing")
-if csc.get("row_count") != 18108:
-    errors.append(f"csc row_count {csc.get('row_count')} != 18108")
+if csc.get("row_count") != 18875:
+    errors.append(f"csc row_count {csc.get('row_count')} != 18875")
+if csc.get("retrieved_at") != "2026-09-02T18:11:34Z":
+    errors.append(f"csc retrieved_at {csc.get('retrieved_at')} != 2026-09-02T18:11:34Z")
+if not csc.get("do_not_sell_donor_lists"):
+    errors.append("csc-donors.json must say do_not_sell_donor_lists")
 if not csc.get("streets_omitted"):
     errors.append("csc-donors.json must omit street addresses")
 street_keys = {"street", "address", "addr", "contributor_street_1", "contributor_street_2"}

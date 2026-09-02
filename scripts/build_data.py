@@ -692,6 +692,15 @@ def main() -> int:
     existing_donors = load_existing_json(OUT / "donors.json")
     existing_csc = load_existing_json(OUT / "csc-donors.json")
     existing_hawaii = load_existing_json(OUT / "hawaii.json")
+    # OLVR vacancy nominees are not in the certified primary summary. Keep them.
+    existing_noms = (existing_hawaii or {}).get("nominees") or {}
+    for key, rows in existing_noms.items():
+        if "vacancy" not in key.lower():
+            continue
+        have = {r.get("name") for r in nominees_by_office.get(key, [])}
+        for row in rows:
+            if row.get("name") and row.get("name") not in have:
+                nominees_by_office[key].append(row)
     donor_note = (existing_donors or {}).get("policy") or (
         "Official FEC bulk Schedule A individual receipts of $200+ from indiv26.zip. "
         "MEMO_CD=X skipped. Names are never invented. Donor lists are not sold. OpenFEC/DEMO_KEY is not used."
