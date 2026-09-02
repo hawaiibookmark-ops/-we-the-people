@@ -14,7 +14,7 @@ from pathlib import Path
 UA = "WeThePeople-CivicBot/1.0"
 RETRIEVED = "2026-09-02T14:32:00Z"
 RETRIEVED_BY_STATE = {
-    "IL": "2026-09-02T14:32:00Z",
+    "IL": "2026-09-02T12:53:50Z",
     "MI": "2026-09-02T14:32:00Z",
     "NY": "2026-09-02T14:32:00Z",
     "TX": "2026-09-02T12:53:50Z",
