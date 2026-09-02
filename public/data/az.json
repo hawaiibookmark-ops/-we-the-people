@@ -1,0 +1,82 @@
+{
+  "election": {
+    "jurisdiction": "Arizona",
+    "state_code": "AZ",
+    "general_date": null,
+    "note": "Official SOS 2026 primary nominations/petitions-filed PDF, Clerk/LIS federal votes, and federal FEC Schedule A $200+ donors. This is not a November general certified roster; apps.arizona.vote is Cloudflare-blocked. State campaign-finance bulk is blocked ($25 PRR / SeeTheMoney). Donor lists are not sold."
+  },
+  "state_filings": {
+    "wired": true,
+    "azsos_public": "https://azsos.gov/elections/candidates",
+    "azsos_nominations_pdf": "https://azsos.gov/sites/default/files/docs/2026-Candidate-Nominations-and-Petitions-Filed-0330.pdf",
+    "donors": {
+      "status": "partial",
+      "path": "/data/az/fec-donors.json",
+      "scope": "Federal FEC Schedule A $200+ only (indiv26 + cn26 CAND_PCC). State campaign-finance bulk is blocked ($25 PRR / SeeTheMoney).",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T12:21:44Z",
+      "counts": {
+        "candidates": 92,
+        "with_receipts": 47,
+        "honest_empty": 45,
+        "kept_rows": 19688,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    }
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "candidates_path": "/data/az/candidates.json",
+  "candidate_summary_path": "/data/az/candidate-summary.json",
+  "sources": [
+    {
+      "url": "https://azsos.gov/sites/default/files/docs/2026-Candidate-Nominations-and-Petitions-Filed-0330.pdf",
+      "retrieved_at": "2026-09-02T11:23:07Z",
+      "note": "AZ SOS 2026 primary nominations/petitions filed PDF (not general certified)"
+    },
+    {
+      "url": "https://azsos.gov/media/666",
+      "retrieved_at": "2026-09-02T11:23:07Z",
+      "note": "AZ SOS media landing for the nominations PDF"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T11:24:04Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z",
+      "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T12:21:44Z",
+      "note": "FEC bulk Schedule A $200+ (AZ federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T12:21:44Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T12:21:44Z",
+      "note": "FEC candidate-committee linkage"
+    }
+  ],
+  "votes_path": "/data/az/votes.json",
+  "congress_delegation_path": "/data/az/congress-delegation.json",
+  "legislature_vote_index_path": "/data/az/legislature-vote-index.json"
+}

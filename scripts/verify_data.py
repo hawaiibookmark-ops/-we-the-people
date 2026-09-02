@@ -656,6 +656,106 @@ if (ROOT / "or" / "legislature-vote-index.json").exists():
 else:
     errors.append("missing public/data/or/legislature-vote-index.json")
 
+# Arizona primary nominations PDF + Clerk/LIS votes + federal FEC partial donors
+az_stub_path = ROOT / "az.json"
+az_cands_path = ROOT / "az" / "candidates.json"
+az_sum_path = ROOT / "az" / "candidate-summary.json"
+az_votes_path = ROOT / "az" / "votes.json"
+az_fec_path = ROOT / "az" / "fec-donors.json"
+if not az_stub_path.exists():
+    errors.append("missing public/data/az.json")
+else:
+    azj = json.loads(az_stub_path.read_text())
+    donors_block = ((azj.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") != "partial":
+        errors.append("az.json donors.status must be partial (federal FEC only)")
+    if donors_block.get("path") != "/data/az/fec-donors.json":
+        errors.append("az.json donors.path must be /data/az/fec-donors.json")
+    if donors_block.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
+        errors.append("az.json donors.source_url must be official indiv26.zip")
+    if not donors_block.get("do_not_sell_donor_lists"):
+        errors.append("az.json donors must say do_not_sell_donor_lists")
+    scope = (donors_block.get("scope") or "").lower()
+    if "fec" not in scope or ("prr" not in scope and "seethemoney" not in scope):
+        errors.append("az.json donors.scope must say federal FEC only and state bulk blocked")
+    counts = donors_block.get("counts") or {}
+    if counts.get("candidates") != 92 or counts.get("kept_rows") != 19688:
+        errors.append(f"az.json donor counts {counts} != 92 / 19688")
+    note = (azj.get("election") or {}).get("note") or ""
+    if "primary" not in note.lower() or "nominations" not in note.lower():
+        errors.append("az.json election.note must label primary nominations/petitions filed")
+    if "general" not in note.lower() and "certified" not in note.lower() and "apps.arizona.vote" not in note.lower():
+        errors.append("az.json must say this is not a general certified list / CF-blocked")
+    if azj.get("election", {}).get("state_code") != "AZ":
+        errors.append("az.json election must be Arizona / AZ")
+    if azj.get("candidates_path") != "/data/az/candidates.json":
+        errors.append("az.json candidates_path missing")
+    if azj.get("candidate_summary_path") != "/data/az/candidate-summary.json":
+        errors.append("az.json candidate_summary_path missing")
+    if azj.get("votes_path") != "/data/az/votes.json":
+        errors.append("az.json votes_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(azj)):
+        errors.append("az.json must not use Ballotpedia")
+if not az_cands_path.exists():
+    errors.append("missing public/data/az/candidates.json")
+else:
+    az_cands = json.loads(az_cands_path.read_text())
+    if not isinstance(az_cands, list) or len(az_cands) != 266:
+        errors.append(f"AZ candidates.json rows {len(az_cands) if isinstance(az_cands, list) else type(az_cands)} != 266")
+    else:
+        if any(not str(r.get("contest_key") or "").startswith("AZ|") or str(r.get("contest_key") or "").count("|") != 3 for r in az_cands):
+            errors.append("AZ contest_key must be AZ|OFFICE|DIST|VACANCY")
+        if {r.get("list_kind") for r in az_cands} != {"primary_nominations_petitions_filed"}:
+            errors.append("AZ list_kind must be primary_nominations_petitions_filed")
+        keys = {r.get("contest_key") for r in az_cands}
+        if len(keys) != 76:
+            errors.append(f"AZ contest_keys {len(keys)} != 76")
+        if any(r.get("retrieved_at") != "2026-09-02T11:23:07Z" for r in az_cands):
+            errors.append("AZ candidates retrieved_at must be 2026-09-02T11:23:07Z")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in az_cands):
+            errors.append("AZ candidates must not use Ballotpedia")
+        if any("azsos.gov" not in (r.get("source_url") or "") for r in az_cands):
+            errors.append("AZ candidates source_url must be official azsos.gov PDF")
+        if not any(r.get("candidate_name") == "Hobbs, Katie" and r.get("office") == "Governor" for r in az_cands):
+            errors.append("AZ list missing filed name Hobbs, Katie")
+        if not any(r.get("candidate_name") == "Gosar, Paul" for r in az_cands):
+            errors.append("AZ list missing filed name Gosar, Paul")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in az_cands):
+            errors.append("AZ candidates must omit streets/email/phone")
+if az_sum_path.exists():
+    az_sum = json.loads(az_sum_path.read_text())
+    if az_sum.get("row_count") != 266 or az_sum.get("contest_key_count") != 76:
+        errors.append(f"AZ candidate-summary counts {az_sum}")
+else:
+    errors.append("missing public/data/az/candidate-summary.json")
+_check_votes(az_votes_path, "AZ", 420, {"G000574", "S001211", "K000377", "G000565"})
+if not az_fec_path.exists():
+    errors.append("missing public/data/az/fec-donors.json")
+else:
+    azfec = json.loads(az_fec_path.read_text())
+    if azfec.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
+        errors.append("az/fec-donors.json source_url must be official indiv26.zip")
+    if azfec.get("fec_api_key_present"):
+        errors.append("az/fec-donors.json must not use OpenFEC/DEMO_KEY")
+    if azfec.get("row_count") != 19688 or (azfec.get("counts") or {}).get("kept_rows") != 19688:
+        errors.append(f"AZ FEC kept_rows {azfec.get('row_count')} != 19688")
+    if azfec.get("candidate_count") != 92 or len(azfec.get("by_candidate") or {}) != 92:
+        errors.append(f"AZ FEC candidates {azfec.get('candidate_count')} != 92")
+    with_n = sum(1 for v in (azfec.get("by_candidate") or {}).values() if (v.get("item_count_all") or 0) > 0)
+    empty_n = sum(1 for v in (azfec.get("by_candidate") or {}).values() if (v.get("item_count_all") or 0) == 0)
+    if with_n != 47 or empty_n != 45:
+        errors.append(f"AZ FEC with/empty {with_n}/{empty_n} != 47/45")
+    if not azfec.get("do_not_sell_donor_lists") or not azfec.get("streets_omitted"):
+        errors.append("AZ FEC extract must omit streets and say do_not_sell_donor_lists")
+    if azfec.get("retrieved_at") != "2026-09-02T12:21:44Z":
+        errors.append("AZ FEC retrieved_at must be 2026-09-02T12:21:44Z")
+    if any("ballotpedia" in u.lower() or "open.fec.gov" in u.lower() for u in _urls(azfec)):
+        errors.append("AZ FEC extract must not use Ballotpedia or OpenFEC")
+    gosar = (azfec.get("by_candidate") or {}).get("H0AZ01259") or {}
+    if gosar.get("candidate_name") != "GOSAR, PAUL DR." or not (gosar.get("items") or []):
+        errors.append("Gosar FEC extract missing official name/items")
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -701,4 +801,10 @@ print(
     json.loads((ROOT / "or" / "votes.json").read_text()).get("count"),
     "OR FEC donors",
     json.loads((ROOT / "or" / "fec-donors.json").read_text()).get("row_count"),
+    "AZ ballots",
+    len(json.loads((ROOT / "az" / "candidates.json").read_text())),
+    "AZ votes",
+    json.loads((ROOT / "az" / "votes.json").read_text()).get("count"),
+    "AZ FEC donors",
+    json.loads((ROOT / "az" / "fec-donors.json").read_text()).get("candidate_count"),
 )

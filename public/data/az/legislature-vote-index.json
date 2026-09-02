@@ -1,0 +1,16 @@
+{
+  "state": "AZ",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T11:24:04Z",
+  "sources": [
+    {
+      "label": "Arizona State Legislature (official home)",
+      "url": "https://www.azleg.gov/"
+    },
+    {
+      "label": "Arizona Legislature bill / vote search (ALIS)",
+      "url": "https://www.azleg.gov/bills/"
+    }
+  ]
+}
