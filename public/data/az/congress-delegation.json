@@ -1,0 +1,76 @@
+{
+  "state": "AZ",
+  "retrieved_at": "2026-09-02T11:24:04Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "S001183",
+      "name": "David Schweikert",
+      "district": "AZ-01",
+      "votes_url": "https://clerk.house.gov/Members/S001183"
+    },
+    {
+      "bioguide": "C001132",
+      "name": "Elijah Crane",
+      "district": "AZ-02",
+      "votes_url": "https://clerk.house.gov/Members/C001132"
+    },
+    {
+      "bioguide": "A000381",
+      "name": "Yassamin Ansari",
+      "district": "AZ-03",
+      "votes_url": "https://clerk.house.gov/Members/A000381"
+    },
+    {
+      "bioguide": "S001211",
+      "name": "Greg Stanton",
+      "district": "AZ-04",
+      "votes_url": "https://clerk.house.gov/Members/S001211"
+    },
+    {
+      "bioguide": "B001302",
+      "name": "Andy Biggs",
+      "district": "AZ-05",
+      "votes_url": "https://clerk.house.gov/Members/B001302"
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Juan Ciscomani",
+      "district": "AZ-06",
+      "votes_url": "https://clerk.house.gov/Members/C001133"
+    },
+    {
+      "bioguide": "G000606",
+      "name": "Adelita S. Grijalva",
+      "district": "AZ-07",
+      "votes_url": "https://clerk.house.gov/Members/G000606"
+    },
+    {
+      "bioguide": "H001098",
+      "name": "Abraham J. Hamadeh",
+      "district": "AZ-08",
+      "votes_url": "https://clerk.house.gov/Members/H001098"
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Paul A. Gosar",
+      "district": "AZ-09",
+      "votes_url": "https://clerk.house.gov/Members/G000565"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "G000574",
+      "name": "Ruben Gallego",
+      "last_name": "Gallego",
+      "votes_url": "https://www.congress.gov/member/G000574"
+    },
+    {
+      "bioguide": "K000377",
+      "name": "Mark Kelly",
+      "last_name": "Kelly",
+      "votes_url": "https://www.congress.gov/member/K000377"
+    }
+  ],
+  "vacant": []
+}

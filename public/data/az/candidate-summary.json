@@ -1,0 +1,43 @@
+{
+  "row_count": 266,
+  "contest_key_count": 76,
+  "list_kind": "primary_nominations_petitions_filed",
+  "us_house": 42,
+  "us_house_districts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "governor": 8,
+  "state_senate": 65,
+  "state_house": 127,
+  "by_office": {
+    "U.S. Representative": 42,
+    "Governor": 8,
+    "Secretary of State": 4,
+    "Attorney General": 3,
+    "State Treasurer": 4,
+    "Superintendent of Public Instruction": 5,
+    "State Mine Inspector": 2,
+    "Corporation Commissioner": 6,
+    "State Senator": 65,
+    "State Representative": 127
+  },
+  "by_party": {
+    "Arizona Independent Party": 12,
+    "Democratic": 126,
+    "Green": 4,
+    "Libertarian": 3,
+    "Republican": 120,
+    "Independent": 1
+  },
+  "source_url": "https://azsos.gov/sites/default/files/docs/2026-Candidate-Nominations-and-Petitions-Filed-0330.pdf",
+  "retrieved_at": "2026-09-02T11:23:07Z",
+  "note": "Official Arizona SOS Partisan Candidate Filing PDF for the 2026 primary (nominations and petitions filed, February 23–March 23, 2026). This is NOT a November general certified roster. apps.arizona.vote general list is Cloudflare-blocked with no free bulk. Names as filed only. list_kind kept. Streets omitted. No Ballotpedia."
+}
