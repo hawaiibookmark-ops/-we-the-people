@@ -1,0 +1,54 @@
+{
+  "election": {
+    "jurisdiction": "Oregon",
+    "state_code": "OR",
+    "general_date": null,
+    "note": "Official ORESTAR 2026 primary/general candidate filings and Clerk/LIS federal votes. Oregon has no free statewide donor bulk dump; donor names are not invented. Donor lists are not sold."
+  },
+  "state_filings": {
+    "wired": true,
+    "orestar_public": "https://secure.sos.state.or.us/orestar/CFSearchPage.do",
+    "donors": {
+      "status": "pending",
+      "reason": "Oregon has no free statewide ORESTAR/Schedule A bulk dump for this populate. Donor names are not invented.",
+      "do_not_sell_donor_lists": true
+    }
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "candidates_path": "/data/or/candidates.json",
+  "candidate_summary_path": "/data/or/candidate-summary.json",
+  "sources": [
+    {
+      "url": "https://secure.sos.state.or.us/orestar/CFSearchPage.do",
+      "retrieved_at": "2026-09-02T11:20:30Z",
+      "note": "ORESTAR Candidate Filing Search year=2026 (primary 1451, general 1453)"
+    },
+    {
+      "url": "https://secure.sos.state.or.us/orestar/ajaxdataserver/getCandidateElectionByYear?elecYear=2026",
+      "retrieved_at": "2026-09-02T11:20:30Z",
+      "note": "ORESTAR official 2026 election ids"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T11:24:04Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T11:24:04Z",
+      "note": "Senate.gov sitting senators"
+    }
+  ],
+  "votes_path": "/data/or/votes.json",
+  "congress_delegation_path": "/data/or/congress-delegation.json",
+  "legislature_vote_index_path": "/data/or/legislature-vote-index.json"
+}

@@ -1,0 +1,45 @@
+{
+  "row_count": 604,
+  "contest_key_count": 166,
+  "primary_candidate_filing_rows": 343,
+  "general_candidate_filing_rows": 261,
+  "us_senate": 6,
+  "us_house": 21,
+  "us_house_districts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "governor": 5,
+  "state_senate": 46,
+  "state_house": 167,
+  "by_list_kind": {
+    "primary_candidate_filing": 343,
+    "general_candidate_filing": 261
+  },
+  "by_office": {
+    "State Representative": 310,
+    "US Representative": 49,
+    "Governor": 29,
+    "Judge of the Circuit Court": 86,
+    "State Senator": 89,
+    "US Senator": 15,
+    "District Attorney": 19,
+    "Judge of the Supreme Court": 1,
+    "Judge of the Court of Appeals": 4,
+    "Commissioner of the Bureau of Labor and Industries": 2
+  },
+  "source_urls": [
+    "https://secure.sos.state.or.us/orestar/CFSearchPage.do",
+    "https://secure.sos.state.or.us/orestar/ajaxdataserver/getCandidateElectionByYear?elecYear=2026"
+  ],
+  "election_ids": {
+    "primary": "1451",
+    "general": "1453"
+  },
+  "retrieved_at": "2026-09-02T11:20:30Z",
+  "note": "Filed ballot names from official ORESTAR Candidate Filing Search Excel (XcelCFSearch, year=2026, elections 1451 primary and 1453 general). list_kind and election fields are kept separate. People are not merged across lists or fusion-party rows. Streets, phones, and emails are omitted. No Ballotpedia. Names are not invented."
+}

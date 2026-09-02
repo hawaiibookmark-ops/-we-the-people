@@ -1,0 +1,58 @@
+{
+  "state": "OR",
+  "retrieved_at": "2026-09-02T11:24:04Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "B001278",
+      "name": "Suzanne Bonamici",
+      "district": "OR-01",
+      "votes_url": "https://clerk.house.gov/Members/B001278"
+    },
+    {
+      "bioguide": "B000668",
+      "name": "Cliff Bentz",
+      "district": "OR-02",
+      "votes_url": "https://clerk.house.gov/Members/B000668"
+    },
+    {
+      "bioguide": "D000635",
+      "name": "Maxine Dexter",
+      "district": "OR-03",
+      "votes_url": "https://clerk.house.gov/Members/D000635"
+    },
+    {
+      "bioguide": "H001094",
+      "name": "Val T. Hoyle",
+      "district": "OR-04",
+      "votes_url": "https://clerk.house.gov/Members/H001094"
+    },
+    {
+      "bioguide": "B001326",
+      "name": "Janelle S. Bynum",
+      "district": "OR-05",
+      "votes_url": "https://clerk.house.gov/Members/B001326"
+    },
+    {
+      "bioguide": "S001226",
+      "name": "Andrea Salinas",
+      "district": "OR-06",
+      "votes_url": "https://clerk.house.gov/Members/S001226"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "M001176",
+      "name": "Jeff Merkley",
+      "last_name": "Merkley",
+      "votes_url": "https://www.congress.gov/member/M001176"
+    },
+    {
+      "bioguide": "W000779",
+      "name": "Ron Wyden",
+      "last_name": "Wyden",
+      "votes_url": "https://www.congress.gov/member/W000779"
+    }
+  ],
+  "vacant": []
+}

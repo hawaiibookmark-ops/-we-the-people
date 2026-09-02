@@ -1,0 +1,16 @@
+{
+  "state": "OR",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T11:24:04Z",
+  "sources": [
+    {
+      "label": "Oregon Legislative Information System (OLIS)",
+      "url": "https://olis.oregonlegislature.gov/"
+    },
+    {
+      "label": "Oregon State Legislature (official home)",
+      "url": "https://www.oregonlegislature.gov/"
+    }
+  ]
+}
