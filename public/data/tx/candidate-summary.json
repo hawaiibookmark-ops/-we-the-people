@@ -1,9 +1,10 @@
 {
-  "row_count": 3821,
-  "contest_key_count": 710,
-  "list_kind": "general_certified_pdf",
+  "row_count": 3823,
+  "contest_key_count": 3162,
+  "list_kind": "general_ballot_certification",
+  "certification_date": "2026-08-28",
   "by_party": {
-    "REP": 2746,
+    "REP": 2748,
     "DEM": 1032,
     "LIB": 15,
     "GRE": 11,
@@ -401,7 +402,7 @@
     "JUSTICE OF THE PEACE PRECINCT 7": 5,
     "DISTRICT JUDGE, 266TH JUDICIAL DISTRICT": 1,
     "DISTRICT JUDGE, 82ND JUDICIAL DISTRICT": 1,
-    "1ST MULTICOUNTY COURT AT LAW": 1,
+    "1ST MULTICOUNTY COURT AT LAW": 3,
     "DISTRICT JUDGE, 46TH JUDICIAL DISTRICT": 1,
     "U. S. REPRESENTATIVE DISTRICT 7": 3,
     "MEMBER, STATE BOARD OF EDUCATION, DISTRICT 8": 2,
@@ -723,6 +724,6 @@
   },
   "source_url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf",
   "landing_url": "https://www.sos.state.tx.us/elections/laws/2026-november-general-election.shtml",
-  "retrieved_at": "2026-09-02T14:42:00Z",
-  "note": "Official Texas SOS 2026 Ballot Certification PDF (final certification dated August 28, 2026). One row per unique office + filed name + party; county-repeated statewide names are not duplicated. Streets omitted. No Ballotpedia."
+  "retrieved_at": "2026-09-02T12:56:00Z",
+  "note": "Official Texas SOS 2026 Ballot Certification PDF (final certification dated August 28, 2026). State and district offices are one row per certified name + party. County offices keep the county on contest_key. Streets omitted. No Ballotpedia. Declared write-in certification is a separate SOS exhibit and is not mixed in."
 }
