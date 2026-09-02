@@ -1,0 +1,38 @@
+{
+  "election": {
+    "jurisdiction": "Colorado",
+    "state_code": "CO",
+    "general_date": null,
+    "note": "State module first populate: official TRACER Schedule A donors only. Candidate/ballot and vote packages TBD."
+  },
+  "state_filings": {
+    "wired": true,
+    "tracer_public": "https://tracer.sos.colorado.gov/",
+    "tracer_data": "https://tracer.sos.colorado.gov/PublicSite/DataDownload.aspx",
+    "donors": {
+      "status": "sourced",
+      "path": "/data/co/tracer-donors.json",
+      "source_url": "https://tracer.sos.colorado.gov/PublicSite/Docs/BulkDataDownloads/2026_ContributionData.csv.zip",
+      "retrieved_at": "2026-09-02T11:21:26Z",
+      "counts": {
+        "rows": 256892,
+        "filers": 1237,
+        "items_per_filer_cap": 25,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    }
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://tracer.sos.colorado.gov/PublicSite/Docs/BulkDataDownloads/2026_ContributionData.csv.zip",
+      "retrieved_at": "2026-09-02T11:21:26Z"
+    },
+    {
+      "url": "https://tracer.sos.colorado.gov/PublicSite/DataDownload.aspx",
+      "retrieved_at": "2026-09-02T11:21:26Z"
+    }
+  ]
+}

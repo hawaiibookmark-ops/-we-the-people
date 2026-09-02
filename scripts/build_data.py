@@ -838,6 +838,10 @@ def main() -> int:
         print("Preserving committed wa/pdc-donors.json (Washington PDC SODA extract).", flush=True)
     if (OUT / "wa.json").exists():
         print("Preserving committed wa.json (Washington state module stub).", flush=True)
+    if (OUT / "co" / "tracer-donors.json").exists():
+        print("Preserving committed co/tracer-donors.json (Colorado TRACER bulk extract).", flush=True)
+    if (OUT / "co.json").exists():
+        print("Preserving committed co.json (Colorado state module stub).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote", OUT)
     print("ZIPs", len(zips_compact), "HI contests", len(hi_contests), "federal states", len(federal_plain))

@@ -250,6 +250,48 @@ else:
             continue
         break
 
+# Colorado TRACER Schedule A (50-state first populate; does not replace HI/WA)
+co_path = ROOT / "co" / "tracer-donors.json"
+co_stub = ROOT / "co.json"
+if not co_path.exists() or not co_stub.exists():
+    errors.append("CO TRACER extract missing public/data/co/tracer-donors.json or public/data/co.json")
+else:
+    co = json.loads(co_path.read_text())
+    co_json = json.loads(co_stub.read_text())
+    donors_block = ((co_json.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") != "sourced":
+        errors.append("co.json state_filings.donors.status must be sourced")
+    if donors_block.get("path") != "/data/co/tracer-donors.json":
+        errors.append("co.json donors.path must be /data/co/tracer-donors.json")
+    if co.get("source_url") != "https://tracer.sos.colorado.gov/PublicSite/Docs/BulkDataDownloads/2026_ContributionData.csv.zip":
+        errors.append("tracer-donors.json source_url must be official TRACER 2026 ContributionData ZIP")
+    if "tracer.sos.colorado.gov" not in (co.get("landing_url") or ""):
+        errors.append("tracer-donors.json landing_url must be official TRACER DataDownload")
+    if any("ballotpedia" in u.lower() for u in _urls(co) + _urls(co_json)):
+        errors.append("CO extract must not use Ballotpedia")
+    if co.get("row_count") != 256892 or (co.get("counts") or {}).get("rows") != 256892:
+        errors.append(f"CO row_count {co.get('row_count')} != 256892")
+    if co.get("filer_count") != 1237 or len(co.get("by_candidate") or {}) != 1237:
+        errors.append(f"CO filer_count {co.get('filer_count')} != 1237")
+    if not co.get("streets_omitted") or not co.get("do_not_sell_donor_lists"):
+        errors.append("CO extract must omit streets and say do_not_sell_donor_lists")
+    if not co.get("retrieved_at"):
+        errors.append("tracer-donors.json missing retrieved_at")
+    bennet = (co.get("by_candidate") or {}).get("BENNET FOR GOVERNOR") or {}
+    if not bennet or bennet.get("status") != "unmatched_no_roster" or bennet.get("matched_to_site") is not False:
+        errors.append("BENNET FOR GOVERNOR TRACER filer missing or incorrectly matched")
+    if not (bennet.get("items") or []):
+        errors.append("BENNET FOR GOVERNOR must keep official top contributions")
+    co_street = {"street", "address", "addr", "address1", "address2", "contributor_address", "zip", "zipcode", "contributor_zip"}
+    for rec in (co.get("by_candidate") or {}).values():
+        for it in rec.get("items") or []:
+            if co_street & {k.lower() for k in it}:
+                errors.append("tracer-donors item has a street-address or zip field")
+                break
+        else:
+            continue
+        break
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -273,3 +315,4 @@ print(
     hivotes.get("row_count"),
 )
 print("OK WA PDC rows", wa.get("row_count"), "filers", wa.get("filer_count"))
+print("OK CO TRACER rows", co.get("row_count"), "filers", co.get("filer_count"))
