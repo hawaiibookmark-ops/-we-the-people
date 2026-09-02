@@ -203,6 +203,53 @@ if hivotes.get("row_count") != 1241:
     if not any(f.get("field") == "named_votes" for f in flags):
         errors.append("hawaii named-vote count disagrees with 1241 freeze and is unflagged")
 
+# Washington PDC Schedule A (50-state first populate; does not replace Hawaii)
+wa_path = ROOT / "wa" / "pdc-donors.json"
+wa_stub = ROOT / "wa.json"
+if not wa_path.exists() or not wa_stub.exists():
+    errors.append("WA PDC extract missing public/data/wa/pdc-donors.json or public/data/wa.json")
+else:
+    wa = json.loads(wa_path.read_text())
+    wa_json = json.loads(wa_stub.read_text())
+    donors_block = ((wa_json.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") != "sourced":
+        errors.append("wa.json state_filings.donors.status must be sourced")
+    if donors_block.get("path") != "/data/wa/pdc-donors.json":
+        errors.append("wa.json donors.path must be /data/wa/pdc-donors.json")
+    if wa.get("source_url") != "https://data.wa.gov/resource/kv7h-kjye.json":
+        errors.append("pdc-donors.json source_url must be official data.wa.gov SODA kv7h-kjye")
+    if "ballotpedia" in (wa.get("policy") or "").lower() and "no ballotpedia" not in (wa.get("policy") or "").lower():
+        errors.append("WA policy must not use Ballotpedia")
+    if any("ballotpedia" in u.lower() for u in _urls(wa) + _urls(wa_json)):
+        errors.append("WA extract must not use Ballotpedia")
+    if wa.get("row_count") != 151304 or (wa.get("counts") or {}).get("rows") != 151304:
+        errors.append(f"WA row_count {wa.get('row_count')} != 151304")
+    if wa.get("filer_count") != 1246 or len(wa.get("by_candidate") or {}) != 1246:
+        errors.append(f"WA filer_count {wa.get('filer_count')} != 1246")
+    if not wa.get("streets_omitted") or not wa.get("do_not_sell_donor_lists"):
+        errors.append("WA extract must omit streets and say do_not_sell_donor_lists")
+    if not wa.get("retrieved_at"):
+        errors.append("pdc-donors.json missing retrieved_at")
+    stokes = (wa.get("by_candidate") or {}).get("Andrew R Stokesbary (Drew Stokesbary)") or {}
+    if not stokes or stokes.get("status") != "unmatched_no_roster" or stokes.get("matched_to_site") is not False:
+        errors.append("Stokesbary PDC filer missing or incorrectly matched")
+    if not (stokes.get("items") or []):
+        errors.append("Stokesbary must keep official top contributions")
+    if any("primary_votes" in (it or {}) for it in stokes.get("items") or []):
+        errors.append("WA donor items must not invent primary_votes")
+    wa_street = {"street", "address", "addr", "contributor_address", "contributor_street_1", "contributor_street_2", "contributor_zip", "contributor_location"}
+    for rec in (wa.get("by_candidate") or {}).values():
+        for it in rec.get("items") or []:
+            if wa_street & {k.lower() for k in it}:
+                errors.append("pdc-donors item has a street-address or exact-location field")
+                break
+            if not it.get("contributor_name"):
+                errors.append("pdc-donors item missing official contributor_name")
+                break
+        else:
+            continue
+        break
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -225,3 +272,4 @@ print(
     "hawaii floor named",
     hivotes.get("row_count"),
 )
+print("OK WA PDC rows", wa.get("row_count"), "filers", wa.get("filer_count"))

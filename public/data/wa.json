@@ -1,0 +1,34 @@
+{
+  "election": {
+    "jurisdiction": "Washington",
+    "state_code": "WA",
+    "general_date": null,
+    "note": "State module first populate: official PDC Schedule A donors only. Candidate/ballot and vote packages TBD."
+  },
+  "state_filings": {
+    "wired": true,
+    "pdc_public": "https://www.pdc.wa.gov/",
+    "pdc_data": "https://data.wa.gov/Politics/Contributions-to-Candidates-and-Political-Committe/kv7h-kjye",
+    "donors": {
+      "status": "sourced",
+      "path": "/data/wa/pdc-donors.json",
+      "source_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+      "retrieved_at": "2026-09-02T11:17:16Z",
+      "counts": {
+        "rows": 151304,
+        "filers": 1246,
+        "items_per_filer_cap": 25,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    }
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json",
+      "retrieved_at": "2026-09-02T11:17:16Z"
+    }
+  ]
+}
