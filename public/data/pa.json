@@ -1,0 +1,98 @@
+{
+  "election": {
+    "jurisdiction": "Pennsylvania",
+    "state_code": "PA",
+    "general_date": "2026-11-03",
+    "note": "Official Pennsylvania DOS 2026 Full Export Schedule A-style contributions, Clerk/LIS federal votes, and federal FEC Schedule A $200+. State ballots are pending until official lists clear. Donor lists are not sold."
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC bulk Schedule A $200+ (PA federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC candidate-committee linkage"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T15:58:08Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/campaign-finance/campaign-finance-data/2026.zip",
+      "retrieved_at": "2026-09-02T16:08:35Z",
+      "note": "Official PA DOS 2026 Full Campaign Finance Export"
+    },
+    {
+      "url": "https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/campaign-finance-data",
+      "retrieved_at": "2026-09-02T16:08:35Z",
+      "note": "PA DOS campaign-finance data landing"
+    },
+    {
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/campaign-finance/campaign-finance-data/readme-cf-data.txt",
+      "retrieved_at": "2026-09-02T16:08:35Z",
+      "note": "PA DOS campaign-finance export layout"
+    }
+  ],
+  "state_filings": {
+    "wired": true,
+    "donors": {
+      "status": "sourced",
+      "path": "/data/pa/dos-donors.json",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/campaign-finance/campaign-finance-data/2026.zip",
+      "retrieved_at": "2026-09-02T16:08:35Z",
+      "counts": {
+        "rows": 375604,
+        "filers": 1239,
+        "items_per_filer_cap": 25,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "federal_fec": {
+      "status": "partial",
+      "path": "/data/pa/fec-donors.json",
+      "scope": "Pennsylvania 2026 House/Senate federal FEC Schedule A $200+ only. State DOS 2026 Full Export is a separate sourced extract.",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "counts": {
+        "candidates": 114,
+        "with_receipts": 59,
+        "honest_empty": 55,
+        "kept_rows": 30261,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "dos_export": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/campaign-finance/campaign-finance-data/2026.zip",
+    "dos_landing": "https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/campaign-finance-data"
+  },
+  "votes_path": "/data/pa/votes.json",
+  "congress_delegation_path": "/data/pa/congress-delegation.json",
+  "legislature_vote_index_path": "/data/pa/legislature-vote-index.json"
+}

@@ -1,0 +1,124 @@
+{
+  "state": "PA",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "F000466",
+      "name": "Brian K. Fitzpatrick",
+      "district": "PA-01",
+      "votes_url": "https://clerk.house.gov/Members/F000466"
+    },
+    {
+      "bioguide": "B001296",
+      "name": "Brendan F. Boyle",
+      "district": "PA-02",
+      "votes_url": "https://clerk.house.gov/Members/B001296"
+    },
+    {
+      "bioguide": "E000296",
+      "name": "Dwight Evans",
+      "district": "PA-03",
+      "votes_url": "https://clerk.house.gov/Members/E000296"
+    },
+    {
+      "bioguide": "D000631",
+      "name": "Madeleine Dean",
+      "district": "PA-04",
+      "votes_url": "https://clerk.house.gov/Members/D000631"
+    },
+    {
+      "bioguide": "S001205",
+      "name": "Mary Gay Scanlon",
+      "district": "PA-05",
+      "votes_url": "https://clerk.house.gov/Members/S001205"
+    },
+    {
+      "bioguide": "H001085",
+      "name": "Chrissy Houlahan",
+      "district": "PA-06",
+      "votes_url": "https://clerk.house.gov/Members/H001085"
+    },
+    {
+      "bioguide": "M001230",
+      "name": "Ryan Mackenzie",
+      "district": "PA-07",
+      "votes_url": "https://clerk.house.gov/Members/M001230"
+    },
+    {
+      "bioguide": "B001327",
+      "name": "Robert P. Bresnahan, Jr.",
+      "district": "PA-08",
+      "votes_url": "https://clerk.house.gov/Members/B001327"
+    },
+    {
+      "bioguide": "M001204",
+      "name": "Daniel Meuser",
+      "district": "PA-09",
+      "votes_url": "https://clerk.house.gov/Members/M001204"
+    },
+    {
+      "bioguide": "P000605",
+      "name": "Scott Perry",
+      "district": "PA-10",
+      "votes_url": "https://clerk.house.gov/Members/P000605"
+    },
+    {
+      "bioguide": "S001199",
+      "name": "Lloyd Smucker",
+      "district": "PA-11",
+      "votes_url": "https://clerk.house.gov/Members/S001199"
+    },
+    {
+      "bioguide": "L000602",
+      "name": "Summer L. Lee",
+      "district": "PA-12",
+      "votes_url": "https://clerk.house.gov/Members/L000602"
+    },
+    {
+      "bioguide": "J000302",
+      "name": "John Joyce",
+      "district": "PA-13",
+      "votes_url": "https://clerk.house.gov/Members/J000302"
+    },
+    {
+      "bioguide": "R000610",
+      "name": "Guy Reschenthaler",
+      "district": "PA-14",
+      "votes_url": "https://clerk.house.gov/Members/R000610"
+    },
+    {
+      "bioguide": "T000467",
+      "name": "Glenn Thompson",
+      "district": "PA-15",
+      "votes_url": "https://clerk.house.gov/Members/T000467"
+    },
+    {
+      "bioguide": "K000376",
+      "name": "Mike Kelly",
+      "district": "PA-16",
+      "votes_url": "https://clerk.house.gov/Members/K000376"
+    },
+    {
+      "bioguide": "D000530",
+      "name": "Christopher R. Deluzio",
+      "district": "PA-17",
+      "votes_url": "https://clerk.house.gov/Members/D000530"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "F000479",
+      "name": "John Fetterman",
+      "last_name": "Fetterman",
+      "votes_url": "https://www.congress.gov/member/F000479"
+    },
+    {
+      "bioguide": "M001243",
+      "name": "David McCormick",
+      "last_name": "McCormick",
+      "votes_url": "https://www.congress.gov/member/M001243"
+    }
+  ],
+  "vacant": []
+}

@@ -1136,6 +1136,277 @@ if (ROOT / "tx" / "tec-donors.json").exists():
     if not tec.get("do_not_sell_donor_lists") or not tec.get("streets_omitted"):
         errors.append("TX TEC extract must omit streets and say do_not_sell_donor_lists")
 
+# Wave-3: FEC + Clerk/LIS votes for PA/OH/GA/NJ/NC. Ballots: NC 4256, NJ 97 federal_only, OH package 20 if present, PA/GA none.
+WAVE3_RETRIEVED = "2026-09-02T15:58:08Z"
+WAVE3_FEC = {
+    "PA": {"kept": 30261, "cands": 114, "with": 59, "empty": 55, "votes": 740, "bios": {"F000466", "B001296"}},
+    "OH": {"kept": 37133, "cands": 112, "with": 67, "empty": 45, "votes": 660, "bios": {"L000601", "T000490"}},
+    "GA": {"kept": 52119, "cands": 172, "with": 100, "empty": 72, "votes": 587, "bios": {"C001103", "B001328"}},
+    "NJ": {"kept": 32926, "cands": 127, "with": 80, "empty": 47, "votes": 540, "bios": {"N000188", "V000133"}},
+}
+WAVE3_NAMES = {
+    "PA": "Pennsylvania",
+    "OH": "Ohio",
+    "GA": "Georgia",
+    "NJ": "New Jersey",
+}
+for st, exp in WAVE3_FEC.items():
+    sl = st.lower()
+    stub_path = ROOT / f"{sl}.json"
+    fec_path = ROOT / sl / "fec-donors.json"
+    votes_path = ROOT / sl / "votes.json"
+    if not stub_path.exists():
+        errors.append(f"missing public/data/{sl}.json")
+        continue
+    stub = json.loads(stub_path.read_text())
+    if stub.get("votes_path") != f"/data/{sl}/votes.json":
+        errors.append(f"{st} votes_path missing")
+    if stub.get("election", {}).get("state_code") != st or stub.get("election", {}).get("jurisdiction") != WAVE3_NAMES[st]:
+        errors.append(f"{st} election must be {WAVE3_NAMES[st]} / {st}")
+    if any("ballotpedia" in u.lower() for u in _urls(stub)):
+        errors.append(f"{st} stub must not use Ballotpedia")
+    fec_block = ((stub.get("state_filings") or {}).get("federal_fec") or {}) if st == "PA" else ((stub.get("state_filings") or {}).get("donors") or {})
+    if st == "PA":
+        donors_block = ((stub.get("state_filings") or {}).get("donors") or {})
+        if donors_block.get("status") != "sourced" or donors_block.get("path") != "/data/pa/dos-donors.json":
+            errors.append("pa.json donors must be sourced at /data/pa/dos-donors.json")
+        if donors_block.get("counts", {}).get("rows") != 375604 or donors_block.get("counts", {}).get("filers") != 1239:
+            errors.append(f"pa.json DOS donor counts {donors_block.get('counts')}")
+        if donors_block.get("retrieved_at") != "2026-09-02T16:08:35Z":
+            errors.append("pa.json DOS retrieved_at must be 2026-09-02T16:08:35Z")
+        if not donors_block.get("do_not_sell_donor_lists"):
+            errors.append("pa.json donors must say do_not_sell_donor_lists")
+        if fec_block.get("status") != "partial" or fec_block.get("path") != "/data/pa/fec-donors.json":
+            errors.append("pa.json federal_fec must stay partial at /data/pa/fec-donors.json")
+        if stub.get("candidates_path") or (ROOT / "pa" / "candidates.json").exists():
+            errors.append("PA must not ship candidates until official ballots clear")
+    else:
+        donors_block = ((stub.get("state_filings") or {}).get("donors") or {})
+        if donors_block.get("status") != "partial" or donors_block.get("path") != f"/data/{sl}/fec-donors.json":
+            errors.append(f"{st} donors must stay federal FEC partial at /data/{sl}/fec-donors.json")
+        counts = donors_block.get("counts") or {}
+        if counts.get("candidates") != exp["cands"] or counts.get("kept_rows") != exp["kept"]:
+            errors.append(f"{st} donor counts {counts} != {exp['cands']} / {exp['kept']}")
+        if donors_block.get("retrieved_at") != WAVE3_RETRIEVED:
+            errors.append(f"{st} donors.retrieved_at must be {WAVE3_RETRIEVED}")
+        if not donors_block.get("do_not_sell_donor_lists"):
+            errors.append(f"{st} donors must say do_not_sell_donor_lists")
+    if not fec_path.exists():
+        errors.append(f"missing public/data/{sl}/fec-donors.json")
+    else:
+        fec = json.loads(fec_path.read_text())
+        if fec.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
+            errors.append(f"{st} FEC source_url must be official indiv26.zip")
+        if fec.get("fec_api_key_present"):
+            errors.append(f"{st} FEC must not use OpenFEC/DEMO_KEY")
+        if fec.get("row_count") != exp["kept"] or fec.get("candidate_count") != exp["cands"]:
+            errors.append(f"{st} FEC {fec.get('row_count')}/{fec.get('candidate_count')} != {exp['kept']}/{exp['cands']}")
+        with_n = sum(1 for v in (fec.get("by_candidate") or {}).values() if (v.get("item_count_all") or 0) > 0)
+        empty_n = sum(1 for v in (fec.get("by_candidate") or {}).values() if (v.get("item_count_all") or 0) == 0)
+        if with_n != exp["with"] or empty_n != exp["empty"]:
+            errors.append(f"{st} FEC with/empty {with_n}/{empty_n} != {exp['with']}/{exp['empty']}")
+        if not fec.get("do_not_sell_donor_lists") or not fec.get("streets_omitted"):
+            errors.append(f"{st} FEC extract must omit streets and say do_not_sell_donor_lists")
+        if fec.get("retrieved_at") != WAVE3_RETRIEVED:
+            errors.append(f"{st} FEC retrieved_at must be {WAVE3_RETRIEVED}")
+        if any("ballotpedia" in u.lower() or "open.fec.gov" in u.lower() for u in _urls(fec)):
+            errors.append(f"{st} FEC extract must not use Ballotpedia or OpenFEC")
+        street = {"street", "address", "addr", "zip", "zipcode", "contributor_zip"}
+        for rec in (fec.get("by_candidate") or {}).values():
+            for it in rec.get("items") or []:
+                if street & {k.lower() for k in it}:
+                    errors.append(f"{st} FEC item has a street-address or zip field")
+                    break
+            else:
+                continue
+            break
+    _check_votes(votes_path, st, exp["votes"], exp["bios"])
+    if votes_path.exists():
+        payload = json.loads(votes_path.read_text())
+        if payload.get("retrieved_at") != WAVE3_RETRIEVED:
+            errors.append(f"{st} votes retrieved_at must be {WAVE3_RETRIEVED}")
+    if st == "GA":
+        if stub.get("candidates_path") or (ROOT / "ga" / "candidates.json").exists():
+            errors.append("GA must not ship candidates until official ballots clear")
+        if votes_path.exists():
+            payload = json.loads(votes_path.read_text())
+            if (payload.get("counts_by_member") or {}).get("B001328") != 7:
+                errors.append("GA-13 Blair must keep official 7 Clerk rolls (sworn 2026-09-01); do not invent earlier votes")
+
+# Pennsylvania DOS 2026 Full Export (never wipe FEC)
+pa_dos = ROOT / "pa" / "dos-donors.json"
+if not pa_dos.exists():
+    errors.append("missing public/data/pa/dos-donors.json")
+else:
+    pad = json.loads(pa_dos.read_text())
+    if pad.get("row_count") != 375604 or pad.get("filer_count") != 1239:
+        errors.append(f"PA DOS {pad.get('row_count')}/{pad.get('filer_count')} != 375604/1239")
+    if pad.get("retrieved_at") != "2026-09-02T16:08:35Z":
+        errors.append("PA DOS retrieved_at must be 2026-09-02T16:08:35Z")
+    if "2026.zip" not in (pad.get("source_url") or ""):
+        errors.append("PA DOS source_url must be official 2026.zip")
+    if not pad.get("do_not_sell_donor_lists") or not pad.get("streets_omitted"):
+        errors.append("PA DOS extract must omit streets and say do_not_sell_donor_lists")
+    if any("ballotpedia" in u.lower() for u in _urls(pad)):
+        errors.append("PA DOS extract must not use Ballotpedia")
+    street = {"street", "address", "addr", "zip", "zipcode", "contributor_zip"}
+    for rec in (pad.get("by_candidate") or {}).values():
+        for it in rec.get("items") or []:
+            if street & {k.lower() for k in it}:
+                errors.append("PA DOS item has a street-address or zip field")
+                break
+        else:
+            continue
+        break
+
+# New Jersey official federal candidate PDFs (primary 57 + general 40 = 97)
+nj_cands_path = ROOT / "nj" / "candidates.json"
+if not nj_cands_path.exists():
+    errors.append("missing public/data/nj/candidates.json")
+else:
+    nj_cands = json.loads(nj_cands_path.read_text())
+    if not isinstance(nj_cands, list) or len(nj_cands) != 97:
+        errors.append(f"NJ candidates.json rows {len(nj_cands) if isinstance(nj_cands, list) else type(nj_cands)} != 97")
+    else:
+        kinds = Counter(r.get("list_kind") for r in nj_cands)
+        if kinds.get("official_primary") != 57 or kinds.get("official_general") != 40:
+            errors.append(f"NJ list_kind split {dict(kinds)} != 57/40")
+        if any(r.get("federal_only") is not True for r in nj_cands):
+            errors.append("NJ candidates must be labeled federal_only")
+        if any(not str(r.get("contest_key") or "").startswith("NJ|") or str(r.get("contest_key") or "").count("|") != 3 for r in nj_cands):
+            errors.append("NJ contest_key must be NJ|OFFICE|DIST|")
+        if any(r.get("complete") is not False for r in nj_cands):
+            errors.append("NJ candidates must be labeled complete=false")
+        if any(r.get("retrieved_at") != "2026-09-02T16:10:00Z" for r in nj_cands):
+            errors.append("NJ candidates retrieved_at must be 2026-09-02T16:10:00Z")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in nj_cands):
+            errors.append("NJ candidates must not use Ballotpedia")
+        if any("nj.gov/state/elections" not in (r.get("source_url") or "") for r in nj_cands):
+            errors.append("NJ candidates source_url must be official nj.gov elections PDFs")
+        if not any(r.get("candidate_name") == "CORY BOOKER" and r.get("office") == "U.S. Senate" for r in nj_cands):
+            errors.append("NJ list missing filed name CORY BOOKER")
+        if not any(r.get("candidate_name") == "DONALD NORCROSS" for r in nj_cands):
+            errors.append("NJ list missing filed name DONALD NORCROSS")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in nj_cands):
+            errors.append("NJ candidates must omit streets/email/phone")
+nj_stub = json.loads((ROOT / "nj.json").read_text()) if (ROOT / "nj.json").exists() else {}
+if nj_stub.get("candidates_path") != "/data/nj/candidates.json":
+    errors.append("nj.json candidates_path missing")
+
+# Ohio: 20 Dir 2026-45 statewide (complete=false) + votes + FEC. No US House. No 31-row dump.
+oh_cands_path = ROOT / "oh" / "candidates.json"
+oh_stub = json.loads((ROOT / "oh.json").read_text()) if (ROOT / "oh.json").exists() else {}
+if not (oh_stub.get("election") or {}).get("ballots_incomplete"):
+    errors.append("oh.json must label ballots incomplete")
+if oh_stub.get("candidates_path") != "/data/oh/candidates.json":
+    errors.append("oh.json candidates_path missing")
+if not oh_cands_path.exists():
+    errors.append("missing public/data/oh/candidates.json")
+else:
+    oh_cands = json.loads(oh_cands_path.read_text())
+    if not isinstance(oh_cands, list) or len(oh_cands) != 20:
+        errors.append(f"OH candidates.json rows {len(oh_cands) if isinstance(oh_cands, list) else type(oh_cands)} != 20 Dir 2026-45 statewide")
+    else:
+        if {r.get("list_kind") for r in oh_cands} != {"dir_2026_45"}:
+            errors.append("OH list_kind must be dir_2026_45")
+        if any(r.get("complete") is not False for r in oh_cands):
+            errors.append("OH candidates must be labeled complete=false")
+        if any(r.get("directive") != "2026-45" for r in oh_cands):
+            errors.append("OH candidates must be labeled directive 2026-45")
+        if any(r.get("retrieved_at") != "2026-09-02T16:45:00Z" for r in oh_cands):
+            errors.append("OH candidates retrieved_at must be 2026-09-02T16:45:00Z")
+        if any((r.get("office") or "").lower().startswith("u.s. house") or (r.get("office") or "").lower().startswith("us house") for r in oh_cands):
+            errors.append("OH package must not invent US House rows")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in oh_cands):
+            errors.append("OH candidates must not use Ballotpedia")
+        if not any(r.get("candidate_name") == "Sherrod Brown" and r.get("office") == "U.S. Senate" for r in oh_cands):
+            errors.append("OH list missing filed name Sherrod Brown")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in oh_cands):
+            errors.append("OH candidates must omit streets/email/phone")
+if (ROOT / "oh" / "candidate-summary.json").exists():
+    oh_sum = json.loads((ROOT / "oh" / "candidate-summary.json").read_text())
+    if oh_sum.get("row_count") != 20 or oh_sum.get("complete") is not False:
+        errors.append(f"OH candidate-summary {oh_sum}")
+else:
+    errors.append("missing public/data/oh/candidate-summary.json")
+
+nc_stub_path = ROOT / "nc.json"
+nc_cands_path = ROOT / "nc" / "candidates.json"
+nc_fec_path = ROOT / "nc" / "fec-donors.json"
+if not nc_stub_path.exists():
+    errors.append("missing public/data/nc.json")
+else:
+    ncj = json.loads(nc_stub_path.read_text())
+    if ncj.get("candidates_path") != "/data/nc/candidates.json" or ncj.get("votes_path") != "/data/nc/votes.json":
+        errors.append("nc.json candidates_path/votes_path missing")
+    donors_block = ((ncj.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") != "partial" or donors_block.get("path") != "/data/nc/fec-donors.json":
+        errors.append("nc.json donors must stay federal FEC partial at /data/nc/fec-donors.json")
+    counts = donors_block.get("counts") or {}
+    if counts.get("candidates") != 130 or counts.get("kept_rows") != 29603:
+        errors.append(f"nc.json donor counts {counts} != 130 / 29603")
+    if donors_block.get("retrieved_at") != WAVE3_RETRIEVED:
+        errors.append("nc.json donors.retrieved_at must be 2026-09-02T15:58:08Z")
+    if ncj.get("election", {}).get("state_code") != "NC" or ncj.get("election", {}).get("jurisdiction") != "North Carolina":
+        errors.append("nc.json election must be North Carolina / NC")
+    if any("ballotpedia" in u.lower() for u in _urls(ncj)):
+        errors.append("nc.json must not use Ballotpedia")
+if not nc_cands_path.exists():
+    errors.append("missing public/data/nc/candidates.json")
+else:
+    nc_cands = json.loads(nc_cands_path.read_text())
+    if not isinstance(nc_cands, list) or len(nc_cands) != 4256:
+        errors.append(f"NC candidates.json rows {len(nc_cands) if isinstance(nc_cands, list) else type(nc_cands)} != 4256")
+    else:
+        kinds = Counter(r.get("list_kind") for r in nc_cands)
+        if kinds.get("ncsbe_general") != 2789 or kinds.get("ncsbe_primary") != 1467:
+            errors.append(f"NC list_kind split {dict(kinds)} != 2789/1467")
+        keys = {r.get("contest_key") for r in nc_cands}
+        if len(keys) != 1377:
+            errors.append(f"NC contest_keys {len(keys)} != 1377")
+        if any(not str(r.get("contest_key") or "").startswith("NC|") or str(r.get("contest_key") or "").count("|") != 3 for r in nc_cands):
+            errors.append("NC contest_key must be NC|OFFICE|DIST|")
+        if any(r.get("retrieved_at") != "2026-09-02T16:05:00Z" for r in nc_cands):
+            errors.append("NC candidates retrieved_at must be 2026-09-02T16:05:00Z")
+        if any(r.get("complete") is not False for r in nc_cands):
+            errors.append("NC candidates must be labeled complete=false")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in nc_cands):
+            errors.append("NC candidates must not use Ballotpedia")
+        if any("ncsbe.gov" not in (r.get("source_url") or "") and "dl.ncsbe.gov" not in (r.get("source_url") or "") for r in nc_cands):
+            errors.append("NC candidates source_url must be official NCSBE CSV")
+        if not any(r.get("candidate_name") == "Roy Cooper" and r.get("office") == "US SENATE" for r in nc_cands):
+            errors.append("NC list missing filed name Roy Cooper")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in nc_cands):
+            errors.append("NC candidates must omit streets/email/phone")
+if (ROOT / "nc" / "candidate-summary.json").exists():
+    nc_sum = json.loads((ROOT / "nc" / "candidate-summary.json").read_text())
+    if nc_sum.get("row_count") != 4256 or nc_sum.get("contest_key_count") != 1377:
+        errors.append(f"NC candidate-summary counts {nc_sum}")
+    if nc_sum.get("complete") is not False or nc_sum.get("certified") is not False:
+        errors.append("NC candidate-summary must be complete=false certified=false")
+else:
+    errors.append("missing public/data/nc/candidate-summary.json")
+if not nc_fec_path.exists():
+    errors.append("missing public/data/nc/fec-donors.json")
+else:
+    ncfec = json.loads(nc_fec_path.read_text())
+    if ncfec.get("row_count") != 29603 or ncfec.get("candidate_count") != 130:
+        errors.append(f"NC FEC {ncfec.get('row_count')}/{ncfec.get('candidate_count')} != 29603/130")
+    if not ncfec.get("do_not_sell_donor_lists") or not ncfec.get("streets_omitted"):
+        errors.append("NC FEC extract must omit streets and say do_not_sell_donor_lists")
+    if ncfec.get("retrieved_at") != WAVE3_RETRIEVED:
+        errors.append("NC FEC retrieved_at must be 2026-09-02T15:58:08Z")
+    if any("ballotpedia" in u.lower() or "open.fec.gov" in u.lower() for u in _urls(ncfec)):
+        errors.append("NC FEC extract must not use Ballotpedia or OpenFEC")
+_check_votes(ROOT / "nc" / "votes.json", "NC", 620, {"D000230", "R000305"})
+if (ROOT / "nc" / "votes.json").exists():
+    ncv = json.loads((ROOT / "nc" / "votes.json").read_text())
+    if ncv.get("retrieved_at") != WAVE3_RETRIEVED:
+        errors.append("NC votes retrieved_at must be 2026-09-02T15:58:08Z")
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -1243,3 +1514,26 @@ if (ROOT / "tx" / "candidates.json").exists():
         "TX TEC",
         json.loads((ROOT / "tx" / "tec-donors.json").read_text()).get("row_count"),
     )
+if (ROOT / "nc" / "candidates.json").exists():
+    print(
+        "OK NC ballots",
+        len(json.loads((ROOT / "nc" / "candidates.json").read_text())),
+        "NC votes",
+        json.loads((ROOT / "nc" / "votes.json").read_text()).get("count"),
+        "NC FEC",
+        json.loads((ROOT / "nc" / "fec-donors.json").read_text()).get("row_count"),
+    )
+for st in ("pa", "oh", "ga", "nj"):
+    if (ROOT / st / "votes.json").exists() and (ROOT / st / "fec-donors.json").exists():
+        extra = ""
+        if (ROOT / st / "candidates.json").exists():
+            extra = f" {st.upper()} ballots {len(json.loads((ROOT / st / 'candidates.json').read_text()))}"
+        if st == "pa" and (ROOT / "pa" / "dos-donors.json").exists():
+            extra += f" PA DOS {json.loads((ROOT / 'pa' / 'dos-donors.json').read_text()).get('row_count')}"
+        print(
+            f"OK {st.upper()} votes",
+            json.loads((ROOT / st / "votes.json").read_text()).get("count"),
+            f"{st.upper()} FEC",
+            json.loads((ROOT / st / "fec-donors.json").read_text()).get("row_count"),
+            extra,
+        )

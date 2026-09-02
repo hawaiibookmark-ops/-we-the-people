@@ -1,0 +1,20 @@
+{
+  "state": "PA",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "sources": [
+    {
+      "label": "Pennsylvania General Assembly (official)",
+      "url": "https://www.legis.state.pa.us/"
+    },
+    {
+      "label": "Pennsylvania House of Representatives",
+      "url": "https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=H"
+    },
+    {
+      "label": "Pennsylvania Senate",
+      "url": "https://www.legis.state.pa.us/cfdocs/legis/home/member_information/mbrList.cfm?body=S"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "state": "NJ",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "sources": [
+    {
+      "label": "New Jersey Legislature (official)",
+      "url": "https://www.njleg.state.nj.us/"
+    },
+    {
+      "label": "New Jersey General Assembly",
+      "url": "https://www.njleg.state.nj.us/legislative-roster?chamber=G"
+    },
+    {
+      "label": "New Jersey Senate",
+      "url": "https://www.njleg.state.nj.us/legislative-roster?chamber=S"
+    }
+  ]
+}

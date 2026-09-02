@@ -1,0 +1,18 @@
+{
+  "row_count": 4256,
+  "contest_key_count": 1377,
+  "list_kind": [
+    "ncsbe_general",
+    "ncsbe_primary"
+  ],
+  "by_list_kind": {
+    "ncsbe_general": 2789,
+    "ncsbe_primary": 1467
+  },
+  "complete": false,
+  "certified": false,
+  "source_url": "https://s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/Candidate_Listing_2026.csv",
+  "landing_url": "https://www.ncsbe.gov/results-data/candidate-lists",
+  "retrieved_at": "2026-09-02T16:05:00Z",
+  "note": "Official NCSBE Candidate_Listing_2026.csv. Statewide/federal/legislative names are deduped across county repeats. Local contests keep county. Streets, phone, and email omitted. November general is not yet final (complete=false). No Ballotpedia."
+}

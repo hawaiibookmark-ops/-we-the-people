@@ -1,0 +1,101 @@
+{
+  "election": {
+    "jurisdiction": "New Jersey",
+    "state_code": "NJ",
+    "general_date": "2026-11-03",
+    "note": "Official NJ Division of Elections federal_only candidate PDFs (primary + general; complete=false — state offices not included), Clerk/LIS federal votes, and federal FEC Schedule A $200+. State campaign-finance bulk is pending. Donor lists are not sold."
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC bulk Schedule A $200+ (NJ federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC candidate-committee linkage"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T15:58:08Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://nj.gov/state/elections/election-information-2026.shtml",
+      "retrieved_at": "2026-09-02T16:10:00Z",
+      "note": "NJ Division of Elections 2026 information"
+    },
+    {
+      "url": "https://www.nj.gov/state/elections/assets/pdf/election-results/2026/2026-official-primary-candidates-us-senate.pdf",
+      "retrieved_at": "2026-09-02T16:10:00Z",
+      "note": "Official NJ official_primary U.S. Senate candidate PDF"
+    },
+    {
+      "url": "https://www.nj.gov/state/elections/assets/pdf/election-results/2026/2026-official-primary-candidates-us-house.pdf",
+      "retrieved_at": "2026-09-02T16:10:00Z",
+      "note": "Official NJ official_primary U.S. House candidate PDF"
+    },
+    {
+      "url": "https://www.nj.gov/state/elections/assets/pdf/election-results/2026/2026-official-general-candidates-us-senate.pdf",
+      "retrieved_at": "2026-09-02T16:10:00Z",
+      "note": "Official NJ official_general U.S. Senate candidate PDF"
+    },
+    {
+      "url": "https://www.nj.gov/state/elections/assets/pdf/election-results/2026/2026-official-general-candidates-us-house.pdf",
+      "retrieved_at": "2026-09-02T16:10:00Z",
+      "note": "Official NJ official_general U.S. House candidate PDF"
+    }
+  ],
+  "state_filings": {
+    "wired": true,
+    "donors": {
+      "status": "partial",
+      "path": "/data/nj/fec-donors.json",
+      "scope": "New Jersey 2026 House/Senate federal FEC Schedule A $200+ only. State campaign-finance bulk is pending (no standing statewide Schedule A extract in this populate).",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "counts": {
+        "candidates": 127,
+        "with_receipts": 80,
+        "honest_empty": 47,
+        "kept_rows": 32926,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "state_donors": {
+      "status": "pending",
+      "reason": "New Jersey statewide campaign-finance bulk is not extracted in this populate. State donor names are not invented. Federal FEC Schedule A $200+ is partial.",
+      "do_not_sell_donor_lists": true
+    },
+    "nj_elections_landing": "https://nj.gov/state/elections/election-information-2026.shtml"
+  },
+  "votes_path": "/data/nj/votes.json",
+  "congress_delegation_path": "/data/nj/congress-delegation.json",
+  "legislature_vote_index_path": "/data/nj/legislature-vote-index.json",
+  "candidates_path": "/data/nj/candidates.json",
+  "candidate_summary_path": "/data/nj/candidate-summary.json"
+}
