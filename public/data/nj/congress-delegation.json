@@ -1,0 +1,94 @@
+{
+  "state": "NJ",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "N000188",
+      "name": "Donald Norcross",
+      "district": "NJ-01",
+      "votes_url": "https://clerk.house.gov/Members/N000188"
+    },
+    {
+      "bioguide": "V000133",
+      "name": "Jefferson Van Drew",
+      "district": "NJ-02",
+      "votes_url": "https://clerk.house.gov/Members/V000133"
+    },
+    {
+      "bioguide": "C001136",
+      "name": "Herbert C. Conaway, Jr.",
+      "district": "NJ-03",
+      "votes_url": "https://clerk.house.gov/Members/C001136"
+    },
+    {
+      "bioguide": "S000522",
+      "name": "Christopher H. Smith",
+      "district": "NJ-04",
+      "votes_url": "https://clerk.house.gov/Members/S000522"
+    },
+    {
+      "bioguide": "G000583",
+      "name": "Josh Gottheimer",
+      "district": "NJ-05",
+      "votes_url": "https://clerk.house.gov/Members/G000583"
+    },
+    {
+      "bioguide": "P000034",
+      "name": "Frank Pallone, Jr.",
+      "district": "NJ-06",
+      "votes_url": "https://clerk.house.gov/Members/P000034"
+    },
+    {
+      "bioguide": "K000398",
+      "name": "Thomas H. Kean, Jr.",
+      "district": "NJ-07",
+      "votes_url": "https://clerk.house.gov/Members/K000398"
+    },
+    {
+      "bioguide": "M001226",
+      "name": "Robert Menendez",
+      "district": "NJ-08",
+      "votes_url": "https://clerk.house.gov/Members/M001226"
+    },
+    {
+      "bioguide": "P000621",
+      "name": "Nellie Pou",
+      "district": "NJ-09",
+      "votes_url": "https://clerk.house.gov/Members/P000621"
+    },
+    {
+      "bioguide": "M001229",
+      "name": "LaMonica McIver",
+      "district": "NJ-10",
+      "votes_url": "https://clerk.house.gov/Members/M001229"
+    },
+    {
+      "bioguide": "M001246",
+      "name": "Analilia Mejia",
+      "district": "NJ-11",
+      "votes_url": "https://clerk.house.gov/Members/M001246"
+    },
+    {
+      "bioguide": "W000822",
+      "name": "Bonnie Watson Coleman",
+      "district": "NJ-12",
+      "votes_url": "https://clerk.house.gov/Members/W000822"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "B001288",
+      "name": "Cory A. Booker",
+      "last_name": "Booker",
+      "votes_url": "https://www.congress.gov/member/B001288"
+    },
+    {
+      "bioguide": "K000394",
+      "name": "Andy Kim",
+      "last_name": "Kim",
+      "votes_url": "https://www.congress.gov/member/K000394"
+    }
+  ],
+  "vacant": []
+}

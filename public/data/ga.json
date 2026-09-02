@@ -1,0 +1,73 @@
+{
+  "election": {
+    "jurisdiction": "Georgia",
+    "state_code": "GA",
+    "general_date": "2026-11-03",
+    "note": "Official Georgia Clerk/LIS federal votes and 2026 House/Senate federal FEC Schedule A $200+. State ballots are not shipped (official lists not cleared). State campaign-finance bulk is pending. Donor lists are not sold."
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC bulk Schedule A $200+ (GA federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC candidate-committee linkage"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T15:58:08Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "Senate.gov sitting senators"
+    }
+  ],
+  "state_filings": {
+    "wired": true,
+    "donors": {
+      "status": "partial",
+      "path": "/data/ga/fec-donors.json",
+      "scope": "Georgia 2026 House/Senate federal FEC Schedule A $200+ only. State campaign-finance bulk is pending (no standing statewide Schedule A extract in this populate).",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "counts": {
+        "candidates": 172,
+        "with_receipts": 100,
+        "honest_empty": 72,
+        "kept_rows": 52119,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "state_donors": {
+      "status": "pending",
+      "reason": "Georgia statewide campaign-finance bulk is not extracted in this populate. State donor names are not invented. Federal FEC Schedule A $200+ is partial.",
+      "do_not_sell_donor_lists": true
+    }
+  },
+  "votes_path": "/data/ga/votes.json",
+  "congress_delegation_path": "/data/ga/congress-delegation.json",
+  "legislature_vote_index_path": "/data/ga/legislature-vote-index.json"
+}

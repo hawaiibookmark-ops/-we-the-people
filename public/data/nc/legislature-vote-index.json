@@ -1,0 +1,20 @@
+{
+  "state": "NC",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "sources": [
+    {
+      "label": "North Carolina General Assembly (official)",
+      "url": "https://www.ncleg.gov/"
+    },
+    {
+      "label": "North Carolina House of Representatives",
+      "url": "https://www.ncleg.gov/House"
+    },
+    {
+      "label": "North Carolina Senate",
+      "url": "https://www.ncleg.gov/Senate"
+    }
+  ]
+}

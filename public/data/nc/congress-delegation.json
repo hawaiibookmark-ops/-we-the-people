@@ -1,0 +1,106 @@
+{
+  "state": "NC",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "D000230",
+      "name": "Donald G. Davis",
+      "district": "NC-01",
+      "votes_url": "https://clerk.house.gov/Members/D000230"
+    },
+    {
+      "bioguide": "R000305",
+      "name": "Deborah K. Ross",
+      "district": "NC-02",
+      "votes_url": "https://clerk.house.gov/Members/R000305"
+    },
+    {
+      "bioguide": "M001210",
+      "name": "Gregory F. Murphy",
+      "district": "NC-03",
+      "votes_url": "https://clerk.house.gov/Members/M001210"
+    },
+    {
+      "bioguide": "F000477",
+      "name": "Valerie P. Foushee",
+      "district": "NC-04",
+      "votes_url": "https://clerk.house.gov/Members/F000477"
+    },
+    {
+      "bioguide": "F000450",
+      "name": "Virginia Foxx",
+      "district": "NC-05",
+      "votes_url": "https://clerk.house.gov/Members/F000450"
+    },
+    {
+      "bioguide": "M001240",
+      "name": "Addison P. McDowell",
+      "district": "NC-06",
+      "votes_url": "https://clerk.house.gov/Members/M001240"
+    },
+    {
+      "bioguide": "R000603",
+      "name": "David Rouzer",
+      "district": "NC-07",
+      "votes_url": "https://clerk.house.gov/Members/R000603"
+    },
+    {
+      "bioguide": "H001102",
+      "name": "Mark Harris",
+      "district": "NC-08",
+      "votes_url": "https://clerk.house.gov/Members/H001102"
+    },
+    {
+      "bioguide": "H001067",
+      "name": "Richard Hudson",
+      "district": "NC-09",
+      "votes_url": "https://clerk.house.gov/Members/H001067"
+    },
+    {
+      "bioguide": "H001101",
+      "name": "Pat Harrigan",
+      "district": "NC-10",
+      "votes_url": "https://clerk.house.gov/Members/H001101"
+    },
+    {
+      "bioguide": "E000246",
+      "name": "Chuck Edwards",
+      "district": "NC-11",
+      "votes_url": "https://clerk.house.gov/Members/E000246"
+    },
+    {
+      "bioguide": "A000370",
+      "name": "Alma S. Adams",
+      "district": "NC-12",
+      "votes_url": "https://clerk.house.gov/Members/A000370"
+    },
+    {
+      "bioguide": "K000405",
+      "name": "Brad Knott",
+      "district": "NC-13",
+      "votes_url": "https://clerk.house.gov/Members/K000405"
+    },
+    {
+      "bioguide": "M001236",
+      "name": "Tim Moore",
+      "district": "NC-14",
+      "votes_url": "https://clerk.house.gov/Members/M001236"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "B001305",
+      "name": "Ted Budd",
+      "last_name": "Budd",
+      "votes_url": "https://www.congress.gov/member/B001305"
+    },
+    {
+      "bioguide": "T000476",
+      "name": "Thom Tillis",
+      "last_name": "Tillis",
+      "votes_url": "https://www.congress.gov/member/T000476"
+    }
+  ],
+  "vacant": []
+}

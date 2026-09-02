@@ -1,0 +1,112 @@
+{
+  "state": "OH",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "L000601",
+      "name": "Greg Landsman",
+      "district": "OH-01",
+      "votes_url": "https://clerk.house.gov/Members/L000601"
+    },
+    {
+      "bioguide": "T000490",
+      "name": "David J. Taylor",
+      "district": "OH-02",
+      "votes_url": "https://clerk.house.gov/Members/T000490"
+    },
+    {
+      "bioguide": "B001281",
+      "name": "Joyce Beatty",
+      "district": "OH-03",
+      "votes_url": "https://clerk.house.gov/Members/B001281"
+    },
+    {
+      "bioguide": "J000289",
+      "name": "Jim Jordan",
+      "district": "OH-04",
+      "votes_url": "https://clerk.house.gov/Members/J000289"
+    },
+    {
+      "bioguide": "L000566",
+      "name": "Robert E. Latta",
+      "district": "OH-05",
+      "votes_url": "https://clerk.house.gov/Members/L000566"
+    },
+    {
+      "bioguide": "R000619",
+      "name": "Michael A. Rulli",
+      "district": "OH-06",
+      "votes_url": "https://clerk.house.gov/Members/R000619"
+    },
+    {
+      "bioguide": "M001222",
+      "name": "Max L. Miller",
+      "district": "OH-07",
+      "votes_url": "https://clerk.house.gov/Members/M001222"
+    },
+    {
+      "bioguide": "D000626",
+      "name": "Warren Davidson",
+      "district": "OH-08",
+      "votes_url": "https://clerk.house.gov/Members/D000626"
+    },
+    {
+      "bioguide": "K000009",
+      "name": "Marcy Kaptur",
+      "district": "OH-09",
+      "votes_url": "https://clerk.house.gov/Members/K000009"
+    },
+    {
+      "bioguide": "T000463",
+      "name": "Michael R. Turner",
+      "district": "OH-10",
+      "votes_url": "https://clerk.house.gov/Members/T000463"
+    },
+    {
+      "bioguide": "B001313",
+      "name": "Shontel M. Brown",
+      "district": "OH-11",
+      "votes_url": "https://clerk.house.gov/Members/B001313"
+    },
+    {
+      "bioguide": "B001306",
+      "name": "Troy Balderson",
+      "district": "OH-12",
+      "votes_url": "https://clerk.house.gov/Members/B001306"
+    },
+    {
+      "bioguide": "S001223",
+      "name": "Emilia Strong Sykes",
+      "district": "OH-13",
+      "votes_url": "https://clerk.house.gov/Members/S001223"
+    },
+    {
+      "bioguide": "J000295",
+      "name": "David P. Joyce",
+      "district": "OH-14",
+      "votes_url": "https://clerk.house.gov/Members/J000295"
+    },
+    {
+      "bioguide": "C001126",
+      "name": "Mike Carey",
+      "district": "OH-15",
+      "votes_url": "https://clerk.house.gov/Members/C001126"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "H001104",
+      "name": "Jon Husted",
+      "last_name": "Husted",
+      "votes_url": "https://www.congress.gov/member/H001104"
+    },
+    {
+      "bioguide": "M001242",
+      "name": "Bernie Moreno",
+      "last_name": "Moreno",
+      "votes_url": "https://www.congress.gov/member/M001242"
+    }
+  ],
+  "vacant": []
+}

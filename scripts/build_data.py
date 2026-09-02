@@ -918,6 +918,44 @@ def main() -> int:
         print("Preserving committed tx/fec-donors.json (FEC Schedule A $200+).", flush=True)
     if (OUT / "tx" / "tec-donors.json").exists():
         print("Preserving committed tx/tec-donors.json (TEC itemized contributions).", flush=True)
+    if (OUT / "pa.json").exists():
+        print("Preserving committed pa.json (Pennsylvania state module stub).", flush=True)
+    if (OUT / "pa" / "fec-donors.json").exists():
+        print("Preserving committed pa/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "pa" / "dos-donors.json").exists():
+        print("Preserving committed pa/dos-donors.json (PA DOS 2026 Full Export).", flush=True)
+    if (OUT / "pa" / "votes.json").exists():
+        print("Preserving committed pa/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "oh.json").exists():
+        print("Preserving committed oh.json (Ohio state module stub).", flush=True)
+    if (OUT / "oh" / "fec-donors.json").exists():
+        print("Preserving committed oh/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "oh" / "candidates.json").exists():
+        print("Preserving committed oh/candidates.json (SOS Dir 2026-45 statewide, 20 rows).", flush=True)
+    if (OUT / "oh" / "votes.json").exists():
+        print("Preserving committed oh/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "ga.json").exists():
+        print("Preserving committed ga.json (Georgia state module stub).", flush=True)
+    if (OUT / "ga" / "fec-donors.json").exists():
+        print("Preserving committed ga/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "ga" / "votes.json").exists():
+        print("Preserving committed ga/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "nc.json").exists():
+        print("Preserving committed nc.json (North Carolina state module stub).", flush=True)
+    if (OUT / "nc" / "candidates.json").exists():
+        print("Preserving committed nc/candidates.json (NCSBE Candidate_Listing_2026).", flush=True)
+    if (OUT / "nc" / "fec-donors.json").exists():
+        print("Preserving committed nc/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "nc" / "votes.json").exists():
+        print("Preserving committed nc/votes.json (Clerk EVS + Senate LIS).", flush=True)
+    if (OUT / "nj.json").exists():
+        print("Preserving committed nj.json (New Jersey state module stub).", flush=True)
+    if (OUT / "nj" / "fec-donors.json").exists():
+        print("Preserving committed nj/fec-donors.json (FEC Schedule A $200+).", flush=True)
+    if (OUT / "nj" / "candidates.json").exists():
+        print("Preserving committed nj/candidates.json (NJ DOE federal candidate PDFs).", flush=True)
+    if (OUT / "nj" / "votes.json").exists():
+        print("Preserving committed nj/votes.json (Clerk EVS + Senate LIS).", flush=True)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote", OUT)
     print("ZIPs", len(zips_compact), "HI contests", len(hi_contests), "federal states", len(federal_plain))

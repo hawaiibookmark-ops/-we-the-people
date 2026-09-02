@@ -1,0 +1,18 @@
+{
+  "row_count": 97,
+  "contest_key_count": 13,
+  "list_kind": [
+    "official_general",
+    "official_primary"
+  ],
+  "by_list_kind": {
+    "official_primary": 57,
+    "official_general": 40
+  },
+  "complete": false,
+  "certified": false,
+  "source_url": "https://nj.gov/state/elections/election-information-2026.shtml",
+  "retrieved_at": "2026-09-02T16:10:00Z",
+  "note": "Official New Jersey Division of Elections federal_only candidate PDFs (primary US Senate/House + general US Senate/House). State offices are not on these lists (complete=false). Streets omitted. No Ballotpedia.",
+  "federal_only": true
+}

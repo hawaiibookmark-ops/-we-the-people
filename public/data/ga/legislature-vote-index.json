@@ -1,0 +1,20 @@
+{
+  "state": "GA",
+  "kind": "legislature_vote_index",
+  "note": "Official source URL index only. State legislative floor votes are not extracted in this populate.",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "sources": [
+    {
+      "label": "Georgia General Assembly (official)",
+      "url": "https://www.legis.ga.gov/"
+    },
+    {
+      "label": "Georgia House of Representatives",
+      "url": "https://www.legis.ga.gov/house"
+    },
+    {
+      "label": "Georgia Senate",
+      "url": "https://www.legis.ga.gov/senate"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "election": {
+    "jurisdiction": "Ohio",
+    "state_code": "OH",
+    "general_date": "2026-11-03",
+    "note": "Official Ohio SOS Dir 2026-45 statewide candidate extract (20 rows, complete=false; US House and county offices are not on this list), Clerk/LIS federal votes, and federal FEC Schedule A $200+. State campaign-finance bulk is pending. Donor lists are not sold.",
+    "ballots_incomplete": true
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC bulk Schedule A $200+ (OH federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC candidate master"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "FEC candidate-committee linkage"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-02T15:58:08Z"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "Clerk MemberData sitting House members"
+    },
+    {
+      "url": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "note": "Senate.gov sitting senators"
+    },
+    {
+      "url": "https://www.ohiosos.gov/office/media-center/categories/press-releases/2026-02-04",
+      "retrieved_at": "2026-09-02T16:45:00Z",
+      "note": "Official SOS Dir 2026-45 statewide extract (20 rows, complete=false). No live SOS re-fetch."
+    }
+  ],
+  "state_filings": {
+    "wired": true,
+    "donors": {
+      "status": "partial",
+      "path": "/data/oh/fec-donors.json",
+      "scope": "Ohio 2026 House/Senate federal FEC Schedule A $200+ only. State campaign-finance bulk is pending (no standing statewide Schedule A extract in this populate).",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-02T15:58:08Z",
+      "counts": {
+        "candidates": 112,
+        "with_receipts": 67,
+        "honest_empty": 45,
+        "kept_rows": 37133,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026
+      },
+      "do_not_sell_donor_lists": true
+    },
+    "state_donors": {
+      "status": "pending",
+      "reason": "Ohio statewide campaign-finance bulk is not extracted in this populate. State donor names are not invented. Federal FEC Schedule A $200+ is partial.",
+      "do_not_sell_donor_lists": true
+    },
+    "sos_directive": "2026-45"
+  },
+  "votes_path": "/data/oh/votes.json",
+  "congress_delegation_path": "/data/oh/congress-delegation.json",
+  "legislature_vote_index_path": "/data/oh/legislature-vote-index.json",
+  "candidates_path": "/data/oh/candidates.json",
+  "candidate_summary_path": "/data/oh/candidate-summary.json"
+}

@@ -1,0 +1,106 @@
+{
+  "state": "GA",
+  "retrieved_at": "2026-09-02T15:58:08Z",
+  "source_url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+  "house": [
+    {
+      "bioguide": "C001103",
+      "name": "Earl L. \"Buddy\" Carter",
+      "district": "GA-01",
+      "votes_url": "https://clerk.house.gov/Members/C001103"
+    },
+    {
+      "bioguide": "B000490",
+      "name": "Sanford D. Bishop, Jr.",
+      "district": "GA-02",
+      "votes_url": "https://clerk.house.gov/Members/B000490"
+    },
+    {
+      "bioguide": "J000311",
+      "name": "Brian Jack",
+      "district": "GA-03",
+      "votes_url": "https://clerk.house.gov/Members/J000311"
+    },
+    {
+      "bioguide": "J000288",
+      "name": "Henry C. \"Hank\" Johnson, Jr.",
+      "district": "GA-04",
+      "votes_url": "https://clerk.house.gov/Members/J000288"
+    },
+    {
+      "bioguide": "W000788",
+      "name": "Nikema Williams",
+      "district": "GA-05",
+      "votes_url": "https://clerk.house.gov/Members/W000788"
+    },
+    {
+      "bioguide": "M001208",
+      "name": "Lucy McBath",
+      "district": "GA-06",
+      "votes_url": "https://clerk.house.gov/Members/M001208"
+    },
+    {
+      "bioguide": "M001218",
+      "name": "Richard McCormick",
+      "district": "GA-07",
+      "votes_url": "https://clerk.house.gov/Members/M001218"
+    },
+    {
+      "bioguide": "S001189",
+      "name": "Austin Scott",
+      "district": "GA-08",
+      "votes_url": "https://clerk.house.gov/Members/S001189"
+    },
+    {
+      "bioguide": "C001116",
+      "name": "Andrew S. Clyde",
+      "district": "GA-09",
+      "votes_url": "https://clerk.house.gov/Members/C001116"
+    },
+    {
+      "bioguide": "C001129",
+      "name": "Mike Collins",
+      "district": "GA-10",
+      "votes_url": "https://clerk.house.gov/Members/C001129"
+    },
+    {
+      "bioguide": "L000583",
+      "name": "Barry Loudermilk",
+      "district": "GA-11",
+      "votes_url": "https://clerk.house.gov/Members/L000583"
+    },
+    {
+      "bioguide": "A000372",
+      "name": "Rick W. Allen",
+      "district": "GA-12",
+      "votes_url": "https://clerk.house.gov/Members/A000372"
+    },
+    {
+      "bioguide": "B001328",
+      "name": "Everton Blair Jr.",
+      "district": "GA-13",
+      "votes_url": "https://clerk.house.gov/Members/B001328"
+    },
+    {
+      "bioguide": "F000485",
+      "name": "Clay Fuller",
+      "district": "GA-14",
+      "votes_url": "https://clerk.house.gov/Members/F000485"
+    }
+  ],
+  "senate": [
+    {
+      "bioguide": "O000174",
+      "name": "Jon Ossoff",
+      "last_name": "Ossoff",
+      "votes_url": "https://www.congress.gov/member/O000174"
+    },
+    {
+      "bioguide": "W000790",
+      "name": "Raphael G. Warnock",
+      "last_name": "Warnock",
+      "votes_url": "https://www.congress.gov/member/W000790"
+    }
+  ],
+  "vacant": []
+}

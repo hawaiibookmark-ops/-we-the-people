@@ -1,0 +1,18 @@
+{
+  "row_count": 20,
+  "contest_key_count": 6,
+  "list_kind": [
+    "dir_2026_45"
+  ],
+  "by_list_kind": {
+    "dir_2026_45": 20
+  },
+  "complete": false,
+  "certified": false,
+  "incomplete": true,
+  "directive": "2026-45",
+  "source_url": "https://www.ohiosos.gov/office/media-center/categories/press-releases/2026-02-04",
+  "retrieved_at": "2026-09-02T16:45:00Z",
+  "note": "Official Ohio SOS Dir 2026-45 statewide extract (20 rows, complete=false). US House is not on this list. Streets omitted. No live SOS re-fetch. No Ballotpedia.",
+  "user_agent": "WeThePeople-CivicBot/1.0"
+}
