@@ -511,6 +511,95 @@ else:
     errors.append("missing public/data/co/candidate-summary.json")
 _check_votes(ROOT / "co" / "votes.json", "CO", 380, {"D000197", "B001267", "H000273", "N000191"})
 
+# Oregon ORESTAR filings + Clerk/LIS votes (donors pending/blocked; no free statewide bulk)
+or_stub_path = ROOT / "or.json"
+or_cands_path = ROOT / "or" / "candidates.json"
+or_sum_path = ROOT / "or" / "candidate-summary.json"
+or_votes_path = ROOT / "or" / "votes.json"
+if not or_stub_path.exists():
+    errors.append("missing public/data/or.json")
+else:
+    orj = json.loads(or_stub_path.read_text())
+    donors_block = ((orj.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") not in {"pending", "blocked"}:
+        errors.append("or.json donors.status must be pending/blocked (no free statewide bulk)")
+    if donors_block.get("path"):
+        errors.append("or.json must not invent a donor extract path")
+    if not donors_block.get("do_not_sell_donor_lists"):
+        errors.append("or.json donors must say do_not_sell_donor_lists")
+    reason = (donors_block.get("reason") or "").lower()
+    if "orestar" not in reason and "statewide" not in reason and "bulk" not in reason:
+        errors.append("or.json donors.reason must honestly say no free ORESTAR/statewide bulk")
+    if orj.get("election", {}).get("state_code") != "OR" or orj.get("election", {}).get("jurisdiction") != "Oregon":
+        errors.append("or.json election must be Oregon / OR")
+    if orj.get("candidates_path") != "/data/or/candidates.json":
+        errors.append("or.json candidates_path missing")
+    if orj.get("candidate_summary_path") != "/data/or/candidate-summary.json":
+        errors.append("or.json candidate_summary_path missing")
+    if orj.get("votes_path") != "/data/or/votes.json":
+        errors.append("or.json votes_path missing")
+    if orj.get("congress_delegation_path") != "/data/or/congress-delegation.json":
+        errors.append("or.json congress_delegation_path missing")
+    if orj.get("legislature_vote_index_path") != "/data/or/legislature-vote-index.json":
+        errors.append("or.json legislature_vote_index_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(orj)):
+        errors.append("or.json must not use Ballotpedia")
+if (ROOT / "or" / "pdc-donors.json").exists() or (ROOT / "or" / "orestar-donors.json").exists():
+    errors.append("OR must not invent a donor extract")
+if not or_cands_path.exists():
+    errors.append("missing public/data/or/candidates.json")
+else:
+    or_cands = json.loads(or_cands_path.read_text())
+    if not isinstance(or_cands, list) or len(or_cands) != 604:
+        errors.append(f"OR candidates.json rows {len(or_cands) if isinstance(or_cands, list) else type(or_cands)} != 604")
+    else:
+        if any(not str(r.get("contest_key") or "").startswith("OR|") or str(r.get("contest_key") or "").count("|") != 3 for r in or_cands):
+            errors.append("OR contest_key must be OR|OFFICE|DIST|VACANCY")
+        kinds = {r.get("list_kind") for r in or_cands}
+        if kinds != {"primary_candidate_filing", "general_candidate_filing"}:
+            errors.append(f"OR list_kind set {kinds}")
+        primary = [r for r in or_cands if r.get("list_kind") == "primary_candidate_filing"]
+        general = [r for r in or_cands if r.get("list_kind") == "general_candidate_filing"]
+        if len(primary) != 343 or len(general) != 261:
+            errors.append(f"OR primary/general split {len(primary)}/{len(general)}")
+        keys = {r.get("contest_key") for r in or_cands}
+        if len(keys) != 166:
+            errors.append(f"OR contest_keys {len(keys)} != 166")
+        if any(r.get("retrieved_at") != "2026-09-02T11:20:30Z" for r in or_cands):
+            errors.append("OR candidates retrieved_at must be 2026-09-02T11:20:30Z")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in or_cands):
+            errors.append("OR candidates must not use Ballotpedia")
+        if any("sos.state.or.us/orestar" not in (r.get("source_url") or "") for r in or_cands):
+            errors.append("OR candidates source_url must be official ORESTAR CFSearch")
+        if any(not r.get("election") or not r.get("election_year") or not r.get("election_id") for r in or_cands):
+            errors.append("OR candidates must keep election fields")
+        if not any(r.get("candidate_name") == "Jeff Merkley" and r.get("office") == "US Senator" for r in or_cands):
+            errors.append("OR list missing filed name Jeff Merkley")
+        if not any(r.get("candidate_name") == "Suzanne Bonamici" for r in or_cands):
+            errors.append("OR list missing filed name Suzanne Bonamici")
+        if not any(r.get("candidate_name") == "Tina Kotek" and r.get("office") == "Governor" for r in or_cands):
+            errors.append("OR list missing filed name Tina Kotek")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone", "cell", "web_address"}
+        if any(street_keys & {k.lower() for k in r} for r in or_cands):
+            errors.append("OR candidates must omit streets/email/phone")
+if or_sum_path.exists():
+    or_sum = json.loads(or_sum_path.read_text())
+    if or_sum.get("row_count") != 604 or or_sum.get("contest_key_count") != 166:
+        errors.append(f"OR candidate-summary counts {or_sum}")
+else:
+    errors.append("missing public/data/or/candidate-summary.json")
+_check_votes(or_votes_path, "OR", 300, {"B001278", "B000668", "D000635", "H001094", "B001326", "S001226", "M001176", "W000779"})
+if (ROOT / "or" / "legislature-vote-index.json").exists():
+    or_idx = json.loads((ROOT / "or" / "legislature-vote-index.json").read_text())
+    if or_idx.get("kind") != "legislature_vote_index":
+        errors.append("OR legislature-vote-index must be URL index only")
+    if any("ballotpedia" in (s.get("url") or "").lower() for s in or_idx.get("sources") or []):
+        errors.append("OR legislature index must not use Ballotpedia")
+    if not any("oregonlegislature.gov" in (s.get("url") or "") for s in or_idx.get("sources") or []):
+        errors.append("OR legislature index must cite official oregonlegislature.gov")
+else:
+    errors.append("missing public/data/or/legislature-vote-index.json")
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -550,4 +639,8 @@ print(
     len(json.loads((ROOT / "co" / "candidates.json").read_text())),
     "CO votes",
     json.loads((ROOT / "co" / "votes.json").read_text()).get("count"),
+    "OR ballots",
+    len(json.loads((ROOT / "or" / "candidates.json").read_text())),
+    "OR votes",
+    json.loads((ROOT / "or" / "votes.json").read_text()).get("count"),
 )
