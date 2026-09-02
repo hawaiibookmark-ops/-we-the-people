@@ -1,0 +1,27 @@
+{
+  "row_count": 887,
+  "contest_key_count": 599,
+  "us_house": 20,
+  "us_house_districts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "state_senator": 41,
+  "state_representative": 184,
+  "countywide_recovered": 421,
+  "source_url": "https://voter.votewa.gov/CandidateList.aspx?e=899",
+  "retrieved_at": "2026-09-02T11:16:22Z",
+  "list_kind": "general_official",
+  "election_id": 899,
+  "official_office_count_label": 599,
+  "official_candidate_count_label": 887,
+  "streets_omitted": true
+}

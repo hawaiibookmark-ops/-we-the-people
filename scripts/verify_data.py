@@ -399,8 +399,60 @@ if (ROOT / "wa.json").exists():
     waj = json.loads((ROOT / "wa.json").read_text())
     if ((waj.get("state_filings") or {}).get("donors") or {}).get("status") != "sourced":
         errors.append("wa.json donors were wiped")
+    if ((waj.get("state_filings") or {}).get("donors") or {}).get("path") != "/data/wa/pdc-donors.json":
+        errors.append("wa.json donors.path must stay /data/wa/pdc-donors.json")
     if waj.get("votes_path") != "/data/wa/votes.json":
         errors.append("wa.json votes_path not merged")
+    if waj.get("candidates_path") != "/data/wa/candidates.json":
+        errors.append("wa.json candidates_path missing")
+    if waj.get("candidate_summary_path") != "/data/wa/candidate-summary.json":
+        errors.append("wa.json candidate_summary_path missing")
+    if any("ballotpedia" in u.lower() for u in _urls(waj)):
+        errors.append("wa.json must not use Ballotpedia")
+wa_cands_path = ROOT / "wa" / "candidates.json"
+wa_sum_path = ROOT / "wa" / "candidate-summary.json"
+if not wa_cands_path.exists():
+    errors.append("missing public/data/wa/candidates.json")
+else:
+    wa_cands = json.loads(wa_cands_path.read_text())
+    if not isinstance(wa_cands, list) or len(wa_cands) != 887:
+        errors.append(f"WA candidates.json rows {len(wa_cands) if isinstance(wa_cands, list) else type(wa_cands)} != 887")
+    else:
+        wa_keys = {r.get("contest_key") for r in wa_cands}
+        # VoteWA GENERAL 2026 e=899 label is 599 offices / 887 candidates.
+        if len(wa_keys) != 599:
+            errors.append(f"WA contest_keys {len(wa_keys)} != 599 official offices")
+        if any(not str(r.get("contest_key") or "").startswith("WA|") or str(r.get("contest_key") or "").count("|") != 3 for r in wa_cands):
+            errors.append("WA contest_key must be WA|OFFICE|DIST|VACANCY")
+        if any(r.get("list_kind") != "general_official" for r in wa_cands):
+            errors.append("WA candidates list_kind must be general_official")
+        if any(r.get("retrieved_at") != "2026-09-02T11:16:22Z" for r in wa_cands):
+            errors.append("WA candidates retrieved_at must be 2026-09-02T11:16:22Z")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in wa_cands):
+            errors.append("WA candidates must not use Ballotpedia")
+        if any(r.get("source_url") != "https://voter.votewa.gov/CandidateList.aspx?e=899" for r in wa_cands):
+            errors.append("WA candidates source_url must be official VoteWA e=899 list")
+        house = [r for r in wa_cands if (r.get("office") or "") == "U.S. Representative"]
+        if len(house) != 20 or {str(r.get("district")) for r in house} != {str(i) for i in range(1, 11)}:
+            errors.append(f"WA US House {len(house)} dists {sorted({r.get('district') for r in house})}")
+        if not any(r.get("candidate_name") == "Suzan DelBene" and r.get("district") == "1" for r in wa_cands):
+            errors.append("WA nominee Suzan DelBene missing")
+        countywide = [r for r in wa_cands if (r.get("district_raw") or "").casefold() == "county"]
+        if len(countywide) != 421:
+            errors.append(f"WA District=County rows {len(countywide)} != 421")
+        if any(not r.get("county") for r in countywide):
+            errors.append("WA District=County rows must recover county from VoteWA county filter")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in wa_cands):
+            errors.append("WA candidates must omit streets/email/phone")
+        if any(not r.get("race_id") or not r.get("candidate_id") for r in wa_cands):
+            errors.append("WA candidates missing official VoteWA race_id/candidate_id")
+if wa_sum_path.exists():
+    wa_sum = json.loads(wa_sum_path.read_text())
+    if wa_sum.get("row_count") != 887 or wa_sum.get("contest_key_count") != 599:
+        errors.append(f"WA candidate-summary counts {wa_sum}")
+else:
+    errors.append("missing public/data/wa/candidate-summary.json")
 if (ROOT / "co.json").exists():
     if ((json.loads((ROOT / "co.json").read_text()).get("state_filings") or {}).get("donors") or {}).get("status") != "sourced":
         errors.append("co.json donors were wiped")
@@ -438,4 +490,6 @@ print(
     json.loads((ROOT / "wa" / "votes.json").read_text()).get("count"),
     "CA CAL-ACCESS filers",
     json.loads((ROOT / "ca" / "calaccess-donors.json").read_text()).get("filer_count"),
+    "WA ballots",
+    len(json.loads((ROOT / "wa" / "candidates.json").read_text())),
 )
