@@ -96,13 +96,13 @@
     },
     {
       "url": "https://clerk.house.gov/evs/2026/index.asp",
-      "retrieved_at": "2026-08-31T15:13:49Z",
-      "note": "House Clerk EVS 2026 roll-call index. Case and Tokuda votes from official roll XML (example roll283.xml)."
+      "retrieved_at": "2026-09-02T18:26:00Z",
+      "note": "House Clerk EVS 2026 roll-call index. Case and Tokuda through official roll 292."
     },
     {
       "url": "https://clerk.house.gov/evs/2026/roll283.xml",
       "retrieved_at": "2026-08-31T15:13:49Z",
-      "note": "Example House Clerk EVS roll-call XML."
+      "note": "Example House Clerk EVS roll-call XML (roll 283; extract now through 292)."
     },
     {
       "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
@@ -172,11 +172,11 @@
   "vote_extracts": {
     "congress": {
       "path": "/data/congress-votes.json",
-      "retrieved_at": "2026-08-31T15:13:49Z",
-      "row_count": 200,
+      "retrieved_at": "2026-09-02T18:26:00Z",
+      "row_count": 218,
       "by_incumbent": {
-        "C001055": 50,
-        "T000487": 50,
+        "C001055": 59,
+        "T000487": 59,
         "H001042": 50,
         "S001194": 50
       },

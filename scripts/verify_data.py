@@ -168,10 +168,10 @@ if "hicscdata.hawaii.gov" not in (csc.get("source_url") or ""):
 
 congress = json.loads((ROOT / "congress-votes.json").read_text())
 hivotes = json.loads((ROOT / "hawaii-votes.json").read_text())
-if congress.get("row_count") != 204:
-    errors.append(f"congress-votes row_count {congress.get('row_count')} != 204")
+if congress.get("row_count") != 218:
+    errors.append(f"congress-votes row_count {congress.get('row_count')} != 218")
 byc = congress.get("by_incumbent") or {}
-for bio, n in {"C001055": 52, "T000487": 52, "H001042": 50, "S001194": 50}.items():
+for bio, n in {"C001055": 59, "T000487": 59, "H001042": 50, "S001194": 50}.items():
     got = (byc.get(bio) or {}).get("item_count_all")
     if got != n:
         errors.append(f"{bio} congress votes {got} != {n}")
@@ -179,8 +179,15 @@ case_items = (byc.get("C001055") or {}).get("items") or []
 if not case_items or not case_items[0].get("vote_cast") or not case_items[0].get("source_url") or not case_items[0].get("retrieved_at"):
     errors.append("Case vote missing official vote_cast/source_url/retrieved_at")
 top = case_items[0] if case_items else {}
-if top.get("roll_call_number") != 285 or top.get("vote_cast") != "Yea" or (top.get("measure") or "").replace(".", "").strip() != "S 32":
-    errors.append(f"Case top item should be roll 285 Yea on S 32, got {top.get('roll_call_number')} {top.get('vote_cast')} {top.get('measure')}")
+if top.get("roll_call_number") != 292 or top.get("vote_cast") != "Yea" or "1498" not in (top.get("measure") or ""):
+    errors.append(f"Case top item should be roll 292 Yea on H RES 1498, got {top.get('roll_call_number')} {top.get('vote_cast')} {top.get('measure')}")
+hirono_top = ((byc.get("H001042") or {}).get("items") or [{}])[0]
+if hirono_top.get("roll_call_number") != 231:
+    errors.append(f"Senate latest must stay 231, got {hirono_top.get('roll_call_number')}")
+# Official Clerk text is Yea/Nay/No — do not normalize roll 288 "No" to Nay.
+tokuda_288 = next((i for i in (byc.get("T000487") or {}).get("items") or [] if i.get("roll_call_number") == 288), None)
+if not tokuda_288 or tokuda_288.get("vote_cast") != "No":
+    errors.append(f"Tokuda roll 288 must keep official vote_cast No, got {tokuda_288}")
 def _urls(obj):
     out = []
     if isinstance(obj, dict):
