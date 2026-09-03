@@ -1508,6 +1508,19 @@ else:
         errors.append("vi.json candidates block must be complete=true retrieved_at 2026-09-03T13:54:09Z")
     if (cblock.get("counts") or {}).get("rows") != 166:
         errors.append(f"vi.json candidate counts {cblock.get('counts')} != 166")
+    donors_block = ((vi_stub.get("state_filings") or {}).get("donors") or {})
+    if donors_block.get("status") != "partial" or donors_block.get("path") != "/data/vi/fec-donors.json":
+        errors.append("vi.json donors must be federal FEC partial at /data/vi/fec-donors.json")
+    dcounts = donors_block.get("counts") or {}
+    if dcounts.get("candidates") != 9 or dcounts.get("with_receipts") != 4 or dcounts.get("kept_rows") != 326:
+        errors.append(f"vi.json donor counts {dcounts} != 9/4/326")
+    if donors_block.get("retrieved_at") != "2026-09-03T13:54:09Z":
+        errors.append("vi.json donors.retrieved_at must be 2026-09-03T13:54:09Z")
+    if donors_block.get("no_us_senate") is not True:
+        errors.append("vi.json donors must say no_us_senate")
+    state_donors = ((vi_stub.get("state_filings") or {}).get("state_donors") or {})
+    if state_donors.get("status") != "pending":
+        errors.append("vi.json territorial CF must stay pending")
 if not vi_cands_path.exists():
     errors.append("missing public/data/vi/candidates.json")
 else:
@@ -1553,6 +1566,46 @@ if (ROOT / "vi" / "candidate-summary.json").exists():
         errors.append("VI candidate-summary must say streets_omitted")
 else:
     errors.append("missing public/data/vi/candidate-summary.json")
+vi_fec_path = ROOT / "vi" / "fec-donors.json"
+if not vi_fec_path.exists():
+    errors.append("missing public/data/vi/fec-donors.json")
+else:
+    vifec = json.loads(vi_fec_path.read_text())
+    if vifec.get("row_count") != 326 or (vifec.get("counts") or {}).get("kept_rows") != 326:
+        errors.append(f"VI FEC kept_rows {vifec.get('row_count')} != 326")
+    if vifec.get("candidate_count") != 9 or (vifec.get("counts") or {}).get("with_receipts") != 4:
+        errors.append(f"VI FEC candidates {vifec.get('candidate_count')}/{(vifec.get('counts') or {}).get('with_receipts')} != 9/4")
+    if vifec.get("retrieved_at") != "2026-09-03T13:54:09Z":
+        errors.append("VI FEC retrieved_at must be 2026-09-03T13:54:09Z")
+    if vifec.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
+        errors.append("vi/fec-donors.json source_url must be official indiv26.zip")
+    if vifec.get("fec_api_key_present"):
+        errors.append("vi/fec-donors.json must not use OpenFEC/DEMO_KEY")
+    if not vifec.get("do_not_sell_donor_lists") or not vifec.get("streets_omitted"):
+        errors.append("VI FEC extract must omit streets and say do_not_sell_donor_lists")
+    if vifec.get("no_us_senate") is not True or vifec.get("no_us_senate_contest") is not True:
+        errors.append("VI FEC extract must not present a Senate contest")
+    if any("ballotpedia" in u.lower() or "open.fec.gov" in u.lower() for u in _urls(vifec)):
+        errors.append("VI FEC extract must not use Ballotpedia or OpenFEC")
+    byc = vifec.get("by_candidate") or {}
+    if len(byc) != 9:
+        errors.append(f"VI FEC by_candidate {len(byc)} != 9")
+    senate = byc.get("S6VI00018") or {}
+    if senate.get("status") != "empty" or senate.get("item_count_all") or senate.get("items"):
+        errors.append("VI Senate as-filed row must stay honest-empty")
+    if senate.get("not_a_contest") is not True or senate.get("office") != "S":
+        errors.append("VI Senate as-filed row must be flagged not_a_contest")
+    if not any(cid == "H2VI00082" and rec.get("status") == "ok" for cid, rec in byc.items()):
+        errors.append("VI FEC missing PLASKETT receipts")
+    street_keys = {"street", "address", "addr", "zip", "zipcode", "contributor_zip", "occupation"}
+    for rec in byc.values():
+        if street_keys & {k.lower() for k in rec}:
+            errors.append("VI FEC candidate leaked a street/zip field")
+        for item in rec.get("items") or []:
+            if street_keys & {k.lower() for k in item}:
+                errors.append("VI FEC item leaked a street/zip field")
+            if not item.get("contributor_name") or item.get("amount") is None:
+                errors.append("VI FEC item missing official contributor_name/amount")
 
 if errors:
     print("FAIL")
@@ -1678,6 +1731,8 @@ if (ROOT / "vi" / "candidates.json").exists():
         len(json.loads((ROOT / "vi" / "candidates.json").read_text())),
         "prefer",
         json.loads((ROOT / "vi.json").read_text()).get("election", {}).get("prefer_for_november"),
+        "VI FEC",
+        json.loads((ROOT / "vi" / "fec-donors.json").read_text()).get("row_count") if (ROOT / "vi" / "fec-donors.json").exists() else 0,
     )
 for st in ("pa", "oh", "ga", "nj"):
     if (ROOT / st / "votes.json").exists() and (ROOT / st / "fec-donors.json").exists():

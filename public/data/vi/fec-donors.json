@@ -1,0 +1,1069 @@
+{
+  "fec_api_key_present": false,
+  "policy": "Official FEC bulk Schedule A individual receipts of $200+ from indiv26.zip (plus cn26 for CAND_PCC and ccl26 to assign a shared PCC once). CAND_OFFICE_ST=VI, CAND_ELECTION_YR=2026, House+Senate as-filed only. MEMO_CD=X skipped. Joint committees (CMTE_DSGN=J) are not treated as PCC. The U.S. Virgin Islands has no U.S. Senate seat; the one Senate as-filed row is kept honest-empty and is not a VI Senate contest. This is federal FEC only; territorial campaign-finance bulk is pending. Names are copied from the filing extract only and are never invented. Street addresses omitted. Donor lists are not sold. OpenFEC/DEMO_KEY is not used. No Ballotpedia. No scores.",
+  "by_candidate": {
+    "H2VI00082": {
+      "candidate_id": "H2VI00082",
+      "candidate_name": "PLASKETT, STACEY",
+      "office": "H",
+      "district": "00",
+      "party": "DEM",
+      "committee_id": "C00528182",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 260,
+      "items": [
+        {
+          "contributor_name": "KEHALY, WILLIAM",
+          "amount": 3500.0,
+          "date": "2025-03-03",
+          "city": "LAS VEGAS",
+          "state": "NV",
+          "employer": "DYSLXIK LLC",
+          "image_number": "202504159755371353",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755371353"
+        },
+        {
+          "contributor_name": "KEOUGH, TIM",
+          "amount": 3500.0,
+          "date": "2025-03-17",
+          "city": "ARLINGTON",
+          "state": "VA",
+          "employer": "CHAINABLE CORP",
+          "image_number": "202504159755371352",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159755371352"
+        },
+        {
+          "contributor_name": "RUSSELL, MORI",
+          "amount": 3500.0,
+          "date": "2025-05-14",
+          "city": "ATLANTA",
+          "state": "GA",
+          "employer": "CONCESSIONS INTERNATIONAL",
+          "image_number": "202507159763198805",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198805"
+        },
+        {
+          "contributor_name": "WEAVER, TAYLOR",
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "city": "WATERFORD",
+          "state": "MI",
+          "employer": "4 13 SOLUTIONS",
+          "image_number": "202507159763198806",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198806"
+        },
+        {
+          "contributor_name": "CAMPBELL, JARDINA",
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "city": "MIAMI",
+          "state": "FL",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202507159763198807",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198807"
+        },
+        {
+          "contributor_name": "CAMPBELL, JARDINA",
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "city": "MIAMI",
+          "state": "FL",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202507159763198823",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198823"
+        },
+        {
+          "contributor_name": "HUGER, ENSA",
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "city": "DOUGLASVILLE",
+          "state": "GA",
+          "employer": "NEW VOICES FUND",
+          "image_number": "202507159763198827",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198827"
+        },
+        {
+          "contributor_name": "HUGER, ENSA",
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "city": "DOUGLASVILLE",
+          "state": "GA",
+          "employer": "NEW VOICES FUND",
+          "image_number": "202507159763198828",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198828"
+        },
+        {
+          "contributor_name": "WIMBERLY, LAKESIA",
+          "amount": 3500.0,
+          "date": "2025-05-22",
+          "city": "JACKSONVILLE",
+          "state": "FL",
+          "employer": "HRA SOLUTIONS",
+          "image_number": "202507159763198809",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198809"
+        },
+        {
+          "contributor_name": "WIMBERLY, LAKESIA",
+          "amount": 3500.0,
+          "date": "2025-05-22",
+          "city": "JACKSONVILLE",
+          "state": "FL",
+          "employer": "HRA SOLUTIONS",
+          "image_number": "202507159763198824",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198824"
+        },
+        {
+          "contributor_name": "REESE, ALECHIA",
+          "amount": 3500.0,
+          "date": "2025-05-26",
+          "city": "ATLANTA",
+          "state": "GA",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202507159763198812",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198812"
+        },
+        {
+          "contributor_name": "REESE, ALECHIA",
+          "amount": 3500.0,
+          "date": "2025-05-26",
+          "city": "ATLANTA",
+          "state": "GA",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202507159763198820",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198820"
+        },
+        {
+          "contributor_name": "HAY, STEPHANIE",
+          "amount": 3500.0,
+          "date": "2025-05-27",
+          "city": "DECATUR",
+          "state": "GA",
+          "employer": "THE HAY LAW GROUP",
+          "image_number": "202507159763198805",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198805"
+        },
+        {
+          "contributor_name": "MYERS, JEWELLE",
+          "amount": 3500.0,
+          "date": "2025-05-27",
+          "city": "DECATUR",
+          "state": "GA",
+          "employer": "SIMPLY HOME PROPERTIES",
+          "image_number": "202507159763198831",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198831"
+        },
+        {
+          "contributor_name": "HOWARD, SHIREDA",
+          "amount": 3500.0,
+          "date": "2025-05-28",
+          "city": "ATLANTA",
+          "state": "GA",
+          "employer": "RETIRED",
+          "image_number": "202507159763198811",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198811"
+        },
+        {
+          "contributor_name": "STEWART, MICHAEL",
+          "amount": 3500.0,
+          "date": "2025-05-28",
+          "city": "FAIRBURN",
+          "state": "GA",
+          "employer": "AT&T",
+          "image_number": "202507159763198814",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198814"
+        },
+        {
+          "contributor_name": "MURRAY, JEROME",
+          "amount": 3500.0,
+          "date": "2025-06-16",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "OGR",
+          "image_number": "202507159763198816",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763198816"
+        },
+        {
+          "contributor_name": "SECUNDA, THOMAS F.",
+          "amount": 3500.0,
+          "date": "2025-09-17",
+          "city": "CROTON ON HUDSON",
+          "state": "NY",
+          "employer": "BLOOMBERG",
+          "image_number": "202510159791112895",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791112895"
+        },
+        {
+          "contributor_name": "SECUNDA, THOMAS F.",
+          "amount": 3500.0,
+          "date": "2025-09-17",
+          "city": "CROTON ON HUDSON",
+          "state": "NY",
+          "employer": "BLOOMBERG",
+          "image_number": "202510159791112896",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791112896"
+        },
+        {
+          "contributor_name": "SECUNDA, CYNTHIA",
+          "amount": 3500.0,
+          "date": "2025-09-17",
+          "city": "CROTON ON HUDSON",
+          "state": "NY",
+          "employer": "RETIRED",
+          "image_number": "202510159791112897",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791112897"
+        },
+        {
+          "contributor_name": "SECUNDA, CYNTHIA",
+          "amount": 3500.0,
+          "date": "2025-09-17",
+          "city": "CROTON ON HUDSON",
+          "state": "NY",
+          "employer": "RETIRED",
+          "image_number": "202510159791112899",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791112899"
+        },
+        {
+          "contributor_name": "ALLIETTA, MICHAEL J.",
+          "amount": 3500.0,
+          "date": "2025-11-07",
+          "city": "CHRISTIANSTED",
+          "state": "VI",
+          "employer": "ASH BANK TRUST",
+          "image_number": "202601319808242812",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808242812"
+        },
+        {
+          "contributor_name": "ALLIETTA, MICHAEL J.",
+          "amount": 3500.0,
+          "date": "2025-11-07",
+          "city": "CHRISTIANSTED",
+          "state": "VI",
+          "employer": "ASH BANK TRUST",
+          "image_number": "202601319808242816",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808242816"
+        },
+        {
+          "contributor_name": "SECUNDA, AMY",
+          "amount": 3500.0,
+          "date": "2025-12-22",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808242809",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808242809"
+        },
+        {
+          "contributor_name": "SECUNDA, AMY",
+          "amount": 3500.0,
+          "date": "2025-12-22",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202601319808242811",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319808242811"
+        }
+      ],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H4VI00138": {
+      "candidate_id": "H4VI00138",
+      "candidate_name": "HANSEN, EMMETT II",
+      "office": "H",
+      "district": "00",
+      "party": "DEM",
+      "committee_id": "C00556795",
+      "status": "empty",
+      "reason": "Principal campaign committee C00556795 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H4VI00153": {
+      "candidate_id": "H4VI00153",
+      "candidate_name": "SMITH, IDA",
+      "office": "H",
+      "district": "00",
+      "party": "IND",
+      "committee_id": null,
+      "status": "empty",
+      "reason": "No principal campaign committee on FEC candidate master (cn26). Honest-empty. Joint fundraising committees are not used.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6VI01032": {
+      "candidate_id": "H6VI01032",
+      "candidate_name": "GIUSTO, ANDREW",
+      "office": "H",
+      "district": "00",
+      "party": "REP",
+      "committee_id": null,
+      "status": "empty",
+      "reason": "No principal campaign committee on FEC candidate master (cn26). Honest-empty. Joint fundraising committees are not used.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6VI01057": {
+      "candidate_id": "H6VI01057",
+      "candidate_name": "HELENESE, NICOLE TERI ANN",
+      "office": "H",
+      "district": "00",
+      "party": "DEM",
+      "committee_id": "C00937193",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 14,
+      "items": [
+        {
+          "contributor_name": "HELENESE, NICOLE TERI ANN",
+          "amount": 12029.0,
+          "date": "2026-06-30",
+          "city": "KINGSHILL",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607149874949617",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874949617"
+        },
+        {
+          "contributor_name": "ABISALEH, MARWAN",
+          "amount": 3500.0,
+          "date": "2026-07-06",
+          "city": "ELLICOTT CITY",
+          "state": "MD",
+          "employer": null,
+          "image_number": "202607209890910565",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209890910565"
+        },
+        {
+          "contributor_name": "ZAINELDEEN, WALID",
+          "amount": 3500.0,
+          "date": "2026-07-08",
+          "city": "POTOMAC FALLS",
+          "state": "VA",
+          "employer": null,
+          "image_number": "202607209890910566",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209890910566"
+        },
+        {
+          "contributor_name": "HELENESE, NICOLE TERI ANN",
+          "amount": 3108.0,
+          "date": "2026-07-08",
+          "city": "KINGSHILL",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607209890910568",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209890910568"
+        },
+        {
+          "contributor_name": "ZIELKE, PAUL",
+          "amount": 3000.0,
+          "date": "2026-07-07",
+          "city": "CHIRSTIANSTED",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607209890910567",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209890910567"
+        },
+        {
+          "contributor_name": "KEVIN, CALLWOOD",
+          "amount": 2500.0,
+          "date": "2026-02-23",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202604149857158611",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857158611"
+        },
+        {
+          "contributor_name": "CBP JR. REVOCABLE TRUST, CBP",
+          "amount": 2500.0,
+          "date": "2026-03-24",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202604149857158611",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857158611"
+        },
+        {
+          "contributor_name": "BIRKENSTOCK, VERONICA",
+          "amount": 2000.0,
+          "date": "2026-07-01",
+          "city": "HILTON HEAD",
+          "state": "SC",
+          "employer": null,
+          "image_number": "202607209890910565",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209890910565"
+        },
+        {
+          "contributor_name": "MALM, BARBARA",
+          "amount": 1000.0,
+          "date": "2026-06-30",
+          "city": "CENTREVILLE",
+          "state": "VA",
+          "employer": null,
+          "image_number": "202607149874949615",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874949615"
+        },
+        {
+          "contributor_name": "NUSRATY, FRED",
+          "amount": 1000.0,
+          "date": "2026-07-08",
+          "city": "POTOMAC",
+          "state": "MD",
+          "employer": null,
+          "image_number": "202607209890910566",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209890910566"
+        },
+        {
+          "contributor_name": "NOORHASAN, SHANE",
+          "amount": 500.0,
+          "date": "2026-06-30",
+          "city": "KINGSHILL",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607149874949615",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874949615"
+        },
+        {
+          "contributor_name": "MARTIN, PAUL",
+          "amount": 500.0,
+          "date": "2026-07-07",
+          "city": "NEW YORK",
+          "state": "NY",
+          "employer": null,
+          "image_number": "202607209890910565",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209890910565"
+        },
+        {
+          "contributor_name": "NOVARRRO, ROBERTO",
+          "amount": 500.0,
+          "date": "2026-07-07",
+          "city": "SILVER SPRING",
+          "state": "MD",
+          "employer": null,
+          "image_number": "202607209890910566",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209890910566"
+        },
+        {
+          "contributor_name": "HELENESE, ARNOLD",
+          "amount": 400.0,
+          "date": "2026-03-31",
+          "city": "KINGSHILL",
+          "state": "VI",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202604149857158611",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857158611"
+        }
+      ],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6VI01065": {
+      "candidate_id": "H6VI01065",
+      "candidate_name": "SARAUW, JANELLE KAREN",
+      "office": "H",
+      "district": "00",
+      "party": "IND",
+      "committee_id": "C00939348",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 26,
+      "items": [
+        {
+          "contributor_name": "SILVERMAN, DAVID",
+          "amount": 3500.0,
+          "date": "2026-05-31",
+          "city": "ST. JOHN",
+          "state": "VI",
+          "employer": "RETIRED",
+          "image_number": "202607209894263906",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263906"
+        },
+        {
+          "contributor_name": "JONES, ADAM",
+          "amount": 3500.0,
+          "date": "2026-06-09",
+          "city": "MOORESVILLE",
+          "state": "NC",
+          "employer": "QUANTUM TECHNOLOGY GROUP",
+          "image_number": "202607209894263904",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263904"
+        },
+        {
+          "contributor_name": "SAMUEL, SHAWN",
+          "amount": 2000.0,
+          "date": "2026-02-27",
+          "city": "LATTINGTOWN",
+          "state": "NY",
+          "employer": "SELF-EMPLOYED",
+          "image_number": "202604109857093732",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604109857093732"
+        },
+        {
+          "contributor_name": "SARAUW, CARLA",
+          "amount": 1000.0,
+          "date": "2026-03-03",
+          "city": "CHARLOTTE AMALIE",
+          "state": "VI",
+          "employer": "ALL SAINTS CATHEDRAL SCHOOL",
+          "image_number": "202604109857093732",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604109857093732"
+        },
+        {
+          "contributor_name": "ORTIZ, MARIA",
+          "amount": 1000.0,
+          "date": "2026-05-20",
+          "city": "CHARLOTTE AMALIE",
+          "state": "VI",
+          "employer": "ILLUSION ENTERPRISE",
+          "image_number": "202607209894263905",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263905"
+        },
+        {
+          "contributor_name": "SILVERMAN, SUSAN",
+          "amount": 1000.0,
+          "date": "2026-05-20",
+          "city": "ST. JOHN",
+          "state": "VI",
+          "employer": "RETIRED",
+          "image_number": "202607209894263906",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263906"
+        },
+        {
+          "contributor_name": "SARAUW, RODNEY",
+          "amount": 1000.0,
+          "date": "2026-06-02",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "PRINCE GEORGES COUNTRY",
+          "image_number": "202607209894263905",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263905"
+        },
+        {
+          "contributor_name": "CALLWOOD, KEVIN",
+          "amount": 520.0,
+          "date": "2026-06-04",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "TOTALSPECTRUM LLC",
+          "image_number": "202607209894263901",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263901"
+        },
+        {
+          "contributor_name": "BLYDEN, SHIRLEY",
+          "amount": 500.0,
+          "date": "2026-02-27",
+          "city": "ST.THOMAS",
+          "state": "VI",
+          "employer": "ALL SAINTS CATHEDRAL SCHOOL",
+          "image_number": "202604109857093730",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604109857093730"
+        },
+        {
+          "contributor_name": "CUNNINGHAM, KATHLEEN",
+          "amount": 500.0,
+          "date": "2026-02-27",
+          "city": "ST THOMAS",
+          "state": "VI",
+          "employer": "UNEMPLOYED",
+          "image_number": "202604109857093731",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604109857093731"
+        },
+        {
+          "contributor_name": "CUNNINGHAM, KATHLEEN",
+          "amount": 500.0,
+          "date": "2026-05-03",
+          "city": "ST THOMAS",
+          "state": "VI",
+          "employer": "UNEMPLOYED",
+          "image_number": "202607209894263902",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263902"
+        },
+        {
+          "contributor_name": "SUTPHIN, YVETTE",
+          "amount": 500.0,
+          "date": "2026-07-13",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607209894264814",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894264814"
+        },
+        {
+          "contributor_name": "FONSECA, CHARLES E.",
+          "amount": 500.0,
+          "date": "2026-07-14",
+          "city": "SOUTHFIELD",
+          "state": "MI",
+          "employer": "UNEMPLOYED",
+          "image_number": "202607209894264813",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894264813"
+        },
+        {
+          "contributor_name": "FARRELL, BELINA",
+          "amount": 400.0,
+          "date": "2026-05-07",
+          "city": "DECATUR",
+          "state": "GA",
+          "employer": "DSPOLITICAL",
+          "image_number": "202607209894263903",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263903"
+        },
+        {
+          "contributor_name": "TURNER, JAMIE",
+          "amount": 260.0,
+          "date": "2026-06-05",
+          "city": "PALMETTO",
+          "state": "GA",
+          "employer": "UNEMPLOYED",
+          "image_number": "202607209894263906",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263906"
+        },
+        {
+          "contributor_name": "DONOHUE, KOURTNEY",
+          "amount": 260.0,
+          "date": "2026-06-10",
+          "city": "ST.JOHN",
+          "state": "VI",
+          "employer": "MEYER ELECTRIC & SOLAR",
+          "image_number": "202607209894263902",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263902"
+        },
+        {
+          "contributor_name": "CHRISTIAN, KISHA",
+          "amount": 250.0,
+          "date": "2026-02-27",
+          "city": "FREDERIKSTED",
+          "state": "VI",
+          "employer": "NEIGHBORHOOD PHARMACY",
+          "image_number": "202604109857093730",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604109857093730"
+        },
+        {
+          "contributor_name": "PHILLIPS-DORSETT, TAETIA",
+          "amount": 250.0,
+          "date": "2026-03-12",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "DHS",
+          "image_number": "202604109857093731",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604109857093731"
+        },
+        {
+          "contributor_name": "CHRISTIAN, KISHA",
+          "amount": 250.0,
+          "date": "2026-03-27",
+          "city": "FREDERIKSTED",
+          "state": "VI",
+          "employer": "NEIGHBORHOOD PHARMACY",
+          "image_number": "202604109857093731",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202604109857093731"
+        },
+        {
+          "contributor_name": "FRANCIS, LASHANDA",
+          "amount": 250.0,
+          "date": "2026-04-22",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607209894263903",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263903"
+        },
+        {
+          "contributor_name": "CHRISTIAN, KISHA",
+          "amount": 250.0,
+          "date": "2026-04-27",
+          "city": "FREDERIKSTED",
+          "state": "VI",
+          "employer": "NEIGHBORHOOD PHARMACY",
+          "image_number": "202607209894263901",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263901"
+        },
+        {
+          "contributor_name": "GARNETT, SHANIKA",
+          "amount": 250.0,
+          "date": "2026-06-17",
+          "city": "CHARLOTTE AMALIE",
+          "state": "VI",
+          "employer": "GOVERNMENT OF THE VIRGIN ISLAN",
+          "image_number": "202607209894263903",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263903"
+        },
+        {
+          "contributor_name": "DOUMENG, RICHARD",
+          "amount": 250.0,
+          "date": "2026-06-18",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607209894263902",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894263902"
+        },
+        {
+          "contributor_name": "BLYDEN, SHIRLEY",
+          "amount": 250.0,
+          "date": "2026-07-09",
+          "city": "ST.THOMAS",
+          "state": "VI",
+          "employer": "ALL SAINTS CATHEDRAL SCHOOL",
+          "image_number": "202607209894264813",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894264813"
+        },
+        {
+          "contributor_name": "TRAVIS, NICOLE",
+          "amount": 250.0,
+          "date": "2026-07-13",
+          "city": "TAMPA",
+          "state": "FL",
+          "employer": "URP ADVISORS",
+          "image_number": "202607209894264814",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607209894264814"
+        }
+      ],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6VI01073": {
+      "candidate_id": "H6VI01073",
+      "candidate_name": "SMITH, DELIA LAVERNE MRS.",
+      "office": "H",
+      "district": "00",
+      "party": "DEM",
+      "committee_id": "C00942953",
+      "status": "ok",
+      "reason": null,
+      "item_count_all": 26,
+      "items": [
+        {
+          "contributor_name": "ALLIETTA, MICHAEL",
+          "amount": 3500.0,
+          "date": "2026-05-27",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "ASH BANK TRUST",
+          "image_number": "202607179890878495",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878495"
+        },
+        {
+          "contributor_name": "THOMAS, RANDOLF",
+          "amount": 3250.0,
+          "date": "2026-05-01",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607179890878503",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878503"
+        },
+        {
+          "contributor_name": "HAUFMAN, PAUL",
+          "amount": 3250.0,
+          "date": "2026-05-12",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607179890878498",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878498"
+        },
+        {
+          "contributor_name": "ASKEW, LINDSAY JR.",
+          "amount": 1000.0,
+          "date": "2026-03-20",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607179890878495",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878495"
+        },
+        {
+          "contributor_name": "KNIGHT, NICOLE",
+          "amount": 1000.0,
+          "date": "2026-03-27",
+          "city": "CHRISTIANSTED",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607179890878499",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878499"
+        },
+        {
+          "contributor_name": "CALLENDER, WILBUR MD",
+          "amount": 1000.0,
+          "date": "2026-04-27",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "RETIRED",
+          "image_number": "202607179890878496",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878496"
+        },
+        {
+          "contributor_name": "GEORGE, DENISE",
+          "amount": 1000.0,
+          "date": "2026-05-24",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607179890878498",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878498"
+        },
+        {
+          "contributor_name": "HODGE, HILLARY JR.",
+          "amount": 1000.0,
+          "date": "2026-06-03",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607179890878499",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878499"
+        },
+        {
+          "contributor_name": "CALLWOOD, KEVIN",
+          "amount": 1000.0,
+          "date": "2026-06-26",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "employer": "TOTAL SPECTRUM, LLC",
+          "image_number": "202607179890878497",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878497"
+        },
+        {
+          "contributor_name": "HEYLINGER, BARBARA",
+          "amount": 800.0,
+          "date": "2026-06-27",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607179890878499",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878499"
+        },
+        {
+          "contributor_name": "POTTER, EVERARD ESQ.",
+          "amount": 500.0,
+          "date": "2026-04-08",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "OGLETREE, DEAKINS LAW FIRM",
+          "image_number": "202607179890878501",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878501"
+        },
+        {
+          "contributor_name": "DIGGS, DAMIEN",
+          "amount": 500.0,
+          "date": "2026-05-26",
+          "city": "FRISCO",
+          "state": "TX",
+          "employer": "WINSTON & STRAWN",
+          "image_number": "202607179890878497",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878497"
+        },
+        {
+          "contributor_name": "CARRINGTON, MCKEN",
+          "amount": 500.0,
+          "date": "2026-06-02",
+          "city": "RICHMOND",
+          "state": "TX",
+          "employer": "TEXAS SOUTHERN UNIVERSITY",
+          "image_number": "202607179890878497",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878497"
+        },
+        {
+          "contributor_name": "THOMPSON, DAVID",
+          "amount": 500.0,
+          "date": "2026-06-04",
+          "city": "KELLER",
+          "state": "TX",
+          "employer": null,
+          "image_number": "202607179890878503",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878503"
+        },
+        {
+          "contributor_name": "POTTER, EVERARD ESQ.",
+          "amount": 500.0,
+          "date": "2026-06-22",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "OGLETREE, DEAKINS LAW FIRM",
+          "image_number": "202607179890878502",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878502"
+        },
+        {
+          "contributor_name": "BONELLI, KIM",
+          "amount": 500.0,
+          "date": "2026-06-23",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607179890878496",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878496"
+        },
+        {
+          "contributor_name": "LAPOINTE, MARKENZY",
+          "amount": 500.0,
+          "date": "2026-06-30",
+          "city": "FORT LAUDERDALE",
+          "state": "FL",
+          "employer": "PILLSBURY",
+          "image_number": "202607179890878500",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878500"
+        },
+        {
+          "contributor_name": "PERU, NICHOLAS",
+          "amount": 500.0,
+          "date": "2026-06-30",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": "GVI",
+          "image_number": "202607179890878501",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878501"
+        },
+        {
+          "contributor_name": "NOTTINGHAM, LIESL MD",
+          "amount": 300.0,
+          "date": "2026-04-05",
+          "city": "ROCKVILLE",
+          "state": "MD",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607179890878500",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878500"
+        },
+        {
+          "contributor_name": "VAUGHN, TODD",
+          "amount": 300.0,
+          "date": "2026-05-15",
+          "city": "CHARLOTTE",
+          "state": "NC",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607179890878504",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878504"
+        },
+        {
+          "contributor_name": "BROWN, ANITA",
+          "amount": 300.0,
+          "date": "2026-06-15",
+          "city": "MEDFORD",
+          "state": "NY",
+          "employer": null,
+          "image_number": "202607179890878496",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878496"
+        },
+        {
+          "contributor_name": "THOMAS, RANDOLF",
+          "amount": 250.0,
+          "date": "2026-03-13",
+          "city": "ST. THOMAS",
+          "state": "VI",
+          "employer": null,
+          "image_number": "202607179890878502",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878502"
+        },
+        {
+          "contributor_name": "THOMLINSON, IAN",
+          "amount": 250.0,
+          "date": "2026-04-20",
+          "city": "SPRINGFILED",
+          "state": "VA",
+          "employer": "OMNI SYSTEMS",
+          "image_number": "202607179890878503",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878503"
+        },
+        {
+          "contributor_name": "DONNER, ALESIA",
+          "amount": 250.0,
+          "date": "2026-04-23",
+          "city": "ULSTER PARK",
+          "state": "NY",
+          "employer": "NOT EMPLOYED",
+          "image_number": "202607179890878498",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878498"
+        },
+        {
+          "contributor_name": "RAMSEY, ISMAIL",
+          "amount": 250.0,
+          "date": "2026-05-25",
+          "city": "BERKELEY",
+          "state": "CA",
+          "employer": "SELF EMPLOYED",
+          "image_number": "202607179890878502",
+          "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890878502"
+        }
+      ],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "H6VI01081": {
+      "candidate_id": "H6VI01081",
+      "candidate_name": "FRANCIS, RASHIDA",
+      "office": "H",
+      "district": "00",
+      "party": "DEM",
+      "committee_id": "C00939041",
+      "status": "empty",
+      "reason": "Principal campaign committee C00939041 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
+    },
+    "S6VI00018": {
+      "candidate_id": "S6VI00018",
+      "candidate_name": "CARLSON, OWEN NICHOLAS",
+      "office": "S",
+      "district": "00",
+      "party": "PCH",
+      "committee_id": "C00928689",
+      "status": "empty",
+      "reason": "As-filed FEC Senate registration (S6VI00018). The U.S. Virgin Islands has no U.S. Senate seat. This row is kept as an honest-empty as-filed filing and is not a VI Senate contest. Principal campaign committee C00928689 has no Schedule A $200+ receipts.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "not_a_contest": true,
+      "no_us_senate_seat": true
+    }
+  },
+  "retrieved_at": "2026-09-03T13:54:09Z",
+  "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+  "sources": [
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "FEC individual contributions bulk file (itcont.txt)."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "FEC candidate master (CAND_PCC)."
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "FEC candidate-committee linkage. Joint committees (CMTE_DSGN=J) are not treated as PCC. Shared CAND_PCC is assigned once via CMTE_DSGN=P."
+    },
+    {
+      "url": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "Individual contributions file layout."
+    }
+  ],
+  "scope": "U.S. Virgin Islands 2026 Delegate federal FEC Schedule A $200+ only. No U.S. Senate seat; one Senate as-filed row is honest-empty and is not a contest. Territorial campaign-finance bulk is pending.",
+  "row_count": 326,
+  "candidate_count": 9,
+  "counts": {
+    "candidates": 9,
+    "with_receipts": 4,
+    "honest_empty": 5,
+    "kept_rows": 326,
+    "items_per_filer_cap": 25,
+    "cycle": 2026,
+    "election_year": 2026,
+    "senate_as_filed_empty": 1
+  },
+  "no_us_senate": true,
+  "no_us_senate_contest": true,
+  "do_not_sell_donor_lists": true,
+  "streets_omitted": true
+}
