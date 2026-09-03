@@ -91,7 +91,7 @@
     },
     {
       "url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
-      "retrieved_at": "2026-09-02T18:11:34Z",
+      "retrieved_at": "2026-09-03T21:08:29Z",
       "note": "Hawaii CSC SODA Schedule A (jexd-xbcg), election_period contains 2026. Street addresses omitted from the public extract."
     },
     {
@@ -154,18 +154,14 @@
     },
     "hawaii_csc": {
       "path": "/data/csc-donors.json",
-      "retrieved_at": "2026-09-02T18:11:34Z",
+      "retrieved_at": "2026-09-03T21:08:29Z",
       "source_url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
       "counts": {
         "rows": 18875,
-        "candidates": 247,
+        "candidates": 248,
         "ok": 83,
         "unmatched": 164,
-        "empty": 0,
-        "election_periods": [
-          "2022-2026",
-          "2024-2026"
-        ]
+        "empty": 1
       }
     }
   },

@@ -43,6 +43,15 @@ else:
         errors.append("Kitashima SD18 Vacancy must not invent primary_votes")
     if "olvr.hawaii.gov" not in (kit.get("source_url") or ""):
         errors.append("Kitashima must cite official OLVR candidate report")
+    kit_donors = kit.get("donors") or {}
+    if kit_donors.get("status") != "empty" or kit_donors.get("item_count_all") != 0:
+        errors.append("Kitashima hawaii.json donors must stay CSC honest-empty (0 rows)")
+    if kit_donors.get("items"):
+        errors.append("Kitashima must not invent CSC receipts")
+    if kit_donors.get("retrieved_at") != "2026-09-03T21:08:29Z":
+        errors.append("Kitashima donor retrieved_at must be weekday refresh 2026-09-03T21:08:29Z")
+    if not kit_donors.get("do_not_sell_donor_lists"):
+        errors.append("Kitashima donors must say do_not_sell_donor_lists")
 
 r = zips.get("90210")
 if not r or r.get("s") != "CA":
@@ -129,16 +138,39 @@ if hi.get("state_filings", {}).get("donors", {}).get("status") != "sourced":
 hi_donor_counts = (hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}
 if hi_donor_counts.get("rows") != 18875:
     errors.append(f"hawaii.json CSC counts.rows {hi_donor_counts.get('rows')} != 18875")
-if (hi.get("state_filings", {}).get("donors") or {}).get("retrieved_at") != "2026-09-02T18:11:34Z":
-    errors.append("hawaii.json CSC retrieved_at must be weekday refresh 2026-09-02T18:11:34Z")
+if (hi.get("state_filings", {}).get("donors") or {}).get("retrieved_at") != "2026-09-03T21:08:29Z":
+    errors.append("hawaii.json CSC retrieved_at must be weekday refresh 2026-09-03T21:08:29Z")
+if (hi.get("state_filings", {}).get("donors") or {}).get("path") != "/data/csc-donors.json":
+    errors.append("hawaii.json CSC path must stay /data/csc-donors.json")
+if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("empty") != 1:
+    errors.append("hawaii.json CSC counts.empty must be 1 (Kitashima honest-empty)")
+if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("candidates") != 248:
+    errors.append("hawaii.json CSC counts.candidates must be 248 after Kitashima empty")
 if hi.get("state_filings", {}).get("csc_public") != "https://csc.hawaii.gov/CFSPublic/":
     errors.append("CFS public link missing")
 if "view-searchable-data" not in (hi.get("state_filings", {}).get("csc_searchable") or ""):
     errors.append("CSC searchable landing missing")
 if csc.get("row_count") != 18875:
     errors.append(f"csc row_count {csc.get('row_count')} != 18875")
-if csc.get("retrieved_at") != "2026-09-02T18:11:34Z":
-    errors.append(f"csc retrieved_at {csc.get('retrieved_at')} != 2026-09-02T18:11:34Z")
+if csc.get("retrieved_at") != "2026-09-03T21:08:29Z":
+    errors.append(f"csc retrieved_at {csc.get('retrieved_at')} != 2026-09-03T21:08:29Z")
+if csc.get("candidate_count") != 248 or (csc.get("counts") or {}).get("candidates") != 248:
+    errors.append(f"csc candidate_count {csc.get('candidate_count')} != 248")
+if (csc.get("counts") or {}).get("empty") != 1:
+    errors.append("csc counts.empty must be 1 after Kitashima honest-empty")
+kit_csc = next(
+    (v for v in (csc.get("by_candidate") or {}).values() if v.get("matched_site_nominee") == "KITASHIMA, Kelly Puamailani"),
+    None,
+)
+if not kit_csc:
+    errors.append("csc-donors.json missing Kitashima matched empty row")
+else:
+    if kit_csc.get("status") != "empty" or kit_csc.get("item_count_all") != 0 or kit_csc.get("items"):
+        errors.append("Kitashima CSC row must stay status=empty with 0 items")
+    if kit_csc.get("reg_no") in {"CC11342", "cc11342"}:
+        errors.append("Kitashima must not reuse 2014-2018 Honolulu Council CC11342 receipts")
+    if kit_csc.get("retrieved_at") != "2026-09-03T21:08:29Z":
+        errors.append("Kitashima CSC retrieved_at must be 2026-09-03T21:08:29Z")
 if not csc.get("do_not_sell_donor_lists"):
     errors.append("csc-donors.json must say do_not_sell_donor_lists")
 if not csc.get("streets_omitted"):
@@ -1700,6 +1732,8 @@ print(
     csc.get("row_count"),
     "unmatched",
     len(unmatched),
+    "Kitashima",
+    ((csc.get("by_candidate") or {}).get("KITASHIMA, Kelly Puamailani") or {}).get("status"),
 )
 print(
     "OK votes congress",
