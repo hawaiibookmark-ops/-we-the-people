@@ -18,7 +18,7 @@ from pathlib import Path
 UA = "WeThePeople-CivicBot/1.0"
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "public" / "data"
-RETRIEVED = "2026-09-02T18:11:34Z"
+RETRIEVED = "2026-09-03T21:08:29Z"
 SOURCE_URL = (
     "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json"
     "?$where=election_period%20like%20%27%252026%25%27"
@@ -40,6 +40,7 @@ ALIASES = {
     "LA CHICA, MAE PATRICIA": "LA CHICA, Trish",
 }
 PACKAGE_DIRS = [
+    Path("/workspace/wtp-live-data/donors-2026-09-03"),
     Path("/workspace/wtp-live-data/donors-2026-09-02"),
     Path("/workspace/wtp-live-data/run-2026-09-02-hi08-routine"),
     Path("/tmp/hi-official"),

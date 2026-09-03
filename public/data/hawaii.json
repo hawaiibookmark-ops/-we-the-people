@@ -319,7 +319,16 @@
         "field": "general_nominee",
         "status": "In General",
         "source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
-        "retrieved_at": "2026-09-02T18:22:00Z"
+        "retrieved_at": "2026-09-02T18:22:00Z",
+        "donors": {
+          "status": "empty",
+          "item_count_all": 0,
+          "source": "csc",
+          "reason": "Official Hawaii CSC SODA Schedule A (jexd-xbcg, election_period contains 2026) has 0 rows for this OLVR general nominee. 2014-2018 Honolulu Council filings (CC11342) are a different office/cycle and are not copied. Receipts are not invented. Donor lists are not sold.",
+          "source_url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
+          "retrieved_at": "2026-09-03T21:08:29Z",
+          "do_not_sell_donor_lists": true
+        }
       }
     ],
     "State Senator, Dist 19 Vacancy": [
@@ -3668,13 +3677,13 @@
       "status": "sourced",
       "path": "/data/csc-donors.json",
       "source_url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
-      "retrieved_at": "2026-09-02T18:11:34Z",
+      "retrieved_at": "2026-09-03T21:08:29Z",
       "counts": {
         "rows": 18875,
-        "candidates": 247,
+        "candidates": 248,
         "ok": 83,
         "unmatched": 164,
-        "empty": 0,
+        "empty": 1,
         "election_periods": [
           "2022-2026",
           "2024-2026"
@@ -3682,7 +3691,8 @@
       },
       "reason": "Official Hawaii Campaign Spending Commission Schedule A extract via the public SODA resource jexd-xbcg (election_period contains 2026). Street addresses are omitted. Names are copied from the official file only and are never invented. Donor lists are not sold. Site nominee matches are not forced; unmatched official names are kept and flagged.",
       "cfs_public": "https://csc.hawaii.gov/CFSPublic/",
-      "csc_searchable": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/"
+      "csc_searchable": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
+      "do_not_sell_donor_lists": true
     }
   }
 }

@@ -46,6 +46,15 @@ export type HiNominee = {
   status?: string;
   source_url?: string;
   retrieved_at?: string;
+  donors?: {
+    status: "empty" | "ok" | "linked" | "unmatched";
+    item_count_all?: number;
+    source?: string;
+    reason?: string;
+    source_url?: string;
+    retrieved_at?: string;
+    do_not_sell_donor_lists?: boolean;
+  };
 };
 
 export type IncumbentHouse = {
