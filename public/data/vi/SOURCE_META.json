@@ -1,0 +1,50 @@
+{
+  "jurisdiction": "U.S. Virgin Islands",
+  "state_code": "VI",
+  "retrieved_at": "2026-09-03T13:54:09Z",
+  "source_url": "https://vivote.gov/?elections=2026-general-election",
+  "primary_certified": "2026-08-25",
+  "primary_certification_source": "https://vivote.gov/2026-primary-election-certification/",
+  "june_17_is_primary_certification": false,
+  "primary_certification_note": "Official VIVOTE Special Notice: the Office of the Supervisor of Elections certified the 2026 Primary Election on Wednesday, August 25, 2026. June 17 is the official candidate-listing date, not primary certification.",
+  "prefer_for_november": "official_august",
+  "no_us_senate": true,
+  "federal_offices": [
+    "Delegate to Congress"
+  ],
+  "streets_omitted": true,
+  "candidates": {
+    "path": "/data/vi/candidates.json",
+    "row_count": 166,
+    "contest_key_count": 9,
+    "complete": true,
+    "by_list_kind": {
+      "official_june": 88,
+      "official_august": 70,
+      "fec_delegate": 8
+    },
+    "source_url": "https://vivote.gov/?elections=2026-general-election",
+    "retrieved_at": "2026-09-03T13:54:09Z"
+  },
+  "fec_donors": {
+    "path": "/data/vi/fec-donors.json",
+    "candidates": 9,
+    "with_receipts": 4,
+    "kept_rows": 326,
+    "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+    "retrieved_at": "2026-09-03T13:54:09Z"
+  },
+  "votes": {
+    "path": "/data/vi/votes.json",
+    "complete": false,
+    "federal_only": true,
+    "no_us_senate": true,
+    "row_count": 19,
+    "source_url": "https://clerk.house.gov/evs/2026/index.asp",
+    "retrieved_at": "2026-09-03T13:54:09Z"
+  },
+  "territorial_cf": {
+    "status": "pending",
+    "honest_empty": true
+  }
+}

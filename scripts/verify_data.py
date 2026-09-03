@@ -1499,8 +1499,12 @@ else:
         errors.append("vi.json must say no_us_senate")
     if vi_stub.get("election", {}).get("federal_offices") != ["Delegate to Congress"]:
         errors.append("vi.json federal_offices must be Delegate only")
-    if vi_stub.get("votes_path"):
-        errors.append("vi.json must not invent votes_path")
+    if vi_stub.get("election", {}).get("primary_certified") != "2026-08-25":
+        errors.append("vi.json primary_certified must be 2026-08-25")
+    if "2026-primary-election-certification" not in (vi_stub.get("election", {}).get("primary_certification_source") or ""):
+        errors.append("vi.json must cite official VIVOTE Aug 25 primary certification")
+    if vi_stub.get("votes_path") != "/data/vi/votes.json":
+        errors.append("vi.json votes_path missing")
     if any("ballotpedia" in u.lower() for u in _urls(vi_stub)):
         errors.append("vi.json must not use Ballotpedia")
     cblock = ((vi_stub.get("state_filings") or {}).get("candidates") or {})
@@ -1521,6 +1525,18 @@ else:
     state_donors = ((vi_stub.get("state_filings") or {}).get("state_donors") or {})
     if state_donors.get("status") != "pending":
         errors.append("vi.json territorial CF must stay pending")
+    vblock = ((vi_stub.get("state_filings") or {}).get("votes") or {})
+    if vblock.get("path") != "/data/vi/votes.json" or vblock.get("complete") is not False:
+        errors.append("vi.json votes block must be complete=false at /data/vi/votes.json")
+    if vblock.get("federal_only") is not True or vblock.get("no_us_senate") is not True:
+        errors.append("vi.json votes must stay federal_only with no U.S. Senate")
+    docs = vi_stub.get("docs") or {}
+    if docs.get("source_meta") != "/data/vi/SOURCE_META.json":
+        errors.append("vi.json docs.source_meta missing")
+    if docs.get("notes") != "/data/vi/NOTES.md" or docs.get("schema") != "/data/vi/SCHEMA.md":
+        errors.append("vi.json docs notes/schema missing")
+    if docs.get("discovery") != "/data/vi/DISCOVERY.md":
+        errors.append("vi.json docs.discovery missing")
 if not vi_cands_path.exists():
     errors.append("missing public/data/vi/candidates.json")
 else:
@@ -1562,6 +1578,14 @@ if (ROOT / "vi" / "candidate-summary.json").exists():
         errors.append("VI candidate-summary must prefer August general and omit Senate")
     if vi_sum.get("retrieved_at") != "2026-09-03T13:54:09Z":
         errors.append("VI candidate-summary retrieved_at must be 2026-09-03T13:54:09Z")
+    if vi_sum.get("source_url") != "https://vivote.gov/?elections=2026-general-election":
+        errors.append("VI candidate-summary source_url must stay official general landing")
+    if vi_sum.get("primary_certified") != "2026-08-25":
+        errors.append("VI candidate-summary primary_certified must be 2026-08-25")
+    if vi_sum.get("june_17_is_primary_certification") is not False:
+        errors.append("VI candidate-summary must mark june_17_is_primary_certification=false")
+    if "june 17" in (vi_sum.get("note") or "").lower() and "not june 17" not in (vi_sum.get("note") or "").lower():
+        errors.append("VI candidate-summary must not treat June 17 as primary certification")
     if not vi_sum.get("streets_omitted"):
         errors.append("VI candidate-summary must say streets_omitted")
 else:
@@ -1606,6 +1630,60 @@ else:
                 errors.append("VI FEC item leaked a street/zip field")
             if not item.get("contributor_name") or item.get("amount") is None:
                 errors.append("VI FEC item missing official contributor_name/amount")
+vi_votes_path = ROOT / "vi" / "votes.json"
+if not vi_votes_path.exists():
+    errors.append("missing public/data/vi/votes.json")
+else:
+    vivotes = json.loads(vi_votes_path.read_text())
+    if vivotes.get("complete") is not False or vivotes.get("federal_only") is not True:
+        errors.append("VI votes.json must stay complete=false federal_only")
+    if vivotes.get("no_us_senate") is not True or vivotes.get("no_us_senate_contest") is not True:
+        errors.append("VI votes.json must not invent a U.S. Senate contest")
+    if vivotes.get("office") != "Delegate to Congress":
+        errors.append("VI votes.json office must stay Delegate to Congress")
+    if vivotes.get("member_bioguide") != "P000610" or vivotes.get("district") != "VI-00":
+        errors.append("VI votes.json member must stay official Clerk P000610 / VI-00")
+    if vivotes.get("retrieved_at") != "2026-09-03T13:54:09Z":
+        errors.append("VI votes.json retrieved_at must stay 2026-09-03T13:54:09Z")
+    if vivotes.get("source_url") != "https://clerk.house.gov/evs/2026/index.asp":
+        errors.append("VI votes.json source_url must stay official House Clerk EVS")
+    if vivotes.get("count") != 19 or len(vivotes.get("votes") or []) != 19:
+        errors.append(f"VI votes.json count {vivotes.get('count')} != 19 official recorded-votes")
+    if (vivotes.get("counts_by_member") or {}) != {"P000610": 19}:
+        errors.append("VI votes.json counts_by_member must stay P000610=19")
+    if any((row.get("chamber") or "").lower() == "senate" for row in (vivotes.get("votes") or [])):
+        errors.append("VI votes.json must not invent Senate rows")
+    if any(row.get("bioguide_id") != "P000610" for row in (vivotes.get("votes") or [])):
+        errors.append("VI votes.json rows must stay official Clerk bioguide P000610")
+    if any(
+        row.get("vote_cast") not in {"Yea", "Aye", "Nay", "No", "Present", "Not Voting"}
+        or not row.get("source_url")
+        or row.get("retrieved_at") != "2026-09-03T13:54:09Z"
+        for row in (vivotes.get("votes") or [])
+    ):
+        errors.append("VI votes.json vote_cast/source_url/retrieved_at must stay official")
+vi_meta_path = ROOT / "vi" / "SOURCE_META.json"
+if not vi_meta_path.exists():
+    errors.append("missing public/data/vi/SOURCE_META.json")
+else:
+    vimeta = json.loads(vi_meta_path.read_text())
+    if vimeta.get("primary_certified") != "2026-08-25":
+        errors.append("VI SOURCE_META primary_certified must be 2026-08-25")
+    if vimeta.get("june_17_is_primary_certification") is not False:
+        errors.append("VI SOURCE_META must mark june_17_is_primary_certification=false")
+    if (vimeta.get("candidates") or {}).get("row_count") != 166:
+        errors.append("VI SOURCE_META candidates.row_count must stay 166")
+    if (vimeta.get("candidates") or {}).get("retrieved_at") != "2026-09-03T13:54:09Z":
+        errors.append("VI SOURCE_META candidates.retrieved_at must stay intact")
+    if (vimeta.get("fec_donors") or {}).get("kept_rows") != 326:
+        errors.append("VI SOURCE_META fec_donors.kept_rows must stay 326")
+    if (vimeta.get("votes") or {}).get("complete") is not False:
+        errors.append("VI SOURCE_META votes must stay complete=false")
+    if (vimeta.get("territorial_cf") or {}).get("status") != "pending":
+        errors.append("VI SOURCE_META territorial CF must stay pending")
+for name in ("NOTES.md", "SCHEMA.md", "DISCOVERY.md"):
+    if not (ROOT / "vi" / name).is_file():
+        errors.append(f"missing public/data/vi/{name}")
 
 if errors:
     print("FAIL")
@@ -1733,6 +1811,10 @@ if (ROOT / "vi" / "candidates.json").exists():
         json.loads((ROOT / "vi.json").read_text()).get("election", {}).get("prefer_for_november"),
         "VI FEC",
         json.loads((ROOT / "vi" / "fec-donors.json").read_text()).get("row_count") if (ROOT / "vi" / "fec-donors.json").exists() else 0,
+        "VI votes",
+        json.loads((ROOT / "vi" / "votes.json").read_text()).get("count") if (ROOT / "vi" / "votes.json").exists() else 0,
+        "primary",
+        json.loads((ROOT / "vi.json").read_text()).get("election", {}).get("primary_certified"),
     )
 for st in ("pa", "oh", "ga", "nj"):
     if (ROOT / st / "votes.json").exists() and (ROOT / st / "fec-donors.json").exists():

@@ -18,8 +18,11 @@
   "federal_offices": [
     "Delegate to Congress"
   ],
+  "primary_certified": "2026-08-25",
+  "primary_certification_source": "https://vivote.gov/2026-primary-election-certification/",
+  "june_17_is_primary_certification": false,
   "source_url": "https://vivote.gov/?elections=2026-general-election",
   "retrieved_at": "2026-09-03T13:54:09Z",
   "streets_omitted": true,
-  "note": "Official ESVI June certification (88) + August general (70) + FEC 2026 Delegate (8). Prefer August general for November. No U.S. Senate. Streets omitted. No Ballotpedia."
+  "note": "Official ESVI June candidate listings (88) + August general (70) + FEC 2026 Delegate (8). Primary results certified August 25, 2026 (VIVOTE Special Notice), not June 17. Prefer August general for November. No U.S. Senate. Streets omitted. No Ballotpedia."
 }

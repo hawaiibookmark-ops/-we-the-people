@@ -36,7 +36,7 @@ PDFS = (
         "key": "june-stx",
         "url": "https://vivote.gov/wp-content/uploads/2026/06/2026-Election-Public-Offices-Aspirant-Listing-STX-OFFICIAL-June-2026.pdf",
         "list_kind": "official_june",
-        "election": "2026 Official June Certification (Primary and General)",
+        "election": "2026 Official June Candidate Listing (Primary and General)",
         "election_date": "2026-06-17",
         "district": "STX",
         "district_name": "St. Croix",
@@ -46,7 +46,7 @@ PDFS = (
         "key": "june-stt",
         "url": "https://vivote.gov/wp-content/uploads/2026/06/2026-Election-Public-Offices-Aspirant-Listing-STT-STJ-OFFICIAL-June-2026.pdf",
         "list_kind": "official_june",
-        "election": "2026 Official June Certification (Primary and General)",
+        "election": "2026 Official June Candidate Listing (Primary and General)",
         "election_date": "2026-06-17",
         "district": "STTJ",
         "district_name": "St. Thomas/St. John",
@@ -290,7 +290,7 @@ def write_stub(rows: list[dict]) -> None:
         "general_date": "2026-11-03",
         "primary_date": "2026-08-01",
         "note": (
-            "Official Election System of the Virgin Islands June certification "
+            "Official Election System of the Virgin Islands June candidate listings "
             "(88 rows) plus August general listing (70 rows) and FEC 2026 Delegate "
             "master (8 rows). Prefer August general for November. No U.S. Senate; "
             "Delegate is the only federal office. Streets omitted. Donor lists are not sold."
@@ -398,9 +398,13 @@ def main() -> int:
         "source_url": LANDING_GEN,
         "retrieved_at": RETRIEVED,
         "streets_omitted": True,
+        "primary_certified": "2026-08-25",
+        "primary_certification_source": "https://vivote.gov/2026-primary-election-certification/",
+        "june_17_is_primary_certification": False,
         "note": (
-            "Official ESVI June certification (88) + August general (70) + FEC 2026 "
-            "Delegate (8). Prefer August general for November. No U.S. Senate. "
+            "Official ESVI June candidate listings (88) + August general (70) + FEC 2026 "
+            "Delegate (8). Primary results certified August 25, 2026 (VIVOTE Special "
+            "Notice), not June 17. Prefer August general for November. No U.S. Senate. "
             "Streets omitted. No Ballotpedia."
         ),
     }
