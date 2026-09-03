@@ -4,7 +4,7 @@
     "state_code": "VI",
     "general_date": "2026-11-03",
     "primary_date": "2026-08-01",
-    "note": "Official Election System of the Virgin Islands June certification (88 rows) plus August general listing (70 rows) and FEC 2026 Delegate master (8 rows). Prefer August general for November. No U.S. Senate; Delegate is the only federal office. Streets omitted. Donor lists are not sold.",
+    "note": "Official Election System of the Virgin Islands June certification (88 rows) plus August general listing (70 rows) and FEC 2026 Delegate master (8 rows). Federal FEC Schedule A $200+ is partial (9 as-filed H/S rows, 4 with receipts, 326 kept). Prefer August general for November. No U.S. Senate; Delegate is the only federal office. Territorial campaign-finance bulk is pending. Streets omitted. Donor lists are not sold.",
     "prefer_for_november": "official_august",
     "no_us_senate": true,
     "federal_offices": [
@@ -48,13 +48,37 @@
       "url": "https://vivote.gov/wp-content/uploads/2026/08/2026-General-Election-Official-Listing-of-Candidates-St.-Thomas-and-St.-John-District-8.19.2026.pdf",
       "retrieved_at": "2026-09-03T13:54:09Z",
       "note": "Official ESVI official_august St. Thomas/St. John"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "FEC bulk Schedule A $200+ (VI federal only)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "FEC candidate-committee linkage"
     }
   ],
   "state_filings": {
     "wired": true,
     "donors": {
-      "status": "pending",
-      "reason": "Virgin Islands campaign-finance bulk is not extracted in this populate. Donor names are not invented.",
+      "status": "partial",
+      "path": "/data/vi/fec-donors.json",
+      "scope": "U.S. Virgin Islands 2026 Delegate federal FEC Schedule A $200+ only (indiv26 + cn26 CAND_PCC). No U.S. Senate seat; one Senate as-filed row is honest-empty and is not a contest. Territorial campaign-finance bulk is pending.",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "counts": {
+        "candidates": 9,
+        "with_receipts": 4,
+        "honest_empty": 5,
+        "kept_rows": 326,
+        "items_per_filer_cap": 25,
+        "cycle": 2026,
+        "election_year": 2026,
+        "senate_as_filed_empty": 1
+      },
+      "no_us_senate": true,
       "do_not_sell_donor_lists": true
     },
     "candidates": {
@@ -79,7 +103,12 @@
       "do_not_sell_donor_lists": true
     },
     "esvi_primary": "https://vivote.gov/?elections=2026-primary-election",
-    "esvi_general": "https://vivote.gov/?elections=2026-general-election"
+    "esvi_general": "https://vivote.gov/?elections=2026-general-election",
+    "state_donors": {
+      "status": "pending",
+      "reason": "Virgin Islands territorial campaign-finance bulk is not extracted in this populate. Territorial donor names are not invented. Federal FEC Schedule A $200+ is partial.",
+      "do_not_sell_donor_lists": true
+    }
   },
   "candidates_path": "/data/vi/candidates.json",
   "candidate_summary_path": "/data/vi/candidate-summary.json"
