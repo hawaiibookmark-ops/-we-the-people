@@ -1,0 +1,86 @@
+{
+  "election": {
+    "jurisdiction": "U.S. Virgin Islands",
+    "state_code": "VI",
+    "general_date": "2026-11-03",
+    "primary_date": "2026-08-01",
+    "note": "Official Election System of the Virgin Islands June certification (88 rows) plus August general listing (70 rows) and FEC 2026 Delegate master (8 rows). Prefer August general for November. No U.S. Senate; Delegate is the only federal office. Streets omitted. Donor lists are not sold.",
+    "prefer_for_november": "official_august",
+    "no_us_senate": true,
+    "federal_offices": [
+      "Delegate to Congress"
+    ]
+  },
+  "nominees": {},
+  "geo_by_zip": {},
+  "sources": [
+    {
+      "url": "https://vivote.gov/?elections=2026-primary-election",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "ESVI 2026 Primary Election official candidate PDFs"
+    },
+    {
+      "url": "https://vivote.gov/?elections=2026-general-election",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "ESVI 2026 General Election official candidate PDFs (prefer for November)"
+    },
+    {
+      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "FEC candidate master — VI Delegate only (no Senate)"
+    },
+    {
+      "url": "https://vivote.gov/wp-content/uploads/2026/06/2026-Election-Public-Offices-Aspirant-Listing-STX-OFFICIAL-June-2026.pdf",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "Official ESVI official_june St. Croix"
+    },
+    {
+      "url": "https://vivote.gov/wp-content/uploads/2026/06/2026-Election-Public-Offices-Aspirant-Listing-STT-STJ-OFFICIAL-June-2026.pdf",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "Official ESVI official_june St. Thomas/St. John"
+    },
+    {
+      "url": "https://vivote.gov/wp-content/uploads/2026/08/2026-Election-Public-Offices-Aspirant-Listing-STX-OFFICIAL-August-2026.pdf",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "Official ESVI official_august St. Croix"
+    },
+    {
+      "url": "https://vivote.gov/wp-content/uploads/2026/08/2026-General-Election-Official-Listing-of-Candidates-St.-Thomas-and-St.-John-District-8.19.2026.pdf",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "Official ESVI official_august St. Thomas/St. John"
+    }
+  ],
+  "state_filings": {
+    "wired": true,
+    "donors": {
+      "status": "pending",
+      "reason": "Virgin Islands campaign-finance bulk is not extracted in this populate. Donor names are not invented.",
+      "do_not_sell_donor_lists": true
+    },
+    "candidates": {
+      "status": "sourced",
+      "path": "/data/vi/candidates.json",
+      "source_url": "https://vivote.gov/?elections=2026-general-election",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "complete": true,
+      "prefer_for_november": "official_august",
+      "no_us_senate": true,
+      "federal_offices": [
+        "Delegate to Congress"
+      ],
+      "counts": {
+        "rows": 166,
+        "june": 88,
+        "august": 70,
+        "fec_delegate": 8,
+        "contest_keys": 9
+      },
+      "streets_omitted": true,
+      "do_not_sell_donor_lists": true
+    },
+    "esvi_primary": "https://vivote.gov/?elections=2026-primary-election",
+    "esvi_general": "https://vivote.gov/?elections=2026-general-election"
+  },
+  "candidates_path": "/data/vi/candidates.json",
+  "candidate_summary_path": "/data/vi/candidate-summary.json"
+}

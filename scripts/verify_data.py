@@ -1480,6 +1480,80 @@ if (ROOT / "nc" / "votes.json").exists():
     if ncv.get("retrieved_at") != WAVE3_RETRIEVED:
         errors.append("NC votes retrieved_at must be 2026-09-02T15:58:08Z")
 
+# US Virgin Islands: official ESVI June 88 + August general 70 + FEC Delegate 8.
+# Prefer August general for November. No US Senate. Streets omitted. Never wipe others.
+vi_cands_path = ROOT / "vi" / "candidates.json"
+vi_stub = json.loads((ROOT / "vi.json").read_text()) if (ROOT / "vi.json").exists() else {}
+if not (ROOT / "vi.json").exists():
+    errors.append("missing public/data/vi.json")
+else:
+    if vi_stub.get("candidates_path") != "/data/vi/candidates.json":
+        errors.append("vi.json candidates_path missing")
+    if vi_stub.get("election", {}).get("state_code") != "VI":
+        errors.append("vi.json election.state_code must be VI")
+    if vi_stub.get("election", {}).get("jurisdiction") != "U.S. Virgin Islands":
+        errors.append("vi.json jurisdiction must be U.S. Virgin Islands")
+    if vi_stub.get("election", {}).get("prefer_for_november") != "official_august":
+        errors.append("vi.json must prefer official_august for November")
+    if vi_stub.get("election", {}).get("no_us_senate") is not True:
+        errors.append("vi.json must say no_us_senate")
+    if vi_stub.get("election", {}).get("federal_offices") != ["Delegate to Congress"]:
+        errors.append("vi.json federal_offices must be Delegate only")
+    if vi_stub.get("votes_path"):
+        errors.append("vi.json must not invent votes_path")
+    if any("ballotpedia" in u.lower() for u in _urls(vi_stub)):
+        errors.append("vi.json must not use Ballotpedia")
+    cblock = ((vi_stub.get("state_filings") or {}).get("candidates") or {})
+    if cblock.get("complete") is not True or cblock.get("retrieved_at") != "2026-09-03T13:54:09Z":
+        errors.append("vi.json candidates block must be complete=true retrieved_at 2026-09-03T13:54:09Z")
+    if (cblock.get("counts") or {}).get("rows") != 166:
+        errors.append(f"vi.json candidate counts {cblock.get('counts')} != 166")
+if not vi_cands_path.exists():
+    errors.append("missing public/data/vi/candidates.json")
+else:
+    vi_cands = json.loads(vi_cands_path.read_text())
+    if not isinstance(vi_cands, list) or len(vi_cands) != 166:
+        errors.append(f"VI candidates.json rows {len(vi_cands) if isinstance(vi_cands, list) else type(vi_cands)} != 166")
+    else:
+        kinds = Counter(r.get("list_kind") for r in vi_cands)
+        if kinds.get("official_june") != 88 or kinds.get("official_august") != 70 or kinds.get("fec_delegate") != 8:
+            errors.append(f"VI list_kind split {dict(kinds)} != 88/70/8")
+        if any(r.get("complete") is not True for r in vi_cands):
+            errors.append("VI candidates must be labeled complete=true")
+        if any(r.get("retrieved_at") != "2026-09-03T13:54:09Z" for r in vi_cands):
+            errors.append("VI candidates retrieved_at must be 2026-09-03T13:54:09Z")
+        if any("senate" in (r.get("office") or "").lower() for r in vi_cands):
+            errors.append("VI must not invent a U.S. Senate contest")
+        if any(not str(r.get("contest_key") or "").startswith("VI|") or str(r.get("contest_key") or "").count("|") != 3 for r in vi_cands):
+            errors.append("VI contest_key must be VI|OFFICE|DIST|")
+        if any("ballotpedia" in (r.get("source_url") or "").lower() for r in vi_cands):
+            errors.append("VI candidates must not use Ballotpedia")
+        if any(
+            "vivote.gov" not in (r.get("source_url") or "")
+            and "fec.gov/files/bulk-downloads/2026/cn26.zip" not in (r.get("source_url") or "")
+            for r in vi_cands
+        ):
+            errors.append("VI source_url must be official vivote.gov PDFs or FEC cn26")
+        if not any(r.get("candidate_name") == "Janelle K. Sarauw" and r.get("list_kind") == "official_august" and r.get("office") == "Delegate to Congress" for r in vi_cands):
+            errors.append("August general missing Janelle K. Sarauw Delegate")
+        if not any(r.get("cand_id") == "H2VI00082" and r.get("list_kind") == "fec_delegate" for r in vi_cands):
+            errors.append("FEC Delegate missing PLASKETT H2VI00082")
+        street_keys = {"street", "address", "addr", "mailing_address", "email", "phone"}
+        if any(street_keys & {k.lower() for k in r} for r in vi_cands):
+            errors.append("VI candidates must omit streets/email/phone")
+if (ROOT / "vi" / "candidate-summary.json").exists():
+    vi_sum = json.loads((ROOT / "vi" / "candidate-summary.json").read_text())
+    if vi_sum.get("row_count") != 166 or vi_sum.get("complete") is not True:
+        errors.append(f"VI candidate-summary {vi_sum}")
+    if vi_sum.get("prefer_for_november") != "official_august" or vi_sum.get("no_us_senate") is not True:
+        errors.append("VI candidate-summary must prefer August general and omit Senate")
+    if vi_sum.get("retrieved_at") != "2026-09-03T13:54:09Z":
+        errors.append("VI candidate-summary retrieved_at must be 2026-09-03T13:54:09Z")
+    if not vi_sum.get("streets_omitted"):
+        errors.append("VI candidate-summary must say streets_omitted")
+else:
+    errors.append("missing public/data/vi/candidate-summary.json")
+
 if errors:
     print("FAIL")
     for e in errors:
@@ -1597,6 +1671,13 @@ if (ROOT / "nc" / "candidates.json").exists():
         json.loads((ROOT / "nc" / "votes.json").read_text()).get("count"),
         "NC FEC",
         json.loads((ROOT / "nc" / "fec-donors.json").read_text()).get("row_count"),
+    )
+if (ROOT / "vi" / "candidates.json").exists():
+    print(
+        "OK VI ballots",
+        len(json.loads((ROOT / "vi" / "candidates.json").read_text())),
+        "prefer",
+        json.loads((ROOT / "vi.json").read_text()).get("election", {}).get("prefer_for_november"),
     )
 for st in ("pa", "oh", "ga", "nj"):
     if (ROOT / st / "votes.json").exists() and (ROOT / st / "fec-donors.json").exists():
