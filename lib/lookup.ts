@@ -130,7 +130,7 @@ type Bundle = {
       string,
       {
         official_name: string;
-        reg_no: string;
+        reg_no: string | null;
         status: string;
         matched_site_nominee?: string | null;
         reason?: string | null;
