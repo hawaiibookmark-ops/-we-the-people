@@ -4,12 +4,14 @@
     "state_code": "VI",
     "general_date": "2026-11-03",
     "primary_date": "2026-08-01",
-    "note": "Official Election System of the Virgin Islands June certification (88 rows) plus August general listing (70 rows) and FEC 2026 Delegate master (8 rows). Federal FEC Schedule A $200+ is partial (9 as-filed H/S rows, 4 with receipts, 326 kept). Prefer August general for November. No U.S. Senate; Delegate is the only federal office. Territorial campaign-finance bulk is pending. Streets omitted. Donor lists are not sold.",
+    "note": "Official Election System of the Virgin Islands June candidate listings (88 rows) plus August general listing (70 rows) and FEC 2026 Delegate master (8 rows). Primary results were certified August 25, 2026 (VIVOTE Special Notice) — not June 17. Federal FEC Schedule A $200+ is partial (9 as-filed H/S rows, 4 with receipts, 326 kept). Federal Clerk EVS votes are partial (Delegate only, complete=false). Prefer August general for November. No U.S. Senate. Territorial campaign-finance bulk is pending. Streets omitted. Donor lists are not sold.",
     "prefer_for_november": "official_august",
     "no_us_senate": true,
     "federal_offices": [
       "Delegate to Congress"
-    ]
+    ],
+    "primary_certified": "2026-08-25",
+    "primary_certification_source": "https://vivote.gov/2026-primary-election-certification/"
   },
   "nominees": {},
   "geo_by_zip": {},
@@ -58,6 +60,21 @@
       "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
       "retrieved_at": "2026-09-03T13:54:09Z",
       "note": "FEC candidate-committee linkage"
+    },
+    {
+      "url": "https://vivote.gov/2026-primary-election-certification/",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "Official VIVOTE Special Notice: 2026 Primary Election certified August 25, 2026 (not June 17)"
+    },
+    {
+      "url": "https://clerk.house.gov/evs/2026/index.asp",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "House Clerk EVS 2026 — Delegate Plaskett federal-only (complete=false)"
+    },
+    {
+      "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "note": "Clerk MemberData sitting House members"
     }
   ],
   "state_filings": {
@@ -108,8 +125,29 @@
       "status": "pending",
       "reason": "Virgin Islands territorial campaign-finance bulk is not extracted in this populate. Territorial donor names are not invented. Federal FEC Schedule A $200+ is partial.",
       "do_not_sell_donor_lists": true
+    },
+    "votes": {
+      "status": "partial",
+      "path": "/data/vi/votes.json",
+      "complete": false,
+      "federal_only": true,
+      "no_us_senate": true,
+      "retrieved_at": "2026-09-03T13:54:09Z",
+      "source_url": "https://clerk.house.gov/evs/2026/index.asp",
+      "counts": {
+        "rows": 19,
+        "members": 1,
+        "house_rolls_with_delegate": 19
+      }
     }
   },
   "candidates_path": "/data/vi/candidates.json",
-  "candidate_summary_path": "/data/vi/candidate-summary.json"
+  "candidate_summary_path": "/data/vi/candidate-summary.json",
+  "votes_path": "/data/vi/votes.json",
+  "docs": {
+    "source_meta": "/data/vi/SOURCE_META.json",
+    "notes": "/data/vi/NOTES.md",
+    "schema": "/data/vi/SCHEMA.md",
+    "discovery": "/data/vi/DISCOVERY.md"
+  }
 }
