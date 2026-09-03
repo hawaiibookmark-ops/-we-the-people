@@ -1,0 +1,25 @@
+{
+  "row_count": 166,
+  "contest_key_count": 9,
+  "list_kind": [
+    "fec_delegate",
+    "official_august",
+    "official_june"
+  ],
+  "by_list_kind": {
+    "official_june": 88,
+    "official_august": 70,
+    "fec_delegate": 8
+  },
+  "complete": true,
+  "certified": true,
+  "prefer_for_november": "official_august",
+  "no_us_senate": true,
+  "federal_offices": [
+    "Delegate to Congress"
+  ],
+  "source_url": "https://vivote.gov/?elections=2026-general-election",
+  "retrieved_at": "2026-09-03T13:54:09Z",
+  "streets_omitted": true,
+  "note": "Official ESVI June certification (88) + August general (70) + FEC 2026 Delegate (8). Prefer August general for November. No U.S. Senate. Streets omitted. No Ballotpedia."
+}
