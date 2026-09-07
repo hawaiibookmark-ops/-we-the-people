@@ -52,6 +52,32 @@ else:
         errors.append("Kitashima donor retrieved_at must be weekday refresh 2026-09-03T21:08:29Z")
     if not kit_donors.get("do_not_sell_donor_lists"):
         errors.append("Kitashima donors must say do_not_sell_donor_lists")
+hanna = next((n for n in sd18v if (n.get("name") or "") == "HANNA, Max G."), None)
+if not hanna:
+    errors.append("SD18 Vacancy OLVR nominee missing HANNA, Max G.")
+else:
+    if hanna.get("party_code") != "N" or "Nonpartisan" not in (hanna.get("party") or ""):
+        errors.append("Hanna must be Nonpartisan from official OLVR")
+    if hanna.get("status") != "In General":
+        errors.append("Hanna OLVR status must be In General (Filed → In General)")
+    if hanna.get("field") != "general_nominee":
+        errors.append("Hanna must be a general_nominee")
+    if "primary_votes" in hanna:
+        errors.append("Hanna SD18 Vacancy must not invent primary_votes")
+    if hanna.get("retrieved_at") != "2026-09-07T18:10:27Z":
+        errors.append("Hanna retrieved_at must be 2026-09-07T18:10:27Z")
+    if "olvr.hawaii.gov" not in (hanna.get("source_url") or "") or "elid=94" not in (hanna.get("source_url") or ""):
+        errors.append("Hanna must cite official OLVR elid=94")
+    if hanna.get("legal_name") != "MAX G. HANNA":
+        errors.append("Hanna legal_name must stay official OLVR MAX G. HANNA")
+    street_keys = {"street", "address", "mailing_address", "email", "phone"}
+    if street_keys & {k.lower() for k in hanna}:
+        errors.append("Hanna must omit streets/email/phone")
+in_general = {(n.get("name"), n.get("party_code")) for n in sd18v if n.get("status") == "In General"}
+if in_general != {("BASS, Danielle Maliekekai", "D"), ("KITASHIMA, Kelly Puamailani", "R"), ("HANNA, Max G.", "N")}:
+    errors.append(f"SD18 Vacancy In General must be Bass/Kitashima/Hanna, got {in_general}")
+if any((n.get("name") or "").startswith("CUADRA") and n.get("status") == "In General" for n in sd18v):
+    errors.append("SD18 Vacancy must not promote CUADRA Filed into In General")
 
 r = zips.get("90210")
 if not r or r.get("s") != "CA":
