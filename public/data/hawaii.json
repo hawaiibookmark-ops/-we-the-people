@@ -341,7 +341,16 @@
         "field": "general_nominee",
         "status": "In General",
         "source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
-        "retrieved_at": "2026-09-07T18:10:27Z"
+        "retrieved_at": "2026-09-07T18:10:27Z",
+        "donors": {
+          "status": "empty",
+          "item_count_all": 0,
+          "source": "csc",
+          "reason": "Official Hawaii CSC SODA Schedule A (jexd-xbcg, election_period contains 2026) has 0 rows for this OLVR general nominee. Test candidate Hannah (CC12084) is a different name and is not copied. Receipts are not invented. Donor lists are not sold.",
+          "source_url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
+          "retrieved_at": "2026-09-07T18:11:27Z",
+          "do_not_sell_donor_lists": true
+        }
       }
     ],
     "State Senator, Dist 19 Vacancy": [
@@ -3690,13 +3699,13 @@
       "status": "sourced",
       "path": "/data/csc-donors.json",
       "source_url": "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json?$where=election_period%20like%20%27%252026%25%27",
-      "retrieved_at": "2026-09-03T21:08:29Z",
+      "retrieved_at": "2026-09-07T18:11:27Z",
       "counts": {
         "rows": 18875,
-        "candidates": 248,
+        "candidates": 249,
         "ok": 83,
         "unmatched": 164,
-        "empty": 1,
+        "empty": 2,
         "election_periods": [
           "2022-2026",
           "2024-2026"
