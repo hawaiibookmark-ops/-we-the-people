@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000/-we-the-people/ (the app is mounted at the GitHub Pages repo path).
+Open http://localhost:3000/ (custom-domain apex; no repo path prefix).
 
 Test lookups: `96813`, `90210`, `82001`.
 
@@ -37,6 +37,28 @@ This repo deploys a Next.js static export with GitHub Actions (no Vercel).
 
 1. Push to `main`.
 2. Settings → Pages → Source: **GitHub Actions** (if Pages is not already on).
-3. Public URL: https://hawaiibookmark-ops.github.io/-we-the-people/
+3. Settings → Pages → Custom domain: **`getwethepeople.com`** then Save. This repo publishes via Actions, so a `CNAME` file in the artifact does **not** set the domain by itself (GitHub ignores it for workflow publishes). A repo admin must Save the domain in settings (or a token with “manage GitHub Pages settings” must PUT `/repos/.../pages` with `cname=getwethepeople.com`). After DNS verifies, check **Enforce HTTPS**.
+4. Primary URL (after DNS cutover): https://getwethepeople.com/
+5. github.io project URL still served: https://hawaiibookmark-ops.github.io/-we-the-people/
+
+The Next export has **no `basePath`**. On `getwethepeople.com` / `www` the app is at `/`. On `*.github.io` links and `/data/*.json` are prefixed with `/-we-the-people` at runtime. CI sets `assetPrefix` to the github.io origin so one artifact’s JS/CSS load on both hosts.
+
+### Porkbun DNS (Network ops — not this repo)
+
+Do **not** leave Porkbun parking (`207.207.210.x` / `uixie.porkbun.com`). GitHub’s current Pages addresses (from [Managing a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)):
+
+| Type | Host | Value |
+| --- | --- | --- |
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+| AAAA | `@` | `2606:50c0:8000::153` |
+| AAAA | `@` | `2606:50c0:8001::153` |
+| AAAA | `@` | `2606:50c0:8002::153` |
+| AAAA | `@` | `2606:50c0:8003::153` |
+| CNAME | `www` | `hawaiibookmark-ops.github.io` |
+
+`www` must CNAME to **`hawaiibookmark-ops.github.io`** (org Pages host — no repo path). Apex is `A`/`AAAA` (or ALIAS/ANAME to `hawaiibookmark-ops.github.io`), not a CNAME. No wildcard `*.getwethepeople.com`. Remove Porkbun link/parking records on `@` and `www` first. This agent does not control Porkbun and does not invent DNS ownership.
 
 The workflow is `.github/workflows/pages.yml`. User-Agent for extracts: `WeThePeople-CivicBot/1.0`.

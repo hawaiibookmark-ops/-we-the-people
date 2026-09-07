@@ -1,17 +1,31 @@
-import Link from "next/link";
+"use client";
+
+import { useEffect, useState } from "react";
+import { sitePath } from "@/lib/config";
+
+function usePrefixed(path: string): string {
+  const [href, setHref] = useState(path);
+  useEffect(() => {
+    setHref(sitePath(path));
+  }, [path]);
+  return href;
+}
 
 export function Header() {
+  const home = usePrefixed("/");
+  const pro = usePrefixed("/pro/");
+  const about = usePrefixed("/about/");
   return (
     <header className="mast">
       <div className="wrap mast-inner">
-        <Link className="brand" href="/">
+        <a className="brand" href={home}>
           <small>A nonpartisan voter hub</small>
           <strong>We The People</strong>
-        </Link>
+        </a>
         <nav>
-          <Link href="/">Lookup</Link>
-          <Link href="/pro/">Founding Pro</Link>
-          <Link href="/about/">Sources</Link>
+          <a href={home}>Lookup</a>
+          <a href={pro}>Founding Pro</a>
+          <a href={about}>Sources</a>
         </nav>
       </div>
     </header>
@@ -19,6 +33,8 @@ export function Header() {
 }
 
 export function Footer() {
+  const about = usePrefixed("/about/");
+  const pro = usePrefixed("/pro/");
   return (
     <footer>
       <div className="wrap">
@@ -27,9 +43,9 @@ export function Footer() {
           No scores, no candidate ads, no selling of donor lists or user data.
         </p>
         <p>
-          <Link href="/about/">Methodology and sources</Link>
+          <a href={about}>Methodology and sources</a>
           {" · "}
-          <Link href="/pro/">Founding Pro $5/month</Link>
+          <a href={pro}>Founding Pro $5/month</a>
         </p>
       </div>
     </footer>

@@ -1,4 +1,4 @@
-import { BASE_PATH, dataUrl } from "./config";
+import { dataUrl, sitePath } from "./config";
 import type {
   FecCandidate,
   HiNominee,
@@ -930,5 +930,5 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
 
 export function lookupHref(q: string) {
   const params = new URLSearchParams({ q });
-  return `${BASE_PATH}/lookup/?${params.toString()}`;
+  return `${sitePath("/lookup/")}?${params.toString()}`;
 }

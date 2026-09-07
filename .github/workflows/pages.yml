@@ -34,6 +34,10 @@ jobs:
         run: npx next build
       - name: Keep Jekyll from hiding files
         run: touch out/.nojekyll
+      - name: Publish Pages CNAME for getwethepeople.com
+        run: |
+          printf '%s\n' getwethepeople.com > out/CNAME
+          test "$(tr -d '[:space:]' < out/CNAME)" = getwethepeople.com
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
@@ -47,3 +51,18 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Configure Pages custom domain
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Actions-published sites store the custom domain in Pages settings, not the artifact CNAME.
+          # This token may lack "manage GitHub Pages settings"; continue-on-error so deploy still succeeds.
+          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pages" \
+            -f cname=getwethepeople.com \
+            -f build_type=workflow
+          gh api "repos/${GITHUB_REPOSITORY}/pages"
+          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pages" \
+            -F https_enforced=true \
+            -f cname=getwethepeople.com \
+            -f build_type=workflow || true
