@@ -329,6 +329,19 @@
           "retrieved_at": "2026-09-03T21:08:29Z",
           "do_not_sell_donor_lists": true
         }
+      },
+      {
+        "office": "State Senator, Dist 18 Vacancy",
+        "kind": "state_senate",
+        "district": "18",
+        "party": "Nonpartisan",
+        "party_code": "N",
+        "name": "HANNA, Max G.",
+        "legal_name": "MAX G. HANNA",
+        "field": "general_nominee",
+        "status": "In General",
+        "source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "retrieved_at": "2026-09-07T18:10:27Z"
       }
     ],
     "State Senator, Dist 19 Vacancy": [
