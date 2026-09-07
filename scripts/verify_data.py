@@ -73,6 +73,17 @@ else:
     street_keys = {"street", "address", "mailing_address", "email", "phone"}
     if street_keys & {k.lower() for k in hanna}:
         errors.append("Hanna must omit streets/email/phone")
+    hanna_donors = hanna.get("donors") or {}
+    if hanna_donors.get("status") != "empty" or hanna_donors.get("item_count_all") != 0:
+        errors.append("Hanna hawaii.json donors must stay CSC honest-empty (0 rows)")
+    if hanna_donors.get("items"):
+        errors.append("Hanna must not invent CSC receipts")
+    if hanna_donors.get("retrieved_at") != "2026-09-07T18:11:27Z":
+        errors.append("Hanna donor retrieved_at must be 2026-09-07T18:11:27Z")
+    if not hanna_donors.get("do_not_sell_donor_lists"):
+        errors.append("Hanna donors must say do_not_sell_donor_lists")
+    if hanna_donors.get("source") != "csc":
+        errors.append("Hanna donors must stay CSC, not invented FEC")
 in_general = {(n.get("name"), n.get("party_code")) for n in sd18v if n.get("status") == "In General"}
 if in_general != {("BASS, Danielle Maliekekai", "D"), ("KITASHIMA, Kelly Puamailani", "R"), ("HANNA, Max G.", "N")}:
     errors.append(f"SD18 Vacancy In General must be Bass/Kitashima/Hanna, got {in_general}")
@@ -164,26 +175,30 @@ if hi.get("state_filings", {}).get("donors", {}).get("status") != "sourced":
 hi_donor_counts = (hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}
 if hi_donor_counts.get("rows") != 18875:
     errors.append(f"hawaii.json CSC counts.rows {hi_donor_counts.get('rows')} != 18875")
-if (hi.get("state_filings", {}).get("donors") or {}).get("retrieved_at") != "2026-09-03T21:08:29Z":
-    errors.append("hawaii.json CSC retrieved_at must be weekday refresh 2026-09-03T21:08:29Z")
+if (hi.get("state_filings", {}).get("donors") or {}).get("retrieved_at") != "2026-09-07T18:11:27Z":
+    errors.append("hawaii.json CSC retrieved_at must be Hanna empty stub 2026-09-07T18:11:27Z")
 if (hi.get("state_filings", {}).get("donors") or {}).get("path") != "/data/csc-donors.json":
     errors.append("hawaii.json CSC path must stay /data/csc-donors.json")
-if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("empty") != 1:
-    errors.append("hawaii.json CSC counts.empty must be 1 (Kitashima honest-empty)")
-if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("candidates") != 248:
-    errors.append("hawaii.json CSC counts.candidates must be 248 after Kitashima empty")
+if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("empty") != 2:
+    errors.append("hawaii.json CSC counts.empty must be 2 (Kitashima+Hanna honest-empty)")
+if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("candidates") != 249:
+    errors.append("hawaii.json CSC counts.candidates must be 249 after Hanna empty")
 if hi.get("state_filings", {}).get("csc_public") != "https://csc.hawaii.gov/CFSPublic/":
     errors.append("CFS public link missing")
 if "view-searchable-data" not in (hi.get("state_filings", {}).get("csc_searchable") or ""):
     errors.append("CSC searchable landing missing")
 if csc.get("row_count") != 18875:
     errors.append(f"csc row_count {csc.get('row_count')} != 18875")
-if csc.get("retrieved_at") != "2026-09-03T21:08:29Z":
-    errors.append(f"csc retrieved_at {csc.get('retrieved_at')} != 2026-09-03T21:08:29Z")
-if csc.get("candidate_count") != 248 or (csc.get("counts") or {}).get("candidates") != 248:
-    errors.append(f"csc candidate_count {csc.get('candidate_count')} != 248")
-if (csc.get("counts") or {}).get("empty") != 1:
-    errors.append("csc counts.empty must be 1 after Kitashima honest-empty")
+if csc.get("retrieved_at") != "2026-09-07T18:11:27Z":
+    errors.append(f"csc retrieved_at {csc.get('retrieved_at')} != 2026-09-07T18:11:27Z")
+if csc.get("candidate_count") != 249 or (csc.get("counts") or {}).get("candidates") != 249:
+    errors.append(f"csc candidate_count {csc.get('candidate_count')} != 249")
+if (csc.get("counts") or {}).get("empty") != 2:
+    errors.append("csc counts.empty must be 2 after Hanna honest-empty")
+if (csc.get("counts") or {}).get("ok") != 83:
+    errors.append(f"csc counts.ok { (csc.get('counts') or {}).get('ok') } != 83")
+if (csc.get("counts") or {}).get("unmatched") != 164:
+    errors.append(f"csc counts.unmatched {(csc.get('counts') or {}).get('unmatched')} != 164")
 kit_csc = next(
     (v for v in (csc.get("by_candidate") or {}).values() if v.get("matched_site_nominee") == "KITASHIMA, Kelly Puamailani"),
     None,
@@ -197,6 +212,33 @@ else:
         errors.append("Kitashima must not reuse 2014-2018 Honolulu Council CC11342 receipts")
     if kit_csc.get("retrieved_at") != "2026-09-03T21:08:29Z":
         errors.append("Kitashima CSC retrieved_at must be 2026-09-03T21:08:29Z")
+hanna_csc = next(
+    (
+        v
+        for v in (csc.get("by_candidate") or {}).values()
+        if v.get("matched_site_nominee") == "HANNA, Max G." or v.get("official_name") == "HANNA, Max G."
+    ),
+    None,
+)
+if not hanna_csc:
+    errors.append("csc-donors.json missing Hanna matched empty row")
+else:
+    if hanna_csc.get("status") != "empty" or hanna_csc.get("item_count_all") != 0 or hanna_csc.get("items"):
+        errors.append("Hanna CSC row must stay status=empty with 0 items")
+    if hanna_csc.get("reg_no") in {"CC12084", "cc12084"}:
+        errors.append("Hanna must not reuse Test, Hannah CC12084 receipts")
+    if hanna_csc.get("retrieved_at") != "2026-09-07T18:11:27Z":
+        errors.append("Hanna CSC retrieved_at must be 2026-09-07T18:11:27Z")
+test_hannah = next(
+    (v for v in (csc.get("by_candidate") or {}).values() if (v.get("reg_no") or "") == "CC12084"),
+    None,
+)
+if test_hannah and (test_hannah.get("matched_site_nominee") == "HANNA, Max G." or test_hannah.get("status") != "unmatched"):
+    errors.append("Test, Hannah CC12084 must stay unmatched and not attach to Hanna")
+for rec in (donors.get("by_candidate") or {}).values():
+    nm = (rec.get("name") or rec.get("candidate_name") or "")
+    if nm == "HANNA, Max G." or nm.upper().startswith("HANNA,"):
+        errors.append("donors.json must stay FEC-only; do not invent Hanna as a federal donor")
 if not csc.get("do_not_sell_donor_lists"):
     errors.append("csc-donors.json must say do_not_sell_donor_lists")
 if not csc.get("streets_omitted"):
@@ -1765,6 +1807,8 @@ print(
     len(unmatched),
     "Kitashima",
     ((csc.get("by_candidate") or {}).get("KITASHIMA, Kelly Puamailani") or {}).get("status"),
+    "Hanna",
+    ((csc.get("by_candidate") or {}).get("HANNA, Max G.") or {}).get("status"),
 )
 print(
     "OK votes congress",
