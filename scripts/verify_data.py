@@ -1790,6 +1790,12 @@ for name in ("NOTES.md", "SCHEMA.md", "DISCOVERY.md"):
     if not (ROOT / "vi" / name).is_file():
         errors.append(f"missing public/data/vi/{name}")
 
+cname_path = ROOT.parent / "CNAME"
+if not cname_path.is_file():
+    errors.append("missing public/CNAME for GitHub Pages custom domain")
+elif cname_path.read_text(encoding="utf-8").strip() != "getwethepeople.com":
+    errors.append(f"public/CNAME must be getwethepeople.com, got {cname_path.read_text(encoding='utf-8')!r}")
+
 if errors:
     print("FAIL")
     for e in errors:

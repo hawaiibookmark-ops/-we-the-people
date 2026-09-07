@@ -1,4 +1,14 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { siteOrigin } from "@/lib/config";
+
 export default function ProPage() {
+  const [returnUrl, setReturnUrl] = useState("https://getwethepeople.com/pro/");
+  useEffect(() => {
+    setReturnUrl(`${siteOrigin()}/pro/`);
+  }, []);
+
   return (
     <section className="hero">
       <p className="kicker">Founding Pro</p>
@@ -30,7 +40,7 @@ export default function ProPage() {
           <input type="hidden" name="t3" value="M" />
           <input type="hidden" name="src" value="1" />
           <input type="hidden" name="sra" value="1" />
-          <input type="hidden" name="return" value="https://hawaiibookmark-ops.github.io/-we-the-people/pro/" />
+          <input type="hidden" name="return" value={returnUrl} />
           <button className="btn" type="submit">
             Subscribe $5/month via PayPal
           </button>
