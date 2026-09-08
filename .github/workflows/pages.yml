@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -34,10 +34,12 @@ jobs:
         run: npx next build
       - name: Keep Jekyll from hiding files
         run: touch out/.nojekyll
-      - name: Publish Pages CNAME for getwethepeople.com
+      - name: Refuse to publish a Pages CNAME until DNS is on GitHub
         run: |
-          printf '%s\n' getwethepeople.com > out/CNAME
-          test "$(tr -d '[:space:]' < out/CNAME)" = getwethepeople.com
+          if [ -f out/CNAME ]; then
+            echo "refusing to publish out/CNAME (github.io would 301 to the custom domain)" >&2
+            exit 1
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
@@ -51,18 +53,14 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-      - name: Configure Pages custom domain
-        continue-on-error: true
+      - name: Clear Pages custom domain until DNS is ready
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Actions-published sites store the custom domain in Pages settings, not the artifact CNAME.
-          # This token may lack "manage GitHub Pages settings"; continue-on-error so deploy still succeeds.
-          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pages" \
-            -f cname=getwethepeople.com \
-            -f build_type=workflow
+          # A published custom domain 301s github.io → getwethepeople.com. Porkbun is
+          # still parking, so that redirect takes the public hub offline. Clear cname.
+          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pages" --input - <<'JSON'
+          {"cname": null, "build_type": "workflow"}
+          JSON
           gh api "repos/${GITHUB_REPOSITORY}/pages"
-          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pages" \
-            -F https_enforced=true \
-            -f cname=getwethepeople.com \
-            -f build_type=workflow || true
+          test "$(gh api repos/${GITHUB_REPOSITORY}/pages --jq .cname)" = "null"
