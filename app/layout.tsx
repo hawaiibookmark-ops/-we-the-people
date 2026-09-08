@@ -7,7 +7,10 @@ export const metadata: Metadata = {
   title: "We The People — nonpartisan voter hub",
   description:
     "Official-source voter lookup for the November 3, 2026 general election. Hawaiʻi gold template. No scores. No ads.",
-  metadataBase: new URL("https://getwethepeople.com"),
+  metadataBase: new URL("https://hawaiibookmark-ops.github.io/-we-the-people/"),
+  other: {
+    "wtp-pages-revision": "2026-09-08-aborted-cname",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
