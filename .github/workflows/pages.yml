@@ -53,14 +53,16 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-      - name: Clear Pages custom domain until DNS is ready
+      - name: Confirm Pages custom domain stays cleared
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # A published custom domain 301s github.io → getwethepeople.com. Porkbun is
-          # still parking, so that redirect takes the public hub offline. Clear cname.
-          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pages" --input - <<'JSON'
-          {"cname": null, "build_type": "workflow"}
-          JSON
+          # GITHUB_TOKEN cannot PUT Pages settings (403). Everything Claude / a repo
+          # admin clears cname in Settings. This step only reports; it must not fail
+          # the deploy after the artifact is already live.
           gh api "repos/${GITHUB_REPOSITORY}/pages"
-          test "$(gh api repos/${GITHUB_REPOSITORY}/pages --jq .cname)" = "null"
+          cname="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .cname)"
+          echo "pages.cname=${cname}"
+          if [ "${cname}" != "null" ] && [ -n "${cname}" ]; then
+            echo "::warning::Pages cname is ${cname}; github.io will 301 until Settings → Pages custom domain is removed."
+          fi
