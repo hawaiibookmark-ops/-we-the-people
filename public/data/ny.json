@@ -3,7 +3,7 @@
     "jurisdiction": "New York",
     "state_code": "NY",
     "general_date": "2026-11-03",
-    "note": "Official NYSBOE Who Filed 2026 primary + general (complete=false), NYSBOE Schedule A–D donors (Open NY e9ss-239a), Clerk/LIS federal votes, and federal FEC Schedule A $200+. Donor lists are not sold."
+    "note": "Official NYSBOE amended general ballot certification dated September 4, 2026 (November 3, 2026 General Election; preferred over Who Filed), NYSBOE Schedule A–D donors (Open NY e9ss-239a), Clerk/LIS federal votes, and federal FEC Schedule A $200+. Donor lists are not sold."
   },
   "votes_path": "/data/ny/votes.json",
   "congress_delegation_path": "/data/ny/congress-delegation.json",
@@ -63,6 +63,16 @@
       "url": "https://publicreporting.elections.ny.gov/WhoFiled/WhoFiled",
       "retrieved_at": "2026-09-02T17:06:00Z",
       "note": "Official NYSBOE Who Filed 2026 primary + general (complete=false)"
+    },
+    {
+      "url": "https://elections.ny.gov/certification-november-3-2026-general-election",
+      "retrieved_at": "2026-09-09T18:05:36Z",
+      "note": "Official NYSBOE amended Nov 3 2026 general ballot certification (dated Sep 4, 2026)"
+    },
+    {
+      "url": "https://elections.ny.gov/ballot-certifications-elections",
+      "retrieved_at": "2026-09-09T18:05:36Z",
+      "note": "NYSBOE ballot certifications landing"
     }
   ],
   "state_filings": {
@@ -101,19 +111,24 @@
     "nysboe_landing": "https://data.ny.gov/Government-Finance/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a",
     "who_filed": "https://publicreporting.elections.ny.gov/WhoFiled/WhoFiled",
     "candidates": {
-      "status": "partial",
+      "status": "sourced",
       "path": "/data/ny/candidates.json",
-      "source_url": "https://publicreporting.elections.ny.gov/WhoFiled/WhoFiled",
-      "retrieved_at": "2026-09-02T17:06:00Z",
-      "complete": false,
+      "source_url": "https://elections.ny.gov/certification-november-3-2026-general-election",
+      "landing_url": "https://elections.ny.gov/ballot-certifications-elections",
+      "retrieved_at": "2026-09-09T18:05:36Z",
+      "certification_date": "2026-09-04",
+      "complete": true,
+      "certified": true,
+      "prefer_for_november": "general_ballot_certification",
       "counts": {
-        "rows": 1685,
-        "primary": 1338,
-        "general": 347,
-        "contest_keys": 175
+        "rows": 849,
+        "contest_keys": 254,
+        "general_ballot_certification": 849
       },
       "do_not_sell_donor_lists": true
-    }
+    },
+    "nysboe_cert": "https://elections.ny.gov/certification-november-3-2026-general-election",
+    "nysboe_cert_landing": "https://elections.ny.gov/ballot-certifications-elections"
   },
   "candidates_path": "/data/ny/candidates.json",
   "candidate_summary_path": "/data/ny/candidate-summary.json"
