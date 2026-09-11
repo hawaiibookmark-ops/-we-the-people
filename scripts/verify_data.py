@@ -90,6 +90,62 @@ if in_general != {("BASS, Danielle Maliekekai", "D"), ("KITASHIMA, Kelly Puamail
 if any((n.get("name") or "").startswith("CUADRA") and n.get("status") == "In General" for n in sd18v):
     errors.append("SD18 Vacancy must not promote CUADRA Filed into In General")
 
+hd43 = hi["nominees"].get("State Representative, Dist 43") or []
+hd43_in_general = {(n.get("name"), n.get("legal_name"), n.get("party_code"), n.get("status"), n.get("field")) for n in hd43}
+if hd43_in_general != {
+    ("MEDEIROS, Sheila", "SHEILA MEDEIROS", "R", "In General", "general_nominee"),
+    ("SOUZA, Kanani", "KRISTEN K. SOUZA", "R", "In General", "general_nominee"),
+}:
+    errors.append(f"HD43 In General must be Medeiros + Kanani Souza only, got {hd43_in_general}")
+if any(
+    "Keoni" in (n.get("name") or "")
+    or "JUSTIN PATRICK KEONI SOUZA" in (n.get("legal_name") or "")
+    for n in hd43
+):
+    errors.append("HD43 must not include OHA At-Large Trustee SOUZA, Keoni")
+if len(hd43) != 2:
+    errors.append(f"HD43 must have exactly 2 general nominees, got {len(hd43)}")
+for n in hd43:
+    if n.get("source_url") != "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94":
+        errors.append(f"{n.get('name')} must cite official OLVR elid=94")
+    if n.get("retrieved_at") != "2026-09-11T18:05:04.125Z":
+        errors.append(f"{n.get('name')} retrieved_at must stay 2026-09-11T18:05:04.125Z")
+    if n.get("primary_votes") != 842:
+        errors.append(f"{n.get('name')} must keep official OE tied primary_votes 842")
+    if {"street", "address", "mailing_address", "email", "phone"} & {k.lower() for k in n}:
+        errors.append(f"{n.get('name')} must omit streets/email/phone")
+med = next((n for n in hd43 if n.get("name") == "MEDEIROS, Sheila"), None)
+sou = next((n for n in hd43 if n.get("name") == "SOUZA, Kanani"), None)
+if not med or med.get("legal_name") != "SHEILA MEDEIROS":
+    errors.append("Medeiros legal_name must stay official OLVR SHEILA MEDEIROS")
+if not sou or sou.get("legal_name") != "KRISTEN K. SOUZA":
+    errors.append("Kanani Souza legal_name must stay official OLVR KRISTEN K. SOUZA")
+oha_souza = [
+    n
+    for n in (hi.get("nonpartisan_primary") or {}).get("At-Large Trustee") or []
+    if (n.get("name") or "") == "SOUZA, Keoni"
+]
+if oha_souza != [
+    {
+        "office": "At-Large Trustee",
+        "kind": "oha_trustee",
+        "district": "00",
+        "name": "SOUZA, Keoni",
+        "party": "Nonpartisan",
+        "primary_votes": 58000,
+        "field": "certified_primary",
+    }
+]:
+    errors.append("OHA At-Large Trustee SOUZA, Keoni must stay untouched")
+hd18 = hi["nominees"].get("State Representative, Dist 18") or []
+if [(n.get("name"), n.get("party_code"), n.get("field"), n.get("status")) for n in hd18] != [
+    ("GEDEON, Joe", "R", "general_nominee", None),
+    ("WATARU, James (Jamie)", "D", "general_nominee", None),
+]:
+    errors.append("Dist 18 House must stay Gedeon (R) / Wataru (D) unchanged")
+if any(n.get("source_url") for n in hd18):
+    errors.append("Dist 18 House must not receive a Dist 43 OLVR overlay")
+
 r = zips.get("90210")
 if not r or r.get("s") != "CA":
     errors.append(f"90210 should be CA, got {r}")
