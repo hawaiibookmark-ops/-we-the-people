@@ -266,6 +266,10 @@ if kanani_csc.get("matched_site_nominee") != "SOUZA, Kanani" or kanani_csc.get("
     errors.append("CC11574 must rematch to site nominee SOUZA, Kanani (HD43) with status ok")
 if kanani_csc.get("item_count_all") != 9 or len(kanani_csc.get("items") or []) != 9:
     errors.append("CC11574 must keep 9 official CSC items; do not invent receipts")
+if kanani_csc.get("retrieved_at") != "2026-09-11T18:37:26Z":
+    errors.append("CC11574 rematch retrieved_at must be 2026-09-11T18:37:26Z")
+if any((it.get("retrieved_at") != "2026-09-02T18:11:34Z") for it in (kanani_csc.get("items") or [])):
+    errors.append("CC11574 items must keep official SODA item retrieved_at; do not rewrite receipts")
 if kanani_csc.get("matched_site_nominee") == "SOUZA, Keoni":
     errors.append("CC11574 must not match OHA SOUZA, Keoni")
 keoni_csc = (csc.get("by_candidate") or {}).get("CC11581") or {}

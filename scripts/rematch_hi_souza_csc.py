@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "public" / "data"
 RETRIEVED = "2026-09-07T18:11:27Z"
+REMATCHED = "2026-09-11T18:37:26Z"
 SOURCE_URL = (
     "https://hicscdata.hawaii.gov/resource/jexd-xbcg.json"
     "?$where=election_period%20like%20%27%252026%25%27"
@@ -110,6 +111,7 @@ def rematch_existing(payload: dict) -> dict:
     kanani["status"] = "ok"
     kanani["matched_site_nominee"] = SITE
     kanani["reason"] = None
+    kanani["retrieved_at"] = REMATCHED
     if kanani.get("items") != items_before:
         raise SystemExit("refusing to invent or rewrite CC11574 receipts")
 
