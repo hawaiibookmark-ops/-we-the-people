@@ -3,8 +3,9 @@
 
 MEDEIROS, Sheila / SHEILA MEDEIROS: Elected After Primary → In General.
 SOUZA, Kanani / KRISTEN K. SOUZA: In Primary → In General.
+Do not confuse with OHA At-Large Trustee SOUZA, Keoni / JUSTIN PATRICK KEONI SOUZA.
 Certified 2026 Primary summary lists both Republicans at 842 votes (tie).
-Does not rewrite Dist 18, CSC, FEC, or votes. Streets/email/phone omitted.
+Does not rewrite Dist 18, OHA Keoni, CSC, FEC, or votes. Streets/email/phone omitted.
 """
 
 from __future__ import annotations
@@ -107,6 +108,15 @@ def main() -> int:
     hi = json.loads((OUT / "hawaii.json").read_text(encoding="utf-8"))
     sd18_before = json.loads(json.dumps(hi["nominees"].get("State Senator, Dist 18 Vacancy")))
     hd18_before = json.loads(json.dumps(hi["nominees"].get("State Representative, Dist 18")))
+    oha_keoni_before = json.loads(
+        json.dumps(
+            [
+                n
+                for n in (hi.get("nonpartisan_primary") or {}).get("At-Large Trustee") or []
+                if n.get("name") == "SOUZA, Keoni"
+            ]
+        )
+    )
 
     if packaged:
         hd43 = (packaged.get("nominees") or {}).get(HD43) or []
@@ -129,6 +139,8 @@ def main() -> int:
         }
         if got != {("MEDEIROS, Sheila", "REPUBLICAN", "In General"), ("SOUZA, Kanani", "REPUBLICAN", "In General")}:
             raise SystemExit(f"official OLVR Dist 43 unexpected: {got}")
+        if any((r.get("BallotName") or "").strip() == "SOUZA, Keoni" for r in hd43_rows):
+            raise SystemExit("refusing to put OHA SOUZA, Keoni on Dist 43")
         hi["nominees"][HD43] = [
             nominee("MEDEIROS, Sheila", "SHEILA MEDEIROS"),
             nominee("SOUZA, Kanani", "KRISTEN K. SOUZA"),
@@ -138,6 +150,15 @@ def main() -> int:
         raise SystemExit("refusing to change Dist 18 Senate Vacancy")
     if hi["nominees"].get("State Representative, Dist 18") != hd18_before:
         raise SystemExit("refusing to change Dist 18 House")
+    oha_keoni_after = [
+        n
+        for n in (hi.get("nonpartisan_primary") or {}).get("At-Large Trustee") or []
+        if n.get("name") == "SOUZA, Keoni"
+    ]
+    if oha_keoni_after != oha_keoni_before:
+        raise SystemExit("refusing to change OHA At-Large Trustee SOUZA, Keoni")
+    if any(n.get("name") == "SOUZA, Keoni" for n in hi["nominees"].get(HD43) or []):
+        raise SystemExit("refusing to put OHA SOUZA, Keoni on Dist 43")
 
     (OUT / "hawaii.json").write_text(json.dumps(hi, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     after = {name: sha256(OUT / name) for name in before}
