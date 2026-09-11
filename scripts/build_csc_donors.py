@@ -40,6 +40,7 @@ ALIASES = {
     "LA CHICA, MAE PATRICIA": "LA CHICA, Trish",
 }
 PACKAGE_DIRS = [
+    Path("/workspace/wtp-live-data/donors-2026-09-11-souza-rematch"),
     Path("/workspace/wtp-live-data/donors-2026-09-03"),
     Path("/workspace/wtp-live-data/donors-2026-09-02"),
     Path("/workspace/wtp-live-data/run-2026-09-02-hi08-routine"),
