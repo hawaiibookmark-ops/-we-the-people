@@ -139,13 +139,16 @@ def parse_hi_summary(text: str) -> list[dict]:
     contests = []
     for (title, p), cands in grouped.items():
         cands.sort(key=lambda c: (-c["votes"], c["name"]))
+        top = cands[0]["votes"] if cands else 0
+        tied = [c for c in cands if c["votes"] == top] if cands else []
         contests.append(
             {
                 "office": title,
                 "party_code": p,
                 "party": party_label(p),
                 "candidates": cands,
-                "nominee": cands[0] if cands else None,
+                "nominee": tied[0] if tied else None,
+                "nominees": tied,
             }
         )
     return contests
@@ -535,21 +538,12 @@ def main() -> int:
     ))
 
     # Partisan nominees: highest vote in each party primary for an office.
+    # Official ties (HD43 Medeiros/Souza both 842) keep every top-vote row.
     nominees_by_office: dict[str, list] = defaultdict(list)
     nonpartisan_fields: dict[str, list] = defaultdict(list)
     for c in hi_contests:
         kind = office_kind(c["office"])
         dist = district_from_office(c["office"])
-        entry = {
-            "office": c["office"],
-            "kind": kind,
-            "district": dist,
-            "party": c["party"],
-            "party_code": c["party_code"],
-            "name": c["nominee"]["name"] if c["nominee"] else None,
-            "primary_votes": c["nominee"]["votes"] if c["nominee"] else None,
-            "field": "general_nominee" if c["party_code"] != "NON" else "certified_primary",
-        }
         if c["party_code"] == "NON":
             # Do not infer multi-winner cutoffs. Publish certified primary list.
             nonpartisan_fields[c["office"]] = [
@@ -565,7 +559,19 @@ def main() -> int:
                 for cand in c["candidates"]
             ]
         else:
-            nominees_by_office[c["office"]].append(entry)
+            for nom in c.get("nominees") or ([c["nominee"]] if c.get("nominee") else []):
+                nominees_by_office[c["office"]].append(
+                    {
+                        "office": c["office"],
+                        "kind": kind,
+                        "district": dist,
+                        "party": c["party"],
+                        "party_code": c["party_code"],
+                        "name": nom["name"] if nom else None,
+                        "primary_votes": nom["votes"] if nom else None,
+                        "field": "general_nominee",
+                    }
+                )
 
     gazetteer_url = "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip"
     print("Fetching Census ZCTA gazetteer …", flush=True)
@@ -693,13 +699,20 @@ def main() -> int:
     existing_csc = load_existing_json(OUT / "csc-donors.json")
     existing_hawaii = load_existing_json(OUT / "hawaii.json")
     # OLVR vacancy nominees are not in the certified primary summary. Keep them.
+    # Also keep OLVR status/source on Dist 43 tied general nominees.
     existing_noms = (existing_hawaii or {}).get("nominees") or {}
     for key, rows in existing_noms.items():
-        if "vacancy" not in key.lower():
-            continue
-        have = {r.get("name") for r in nominees_by_office.get(key, [])}
+        have = {r.get("name"): r for r in nominees_by_office.get(key, [])}
         for row in rows:
-            if row.get("name") and row.get("name") not in have:
+            name = row.get("name")
+            if not name:
+                continue
+            if name in have:
+                for fld in ("status", "source_url", "retrieved_at", "legal_name", "donors"):
+                    if fld in row and fld not in have[name]:
+                        have[name][fld] = row[fld]
+                continue
+            if "vacancy" in key.lower() or "olvr.hawaii.gov" in (row.get("source_url") or ""):
                 nominees_by_office[key].append(row)
     donor_note = (existing_donors or {}).get("policy") or (
         "Official FEC bulk Schedule A individual receipts of $200+ from indiv26.zip. "

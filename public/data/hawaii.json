@@ -1203,8 +1203,26 @@
         "party": "Republican Party",
         "party_code": "R",
         "name": "MEDEIROS, Sheila",
+        "legal_name": "SHEILA MEDEIROS",
         "primary_votes": 842,
-        "field": "general_nominee"
+        "field": "general_nominee",
+        "status": "In General",
+        "source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "retrieved_at": "2026-09-11T18:05:04.125Z"
+      },
+      {
+        "office": "State Representative, Dist 43",
+        "kind": "state_house",
+        "district": "43",
+        "party": "Republican Party",
+        "party_code": "R",
+        "name": "SOUZA, Kanani",
+        "legal_name": "KRISTEN K. SOUZA",
+        "primary_votes": 842,
+        "field": "general_nominee",
+        "status": "In General",
+        "source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "retrieved_at": "2026-09-11T18:05:04.125Z"
       }
     ],
     "State Representative, Dist 44": [
