@@ -239,6 +239,10 @@ if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("
     errors.append("hawaii.json CSC counts.empty must be 2 (Kitashima+Hanna honest-empty)")
 if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("candidates") != 249:
     errors.append("hawaii.json CSC counts.candidates must be 249 after Hanna empty")
+if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("ok") != 84:
+    errors.append("hawaii.json CSC counts.ok must be 84 after Kanani Souza rematch")
+if ((hi.get("state_filings", {}).get("donors") or {}).get("counts") or {}).get("unmatched") != 163:
+    errors.append("hawaii.json CSC counts.unmatched must be 163 after Kanani Souza rematch")
 if hi.get("state_filings", {}).get("csc_public") != "https://csc.hawaii.gov/CFSPublic/":
     errors.append("CFS public link missing")
 if "view-searchable-data" not in (hi.get("state_filings", {}).get("csc_searchable") or ""):
@@ -251,10 +255,35 @@ if csc.get("candidate_count") != 249 or (csc.get("counts") or {}).get("candidate
     errors.append(f"csc candidate_count {csc.get('candidate_count')} != 249")
 if (csc.get("counts") or {}).get("empty") != 2:
     errors.append("csc counts.empty must be 2 after Hanna honest-empty")
-if (csc.get("counts") or {}).get("ok") != 83:
-    errors.append(f"csc counts.ok { (csc.get('counts') or {}).get('ok') } != 83")
-if (csc.get("counts") or {}).get("unmatched") != 164:
-    errors.append(f"csc counts.unmatched {(csc.get('counts') or {}).get('unmatched')} != 164")
+if (csc.get("counts") or {}).get("ok") != 84:
+    errors.append(f"csc counts.ok { (csc.get('counts') or {}).get('ok') } != 84")
+if (csc.get("counts") or {}).get("unmatched") != 163:
+    errors.append(f"csc counts.unmatched {(csc.get('counts') or {}).get('unmatched')} != 163")
+kanani_csc = (csc.get("by_candidate") or {}).get("CC11574") or {}
+if kanani_csc.get("official_name") != "Souza, Kanani":
+    errors.append("CC11574 official_name must stay Souza, Kanani from official CSC")
+if kanani_csc.get("matched_site_nominee") != "SOUZA, Kanani" or kanani_csc.get("status") != "ok":
+    errors.append("CC11574 must rematch to site nominee SOUZA, Kanani (HD43) with status ok")
+if kanani_csc.get("item_count_all") != 9 or len(kanani_csc.get("items") or []) != 9:
+    errors.append("CC11574 must keep 9 official CSC items; do not invent receipts")
+if kanani_csc.get("retrieved_at") != "2026-09-11T18:37:26Z":
+    errors.append("CC11574 rematch retrieved_at must be 2026-09-11T18:37:26Z")
+if any((it.get("retrieved_at") != "2026-09-02T18:11:34Z") for it in (kanani_csc.get("items") or [])):
+    errors.append("CC11574 items must keep official SODA item retrieved_at; do not rewrite receipts")
+if kanani_csc.get("matched_site_nominee") == "SOUZA, Keoni":
+    errors.append("CC11574 must not match OHA SOUZA, Keoni")
+keoni_csc = (csc.get("by_candidate") or {}).get("CC11581") or {}
+if keoni_csc.get("official_name") != "Souza, Keoni" or keoni_csc.get("office") != ["OHA"]:
+    errors.append("CC11581 Souza, Keoni must stay official OHA unmatched")
+if keoni_csc.get("status") != "unmatched" or keoni_csc.get("matched_site_nominee"):
+    errors.append("CC11581 Keoni/OHA must stay unmatched and not attach to Kanani")
+medeiros_csc = (csc.get("by_candidate") or {}).get("CC11978") or {}
+if medeiros_csc.get("official_name") != "Medeiros, Sheila":
+    errors.append("CC11978 official_name must stay Medeiros, Sheila")
+if medeiros_csc.get("matched_site_nominee") != "MEDEIROS, Sheila" or medeiros_csc.get("status") != "ok":
+    errors.append("CC11978 Medeiros must stay matched and untouched")
+if medeiros_csc.get("item_count_all") != 22 or len(medeiros_csc.get("items") or []) != 22:
+    errors.append("CC11978 Medeiros item count must stay 22")
 kit_csc = next(
     (v for v in (csc.get("by_candidate") or {}).values() if v.get("matched_site_nominee") == "KITASHIMA, Kelly Puamailani"),
     None,
@@ -314,6 +343,10 @@ for rec in (csc.get("by_candidate") or {}).values():
 unmatched = csc.get("unmatched_official_names") or []
 if len(unmatched) != (csc.get("counts") or {}).get("unmatched"):
     errors.append("unmatched official names not kept/flagged")
+if any((u.get("official_name") == "Souza, Kanani") or (u.get("reg_no") == "CC11574") for u in unmatched):
+    errors.append("Souza, Kanani CC11574 must leave unmatched_official_names")
+if not any((u.get("official_name") == "Souza, Keoni") or (u.get("reg_no") == "CC11581") for u in unmatched):
+    errors.append("Souza, Keoni CC11581 must stay flagged unmatched")
 iw = next((v for v in csc["by_candidate"].values() if v.get("matched_site_nominee") == "IWAMOTO, Kim Coco"), None)
 if not iw or not iw.get("items"):
     errors.append("Iwamoto CSC match missing items")
