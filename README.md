@@ -38,8 +38,8 @@ This repo deploys a Next.js static export with GitHub Actions (no Vercel).
 1. Push to `main`.
 2. Settings → Pages → Source: **GitHub Actions** (if Pages is not already on).
 3. **Public URL (live):** https://hawaiibookmark-ops.github.io/-we-the-people/
-4. Do **not** set Settings → Pages → Custom domain, and do **not** publish a `CNAME` file, until Porkbun A/AAAA/www records point at GitHub. A custom domain 301s github.io to that host; if DNS is still Porkbun parking, the hub goes offline.
+4. **Custom domain (admin):** Settings → Pages → Custom domain → `getwethepeople.com` → Save. Cursor / `GITHUB_TOKEN` 403 on the Pages PUT. Apex only — never `www`. If github.io starts 301ing before apex HTTPS is 200 with the hub, click **Remove**. Runbook: `docs/pages-custom-domain.md`.
 
-The Next export has **no `basePath`** (ready for apex `/` on getwethepeople.com after DNS). On `*.github.io` links and `/data/*.json` are prefixed with `/-we-the-people` at runtime. Re-enable steps and Porkbun records: `docs/pages-custom-domain.md`.
+The Next export has **no `basePath`** (apex `/` on getwethepeople.com). On `*.github.io` links and `/data/*.json` are prefixed with `/-we-the-people` at runtime.
 
 The workflow is `.github/workflows/pages.yml`. User-Agent for extracts: `WeThePeople-CivicBot/1.0`.
