@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Official-source voter lookup for the November 3, 2026 general election. Hawaiʻi gold template. No scores. No ads.",
   metadataBase: new URL("https://hawaiibookmark-ops.github.io/-we-the-people/"),
   other: {
-    "wtp-pages-revision": "2026-09-08-aborted-cname",
+    "wtp-pages-revision": "2026-09-13-apex-root-export",
   },
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <Script id="github-io-path-prefix" strategy="beforeInteractive">
-          {`(function(){var p="/-we-the-people";if(!location.hostname.endsWith("github.io"))return;document.addEventListener("click",function(e){var t=e.target;var a=t&&t.closest?t.closest("a"):null;if(!a)return;var h=a.getAttribute("href");if(!h||h.charAt(0)!=="/"||h.indexOf("//")===0||h.indexOf(p)===0)return;a.setAttribute("href",p+h);},true);})();`}
+          {`(function(){var p="/-we-the-people";var path=location.pathname;var on=path===p||path.indexOf(p+"/")===0||location.hostname.endsWith("github.io");if(!on)return;document.addEventListener("click",function(e){var t=e.target;var a=t&&t.closest?t.closest("a"):null;if(!a)return;var h=a.getAttribute("href");if(!h||h.charAt(0)!=="/"||h.indexOf("//")===0||h.indexOf(p)===0)return;a.setAttribute("href",p+h);},true);})();`}
         </Script>
         <Header />
         <main className="wrap">{children}</main>

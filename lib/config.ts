@@ -6,7 +6,15 @@ export const GITHUB_PAGES_ORIGIN = "https://hawaiibookmark-ops.github.io/-we-the
 
 const CUSTOM_HOSTS = new Set([CANONICAL_HOST, `www.${CANONICAL_HOST}`]);
 
-export function siteBase(hostname?: string): string {
+function pathHasRepoPrefix(pathname: string): boolean {
+  return pathname === REPO_BASE_PATH || pathname.startsWith(`${REPO_BASE_PATH}/`);
+}
+
+export function siteBase(hostname?: string, pathname?: string): string {
+  const path =
+    pathname ?? (typeof window !== "undefined" ? window.location.pathname : "");
+  if (path && pathHasRepoPrefix(path)) return REPO_BASE_PATH;
+
   const host = (hostname ?? (typeof window !== "undefined" ? window.location.hostname : "")).toLowerCase();
   if (!host || host === "localhost" || host === "127.0.0.1" || host.endsWith(".localhost")) return "";
   if (CUSTOM_HOSTS.has(host)) return "";
@@ -14,9 +22,9 @@ export function siteBase(hostname?: string): string {
   return "";
 }
 
-export function sitePath(path: string, hostname?: string): string {
+export function sitePath(path: string, hostname?: string, pathname?: string): string {
   const p = path.startsWith("/") ? path : `/${path}`;
-  return `${siteBase(hostname)}${p}`;
+  return `${siteBase(hostname, pathname)}${p}`;
 }
 
 export function siteOrigin(hostname?: string, protocol?: string): string {

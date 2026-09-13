@@ -30,16 +30,37 @@ jobs:
         run: npm ci
       - name: Verify committed official extracts
         run: python3 scripts/verify_data.py
+      - name: Prove dual-publish layout (no Next build)
+        run: python3 scripts/test_prepare_pages_export.py
       - name: Build static export
+        env:
+          WTP_PAGES_EXPORT: "1"
         run: npx next build
-      - name: Keep Jekyll from hiding files
-        run: touch out/.nojekyll
-      - name: Refuse to publish a Pages CNAME until DNS is on GitHub
+      - name: Dual-publish apex / and /-we-the-people/
+        run: python3 scripts/prepare_pages_export.py
+      - name: Refuse to publish a Pages CNAME
         run: |
+          # github.io 301s to the custom domain as soon as a CNAME/cname is set.
+          # Apex / must already have index.html (proven above) before an admin Saves the domain.
           if [ -f out/CNAME ]; then
             echo "refusing to publish out/CNAME (github.io would 301 to the custom domain)" >&2
             exit 1
           fi
+      - name: Record export layout proof
+        run: |
+          {
+            echo "## Pages artifact layout"
+            echo ""
+            echo "Apex \`/\` (custom domain after Save) and github.io \`/-we-the-people/\` both need the hub."
+            echo ""
+            echo '```'
+            ls -la out/index.html out/lookup/index.html out/-we-the-people/index.html
+            echo ""
+            test -d out/_next && echo "out/_next/ present"
+            test -d out/-we-the-people/_next && echo "out/-we-the-people/_next/ present"
+            test ! -f out/CNAME && echo "no out/CNAME"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

@@ -1902,7 +1902,7 @@ for name in ("NOTES.md", "SCHEMA.md", "DISCOVERY.md"):
 
 cname_path = ROOT.parent / "CNAME"
 if cname_path.is_file():
-    errors.append("public/CNAME must stay unpublished until Porkbun DNS points at GitHub Pages (github.io 301s to the custom domain)")
+    errors.append("public/CNAME must stay unpublished; github.io 301s to the custom domain and apex / must already serve the hub")
 
 if errors:
     print("FAIL")
