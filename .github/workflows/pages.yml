@@ -34,10 +34,12 @@ jobs:
         run: npx next build
       - name: Keep Jekyll from hiding files
         run: touch out/.nojekyll
-      - name: Refuse to publish a Pages CNAME until DNS is on GitHub
+      - name: Publish apex-only CNAME (Actions ignores it; Settings/API is what attaches)
         run: |
-          if [ -f out/CNAME ]; then
-            echo "refusing to publish out/CNAME (github.io would 301 to the custom domain)" >&2
+          printf '%s\n' getwethepeople.com > out/CNAME
+          test "$(tr -d '[:space:]' < out/CNAME)" = getwethepeople.com
+          if grep -qi '^www\.' out/CNAME; then
+            echo "refusing www CNAME (apex only; past apex↔www 301 loop)" >&2
             exit 1
           fi
       - uses: actions/upload-pages-artifact@v3
@@ -53,16 +55,44 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-      - name: Confirm Pages custom domain stays cleared
+      - name: Attach apex custom domain (403 expected without admin)
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # GITHUB_TOKEN cannot PUT Pages settings (403). Everything Claude / a repo
-          # admin clears cname in Settings. This step only reports; it must not fail
-          # the deploy after the artifact is already live.
+          # Actions-published sites store the custom domain in Pages settings.
+          # Artifact CNAME is ignored. GITHUB_TOKEN and the Cursor agent token
+          # 403 on PUT (need repo admin / "manage GitHub Pages settings").
+          # Apex only — never www.getwethepeople.com (past 301 loop).
+          # Do not toggle https_enforced here (Enforce HTTPS after apex 200).
+          gh api -X PUT "repos/${GITHUB_REPOSITORY}/pages" \
+            -f cname=getwethepeople.com \
+            -f build_type=workflow
+      - name: Report Pages settings and live URLs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Deploy job has no checkout. Inline report only. continue-on-error
+          # so a 403 or pre-Save 404 does not fail a successful publish.
+          echo "=== pages ==="
           gh api "repos/${GITHUB_REPOSITORY}/pages"
-          cname="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .cname)"
-          echo "pages.cname=${cname}"
-          if [ "${cname}" != "null" ] && [ -n "${cname}" ]; then
-            echo "::warning::Pages cname is ${cname}; github.io will 301 until Settings → Pages custom domain is removed."
+          cname="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.cname // empty')"
+          echo "pages.cname=${cname:-<empty>}"
+          echo "=== github.io ==="
+          curl -sI https://hawaiibookmark-ops.github.io/-we-the-people/
+          echo "=== apex ==="
+          curl -sI https://getwethepeople.com/
+          io_code="$(curl -sI -o /dev/null -w '%{http_code}' https://hawaiibookmark-ops.github.io/-we-the-people/)"
+          io_loc="$(curl -sI https://hawaiibookmark-ops.github.io/-we-the-people/ | tr -d '\r' | awk 'tolower($1)=="location:"{print $2; exit}')"
+          apex_code="$(curl -sI -o /dev/null -w '%{http_code}' https://getwethepeople.com/)"
+          echo "summary io=${io_code} loc=${io_loc:-none} apex=${apex_code} cname=${cname:-<empty>}"
+          if [ "$cname" = "www.getwethepeople.com" ]; then
+            echo "::error::cname is www — Remove and Save getwethepeople.com only"
           fi
+          case "$io_code" in
+            301|302|307|308)
+              if [ "$apex_code" != "200" ]; then
+                echo "::error::CRITICAL github.io ${io_code} → ${io_loc:-none} while apex=${apex_code}. Settings → Pages → Custom domain → Remove."
+              fi
+              ;;
+          esac

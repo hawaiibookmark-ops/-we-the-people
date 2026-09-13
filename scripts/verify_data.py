@@ -1901,8 +1901,9 @@ for name in ("NOTES.md", "SCHEMA.md", "DISCOVERY.md"):
         errors.append(f"missing public/data/vi/{name}")
 
 cname_path = ROOT.parent / "CNAME"
-if cname_path.is_file():
-    errors.append("public/CNAME must stay unpublished until Porkbun DNS points at GitHub Pages (github.io 301s to the custom domain)")
+cname_value = cname_path.read_text().strip() if cname_path.is_file() else ""
+if cname_value != "getwethepeople.com":
+    errors.append("public/CNAME must be exactly getwethepeople.com (apex only; never www)")
 
 if errors:
     print("FAIL")

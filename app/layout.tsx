@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Official-source voter lookup for the November 3, 2026 general election. Hawaiʻi gold template. No scores. No ads.",
   metadataBase: new URL("https://hawaiibookmark-ops.github.io/-we-the-people/"),
   other: {
-    "wtp-pages-revision": "2026-09-08-aborted-cname",
+    "wtp-pages-revision": "2026-09-13-apex-cname",
   },
 };
 
