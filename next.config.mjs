@@ -5,8 +5,9 @@
 // resolves the same URL from the dual-published out/-we-the-people/_next copy.
 // Do not point assetPrefix at https://*.github.io — once the domain is attached,
 // github.io 301s to apex and those asset URLs die.
-const pagesExport =
-  process.env.GITHUB_ACTIONS === "true" || process.env.WTP_PAGES_EXPORT === "true";
+const pagesExport = ["true", "1", "yes"].includes(
+  (process.env.WTP_PAGES_EXPORT || process.env.GITHUB_ACTIONS || "").toLowerCase(),
+);
 
 const nextConfig = {
   output: "export",

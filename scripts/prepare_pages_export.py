@@ -18,6 +18,7 @@ and must wait until this layout is live.
 from __future__ import annotations
 
 import os
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -26,6 +27,7 @@ REPO_PREFIX = "-we-the-people"
 HUB_MARK = "We The People"
 ASSET_MARK = "/-we-the-people/_next"
 FORBIDDEN_ASSET_ORIGIN = "https://hawaiibookmark-ops.github.io/-we-the-people/"
+NEXT_ASSET = re.compile(r"(?<!/-we-the-people)/_next/")
 
 
 def out_dir() -> Path:
@@ -40,6 +42,31 @@ def fail(msg: str) -> None:
 
 def read(path: Path) -> str:
     return path.read_text(encoding="utf-8")
+
+
+def prefix_next_assets(text: str) -> str:
+    """Force same-origin project-path assets. Next 15 may omit assetPrefix on tags."""
+    text = text.replace(f"{FORBIDDEN_ASSET_ORIGIN}_next/", f"{ASSET_MARK}/")
+    return NEXT_ASSET.sub(f"{ASSET_MARK}/", text)
+
+
+REWRITE_SUFFIXES = {".html", ".js", ".css"}
+
+
+def rewrite_export_urls(root: Path) -> None:
+    for path in root.rglob("*"):
+        if not path.is_file() or path.suffix not in REWRITE_SUFFIXES:
+            continue
+        rel = path.relative_to(root)
+        if rel.parts and rel.parts[0] in {REPO_PREFIX, "data"}:
+            continue
+        try:
+            text = path.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            continue
+        updated = prefix_next_assets(text)
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
 
 
 def dual_publish(root: Path) -> Path:
@@ -106,6 +133,7 @@ def main() -> None:
     if not root.is_dir():
         fail(f"export dir not found: {root}")
     (root / ".nojekyll").touch()
+    rewrite_export_urls(root)
     dual_publish(root)
     verify(root)
     print("OK pages export layout")

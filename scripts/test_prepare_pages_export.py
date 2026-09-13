@@ -54,21 +54,28 @@ def test_dual_publish() -> None:
         assert_ok(not (out / "CNAME").exists(), "CNAME must stay unpublished")
 
 
-def test_refuses_github_io_asset_origin() -> None:
+def test_rewrites_root_next_and_github_io_origin() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         out = Path(tmp) / "out"
         write(
             out / "index.html",
             '<html><body><h1>We The People</h1>'
+            '<link href="/_next/static/x.css"/>'
             '<script src="https://hawaiibookmark-ops.github.io/-we-the-people/_next/static/x.js"></script>'
             "</body></html>",
         )
-        write(out / "lookup" / "index.html", "<html></html>")
-        write(out / "_next" / "x.js", "1")
-        write(out / "data" / "meta.json", "{}")
+        write(out / "lookup" / "index.html", '<html><script src="/_next/static/x.js"></script></html>')
+        write(out / "_next" / "static" / "x.js", 'p="/_next/"')
+        write(out / "data" / "meta.json", '{"href":"/_next/keep-me"}')
         result = run_prepare(out)
-        assert_ok(result.returncode != 0, "should refuse github.io asset origin")
-        assert_ok("github.io origin" in result.stderr, result.stderr)
+        assert_ok(result.returncode == 0, result.stderr or result.stdout)
+        hub = (out / "index.html").read_text(encoding="utf-8")
+        assert_ok("/-we-the-people/_next/static/x.css" in hub, hub)
+        assert_ok("/-we-the-people/_next/static/x.js" in hub, hub)
+        assert_ok("https://hawaiibookmark-ops.github.io/-we-the-people/" not in hub, hub)
+        assert_ok("/-we-the-people/_next/static/x.js" in (out / "lookup" / "index.html").read_text(encoding="utf-8"), "lookup rewrite")
+        assert_ok('p="/-we-the-people/_next/"' in (out / "_next" / "static" / "x.js").read_text(encoding="utf-8"), "webpack publicPath")
+        assert_ok('"/_next/keep-me"' in (out / "data" / "meta.json").read_text(encoding="utf-8"), "data JSON must stay at /data")
 
 
 def test_refuses_missing_root_index() -> None:
@@ -82,7 +89,7 @@ def test_refuses_missing_root_index() -> None:
 
 def main() -> None:
     test_dual_publish()
-    test_refuses_github_io_asset_origin()
+    test_rewrites_root_next_and_github_io_origin()
     test_refuses_missing_root_index()
     print("OK prepare_pages_export tests")
 
