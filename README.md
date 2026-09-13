@@ -38,8 +38,8 @@ This repo deploys a Next.js static export with GitHub Actions (no Vercel).
 1. Push to `main`.
 2. Settings → Pages → Source: **GitHub Actions** (if Pages is not already on).
 3. **Public URL (live):** https://hawaiibookmark-ops.github.io/-we-the-people/
-4. Do **not** set Settings → Pages → Custom domain, and do **not** publish a `CNAME` file, until Porkbun A/AAAA/www records point at GitHub. A custom domain 301s github.io to that host; if DNS is still Porkbun parking, the hub goes offline.
+4. Do **not** Save Settings → Pages → Custom domain, and do **not** publish a `CNAME` file, until the deployed artifact has hub `index.html` at the publish root **and** a dual copy under `/-we-the-people/`. github.io **301s to apex** as soon as the domain is attached; if apex `/` is empty the hub goes offline.
 
-The Next export has **no `basePath`** (ready for apex `/` on getwethepeople.com after DNS). On `*.github.io` links and `/data/*.json` are prefixed with `/-we-the-people` at runtime. Re-enable steps and Porkbun records: `docs/pages-custom-domain.md`.
+The Next export has **no `basePath`** (apex `/` is `out/index.html`). Production builds set `assetPrefix` to the path `/-we-the-people` (not the github.io origin). `scripts/prepare_pages_export.py` copies that tree to `out/-we-the-people/` so both hosts resolve JS/CSS. `siteBase()` prefixes links and `/data/*.json` on the project path. VERIFY checklist and attach steps: `docs/pages-custom-domain.md`.
 
 The workflow is `.github/workflows/pages.yml`. User-Agent for extracts: `WeThePeople-CivicBot/1.0`.
