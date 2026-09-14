@@ -10,6 +10,7 @@ hi = json.loads((ROOT / "hawaii.json").read_text())
 fed = json.loads((ROOT / "federal.json").read_text())
 donors = json.loads((ROOT / "donors.json").read_text())
 csc = json.loads((ROOT / "csc-donors.json").read_text())
+meta = json.loads((ROOT / "meta.json").read_text())
 
 errors = []
 
@@ -22,6 +23,38 @@ noms = hi["nominees"].get("U.S. Representative, Dist I") or []
 names = {n["name"] for n in noms}
 if "CASE, Ed" not in names or "LAM, Adriel C." not in names:
     errors.append(f"HI-01 OE nominees missing Case/Lam: {names}")
+if "CONLEY, Jordan S." not in names:
+    errors.append("HI-01 OE nominees missing certified Green Party CONLEY, Jordan S.")
+if any((n.get("name") or "") == "CONLEY, JORDAN" for n in noms):
+    errors.append("hawaii.json must not invent a second CONLEY ballot name")
+conley_nom = next((n for n in noms if n.get("name") == "CONLEY, Jordan S."), None)
+if conley_nom:
+    if conley_nom.get("party") != "Green Party" or conley_nom.get("party_code") != "G":
+        errors.append("CONLEY, Jordan S. must stay Green Party from certified primary")
+    if "candidate_id" in conley_nom:
+        errors.append("hawaii.json nominees have no candidate_id field; do not invent one")
+hi01 = ((fed.get("HI") or {}).get("house") or {}).get("01") or []
+hi_house_senate = sum(len(v) for v in ((fed.get("HI") or {}).get("house") or {}).values()) + len((fed.get("HI") or {}).get("senate") or [])
+if hi_house_senate != 13:
+    errors.append(f"HI 2026 House/Senate FEC count {hi_house_senate} != 13")
+conley_fec = next((r for r in hi01 if r.get("candidate_id") == "H6HI01394"), None)
+if not conley_fec:
+    errors.append("federal.json HI-01 missing H6HI01394 CONLEY, JORDAN")
+else:
+    if conley_fec.get("name") != "CONLEY, JORDAN":
+        errors.append("H6HI01394 name must stay official FEC CONLEY, JORDAN")
+    if conley_fec.get("party") != "Green Party":
+        errors.append("H6HI01394 party must be Green Party (FEC GRE)")
+    if conley_fec.get("office") != "H" or conley_fec.get("district") != "01":
+        errors.append("H6HI01394 must be House district 01")
+    if conley_fec.get("candidate_status") != "N":
+        errors.append("H6HI01394 candidate_status must stay N")
+    if conley_fec.get("incumbent_challenge") != "":
+        errors.append("H6HI01394 incumbent_challenge must stay empty official ICI")
+    if conley_fec.get("fec_url") != "https://www.fec.gov/data/candidate/H6HI01394/":
+        errors.append("H6HI01394 fec_url must be official FEC candidate page")
+    if conley_fec.get("street") or conley_fec.get("address"):
+        errors.append("H6HI01394 must omit street address from cn26")
 if "IWAMOTO, Kim Coco" not in {n["name"] for n in hi["nominees"].get("State Representative, Dist 25", [])}:
     errors.append("HD25 nominee missing Iwamoto")
 if "NAKAMATSU, Tricia Kwai Lin" not in {n["name"] for n in hi["nominees"].get("State Senator, Dist 13", [])}:
@@ -190,6 +223,7 @@ expected = {
     "H6HI01360": 0,
     "H6HI01378": 0,
     "H6HI01386": 0,
+    "H6HI01394": 0,
     "S6HI00313": 0,
     "S6HI00321": 0,
 }
@@ -216,6 +250,22 @@ for cid, n in expected.items():
 gelt = (donors.get("by_candidate") or {}).get("H6HI01378") or {}
 if gelt.get("committee_id"):
     errors.append("Gelt must have no PCC")
+conley_donors = (donors.get("by_candidate") or {}).get("H6HI01394") or {}
+if conley_donors.get("committee_id"):
+    errors.append("Conley must have no PCC on official cn26")
+if conley_donors.get("candidate_name") != "CONLEY, JORDAN":
+    errors.append("Conley donor stub name must stay official FEC CONLEY, JORDAN")
+if conley_donors.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip":
+    errors.append("Conley donor stub must preserve cn26 source_url")
+if conley_donors.get("retrieved_at") != "2026-09-14T18:18:56.061Z":
+    errors.append("Conley donor stub must preserve retrieved_at 2026-09-14T18:18:56.061Z")
+cn26_meta = next((s for s in (meta.get("sources") or []) if "cn26.zip" in (s.get("url") or "")), None)
+if not cn26_meta or cn26_meta.get("retrieved_at") != "2026-09-14T18:18:56.061Z":
+    errors.append("meta.json cn26 retrieved_at must be 2026-09-14T18:18:56.061Z")
+if "13" not in ((cn26_meta or {}).get("note") or ""):
+    errors.append("meta.json cn26 note must record HI 2026 House/Senate count 13")
+if ((meta.get("donor_extracts") or {}).get("federal") or {}).get("item_counts", {}).get("H6HI01394") != 0:
+    errors.append("meta.json federal item_counts must include honest-empty H6HI01394")
 sol = (donors.get("by_candidate") or {}).get("S6HI00321") or {}
 if sol.get("committee_id"):
     errors.append("Solomon must have no PCC (do not use joint C00915710)")
