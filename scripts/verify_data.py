@@ -209,7 +209,7 @@ if not donors.get("by_candidate"):
 if not donors.get("do_not_sell_donor_lists"):
     errors.append("donors.json must say do_not_sell_donor_lists")
 policy = donors.get("policy") or ""
-if "OpenFEC" not in policy or "not sold" not in policy.lower():
+if "OpenFEC" not in policy or ("not sold" not in policy.lower() and "do not sell" not in policy.lower()):
     errors.append("donor policy must name official FEC bulk, no invented names, do not sell lists")
 
 expected = {
@@ -2034,7 +2034,10 @@ print(
     "committees",
     (json.loads((ROOT / "fec-hi-committees.json").read_text()).get("count") if (ROOT / "fec-hi-committees.json").exists() else None),
     "MCELWEE",
-    any((it.get("contributor_name") or "") == "MCELWEE, BRIAN" for it in case_items),
+    any(
+        (it.get("contributor_name") or "") == "MCELWEE, BRIAN"
+        for it in ((donors.get("by_candidate") or {}).get("H2HI02128") or {}).get("items") or []
+    ),
 )
 print(
     "OK votes congress",
