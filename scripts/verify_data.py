@@ -255,17 +255,24 @@ if conley_donors.get("committee_id"):
     errors.append("Conley must have no PCC on official cn26")
 if conley_donors.get("candidate_name") != "CONLEY, JORDAN":
     errors.append("Conley donor stub name must stay official FEC CONLEY, JORDAN")
-if conley_donors.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip":
-    errors.append("Conley donor stub must preserve cn26 source_url")
-if conley_donors.get("retrieved_at") != "2026-09-14T18:18:56.061Z":
-    errors.append("Conley donor stub must preserve retrieved_at 2026-09-14T18:18:56.061Z")
+if conley_donors.get("status") != "empty" or conley_donors.get("item_count_all") != 0 or conley_donors.get("items"):
+    errors.append("Conley must stay honest-empty FEC Schedule A (no PCC)")
+if donors.get("retrieved_at") != "2026-09-14T18:24:03Z":
+    errors.append("donors.json retrieved_at must be 2026-09-14T18:24:03Z")
+if donors.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
+    errors.append("donors.json must preserve indiv26 source_url")
+case_items = ((donors.get("by_candidate") or {}).get("H2HI02128") or {}).get("items") or []
+if not any((it.get("contributor_name") or "") == "MCELWEE, BRIAN" for it in case_items):
+    errors.append("Case Schedule A must include official MCELWEE, BRIAN")
 cn26_meta = next((s for s in (meta.get("sources") or []) if "cn26.zip" in (s.get("url") or "")), None)
-if not cn26_meta or cn26_meta.get("retrieved_at") != "2026-09-14T18:18:56.061Z":
-    errors.append("meta.json cn26 retrieved_at must be 2026-09-14T18:18:56.061Z")
+if not cn26_meta or cn26_meta.get("retrieved_at") != "2026-09-14T18:24:03Z":
+    errors.append("meta.json cn26 retrieved_at must be 2026-09-14T18:24:03Z")
 if "13" not in ((cn26_meta or {}).get("note") or ""):
     errors.append("meta.json cn26 note must record HI 2026 House/Senate count 13")
 if ((meta.get("donor_extracts") or {}).get("federal") or {}).get("item_counts", {}).get("H6HI01394") != 0:
     errors.append("meta.json federal item_counts must include honest-empty H6HI01394")
+if ((meta.get("donor_extracts") or {}).get("federal") or {}).get("retrieved_at") != "2026-09-14T18:24:03Z":
+    errors.append("meta.json federal donor extract retrieved_at must be 2026-09-14T18:24:03Z")
 sol = (donors.get("by_candidate") or {}).get("S6HI00321") or {}
 if sol.get("committee_id"):
     errors.append("Solomon must have no PCC (do not use joint C00915710)")
@@ -274,6 +281,53 @@ if sol.get("committee_id") == "C00915710":
 case = (donors.get("by_candidate") or {}).get("H2HI02128") or {}
 if not (case.get("items") or [{}])[0].get("contributor_name"):
     errors.append("Case top donor name missing")
+
+sched_path = ROOT / "fec-schedule-a.json"
+if not sched_path.exists():
+    errors.append("missing public/data/fec-schedule-a.json")
+    sched = {}
+else:
+    sched = json.loads(sched_path.read_text())
+    if sched.get("retrieved_at") != "2026-09-14T18:24:03Z":
+        errors.append("fec-schedule-a.json retrieved_at must be 2026-09-14T18:24:03Z")
+    if sched.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
+        errors.append("fec-schedule-a.json source_url must be official indiv26.zip")
+    if not sched.get("do_not_sell_donor_lists"):
+        errors.append("fec-schedule-a.json must say do_not_sell_donor_lists")
+    sched_conley = (sched.get("by_candidate") or {}).get("H6HI01394") or {}
+    if sched_conley.get("candidate_name") != "CONLEY, JORDAN":
+        errors.append("fec-schedule-a.json Conley name must stay official FEC CONLEY, JORDAN")
+    if sched_conley.get("status") != "empty" or sched_conley.get("principal_committee_id") or sched_conley.get("items"):
+        errors.append("fec-schedule-a.json Conley must stay honest-empty (no PCC)")
+    if not any(
+        (it.get("contributor_name") or "") == "MCELWEE, BRIAN"
+        for it in ((sched.get("by_candidate") or {}).get("H2HI02128") or {}).get("items") or []
+    ):
+        errors.append("fec-schedule-a.json Case items must include official MCELWEE, BRIAN")
+    if "98-729" in sched_path.read_text() or "MOANALUA" in sched_path.read_text():
+        errors.append("fec-schedule-a.json must omit cn26 street address")
+
+cmte_path = ROOT / "fec-hi-committees.json"
+if not cmte_path.exists():
+    errors.append("missing public/data/fec-hi-committees.json")
+else:
+    cmte = json.loads(cmte_path.read_text())
+    if cmte.get("retrieved_at") != "2026-09-14T18:24:03Z":
+        errors.append("fec-hi-committees.json retrieved_at must be 2026-09-14T18:24:03Z")
+    if cmte.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip":
+        errors.append("fec-hi-committees.json source_url must be official cn26.zip")
+    if cmte.get("count") != 13 or len(cmte.get("candidates") or []) != 13:
+        errors.append("fec-hi-committees.json must list 13 HI 2026 House/Senate candidates")
+    cmte_conley = next((c for c in (cmte.get("candidates") or []) if c.get("candidate_id") == "H6HI01394"), None)
+    if not cmte_conley:
+        errors.append("fec-hi-committees.json missing H6HI01394 CONLEY, JORDAN")
+    else:
+        if cmte_conley.get("name") != "CONLEY, JORDAN":
+            errors.append("fec-hi-committees.json Conley name must stay official FEC CONLEY, JORDAN")
+        if cmte_conley.get("principal_committee_id"):
+            errors.append("fec-hi-committees.json Conley must have no PCC")
+    if "98-729" in cmte_path.read_text() or "MOANALUA" in cmte_path.read_text():
+        errors.append("fec-hi-committees.json must omit cn26 street address")
 
 # Hawaii CSC
 if hi.get("state_filings", {}).get("donors", {}).get("status") != "sourced":
@@ -1973,6 +2027,14 @@ print(
     ((csc.get("by_candidate") or {}).get("KITASHIMA, Kelly Puamailani") or {}).get("status"),
     "Hanna",
     ((csc.get("by_candidate") or {}).get("HANNA, Max G.") or {}).get("status"),
+)
+print(
+    "OK HI FEC schedule-a Conley",
+    ((sched.get("by_candidate") or {}).get("H6HI01394") or {}).get("status"),
+    "committees",
+    (json.loads((ROOT / "fec-hi-committees.json").read_text()).get("count") if (ROOT / "fec-hi-committees.json").exists() else None),
+    "MCELWEE",
+    any((it.get("contributor_name") or "") == "MCELWEE, BRIAN" for it in case_items),
 )
 print(
     "OK votes congress",

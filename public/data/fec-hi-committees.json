@@ -1,0 +1,357 @@
+{
+  "retrieved_at": "2026-09-14T18:24:03Z",
+  "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+  "linkage_source_url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+  "committee_master_url": "https://www.fec.gov/files/bulk-downloads/2026/cm26.zip",
+  "layout_url": "https://www.fec.gov/campaign-finance-data/candidate-master-file-description/",
+  "cycle": 2026,
+  "filter": "CAND_OFFICE_ST=HI AND CAND_ELECTION_YR=2026 AND CAND_OFFICE IN (H,S)",
+  "also_union": "federal.json HI house+senate candidate_ids (exact match with cn26 set) + cn26 HI 2026 H/S (incl. Conley H6HI01394 added 2026-09-14)",
+  "count": 13,
+  "candidates": [
+    {
+      "candidate_id": "H2HI02128",
+      "name": "CASE, EDWARD",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "DEM",
+      "candidate_status": "C",
+      "principal_committee_id": "C00680918",
+      "ccl_linkages": [
+        {
+          "cand_id": "H2HI02128",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00680918",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "259913"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "CASE FOR CONGRESS",
+      "cmte_dsgn": "DEM",
+      "cmte_tp": "H",
+      "principal_committee_name": "CASE FOR CONGRESS",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "DEM",
+      "cm_cand_id": "H2HI02128"
+    },
+    {
+      "candidate_id": "H2HI02581",
+      "name": "TOKUDA, JILL NAOMI",
+      "office": "House",
+      "district": "02",
+      "state": "HI",
+      "party": "DEM",
+      "candidate_status": "C",
+      "principal_committee_id": "C00813758",
+      "ccl_linkages": [
+        {
+          "cand_id": "H2HI02581",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00813758",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "260894"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "TOKUDA FOR HAWAII",
+      "cmte_dsgn": "DEM",
+      "cmte_tp": "H",
+      "principal_committee_name": "TOKUDA FOR HAWAII",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "DEM",
+      "cm_cand_id": "H2HI02581"
+    },
+    {
+      "candidate_id": "H6HI01311",
+      "name": "KEOHOKALOLE, JARRETT",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "DEM",
+      "candidate_status": "C",
+      "principal_committee_id": "C00913848",
+      "ccl_linkages": [
+        {
+          "cand_id": "H6HI01311",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00913848",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "266033"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "KEOHOKALOLE FOR HAWAII",
+      "cmte_dsgn": "DEM",
+      "cmte_tp": "H",
+      "principal_committee_name": "KEOHOKALOLE FOR HAWAII",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "DEM",
+      "cm_cand_id": "H6HI01311"
+    },
+    {
+      "candidate_id": "H6HI01337",
+      "name": "FRAZIER, MAXWELL",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "REP",
+      "candidate_status": "N",
+      "principal_committee_id": "C00917971",
+      "ccl_linkages": [
+        {
+          "cand_id": "H6HI01337",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00917971",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "266664"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "FRIENDS OF MAXWELL FRAZIER",
+      "cmte_dsgn": "REP",
+      "cmte_tp": "H",
+      "principal_committee_name": "FRIENDS OF MAXWELL FRAZIER",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "REP",
+      "cm_cand_id": "H6HI01337"
+    },
+    {
+      "candidate_id": "H6HI01345",
+      "name": "BELATTI, DELLA AU",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "DEM",
+      "candidate_status": "C",
+      "principal_committee_id": "C00920884",
+      "ccl_linkages": [
+        {
+          "cand_id": "H6HI01345",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00920884",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "267317"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "BELATTI FOR CONGRESS",
+      "cmte_dsgn": "DEM",
+      "cmte_tp": "H",
+      "principal_committee_name": "BELATTI FOR CONGRESS",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "DEM",
+      "cm_cand_id": "H6HI01345"
+    },
+    {
+      "candidate_id": "H6HI01352",
+      "name": "FATULA, BENJAMIN DAVID",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "DEM",
+      "candidate_status": "N",
+      "principal_committee_id": "C00939769",
+      "ccl_linkages": [
+        {
+          "cand_id": "H6HI01352",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00939769",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "270056"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "BEN FATULA FOR CONGRESS",
+      "cmte_dsgn": "DEM",
+      "cmte_tp": "H",
+      "principal_committee_name": "BEN FATULA FOR CONGRESS",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "DEM",
+      "cm_cand_id": "H6HI01352"
+    },
+    {
+      "candidate_id": "H6HI01360",
+      "name": "LAM, ADRIEL C",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "REP",
+      "candidate_status": "N",
+      "principal_committee_id": "C00946970",
+      "ccl_linkages": [
+        {
+          "cand_id": "H6HI01360",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00946970",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "270944"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "LAM4ALOHA - ADRIEL FOR CONGRESS",
+      "cmte_dsgn": "REP",
+      "cmte_tp": "H",
+      "principal_committee_name": "LAM4ALOHA - ADRIEL FOR CONGRESS",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "REP",
+      "cm_cand_id": "H6HI01360"
+    },
+    {
+      "candidate_id": "H6HI01378",
+      "name": "GELT, SHOLOM",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "NPA",
+      "candidate_status": "N",
+      "principal_committee_id": null,
+      "ccl_linkages": [],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": null,
+      "principal_committee_name": null
+    },
+    {
+      "candidate_id": "H6HI01386",
+      "name": "BERNING, NATHAN M.",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "NON",
+      "candidate_status": "N",
+      "principal_committee_id": "C00954842",
+      "ccl_linkages": [
+        {
+          "cand_id": "H6HI01386",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00954842",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "271957"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "BERNING, NATHAN M.",
+      "cmte_dsgn": "NON",
+      "cmte_tp": "H",
+      "principal_committee_name": "BERNING, NATHAN M.",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "NON",
+      "cm_cand_id": "H6HI01386"
+    },
+    {
+      "candidate_id": "H6HI01394",
+      "name": "CONLEY, JORDAN",
+      "office": "House",
+      "district": "01",
+      "state": "HI",
+      "party": "GRE",
+      "candidate_status": "N",
+      "principal_committee_id": null,
+      "ccl_linkages": [],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": null,
+      "cmte_dsgn": null,
+      "cmte_tp": null,
+      "principal_committee_name": null,
+      "principal_committee_type": null,
+      "principal_committee_designation": null,
+      "cm_cand_id": null,
+      "note": "Same person as hawaii.json CONLEY, Jordan S. (Green Dist I general_nominee). No PCC on cn26.",
+      "site_link": {
+        "hawaii_name": "CONLEY, Jordan S.",
+        "party": "Green",
+        "ballotpedia_forbidden": true
+      }
+    },
+    {
+      "candidate_id": "H6HI02426",
+      "name": "AWA, BRENTON",
+      "office": "House",
+      "district": "02",
+      "state": "HI",
+      "party": "REP",
+      "candidate_status": "C",
+      "principal_committee_id": "C00923854",
+      "ccl_linkages": [
+        {
+          "cand_id": "H6HI02426",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00923854",
+          "cmte_tp": "H",
+          "cmte_dsgn": "P",
+          "linkage_id": "267677"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "SENATOR AWA FOR CONGRESS",
+      "cmte_dsgn": "REP",
+      "cmte_tp": "H",
+      "principal_committee_name": "SENATOR AWA FOR CONGRESS",
+      "principal_committee_type": "H",
+      "principal_committee_designation": "REP",
+      "cm_cand_id": "H6HI02426"
+    },
+    {
+      "candidate_id": "S6HI00313",
+      "name": "CARLSON, OWEN NICHOLAS",
+      "office": "Senate",
+      "district": "00",
+      "state": "HI",
+      "party": "LBL",
+      "candidate_status": "N",
+      "principal_committee_id": "C00928689",
+      "ccl_linkages": [],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": "OWEN NICHOLAS CARLSON FOR THE WHITE HOUSE OVAL OFFICE'S MISSION TO LEGALLY ELIMINATE 95% OF THE WORLD POPULATION COMMITTEE",
+      "cmte_dsgn": "DEM",
+      "cmte_tp": "P",
+      "principal_committee_name": "OWEN NICHOLAS CARLSON FOR THE WHITE HOUSE OVAL OFFICE'S MISSION TO LEGALLY ELIMINATE 95% OF THE WORLD POPULATION COMMITTEE",
+      "principal_committee_type": "P",
+      "principal_committee_designation": "DEM",
+      "cm_cand_id": "P80008550"
+    },
+    {
+      "candidate_id": "S6HI00321",
+      "name": "SOLOMON, GAVIN",
+      "office": "Senate",
+      "district": "00",
+      "state": "HI",
+      "party": "REP",
+      "candidate_status": "N",
+      "principal_committee_id": null,
+      "ccl_linkages": [
+        {
+          "cand_id": "S6HI00321",
+          "cand_election_yr": "2026",
+          "fec_election_yr": "2026",
+          "cmte_id": "C00915710",
+          "cmte_tp": "N",
+          "cmte_dsgn": "J",
+          "linkage_id": "272229"
+        }
+      ],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "committee_name": null,
+      "principal_committee_name": null
+    }
+  ],
+  "conley_added_at": "2026-09-14T18:35:20Z"
+}
