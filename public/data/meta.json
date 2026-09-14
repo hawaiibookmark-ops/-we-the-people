@@ -41,7 +41,7 @@
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "retrieved_at": "2026-09-14T18:18:56.061Z",
+      "retrieved_at": "2026-09-14T18:24:03Z",
       "note": "FEC candidate master (principal campaign committee id). HI 2026 House/Senate count 13 after H6HI01394 CONLEY, JORDAN."
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "url": "https://www.fec.gov/data/receipts/individual-contributions/",
-      "retrieved_at": "2026-08-31T14:40:58Z",
+      "retrieved_at": "2026-09-14T18:24:03Z",
       "note": "FEC public individual contribution search. Displayed federal $200+ names come from official bulk indiv26, not OpenFEC."
     },
     {
@@ -76,12 +76,12 @@
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
-      "retrieved_at": "2026-08-31T14:40:58Z",
+      "retrieved_at": "2026-09-14T18:24:03Z",
       "note": "FEC individual contributions bulk file (itcont.txt). Schedule A $200+ for HI 2026 House/Senate. MEMO_CD=X skipped. OpenFEC/DEMO_KEY not used."
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
-      "retrieved_at": "2026-08-31T14:40:58Z",
+      "retrieved_at": "2026-09-14T18:24:03Z",
       "note": "FEC candidate-committee linkage. Joint committees (CMTE_DSGN=J) are not treated as PCC."
     },
     {
@@ -134,7 +134,7 @@
   "donor_extracts": {
     "federal": {
       "path": "/data/donors.json",
-      "retrieved_at": "2026-08-31T14:40:58Z",
+      "retrieved_at": "2026-09-14T18:24:03Z",
       "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
       "item_counts": {
         "H2HI02128": 430,
@@ -151,7 +151,17 @@
         "S6HI00313": 0,
         "S6HI00321": 0
       },
-      "disagreement_flags": []
+      "disagreement_flags": [
+        {
+          "kind": "new_cn26_candidate",
+          "candidate_id": "H6HI01394",
+          "name": "CONLEY, JORDAN",
+          "note": "cn26 HI 2026 H/S 12→13; same person as hawaii.json CONLEY, Jordan S. (Green). Honest-empty FEC Schedule A (no PCC).",
+          "retrieved_at": "2026-09-14T18:24:03Z"
+        }
+      ],
+      "schedule_a_path": "/data/fec-schedule-a.json",
+      "committees_path": "/data/fec-hi-committees.json"
     },
     "hawaii_csc": {
       "path": "/data/csc-donors.json",

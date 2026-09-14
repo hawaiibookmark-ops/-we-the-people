@@ -1,13 +1,39 @@
 {
-  "fec_api_key_present": false,
-  "policy": "Official FEC bulk Schedule A individuals $200+ (indiv26.zip). OpenFEC DEMO_KEY not used. No Ballotpedia. No scores. Donor names never invented. Do not sell donor lists.",
+  "product": "We The People",
+  "retrieved_at": "2026-09-14T18:24:03Z",
+  "parsed_at": "2026-09-14T18:30:52Z",
+  "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+  "layout_url": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
+  "cn26_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+  "ccl26_url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
+  "policy": "Official FEC bulk Schedule A individual receipts of $200+ from indiv26.zip (plus cn26/ccl26 for committee linkage). MEMO_CD=X rows skipped. Names are copied from the filing extract only and are never invented. Do not sell donor lists. No Ballotpedia. No scores. No OpenFEC DEMO_KEY.",
+  "filter": "HI 2026 House/Senate principal campaign committees",
+  "min_amount": 200.0,
+  "top_n": 25,
+  "indiv26_last_modified": "Sun, 13 Sep 2026 15:59:54 GMT",
+  "indiv26_etag": "3aa48208d54c6998ac0a62b899200cf0-261",
+  "indiv26_bytes": 2186550443,
+  "stats": {
+    "rows_scanned": 31894597,
+    "rows_bad_parse": 0,
+    "rows_matching_cmte": 3002,
+    "rows_skipped_memo_x": 5,
+    "rows_skipped_amt_below_min": 976,
+    "rows_skipped_amt_unparseable": 0,
+    "rows_kept": 2021,
+    "inner_member": "itcont.txt",
+    "itcont_uncompressed_bytes": 5903956017,
+    "itcont_compressed_bytes": 1093271751
+  },
+  "candidate_count": 12,
   "by_candidate": {
     "H2HI02128": {
+      "candidate_id": "H2HI02128",
+      "candidate_name": "CASE, EDWARD",
+      "committee_id": "C00680918",
       "status": "ok",
       "reason": "Showing top 25 of 430 itemized $200+ individual receipts (sorted by amount descending).",
       "item_count_all": 430,
-      "committee_id": "C00680918",
-      "candidate_name": "CASE, EDWARD",
       "items": [
         {
           "contributor_name": "KALIN, IAN",
@@ -259,14 +285,20 @@
           "image_number": "202607159890621876",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         }
-      ]
+      ],
+      "office": "House",
+      "district": "01",
+      "party": "DEM",
+      "principal_committee_name": "CASE FOR CONGRESS",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H2HI02581": {
+      "candidate_id": "H2HI02581",
+      "candidate_name": "TOKUDA, JILL NAOMI",
+      "committee_id": "C00813758",
       "status": "ok",
       "reason": "Showing top 25 of 604 itemized $200+ individual receipts (sorted by amount descending).",
       "item_count_all": 604,
-      "committee_id": "C00813758",
-      "candidate_name": "TOKUDA, JILL NAOMI",
       "items": [
         {
           "contributor_name": "VULTEE, MICHAEL",
@@ -518,14 +550,20 @@
           "image_number": "202601309795280039",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02581&min_amount=200&two_year_transaction_period=2026"
         }
-      ]
+      ],
+      "office": "House",
+      "district": "02",
+      "party": "DEM",
+      "principal_committee_name": "TOKUDA FOR HAWAII",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI01311": {
+      "candidate_id": "H6HI01311",
+      "candidate_name": "KEOHOKALOLE, JARRETT",
+      "committee_id": "C00913848",
       "status": "ok",
       "reason": "Showing top 25 of 795 itemized $200+ individual receipts (sorted by amount descending).",
       "item_count_all": 795,
-      "committee_id": "C00913848",
-      "candidate_name": "KEOHOKALOLE, JARRETT",
       "items": [
         {
           "contributor_name": "BUCK, CHAD",
@@ -777,22 +815,34 @@
           "image_number": "202510159791513696",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01311&min_amount=200&two_year_transaction_period=2026"
         }
-      ]
+      ],
+      "office": "House",
+      "district": "01",
+      "party": "DEM",
+      "principal_committee_name": "KEOHOKALOLE FOR HAWAII",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI01337": {
+      "candidate_id": "H6HI01337",
+      "candidate_name": "FRAZIER, MAXWELL",
+      "committee_id": "C00917971",
       "status": "empty",
       "reason": "Principal campaign committee C00917971 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
-      "committee_id": "C00917971",
-      "candidate_name": "FRAZIER, MAXWELL",
-      "items": []
+      "items": [],
+      "office": "House",
+      "district": "01",
+      "party": "REP",
+      "principal_committee_name": "FRIENDS OF MAXWELL FRAZIER",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI01345": {
+      "candidate_id": "H6HI01345",
+      "candidate_name": "BELATTI, DELLA AU",
+      "committee_id": "C00920884",
       "status": "ok",
       "reason": "Showing top 25 of 118 itemized $200+ individual receipts (sorted by amount descending).",
       "item_count_all": 118,
-      "committee_id": "C00920884",
-      "candidate_name": "BELATTI, DELLA AU",
       "items": [
         {
           "contributor_name": "KOSASA, THOMAS",
@@ -1044,54 +1094,93 @@
           "image_number": "202607159875999892",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
         }
-      ]
+      ],
+      "office": "House",
+      "district": "01",
+      "party": "DEM",
+      "principal_committee_name": "BELATTI FOR CONGRESS",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI01352": {
+      "candidate_id": "H6HI01352",
+      "candidate_name": "FATULA, BENJAMIN DAVID",
+      "committee_id": "C00939769",
       "status": "empty",
       "reason": "Principal campaign committee C00939769 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
-      "committee_id": "C00939769",
-      "candidate_name": "FATULA, BENJAMIN DAVID",
-      "items": []
+      "items": [],
+      "office": "House",
+      "district": "01",
+      "party": "DEM",
+      "principal_committee_name": "BEN FATULA FOR CONGRESS",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI01360": {
+      "candidate_id": "H6HI01360",
+      "candidate_name": "LAM, ADRIEL C",
+      "committee_id": "C00946970",
       "status": "empty",
       "reason": "Principal campaign committee C00946970 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
-      "committee_id": "C00946970",
-      "candidate_name": "LAM, ADRIEL C",
-      "items": []
+      "items": [],
+      "office": "House",
+      "district": "01",
+      "party": "REP",
+      "principal_committee_name": "LAM4ALOHA - ADRIEL FOR CONGRESS",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI01378": {
+      "candidate_id": "H6HI01378",
+      "candidate_name": "GELT, SHOLOM",
+      "committee_id": null,
       "status": "empty",
       "reason": "No principal campaign committee on FEC candidate master (cn26). No Schedule A individual receipts can be attributed.",
       "item_count_all": 0,
-      "committee_id": null,
-      "candidate_name": "GELT, SHOLOM",
-      "items": []
+      "items": [],
+      "office": "House",
+      "district": "01",
+      "party": "NPA",
+      "principal_committee_name": null,
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI01386": {
+      "candidate_id": "H6HI01386",
+      "candidate_name": "BERNING, NATHAN M.",
+      "committee_id": "C00954842",
       "status": "empty",
       "reason": "Principal campaign committee C00954842 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
-      "committee_id": "C00954842",
-      "candidate_name": "BERNING, NATHAN M.",
-      "items": []
+      "items": [],
+      "office": "House",
+      "district": "01",
+      "party": "NON",
+      "principal_committee_name": "BERNING, NATHAN M.",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI01394": {
+      "candidate_id": "H6HI01394",
+      "candidate_name": "CONLEY, JORDAN",
+      "office": "House",
+      "district": "01",
+      "party": "GRE",
+      "principal_committee_id": null,
       "status": "empty",
       "reason": "No principal campaign committee on FEC candidate master (cn26). No Schedule A individual receipts can be attributed.",
       "item_count_all": 0,
-      "committee_id": null,
-      "candidate_name": "CONLEY, JORDAN",
-      "items": []
+      "items": [],
+      "top_25": [],
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
+      "cn26_source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
+      "retrieved_at": "2026-09-14T18:24:03Z",
+      "site_link_note": "Link to hawaii.json CONLEY, Jordan S. (Green) \u2014 do not invent a second HI-01 Green."
     },
     "H6HI02426": {
+      "candidate_id": "H6HI02426",
+      "candidate_name": "AWA, BRENTON",
+      "committee_id": "C00923854",
       "status": "ok",
       "reason": "Showing top 25 of 74 itemized $200+ individual receipts (sorted by amount descending).",
       "item_count_all": 74,
-      "committee_id": "C00923854",
-      "candidate_name": "AWA, BRENTON",
       "items": [
         {
           "contributor_name": "CORREA, COREY",
@@ -1343,46 +1432,44 @@
           "image_number": "202607159875946319",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI02426&min_amount=200&two_year_transaction_period=2026"
         }
-      ]
+      ],
+      "office": "House",
+      "district": "02",
+      "party": "REP",
+      "principal_committee_name": "SENATOR AWA FOR CONGRESS",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "S6HI00313": {
+      "candidate_id": "S6HI00313",
+      "candidate_name": "CARLSON, OWEN NICHOLAS",
+      "committee_id": "C00928689",
       "status": "empty",
       "reason": "Principal campaign committee C00928689 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
-      "committee_id": "C00928689",
-      "candidate_name": "CARLSON, OWEN NICHOLAS",
-      "items": []
+      "items": [],
+      "office": "Senate",
+      "district": "00",
+      "party": "LBL",
+      "principal_committee_name": "OWEN NICHOLAS CARLSON FOR THE WHITE HOUSE OVAL OFFICE'S MISSION TO LEGALLY ELIMINATE 95% OF THE WORLD POPULATION COMMITTEE",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "S6HI00321": {
+      "candidate_id": "S6HI00321",
+      "candidate_name": "SOLOMON, GAVIN",
+      "committee_id": null,
       "status": "empty",
       "reason": "No principal campaign committee on FEC candidate master (cn26). No Schedule A individual receipts can be attributed.",
       "item_count_all": 0,
-      "committee_id": null,
-      "candidate_name": "SOLOMON, GAVIN",
-      "items": []
+      "items": [],
+      "office": "Senate",
+      "district": "00",
+      "party": "REP",
+      "principal_committee_name": null,
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     }
   },
-  "retrieved_at": "2026-09-14T18:24:03Z",
-  "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
-  "sources": [
-    {
-      "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
-      "retrieved_at": "2026-09-14T18:24:03Z",
-      "note": "indiv26 Schedule A bulk"
-    },
-    {
-      "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "retrieved_at": "2026-09-14T18:24:03Z",
-      "note": "cn26 HI candidate master"
-    },
-    {
-      "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
-      "retrieved_at": "2026-09-14T18:24:03Z",
-      "note": "ccl26 candidate-committee linkage"
-    }
-  ],
-  "scope": "Hawaii 2026 U.S. House and Senate candidates present in cn26 + federal.json",
-  "prior_extract": "2026-09-11 / 2026-09-07 ship (indiv26 was Sun 06 Sep 2026)",
+  "do_not_sell_donor_lists": true,
+  "scope": "",
   "disagreement_flags": [
     {
       "kind": "new_cn26_candidate",
@@ -1391,12 +1478,5 @@
       "note": "cn26 HI 2026 H/S 12\u219213; same person as hawaii.json CONLEY, Jordan S. (Green). Honest-empty FEC Schedule A (no PCC).",
       "retrieved_at": "2026-09-14T18:24:03Z"
     }
-  ],
-  "memo_cd_x_skipped_on_scoped_committees": 5,
-  "do_not_sell_donor_lists": true,
-  "stats": {
-    "rows_kept": 2021,
-    "rows_matching_cmte": 3002,
-    "rows_skipped_memo_x": 5
-  }
+  ]
 }
