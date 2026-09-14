@@ -41,8 +41,8 @@
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "retrieved_at": "2026-08-31T14:40:58Z",
-      "note": "FEC candidate master (principal campaign committee id)."
+      "retrieved_at": "2026-09-14T18:18:56.061Z",
+      "note": "FEC candidate master (principal campaign committee id). HI 2026 House/Senate count 13 after H6HI01394 CONLEY, JORDAN."
     },
     {
       "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
@@ -146,6 +146,7 @@
         "H6HI01360": 0,
         "H6HI01378": 0,
         "H6HI01386": 0,
+        "H6HI01394": 0,
         "H6HI02426": 74,
         "S6HI00313": 0,
         "S6HI00321": 0

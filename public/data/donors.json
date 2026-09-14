@@ -1105,6 +1105,17 @@
       "retrieved_at": "2026-08-31T14:40:58Z",
       "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
+    "H6HI01394": {
+      "candidate_id": "H6HI01394",
+      "candidate_name": "CONLEY, JORDAN",
+      "committee_id": null,
+      "status": "empty",
+      "reason": "No principal campaign committee on FEC candidate master (cn26). Honest-empty.",
+      "item_count_all": 0,
+      "items": [],
+      "retrieved_at": "2026-09-14T18:18:56.061Z",
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip"
+    },
     "H6HI02426": {
       "candidate_id": "H6HI02426",
       "candidate_name": "AWA, BRENTON",
@@ -1400,8 +1411,8 @@
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "retrieved_at": "2026-08-31T14:40:58Z",
-      "note": "FEC candidate master (principal campaign committee id)."
+      "retrieved_at": "2026-09-14T18:18:56.061Z",
+      "note": "FEC candidate master (principal campaign committee id). HI 2026 House/Senate count 13 after H6HI01394 CONLEY, JORDAN."
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
