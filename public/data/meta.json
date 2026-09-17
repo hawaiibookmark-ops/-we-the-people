@@ -96,18 +96,18 @@
     },
     {
       "url": "https://clerk.house.gov/evs/2026/index.asp",
-      "retrieved_at": "2026-09-15T18:06:41.538421+00:00",
-      "note": "House Clerk EVS 2026 roll-call index. Case and Tokuda through official roll 297."
+      "retrieved_at": "2026-09-17T18:14:34.910568+00:00",
+      "note": "House Clerk EVS 2026 roll-call index. Case and Tokuda through official roll 314."
     },
     {
       "url": "https://clerk.house.gov/evs/2026/roll283.xml",
       "retrieved_at": "2026-08-31T15:13:49Z",
-      "note": "Example House Clerk EVS roll-call XML (roll 283; extract now through 297)."
+      "note": "Example House Clerk EVS roll-call XML (roll 283; extract now through 314)."
     },
     {
       "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
-      "retrieved_at": "2026-09-15T18:06:41.538421+00:00",
-      "note": "Senate LIS 119th Congress 2nd session vote menu; Hirono and Schatz through official vote 233."
+      "retrieved_at": "2026-09-17T18:14:34.910568+00:00",
+      "note": "Senate LIS 119th Congress 2nd session vote menu; Hirono and Schatz through official vote 236."
     },
     {
       "url": "https://data.capitol.hawaii.gov/session/measure_indiv.aspx",
@@ -179,13 +179,13 @@
   "vote_extracts": {
     "congress": {
       "path": "/data/congress-votes.json",
-      "retrieved_at": "2026-09-15T18:06:41.538421+00:00",
-      "row_count": 232,
+      "retrieved_at": "2026-09-17T18:14:34.910568+00:00",
+      "row_count": 272,
       "by_incumbent": {
-        "C001055": 64,
-        "T000487": 64,
-        "H001042": 52,
-        "S001194": 52
+        "C001055": 81,
+        "T000487": 81,
+        "H001042": 55,
+        "S001194": 55
       },
       "disagreement_flags": []
     },
