@@ -461,12 +461,12 @@ if "hicscdata.hawaii.gov" not in (csc.get("source_url") or ""):
 
 congress = json.loads((ROOT / "congress-votes.json").read_text())
 hivotes = json.loads((ROOT / "hawaii-votes.json").read_text())
-if congress.get("row_count") != 272:
-    errors.append(f"congress-votes row_count {congress.get('row_count')} != 272")
+if congress.get("row_count") != 276:
+    errors.append(f"congress-votes row_count {congress.get('row_count')} != 276")
 byc = congress.get("by_incumbent") or {}
 if set(byc) != {"C001055", "T000487", "H001042", "S001194"}:
     errors.append(f"congress by_incumbent members invented or dropped: {sorted(byc)}")
-for bio, n in {"C001055": 81, "T000487": 81, "H001042": 55, "S001194": 55}.items():
+for bio, n in {"C001055": 81, "T000487": 81, "H001042": 57, "S001194": 57}.items():
     got = (byc.get(bio) or {}).get("item_count_all")
     if got != n:
         errors.append(f"{bio} congress votes {got} != {n}")
@@ -510,14 +510,23 @@ for bio, name, expected in (("C001055", "Case", CASE_298_314), ("T000487", "Toku
     if got != expected:
         errors.append(f"{name} rolls 293-314 must stay official Clerk casts, got {got}")
 hirono_top = ((byc.get("H001042") or {}).get("items") or [{}])[0]
-if hirono_top.get("roll_call_number") != 236 or hirono_top.get("vote_cast") != "Yea":
-    errors.append(f"Senate latest must be 236 Yea, got {hirono_top.get('roll_call_number')} {hirono_top.get('vote_cast')}")
-SENATE_231_236 = {231: "Nay", 232: "Nay", 233: "Nay", 234: "Nay", 235: "Yea", 236: "Yea"}
+if hirono_top.get("roll_call_number") != 238 or hirono_top.get("vote_cast") != "Nay":
+    errors.append(f"Senate latest must be 238 Nay, got {hirono_top.get('roll_call_number')} {hirono_top.get('vote_cast')}")
+SENATE_231_238 = {
+    231: "Nay",
+    232: "Nay",
+    233: "Nay",
+    234: "Nay",
+    235: "Yea",
+    236: "Yea",
+    237: "Nay",
+    238: "Nay",
+}
 for bio, name in (("H001042", "Hirono"), ("S001194", "Schatz")):
     items = (byc.get(bio) or {}).get("items") or []
-    got = {it.get("roll_call_number"): it.get("vote_cast") for it in items if it.get("roll_call_number") in set(SENATE_231_236)}
-    if got != SENATE_231_236:
-        errors.append(f"{name} Senate 231-236 must stay official LIS casts, got {got}")
+    got = {it.get("roll_call_number"): it.get("vote_cast") for it in items if it.get("roll_call_number") in set(SENATE_231_238)}
+    if got != SENATE_231_238:
+        errors.append(f"{name} Senate 231-238 must stay official LIS casts, got {got}")
 # Official Clerk text is Yea/Nay/No — do not normalize roll 288 "No" to Nay.
 tokuda_288 = next((i for i in (byc.get("T000487") or {}).get("items") or [] if i.get("roll_call_number") == 288), None)
 if not tokuda_288 or tokuda_288.get("vote_cast") != "No":
@@ -2080,7 +2089,7 @@ print(
     congress.get("row_count"),
     "hawaii floor named",
     hivotes.get("row_count"),
-    "Case/Tokuda through 314; Senate 234-236",
+    "Case/Tokuda through 314; Senate 237-238",
 )
 print("OK WA PDC rows", wa.get("row_count"), "filers", wa.get("filer_count"))
 print("OK CO TRACER rows", co.get("row_count"), "filers", co.get("filer_count"))
