@@ -1,7 +1,7 @@
 {
   "product": "We The People",
-  "retrieved_at": "2026-09-14T18:24:03Z",
-  "parsed_at": "2026-09-14T18:30:52Z",
+  "retrieved_at": "2026-09-21T18:14:51Z",
+  "parsed_at": "2026-09-21T18:19:47Z",
   "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
   "layout_url": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
   "cn26_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
@@ -10,22 +10,22 @@
   "filter": "HI 2026 House/Senate principal campaign committees",
   "min_amount": 200.0,
   "top_n": 25,
-  "indiv26_last_modified": "Sun, 13 Sep 2026 15:59:54 GMT",
-  "indiv26_etag": "3aa48208d54c6998ac0a62b899200cf0-261",
-  "indiv26_bytes": 2186550443,
+  "indiv26_last_modified": "Sun, 20 Sep 2026 15:56:56 GMT",
+  "indiv26_etag": "d2134f540a6440f5fcec61502b52ff6b-262",
+  "indiv26_bytes": 2196803354,
   "stats": {
-    "rows_scanned": 31894597,
+    "rows_scanned": 32034987,
     "rows_bad_parse": 0,
-    "rows_matching_cmte": 3002,
+    "rows_matching_cmte": 3060,
     "rows_skipped_memo_x": 5,
-    "rows_skipped_amt_below_min": 976,
+    "rows_skipped_amt_below_min": 1002,
     "rows_skipped_amt_unparseable": 0,
-    "rows_kept": 2021,
+    "rows_kept": 2053,
     "inner_member": "itcont.txt",
-    "itcont_uncompressed_bytes": 5903956017,
-    "itcont_compressed_bytes": 1093271751
+    "itcont_uncompressed_bytes": 5930347790,
+    "itcont_compressed_bytes": 1098398519
   },
-  "candidate_count": 12,
+  "candidate_count": 13,
   "by_candidate": {
     "H2HI02128": {
       "candidate_id": "H2HI02128",
@@ -102,7 +102,7 @@
           "city": "WAIKUKU",
           "state": "HI",
           "employer": "DOWLING COMPANY, INC.",
-          "image_number": "202601319795586097",
+          "image_number": "202601319795586098",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -112,7 +112,7 @@
           "city": "WAIKUKU",
           "state": "HI",
           "employer": "DOWLING COMPANY, INC.",
-          "image_number": "202601319795586098",
+          "image_number": "202601319795586097",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -841,8 +841,8 @@
       "candidate_name": "BELATTI, DELLA AU",
       "committee_id": "C00920884",
       "status": "ok",
-      "reason": "Showing top 25 of 118 itemized $200+ individual receipts (sorted by amount descending).",
-      "item_count_all": 118,
+      "reason": "Showing top 25 of 150 itemized $200+ individual receipts (sorted by amount descending).",
+      "item_count_all": 150,
       "items": [
         {
           "contributor_name": "KOSASA, THOMAS",
@@ -925,6 +925,26 @@
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
         },
         {
+          "contributor_name": "WILCOX, CAROL",
+          "amount": 3000.0,
+          "date": "2026-08-10",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": null,
+          "image_number": "202608289903430137",
+          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
+        },
+        {
+          "contributor_name": "KALANI, JEFF",
+          "amount": 3000.0,
+          "date": "2026-08-10",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": null,
+          "image_number": "202608289903430126",
+          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
+        },
+        {
           "contributor_name": "KALANI, JEFF",
           "amount": 3000.0,
           "date": "2026-03-23",
@@ -962,6 +982,26 @@
           "state": "HI",
           "employer": "LAW OFFICE OF MYLES S BREINER",
           "image_number": "202510159791121145",
+          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
+        },
+        {
+          "contributor_name": "MONK, AMY",
+          "amount": 2000.0,
+          "date": "2026-08-10",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": null,
+          "image_number": "202608289903430131",
+          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
+        },
+        {
+          "contributor_name": "MATSUMOTO, EILEEN",
+          "amount": 2000.0,
+          "date": "2026-08-10",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": null,
+          "image_number": "202608289903430130",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -1015,6 +1055,16 @@
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
         },
         {
+          "contributor_name": "CORCORAN, ANDREW",
+          "amount": 1162.0,
+          "date": "2026-08-21",
+          "city": "HONOLULU",
+          "state": "HI",
+          "employer": null,
+          "image_number": "202608289903430122",
+          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
+        },
+        {
           "contributor_name": "MEACHAM, LAWRENCE",
           "amount": 1000.0,
           "date": "2025-10-12",
@@ -1042,56 +1092,6 @@
           "state": "HI",
           "employer": "HEI",
           "image_number": "202510159791121146",
-          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
-        },
-        {
-          "contributor_name": "MURANAKA, CAROL",
-          "amount": 1000.0,
-          "date": "2025-09-29",
-          "city": "HONOLULU",
-          "state": "HI",
-          "employer": "CAROL K. MURANAKA",
-          "image_number": "202510159791121153",
-          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
-        },
-        {
-          "contributor_name": "LOO, JENNIFER",
-          "amount": 1000.0,
-          "date": "2025-09-29",
-          "city": "HONOLULU",
-          "state": "HI",
-          "employer": "NOT EMPLOYED",
-          "image_number": "202510159791121149",
-          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
-        },
-        {
-          "contributor_name": "NIELSEN, JADINE",
-          "amount": 1000.0,
-          "date": "2025-09-26",
-          "city": "HONOLULU",
-          "state": "HI",
-          "employer": "NOT EMPLOYED",
-          "image_number": "202510159791121153",
-          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
-        },
-        {
-          "contributor_name": "MONK, AMY",
-          "amount": 1000.0,
-          "date": "2025-12-22",
-          "city": "HONOLULU",
-          "state": "HI",
-          "employer": "NONE",
-          "image_number": "202601309794861929",
-          "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
-        },
-        {
-          "contributor_name": "TAKAFUJI, ERNEST",
-          "amount": 1000.0,
-          "date": "2026-05-09",
-          "city": "VIENNA",
-          "state": "VA",
-          "employer": "NOT EMPLOYED",
-          "image_number": "202607159875999892",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
         }
       ],
@@ -1160,19 +1160,16 @@
     "H6HI01394": {
       "candidate_id": "H6HI01394",
       "candidate_name": "CONLEY, JORDAN",
-      "office": "House",
-      "district": "01",
-      "party": "GRE",
-      "principal_committee_id": null,
+      "committee_id": null,
       "status": "empty",
       "reason": "No principal campaign committee on FEC candidate master (cn26). No Schedule A individual receipts can be attributed.",
       "item_count_all": 0,
       "items": [],
-      "top_25": [],
-      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
-      "cn26_source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "retrieved_at": "2026-09-14T18:24:03Z",
-      "site_link_note": "Link to hawaii.json CONLEY, Jordan S. (Green) \u2014 do not invent a second HI-01 Green."
+      "office": "House",
+      "district": "01",
+      "party": "GRE",
+      "principal_committee_name": null,
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     },
     "H6HI02426": {
       "candidate_id": "H6HI02426",
@@ -1468,15 +1465,5 @@
       "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip"
     }
   },
-  "do_not_sell_donor_lists": true,
-  "scope": "",
-  "disagreement_flags": [
-    {
-      "kind": "new_cn26_candidate",
-      "candidate_id": "H6HI01394",
-      "name": "CONLEY, JORDAN",
-      "note": "cn26 HI 2026 H/S 12\u219213; same person as hawaii.json CONLEY, Jordan S. (Green). Honest-empty FEC Schedule A (no PCC).",
-      "retrieved_at": "2026-09-14T18:24:03Z"
-    }
-  ]
+  "do_not_sell_donor_lists": true
 }

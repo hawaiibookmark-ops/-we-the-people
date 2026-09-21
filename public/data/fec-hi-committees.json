@@ -1,12 +1,12 @@
 {
-  "retrieved_at": "2026-09-14T18:24:03Z",
+  "retrieved_at": "2026-09-21T18:14:51Z",
   "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
   "linkage_source_url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
   "committee_master_url": "https://www.fec.gov/files/bulk-downloads/2026/cm26.zip",
   "layout_url": "https://www.fec.gov/campaign-finance-data/candidate-master-file-description/",
   "cycle": 2026,
-  "filter": "CAND_OFFICE_ST=HI AND CAND_ELECTION_YR=2026 AND CAND_OFFICE IN (H,S)",
-  "also_union": "federal.json HI house+senate candidate_ids (exact match with cn26 set) + cn26 HI 2026 H/S (incl. Conley H6HI01394 added 2026-09-14)",
+  "filter": "CAND_OFFICE_ST=HI AND CAND_ELECTION_YR=2026 AND office in H,S",
+  "also_union": "federal.json HI candidate_ids (must include Conley H6HI01394)",
   "count": 13,
   "candidates": [
     {
@@ -35,7 +35,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "CASE FOR CONGRESS",
       "principal_committee_type": "H",
-      "principal_committee_designation": "DEM",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H2HI02128"
     },
     {
@@ -64,7 +64,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "TOKUDA FOR HAWAII",
       "principal_committee_type": "H",
-      "principal_committee_designation": "DEM",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H2HI02581"
     },
     {
@@ -93,7 +93,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "KEOHOKALOLE FOR HAWAII",
       "principal_committee_type": "H",
-      "principal_committee_designation": "DEM",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H6HI01311"
     },
     {
@@ -122,7 +122,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "FRIENDS OF MAXWELL FRAZIER",
       "principal_committee_type": "H",
-      "principal_committee_designation": "REP",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H6HI01337"
     },
     {
@@ -151,7 +151,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "BELATTI FOR CONGRESS",
       "principal_committee_type": "H",
-      "principal_committee_designation": "DEM",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H6HI01345"
     },
     {
@@ -180,7 +180,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "BEN FATULA FOR CONGRESS",
       "principal_committee_type": "H",
-      "principal_committee_designation": "DEM",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H6HI01352"
     },
     {
@@ -209,7 +209,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "LAM4ALOHA - ADRIEL FOR CONGRESS",
       "principal_committee_type": "H",
-      "principal_committee_designation": "REP",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H6HI01360"
     },
     {
@@ -222,9 +222,7 @@
       "candidate_status": "N",
       "principal_committee_id": null,
       "ccl_linkages": [],
-      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "committee_name": null,
-      "principal_committee_name": null
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip"
     },
     {
       "candidate_id": "H6HI01386",
@@ -252,7 +250,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "BERNING, NATHAN M.",
       "principal_committee_type": "H",
-      "principal_committee_designation": "NON",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H6HI01386"
     },
     {
@@ -265,20 +263,7 @@
       "candidate_status": "N",
       "principal_committee_id": null,
       "ccl_linkages": [],
-      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "committee_name": null,
-      "cmte_dsgn": null,
-      "cmte_tp": null,
-      "principal_committee_name": null,
-      "principal_committee_type": null,
-      "principal_committee_designation": null,
-      "cm_cand_id": null,
-      "note": "Same person as hawaii.json CONLEY, Jordan S. (Green Dist I general_nominee). No PCC on cn26.",
-      "site_link": {
-        "hawaii_name": "CONLEY, Jordan S.",
-        "party": "Green",
-        "ballotpedia_forbidden": true
-      }
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip"
     },
     {
       "candidate_id": "H6HI02426",
@@ -306,7 +291,7 @@
       "cmte_tp": "H",
       "principal_committee_name": "SENATOR AWA FOR CONGRESS",
       "principal_committee_type": "H",
-      "principal_committee_designation": "REP",
+      "principal_committee_designation": "P",
       "cm_cand_id": "H6HI02426"
     },
     {
@@ -325,7 +310,7 @@
       "cmte_tp": "P",
       "principal_committee_name": "OWEN NICHOLAS CARLSON FOR THE WHITE HOUSE OVAL OFFICE'S MISSION TO LEGALLY ELIMINATE 95% OF THE WORLD POPULATION COMMITTEE",
       "principal_committee_type": "P",
-      "principal_committee_designation": "DEM",
+      "principal_committee_designation": "P",
       "cm_cand_id": "P80008550"
     },
     {
@@ -348,10 +333,14 @@
           "linkage_id": "272229"
         }
       ],
-      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "committee_name": null,
-      "principal_committee_name": null
+      "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip"
     }
   ],
-  "conley_added_at": "2026-09-14T18:35:20Z"
+  "cn26_last_modified": "Mon, 21 Sep 2026 05:50:29 GMT",
+  "cn26_etag": "5a0385a16369fe5a863728853a93e644",
+  "ccl26_last_modified": "Mon, 21 Sep 2026 05:50:37 GMT",
+  "cm26_last_modified": "Mon, 21 Sep 2026 05:50:34 GMT",
+  "indiv26_last_modified": "Sun, 20 Sep 2026 15:56:56 GMT",
+  "indiv26_etag": "d2134f540a6440f5fcec61502b52ff6b-262",
+  "indiv26_bytes": 2196803354
 }
