@@ -106,8 +106,8 @@
     },
     {
       "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
-      "retrieved_at": "2026-09-18T18:20:39.281277+00:00",
-      "note": "Senate LIS 119th Congress 2nd session vote menu; Hirono and Schatz through official vote 238."
+      "retrieved_at": "2026-09-23T08:24:08-10:00",
+      "note": "Senate LIS 119th Congress 2nd session vote menu; Hirono and Schatz through official vote 240."
     },
     {
       "url": "https://data.capitol.hawaii.gov/session/measure_indiv.aspx",
@@ -179,13 +179,13 @@
   "vote_extracts": {
     "congress": {
       "path": "/data/congress-votes.json",
-      "retrieved_at": "2026-09-18T18:20:39.281277+00:00",
-      "row_count": 276,
+      "retrieved_at": "2026-09-23T08:24:08-10:00",
+      "row_count": 280,
       "by_incumbent": {
         "C001055": 81,
         "T000487": 81,
-        "H001042": 57,
-        "S001194": 57
+        "H001042": 59,
+        "S001194": 59
       },
       "disagreement_flags": []
     },
