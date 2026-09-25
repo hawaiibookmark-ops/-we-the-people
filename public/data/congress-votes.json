@@ -1,6 +1,6 @@
 {
   "policy": "Official U.S. House Clerk EVS XML (2026 rolls) and U.S. Senate LIS roll-call XML for Hawaii incumbents. vote_cast is the exact official text. Votes are never invented. No Ballotpedia. No scores.",
-  "retrieved_at": "2026-09-24T08:02:43-10:00",
+  "retrieved_at": "2026-09-25T08:05:59-10:00",
   "source_url": "https://clerk.house.gov/evs/2026/index.asp",
   "sources": [
     {
@@ -10,12 +10,12 @@
     },
     {
       "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
-      "retrieved_at": "2026-09-24T08:02:43-10:00",
-      "note": "Senate LIS 119th Congress 2nd session vote menu; latest vote 243."
+      "retrieved_at": "2026-09-25T08:05:59-10:00",
+      "note": "Senate LIS 119th Congress 2nd session vote menu; latest vote 244."
     }
   ],
   "user_agent": "WeThePeople-CivicBot/1.0",
-  "row_count": 286,
+  "row_count": 288,
   "by_incumbent": {
     "C001055": {
       "incumbent_name": "Ed Case",
@@ -3109,8 +3109,28 @@
     },
     "H001042": {
       "incumbent_name": "Mazie K. Hirono",
-      "item_count_all": 62,
+      "item_count_all": 63,
       "items": [
+        {
+          "chamber": "Senate",
+          "congress": 119,
+          "session": "2nd",
+          "roll_call_number": 244,
+          "vote_date": "September 24, 2026,  01:45 PM",
+          "question": "On the Concurrent Resolution H.Con.Res. 89",
+          "measure": "H. Con. Res. 89",
+          "vote_desc": "A concurrent resolution directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+          "result": "Concurrent Resolution Rejected (49-50)",
+          "tally": "49-50",
+          "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+          "source_xml": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+          "source_name": "Secretary of the Senate (LIS XML)",
+          "retrieved_at": "2026-09-25T08:05:59-10:00",
+          "incumbent_name": "Mazie K. Hirono",
+          "bioguide_id": "H001042",
+          "district": "Class 1",
+          "vote_cast": "Yea"
+        },
         {
           "chamber": "Senate",
           "congress": 119,
@@ -4305,8 +4325,28 @@
     },
     "S001194": {
       "incumbent_name": "Brian Schatz",
-      "item_count_all": 62,
+      "item_count_all": 63,
       "items": [
+        {
+          "chamber": "Senate",
+          "congress": 119,
+          "session": "2nd",
+          "roll_call_number": 244,
+          "vote_date": "September 24, 2026,  01:45 PM",
+          "question": "On the Concurrent Resolution H.Con.Res. 89",
+          "measure": "H. Con. Res. 89",
+          "vote_desc": "A concurrent resolution directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+          "result": "Concurrent Resolution Rejected (49-50)",
+          "tally": "49-50",
+          "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+          "source_xml": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+          "source_name": "Secretary of the Senate (LIS XML)",
+          "retrieved_at": "2026-09-25T08:05:59-10:00",
+          "incumbent_name": "Brian Schatz",
+          "bioguide_id": "S001194",
+          "district": "Class 3",
+          "vote_cast": "Yea"
+        },
         {
           "chamber": "Senate",
           "congress": 119,
@@ -10954,6 +10994,46 @@
       "source_xml": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00243.xml",
       "source_name": "Secretary of the Senate (LIS XML)",
       "retrieved_at": "2026-09-24T08:02:43-10:00",
+      "incumbent_name": "Brian Schatz",
+      "bioguide_id": "S001194",
+      "district": "Class 3",
+      "vote_cast": "Yea"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "session": "2nd",
+      "roll_call_number": 244,
+      "vote_date": "September 24, 2026,  01:45 PM",
+      "question": "On the Concurrent Resolution H.Con.Res. 89",
+      "measure": "H. Con. Res. 89",
+      "vote_desc": "A concurrent resolution directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+      "result": "Concurrent Resolution Rejected (49-50)",
+      "tally": "49-50",
+      "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+      "source_xml": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+      "source_name": "Secretary of the Senate (LIS XML)",
+      "retrieved_at": "2026-09-25T08:05:59-10:00",
+      "incumbent_name": "Mazie K. Hirono",
+      "bioguide_id": "H001042",
+      "district": "Class 1",
+      "vote_cast": "Yea"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "session": "2nd",
+      "roll_call_number": 244,
+      "vote_date": "September 24, 2026,  01:45 PM",
+      "question": "On the Concurrent Resolution H.Con.Res. 89",
+      "measure": "H. Con. Res. 89",
+      "vote_desc": "A concurrent resolution directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+      "result": "Concurrent Resolution Rejected (49-50)",
+      "tally": "49-50",
+      "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+      "source_xml": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.xml",
+      "source_name": "Secretary of the Senate (LIS XML)",
+      "retrieved_at": "2026-09-25T08:05:59-10:00",
       "incumbent_name": "Brian Schatz",
       "bioguide_id": "S001194",
       "district": "Class 3",
