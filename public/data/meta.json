@@ -179,13 +179,13 @@
   "vote_extracts": {
     "congress": {
       "path": "/data/congress-votes.json",
-      "retrieved_at": "2026-09-29T08:10:24-10:00",
-      "row_count": 300,
+      "retrieved_at": "2026-09-30T08:04:51-10:00",
+      "row_count": 306,
       "by_incumbent": {
         "C001055": 81,
         "T000487": 81,
-        "H001042": 69,
-        "S001194": 69
+        "H001042": 72,
+        "S001194": 72
       },
       "disagreement_flags": []
     },
