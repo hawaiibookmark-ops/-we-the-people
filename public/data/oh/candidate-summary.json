@@ -1,6 +1,6 @@
 {
   "row_count": 20,
-  "contest_key_count": 6,
+  "contest_key_count": 8,
   "list_kind": [
     "dir_2026_45"
   ],
@@ -8,11 +8,11 @@
     "dir_2026_45": 20
   },
   "complete": false,
-  "certified": false,
+  "certified": true,
   "incomplete": true,
   "directive": "2026-45",
-  "source_url": "https://www.ohiosos.gov/office/media-center/categories/press-releases/2026-02-04",
-  "retrieved_at": "2026-09-02T16:45:00Z",
-  "note": "Official Ohio SOS Dir 2026-45 statewide extract (20 rows, complete=false). US House is not on this list. Streets omitted. No live SOS re-fetch. No Ballotpedia.",
+  "source_url": "https://www.ohiosos.gov/assets/dir2026-45-form-of-the-official-ballot-for-the-november%203-general-election.pdf",
+  "retrieved_at": "2026-09-30T23:30:49-10:00",
+  "note": "Official Ohio SOS Directive 2026-45 section VI certified statewide general-election candidates (20 rows, complete=false). US House and General Assembly are certified by county boards, not on this list. Streets omitted. No Ballotpedia.",
   "user_agent": "WeThePeople-CivicBot/1.0"
 }
