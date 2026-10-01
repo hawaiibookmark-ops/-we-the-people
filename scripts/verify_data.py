@@ -1811,8 +1811,8 @@ else:
             errors.append("OH candidates must be labeled complete=false")
         if any(r.get("directive") != "2026-45" for r in oh_cands):
             errors.append("OH candidates must be labeled directive 2026-45")
-        if any(r.get("retrieved_at") != "2026-09-02T16:45:00Z" for r in oh_cands):
-            errors.append("OH candidates retrieved_at must be 2026-09-02T16:45:00Z")
+        if any(r.get("retrieved_at") != "2026-09-30T23:30:49-10:00" for r in oh_cands):
+            errors.append("OH candidates retrieved_at must be 2026-09-30T23:30:49-10:00")
         if any((r.get("office") or "").lower().startswith("u.s. house") or (r.get("office") or "").lower().startswith("us house") for r in oh_cands):
             errors.append("OH package must not invent US House rows")
         if any("ballotpedia" in (r.get("source_url") or "").lower() for r in oh_cands):
