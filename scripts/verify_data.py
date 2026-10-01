@@ -472,16 +472,18 @@ if "hicscdata.hawaii.gov" not in (csc.get("source_url") or ""):
 
 congress = json.loads((ROOT / "congress-votes.json").read_text())
 hivotes = json.loads((ROOT / "hawaii-votes.json").read_text())
-if congress.get("row_count") != 306:
-    errors.append(f"congress-votes row_count {congress.get('row_count')} != 306")
-if len(congress.get("votes") or []) != 306:
-    errors.append(f"congress-votes length {len(congress.get('votes') or [])} != 306")
+if congress.get("retrieved_at") != "2026-10-01T08:07:10-10:00":
+    errors.append(f"congress-votes retrieved_at {congress.get('retrieved_at')} != 2026-10-01T08:07:10-10:00")
+if congress.get("row_count") != 312:
+    errors.append(f"congress-votes row_count {congress.get('row_count')} != 312")
+if len(congress.get("votes") or []) != 312:
+    errors.append(f"congress-votes length {len(congress.get('votes') or [])} != 312")
 byc = congress.get("by_incumbent") or {}
 if set(byc) != {"C001055", "T000487", "H001042", "S001194"}:
     errors.append(f"congress by_incumbent members invented or dropped: {sorted(byc)}")
-if sum(len((byc.get(bio) or {}).get("items") or []) for bio in byc) != 306:
-    errors.append("congress by_incumbent items do not sum to 306")
-for bio, n in {"C001055": 81, "T000487": 81, "H001042": 72, "S001194": 72}.items():
+if sum(len((byc.get(bio) or {}).get("items") or []) for bio in byc) != 312:
+    errors.append("congress by_incumbent items do not sum to 312")
+for bio, n in {"C001055": 81, "T000487": 81, "H001042": 75, "S001194": 75}.items():
     got = (byc.get(bio) or {}).get("item_count_all")
     if got != n:
         errors.append(f"{bio} congress votes {got} != {n}")
@@ -525,8 +527,8 @@ for bio, name, expected in (("C001055", "Case", CASE_298_314), ("T000487", "Toku
     if got != expected:
         errors.append(f"{name} rolls 293-314 must stay official Clerk casts, got {got}")
 hirono_top = ((byc.get("H001042") or {}).get("items") or [{}])[0]
-if hirono_top.get("roll_call_number") != 253 or hirono_top.get("vote_cast") != "Nay":
-    errors.append(f"Senate latest must be 253 Nay, got {hirono_top.get('roll_call_number')} {hirono_top.get('vote_cast')}")
+if hirono_top.get("roll_call_number") != 256 or hirono_top.get("vote_cast") != "Nay":
+    errors.append(f"Senate latest must be 256 Nay, got {hirono_top.get('roll_call_number')} {hirono_top.get('vote_cast')}")
 SENATE_231_239 = {
     231: "Nay",
     232: "Nay",
@@ -2149,7 +2151,7 @@ print(
     congress.get("row_count"),
     "hawaii floor named",
     hivotes.get("row_count"),
-    "Case/Tokuda through 314; Senate 241-253",
+    "Case/Tokuda through 314; Senate max 256",
 )
 print("OK WA PDC rows", wa.get("row_count"), "filers", wa.get("filer_count"))
 print("OK CO TRACER rows", co.get("row_count"), "filers", co.get("filer_count"))
