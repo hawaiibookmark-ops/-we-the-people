@@ -1,4 +1,5 @@
 import { dataUrl, sitePath } from "./config";
+import type { PacQuery } from "./pacMatch";
 import type {
   FecCandidate,
   HiNominee,
@@ -241,6 +242,7 @@ export type CandidateCard = {
     retrievedAt?: string;
     itemCountAll?: number;
   };
+  pac?: PacQuery;
   sources: { url: string; retrieved_at: string; label: string }[];
 };
 
@@ -653,6 +655,55 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
     return [{ label: "Congress.gov members directory", url: "https://www.congress.gov/members" }];
   }
 
+  function cscRegNoFor(candidateName?: string): string | null {
+    const csc = bundle.cscDonors;
+    if (!csc || !candidateName) return null;
+    const rows = Object.values(csc.by_candidate);
+    const tagged = rows.filter((r) => r.matched_site_nominee === candidateName);
+    if (tagged.length > 1) return null;
+    let hit = tagged.length === 1 ? tagged[0] : null;
+    if (!hit) {
+      const loose = rows.filter(
+        (r) => r.matched_site_nominee && lastNameAndToken(r.matched_site_nominee, candidateName),
+      );
+      if (loose.length !== 1) return null;
+      hit = loose[0];
+    }
+    const reg = hit.reg_no || "";
+    return /^CC\d+$/.test(reg) ? reg : null;
+  }
+
+  function federalPac(
+    stateCode: string,
+    officeCode: string | undefined,
+    district: string | undefined,
+    name: string,
+    siteCandidateId?: string,
+  ): PacQuery {
+    const office =
+      officeCode === "S" ? "U.S. Senate" : stateCode === "VI" ? "U.S. House (Delegate)" : "U.S. House";
+    const dist = officeCode === "S" ? padDist(district || "00") : padDist(district || "00");
+    return {
+      scope: "federal",
+      state: stateCode,
+      office,
+      district: dist,
+      name,
+      siteCandidateId,
+    };
+  }
+
+  function hiStatePac(name: string): PacQuery {
+    return {
+      scope: "hi-state",
+      state: "HI",
+      office: "",
+      district: "",
+      name,
+      cscRegNo: cscRegNoFor(name),
+    };
+  }
+
   function senateVoteLinks(stateCode: string, candidateName: string) {
     const members = bundle.incumbents.senate[stateCode] || [];
     const hit = members.find((m) => namesMatch(m.name, candidateName));
@@ -688,6 +739,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           list: "general_nominee",
           fecId: fecHit?.candidate_id,
           fecUrl: fecHit?.fec_url,
+          pac: federalPac("HI", "H", dist, n.name || "", fecHit?.candidate_id),
           voteLinks: voteLinks(state, dist, n.name || "", isInc),
           votes: votesFor({ bioguide: houseBioguide(state, dist, n.name || ""), candidateName: n.name || undefined }),
           donors: donorFor(fecHit?.candidate_id),
@@ -719,6 +771,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             list: "fec_filing",
             fecId: f.candidate_id,
             fecUrl: f.fec_url,
+            pac: federalPac(state, f.office, dist, f.name, f.candidate_id),
             voteLinks: [],
             votes: votesFor({ bioguide: houseBioguide(state, dist, f.name), candidateName: f.name }),
             donors: donorFor(f.candidate_id),
@@ -746,6 +799,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           list: "fec_filing",
           fecId: f.candidate_id,
           fecUrl: f.fec_url,
+          pac: federalPac(state, f.office, dist, f.name, f.candidate_id),
           voteLinks: voteLinks(state, dist, f.name, isInc),
           votes: votesFor({ bioguide: houseBioguide(state, dist, f.name), candidateName: f.name }),
           donors: donorFor(f.candidate_id),
@@ -774,6 +828,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
         list: "fec_filing",
         fecId: f.candidate_id,
         fecUrl: f.fec_url,
+        pac: federalPac(state, f.office, f.district, f.name, f.candidate_id),
         voteLinks: senateVoteLinks(state, f.name),
         votes: votesFor({ bioguide: senateBioguide(state, f.name), candidateName: f.name }),
         donors: donorFor(f.candidate_id),
@@ -800,6 +855,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           list: "fec_filing" as const,
           fecId: f.candidate_id,
           fecUrl: f.fec_url,
+          pac: federalPac(state, f.office, f.district, f.name, f.candidate_id),
           voteLinks: [],
           votes: votesFor({ bioguide: senateBioguide(state, f.name), candidateName: f.name }),
           donors: donorFor(f.candidate_id),
@@ -830,6 +886,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
           primaryVotes: n.primary_votes ?? undefined,
           list: "general_nominee" as const,
           voteLinks: [],
+          pac: hiStatePac(n.name || ""),
           votes: votesFor({ isHiState: true, candidateName: n.name || undefined }),
           donors: donorFor(undefined, true, n.name || undefined),
           sources: [{ url: hiOe.url, retrieved_at: hiOe.retrieved_at, label: "Hawaii Office of Elections 2026 Primary certified summary" }],
@@ -853,6 +910,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             district: dist,
             primaryVotes: n.primary_votes ?? undefined,
             list: "general_nominee" as const,
+            pac: hiStatePac(n.name || ""),
             votes: votesFor({ isHiState: true, candidateName: n.name || undefined }),
             donors: donorFor(undefined, true, n.name || undefined),
             sources: [
@@ -887,6 +945,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             district: dist,
             primaryVotes: n.primary_votes ?? undefined,
             list: "general_nominee" as const,
+            pac: hiStatePac(n.name || ""),
             votes: votesFor({ isHiState: true, candidateName: n.name || undefined }),
             donors: donorFor(undefined, true, n.name || undefined),
             sources: [

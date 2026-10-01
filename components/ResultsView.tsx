@@ -1,11 +1,34 @@
+import type { ReactNode } from "react";
 import type { LookupResult } from "@/lib/lookup";
+import type { PacQuery } from "@/lib/pacMatch";
+import { PacPanels } from "@/components/PacMoneyPanel";
 
 function money(n: number) {
   return n.toLocaleString("en-US", { style: "currency", currency: "USD" });
 }
 
 export function ResultsView({ result }: { result: LookupResult }) {
+  const queries: (PacQuery | null)[] = [];
+  for (const race of result.races) {
+    for (const candidate of race.candidates) queries.push(candidate.pac || null);
+  }
+  return (
+    <PacPanels
+      queries={queries}
+      render={(panelAt) => <ResultsBody result={result} panelAt={panelAt} />}
+    />
+  );
+}
+
+function ResultsBody({
+  result,
+  panelAt,
+}: {
+  result: LookupResult;
+  panelAt: (index: number) => ReactNode;
+}) {
   const { place, flags, races } = result;
+  let slot = 0;
   return (
     <div>
       <div className="place">
@@ -187,6 +210,7 @@ export function ResultsView({ result }: { result: LookupResult }) {
                   {" · Official names only. Donor lists are not sold."}
                 </p>
               </div>
+              {panelAt(slot++)}
               <p className="src">
                 {c.sources.map((s, si) => (
                   <span key={s.url + si}>

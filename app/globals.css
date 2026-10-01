@@ -257,7 +257,19 @@ footer {
 
 .donor-list li { margin: 2px 0; }
 
-.donors { margin-top: 8px; }
+.donors, .pac { margin-top: 8px; }
+
+.pac-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-top: 4px;
+  color: var(--navy);
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  text-decoration: underline;
+}
 
 .pro-box {
   background: var(--navy);
