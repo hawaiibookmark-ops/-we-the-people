@@ -215,7 +215,7 @@ if "OpenFEC" not in policy or ("not sold" not in policy.lower() and "do not sell
 expected = {
     "H2HI02128": 430,
     "H2HI02581": 604,
-    "H6HI01311": 795,
+    "H6HI01311": 954,
     "H6HI01345": 150,
     "H6HI02426": 74,
     "H6HI01337": 0,
@@ -257,8 +257,8 @@ if conley_donors.get("candidate_name") != "CONLEY, JORDAN":
     errors.append("Conley donor stub name must stay official FEC CONLEY, JORDAN")
 if conley_donors.get("status") != "empty" or conley_donors.get("item_count_all") != 0 or conley_donors.get("items"):
     errors.append("Conley must stay honest-empty FEC Schedule A (no PCC)")
-if donors.get("retrieved_at") != "2026-09-21T18:14:51Z":
-    errors.append("donors.json retrieved_at must be 2026-09-21T18:14:51Z")
+if donors.get("retrieved_at") != "2026-10-05T18:04:12Z":
+    errors.append("donors.json retrieved_at must be 2026-10-05T18:04:12Z")
 if donors.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
     errors.append("donors.json must preserve indiv26 source_url")
 case_items = ((donors.get("by_candidate") or {}).get("H2HI02128") or {}).get("items") or []
@@ -268,14 +268,17 @@ belatti_items = ((donors.get("by_candidate") or {}).get("H6HI01345") or {}).get(
 if not any((it.get("contributor_name") or "") == "KALANI, JEFF" for it in belatti_items):
     errors.append("Belatti Schedule A top items must include official KALANI, JEFF")
 cn26_meta = next((s for s in (meta.get("sources") or []) if "cn26.zip" in (s.get("url") or "")), None)
-if not cn26_meta or cn26_meta.get("retrieved_at") != "2026-09-21T18:14:51Z":
-    errors.append("meta.json cn26 retrieved_at must be 2026-09-21T18:14:51Z")
+if not cn26_meta or cn26_meta.get("retrieved_at") != "2026-10-05T18:04:12Z":
+    errors.append("meta.json cn26 retrieved_at must be 2026-10-05T18:04:12Z")
 if "13" not in ((cn26_meta or {}).get("note") or ""):
     errors.append("meta.json cn26 note must record HI 2026 House/Senate count 13")
-if ((meta.get("donor_extracts") or {}).get("federal") or {}).get("item_counts", {}).get("H6HI01394") != 0:
+federal_extract = (meta.get("donor_extracts") or {}).get("federal") or {}
+if (federal_extract.get("item_counts") or {}).get("H6HI01394") != 0:
     errors.append("meta.json federal item_counts must include honest-empty H6HI01394")
-if ((meta.get("donor_extracts") or {}).get("federal") or {}).get("retrieved_at") != "2026-09-21T18:14:51Z":
-    errors.append("meta.json federal donor extract retrieved_at must be 2026-09-21T18:14:51Z")
+if (federal_extract.get("item_counts") or {}).get("H6HI01311") != 954:
+    errors.append("meta.json federal item_counts.H6HI01311 must be 954")
+if federal_extract.get("retrieved_at") != "2026-10-05T18:04:12Z":
+    errors.append("meta.json federal donor extract retrieved_at must be 2026-10-05T18:04:12Z")
 sol = (donors.get("by_candidate") or {}).get("S6HI00321") or {}
 if sol.get("committee_id"):
     errors.append("Solomon must have no PCC (do not use joint C00915710)")
@@ -291,8 +294,8 @@ if not sched_path.exists():
     sched = {}
 else:
     sched = json.loads(sched_path.read_text())
-    if sched.get("retrieved_at") != "2026-09-21T18:14:51Z":
-        errors.append("fec-schedule-a.json retrieved_at must be 2026-09-21T18:14:51Z")
+    if sched.get("retrieved_at") != "2026-10-05T18:04:12Z":
+        errors.append("fec-schedule-a.json retrieved_at must be 2026-10-05T18:04:12Z")
     if sched.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
         errors.append("fec-schedule-a.json source_url must be official indiv26.zip")
     if not sched.get("do_not_sell_donor_lists"):
@@ -323,8 +326,8 @@ if not cmte_path.exists():
     errors.append("missing public/data/fec-hi-committees.json")
 else:
     cmte = json.loads(cmte_path.read_text())
-    if cmte.get("retrieved_at") != "2026-09-21T18:14:51Z":
-        errors.append("fec-hi-committees.json retrieved_at must be 2026-09-21T18:14:51Z")
+    if cmte.get("retrieved_at") != "2026-10-05T18:04:12Z":
+        errors.append("fec-hi-committees.json retrieved_at must be 2026-10-05T18:04:12Z")
     if cmte.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip":
         errors.append("fec-hi-committees.json source_url must be official cn26.zip")
     if cmte.get("count") != 13 or len(cmte.get("candidates") or []) != 13:
