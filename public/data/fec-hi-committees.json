@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-09-21T18:14:51Z",
+  "retrieved_at": "2026-10-05T18:04:12Z",
   "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
   "linkage_source_url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
   "committee_master_url": "https://www.fec.gov/files/bulk-downloads/2026/cm26.zip",
@@ -336,11 +336,11 @@
       "source_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip"
     }
   ],
-  "cn26_last_modified": "Mon, 21 Sep 2026 05:50:29 GMT",
-  "cn26_etag": "5a0385a16369fe5a863728853a93e644",
-  "ccl26_last_modified": "Mon, 21 Sep 2026 05:50:37 GMT",
-  "cm26_last_modified": "Mon, 21 Sep 2026 05:50:34 GMT",
-  "indiv26_last_modified": "Sun, 20 Sep 2026 15:56:56 GMT",
-  "indiv26_etag": "d2134f540a6440f5fcec61502b52ff6b-262",
-  "indiv26_bytes": 2196803354
+  "cn26_last_modified": "Mon, 05 Oct 2026 05:41:06 GMT",
+  "cn26_etag": "b67449c371ccff9a0135c6ddd70cfa69",
+  "ccl26_last_modified": "Mon, 05 Oct 2026 05:41:14 GMT",
+  "cm26_last_modified": "Mon, 05 Oct 2026 05:41:11 GMT",
+  "indiv26_last_modified": "Sun, 04 Oct 2026 16:02:27 GMT",
+  "indiv26_etag": "0e2a4f631a3fddc85035a4bb30262e55-266",
+  "indiv26_bytes": 2227708803
 }

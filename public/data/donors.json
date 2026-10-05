@@ -76,7 +76,7 @@
           "city": "WAIKUKU",
           "state": "HI",
           "employer": "DOWLING COMPANY, INC.",
-          "image_number": "202601319795586098",
+          "image_number": "202601319795586097",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -86,7 +86,7 @@
           "city": "WAIKUKU",
           "state": "HI",
           "employer": "DOWLING COMPANY, INC.",
-          "image_number": "202601319795586097",
+          "image_number": "202601319795586098",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -246,7 +246,7 @@
           "city": "HOUSTON",
           "state": "TX",
           "employer": "SELF",
-          "image_number": "202607159890621877",
+          "image_number": "202607159890621876",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -256,7 +256,7 @@
           "city": "HOUSTON",
           "state": "TX",
           "employer": "SELF",
-          "image_number": "202607159890621876",
+          "image_number": "202607159890621877",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         }
       ]
@@ -522,8 +522,8 @@
     },
     "H6HI01311": {
       "status": "ok",
-      "reason": "Showing top 25 of 795 itemized $200+ individual receipts (sorted by amount descending).",
-      "item_count_all": 795,
+      "reason": "Showing top 25 of 954 itemized $200+ individual receipts (sorted by amount descending).",
+      "item_count_all": 954,
       "committee_id": "C00913848",
       "candidate_name": "KEOHOKALOLE, JARRETT",
       "items": [
@@ -1362,33 +1362,33 @@
       "items": []
     }
   },
-  "retrieved_at": "2026-09-21T18:14:51Z",
+  "retrieved_at": "2026-10-05T18:04:12Z",
   "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
   "sources": [
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
-      "retrieved_at": "2026-09-21T18:14:51Z",
+      "retrieved_at": "2026-10-05T18:04:12Z",
       "note": "indiv26 Schedule A bulk"
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "retrieved_at": "2026-09-21T18:14:51Z",
+      "retrieved_at": "2026-10-05T18:04:12Z",
       "note": "cn26 HI candidate master"
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/ccl26.zip",
-      "retrieved_at": "2026-09-21T18:14:51Z",
+      "retrieved_at": "2026-10-05T18:04:12Z",
       "note": "ccl26 candidate-committee linkage"
     }
   ],
   "scope": "Hawaii 2026 U.S. House and Senate candidates present in cn26 + federal.json",
-  "prior_extract": "2026-09-14 ship (indiv26 was Sun 13 Sep 2026)",
+  "prior_extract": "2026-09-21 ship (Belatti 150 lock; indiv26 Sun 27 Sep 2026 unchanged through 10-02)",
   "disagreement_flags": [],
-  "memo_cd_x_skipped_on_scoped_committees": 5,
+  "memo_cd_x_skipped_on_scoped_committees": 6,
   "do_not_sell_donor_lists": true,
   "stats": {
-    "rows_kept": 2053,
-    "rows_matching_cmte": 3060,
-    "rows_skipped_memo_x": 5
+    "rows_kept": 2212,
+    "rows_matching_cmte": 3298,
+    "rows_skipped_memo_x": 6
   }
 }

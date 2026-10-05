@@ -1,7 +1,7 @@
 {
   "product": "We The People",
-  "retrieved_at": "2026-09-21T18:14:51Z",
-  "parsed_at": "2026-09-21T18:19:47Z",
+  "retrieved_at": "2026-10-05T18:04:12Z",
+  "parsed_at": "2026-10-05T18:08:28Z",
   "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
   "layout_url": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
   "cn26_url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
@@ -10,20 +10,20 @@
   "filter": "HI 2026 House/Senate principal campaign committees",
   "min_amount": 200.0,
   "top_n": 25,
-  "indiv26_last_modified": "Sun, 20 Sep 2026 15:56:56 GMT",
-  "indiv26_etag": "d2134f540a6440f5fcec61502b52ff6b-262",
-  "indiv26_bytes": 2196803354,
+  "indiv26_last_modified": "Sun, 04 Oct 2026 16:02:27 GMT",
+  "indiv26_etag": "0e2a4f631a3fddc85035a4bb30262e55-266",
+  "indiv26_bytes": 2227708803,
   "stats": {
-    "rows_scanned": 32034987,
+    "rows_scanned": 32447990,
     "rows_bad_parse": 0,
-    "rows_matching_cmte": 3060,
-    "rows_skipped_memo_x": 5,
-    "rows_skipped_amt_below_min": 1002,
+    "rows_matching_cmte": 3298,
+    "rows_skipped_memo_x": 6,
+    "rows_skipped_amt_below_min": 1080,
     "rows_skipped_amt_unparseable": 0,
-    "rows_kept": 2053,
+    "rows_kept": 2212,
     "inner_member": "itcont.txt",
-    "itcont_uncompressed_bytes": 5930347790,
-    "itcont_compressed_bytes": 1098398519
+    "itcont_uncompressed_bytes": 6009461449,
+    "itcont_compressed_bytes": 1113846181
   },
   "candidate_count": 13,
   "by_candidate": {
@@ -102,7 +102,7 @@
           "city": "WAIKUKU",
           "state": "HI",
           "employer": "DOWLING COMPANY, INC.",
-          "image_number": "202601319795586098",
+          "image_number": "202601319795586097",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -112,7 +112,7 @@
           "city": "WAIKUKU",
           "state": "HI",
           "employer": "DOWLING COMPANY, INC.",
-          "image_number": "202601319795586097",
+          "image_number": "202601319795586098",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -272,7 +272,7 @@
           "city": "HOUSTON",
           "state": "TX",
           "employer": "SELF",
-          "image_number": "202607159890621877",
+          "image_number": "202607159890621876",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         },
         {
@@ -282,11 +282,11 @@
           "city": "HOUSTON",
           "state": "TX",
           "employer": "SELF",
-          "image_number": "202607159890621876",
+          "image_number": "202607159890621877",
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02128&min_amount=200&two_year_transaction_period=2026"
         }
       ],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "DEM",
       "principal_committee_name": "CASE FOR CONGRESS",
@@ -551,7 +551,7 @@
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H2HI02581&min_amount=200&two_year_transaction_period=2026"
         }
       ],
-      "office": "House",
+      "office": "H",
       "district": "02",
       "party": "DEM",
       "principal_committee_name": "TOKUDA FOR HAWAII",
@@ -562,8 +562,8 @@
       "candidate_name": "KEOHOKALOLE, JARRETT",
       "committee_id": "C00913848",
       "status": "ok",
-      "reason": "Showing top 25 of 795 itemized $200+ individual receipts (sorted by amount descending).",
-      "item_count_all": 795,
+      "reason": "Showing top 25 of 954 itemized $200+ individual receipts (sorted by amount descending).",
+      "item_count_all": 954,
       "items": [
         {
           "contributor_name": "BUCK, CHAD",
@@ -816,7 +816,7 @@
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01311&min_amount=200&two_year_transaction_period=2026"
         }
       ],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "DEM",
       "principal_committee_name": "KEOHOKALOLE FOR HAWAII",
@@ -830,7 +830,7 @@
       "reason": "Principal campaign committee C00917971 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
       "items": [],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "REP",
       "principal_committee_name": "FRIENDS OF MAXWELL FRAZIER",
@@ -1095,7 +1095,7 @@
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI01345&min_amount=200&two_year_transaction_period=2026"
         }
       ],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "DEM",
       "principal_committee_name": "BELATTI FOR CONGRESS",
@@ -1109,7 +1109,7 @@
       "reason": "Principal campaign committee C00939769 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
       "items": [],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "DEM",
       "principal_committee_name": "BEN FATULA FOR CONGRESS",
@@ -1123,7 +1123,7 @@
       "reason": "Principal campaign committee C00946970 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
       "items": [],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "REP",
       "principal_committee_name": "LAM4ALOHA - ADRIEL FOR CONGRESS",
@@ -1137,7 +1137,7 @@
       "reason": "No principal campaign committee on FEC candidate master (cn26). No Schedule A individual receipts can be attributed.",
       "item_count_all": 0,
       "items": [],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "NPA",
       "principal_committee_name": null,
@@ -1151,7 +1151,7 @@
       "reason": "Principal campaign committee C00954842 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
       "items": [],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "NON",
       "principal_committee_name": "BERNING, NATHAN M.",
@@ -1165,7 +1165,7 @@
       "reason": "No principal campaign committee on FEC candidate master (cn26). No Schedule A individual receipts can be attributed.",
       "item_count_all": 0,
       "items": [],
-      "office": "House",
+      "office": "H",
       "district": "01",
       "party": "GRE",
       "principal_committee_name": null,
@@ -1430,7 +1430,7 @@
           "fec_url": "https://www.fec.gov/data/receipts/individual-contributions/?candidate_id=H6HI02426&min_amount=200&two_year_transaction_period=2026"
         }
       ],
-      "office": "House",
+      "office": "H",
       "district": "02",
       "party": "REP",
       "principal_committee_name": "SENATOR AWA FOR CONGRESS",
@@ -1444,7 +1444,7 @@
       "reason": "Principal campaign committee C00928689 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
       "item_count_all": 0,
       "items": [],
-      "office": "Senate",
+      "office": "S",
       "district": "00",
       "party": "LBL",
       "principal_committee_name": "OWEN NICHOLAS CARLSON FOR THE WHITE HOUSE OVAL OFFICE'S MISSION TO LEGALLY ELIMINATE 95% OF THE WORLD POPULATION COMMITTEE",
@@ -1458,7 +1458,7 @@
       "reason": "No principal campaign committee on FEC candidate master (cn26). No Schedule A individual receipts can be attributed.",
       "item_count_all": 0,
       "items": [],
-      "office": "Senate",
+      "office": "S",
       "district": "00",
       "party": "REP",
       "principal_committee_name": null,
