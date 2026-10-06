@@ -1345,14 +1345,6 @@
         }
       ]
     },
-    "S6HI00313": {
-      "status": "empty",
-      "reason": "Principal campaign committee C00928689 has no Schedule A individual receipts of $200+ in indiv26 (MEMO_CD=X skipped).",
-      "item_count_all": 0,
-      "committee_id": "C00928689",
-      "candidate_name": "CARLSON, OWEN NICHOLAS",
-      "items": []
-    },
     "S6HI00321": {
       "status": "empty",
       "reason": "No principal campaign committee on FEC candidate master (cn26). No Schedule A individual receipts can be attributed.",
@@ -1362,7 +1354,7 @@
       "items": []
     }
   },
-  "retrieved_at": "2026-10-05T18:04:12Z",
+  "retrieved_at": "2026-10-06T18:06:41Z",
   "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
   "sources": [
     {
@@ -1381,8 +1373,8 @@
       "note": "ccl26 candidate-committee linkage"
     }
   ],
-  "scope": "Hawaii 2026 U.S. House and Senate candidates present in cn26 + federal.json",
-  "prior_extract": "2026-09-21 ship (Belatti 150 lock; indiv26 Sun 27 Sep 2026 unchanged through 10-02)",
+  "scope": "Hawaii 2026 U.S. House and Senate candidates present in cn26 + federal.json (S6HI00313 CARLSON, OWEN NICHOLAS removed 2026-10-06: dropped from FEC cn26 Tue 06 Oct 2026 05:34:10 GMT; fec.gov candidate page 404; OpenFEC returns no record)",
+  "prior_extract": "2026-10-05 ship (Keohokalole 954; indiv26 Sun 04 Oct 2026 unchanged on 10-06)",
   "disagreement_flags": [],
   "memo_cd_x_skipped_on_scoped_committees": 6,
   "do_not_sell_donor_lists": true,
