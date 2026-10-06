@@ -72,7 +72,7 @@ assert.equal(awa.kind, "matched");
 if (awa.kind === "matched") {
   for (const section of awa.sections) {
     assert.equal(section.count, 0);
-    assert.equal(noneReportedText(section.dataAsOf), "None reported as of 2026-09-27");
+    assert.equal(noneReportedText(section.dataAsOf), "None reported as of 2026-10-04");
   }
 }
 
@@ -107,8 +107,8 @@ if (galan.kind === "matched") {
     galan.fecLinks.map((link) => link.id),
     ["H4AZ01228"],
   );
-  assert.equal(galan.sections[0].count, 11);
-  assert.equal(galan.sections[0].total, 19046);
+  assert.equal(galan.sections[0].count, 10);
+  assert.equal(galan.sections[0].total, 19041);
   assert.ok(galan.sections[0].total > 0);
   assert.notEqual(noneReportedText("2026-09-27"), `PAC ${galan.sections[0].count}`);
 }
@@ -181,7 +181,7 @@ const fillmore = one(
 );
 assert.equal(fillmore.kind, "not-found");
 if (fillmore.kind === "not-found") {
-  assert.equal(notFoundText(fillmore.dataAsOf), "Not found in FEC candidate filings as of 2026-09-27.");
+  assert.equal(notFoundText(fillmore.dataAsOf), "Not found in FEC candidate filings as of 2026-10-04.");
   assert.equal(JSON.stringify(fillmore).includes("H8AZ01047"), false);
 }
 

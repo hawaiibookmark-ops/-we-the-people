@@ -35,8 +35,8 @@ if conley_nom:
         errors.append("hawaii.json nominees have no candidate_id field; do not invent one")
 hi01 = ((fed.get("HI") or {}).get("house") or {}).get("01") or []
 hi_house_senate = sum(len(v) for v in ((fed.get("HI") or {}).get("house") or {}).values()) + len((fed.get("HI") or {}).get("senate") or [])
-if hi_house_senate != 13:
-    errors.append(f"HI 2026 House/Senate FEC count {hi_house_senate} != 13")
+if hi_house_senate != 12:
+    errors.append(f"HI 2026 House/Senate FEC count {hi_house_senate} != 12")
 conley_fec = next((r for r in hi01 if r.get("candidate_id") == "H6HI01394"), None)
 if not conley_fec:
     errors.append("federal.json HI-01 missing H6HI01394 CONLEY, JORDAN")
@@ -224,7 +224,6 @@ expected = {
     "H6HI01378": 0,
     "H6HI01386": 0,
     "H6HI01394": 0,
-    "S6HI00313": 0,
     "S6HI00321": 0,
 }
 for cid, n in expected.items():
@@ -257,8 +256,8 @@ if conley_donors.get("candidate_name") != "CONLEY, JORDAN":
     errors.append("Conley donor stub name must stay official FEC CONLEY, JORDAN")
 if conley_donors.get("status") != "empty" or conley_donors.get("item_count_all") != 0 or conley_donors.get("items"):
     errors.append("Conley must stay honest-empty FEC Schedule A (no PCC)")
-if donors.get("retrieved_at") != "2026-10-05T18:04:12Z":
-    errors.append("donors.json retrieved_at must be 2026-10-05T18:04:12Z")
+if donors.get("retrieved_at") != "2026-10-06T18:06:41Z":
+    errors.append("donors.json retrieved_at must be 2026-10-06T18:06:41Z")
 if donors.get("source_url") != "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip":
     errors.append("donors.json must preserve indiv26 source_url")
 case_items = ((donors.get("by_candidate") or {}).get("H2HI02128") or {}).get("items") or []
@@ -268,17 +267,17 @@ belatti_items = ((donors.get("by_candidate") or {}).get("H6HI01345") or {}).get(
 if not any((it.get("contributor_name") or "") == "KALANI, JEFF" for it in belatti_items):
     errors.append("Belatti Schedule A top items must include official KALANI, JEFF")
 cn26_meta = next((s for s in (meta.get("sources") or []) if "cn26.zip" in (s.get("url") or "")), None)
-if not cn26_meta or cn26_meta.get("retrieved_at") != "2026-10-05T18:04:12Z":
-    errors.append("meta.json cn26 retrieved_at must be 2026-10-05T18:04:12Z")
-if "13" not in ((cn26_meta or {}).get("note") or ""):
-    errors.append("meta.json cn26 note must record HI 2026 House/Senate count 13")
+if not cn26_meta or cn26_meta.get("retrieved_at") != "2026-10-06T18:06:41Z":
+    errors.append("meta.json cn26 retrieved_at must be 2026-10-06T18:06:41Z")
+if "12" not in ((cn26_meta or {}).get("note") or ""):
+    errors.append("meta.json cn26 note must record HI 2026 House/Senate count 12")
 federal_extract = (meta.get("donor_extracts") or {}).get("federal") or {}
 if (federal_extract.get("item_counts") or {}).get("H6HI01394") != 0:
     errors.append("meta.json federal item_counts must include honest-empty H6HI01394")
 if (federal_extract.get("item_counts") or {}).get("H6HI01311") != 954:
     errors.append("meta.json federal item_counts.H6HI01311 must be 954")
-if federal_extract.get("retrieved_at") != "2026-10-05T18:04:12Z":
-    errors.append("meta.json federal donor extract retrieved_at must be 2026-10-05T18:04:12Z")
+if federal_extract.get("retrieved_at") != "2026-10-06T18:06:41Z":
+    errors.append("meta.json federal donor extract retrieved_at must be 2026-10-06T18:06:41Z")
 sol = (donors.get("by_candidate") or {}).get("S6HI00321") or {}
 if sol.get("committee_id"):
     errors.append("Solomon must have no PCC (do not use joint C00915710)")

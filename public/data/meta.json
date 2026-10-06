@@ -41,8 +41,8 @@
     },
     {
       "url": "https://www.fec.gov/files/bulk-downloads/2026/cn26.zip",
-      "retrieved_at": "2026-10-05T18:04:12Z",
-      "note": "FEC candidate master (principal campaign committee id). HI 2026 House/Senate count 13 after H6HI01394 CONLEY, JORDAN."
+      "retrieved_at": "2026-10-06T18:06:41Z",
+      "note": "FEC candidate master (principal campaign committee id). HI 2026 House/Senate count 12 after S6HI00313 CARLSON, OWEN NICHOLAS dropped from cn26 (Tue 06 Oct 2026 05:34:10 GMT)."
     },
     {
       "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
@@ -134,7 +134,7 @@
   "donor_extracts": {
     "federal": {
       "path": "/data/donors.json",
-      "retrieved_at": "2026-10-05T18:04:12Z",
+      "retrieved_at": "2026-10-06T18:06:41Z",
       "source_url": "https://www.fec.gov/files/bulk-downloads/2026/indiv26.zip",
       "item_counts": {
         "H2HI02128": 430,
@@ -148,7 +148,6 @@
         "H6HI01386": 0,
         "H6HI01394": 0,
         "H6HI02426": 74,
-        "S6HI00313": 0,
         "S6HI00321": 0
       },
       "disagreement_flags": [
@@ -158,6 +157,13 @@
           "name": "CONLEY, JORDAN",
           "note": "cn26 HI 2026 H/S 12→13; same person as hawaii.json CONLEY, Jordan S. (Green). Honest-empty FEC Schedule A (no PCC).",
           "retrieved_at": "2026-09-14T18:24:03Z"
+        },
+        {
+          "kind": "removed_cn26_candidate",
+          "candidate_id": "S6HI00313",
+          "name": "CARLSON, OWEN NICHOLAS",
+          "note": "Absent from cn26 Tue 06 Oct 2026 05:34:10 GMT (present Mon 05 Oct); committee C00928689 absent from cm26; fec.gov candidate page returns 404. HI 2026 House/Senate 13→12. Had 0 $200+ receipts.",
+          "retrieved_at": "2026-10-06T18:06:41Z"
         }
       ],
       "schedule_a_path": "/data/fec-schedule-a.json",
