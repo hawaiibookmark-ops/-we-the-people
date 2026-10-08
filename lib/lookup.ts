@@ -291,6 +291,7 @@ export type CandidateCard = {
   };
   pac?: PacQuery;
   sources: { url: string; retrieved_at: string; label: string }[];
+  councilOffice?: string;
 };
 
 export type LookupResult = {
@@ -1148,6 +1149,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
               retrievedAt: hiOe.retrieved_at,
             },
             donors: donorFor(undefined, true, n.name || undefined, office),
+            councilOffice: office,
             sources: [
               {
                 url: hiOe.url,
