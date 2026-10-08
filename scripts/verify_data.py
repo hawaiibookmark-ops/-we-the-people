@@ -176,8 +176,34 @@ council_rows = [
     for n in rows or []
     if n.get("kind") == "council"
 ]
-if len(council_rows) != 73:
-    errors.append(f"council rows {len(council_rows)} != 73")
+if len(council_rows) != 85:
+    errors.append(f"council rows {len(council_rows)} != 85")
+general_only_expected = {
+    "Councilmember (East Maui)": ["CARROLL, Claire Kamalu", "SINENCI, Shane"],
+    "Councilmember (West Maui)": ["PALTIN, Tamara Akiko Maile", "TILLMAN, Mark"],
+    "Councilmember (South Maui)": ["COOK, Tom", "KING, Kelly Takaya"],
+    "Councilmember (Makawao-Haiku-Paia)": ["CHUNG, Stevie Kathryn", "U'U-HODGINS, Nohe"],
+    "Councilmember (Lanai)": ["JOHNSON, Gabe"],
+    "Councilmember (Molokai)": ["RAWLINS-FERNANDEZ, Keani"],
+    "Councilmember, Dist VI": ["DOS SANTOS-TAM, Tyler", "MORIHARA, Corey"],
+}
+general_only_got = {}
+for office, rows in (hi.get("nonpartisan_primary") or {}).items():
+    names = [n.get("name") for n in rows or [] if n.get("field") == "general_only"]
+    if names:
+        general_only_got[office] = names
+if general_only_got != general_only_expected:
+    errors.append(f"general_only council races {general_only_got} != Nov 3 file order")
+for office, rows in list((hi.get("nominees") or {}).items()) + list((hi.get("nonpartisan_primary") or {}).items()):
+    for n in rows or []:
+        if not isinstance(n, dict):
+            continue
+        if "primary_votes" in n and n.get("primary_votes") is None and n.get("field") != "general_only":
+            errors.append(f"{office} {n.get('name')} primary_votes null only allowed when field is general_only")
+            break
+        if n.get("field") == "general_only" and n.get("primary_votes") is not None:
+            errors.append(f"{office} {n.get('name')} general_only must keep primary_votes null")
+            break
 olvr_labels = {"In General", "Elected After Primary", "In Primary"}
 for n in council_rows:
     if n.get("olvr_status") not in olvr_labels:
@@ -421,20 +447,22 @@ if csc.get("candidate_count") != 249 or (csc.get("counts") or {}).get("candidate
     errors.append(f"csc candidate_count {csc.get('candidate_count')} != 249")
 if (csc.get("counts") or {}).get("empty") != 2:
     errors.append("csc counts.empty must be 2 after Hanna honest-empty")
-if (csc.get("counts") or {}).get("ok") != 135:
-    errors.append(f"csc counts.ok { (csc.get('counts') or {}).get('ok') } != 135")
-if (csc.get("counts") or {}).get("unmatched") != 112:
-    errors.append(f"csc counts.unmatched {(csc.get('counts') or {}).get('unmatched')} != 112")
+if (csc.get("counts") or {}).get("ok") != 137:
+    errors.append(f"csc counts.ok { (csc.get('counts') or {}).get('ok') } != 137")
+if (csc.get("counts") or {}).get("unmatched") != 110:
+    errors.append(f"csc counts.unmatched {(csc.get('counts') or {}).get('unmatched')} != 110")
 council_csc = [
     v
     for v in (csc.get("by_candidate") or {}).values()
     if v.get("status") == "ok" and v.get("matched_site_office") and v.get("matched_site_nominee")
 ]
-if len(council_csc) != 51:
-    errors.append(f"csc council office matches {len(council_csc)} != 51")
+if len(council_csc) != 53:
+    errors.append(f"csc council office matches {len(council_csc)} != 53")
 for reg, nominee, office in (
     ("CC12151", "ENRIQUES, Guy", "Councilmember, Dist 6"),
     ("CC12107", "AKI, Zed Kaapana", "Councilmember, Dist 6"),
+    ("CC11302", "RAWLINS-FERNANDEZ, Keani", "Councilmember (Molokai)"),
+    ("CC11368", "DOS SANTOS-TAM, Tyler", "Councilmember, Dist VI"),
 ):
     row = (csc.get("by_candidate") or {}).get(reg) or {}
     if row.get("status") != "ok" or row.get("matched_site_nominee") != nominee or row.get("matched_site_office") != office:
@@ -525,6 +553,8 @@ if len(unmatched) != (csc.get("counts") or {}).get("unmatched"):
     errors.append("unmatched official names not kept/flagged")
 if any((u.get("official_name") == "Souza, Kanani") or (u.get("reg_no") == "CC11574") for u in unmatched):
     errors.append("Souza, Kanani CC11574 must leave unmatched_official_names")
+if any((u.get("reg_no") in {"CC11302", "CC11368"}) for u in unmatched):
+    errors.append("Rawlins-Fernandez CC11302 and Dos Santos-Tam CC11368 must leave unmatched_official_names")
 if not any((u.get("official_name") == "Souza, Keoni") or (u.get("reg_no") == "CC11581") for u in unmatched):
     errors.append("Souza, Keoni CC11581 must stay flagged unmatched")
 iw = next((v for v in csc["by_candidate"].values() if v.get("matched_site_nominee") == "IWAMOTO, Kim Coco"), None)

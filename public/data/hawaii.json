@@ -2583,6 +2583,164 @@
         "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
         "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
+    ],
+    "Councilmember (East Maui)": [
+      {
+        "office": "Councilmember (East Maui)",
+        "kind": "council",
+        "district": null,
+        "name": "CARROLL, Claire Kamalu",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      },
+      {
+        "office": "Councilmember (East Maui)",
+        "kind": "council",
+        "district": null,
+        "name": "SINENCI, Shane",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      }
+    ],
+    "Councilmember (West Maui)": [
+      {
+        "office": "Councilmember (West Maui)",
+        "kind": "council",
+        "district": null,
+        "name": "PALTIN, Tamara Akiko Maile",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      },
+      {
+        "office": "Councilmember (West Maui)",
+        "kind": "council",
+        "district": null,
+        "name": "TILLMAN, Mark",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      }
+    ],
+    "Councilmember (South Maui)": [
+      {
+        "office": "Councilmember (South Maui)",
+        "kind": "council",
+        "district": null,
+        "name": "COOK, Tom",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      },
+      {
+        "office": "Councilmember (South Maui)",
+        "kind": "council",
+        "district": null,
+        "name": "KING, Kelly Takaya",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      }
+    ],
+    "Councilmember (Makawao-Haiku-Paia)": [
+      {
+        "office": "Councilmember (Makawao-Haiku-Paia)",
+        "kind": "council",
+        "district": null,
+        "name": "CHUNG, Stevie Kathryn",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      },
+      {
+        "office": "Councilmember (Makawao-Haiku-Paia)",
+        "kind": "council",
+        "district": null,
+        "name": "U'U-HODGINS, Nohe",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      }
+    ],
+    "Councilmember (Lanai)": [
+      {
+        "office": "Councilmember (Lanai)",
+        "kind": "council",
+        "district": null,
+        "name": "JOHNSON, Gabe",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      }
+    ],
+    "Councilmember (Molokai)": [
+      {
+        "office": "Councilmember (Molokai)",
+        "kind": "council",
+        "district": null,
+        "name": "RAWLINS-FERNANDEZ, Keani",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      }
+    ],
+    "Councilmember, Dist VI": [
+      {
+        "office": "Councilmember, Dist VI",
+        "kind": "council",
+        "district": "06",
+        "name": "DOS SANTOS-TAM, Tyler",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      },
+      {
+        "office": "Councilmember, Dist VI",
+        "kind": "council",
+        "district": "06",
+        "name": "MORIHARA, Corey",
+        "party": "Nonpartisan",
+        "primary_votes": null,
+        "field": "general_only",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
+      }
     ]
   },
   "geo_by_zip": {

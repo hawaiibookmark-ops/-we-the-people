@@ -105,7 +105,11 @@ function ResultsBody({
                   <div className="muted">
                     {c.party || "Party as listed on source"}
                     {c.incumbent ? " · Incumbent (FEC / Clerk)" : ""}
-                    {c.primaryVotes != null ? ` · Certified primary votes: ${c.primaryVotes.toLocaleString()}` : ""}
+                    {c.list === "general_only" && c.primaryVotes == null
+                      ? " · Not on the primary ballot"
+                      : c.primaryVotes != null
+                        ? ` · Certified primary votes: ${c.primaryVotes.toLocaleString()}`
+                        : ""}
                   </div>
                   {c.olvrStatus ? (
                     <p className="olvr">
@@ -126,7 +130,9 @@ function ResultsBody({
                     ? "OE party nominee"
                     : c.list === "certified_primary"
                       ? "Certified primary"
-                      : "FEC filing"}
+                      : c.list === "general_only"
+                        ? "General only"
+                        : "FEC filing"}
                 </span>
               </div>
               {c.showRollCalls !== false && (
