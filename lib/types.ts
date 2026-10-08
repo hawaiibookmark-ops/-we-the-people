@@ -46,6 +46,9 @@ export type HiNominee = {
   status?: string;
   source_url?: string;
   retrieved_at?: string;
+  olvr_status?: string;
+  olvr_status_source_url?: string;
+  olvr_status_retrieved_at?: string;
   donors?: {
     status: "empty" | "ok" | "linked" | "unmatched";
     item_count_all?: number;

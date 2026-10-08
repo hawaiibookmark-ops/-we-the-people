@@ -1538,7 +1538,10 @@
         "name": "KIMBALL, Heather L.",
         "party": "Nonpartisan",
         "primary_votes": 2684,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "Elected After Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 1",
@@ -1547,7 +1550,10 @@
         "name": "DEL ROSARIO, Ren",
         "party": "Nonpartisan",
         "primary_votes": 1558,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 1",
@@ -1556,7 +1562,10 @@
         "name": "PENN, BJ",
         "party": "Nonpartisan",
         "primary_votes": 234,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist 2": [
@@ -1567,7 +1576,10 @@
         "name": "KAGIWADA, Jennifer (Jenn)",
         "party": "Nonpartisan",
         "primary_votes": 2980,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "Elected After Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 2",
@@ -1576,7 +1588,10 @@
         "name": "BOTELHO, Wendy S.",
         "party": "Nonpartisan",
         "primary_votes": 1043,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 2",
@@ -1585,7 +1600,10 @@
         "name": "FUKUSHIMA, JoNelle (Jo)",
         "party": "Nonpartisan",
         "primary_votes": 924,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 2",
@@ -1594,7 +1612,10 @@
         "name": "BAUTISTA, Blaine Kenji",
         "party": "Nonpartisan",
         "primary_votes": 834,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 2",
@@ -1603,7 +1624,10 @@
         "name": "HALVERSEN, William John",
         "party": "Nonpartisan",
         "primary_votes": 110,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist 3": [
@@ -1614,7 +1638,10 @@
         "name": "ONISHI, Dennis (Fresh)",
         "party": "Nonpartisan",
         "primary_votes": 3430,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "Elected After Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 3",
@@ -1623,7 +1650,10 @@
         "name": "CHANG, Kelton K.",
         "party": "Nonpartisan",
         "primary_votes": 1974,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist 4": [
@@ -1634,7 +1664,10 @@
         "name": "OHARA, Eileen",
         "party": "Nonpartisan",
         "primary_votes": 1591,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 4",
@@ -1643,7 +1676,10 @@
         "name": "ENRIQUEZ, Lloyd K.",
         "party": "Nonpartisan",
         "primary_votes": 1151,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 4",
@@ -1652,7 +1688,10 @@
         "name": "HOFFELD, Cyd L. (Makanui)",
         "party": "Nonpartisan",
         "primary_votes": 818,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 4",
@@ -1661,7 +1700,10 @@
         "name": "BURROWS, Shannon (Smiley)",
         "party": "Nonpartisan",
         "primary_votes": 754,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist 5": [
@@ -1672,7 +1714,10 @@
         "name": "MATSON, Shannon Lopeka",
         "party": "Nonpartisan",
         "primary_votes": 983,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 5",
@@ -1681,7 +1726,10 @@
         "name": "RODENHURST, Ikaika",
         "party": "Nonpartisan",
         "primary_votes": 953,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 5",
@@ -1690,7 +1738,10 @@
         "name": "KANEALII-KLEINFELDER, Dawn",
         "party": "Nonpartisan",
         "primary_votes": 906,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 5",
@@ -1699,7 +1750,10 @@
         "name": "TUPA'I, Jr",
         "party": "Nonpartisan",
         "primary_votes": 806,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 5",
@@ -1708,7 +1762,10 @@
         "name": "MAKUAOLE-PERRIN, Chantel",
         "party": "Nonpartisan",
         "primary_votes": 428,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist 6": [
@@ -1719,7 +1776,10 @@
         "name": "ENRIQUES, Guy",
         "party": "Nonpartisan",
         "primary_votes": 1364,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 6",
@@ -1728,7 +1788,10 @@
         "name": "AKI, Zed Kaapana",
         "party": "Nonpartisan",
         "primary_votes": 1026,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 6",
@@ -1737,7 +1800,10 @@
         "name": "CANELAS, Justin R.",
         "party": "Nonpartisan",
         "primary_votes": 935,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 6",
@@ -1746,7 +1812,10 @@
         "name": "MASTERS, Jason R",
         "party": "Nonpartisan",
         "primary_votes": 768,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 6",
@@ -1755,7 +1824,10 @@
         "name": "JONES, Kyle Kepano",
         "party": "Nonpartisan",
         "primary_votes": 343,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist 7": [
@@ -1766,7 +1838,10 @@
         "name": "POWERS, Manu",
         "party": "Nonpartisan",
         "primary_votes": 2663,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "Elected After Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 7",
@@ -1775,7 +1850,10 @@
         "name": "OMBAC, Edgar B. (Eddie O)",
         "party": "Nonpartisan",
         "primary_votes": 867,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist 7",
@@ -1784,7 +1862,10 @@
         "name": "HENRIQUES, Mark G.",
         "party": "Nonpartisan",
         "primary_votes": 507,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist 8": [
@@ -1795,7 +1876,10 @@
         "name": "INABA, Holeka Goro",
         "party": "Nonpartisan",
         "primary_votes": 2657,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "Elected After Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist 9": [
@@ -1806,7 +1890,10 @@
         "name": "HUSTACE, James E.",
         "party": "Nonpartisan",
         "primary_votes": 3763,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "Elected After Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Mayor": [
@@ -1963,7 +2050,10 @@
         "name": "MONIZ, Marvin",
         "party": "Nonpartisan",
         "primary_votes": 11119,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Wailuku-Waihee-Waikapu)",
@@ -1972,7 +2062,10 @@
         "name": "LINDSEY, Ashley Awakea",
         "party": "Nonpartisan",
         "primary_votes": 6358,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Wailuku-Waihee-Waikapu)",
@@ -1981,7 +2074,10 @@
         "name": "FORREST, James (Nahele)",
         "party": "Nonpartisan",
         "primary_votes": 5337,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Wailuku-Waihee-Waikapu)",
@@ -1990,7 +2086,10 @@
         "name": "KONOHIA, Randy Ha'aheo",
         "party": "Nonpartisan",
         "primary_votes": 4355,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Wailuku-Waihee-Waikapu)",
@@ -1999,7 +2098,10 @@
         "name": "LLOYD, Alan Peter",
         "party": "Nonpartisan",
         "primary_votes": 1661,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember (Kahului)": [
@@ -2010,7 +2112,10 @@
         "name": "BATANGAN, Kauanoe",
         "party": "Nonpartisan",
         "primary_votes": 14272,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Kahului)",
@@ -2019,7 +2124,10 @@
         "name": "KAMEKONA, Carol Lee",
         "party": "Nonpartisan",
         "primary_votes": 11242,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Kahului)",
@@ -2028,7 +2136,10 @@
         "name": "ABABAN, Jason",
         "party": "Nonpartisan",
         "primary_votes": 2488,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember (Upcountry)": [
@@ -2039,7 +2150,10 @@
         "name": "PAHIA, Bobby",
         "party": "Nonpartisan",
         "primary_votes": 14434,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Upcountry)",
@@ -2048,7 +2162,10 @@
         "name": "YOKOUCHI, Jon Masaru",
         "party": "Nonpartisan",
         "primary_votes": 6014,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Upcountry)",
@@ -2057,7 +2174,10 @@
         "name": "CABILES, Derrick W.",
         "party": "Nonpartisan",
         "primary_votes": 5252,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember (Upcountry)",
@@ -2066,7 +2186,10 @@
         "name": "GUARD, John B., IV (Jb)",
         "party": "Nonpartisan",
         "primary_votes": 3055,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember": [
@@ -2077,7 +2200,10 @@
         "name": "KANESHIRO, Arryl J.",
         "party": "Nonpartisan",
         "primary_votes": 8250,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2086,7 +2212,10 @@
         "name": "HOLLAND, Fern Anuenue",
         "party": "Nonpartisan",
         "primary_votes": 8233,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2095,7 +2224,10 @@
         "name": "OZAKI, Todd R.",
         "party": "Nonpartisan",
         "primary_votes": 8060,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2104,7 +2236,10 @@
         "name": "CORREA, Michelle Kaleiohi",
         "party": "Nonpartisan",
         "primary_votes": 7474,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2113,7 +2248,10 @@
         "name": "BULOSAN, Addison",
         "party": "Nonpartisan",
         "primary_votes": 6332,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2122,7 +2260,10 @@
         "name": "SHIGEMOTO, Taylor H.",
         "party": "Nonpartisan",
         "primary_votes": 5308,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2131,7 +2272,10 @@
         "name": "APPLEGATE, Paul Noboru",
         "party": "Nonpartisan",
         "primary_votes": 5301,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2140,7 +2284,10 @@
         "name": "DECOSTA, Billy D.",
         "party": "Nonpartisan",
         "primary_votes": 5110,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2149,7 +2296,10 @@
         "name": "SMITH, Dane",
         "party": "Nonpartisan",
         "primary_votes": 4780,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2158,7 +2308,10 @@
         "name": "COOTS, Mike",
         "party": "Nonpartisan",
         "primary_votes": 4132,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2167,7 +2320,10 @@
         "name": "MARTIN, Umi",
         "party": "Nonpartisan",
         "primary_votes": 4014,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2176,7 +2332,10 @@
         "name": "RAPOZO, Cheree",
         "party": "Nonpartisan",
         "primary_votes": 3463,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2185,7 +2344,10 @@
         "name": "KAIMINAAUAO, Keola",
         "party": "Nonpartisan",
         "primary_votes": 2886,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2194,7 +2356,10 @@
         "name": "MATTOS, John H. (Scooby)",
         "party": "Nonpartisan",
         "primary_votes": 2406,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2203,7 +2368,10 @@
         "name": "POAI, Michael Roven",
         "party": "Nonpartisan",
         "primary_votes": 2080,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2212,7 +2380,10 @@
         "name": "TRUJILLO, James (Jimmy T)",
         "party": "Nonpartisan",
         "primary_votes": 1996,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2221,7 +2392,10 @@
         "name": "SECRETARIO, Rachel M.",
         "party": "Nonpartisan",
         "primary_votes": 1948,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2230,7 +2404,10 @@
         "name": "FERNANDES CABERTO, Trysten",
         "party": "Nonpartisan",
         "primary_votes": 1791,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2239,7 +2416,10 @@
         "name": "OKHMAN, Yelena",
         "party": "Nonpartisan",
         "primary_votes": 1674,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2248,7 +2428,10 @@
         "name": "MUKAI, Nelson",
         "party": "Nonpartisan",
         "primary_votes": 1616,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2257,7 +2440,10 @@
         "name": "HAUPT, Jeremy",
         "party": "Nonpartisan",
         "primary_votes": 1274,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2266,7 +2452,10 @@
         "name": "LINDSEY, Thomas, Jr. (Tom)",
         "party": "Nonpartisan",
         "primary_votes": 1000,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2275,7 +2464,10 @@
         "name": "WORKMAN, Skyler",
         "party": "Nonpartisan",
         "primary_votes": 901,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2284,7 +2476,10 @@
         "name": "MONTEMAYOR, John",
         "party": "Nonpartisan",
         "primary_votes": 810,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2293,7 +2488,10 @@
         "name": "WILSON, Herman K.",
         "party": "Nonpartisan",
         "primary_votes": 574,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember",
@@ -2302,7 +2500,10 @@
         "name": "LANGTAD, James R.",
         "party": "Nonpartisan",
         "primary_votes": 464,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist II": [
@@ -2313,7 +2514,10 @@
         "name": "WEYER, Matt",
         "party": "Nonpartisan",
         "primary_votes": 9552,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "Elected After Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist IV": [
@@ -2324,7 +2528,10 @@
         "name": "OZAWA, Trevor",
         "party": "Nonpartisan",
         "primary_votes": 12279,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist IV",
@@ -2333,7 +2540,10 @@
         "name": "WATERS, Tommy",
         "party": "Nonpartisan",
         "primary_votes": 8678,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist IV",
@@ -2342,7 +2552,10 @@
         "name": "GREGORY, Tara Malia",
         "party": "Nonpartisan",
         "primary_votes": 4225,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In General",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       },
       {
         "office": "Councilmember, Dist IV",
@@ -2351,7 +2564,10 @@
         "name": "LIANG, Jason K.",
         "party": "Nonpartisan",
         "primary_votes": 2684,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "In Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ],
     "Councilmember, Dist VIII": [
@@ -2362,7 +2578,10 @@
         "name": "OKIMOTO, Val Aquino",
         "party": "Nonpartisan",
         "primary_votes": 19328,
-        "field": "certified_primary"
+        "field": "certified_primary",
+        "olvr_status": "Elected After Primary",
+        "olvr_status_source_url": "https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94",
+        "olvr_status_retrieved_at": "2026-10-07T18:24:55.349Z"
       }
     ]
   },
@@ -3733,6 +3952,149 @@
       "cfs_public": "https://csc.hawaii.gov/CFSPublic/",
       "csc_searchable": "https://ags.hawaii.gov/campaign/cc/view-searchable-data/",
       "do_not_sell_donor_lists": true
+    }
+  },
+  "council_history": {
+    "note": "Prior official results for this seat, copied from State of Hawaii Office of Elections result PDFs. Votes only; the PDFs do not print 'elected', so none is stated. Every candidate plus blank and over votes is listed.",
+    "Councilmember, Dist 6": {
+      "county": "Hawaii",
+      "elections": [
+        {
+          "election": "2008_primary",
+          "year": 2008,
+          "type": "primary",
+          "contest_label_in_source": "Councilmember, Dist 6",
+          "source_url": "https://files.hawaii.gov/elections/files/results/2008/primary/histatewide.pdf",
+          "retrieved_at": "2026-10-08T17:01:49Z",
+          "pdf_page": 4,
+          "precincts": "9 of 9",
+          "results": [
+            {
+              "ballot_name": "ENRIQUES, Guy (Kealoha)",
+              "votes": 2354,
+              "pct_in_source": "52.2%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "JACOBSON, Bob",
+              "votes": 1894,
+              "pct_in_source": "42.0%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "FOGEL, Fred",
+              "votes": 124,
+              "pct_in_source": "2.8%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "Blank Votes",
+              "votes": 137,
+              "pct_in_source": "3.0%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "Over Votes",
+              "votes": 0,
+              "pct_in_source": "0.0%",
+              "raw_text_line": null
+            }
+          ]
+        },
+        {
+          "election": "2010_primary",
+          "year": 2010,
+          "type": "primary",
+          "contest_label_in_source": "Councilmember, Dist 6",
+          "source_url": "https://files.hawaii.gov/elections/files/results/2010/primary/histatewide.pdf",
+          "retrieved_at": "2026-10-08T17:01:49Z",
+          "pdf_page": 5,
+          "precincts": "9 of 9",
+          "results": [
+            {
+              "ballot_name": "SMART, Brittany",
+              "votes": 1679,
+              "pct_in_source": "37.4%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "ENRIQUES, Guy",
+              "votes": 1525,
+              "pct_in_source": "34.0%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "DAVID, Maile P.",
+              "votes": 657,
+              "pct_in_source": "14.6%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "BURNS, Marie J.",
+              "votes": 281,
+              "pct_in_source": "6.3%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "Blank Votes",
+              "votes": 343,
+              "pct_in_source": "7.6%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "Over Votes",
+              "votes": 1,
+              "pct_in_source": "0.0%",
+              "raw_text_line": null
+            }
+          ]
+        },
+        {
+          "election": "2010_general",
+          "year": 2010,
+          "type": "general",
+          "contest_label_in_source": "Councilmember, Dist 6",
+          "source_url": "https://files.hawaii.gov/elections/files/results/2010/general/histatewide.pdf",
+          "retrieved_at": "2026-10-08T17:01:49Z",
+          "pdf_page": 3,
+          "precincts": "9 of 9",
+          "results": [
+            {
+              "ballot_name": "SMART, Brittany",
+              "votes": 3689,
+              "pct_in_source": "59.5%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "ENRIQUES, Guy",
+              "votes": 2336,
+              "pct_in_source": "37.7%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "Blank Votes",
+              "votes": 175,
+              "pct_in_source": "2.8%",
+              "raw_text_line": null
+            },
+            {
+              "ballot_name": "Over Votes",
+              "votes": 1,
+              "pct_in_source": "0.0%",
+              "raw_text_line": null
+            }
+          ]
+        }
+      ],
+      "not_on_ballot": [
+        {
+          "election": "2008_general",
+          "note": "Hawaii County Council Dist 6 was not on the 2008 general ballot (page 2 lists only Dist 4, 5, 8).",
+          "source_url": "https://files.hawaii.gov/elections/files/results/2008/general/histatewide.pdf",
+          "pdf_page": 2,
+          "retrieved_at": "2026-10-08T17:01:49Z"
+        }
+      ]
     }
   }
 }

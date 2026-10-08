@@ -8,12 +8,31 @@ import type {
   ZipRec,
 } from "./types";
 
+type CouncilHistoryEntry = {
+  county?: string;
+  elections?: {
+    year?: number;
+    type?: string;
+    election?: string;
+    source_url?: string;
+    pdf_page?: number;
+    results?: { ballot_name?: string; votes?: number; pct_in_source?: string }[];
+  }[];
+  not_on_ballot?: {
+    election?: string;
+    note?: string;
+    source_url?: string;
+    pdf_page?: number;
+  }[];
+};
+
 type Bundle = {
   zips: Record<string, ZipRec>;
   hawaii: {
     election: { general_date: string; primary_date: string; primary_certified_source: string };
     nominees: Record<string, HiNominee[]>;
     nonpartisan_primary: Record<string, HiNominee[]>;
+    council_history?: Record<string, CouncilHistoryEntry | string | undefined>;
     islands: Record<
       string,
       { state: string; cds: string[]; split: boolean; note?: string; counties?: string[] }
@@ -134,6 +153,8 @@ type Bundle = {
         reg_no: string | null;
         status: string;
         matched_site_nominee?: string | null;
+        matched_site_office?: string | null;
+        office?: string[] | null;
         reason?: string | null;
         item_count_all: number;
         items: {
@@ -215,6 +236,29 @@ function fact<T>(value: T, url: string, retrieved_at: string, label: string) {
 
 export type Fact<T> = ReturnType<typeof fact<T>>;
 
+export type PastResultItem =
+  | {
+      kind: "results";
+      year: number;
+      type: string;
+      rows: { ballotName: string; votes: number; pctInSource: string }[];
+      sourceUrl: string;
+      pdfPage: number;
+    }
+  | {
+      kind: "note";
+      year: number;
+      type: string;
+      text: string;
+      sourceUrl?: string;
+      pdfPage?: number;
+    };
+
+export type PastResultsSection = {
+  note?: string;
+  items: PastResultItem[];
+};
+
 export type CandidateCard = {
   name: string;
   party?: string;
@@ -225,6 +269,9 @@ export type CandidateCard = {
   list: "general_nominee" | "fec_filing" | "certified_primary";
   fecId?: string;
   fecUrl?: string;
+  olvrStatus?: string;
+  olvrStatusSourceUrl?: string;
+  showRollCalls?: boolean;
   voteLinks?: { label: string; url: string }[];
   votes: {
     status: "ok" | "empty";
@@ -263,6 +310,7 @@ export type LookupResult = {
     title: string;
     candidates: CandidateCard[];
     emptyNote?: string;
+    pastResults?: PastResultsSection;
   }[];
   stateFilingsNote?: string;
   sourcesUsed: { url: string; retrieved_at: string; label: string }[];
@@ -320,6 +368,92 @@ function namesMatch(a: string, b: string) {
   let overlap = 0;
   for (const x of as) if (bs.has(x) && x.length > 2) overlap += 1;
   return overlap >= 2;
+}
+
+const COUNCIL_PLACE_KEYS = ["honolulu", "kauai", "maui", "kalawao", "hawaii"] as const;
+
+function placeKeyFromLabel(label: string): string | null {
+  const folded = label
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .replace(/[ʻ‘’']/g, "")
+    .toLowerCase();
+  for (const key of COUNCIL_PLACE_KEYS) {
+    if (new RegExp(`\\b${key}\\b`).test(folded)) return key;
+  }
+  return null;
+}
+
+function cscOfficeOk(row: { matched_site_office?: string | null }, officeKey?: string) {
+  if (row.matched_site_office) return !!officeKey && row.matched_site_office === officeKey;
+  return !officeKey;
+}
+
+function electionSortKey(year: number, type: string) {
+  const rank = type === "primary" ? 0 : type === "general" ? 1 : 2;
+  return year * 10 + rank;
+}
+
+function yearTypeFromId(id?: string): { year: number; type: string } | null {
+  const match = /^(\d{4})_([a-z]+)$/.exec(id || "");
+  if (!match) return null;
+  return { year: Number(match[1]), type: match[2] };
+}
+
+function pastResultsFor(
+  history: Bundle["hawaii"]["council_history"],
+  office: string,
+): PastResultsSection | undefined {
+  if (!history) return undefined;
+  const raw = history[office];
+  if (!raw || typeof raw !== "object") return undefined;
+  const items: PastResultItem[] = [];
+  for (const election of raw.elections || []) {
+    if (election.year == null || !election.type) continue;
+    items.push({
+      kind: "results",
+      year: election.year,
+      type: election.type,
+      rows: (election.results || []).map((row) => ({
+        ballotName: row.ballot_name || "",
+        votes: row.votes ?? 0,
+        pctInSource: row.pct_in_source || "",
+      })),
+      sourceUrl: election.source_url || "",
+      pdfPage: election.pdf_page ?? 0,
+    });
+  }
+  for (const note of raw.not_on_ballot || []) {
+    if (!note.note) continue;
+    const parsed = yearTypeFromId(note.election);
+    items.push({
+      kind: "note",
+      year: parsed?.year ?? Number.MAX_SAFE_INTEGER,
+      type: parsed?.type ?? "",
+      text: note.note,
+      sourceUrl: note.source_url,
+      pdfPage: note.pdf_page,
+    });
+  }
+  items.sort((a, b) => electionSortKey(a.year, a.type) - electionSortKey(b.year, b.type) || a.kind.localeCompare(b.kind));
+  if (!items.length) return undefined;
+  const note = typeof history.note === "string" ? history.note : undefined;
+  return { note, items };
+}
+
+function councilPlaceKey(csc: Bundle["cscDonors"] | undefined, office: string): string | null {
+  if (!csc) return null;
+  const keys = new Set<string>();
+  for (const row of Object.values(csc.by_candidate)) {
+    if (row.status !== "ok" || row.matched_site_office !== office) continue;
+    for (const label of row.office || []) {
+      if (!/council/i.test(label)) continue;
+      const key = placeKeyFromLabel(label);
+      if (key) keys.add(key);
+    }
+  }
+  if (keys.size !== 1) return null;
+  return [...keys][0];
 }
 
 export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
@@ -405,7 +539,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
     retrieved_at: retrieved,
   };
 
-  function cscDonorFor(candidateName?: string): CandidateCard["donors"] {
+  function cscDonorFor(candidateName?: string, officeKey?: string): CandidateCard["donors"] {
     const filings = bundle.hawaii.state_filings;
     const cfs = filings.csc_public;
     const csc = bundle.cscDonors;
@@ -431,7 +565,15 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
       };
     }
     const rows = Object.values(csc.by_candidate);
-    const tagged = rows.filter((r) => r.matched_site_nominee === candidateName);
+    const selectable = (r: (typeof rows)[number], loose: boolean) => {
+      if (r.status !== "ok" && r.status !== "empty") return false;
+      if (!cscOfficeOk(r, officeKey)) return false;
+      if (!r.matched_site_nominee) return false;
+      return loose
+        ? lastNameAndToken(r.matched_site_nominee, candidateName)
+        : r.matched_site_nominee === candidateName;
+    };
+    const tagged = rows.filter((r) => selectable(r, false));
     let hit = tagged.length === 1 ? tagged[0] : null;
     if (tagged.length > 1) {
       return {
@@ -443,9 +585,7 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
       };
     }
     if (!hit) {
-      const loose = rows.filter(
-        (r) => r.matched_site_nominee && lastNameAndToken(r.matched_site_nominee, candidateName),
-      );
+      const loose = rows.filter((r) => selectable(r, true));
       if (loose.length === 1) hit = loose[0];
       else if (loose.length > 1) {
         return {
@@ -493,8 +633,13 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
     };
   }
 
-  function donorFor(fecId?: string, isHiState?: boolean, candidateName?: string): CandidateCard["donors"] {
-    if (isHiState) return cscDonorFor(candidateName);
+  function donorFor(
+    fecId?: string,
+    isHiState?: boolean,
+    candidateName?: string,
+    officeKey?: string,
+  ): CandidateCard["donors"] {
+    if (isHiState) return cscDonorFor(candidateName, officeKey);
     const bulkUrl =
       bundle.donors.source_url ||
       bundle.donors.source ||
@@ -655,17 +800,23 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
     return [{ label: "Congress.gov members directory", url: "https://www.congress.gov/members" }];
   }
 
-  function cscRegNoFor(candidateName?: string): string | null {
+  function cscRegNoFor(candidateName?: string, officeKey?: string): string | null {
     const csc = bundle.cscDonors;
     if (!csc || !candidateName) return null;
     const rows = Object.values(csc.by_candidate);
-    const tagged = rows.filter((r) => r.matched_site_nominee === candidateName);
+    const selectable = (r: (typeof rows)[number], loose: boolean) => {
+      if (r.status !== "ok" && r.status !== "empty") return false;
+      if (!cscOfficeOk(r, officeKey)) return false;
+      if (!r.matched_site_nominee) return false;
+      return loose
+        ? lastNameAndToken(r.matched_site_nominee, candidateName)
+        : r.matched_site_nominee === candidateName;
+    };
+    const tagged = rows.filter((r) => selectable(r, false));
     if (tagged.length > 1) return null;
     let hit = tagged.length === 1 ? tagged[0] : null;
     if (!hit) {
-      const loose = rows.filter(
-        (r) => r.matched_site_nominee && lastNameAndToken(r.matched_site_nominee, candidateName),
-      );
+      const loose = rows.filter((r) => selectable(r, true));
       if (loose.length !== 1) return null;
       hit = loose[0];
     }
@@ -693,14 +844,14 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
     };
   }
 
-  function hiStatePac(name: string): PacQuery {
+  function hiStatePac(name: string, officeKey?: string): PacQuery {
     return {
       scope: "hi-state",
       state: "HI",
-      office: "",
+      office: officeKey || "",
       district: "",
       name,
-      cscRegNo: cscRegNoFor(name),
+      cscRegNo: cscRegNoFor(name, officeKey),
     };
   }
 
@@ -967,6 +1118,46 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
         title: "State House district: ZCTA point vs Capitol address",
         detail: `ZCTA internal point: ${zipRec.sldl?.name || zipRec.sldl?.district}. Capitol address (415 S Beretania St): ${zipRec.point_check.sldl.name || zipRec.point_check.sldl.district}.`,
       });
+    }
+    const lookupPlace = placeKeyFromLabel(zipRec.co || "");
+    if (lookupPlace) {
+      for (const [office, rows] of Object.entries(bundle.hawaii.nonpartisan_primary || {})) {
+        const council = rows.filter((n) => n.kind === "council");
+        if (!council.length) continue;
+        if (councilPlaceKey(bundle.cscDonors, office) !== lookupPlace) continue;
+        races.push({
+          title: office,
+          pastResults: pastResultsFor(bundle.hawaii.council_history, office),
+          candidates: council.map((n) => ({
+            name: n.name || "Name not listed",
+            party: n.party,
+            role: office,
+            district: n.district || undefined,
+            primaryVotes: n.primary_votes ?? undefined,
+            list: "certified_primary" as const,
+            olvrStatus: n.olvr_status,
+            olvrStatusSourceUrl: n.olvr_status_source_url,
+            showRollCalls: false,
+            voteLinks: [],
+            pac: hiStatePac(n.name || "", office),
+            votes: {
+              status: "empty" as const,
+              reason: "",
+              items: [],
+              sourceUrl: hiOe.url,
+              retrievedAt: hiOe.retrieved_at,
+            },
+            donors: donorFor(undefined, true, n.name || undefined, office),
+            sources: [
+              {
+                url: hiOe.url,
+                retrieved_at: hiOe.retrieved_at,
+                label: "Hawaii Office of Elections 2026 Primary certified summary",
+              },
+            ],
+          })),
+        });
+      }
     }
   } else {
     races.push({

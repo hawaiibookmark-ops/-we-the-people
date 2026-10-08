@@ -170,6 +170,55 @@ if oha_souza != [
     }
 ]:
     errors.append("OHA At-Large Trustee SOUZA, Keoni must stay untouched")
+council_rows = [
+    n
+    for rows in (hi.get("nonpartisan_primary") or {}).values()
+    for n in rows or []
+    if n.get("kind") == "council"
+]
+if len(council_rows) != 73:
+    errors.append(f"council rows {len(council_rows)} != 73")
+olvr_labels = {"In General", "Elected After Primary", "In Primary"}
+for n in council_rows:
+    if n.get("olvr_status") not in olvr_labels:
+        errors.append(f"{n.get('office')} {n.get('name')} olvr_status must be a verbatim OLVR label")
+        break
+    if not (n.get("olvr_status_source_url") or "").startswith("https://olvr.hawaii.gov/"):
+        errors.append(f"{n.get('name')} missing olvr_status_source_url")
+        break
+    if not n.get("olvr_status_retrieved_at"):
+        errors.append(f"{n.get('name')} missing olvr_status_retrieved_at")
+        break
+for rows in (hi.get("nonpartisan_primary") or {}).values():
+    for n in rows or []:
+        if n.get("kind") in {"mayor", "oha_trustee"} and any(
+            k.startswith("olvr_status") for k in n
+        ):
+            errors.append(f"{n.get('kind')} {n.get('name')} must stay without olvr_status")
+            break
+hist = hi.get("council_history") or {}
+dist6 = hist.get("Councilmember, Dist 6") or {}
+if dist6.get("county") != "Hawaii":
+    errors.append("council_history Dist 6 county must stay Hawaii")
+dist6_elections = dist6.get("elections") or []
+if [(e.get("year"), e.get("type")) for e in dist6_elections] != [
+    (2008, "primary"),
+    (2010, "primary"),
+    (2010, "general"),
+]:
+    errors.append("council_history Dist 6 elections must stay 2008 primary, 2010 primary, 2010 general")
+for election in dist6_elections:
+    if not election.get("source_url"):
+        errors.append(f"council_history {election.get('election')} missing source_url")
+    for result in election.get("results") or []:
+        if not election.get("source_url"):
+            errors.append(f"council_history result {result.get('ballot_name')} missing source_url")
+            break
+if not any((n.get("note") or "").startswith("Hawaii County Council Dist 6 was not on the 2008 general") for n in (dist6.get("not_on_ballot") or [])):
+    errors.append("council_history Dist 6 missing 2008 general not_on_ballot note")
+for note in dist6.get("not_on_ballot") or []:
+    if not note.get("source_url"):
+        errors.append("council_history not_on_ballot missing source_url")
 hd18 = hi["nominees"].get("State Representative, Dist 18") or []
 if [(n.get("name"), n.get("party_code"), n.get("field"), n.get("status")) for n in hd18] != [
     ("GEDEON, Joe", "R", "general_nominee", None),
@@ -372,10 +421,24 @@ if csc.get("candidate_count") != 249 or (csc.get("counts") or {}).get("candidate
     errors.append(f"csc candidate_count {csc.get('candidate_count')} != 249")
 if (csc.get("counts") or {}).get("empty") != 2:
     errors.append("csc counts.empty must be 2 after Hanna honest-empty")
-if (csc.get("counts") or {}).get("ok") != 84:
-    errors.append(f"csc counts.ok { (csc.get('counts') or {}).get('ok') } != 84")
-if (csc.get("counts") or {}).get("unmatched") != 163:
-    errors.append(f"csc counts.unmatched {(csc.get('counts') or {}).get('unmatched')} != 163")
+if (csc.get("counts") or {}).get("ok") != 135:
+    errors.append(f"csc counts.ok { (csc.get('counts') or {}).get('ok') } != 135")
+if (csc.get("counts") or {}).get("unmatched") != 112:
+    errors.append(f"csc counts.unmatched {(csc.get('counts') or {}).get('unmatched')} != 112")
+council_csc = [
+    v
+    for v in (csc.get("by_candidate") or {}).values()
+    if v.get("status") == "ok" and v.get("matched_site_office") and v.get("matched_site_nominee")
+]
+if len(council_csc) != 51:
+    errors.append(f"csc council office matches {len(council_csc)} != 51")
+for reg, nominee, office in (
+    ("CC12151", "ENRIQUES, Guy", "Councilmember, Dist 6"),
+    ("CC12107", "AKI, Zed Kaapana", "Councilmember, Dist 6"),
+):
+    row = (csc.get("by_candidate") or {}).get(reg) or {}
+    if row.get("status") != "ok" or row.get("matched_site_nominee") != nominee or row.get("matched_site_office") != office:
+        errors.append(f"{reg} must match {nominee} / {office} with status ok")
 kanani_csc = (csc.get("by_candidate") or {}).get("CC11574") or {}
 if kanani_csc.get("official_name") != "Souza, Kanani":
     errors.append("CC11574 official_name must stay Souza, Kanani from official CSC")
