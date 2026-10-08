@@ -106,6 +106,19 @@ function ResultsBody({
                     {c.incumbent ? " · Incumbent (FEC / Clerk)" : ""}
                     {c.primaryVotes != null ? ` · Certified primary votes: ${c.primaryVotes.toLocaleString()}` : ""}
                   </div>
+                  {c.olvrStatus ? (
+                    <p className="olvr">
+                      {c.olvrStatus}
+                      {c.olvrStatusSourceUrl ? (
+                        <>
+                          {" "}
+                          <a href={c.olvrStatusSourceUrl} rel="noreferrer">
+                            Source: OLVR
+                          </a>
+                        </>
+                      ) : null}
+                    </p>
+                  ) : null}
                 </div>
                 <span className="tag">
                   {c.list === "general_nominee"
@@ -115,6 +128,7 @@ function ResultsBody({
                       : "FEC filing"}
                 </span>
               </div>
+              {c.showRollCalls !== false && (
               <div className="votes">
                 <p className="src">
                   Votes
@@ -168,6 +182,7 @@ function ResultsBody({
                   {" · Official text only. Votes are not invented. No scores."}
                 </p>
               </div>
+              )}
               <div className="donors">
                 <p className="src">
                   Donors
@@ -225,6 +240,58 @@ function ResultsBody({
               </p>
             </article>
           ))}
+          {race.pastResults && race.pastResults.items.length > 0 && (
+            <div className="past-results">
+              <h3>Past official results for this seat</h3>
+              {race.pastResults.note ? <p className="src">{race.pastResults.note}</p> : null}
+              {race.pastResults.items.map((item, ii) =>
+                item.kind === "note" ? (
+                  <p className="src" key={`note-${item.year}-${item.type}-${ii}`}>
+                    {item.text}
+                    {item.sourceUrl ? (
+                      <>
+                        {" "}
+                        <a href={item.sourceUrl} rel="noreferrer">
+                          Source (PDF p.{item.pdfPage})
+                        </a>
+                      </>
+                    ) : null}
+                  </p>
+                ) : (
+                  <div key={`${item.year}-${item.type}-${ii}`}>
+                    <table>
+                      <caption>
+                        {item.year} {item.type}
+                      </caption>
+                      <thead>
+                        <tr>
+                          <th>Ballot name</th>
+                          <th>Votes</th>
+                          <th>pct_in_source</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {item.rows.map((row, ri) => (
+                          <tr key={`${row.ballotName}-${ri}`}>
+                            <td>{row.ballotName}</td>
+                            <td>{row.votes.toLocaleString()}</td>
+                            <td>{row.pctInSource}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                    {item.sourceUrl ? (
+                      <p className="src">
+                        <a href={item.sourceUrl} rel="noreferrer">
+                          Source (PDF p.{item.pdfPage})
+                        </a>
+                      </p>
+                    ) : null}
+                  </div>
+                ),
+              )}
+            </div>
+          )}
         </section>
       ))}
     </div>
