@@ -70,6 +70,7 @@ type CandidateEntry = {
   readings?: string;
   committees?: string;
   honest_empty?: string;
+  display_text?: string;
 };
 
 type CouncilIndex = {
@@ -380,7 +381,8 @@ export function CouncilRecord({ office, name }: { office: string; name: string }
       ) : null}
       {phase === "ready" && payload?.kind === "empty" ? (
         <p className="src">
-          {payload.file.status || ""} <SourceLink href={payload.file.source_url}>Source</SourceLink>
+          {(entry.display_text ?? payload.file.status) || ""}{" "}
+          <SourceLink href={payload.file.source_url}>Source</SourceLink>
         </p>
       ) : null}
       {phase === "ready" && payload?.kind === "record" ? <RecordBody payload={payload} /> : null}
