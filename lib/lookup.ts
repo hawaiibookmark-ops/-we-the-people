@@ -266,7 +266,7 @@ export type CandidateCard = {
   district?: string;
   incumbent?: boolean;
   primaryVotes?: number;
-  list: "general_nominee" | "fec_filing" | "certified_primary";
+  list: "general_nominee" | "fec_filing" | "certified_primary" | "general_only";
   fecId?: string;
   fecUrl?: string;
   olvrStatus?: string;
@@ -442,19 +442,38 @@ function pastResultsFor(
   return { note, items };
 }
 
+function councilPlaceFromOfficeName(office: string): string | null {
+  const labeled = placeKeyFromLabel(office);
+  if (labeled) return labeled;
+  // Same county split as the CSC-matched seats: parenthetical residency areas are
+  // Maui, roman districts are Honolulu, arabic districts are Hawaiʻi, and the bare
+  // "Councilmember" seat is Kauaʻi.
+  if (/\([^)]+\)/.test(office)) return "maui";
+  const dist = office.match(/\bdist(?:rict)?\s+([0-9ivx]+)\b/i);
+  if (dist) {
+    const token = dist[1];
+    if (/^\d+$/.test(token)) return "hawaii";
+    if (/^[ivx]+$/i.test(token)) return "honolulu";
+  }
+  if (/^councilmember$/i.test(office.trim())) return "kauai";
+  return null;
+}
+
 function councilPlaceKey(csc: Bundle["cscDonors"] | undefined, office: string): string | null {
-  if (!csc) return null;
   const keys = new Set<string>();
-  for (const row of Object.values(csc.by_candidate)) {
-    if (row.status !== "ok" || row.matched_site_office !== office) continue;
-    for (const label of row.office || []) {
-      if (!/council/i.test(label)) continue;
-      const key = placeKeyFromLabel(label);
-      if (key) keys.add(key);
+  if (csc) {
+    for (const row of Object.values(csc.by_candidate)) {
+      if (row.status !== "ok" || row.matched_site_office !== office) continue;
+      for (const label of row.office || []) {
+        if (!/council/i.test(label)) continue;
+        const key = placeKeyFromLabel(label);
+        if (key) keys.add(key);
+      }
     }
   }
-  if (keys.size !== 1) return null;
-  return [...keys][0];
+  if (keys.size > 1) return null;
+  if (keys.size === 1) return [...keys][0];
+  return councilPlaceFromOfficeName(office);
 }
 
 export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
@@ -1134,8 +1153,8 @@ export function runLookup(bundle: Bundle, query: LookupQuery): LookupResult {
             party: n.party,
             role: office,
             district: n.district || undefined,
-            primaryVotes: n.primary_votes ?? undefined,
-            list: "certified_primary" as const,
+            primaryVotes: typeof n.primary_votes === "number" ? n.primary_votes : undefined,
+            list: n.field === "general_only" ? ("general_only" as const) : ("certified_primary" as const),
             olvrStatus: n.olvr_status,
             olvrStatusSourceUrl: n.olvr_status_source_url,
             showRollCalls: false,
