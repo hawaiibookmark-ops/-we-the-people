@@ -11,7 +11,8 @@
         },
         "AKI, Zed Kaapana": {
           "window": "2008-12-01 to 2010-12-06",
-          "honest_empty": "aki-honest-empty.json"
+          "honest_empty": "aki-honest-empty.json",
+          "display_text": "No County Council record in 2008–2010 (County Clerk resolutions and bills for that term). Other terms were not checked."
         }
       }
     }
