@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { LookupResult } from "@/lib/lookup";
 import type { PacQuery } from "@/lib/pacMatch";
+import { CouncilRecord } from "@/components/CouncilRecord";
 import { PacPanels } from "@/components/PacMoneyPanel";
 
 function money(n: number) {
@@ -226,6 +227,7 @@ function ResultsBody({
                 </p>
               </div>
               {panelAt(slot++)}
+              {c.councilOffice ? <CouncilRecord office={c.councilOffice} name={c.name} /> : null}
               <p className="src">
                 {c.sources.map((s, si) => (
                   <span key={s.url + si}>

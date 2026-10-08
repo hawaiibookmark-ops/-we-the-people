@@ -2176,6 +2176,63 @@ for name in ("NOTES.md", "SCHEMA.md", "DISCOVERY.md"):
     if not (ROOT / "vi" / name).is_file():
         errors.append(f"missing public/data/vi/{name}")
 
+council_record_checked = 0
+council_index_path = ROOT / "council-record" / "index.json"
+if not council_index_path.is_file():
+    errors.append("missing public/data/council-record/index.json")
+else:
+    council_index = json.loads(council_index_path.read_text())
+    council_dir = council_index_path.parent
+    referenced = []
+    for race, race_body in (council_index.get("races") or {}).items():
+        candidates = (race_body or {}).get("candidates") or {}
+        for cand_name, entry in candidates.items():
+            if not isinstance(entry, dict):
+                errors.append(f"council-record {race} {cand_name} entry must be an object")
+                continue
+            for key in ("readings", "committees", "honest_empty"):
+                rel = entry.get(key)
+                if not rel:
+                    continue
+                parts = Path(rel).parts
+                if not isinstance(rel, str) or rel.startswith("/") or ".." in parts:
+                    errors.append(f"council-record {race} {cand_name} bad path {rel!r}")
+                    continue
+                path = council_dir / rel
+                if not path.is_file():
+                    errors.append(f"council-record {race} {cand_name} missing {rel}")
+                    continue
+                referenced.append((key, path))
+    seen = set()
+    for key, path in referenced:
+        if path in seen:
+            continue
+        seen.add(path)
+        try:
+            payload = json.loads(path.read_text())
+        except json.JSONDecodeError:
+            errors.append(f"{path.name} is not valid JSON")
+            continue
+        if key == "readings":
+            readings = payload.get("readings")
+            if not isinstance(readings, list):
+                errors.append(f"{path.name} readings must be a list")
+            else:
+                for i, reading in enumerate(readings):
+                    if not isinstance(reading, dict) or not reading.get("source_url") or not reading.get("retrieved_at"):
+                        measure = reading.get("measure") if isinstance(reading, dict) else "?"
+                        errors.append(f"{path.name} reading {i} ({measure}) missing source_url or retrieved_at")
+        elif key == "committees":
+            seats = payload.get("seats")
+            if not isinstance(seats, list):
+                errors.append(f"{path.name} seats must be a list")
+            else:
+                for i, seat in enumerate(seats):
+                    if not isinstance(seat, dict) or not seat.get("source_url"):
+                        committee = seat.get("committee") if isinstance(seat, dict) else "?"
+                        errors.append(f"{path.name} seat {i} ({committee}) missing source_url")
+    council_record_checked = len(seen)
+
 cname_path = ROOT.parent / "CNAME"
 if cname_path.is_file():
     errors.append("public/CNAME must stay unpublished; github.io 301s to the custom domain and apex / must already serve the hub")
@@ -2186,6 +2243,7 @@ if errors:
         print(" -", e)
     raise SystemExit(1)
 print("OK gold ZIPs 96813, 90210, 82001")
+print("OK council-record files", council_record_checked)
 print(
     "OK donors Case",
     case.get("item_count_all"),

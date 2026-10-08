@@ -1,0 +1,21 @@
+{
+  "note": "Official Hawaii County Clerk council records (Council Records System, ClerkCouncil repository) for 2026 county council candidates. Verbatim index fields and signed-scan text; no tallies, scores, or for/against labels. Council minutes before 2014 are not online in the Clerk repository.",
+  "races": {
+    "Councilmember, Dist 6": {
+      "county": "Hawaii",
+      "candidates": {
+        "ENRIQUES, Guy": {
+          "window": "2008-12-01 to 2010-12-06",
+          "readings": "enriques-readings.json",
+          "committees": "enriques-committees.json"
+        },
+        "AKI, Zed Kaapana": {
+          "window": "2008-12-01 to 2010-12-06",
+          "honest_empty": "aki-honest-empty.json"
+        }
+      }
+    }
+  },
+  "source_url": "https://records.hawaiicounty.gov/WebLink/Browse.aspx?startid=24914&dbid=0&repo=ClerkCouncil",
+  "retrieved_at": "2026-10-08T07:16:52-10:00"
+}
