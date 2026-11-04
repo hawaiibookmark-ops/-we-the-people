@@ -34,8 +34,8 @@ export default function HomePage() {
         <article className="note">
           <h2>Always free to look up</h2>
           <p className="muted">
-            Founding Pro is $5/month for alerts, a saved district, CSV export, and monitored-race
-            chat. Those extras are on a founding waitlist until they ship. No candidate ads.
+            Early Supporter is an optional $5/month PayPal subscription that helps keep the site
+            running. It adds no extra features. No ads.
           </p>
         </article>
       </section>

@@ -24,7 +24,7 @@ export function Header() {
         </a>
         <nav>
           <a href={home}>Lookup</a>
-          <a href={pro}>Founding Pro</a>
+          <a href={pro}>Early Supporter</a>
           <a href={about}>Sources</a>
         </nav>
       </div>
@@ -35,6 +35,8 @@ export function Header() {
 export function Footer() {
   const about = usePrefixed("/about/");
   const pro = usePrefixed("/pro/");
+  const privacy = usePrefixed("/privacy/");
+  const terms = usePrefixed("/terms/");
   return (
     <footer>
       <div className="wrap">
@@ -45,7 +47,11 @@ export function Footer() {
         <p>
           <a href={about}>Methodology and sources</a>
           {" · "}
-          <a href={pro}>Founding Pro $5/month</a>
+          <a href={privacy}>Privacy</a>
+          {" · "}
+          <a href={terms}>Terms</a>
+          {" · "}
+          <a href={pro}>Early Supporter $5/month</a>
         </p>
       </div>
     </footer>
