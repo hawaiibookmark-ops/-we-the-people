@@ -1,0 +1,68 @@
+{
+ "CA": {
+  "reason": "Not published here: the California Secretary of State results API (api.sos.ca.gov/returns) returned figures but its county status endpoint still showed September 16, 2024 timestamps, so the feed could not be confirmed as the live 2026 count. See the official results site."
+ },
+ "TX": {
+  "reason": "The Texas Secretary of State results site (results.texas-election.com) did not yet list a 2026 general election at retrieval time; its election list ended at 2024."
+ },
+ "AL": {
+  "reason": "The Alabama Secretary of State 2026 election page listed primary and runoff results and certifications only; no November 3 general-election results were posted there at retrieval."
+ },
+ "AK": {
+  "reason": "The Alaska Division of Elections results site (elections.alaska.gov) failed TLS certificate validation at retrieval, so it was not read."
+ },
+ "IL": {
+  "reason": "The Illinois State Board of Elections vote-totals page listed only the 2026 General Primary at retrieval; November 3 general-election totals were not yet posted."
+ },
+ "KS": {
+  "reason": "The Kansas Secretary of State results page listed 2026 primary files only at retrieval; no November 3 general-election results were posted."
+ },
+ "KY": {
+  "reason": "The Kentucky State Board of Elections 2026 results page listed primary recap sheets only at retrieval; no November 3 general-election results were posted."
+ },
+ "ME": {
+  "reason": "The Maine Secretary of State results pages returned HTTP 403 to automated requests at retrieval, so they were not read."
+ },
+ "MA": {
+  "reason": "The Massachusetts Elections Division database (electionstats.state.ma.us) listed only 2026 special elections at retrieval; the November 3 state general election was not yet loaded."
+ },
+ "MI": {
+  "reason": "The Michigan Department of State results site (mielections.us) did not accept a connection at retrieval."
+ },
+ "MS": {
+  "reason": "The Mississippi Secretary of State results page listed March 2026 primary results only at retrieval; no November 3 results were posted."
+ },
+ "MO": {
+  "reason": "The Missouri Secretary of State election-night site (enr.sos.mo.gov) is protected by a Cloudflare challenge that blocked automated page loads after the first page. We did not try to get around it."
+ },
+ "NH": {
+  "reason": "The New Hampshire Secretary of State 2026 General Election Results page lists each contest but says results will be linked when complete; no results files were linked at retrieval."
+ },
+ "NJ": {
+  "reason": "The New Jersey Division of Elections 2026 page listed candidate lists and primary results only at retrieval; no November 3 general-election results were posted."
+ },
+ "ND": {
+  "reason": "The North Dakota Secretary of State results site (results.sos.nd.gov) still displayed the 2024 General Election at retrieval; the 2026 general had not been loaded."
+ },
+ "OH": {
+  "reason": "The Ohio Secretary of State live results site (liveresults.ohiosos.gov) served an interactive Cloudflare challenge that automated reads cannot complete. We did not try to get around it."
+ },
+ "OK": {
+  "reason": "The Oklahoma State Election Board results site (results.okelections.us) returned HTTP 403 to automated requests at retrieval."
+ },
+ "SC": {
+  "reason": "The South Carolina Election Commission results site (enr-scvotes.org) listed no elections at retrieval."
+ },
+ "TN": {
+  "reason": "The Tennessee Secretary of State results site (elections.tn.gov) required a human-verification check that automated reads cannot complete. We did not try to get around it."
+ },
+ "WV": {
+  "reason": "The West Virginia Secretary of State results application listed no November 3, 2026 general-election results at retrieval."
+ },
+ "WI": {
+  "reason": "The Wisconsin Elections Commission results page listed 2026 primary and spring results only at retrieval; general-election results are posted after the county canvass."
+ },
+ "WY": {
+  "reason": "The Wyoming Secretary of State posted unofficial general-election results as PDF summaries whose text layer is unreadable (garbled font encoding). We did not OCR them, to avoid transcription errors; use the official PDFs linked here."
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "state": "MA",
+ "name": "Massachusetts",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionstats.state.ma.us/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://electionstats.state.ma.us/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Massachusetts Elections Division database (electionstats.state.ma.us) listed only 2026 special elections at retrieval; the November 3 state general election was not yet loaded.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

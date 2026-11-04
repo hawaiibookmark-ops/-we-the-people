@@ -1,0 +1,18 @@
+{
+ "state": "IL",
+ "name": "Illinois",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://elections.il.gov/electionoperations/ElectionVoteTotals.aspx"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://elections.il.gov/electionoperations/ElectionVoteTotals.aspx",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Illinois State Board of Elections vote-totals page listed only the 2026 General Primary at retrieval; November 3 general-election totals were not yet posted.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

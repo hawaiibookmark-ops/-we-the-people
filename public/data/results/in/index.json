@@ -1,0 +1,487 @@
+{
+ "state": "IN",
+ "name": "Indiana",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://enr.indianavoters.in.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://enr.indianavoters.in.gov/",
+ "retrieved_at": "2026-11-04T18:58:03Z",
+ "results_as_of": "2026-11-04T13:02:28.697 (Indiana local time)",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "United States Representative, First District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 201290,
+   "candidates": [
+    {
+     "name": "Frank J. Mrvan",
+     "party": "D",
+     "votes": 127477,
+     "write_in": false,
+     "pct": 63.33,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Barb Regnitz",
+     "party": "R",
+     "votes": 73813,
+     "write_in": false,
+     "pct": 36.67,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Alexander R (Alex) Degman",
+     "party": "I",
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Prescription Dope Deaths Johnson, Jr",
+     "party": "O",
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Frank J. Mrvan",
+   "margin_votes": 53664,
+   "margin_pct": 26.66,
+   "jurisdiction": null,
+   "id": "in-001"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "United States Representative, Second District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 183028,
+   "candidates": [
+    {
+     "name": "Rudy Yakym",
+     "party": "R",
+     "votes": 93633,
+     "write_in": false,
+     "pct": 51.16,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jamee Decio",
+     "party": "D",
+     "votes": 84852,
+     "write_in": false,
+     "pct": 46.36,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "William Eric Henry",
+     "party": "L",
+     "votes": 4543,
+     "write_in": false,
+     "pct": 2.48,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Rudy Yakym",
+   "margin_votes": 8781,
+   "margin_pct": 4.8,
+   "jurisdiction": null,
+   "id": "in-002"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "United States Representative, Third District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 152962,
+   "candidates": [
+    {
+     "name": "Kelly Thompson",
+     "party": "D",
+     "votes": 90248,
+     "write_in": false,
+     "pct": 59.0,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Marlin A. Stutzman",
+     "party": "R",
+     "votes": 62702,
+     "write_in": false,
+     "pct": 40.99,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Phillip D. Beachy (Phil)",
+     "party": "I",
+     "votes": 12,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Kelly Thompson",
+   "margin_votes": 27546,
+   "margin_pct": 18.01,
+   "jurisdiction": null,
+   "id": "in-003"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "United States Representative, Fourth District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 207553,
+   "candidates": [
+    {
+     "name": "Jim Baird",
+     "party": "R",
+     "votes": 112408,
+     "write_in": false,
+     "pct": 54.16,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Drew Cox",
+     "party": "D",
+     "votes": 95115,
+     "write_in": false,
+     "pct": 45.83,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "David E. Bokash",
+     "party": "I",
+     "votes": 30,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Jim Baird",
+   "margin_votes": 17293,
+   "margin_pct": 8.33,
+   "jurisdiction": null,
+   "id": "in-004"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "United States Representative, Fifth District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 260318,
+   "candidates": [
+    {
+     "name": "J.D. Ford",
+     "party": "D",
+     "votes": 134448,
+     "write_in": false,
+     "pct": 51.65,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Victoria Spartz",
+     "party": "R",
+     "votes": 125870,
+     "write_in": false,
+     "pct": 48.35,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "J.D. Ford",
+   "margin_votes": 8578,
+   "margin_pct": 3.3,
+   "jurisdiction": null,
+   "id": "in-005"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "United States Representative, Sixth District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 161671,
+   "candidates": [
+    {
+     "name": "Jefferson Shreve",
+     "party": "R",
+     "votes": 93185,
+     "write_in": false,
+     "pct": 57.64,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Cynthia (Cinde) Wirth",
+     "party": "D",
+     "votes": 68486,
+     "write_in": false,
+     "pct": 42.36,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Jefferson Shreve",
+   "margin_votes": 24699,
+   "margin_pct": 15.28,
+   "jurisdiction": null,
+   "id": "in-006"
+  },
+  {
+   "office": "US House",
+   "district": "7",
+   "title": "United States Representative, Seventh District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 45509,
+   "candidates": [
+    {
+     "name": "André Carson",
+     "party": "D",
+     "votes": 31792,
+     "write_in": false,
+     "pct": 69.86,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Patrick McAuley",
+     "party": "R",
+     "votes": 12259,
+     "write_in": false,
+     "pct": 26.94,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "James M Sceniak",
+     "party": "L",
+     "votes": 1458,
+     "write_in": false,
+     "pct": 3.2,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "André Carson",
+   "margin_votes": 19533,
+   "margin_pct": 42.92,
+   "jurisdiction": null,
+   "id": "in-007"
+  },
+  {
+   "office": "US House",
+   "district": "8",
+   "title": "United States Representative, Eighth District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 184800,
+   "candidates": [
+    {
+     "name": "Mark Messmer",
+     "party": "R",
+     "votes": 104751,
+     "write_in": false,
+     "pct": 56.68,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mary Allen",
+     "party": "D",
+     "votes": 80049,
+     "write_in": false,
+     "pct": 43.32,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Mark Messmer",
+   "margin_votes": 24702,
+   "margin_pct": 13.36,
+   "jurisdiction": null,
+   "id": "in-008"
+  },
+  {
+   "office": "US House",
+   "district": "9",
+   "title": "United States Representative, Ninth District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 222860,
+   "candidates": [
+    {
+     "name": "Erin Houchin",
+     "party": "R",
+     "votes": 120695,
+     "write_in": false,
+     "pct": 54.16,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Brad A. Meyer",
+     "party": "D",
+     "votes": 96643,
+     "write_in": false,
+     "pct": 43.36,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Tonya L. Hudson",
+     "party": "L",
+     "votes": 5480,
+     "write_in": false,
+     "pct": 2.46,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Floyd Michael Taylor",
+     "party": "I",
+     "votes": 42,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 4743,
+    "total": 5067
+   },
+   "results_as_of": "2026-11-04T13:02:28.697 (ET)",
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Erin Houchin",
+   "margin_votes": 24052,
+   "margin_pct": 10.8,
+   "jurisdiction": null,
+   "id": "in-009"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 9,
+  "by_office": {
+   "US House": 9
+  }
+ }
+}

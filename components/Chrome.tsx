@@ -15,6 +15,7 @@ export function Header() {
   const home = usePrefixed("/");
   const pro = usePrefixed("/pro/");
   const about = usePrefixed("/about/");
+  const results = usePrefixed("/results/");
   return (
     <header className="mast">
       <div className="wrap mast-inner">
@@ -24,6 +25,7 @@ export function Header() {
         </a>
         <nav>
           <a href={home}>Lookup</a>
+          <a href={results}>Election Results</a>
           <a href={pro}>Early Supporter</a>
           <a href={about}>Sources</a>
         </nav>
@@ -35,6 +37,7 @@ export function Header() {
 export function Footer() {
   const about = usePrefixed("/about/");
   const pro = usePrefixed("/pro/");
+  const results = usePrefixed("/results/");
   const privacy = usePrefixed("/privacy/");
   const terms = usePrefixed("/terms/");
   return (
@@ -45,6 +48,8 @@ export function Footer() {
           No scores, no candidate ads, no selling of donor lists or user data.
         </p>
         <p>
+          <a href={results}>Election Results</a>
+          {" · "}
           <a href={about}>Methodology and sources</a>
           {" · "}
           <a href={privacy}>Privacy</a>

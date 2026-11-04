@@ -1,0 +1,18 @@
+{
+ "state": "ND",
+ "name": "North Dakota",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://results.sos.nd.gov/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://results.sos.nd.gov/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The North Dakota Secretary of State results site (results.sos.nd.gov) still displayed the 2024 General Election at retrieval; the 2026 general had not been loaded.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

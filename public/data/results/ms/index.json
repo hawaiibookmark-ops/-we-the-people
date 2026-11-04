@@ -1,0 +1,18 @@
+{
+ "state": "MS",
+ "name": "Mississippi",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://www.sos.ms.gov/elections-voting/election-results"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://www.sos.ms.gov/elections-voting/election-results",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Mississippi Secretary of State results page listed March 2026 primary results only at retrieval; no November 3 results were posted.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

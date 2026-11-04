@@ -1,0 +1,18 @@
+{
+ "state": "AK",
+ "name": "Alaska",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://www.elections.alaska.gov/results/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://www.elections.alaska.gov/results/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Alaska Division of Elections results site (elections.alaska.gov) failed TLS certificate validation at retrieval, so it was not read.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

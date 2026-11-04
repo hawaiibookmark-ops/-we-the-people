@@ -1,0 +1,554 @@
+{
+ "state": "RI",
+ "name": "Rhode Island",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+ "retrieved_at": "2026-11-04T18:46:15Z",
+ "results_as_of": "2026-11-04T16:20:50.9813558Z",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 356309,
+   "candidates": [
+    {
+     "name": "Helena Buonanno Foulkes",
+     "party": "DEM",
+     "votes": 205117,
+     "write_in": false,
+     "pct": 57.57,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kenneth Block",
+     "party": "Ind",
+     "votes": 99269,
+     "write_in": false,
+     "pct": 27.86,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Aaron C. Guckian",
+     "party": "REP",
+     "votes": 47106,
+     "write_in": false,
+     "pct": 13.22,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "C. D. Reynolds",
+     "party": "Ind",
+     "votes": 2031,
+     "write_in": false,
+     "pct": 0.57,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Jasjit S. Gotra",
+     "party": "Ind",
+     "votes": 1649,
+     "write_in": false,
+     "pct": 0.46,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1137,
+     "write_in": true,
+     "pct": 0.32,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Helena Buonanno Foulkes",
+   "margin_votes": 105848,
+   "margin_pct": 29.71,
+   "jurisdiction": "Statewide",
+   "id": "ri-001"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "Representative in Congress District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 161645,
+   "candidates": [
+    {
+     "name": "Gabriel Amo",
+     "party": "DEM",
+     "votes": 110625,
+     "write_in": false,
+     "pct": 68.44,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Kellie Keenan",
+     "party": "REP",
+     "votes": 44669,
+     "write_in": false,
+     "pct": 27.63,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Pedro DeSouza",
+     "party": "Ind",
+     "votes": 6123,
+     "write_in": false,
+     "pct": 3.79,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 228,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 20,
+    "total": 20
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Gabriel Amo",
+   "margin_votes": 65956,
+   "margin_pct": 40.81,
+   "jurisdiction": null,
+   "id": "ri-002"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "Representative in Congress District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 193661,
+   "candidates": [
+    {
+     "name": "Seth Magaziner",
+     "party": "DEM",
+     "votes": 119683,
+     "write_in": false,
+     "pct": 61.8,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Victor Mellor",
+     "party": "REP",
+     "votes": 73471,
+     "write_in": false,
+     "pct": 37.94,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 507,
+     "write_in": true,
+     "pct": 0.26,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 22,
+    "total": 22
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Seth Magaziner",
+   "margin_votes": 46212,
+   "margin_pct": 23.86,
+   "jurisdiction": null,
+   "id": "ri-003"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Attorney General",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 349661,
+   "candidates": [
+    {
+     "name": "Kimberly Ahern",
+     "party": "DEM",
+     "votes": 231532,
+     "write_in": false,
+     "pct": 66.22,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Alan Leonard Gordon",
+     "party": "REP",
+     "votes": 117225,
+     "write_in": false,
+     "pct": 33.53,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 904,
+     "write_in": true,
+     "pct": 0.26,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Kimberly Ahern",
+   "margin_votes": 114307,
+   "margin_pct": 32.69,
+   "jurisdiction": "Statewide",
+   "id": "ri-004"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 353225,
+   "candidates": [
+    {
+     "name": "Sabina Matos",
+     "party": "DEM",
+     "votes": 209061,
+     "write_in": false,
+     "pct": 59.19,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "John J. Loughlin, II",
+     "party": "REP",
+     "votes": 143100,
+     "write_in": false,
+     "pct": 40.51,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1064,
+     "write_in": true,
+     "pct": 0.3,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Sabina Matos",
+   "margin_votes": 65961,
+   "margin_pct": 18.68,
+   "jurisdiction": "Statewide",
+   "id": "ri-005"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Secretary of State",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 285054,
+   "candidates": [
+    {
+     "name": "Gregg M. Amore",
+     "party": "DEM",
+     "votes": 272739,
+     "write_in": false,
+     "pct": 95.68,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 12315,
+     "write_in": true,
+     "pct": 4.32,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Gregg M. Amore",
+   "margin_votes": 260424,
+   "margin_pct": 91.36,
+   "jurisdiction": "Statewide",
+   "id": "ri-006"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "4. CULTURAL ECONOMY - $50,000,000",
+   "title": "4. CULTURAL ECONOMY - $50,000,000",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 341744,
+   "candidates": [
+    {
+     "name": "Reject",
+     "party": null,
+     "votes": 173297,
+     "pct": 50.71,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Approve",
+     "party": null,
+     "votes": 168447,
+     "pct": 49.29,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Reject",
+   "margin_votes": 4850,
+   "margin_pct": 1.42,
+   "jurisdiction": "Statewide",
+   "id": "ri-007"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "5. GREEN ECONOMY BONDS - $55,000,000",
+   "title": "5. GREEN ECONOMY BONDS - $55,000,000",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 343466,
+   "candidates": [
+    {
+     "name": "Approve",
+     "party": null,
+     "votes": 230140,
+     "pct": 67.01,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Reject",
+     "party": null,
+     "votes": 113326,
+     "pct": 32.99,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Approve",
+   "margin_votes": 116814,
+   "margin_pct": 34.02,
+   "jurisdiction": "Statewide",
+   "id": "ri-008"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+   "title": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 345197,
+   "candidates": [
+    {
+     "name": "Approve",
+     "party": null,
+     "votes": 206822,
+     "pct": 59.91,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Reject",
+     "party": null,
+     "votes": 138375,
+     "pct": 40.09,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Approve",
+   "margin_votes": 68447,
+   "margin_pct": 19.82,
+   "jurisdiction": "Statewide",
+   "id": "ri-009"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+   "title": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 344309,
+   "candidates": [
+    {
+     "name": "Approve",
+     "party": null,
+     "votes": 210795,
+     "pct": 61.22,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Reject",
+     "party": null,
+     "votes": 133514,
+     "pct": 38.78,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Approve",
+   "margin_votes": 77281,
+   "margin_pct": 22.44,
+   "jurisdiction": "Statewide",
+   "id": "ri-010"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+   "title": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 338429,
+   "candidates": [
+    {
+     "name": "Reject",
+     "party": null,
+     "votes": 177262,
+     "pct": 52.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Approve",
+     "party": null,
+     "votes": 161167,
+     "pct": 47.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "leading": "Reject",
+   "margin_votes": 16095,
+   "margin_pct": 4.76,
+   "jurisdiction": "Statewide",
+   "id": "ri-011"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 11,
+  "by_office": {
+   "Governor": 1,
+   "US House": 2,
+   "Statewide Office": 3,
+   "Ballot Measure": 5
+  }
+ }
+}

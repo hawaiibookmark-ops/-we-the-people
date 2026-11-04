@@ -1,0 +1,18 @@
+{
+ "state": "SC",
+ "name": "South Carolina",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://www.enr-scvotes.org/SC/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://www.enr-scvotes.org/SC/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The South Carolina Election Commission results site (enr-scvotes.org) listed no elections at retrieval.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

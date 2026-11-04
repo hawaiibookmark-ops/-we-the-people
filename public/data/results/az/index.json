@@ -1,0 +1,5377 @@
+{
+ "state": "AZ",
+ "name": "Arizona",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://results.arizona.vote/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+ "retrieved_at": "2026-11-04T18:46:16Z",
+ "results_as_of": "2026-11-04T12:19:08.2180528Z",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor and Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2148183,
+   "candidates": [
+    {
+     "name": "Katie Hobbs (DEM) / John Giles",
+     "party": "DEM",
+     "votes": 1193939,
+     "write_in": false,
+     "pct": 55.58,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Andy Biggs (REP) / Sine Kerr",
+     "party": "REP",
+     "votes": 916236,
+     "write_in": false,
+     "pct": 42.65,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Risa Lombardo (GRN) / Lisa Castillo",
+     "party": "GRN",
+     "votes": 19122,
+     "write_in": false,
+     "pct": 0.89,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan",
+     "party": "NOL",
+     "votes": 17505,
+     "write_in": false,
+     "pct": 0.81,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1173,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 200,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Alice Novoa",
+     "party": "REP",
+     "votes": 6,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Gertritrude Gonzalez",
+     "party": "REP",
+     "votes": 2,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 8,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Katie Hobbs (DEM) / John Giles",
+   "margin_votes": 277703,
+   "margin_pct": 12.93,
+   "jurisdiction": "Statewide",
+   "id": "az-001"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "U.S. Representative in Congress - District No. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 311366,
+   "candidates": [
+    {
+     "name": "Amish Shah",
+     "party": "DEM",
+     "votes": 163584,
+     "write_in": false,
+     "pct": 52.54,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Thomas \"Jay\" Feely IV",
+     "party": "REP",
+     "votes": 141196,
+     "write_in": false,
+     "pct": 45.35,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Monica Alponte",
+     "party": "LIB",
+     "votes": 6360,
+     "write_in": false,
+     "pct": 2.04,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 147,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 65,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Dev Gupta",
+     "party": "IND",
+     "votes": 8,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Gage Dylan Thunder",
+     "party": "NON",
+     "votes": 6,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Amish Shah",
+   "margin_votes": 22388,
+   "margin_pct": 7.19,
+   "jurisdiction": null,
+   "id": "az-002"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "U.S. Representative in Congress - District No. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 277538,
+   "candidates": [
+    {
+     "name": "Jonathan Nez",
+     "party": "DEM",
+     "votes": 136344,
+     "write_in": false,
+     "pct": 49.13,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Eli Crane",
+     "party": "REP",
+     "votes": 136258,
+     "write_in": false,
+     "pct": 49.1,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Curtis Goodwin",
+     "party": "LIB",
+     "votes": 4776,
+     "write_in": false,
+     "pct": 1.72,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 115,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 45,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 9,
+    "total": 9
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Jonathan Nez",
+   "margin_votes": 86,
+   "margin_pct": 0.03,
+   "jurisdiction": null,
+   "id": "az-003"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "U.S. Representative in Congress - District No. 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 119410,
+   "candidates": [
+    {
+     "name": "Yassamin Ansari",
+     "party": "DEM",
+     "votes": 103137,
+     "write_in": false,
+     "pct": 86.37,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Alan Aversa",
+     "party": "NOL",
+     "votes": 7218,
+     "write_in": false,
+     "pct": 6.04,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "David Redkey",
+     "party": "GRN",
+     "votes": 6422,
+     "write_in": false,
+     "pct": 5.38,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1422,
+     "write_in": true,
+     "pct": 1.19,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Jacob Parkman",
+     "party": "REP",
+     "votes": 1211,
+     "write_in": true,
+     "pct": 1.01,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Yassamin Ansari",
+   "margin_votes": 95919,
+   "margin_pct": 80.33,
+   "jurisdiction": null,
+   "id": "az-004"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "U.S. Representative in Congress - District No. 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 212681,
+   "candidates": [
+    {
+     "name": "Greg Stanton",
+     "party": "DEM",
+     "votes": 132395,
+     "write_in": false,
+     "pct": 62.25,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Zuhdi Jasser",
+     "party": "REP",
+     "votes": 75216,
+     "write_in": false,
+     "pct": 35.37,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Tisha Benoit",
+     "party": "NOL",
+     "votes": 4643,
+     "write_in": false,
+     "pct": 2.18,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 392,
+     "write_in": true,
+     "pct": 0.18,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Steven Sanders",
+     "party": "NOL",
+     "votes": 35,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Greg Stanton",
+   "margin_votes": 57179,
+   "margin_pct": 26.88,
+   "jurisdiction": null,
+   "id": "az-005"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "U.S. Representative in Congress - District No. 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 268901,
+   "candidates": [
+    {
+     "name": "Mark Lamb",
+     "party": "REP",
+     "votes": 137240,
+     "write_in": false,
+     "pct": 51.04,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Elizabeth Lee",
+     "party": "DEM",
+     "votes": 131226,
+     "write_in": false,
+     "pct": 48.8,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 435,
+     "write_in": true,
+     "pct": 0.16,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Mark Lamb",
+   "margin_votes": 6014,
+   "margin_pct": 2.24,
+   "jurisdiction": null,
+   "id": "az-006"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "U.S. Representative in Congress - District No. 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 297192,
+   "candidates": [
+    {
+     "name": "JoAnna Mendoza",
+     "party": "DEM",
+     "votes": 157269,
+     "write_in": false,
+     "pct": 52.92,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Juan Ciscomani",
+     "party": "REP",
+     "votes": 133502,
+     "write_in": false,
+     "pct": 44.92,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jereme Lance Peters",
+     "party": "LIB",
+     "votes": 3605,
+     "write_in": false,
+     "pct": 1.21,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Gary Swing",
+     "party": "GRN",
+     "votes": 2518,
+     "write_in": false,
+     "pct": 0.85,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 155,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 113,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Dorland",
+     "party": "IND",
+     "votes": 30,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 7,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "JoAnna Mendoza",
+   "margin_votes": 23767,
+   "margin_pct": 8.0,
+   "jurisdiction": null,
+   "id": "az-007"
+  },
+  {
+   "office": "US House",
+   "district": "7",
+   "title": "U.S. Representative in Congress - District No. 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 155763,
+   "candidates": [
+    {
+     "name": "Adelita Grijalva",
+     "party": "DEM",
+     "votes": 111192,
+     "write_in": false,
+     "pct": 71.39,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Daniel Francis Butierez Sr.",
+     "party": "REP",
+     "votes": 44298,
+     "write_in": false,
+     "pct": 28.44,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 231,
+     "write_in": true,
+     "pct": 0.15,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 42,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 6,
+    "total": 6
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Adelita Grijalva",
+   "margin_votes": 66894,
+   "margin_pct": 42.95,
+   "jurisdiction": null,
+   "id": "az-008"
+  },
+  {
+   "office": "US House",
+   "district": "8",
+   "title": "U.S. Representative in Congress - District No. 8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 249046,
+   "candidates": [
+    {
+     "name": "Abraham \"Abe\" Hamadeh",
+     "party": "REP",
+     "votes": 127063,
+     "write_in": false,
+     "pct": 51.02,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Bernadette Greene-Placentia",
+     "party": "DEM",
+     "votes": 121500,
+     "write_in": false,
+     "pct": 48.79,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 483,
+     "write_in": true,
+     "pct": 0.19,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Abraham \"Abe\" Hamadeh",
+   "margin_votes": 5563,
+   "margin_pct": 2.23,
+   "jurisdiction": null,
+   "id": "az-009"
+  },
+  {
+   "office": "US House",
+   "district": "9",
+   "title": "U.S. Representative in Congress - District No. 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 240253,
+   "candidates": [
+    {
+     "name": "Paul Gosar",
+     "party": "REP",
+     "votes": 138732,
+     "write_in": false,
+     "pct": 57.74,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Danielle \"Dani\" Sterbinsky",
+     "party": "DEM",
+     "votes": 101203,
+     "write_in": false,
+     "pct": 42.12,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 259,
+     "write_in": true,
+     "pct": 0.11,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "William Perry",
+     "party": "IND",
+     "votes": 24,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 24,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "G. Seville Hatch",
+     "party": "IND",
+     "votes": 11,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Paul Gosar",
+   "margin_votes": 37529,
+   "margin_pct": 15.62,
+   "jurisdiction": null,
+   "id": "az-010"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Attorney General",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2125567,
+   "candidates": [
+    {
+     "name": "Kris Mayes",
+     "party": "DEM",
+     "votes": 1176461,
+     "write_in": false,
+     "pct": 55.35,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Warren Petersen",
+     "party": "REP",
+     "votes": 947588,
+     "write_in": false,
+     "pct": 44.58,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1008,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 510,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Kris Mayes",
+   "margin_votes": 228873,
+   "margin_pct": 10.77,
+   "jurisdiction": "Statewide",
+   "id": "az-011"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Corporation Commissioner",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 3911224,
+   "candidates": [
+    {
+     "name": "Clara Pratte",
+     "party": "DEM",
+     "votes": 1060521,
+     "write_in": false,
+     "pct": 27.11,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jonathon Hill",
+     "party": "DEM",
+     "votes": 1020300,
+     "write_in": false,
+     "pct": 26.09,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Thompson",
+     "party": "REP",
+     "votes": 915175,
+     "write_in": false,
+     "pct": 23.4,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Ralph Heap",
+     "party": "REP",
+     "votes": 856988,
+     "write_in": false,
+     "pct": 21.91,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Mike Cease",
+     "party": "GRN",
+     "votes": 56442,
+     "write_in": false,
+     "pct": 1.44,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1158,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 640,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 7,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": "Statewide",
+   "id": "az-012"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Secretary of State",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2130972,
+   "candidates": [
+    {
+     "name": "Adrian Fontes",
+     "party": "DEM",
+     "votes": 1167801,
+     "write_in": false,
+     "pct": 54.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Alexander Kolodin",
+     "party": "REP",
+     "votes": 932274,
+     "write_in": false,
+     "pct": 43.75,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Duwayne Collier",
+     "party": "GRN",
+     "votes": 29896,
+     "write_in": false,
+     "pct": 1.4,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 661,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 340,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Adrian Fontes",
+   "margin_votes": 235527,
+   "margin_pct": 11.05,
+   "jurisdiction": "Statewide",
+   "id": "az-013"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "State Mine Inspector",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2081516,
+   "candidates": [
+    {
+     "name": "Brian Matlock",
+     "party": "DEM",
+     "votes": 1094914,
+     "write_in": false,
+     "pct": 52.6,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Walter \"Les\" Presmyk",
+     "party": "REP",
+     "votes": 984481,
+     "write_in": false,
+     "pct": 47.3,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1452,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 669,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Brian Matlock",
+   "margin_votes": 110433,
+   "margin_pct": 5.3,
+   "jurisdiction": "Statewide",
+   "id": "az-014"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "State Treasurer",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2106691,
+   "candidates": [
+    {
+     "name": "Nick Mansour",
+     "party": "DEM",
+     "votes": 1130366,
+     "write_in": false,
+     "pct": 53.66,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Elijah Norton",
+     "party": "REP",
+     "votes": 974558,
+     "write_in": false,
+     "pct": 46.26,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1170,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 597,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Nick Mansour",
+   "margin_votes": 155808,
+   "margin_pct": 7.4,
+   "jurisdiction": "Statewide",
+   "id": "az-015"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Superintendent of Public Instruction",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2109671,
+   "candidates": [
+    {
+     "name": "Teresa Leyba Ruiz",
+     "party": "DEM",
+     "votes": 1118149,
+     "write_in": false,
+     "pct": 53.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kimberly Yee",
+     "party": "REP",
+     "votes": 989179,
+     "write_in": false,
+     "pct": 46.89,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1656,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 347,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Stephen Neal Jr.",
+     "party": "NOL",
+     "votes": 279,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Gerard Davis",
+     "party": "GRN",
+     "votes": 61,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Teresa Leyba Ruiz",
+   "margin_votes": 128970,
+   "margin_pct": 6.11,
+   "jurisdiction": "Statewide",
+   "id": "az-016"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "PROPOSITION 141",
+   "title": "PROPOSITION 141",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2033982,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 1031292,
+     "pct": 50.7,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 1002690,
+     "pct": 49.3,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "YES",
+   "margin_votes": 28602,
+   "margin_pct": 1.4,
+   "jurisdiction": "Statewide",
+   "description": "<p>PROPOSED AMENDMENT TO THE CONSTITUTION BY THE LEGISLATURE&nbsp;&nbsp;RELATING TO TAXATION</p>",
+   "id": "az-017"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "PROPOSITION 142",
+   "title": "PROPOSITION 142",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2043854,
+   "candidates": [
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 1224913,
+     "pct": 59.93,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 818941,
+     "pct": 40.07,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "NO",
+   "margin_votes": 405972,
+   "margin_pct": 19.86,
+   "jurisdiction": "Statewide",
+   "description": "<p>PROPOSED AMENDMENT TO THE CONSTITUTION BY THE LEGISLATURE RELATING TO THE PROHIBITION OF PREFERENTIAL TREATMENT AND DISCRIMINATION</p>",
+   "id": "az-018"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "PROPOSITION 144",
+   "title": "PROPOSITION 144",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2073357,
+   "candidates": [
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 1103008,
+     "pct": 53.2,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 970349,
+     "pct": 46.8,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "NO",
+   "margin_votes": 132659,
+   "margin_pct": 6.4,
+   "jurisdiction": "Statewide",
+   "description": "<p>PROPOSED AMENDMENT TO THE CONSTITUTION BY THE LEGISLATURE RELATING TO ELECTION REQUIREMENTS</p>",
+   "id": "az-019"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "PROPOSITION 316",
+   "title": "PROPOSITION 316",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2058202,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 1263335,
+     "pct": 61.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 794867,
+     "pct": 38.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "YES",
+   "margin_votes": 468468,
+   "margin_pct": 22.76,
+   "jurisdiction": "Statewide",
+   "description": "<p>REFERRED TO THE PEOPLE BY THE LEGISLATURE RELATING TO MUNICIPAL TRANSACTION PRIVILEGE TAX</p>",
+   "id": "az-020"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "PROPOSITION 317",
+   "title": "PROPOSITION 317",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2065143,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 1177681,
+     "pct": 57.03,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 887462,
+     "pct": 42.97,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "YES",
+   "margin_votes": 290219,
+   "margin_pct": 14.06,
+   "jurisdiction": "Statewide",
+   "description": "<p>REFERRED TO THE PEOPLE BY THE LEGISLATURE RELATING TO THE ARIZONA DEPARTMENT OF HOMELAND SECURITY</p>",
+   "id": "az-021"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "PROPOSITION 318",
+   "title": "PROPOSITION 318",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2070360,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 1219360,
+     "pct": 58.9,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 851000,
+     "pct": 41.1,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "YES",
+   "margin_votes": 368360,
+   "margin_pct": 17.8,
+   "jurisdiction": "Statewide",
+   "description": "<p>REFERRED TO THE PEOPLE BY THE LEGISLATURE RELATING TO STUDENT ATHLETICS</p>",
+   "id": "az-022"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "PROPOSITION 319",
+   "title": "PROPOSITION 319",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2058715,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 1256857,
+     "pct": 61.05,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 801858,
+     "pct": 38.95,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "YES",
+   "margin_votes": 454999,
+   "margin_pct": 22.1,
+   "jurisdiction": "Statewide",
+   "description": "<p>REFERRED TO THE PEOPLE BY THE LEGISLATURE RELATING TO PHOTO ENFORCEMENT SYSTEMS</p>",
+   "id": "az-023"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "PROPOSITION 320",
+   "title": "PROPOSITION 320",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2025939,
+   "candidates": [
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 1040978,
+     "pct": 51.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 984961,
+     "pct": 48.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "NO",
+   "margin_votes": 56017,
+   "margin_pct": 2.76,
+   "jurisdiction": "Statewide",
+   "description": "<p>REFERRED TO THE PEOPLE BY THE LEGISLATURE RELATING TO SCHOOL DISTRICT BUDGETS</p>",
+   "id": "az-024"
+  },
+  {
+   "office": "State Senate",
+   "district": "1",
+   "title": "State Senator - District No.  1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 102267,
+   "candidates": [
+    {
+     "name": "Mark Finchem",
+     "party": "REP",
+     "votes": 62701,
+     "write_in": false,
+     "pct": 61.31,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Christine Ellen Dargon",
+     "party": "DEM",
+     "votes": 39470,
+     "write_in": false,
+     "pct": 38.6,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 94,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 2,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Mark Finchem",
+   "margin_votes": 23231,
+   "margin_pct": 22.71,
+   "jurisdiction": null,
+   "id": "az-025"
+  },
+  {
+   "office": "State Senate",
+   "district": "2",
+   "title": "State Senator - District No.  2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 66498,
+   "candidates": [
+    {
+     "name": "Amelia Gallitano",
+     "party": "DEM",
+     "votes": 37251,
+     "write_in": false,
+     "pct": 56.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Shawnna Bolick",
+     "party": "REP",
+     "votes": 29182,
+     "write_in": false,
+     "pct": 43.88,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 65,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Amelia Gallitano",
+   "margin_votes": 8069,
+   "margin_pct": 12.14,
+   "jurisdiction": null,
+   "id": "az-026"
+  },
+  {
+   "office": "State Senate",
+   "district": "3",
+   "title": "State Senator - District No.  3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 116758,
+   "candidates": [
+    {
+     "name": "John Kavanagh",
+     "party": "REP",
+     "votes": 70293,
+     "write_in": false,
+     "pct": 60.2,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jeffrey Fortney",
+     "party": "DEM",
+     "votes": 46390,
+     "write_in": false,
+     "pct": 39.73,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 47,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 28,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Frank Bertone",
+     "party": "REP",
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "John Kavanagh",
+   "margin_votes": 23903,
+   "margin_pct": 20.47,
+   "jurisdiction": null,
+   "id": "az-027"
+  },
+  {
+   "office": "State Senate",
+   "district": "4",
+   "title": "State Senator - District No.  4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 104291,
+   "candidates": [
+    {
+     "name": "Aaron Lieberman",
+     "party": "DEM",
+     "votes": 55256,
+     "write_in": false,
+     "pct": 52.98,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Carine Werner",
+     "party": "REP",
+     "votes": 48949,
+     "write_in": false,
+     "pct": 46.94,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 86,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Aaron Lieberman",
+   "margin_votes": 6307,
+   "margin_pct": 6.04,
+   "jurisdiction": null,
+   "id": "az-028"
+  },
+  {
+   "office": "State Senate",
+   "district": "5",
+   "title": "State Senator - District No.  5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 60510,
+   "candidates": [
+    {
+     "name": "Christine Marsh",
+     "party": "DEM",
+     "votes": 51080,
+     "write_in": false,
+     "pct": 84.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jason LaForest",
+     "party": "NOL",
+     "votes": 9042,
+     "write_in": false,
+     "pct": 14.94,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 388,
+     "write_in": true,
+     "pct": 0.64,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Christine Marsh",
+   "margin_votes": 42038,
+   "margin_pct": 69.48,
+   "jurisdiction": null,
+   "id": "az-029"
+  },
+  {
+   "office": "State Senate",
+   "district": "6",
+   "title": "State Senator - District No.  6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 68437,
+   "candidates": [
+    {
+     "name": "Jamescita Peshlakai",
+     "party": "DEM",
+     "votes": 50145,
+     "write_in": false,
+     "pct": 73.27,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lloyd Johnson",
+     "party": "REP",
+     "votes": 18144,
+     "write_in": false,
+     "pct": 26.51,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 82,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 66,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 7,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Jamescita Peshlakai",
+   "margin_votes": 32001,
+   "margin_pct": 46.76,
+   "jurisdiction": null,
+   "id": "az-030"
+  },
+  {
+   "office": "State Senate",
+   "district": "7",
+   "title": "State Senator - District No.  7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 82188,
+   "candidates": [
+    {
+     "name": "Wendy Rogers",
+     "party": "REP",
+     "votes": 49166,
+     "write_in": false,
+     "pct": 59.82,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michiel \"Mike\" Montiel",
+     "party": "DEM",
+     "votes": 32933,
+     "write_in": false,
+     "pct": 40.07,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 49,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 40,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Wendy Rogers",
+   "margin_votes": 16233,
+   "margin_pct": 19.75,
+   "jurisdiction": null,
+   "id": "az-031"
+  },
+  {
+   "office": "State Senate",
+   "district": "8",
+   "title": "State Senator - District No.  8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 54324,
+   "candidates": [
+    {
+     "name": "Lauren Kuby",
+     "party": "DEM",
+     "votes": 37879,
+     "write_in": false,
+     "pct": 69.73,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bill Loughrige",
+     "party": "REP",
+     "votes": 16390,
+     "write_in": false,
+     "pct": 30.17,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 55,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Lauren Kuby",
+   "margin_votes": 21489,
+   "margin_pct": 39.56,
+   "jurisdiction": null,
+   "id": "az-032"
+  },
+  {
+   "office": "State Senate",
+   "district": "9",
+   "title": "State Senator - District No.  9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 49228,
+   "candidates": [
+    {
+     "name": "Kiana Maria Sears",
+     "party": "DEM",
+     "votes": 29740,
+     "write_in": false,
+     "pct": 60.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bridget Fitzgibbons",
+     "party": "REP",
+     "votes": 19444,
+     "write_in": false,
+     "pct": 39.5,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 44,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Kiana Maria Sears",
+   "margin_votes": 10296,
+   "margin_pct": 20.91,
+   "jurisdiction": null,
+   "id": "az-033"
+  },
+  {
+   "office": "State Senate",
+   "district": "10",
+   "title": "State Senator - District No. 10",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 76457,
+   "candidates": [
+    {
+     "name": "David Christian Farnsworth",
+     "party": "REP",
+     "votes": 40288,
+     "write_in": false,
+     "pct": 52.69,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Blair Moses",
+     "party": "DEM",
+     "votes": 33384,
+     "write_in": false,
+     "pct": 43.66,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Nick Fierro",
+     "party": "IND",
+     "votes": 2756,
+     "write_in": false,
+     "pct": 3.6,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 29,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "David Christian Farnsworth",
+   "margin_votes": 6904,
+   "margin_pct": 9.03,
+   "jurisdiction": null,
+   "id": "az-034"
+  },
+  {
+   "office": "State Senate",
+   "district": "11",
+   "title": "State Senator - District No. 11",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 45917,
+   "candidates": [
+    {
+     "name": "Catherine Miranda",
+     "party": "DEM",
+     "votes": 37041,
+     "write_in": false,
+     "pct": 80.67,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joshua Ayala",
+     "party": "REP",
+     "votes": 8828,
+     "write_in": false,
+     "pct": 19.23,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 48,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Catherine Miranda",
+   "margin_votes": 28213,
+   "margin_pct": 61.44,
+   "jurisdiction": null,
+   "id": "az-035"
+  },
+  {
+   "office": "State Senate",
+   "district": "12",
+   "title": "State Senator - District No. 12",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 74169,
+   "candidates": [
+    {
+     "name": "Patricia \"Patty\" Contreras",
+     "party": "DEM",
+     "votes": 52081,
+     "write_in": false,
+     "pct": 70.22,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Anthony Jason Ramirez",
+     "party": "NOL",
+     "votes": 21545,
+     "write_in": false,
+     "pct": 29.05,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 401,
+     "write_in": true,
+     "pct": 0.54,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Hatch",
+     "party": "REP",
+     "votes": 142,
+     "write_in": true,
+     "pct": 0.19,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Patricia \"Patty\" Contreras",
+   "margin_votes": 30536,
+   "margin_pct": 41.17,
+   "jurisdiction": null,
+   "id": "az-036"
+  },
+  {
+   "office": "State Senate",
+   "district": "13",
+   "title": "State Senator - District No. 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 78508,
+   "candidates": [
+    {
+     "name": "Kristie O'Brien",
+     "party": "DEM",
+     "votes": 43150,
+     "write_in": false,
+     "pct": 54.96,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Julie Willoughby",
+     "party": "REP",
+     "votes": 35309,
+     "write_in": false,
+     "pct": 44.98,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 49,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Kristie O'Brien",
+   "margin_votes": 7841,
+   "margin_pct": 9.98,
+   "jurisdiction": null,
+   "id": "az-037"
+  },
+  {
+   "office": "State Senate",
+   "district": "14",
+   "title": "State Senator - District No. 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 77532,
+   "candidates": [
+    {
+     "name": "Stephanie Walsh",
+     "party": "DEM",
+     "votes": 39937,
+     "write_in": false,
+     "pct": 51.51,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mylie Biggs",
+     "party": "REP",
+     "votes": 37521,
+     "write_in": false,
+     "pct": 48.39,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 74,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Stephanie Walsh",
+   "margin_votes": 2416,
+   "margin_pct": 3.12,
+   "jurisdiction": null,
+   "id": "az-038"
+  },
+  {
+   "office": "State Senate",
+   "district": "15",
+   "title": "State Senator - District No. 15",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 82804,
+   "candidates": [
+    {
+     "name": "Jake Hoffman",
+     "party": "REP",
+     "votes": 47358,
+     "write_in": false,
+     "pct": 57.19,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jayme Accalia",
+     "party": "DEM",
+     "votes": 35361,
+     "write_in": false,
+     "pct": 42.7,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 85,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Jake Hoffman",
+   "margin_votes": 11997,
+   "margin_pct": 14.49,
+   "jurisdiction": null,
+   "id": "az-039"
+  },
+  {
+   "office": "State Senate",
+   "district": "16",
+   "title": "State Senator - District No. 16",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 65058,
+   "candidates": [
+    {
+     "name": "Elaine Aldrete",
+     "party": "DEM",
+     "votes": 33102,
+     "write_in": false,
+     "pct": 50.88,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas \"T.J.\" Shope",
+     "party": "REP",
+     "votes": 31864,
+     "write_in": false,
+     "pct": 48.98,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 80,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 12,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Elaine Aldrete",
+   "margin_votes": 1238,
+   "margin_pct": 1.9,
+   "jurisdiction": null,
+   "id": "az-040"
+  },
+  {
+   "office": "State Senate",
+   "district": "17",
+   "title": "State Senator - District No. 17",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 106471,
+   "candidates": [
+    {
+     "name": "Edgar Soto",
+     "party": "DEM",
+     "votes": 58006,
+     "write_in": false,
+     "pct": 54.48,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Christopher King",
+     "party": "REP",
+     "votes": 48359,
+     "write_in": false,
+     "pct": 45.42,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 105,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Edgar Soto",
+   "margin_votes": 9647,
+   "margin_pct": 9.06,
+   "jurisdiction": null,
+   "id": "az-041"
+  },
+  {
+   "office": "State Senate",
+   "district": "18",
+   "title": "State Senator - District No. 18",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 85922,
+   "candidates": [
+    {
+     "name": "Priya Sundareshan",
+     "party": "DEM",
+     "votes": 56694,
+     "write_in": false,
+     "pct": 65.98,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Douglas Everett",
+     "party": "REP",
+     "votes": 29134,
+     "write_in": false,
+     "pct": 33.91,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 94,
+     "write_in": true,
+     "pct": 0.11,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Priya Sundareshan",
+   "margin_votes": 27560,
+   "margin_pct": 32.07,
+   "jurisdiction": null,
+   "id": "az-042"
+  },
+  {
+   "office": "State Senate",
+   "district": "19",
+   "title": "State Senator - District No. 19",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 80301,
+   "candidates": [
+    {
+     "name": "Gail Griffin",
+     "party": "REP",
+     "votes": 45931,
+     "write_in": false,
+     "pct": 57.2,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bob Karp",
+     "party": "DEM",
+     "votes": 34267,
+     "write_in": false,
+     "pct": 42.67,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 62,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 41,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Gail Griffin",
+   "margin_votes": 11664,
+   "margin_pct": 14.53,
+   "jurisdiction": null,
+   "id": "az-043"
+  },
+  {
+   "office": "State Senate",
+   "district": "20",
+   "title": "State Senator - District No. 20",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 38572,
+   "candidates": [
+    {
+     "name": "Alma Hernandez",
+     "party": "DEM",
+     "votes": 36878,
+     "write_in": false,
+     "pct": 95.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 1694,
+     "write_in": true,
+     "pct": 4.39,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Alma Hernandez",
+   "margin_votes": 35184,
+   "margin_pct": 91.22,
+   "jurisdiction": null,
+   "id": "az-044"
+  },
+  {
+   "office": "State Senate",
+   "district": "21",
+   "title": "State Senator - District No. 21",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 52487,
+   "candidates": [
+    {
+     "name": "Rosanna Gabaldón",
+     "party": "DEM",
+     "votes": 36036,
+     "write_in": false,
+     "pct": 68.66,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Esteban Flores",
+     "party": "REP",
+     "votes": 16370,
+     "write_in": false,
+     "pct": 31.19,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 78,
+     "write_in": true,
+     "pct": 0.15,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 3,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Rosanna Gabaldón",
+   "margin_votes": 19666,
+   "margin_pct": 37.47,
+   "jurisdiction": null,
+   "id": "az-045"
+  },
+  {
+   "office": "State Senate",
+   "district": "22",
+   "title": "State Senator - District No. 22",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 32606,
+   "candidates": [
+    {
+     "name": "Eva Diaz",
+     "party": "DEM",
+     "votes": 31610,
+     "write_in": false,
+     "pct": 96.95,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 996,
+     "write_in": true,
+     "pct": 3.05,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Eva Diaz",
+   "margin_votes": 30614,
+   "margin_pct": 93.9,
+   "jurisdiction": null,
+   "id": "az-046"
+  },
+  {
+   "office": "State Senate",
+   "district": "23",
+   "title": "State Senator - District No. 23",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43156,
+   "candidates": [
+    {
+     "name": "Brian Fernandez",
+     "party": "DEM",
+     "votes": 26818,
+     "write_in": false,
+     "pct": 62.14,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michelle Altherr",
+     "party": "REP",
+     "votes": 16299,
+     "write_in": false,
+     "pct": 37.77,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 22,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 17,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Brian Fernandez",
+   "margin_votes": 10519,
+   "margin_pct": 24.37,
+   "jurisdiction": null,
+   "id": "az-047"
+  },
+  {
+   "office": "State Senate",
+   "district": "24",
+   "title": "State Senator - District No. 24",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 31736,
+   "candidates": [
+    {
+     "name": "Analise Ortiz",
+     "party": "DEM",
+     "votes": 23423,
+     "write_in": false,
+     "pct": 73.81,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Frank Steele",
+     "party": "REP",
+     "votes": 8276,
+     "write_in": false,
+     "pct": 26.08,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 37,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Analise Ortiz",
+   "margin_votes": 15147,
+   "margin_pct": 47.73,
+   "jurisdiction": null,
+   "id": "az-048"
+  },
+  {
+   "office": "State Senate",
+   "district": "25",
+   "title": "State Senator - District No. 25",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 70335,
+   "candidates": [
+    {
+     "name": "Timothy \"Tim\" Dunn",
+     "party": "REP",
+     "votes": 39054,
+     "write_in": false,
+     "pct": 55.53,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Laura Huber",
+     "party": "DEM",
+     "votes": 31230,
+     "write_in": false,
+     "pct": 44.4,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 40,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 11,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Timothy \"Tim\" Dunn",
+   "margin_votes": 7824,
+   "margin_pct": 11.13,
+   "jurisdiction": null,
+   "id": "az-049"
+  },
+  {
+   "office": "State Senate",
+   "district": "26",
+   "title": "State Senator - District No. 26",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29175,
+   "candidates": [
+    {
+     "name": "Flavio Bravo",
+     "party": "DEM",
+     "votes": 22384,
+     "write_in": false,
+     "pct": 76.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Bishop",
+     "party": "REP",
+     "votes": 6751,
+     "write_in": false,
+     "pct": 23.14,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 40,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Flavio Bravo",
+   "margin_votes": 15633,
+   "margin_pct": 53.58,
+   "jurisdiction": null,
+   "id": "az-050"
+  },
+  {
+   "office": "State Senate",
+   "district": "27",
+   "title": "State Senator - District No. 27",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 64126,
+   "candidates": [
+    {
+     "name": "Kyle Clayton",
+     "party": "DEM",
+     "votes": 33891,
+     "write_in": false,
+     "pct": 52.85,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Payne",
+     "party": "REP",
+     "votes": 30170,
+     "write_in": false,
+     "pct": 47.05,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 65,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Kyle Clayton",
+   "margin_votes": 3721,
+   "margin_pct": 5.8,
+   "jurisdiction": null,
+   "id": "az-051"
+  },
+  {
+   "office": "State Senate",
+   "district": "28",
+   "title": "State Senator - District No. 28",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 100068,
+   "candidates": [
+    {
+     "name": "Frank Carroll",
+     "party": "REP",
+     "votes": 57208,
+     "write_in": false,
+     "pct": 57.17,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Braun",
+     "party": "DEM",
+     "votes": 42786,
+     "write_in": false,
+     "pct": 42.76,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 74,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Frank Carroll",
+   "margin_votes": 14422,
+   "margin_pct": 14.41,
+   "jurisdiction": null,
+   "id": "az-052"
+  },
+  {
+   "office": "State Senate",
+   "district": "29",
+   "title": "State Senator - District No. 29",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 77990,
+   "candidates": [
+    {
+     "name": "Janae Shamp",
+     "party": "REP",
+     "votes": 40097,
+     "write_in": false,
+     "pct": 51.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Eric Stafford",
+     "party": "DEM",
+     "votes": 37827,
+     "write_in": false,
+     "pct": 48.5,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 66,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Janae Shamp",
+   "margin_votes": 2270,
+   "margin_pct": 2.91,
+   "jurisdiction": null,
+   "id": "az-053"
+  },
+  {
+   "office": "State Senate",
+   "district": "30",
+   "title": "State Senator - District No. 30",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 62755,
+   "candidates": [
+    {
+     "name": "Leo Biasiucci",
+     "party": "REP",
+     "votes": 61561,
+     "write_in": false,
+     "pct": 98.1,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 1117,
+     "write_in": true,
+     "pct": 1.78,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 77,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "leading": "Leo Biasiucci",
+   "margin_votes": 60444,
+   "margin_pct": 96.32,
+   "jurisdiction": null,
+   "id": "az-054"
+  },
+  {
+   "office": "State House",
+   "district": "1",
+   "title": "State Representative - District No.  1",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 152783,
+   "candidates": [
+    {
+     "name": "Selina Bliss",
+     "party": "REP",
+     "votes": 58843,
+     "write_in": false,
+     "pct": 38.51,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Quang Huu Nguyen",
+     "party": "REP",
+     "votes": 56063,
+     "write_in": false,
+     "pct": 36.69,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Sandy Zalecki",
+     "party": "DEM",
+     "votes": 37499,
+     "write_in": false,
+     "pct": 24.54,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 334,
+     "write_in": true,
+     "pct": 0.22,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Charles \"Charlie\" Eakins",
+     "party": "LIB",
+     "votes": 44,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-055"
+  },
+  {
+   "office": "State House",
+   "district": "2",
+   "title": "State Representative - District No.  2",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 90975,
+   "candidates": [
+    {
+     "name": "Stephanie Simacek",
+     "party": "DEM",
+     "votes": 37642,
+     "write_in": false,
+     "pct": 41.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Justin Wilmeth",
+     "party": "REP",
+     "votes": 27578,
+     "write_in": false,
+     "pct": 30.31,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Paul Carver",
+     "party": "REP",
+     "votes": 25440,
+     "write_in": false,
+     "pct": 27.96,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 315,
+     "write_in": true,
+     "pct": 0.35,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-056"
+  },
+  {
+   "office": "State House",
+   "district": "3",
+   "title": "State Representative - District No.  3",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 218608,
+   "candidates": [
+    {
+     "name": "Cody Reim",
+     "party": "REP",
+     "votes": 64491,
+     "write_in": false,
+     "pct": 29.5,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "George Khalaf",
+     "party": "REP",
+     "votes": 62810,
+     "write_in": false,
+     "pct": 28.73,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Julie Gable",
+     "party": "DEM",
+     "votes": 47048,
+     "write_in": false,
+     "pct": 21.52,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Richard \"Rick\" Robert Spargo",
+     "party": "DEM",
+     "votes": 42683,
+     "write_in": false,
+     "pct": 19.52,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "John Skirbst",
+     "party": "NOL",
+     "votes": 1505,
+     "write_in": false,
+     "pct": 0.69,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 71,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-057"
+  },
+  {
+   "office": "State House",
+   "district": "4",
+   "title": "State Representative - District No.  4",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 196866,
+   "candidates": [
+    {
+     "name": "Tammy Caputi",
+     "party": "DEM",
+     "votes": 52475,
+     "write_in": false,
+     "pct": 26.66,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Karen Gresham",
+     "party": "DEM",
+     "votes": 52202,
+     "write_in": false,
+     "pct": 26.52,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Matt Gress",
+     "party": "REP",
+     "votes": 47915,
+     "write_in": false,
+     "pct": 24.34,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Pamela Carter",
+     "party": "REP",
+     "votes": 44191,
+     "write_in": false,
+     "pct": 22.45,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 83,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-058"
+  },
+  {
+   "office": "State House",
+   "district": "5",
+   "title": "State Representative - District No.  5",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 90252,
+   "candidates": [
+    {
+     "name": "Sarah Liguori",
+     "party": "DEM",
+     "votes": 45535,
+     "write_in": false,
+     "pct": 50.45,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Aaron Márquez",
+     "party": "DEM",
+     "votes": 43298,
+     "write_in": false,
+     "pct": 47.97,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1419,
+     "write_in": true,
+     "pct": 1.57,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-059"
+  },
+  {
+   "office": "State House",
+   "district": "6",
+   "title": "State Representative - District No.  6",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 90694,
+   "candidates": [
+    {
+     "name": "Mae Peshlakai",
+     "party": "DEM",
+     "votes": 41968,
+     "write_in": false,
+     "pct": 46.27,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ian Teller",
+     "party": "DEM",
+     "votes": 38742,
+     "write_in": false,
+     "pct": 42.72,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Brendan Trachsel",
+     "party": "GRN",
+     "votes": 8498,
+     "write_in": false,
+     "pct": 9.37,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 693,
+     "write_in": true,
+     "pct": 0.76,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 486,
+     "write_in": true,
+     "pct": 0.54,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Royce \"Rj\" Mark Jenkins",
+     "party": "REP",
+     "votes": 307,
+     "write_in": true,
+     "pct": 0.34,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 7,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-060"
+  },
+  {
+   "office": "State House",
+   "district": "7",
+   "title": "State Representative - District No.  7",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 133697,
+   "candidates": [
+    {
+     "name": "Walter \"Walt\" Blackman",
+     "party": "REP",
+     "votes": 46154,
+     "write_in": false,
+     "pct": 34.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "David Cook Sr.",
+     "party": "REP",
+     "votes": 44334,
+     "write_in": false,
+     "pct": 33.16,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Samuel \"Sam\" Martin",
+     "party": "DEM",
+     "votes": 31877,
+     "write_in": false,
+     "pct": 23.84,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Richard Grayson",
+     "party": "GRN",
+     "votes": 11213,
+     "write_in": false,
+     "pct": 8.39,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 82,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 37,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-061"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "State Representative - District No.  8",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 84984,
+   "candidates": [
+    {
+     "name": "Janeen Connolly",
+     "party": "DEM",
+     "votes": 34453,
+     "write_in": false,
+     "pct": 40.54,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Garcia",
+     "party": "DEM",
+     "votes": 33945,
+     "write_in": false,
+     "pct": 39.94,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Donald Hawker",
+     "party": "REP",
+     "votes": 16352,
+     "write_in": false,
+     "pct": 19.24,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 234,
+     "write_in": true,
+     "pct": 0.28,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-062"
+  },
+  {
+   "office": "State House",
+   "district": "9",
+   "title": "State Representative - District No.  9",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 74792,
+   "candidates": [
+    {
+     "name": "Lorena Austin",
+     "party": "DEM",
+     "votes": 27566,
+     "write_in": false,
+     "pct": 36.86,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jacob D. Martinez",
+     "party": "DEM",
+     "votes": 27495,
+     "write_in": false,
+     "pct": 36.76,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Bradley D. Bettencourt",
+     "party": "REP",
+     "votes": 19410,
+     "write_in": false,
+     "pct": 25.95,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 321,
+     "write_in": true,
+     "pct": 0.43,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-063"
+  },
+  {
+   "office": "State House",
+   "district": "10",
+   "title": "State Representative - District No. 10",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 142800,
+   "candidates": [
+    {
+     "name": "Justin Olson",
+     "party": "REP",
+     "votes": 38733,
+     "write_in": false,
+     "pct": 27.12,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "James Rogers",
+     "party": "REP",
+     "votes": 37894,
+     "write_in": false,
+     "pct": 26.54,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Helen Hunter",
+     "party": "DEM",
+     "votes": 32713,
+     "write_in": false,
+     "pct": 22.91,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Calaway",
+     "party": "DEM",
+     "votes": 30966,
+     "write_in": false,
+     "pct": 21.68,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "David Scott",
+     "party": "NOL",
+     "votes": 2451,
+     "write_in": false,
+     "pct": 1.72,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 43,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-064"
+  },
+  {
+   "office": "State House",
+   "district": "11",
+   "title": "State Representative - District No. 11",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 82857,
+   "candidates": [
+    {
+     "name": "Oscar De Los Santos",
+     "party": "DEM",
+     "votes": 34062,
+     "write_in": false,
+     "pct": 41.11,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Junelle Cavero",
+     "party": "DEM",
+     "votes": 32831,
+     "write_in": false,
+     "pct": 39.62,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Charles Dailey",
+     "party": "REP",
+     "votes": 8037,
+     "write_in": false,
+     "pct": 9.7,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Cesar Aleman",
+     "party": "REP",
+     "votes": 7868,
+     "write_in": false,
+     "pct": 9.5,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 59,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-065"
+  },
+  {
+   "office": "State House",
+   "district": "12",
+   "title": "State Representative - District No. 12",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 124880,
+   "candidates": [
+    {
+     "name": "Stacey Travers",
+     "party": "DEM",
+     "votes": 48132,
+     "write_in": false,
+     "pct": 38.54,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Armando Montero",
+     "party": "DEM",
+     "votes": 47154,
+     "write_in": false,
+     "pct": 37.76,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "David Richardson",
+     "party": "REP",
+     "votes": 29262,
+     "write_in": false,
+     "pct": 23.43,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 332,
+     "write_in": true,
+     "pct": 0.27,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-066"
+  },
+  {
+   "office": "State House",
+   "district": "13",
+   "title": "State Representative - District No. 13",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 147401,
+   "candidates": [
+    {
+     "name": "Racquel \"Rockee\" Armstrong",
+     "party": "DEM",
+     "votes": 40251,
+     "write_in": false,
+     "pct": 27.31,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jacob Weinberg",
+     "party": "DEM",
+     "votes": 39864,
+     "write_in": false,
+     "pct": 27.04,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hartke",
+     "party": "REP",
+     "votes": 34847,
+     "write_in": false,
+     "pct": 23.64,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Janet Weninger",
+     "party": "REP",
+     "votes": 32372,
+     "write_in": false,
+     "pct": 21.96,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 67,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-067"
+  },
+  {
+   "office": "State House",
+   "district": "14",
+   "title": "State Representative - District No. 14",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 111126,
+   "candidates": [
+    {
+     "name": "Mary Rose",
+     "party": "DEM",
+     "votes": 38711,
+     "write_in": false,
+     "pct": 34.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tyler Andrew Farnsworth",
+     "party": "REP",
+     "votes": 36634,
+     "write_in": false,
+     "pct": 32.97,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Laurin Hendrix",
+     "party": "REP",
+     "votes": 35394,
+     "write_in": false,
+     "pct": 31.85,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 387,
+     "write_in": true,
+     "pct": 0.35,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-068"
+  },
+  {
+   "office": "State House",
+   "district": "15",
+   "title": "State Representative - District No. 15",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 93499,
+   "candidates": [
+    {
+     "name": "Neal Carter",
+     "party": "REP",
+     "votes": 46600,
+     "write_in": false,
+     "pct": 49.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Way",
+     "party": "REP",
+     "votes": 44425,
+     "write_in": false,
+     "pct": 47.51,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 2474,
+     "write_in": true,
+     "pct": 2.65,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-069"
+  },
+  {
+   "office": "State House",
+   "district": "16",
+   "title": "State Representative - District No. 16",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 92974,
+   "candidates": [
+    {
+     "name": "Julia Romero Gusse",
+     "party": "DEM",
+     "votes": 34164,
+     "write_in": false,
+     "pct": 36.75,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Teresa Martinez",
+     "party": "REP",
+     "votes": 29965,
+     "write_in": false,
+     "pct": 32.23,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Lopez",
+     "party": "REP",
+     "votes": 28423,
+     "write_in": false,
+     "pct": 30.57,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 355,
+     "write_in": true,
+     "pct": 0.38,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 67,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-070"
+  },
+  {
+   "office": "State House",
+   "district": "17",
+   "title": "State Representative - District No. 17",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 199051,
+   "candidates": [
+    {
+     "name": "Kevin Volk",
+     "party": "DEM",
+     "votes": 54249,
+     "write_in": false,
+     "pct": 27.25,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Hollace \"Holly\" Lyon",
+     "party": "DEM",
+     "votes": 54002,
+     "write_in": false,
+     "pct": 27.13,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "John Winchester",
+     "party": "REP",
+     "votes": 46384,
+     "write_in": false,
+     "pct": 23.3,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Rachel \"Jones\" Keshel",
+     "party": "REP",
+     "votes": 44308,
+     "write_in": false,
+     "pct": 22.26,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 107,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-071"
+  },
+  {
+   "office": "State House",
+   "district": "18",
+   "title": "State Representative - District No. 18",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 133530,
+   "candidates": [
+    {
+     "name": "Nancy Gutierrez",
+     "party": "DEM",
+     "votes": 53780,
+     "write_in": false,
+     "pct": 40.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Mathis",
+     "party": "DEM",
+     "votes": 50510,
+     "write_in": false,
+     "pct": 37.83,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Bob Dohse",
+     "party": "REP",
+     "votes": 28832,
+     "write_in": false,
+     "pct": 21.59,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 408,
+     "write_in": true,
+     "pct": 0.31,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-072"
+  },
+  {
+   "office": "State House",
+   "district": "19",
+   "title": "State Representative - District No. 19",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 144576,
+   "candidates": [
+    {
+     "name": "David Gowan",
+     "party": "REP",
+     "votes": 42797,
+     "write_in": false,
+     "pct": 29.6,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lupe Diaz",
+     "party": "REP",
+     "votes": 39261,
+     "write_in": false,
+     "pct": 27.16,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Jackie O'Donnell Anderson",
+     "party": "DEM",
+     "votes": 32048,
+     "write_in": false,
+     "pct": 22.17,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Aiden Nicholette Swallow",
+     "party": "DEM",
+     "votes": 30349,
+     "write_in": false,
+     "pct": 20.99,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 80,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 41,
+     "write_in": true,
+     "pct": 0.03,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-073"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "State Representative - District No. 20",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 66445,
+   "candidates": [
+    {
+     "name": "Sally Ann Gonzales",
+     "party": "DEM",
+     "votes": 32832,
+     "write_in": false,
+     "pct": 49.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Betty Villegas",
+     "party": "DEM",
+     "votes": 32262,
+     "write_in": false,
+     "pct": 48.55,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 1351,
+     "write_in": true,
+     "pct": 2.03,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-074"
+  },
+  {
+   "office": "State House",
+   "district": "21",
+   "title": "State Representative - District No. 21",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 78528,
+   "candidates": [
+    {
+     "name": "Miranda Lopez",
+     "party": "DEM",
+     "votes": 31413,
+     "write_in": false,
+     "pct": 40.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Consuelo Hernandez",
+     "party": "DEM",
+     "votes": 30238,
+     "write_in": false,
+     "pct": 38.51,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Christopher Kibbey",
+     "party": "REP",
+     "votes": 16527,
+     "write_in": false,
+     "pct": 21.05,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 343,
+     "write_in": true,
+     "pct": 0.44,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 7,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-075"
+  },
+  {
+   "office": "State House",
+   "district": "22",
+   "title": "State Representative - District No. 22",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 52791,
+   "candidates": [
+    {
+     "name": "Betsy Munoz",
+     "party": "DEM",
+     "votes": 25932,
+     "write_in": false,
+     "pct": 49.12,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Elda Luna-Nájera",
+     "party": "DEM",
+     "votes": 25445,
+     "write_in": false,
+     "pct": 48.2,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 1414,
+     "write_in": true,
+     "pct": 2.68,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-076"
+  },
+  {
+   "office": "State House",
+   "district": "23",
+   "title": "State Representative - District No. 23",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 76724,
+   "candidates": [
+    {
+     "name": "Mariana Sandoval",
+     "party": "DEM",
+     "votes": 24051,
+     "write_in": false,
+     "pct": 31.35,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Emilia Cortez",
+     "party": "DEM",
+     "votes": 24006,
+     "write_in": false,
+     "pct": 31.29,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Michele Peña",
+     "party": "REP",
+     "votes": 15015,
+     "write_in": false,
+     "pct": 19.57,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Garcia Snyder",
+     "party": "REP",
+     "votes": 13593,
+     "write_in": false,
+     "pct": 17.72,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 32,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 27,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-077"
+  },
+  {
+   "office": "State House",
+   "district": "24",
+   "title": "State Representative - District No. 24",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 49553,
+   "candidates": [
+    {
+     "name": "Alberto Flores",
+     "party": "DEM",
+     "votes": 20880,
+     "write_in": false,
+     "pct": 42.14,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lisbeth Arescurenaga",
+     "party": "DEM",
+     "votes": 20073,
+     "write_in": false,
+     "pct": 40.51,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Delores McLaughlin",
+     "party": "REP",
+     "votes": 8466,
+     "write_in": false,
+     "pct": 17.08,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 134,
+     "write_in": true,
+     "pct": 0.27,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-078"
+  },
+  {
+   "office": "State House",
+   "district": "25",
+   "title": "State Representative - District No. 25",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 100125,
+   "candidates": [
+    {
+     "name": "Michael Carbone",
+     "party": "REP",
+     "votes": 35302,
+     "write_in": false,
+     "pct": 35.26,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Nickolas \"Nick\" Kupper",
+     "party": "REP",
+     "votes": 32971,
+     "write_in": false,
+     "pct": 32.93,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Tiffany Byrne",
+     "party": "DEM",
+     "votes": 31527,
+     "write_in": false,
+     "pct": 31.49,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 263,
+     "write_in": true,
+     "pct": 0.26,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 62,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-079"
+  },
+  {
+   "office": "State House",
+   "district": "26",
+   "title": "State Representative - District No. 26",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 53405,
+   "candidates": [
+    {
+     "name": "Cesar Aguilar",
+     "party": "DEM",
+     "votes": 21093,
+     "write_in": false,
+     "pct": 39.5,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Quantá Crews",
+     "party": "DEM",
+     "votes": 19193,
+     "write_in": false,
+     "pct": 35.94,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Frank Roberts",
+     "party": "REP",
+     "votes": 6203,
+     "write_in": false,
+     "pct": 11.62,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Jonathan McKenna",
+     "party": "REP",
+     "votes": 5874,
+     "write_in": false,
+     "pct": 11.0,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Hector Gomez",
+     "party": "GRN",
+     "votes": 1011,
+     "write_in": false,
+     "pct": 1.89,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 31,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-080"
+  },
+  {
+   "office": "State House",
+   "district": "27",
+   "title": "State Representative - District No. 27",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 91678,
+   "candidates": [
+    {
+     "name": "Deborah Howard",
+     "party": "DEM",
+     "votes": 34025,
+     "write_in": false,
+     "pct": 37.11,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lisa Fink",
+     "party": "REP",
+     "votes": 28829,
+     "write_in": false,
+     "pct": 31.45,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Tony Rivero",
+     "party": "REP",
+     "votes": 28504,
+     "write_in": false,
+     "pct": 31.09,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 320,
+     "write_in": true,
+     "pct": 0.35,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-081"
+  },
+  {
+   "office": "State House",
+   "district": "28",
+   "title": "State Representative - District No. 28",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 188475,
+   "candidates": [
+    {
+     "name": "David Livingston",
+     "party": "REP",
+     "votes": 53937,
+     "write_in": false,
+     "pct": 28.62,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Beverly Pingerelli",
+     "party": "REP",
+     "votes": 53553,
+     "write_in": false,
+     "pct": 28.41,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Barbara Fike",
+     "party": "DEM",
+     "votes": 41185,
+     "write_in": false,
+     "pct": 21.85,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Marc Graham",
+     "party": "DEM",
+     "votes": 39714,
+     "write_in": false,
+     "pct": 21.07,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 86,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-082"
+  },
+  {
+   "office": "State House",
+   "district": "29",
+   "title": "State Representative - District No. 29",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 111356,
+   "candidates": [
+    {
+     "name": "Christine Marie Scianna",
+     "party": "DEM",
+     "votes": 37764,
+     "write_in": false,
+     "pct": 33.91,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Steve Montenegro",
+     "party": "REP",
+     "votes": 37158,
+     "write_in": false,
+     "pct": 33.37,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "James Taylor",
+     "party": "REP",
+     "votes": 36040,
+     "write_in": false,
+     "pct": 32.36,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 394,
+     "write_in": true,
+     "pct": 0.35,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-083"
+  },
+  {
+   "office": "State House",
+   "district": "30",
+   "title": "State Representative - District No. 30",
+   "vote_for": 2,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 117042,
+   "candidates": [
+    {
+     "name": "Mike Gannuscio",
+     "party": "REP",
+     "votes": 48914,
+     "write_in": false,
+     "pct": 41.79,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "David Rose",
+     "party": "REP",
+     "votes": 46980,
+     "write_in": false,
+     "pct": 40.14,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Brian McMahan",
+     "party": "DEM",
+     "votes": 20903,
+     "write_in": false,
+     "pct": 17.86,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Unassigned Write-in",
+     "party": null,
+     "votes": 230,
+     "write_in": true,
+     "pct": 0.2,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Unofficial Write-in",
+     "party": null,
+     "votes": 15,
+     "write_in": true,
+     "pct": 0.01,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "notes": "Vote for up to 2. Candidates are listed by votes; \"margin\" is not computed for multi-seat contests.",
+   "jurisdiction": null,
+   "id": "az-084"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 84,
+  "by_office": {
+   "Governor": 1,
+   "US House": 9,
+   "Statewide Office": 6,
+   "Ballot Measure": 8,
+   "State Senate": 30,
+   "State House": 30
+  }
+ }
+}

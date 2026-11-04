@@ -1,0 +1,802 @@
+{
+ "state": "PA",
+ "name": "Pennsylvania",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://www.electionreturns.pa.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://www.electionreturns.pa.gov/",
+ "retrieved_at": "2026-11-04T18:58:01Z",
+ "results_as_of": null,
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor and Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 4961146,
+   "candidates": [
+    {
+     "name": "Josh Shapiro / Austin Davis",
+     "party": "DEM",
+     "votes": 2990820,
+     "write_in": false,
+     "pct": 60.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Stacy Garrity / Jason L Richey",
+     "party": "REP",
+     "votes": 1906024,
+     "write_in": false,
+     "pct": 38.42,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Ken Krawchuk / John C Thomas",
+     "party": "LIB",
+     "votes": 64302,
+     "write_in": false,
+     "pct": 1.3,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Josh Shapiro / Austin Davis",
+   "margin_votes": 1084796,
+   "margin_pct": 21.86,
+   "jurisdiction": "Statewide",
+   "id": "pa-001"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "Representative in Congress, 1st Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 356481,
+   "candidates": [
+    {
+     "name": "Bob Harvie",
+     "party": "DEM",
+     "votes": 188011,
+     "write_in": false,
+     "pct": 52.74,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Fitzpatrick",
+     "party": "REP",
+     "votes": 168470,
+     "write_in": false,
+     "pct": 47.26,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Bob Harvie",
+   "margin_votes": 19541,
+   "margin_pct": 5.48,
+   "jurisdiction": null,
+   "id": "pa-002"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "Representative in Congress, 2nd Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 176576,
+   "candidates": [
+    {
+     "name": "Brendan F Boyle",
+     "party": "DEM",
+     "votes": 142142,
+     "write_in": false,
+     "pct": 80.5,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jessica Arriaga",
+     "party": "REP",
+     "votes": 34434,
+     "write_in": false,
+     "pct": 19.5,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Brendan F Boyle",
+   "margin_votes": 107708,
+   "margin_pct": 61.0,
+   "jurisdiction": null,
+   "id": "pa-003"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "Representative in Congress, 3rd Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 261732,
+   "candidates": [
+    {
+     "name": "Chris Rabb",
+     "party": "DEM",
+     "votes": 245020,
+     "write_in": false,
+     "pct": 93.61,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Dennis Mahoney",
+     "party": "TIP",
+     "votes": 16712,
+     "write_in": false,
+     "pct": 6.39,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Chris Rabb",
+   "margin_votes": 228308,
+   "margin_pct": 87.22,
+   "jurisdiction": null,
+   "id": "pa-004"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "Representative in Congress, 4th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 344889,
+   "candidates": [
+    {
+     "name": "Madeleine Dean",
+     "party": "DEM",
+     "votes": 231425,
+     "write_in": false,
+     "pct": 67.1,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Aurora Stuski",
+     "party": "REP",
+     "votes": 113464,
+     "write_in": false,
+     "pct": 32.9,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Madeleine Dean",
+   "margin_votes": 117961,
+   "margin_pct": 34.2,
+   "jurisdiction": null,
+   "id": "pa-005"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "Representative in Congress, 5th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 295577,
+   "candidates": [
+    {
+     "name": "Mary Gay Scanlon",
+     "party": "DEM",
+     "votes": 212884,
+     "write_in": false,
+     "pct": 72.02,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Nick Manganaro",
+     "party": "REP",
+     "votes": 82693,
+     "write_in": false,
+     "pct": 27.98,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Mary Gay Scanlon",
+   "margin_votes": 130191,
+   "margin_pct": 44.04,
+   "jurisdiction": null,
+   "id": "pa-006"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "Representative in Congress, 6th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 309012,
+   "candidates": [
+    {
+     "name": "Chrissy Houlahan",
+     "party": "DEM",
+     "votes": 198715,
+     "write_in": false,
+     "pct": 64.31,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Marty Young",
+     "party": "REP",
+     "votes": 110297,
+     "write_in": false,
+     "pct": 35.69,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Chrissy Houlahan",
+   "margin_votes": 88418,
+   "margin_pct": 28.62,
+   "jurisdiction": null,
+   "id": "pa-007"
+  },
+  {
+   "office": "US House",
+   "district": "7",
+   "title": "Representative in Congress, 7th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 293025,
+   "candidates": [
+    {
+     "name": "Bob Brooks",
+     "party": "DEM",
+     "votes": 164370,
+     "write_in": false,
+     "pct": 56.09,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ryan Mackenzie",
+     "party": "REP",
+     "votes": 128655,
+     "write_in": false,
+     "pct": 43.91,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Bob Brooks",
+   "margin_votes": 35715,
+   "margin_pct": 12.18,
+   "jurisdiction": null,
+   "id": "pa-008"
+  },
+  {
+   "office": "US House",
+   "district": "8",
+   "title": "Representative in Congress, 8th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 280664,
+   "candidates": [
+    {
+     "name": "Paige Cognetti",
+     "party": "DEM",
+     "votes": 152583,
+     "write_in": false,
+     "pct": 54.37,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Rob Bresnahan Jr",
+     "party": "REP",
+     "votes": 128081,
+     "write_in": false,
+     "pct": 45.63,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Paige Cognetti",
+   "margin_votes": 24502,
+   "margin_pct": 8.74,
+   "jurisdiction": null,
+   "id": "pa-009"
+  },
+  {
+   "office": "US House",
+   "district": "9",
+   "title": "Representative in Congress, 9th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 267678,
+   "candidates": [
+    {
+     "name": "Dan Meuser",
+     "party": "REP",
+     "votes": 165216,
+     "write_in": false,
+     "pct": 61.72,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Rachel Wallace",
+     "party": "DEM",
+     "votes": 102462,
+     "write_in": false,
+     "pct": 38.28,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Dan Meuser",
+   "margin_votes": 62754,
+   "margin_pct": 23.44,
+   "jurisdiction": null,
+   "id": "pa-010"
+  },
+  {
+   "office": "US House",
+   "district": "10",
+   "title": "Representative in Congress, 10th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 315904,
+   "candidates": [
+    {
+     "name": "Janelle Stelson",
+     "party": "DEM",
+     "votes": 173845,
+     "write_in": false,
+     "pct": 55.03,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Scott Perry",
+     "party": "REP",
+     "votes": 142059,
+     "write_in": false,
+     "pct": 44.97,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Janelle Stelson",
+   "margin_votes": 31786,
+   "margin_pct": 10.06,
+   "jurisdiction": null,
+   "id": "pa-011"
+  },
+  {
+   "office": "US House",
+   "district": "11",
+   "title": "Representative in Congress, 11th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 301155,
+   "candidates": [
+    {
+     "name": "Lloyd K Smucker",
+     "party": "REP",
+     "votes": 167322,
+     "write_in": false,
+     "pct": 55.56,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Nancy Mannion",
+     "party": "DEM",
+     "votes": 133833,
+     "write_in": false,
+     "pct": 44.44,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Lloyd K Smucker",
+   "margin_votes": 33489,
+   "margin_pct": 11.12,
+   "jurisdiction": null,
+   "id": "pa-012"
+  },
+  {
+   "office": "US House",
+   "district": "12",
+   "title": "Representative in Congress, 12th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 295901,
+   "candidates": [
+    {
+     "name": "Summer Lee",
+     "party": "DEM",
+     "votes": 193488,
+     "write_in": false,
+     "pct": 65.39,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "James Hayes",
+     "party": "REP",
+     "votes": 102413,
+     "write_in": false,
+     "pct": 34.61,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Summer Lee",
+   "margin_votes": 91075,
+   "margin_pct": 30.78,
+   "jurisdiction": null,
+   "id": "pa-013"
+  },
+  {
+   "office": "US House",
+   "district": "13",
+   "title": "Representative in Congress, 13th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 280328,
+   "candidates": [
+    {
+     "name": "John Joyce",
+     "party": "REP",
+     "votes": 189426,
+     "write_in": false,
+     "pct": 67.57,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Beth Farnham",
+     "party": "DEM",
+     "votes": 90902,
+     "write_in": false,
+     "pct": 32.43,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "John Joyce",
+   "margin_votes": 98524,
+   "margin_pct": 35.14,
+   "jurisdiction": null,
+   "id": "pa-014"
+  },
+  {
+   "office": "US House",
+   "district": "14",
+   "title": "Representative in Congress, 14th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 275490,
+   "candidates": [
+    {
+     "name": "Guy Reschenthaler",
+     "party": "REP",
+     "votes": 158743,
+     "write_in": false,
+     "pct": 57.62,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Alan Bradstock",
+     "party": "DEM",
+     "votes": 116747,
+     "write_in": false,
+     "pct": 42.38,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Guy Reschenthaler",
+   "margin_votes": 41996,
+   "margin_pct": 15.24,
+   "jurisdiction": null,
+   "id": "pa-015"
+  },
+  {
+   "office": "US House",
+   "district": "15",
+   "title": "Representative in Congress, 15th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 267458,
+   "candidates": [
+    {
+     "name": "Glenn Gt Thompson",
+     "party": "REP",
+     "votes": 170977,
+     "write_in": false,
+     "pct": 63.93,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ray Bilger",
+     "party": "DEM",
+     "votes": 96481,
+     "write_in": false,
+     "pct": 36.07,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Glenn Gt Thompson",
+   "margin_votes": 74496,
+   "margin_pct": 27.86,
+   "jurisdiction": null,
+   "id": "pa-016"
+  },
+  {
+   "office": "US House",
+   "district": "16",
+   "title": "Representative in Congress, 16th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 285720,
+   "candidates": [
+    {
+     "name": "Mike Kelly",
+     "party": "REP",
+     "votes": 154125,
+     "write_in": false,
+     "pct": 53.94,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Justin Wagner",
+     "party": "DEM",
+     "votes": 131595,
+     "write_in": false,
+     "pct": 46.06,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Mike Kelly",
+   "margin_votes": 22530,
+   "margin_pct": 7.88,
+   "jurisdiction": null,
+   "id": "pa-017"
+  },
+  {
+   "office": "US House",
+   "district": "17",
+   "title": "Representative in Congress, 17th Congressional District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 330630,
+   "candidates": [
+    {
+     "name": "Chris Deluzio",
+     "party": "DEM",
+     "votes": 207711,
+     "write_in": false,
+     "pct": 62.82,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Tony Guy",
+     "party": "REP",
+     "votes": 122919,
+     "write_in": false,
+     "pct": 37.18,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "voting districts (in-person ballots reporting)",
+    "reporting": 8931,
+    "total": 9065
+   },
+   "results_as_of": null,
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "leading": "Chris Deluzio",
+   "margin_votes": 84792,
+   "margin_pct": 25.64,
+   "jurisdiction": null,
+   "id": "pa-018"
+  }
+ ],
+ "notes": "Source banner: 8,931 Out of 9,065 Districts (98.52%)  - IN PERSON BALLOT REPORTING ONLY",
+ "official_pdfs": null,
+ "summary": {
+  "contests": 18,
+  "by_office": {
+   "Governor": 1,
+   "US House": 17
+  }
+ }
+}

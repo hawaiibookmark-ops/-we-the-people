@@ -1,0 +1,152 @@
+{
+ "AL": {
+  "results": "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2026"
+ },
+ "AK": {
+  "results": "https://www.elections.alaska.gov/results/"
+ },
+ "AZ": {
+  "results": "https://results.arizona.vote/"
+ },
+ "AR": {
+  "results": "https://arkansas.tally-enr.com/"
+ },
+ "CA": {
+  "results": "https://electionresults.sos.ca.gov/"
+ },
+ "CO": {
+  "results": "https://results.enr.clarityelections.com/CO/127407/"
+ },
+ "CT": {
+  "results": "https://ctemspublic.tgstg.net/"
+ },
+ "DE": {
+  "results": "https://elections.delaware.gov/results/enr/GE2026.html"
+ },
+ "FL": {
+  "results": "https://floridaelectionwatch.gov/"
+ },
+ "GA": {
+  "results": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection"
+ },
+ "HI": {
+  "results": "https://elections.hawaii.gov/election-results/"
+ },
+ "ID": {
+  "results": "https://results.voteidaho.gov/results/public/id/elections/nov2026"
+ },
+ "IL": {
+  "results": "https://elections.il.gov/electionoperations/ElectionVoteTotals.aspx"
+ },
+ "IN": {
+  "results": "https://enr.indianavoters.in.gov/"
+ },
+ "IA": {
+  "results": "https://electionresults.iowa.gov/IA/127077/"
+ },
+ "KS": {
+  "results": "https://sos.ks.gov/elections/election-results.html"
+ },
+ "KY": {
+  "results": "https://elect.ky.gov/results/2020-2029/Pages/2026.aspx"
+ },
+ "LA": {
+  "results": "https://voterportal.sos.la.gov/graphical"
+ },
+ "ME": {
+  "results": "https://www.maine.gov/sos/elections-voting/election-results-data"
+ },
+ "MD": {
+  "results": "https://elections.maryland.gov/elections/2026/General_results/ElectionResultsDashboard.html"
+ },
+ "MA": {
+  "results": "https://electionstats.state.ma.us/"
+ },
+ "MI": {
+  "results": "https://mielections.us/election/results/"
+ },
+ "MN": {
+  "results": "https://electionresults.sos.mn.gov/"
+ },
+ "MS": {
+  "results": "https://www.sos.ms.gov/elections-voting/election-results"
+ },
+ "MO": {
+  "results": "https://enr.sos.mo.gov/"
+ },
+ "MT": {
+  "results": "https://electionresults.mt.gov/"
+ },
+ "NE": {
+  "results": "https://electionresults.nebraska.gov/"
+ },
+ "NV": {
+  "results": "https://silverstateelection.nv.gov/"
+ },
+ "NH": {
+  "results": "https://www.sos.nh.gov/2026-general-election-results"
+ },
+ "NJ": {
+  "results": "https://www.nj.gov/state/elections/election-information-2026.shtml"
+ },
+ "NM": {
+  "results": "https://electionresults.sos.nm.gov/"
+ },
+ "NY": {
+  "results": "https://nyenr.elections.ny.gov/"
+ },
+ "NC": {
+  "results": "https://er.ncsbe.gov/"
+ },
+ "ND": {
+  "results": "https://results.sos.nd.gov/"
+ },
+ "OH": {
+  "results": "https://liveresults.ohiosos.gov/"
+ },
+ "OK": {
+  "results": "https://results.okelections.us/"
+ },
+ "OR": {
+  "results": "https://results.oregonvotes.gov/"
+ },
+ "PA": {
+  "results": "https://www.electionreturns.pa.gov/"
+ },
+ "RI": {
+  "results": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection"
+ },
+ "SC": {
+  "results": "https://www.enr-scvotes.org/SC/"
+ },
+ "SD": {
+  "results": "https://electionresults.sd.gov/"
+ },
+ "TN": {
+  "results": "https://elections.tn.gov/"
+ },
+ "TX": {
+  "results": "https://results.texas-election.com/"
+ },
+ "UT": {
+  "results": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026"
+ },
+ "VT": {
+  "results": "https://electionresults.vermont.gov/"
+ },
+ "VA": {
+  "results": "https://enr.elections.virginia.gov/results/public/virginia/2026-November-General"
+ },
+ "WA": {
+  "results": "https://results.votewa.gov/results/public/washington/elections/20261103"
+ },
+ "WV": {
+  "results": "https://apps.sos.wv.gov/elections/results/"
+ },
+ "WI": {
+  "results": "https://elections.wi.gov/elections/election-results/results-all"
+ },
+ "WY": {
+  "results": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+ }
+}

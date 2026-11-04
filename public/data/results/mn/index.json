@@ -1,0 +1,630 @@
+{
+ "state": "MN",
+ "name": "Minnesota",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.sos.mn.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.sos.mn.gov/",
+ "retrieved_at": "2026-11-04T18:27:32Z",
+ "results_as_of": null,
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "U.S. Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2831780,
+   "candidates": [
+    {
+     "name": "Peggy Flanagan",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 1520867,
+     "write_in": false,
+     "pct": 53.71,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michele Tafoya",
+     "party": "Republican",
+     "votes": 1233470,
+     "write_in": false,
+     "pct": 43.56,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Marisa Simonetti",
+     "party": "Independent",
+     "votes": 41573,
+     "write_in": false,
+     "pct": 1.47,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Rebecca Whiting",
+     "party": "Libertarian",
+     "votes": 32492,
+     "write_in": false,
+     "pct": 1.15,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "Write-In",
+     "votes": 3378,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USSenate&officeInElectionIdList=38485&officeInElectionIdList=-1",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Peggy Flanagan",
+   "margin_votes": 287397,
+   "margin_pct": 10.15,
+   "jurisdiction": "Statewide",
+   "id": "mn-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor & Lt Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2830154,
+   "candidates": [
+    {
+     "name": "Amy Klobuchar and Ben Schierer",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 1569696,
+     "write_in": false,
+     "pct": 55.46,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lisa Demuth and Ryan Wilson",
+     "party": "Republican",
+     "votes": 1206582,
+     "write_in": false,
+     "pct": 42.63,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Steven Young and Jane Kirby",
+     "party": "Green",
+     "votes": 51402,
+     "write_in": false,
+     "pct": 1.82,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Write-In",
+     "party": "Write-In",
+     "votes": 2474,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=Governor&officeInElectionId=38695",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Amy Klobuchar and Ben Schierer",
+   "margin_votes": 363114,
+   "margin_pct": 12.83,
+   "jurisdiction": "Statewide",
+   "id": "mn-002"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "U.S. Representative District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 326180,
+   "candidates": [
+    {
+     "name": "Jake Johnson",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 163056,
+     "write_in": false,
+     "pct": 49.99,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Brad Finstad",
+     "party": "Republican",
+     "votes": 162733,
+     "write_in": false,
+     "pct": 49.89,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "WRITE-IN",
+     "votes": 391,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 750,
+    "total": 750
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USRepresentative",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Jake Johnson",
+   "margin_votes": 323,
+   "margin_pct": 0.1,
+   "jurisdiction": "Statewide",
+   "id": "mn-003"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "U.S. Representative District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 375226,
+   "candidates": [
+    {
+     "name": "Matt Little",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 214255,
+     "write_in": false,
+     "pct": 57.1,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Eric Pratt",
+     "party": "Republican",
+     "votes": 160636,
+     "write_in": false,
+     "pct": 42.81,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "WRITE-IN",
+     "votes": 335,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 260,
+    "total": 260
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USRepresentative",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Matt Little",
+   "margin_votes": 53619,
+   "margin_pct": 14.29,
+   "jurisdiction": "Statewide",
+   "id": "mn-004"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "U.S. Representative District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 377997,
+   "candidates": [
+    {
+     "name": "Kelly Morrison",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 242079,
+     "write_in": false,
+     "pct": 64.04,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Tyler Bass",
+     "party": "Republican",
+     "votes": 135505,
+     "write_in": false,
+     "pct": 35.85,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "WRITE-IN",
+     "votes": 413,
+     "write_in": true,
+     "pct": 0.11,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 229,
+    "total": 229
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USRepresentative",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Kelly Morrison",
+   "margin_votes": 106574,
+   "margin_pct": 28.19,
+   "jurisdiction": "Statewide",
+   "id": "mn-005"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "U.S. Representative District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 336244,
+   "candidates": [
+    {
+     "name": "Betty McCollum",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 245699,
+     "write_in": false,
+     "pct": 73.07,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Paul Wikstrom",
+     "party": "Republican",
+     "votes": 90068,
+     "write_in": false,
+     "pct": 26.79,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "WRITE-IN",
+     "votes": 477,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 212,
+    "total": 212
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USRepresentative",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Betty McCollum",
+   "margin_votes": 155631,
+   "margin_pct": 46.28,
+   "jurisdiction": "Statewide",
+   "id": "mn-006"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "U.S. Representative District 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 343508,
+   "candidates": [
+    {
+     "name": "Ilhan Omar",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 262702,
+     "write_in": false,
+     "pct": 76.48,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "John Nagel",
+     "party": "Republican",
+     "votes": 55765,
+     "write_in": false,
+     "pct": 16.23,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "DeVelle L. Jackson",
+     "party": "Independent",
+     "votes": 24110,
+     "write_in": false,
+     "pct": 7.02,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "WRITE-IN",
+     "votes": 931,
+     "write_in": true,
+     "pct": 0.27,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 217,
+    "total": 217
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USRepresentative",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Ilhan Omar",
+   "margin_votes": 206937,
+   "margin_pct": 60.25,
+   "jurisdiction": "Statewide",
+   "id": "mn-007"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "U.S. Representative District 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 367346,
+   "candidates": [
+    {
+     "name": "Tom Emmer",
+     "party": "Republican",
+     "votes": 204705,
+     "write_in": false,
+     "pct": 55.73,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Doug Chapin",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 162214,
+     "write_in": false,
+     "pct": 44.16,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "WRITE-IN",
+     "votes": 427,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 276,
+    "total": 276
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USRepresentative",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Tom Emmer",
+   "margin_votes": 42491,
+   "margin_pct": 11.57,
+   "jurisdiction": "Statewide",
+   "id": "mn-008"
+  },
+  {
+   "office": "US House",
+   "district": "7",
+   "title": "U.S. Representative District 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 330629,
+   "candidates": [
+    {
+     "name": "Michelle Fischbach",
+     "party": "Republican",
+     "votes": 214505,
+     "write_in": false,
+     "pct": 64.88,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Erik Osberg",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 115804,
+     "write_in": false,
+     "pct": 35.03,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "WRITE-IN",
+     "votes": 320,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 1327,
+    "total": 1327
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USRepresentative",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Michelle Fischbach",
+   "margin_votes": 98701,
+   "margin_pct": 29.85,
+   "jurisdiction": "Statewide",
+   "id": "mn-009"
+  },
+  {
+   "office": "US House",
+   "district": "8",
+   "title": "U.S. Representative District 8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 359453,
+   "candidates": [
+    {
+     "name": "Pete Stauber",
+     "party": "Republican",
+     "votes": 190744,
+     "write_in": false,
+     "pct": 53.07,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Trina Swanson",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 168350,
+     "write_in": false,
+     "pct": 46.84,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": "WRITE-IN",
+     "votes": 359,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 834,
+    "total": 834
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=USRepresentative",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Pete Stauber",
+   "margin_votes": 22394,
+   "margin_pct": 6.23,
+   "jurisdiction": "Statewide",
+   "id": "mn-010"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "State Auditor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2784718,
+   "candidates": [
+    {
+     "name": "Zack Filipovich",
+     "party": "Democratic-Farmer-Labor",
+     "votes": 1473980,
+     "write_in": false,
+     "pct": 52.93,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Scott Jensen",
+     "party": "Republican",
+     "votes": 1230208,
+     "write_in": false,
+     "pct": 44.18,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Jay Reeves",
+     "party": "Forward Independence",
+     "votes": 79001,
+     "write_in": false,
+     "pct": 2.84,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Write-In",
+     "party": "Write-In",
+     "votes": 1529,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://electionresults.sos.mn.gov/Results/Index?ersElectionId=201&scenario=StateAuditor&officeInElectionId=38697",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "leading": "Zack Filipovich",
+   "margin_votes": 243772,
+   "margin_pct": 8.75,
+   "jurisdiction": "Statewide",
+   "id": "mn-011"
+  }
+ ],
+ "notes": "Minnesota's results site blocked further automated requests (bot-manager challenge) after the first pass. Retrieved: U.S. Senate, U.S. House 1-8, Governor and State Auditor. Not retrieved: Secretary of State, Attorney General and the constitutional amendment. See the official site for those.",
+ "official_pdfs": null,
+ "summary": {
+  "contests": 11,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 8,
+   "Statewide Office": 1
+  }
+ }
+}

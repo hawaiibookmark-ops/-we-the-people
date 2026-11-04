@@ -1,0 +1,18 @@
+{
+ "state": "WI",
+ "name": "Wisconsin",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://elections.wi.gov/elections/election-results/results-all"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://elections.wi.gov/elections/election-results/results-all",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Wisconsin Elections Commission results page listed 2026 primary and spring results only at retrieval; general-election results are posted after the county canvass.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

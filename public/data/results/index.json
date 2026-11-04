@@ -1,0 +1,813 @@
+{
+ "product": "We The People",
+ "section": "Election Results",
+ "election_date": "2026-11-03",
+ "generated_at": "2026-11-04T19:00:21Z",
+ "status_label": "Unofficial — not yet certified",
+ "rules": [
+  "Official state sources only. No news outlets, AP, Ballotpedia or BallotReady.",
+  "All counts are unofficial and not yet certified; they change as counties report and states canvass.",
+  "\"Leading\" means highest vote count in the source at retrieval time. It is not a race call.",
+  "Vote share is each choice's share of votes cast for listed choices in that contest. It can differ from a source that includes blank votes in the base.",
+  "Incumbent flags come from the official FEC candidate file where available. Blank means the source did not say."
+ ],
+ "states": [
+  {
+   "state": "AL",
+   "name": "Alabama",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2026",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "al/index.json",
+   "notes": "The Alabama Secretary of State 2026 election page listed primary and runoff results and certifications only; no November 3 general-election results were posted there at retrieval."
+  },
+  {
+   "state": "AK",
+   "name": "Alaska",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://www.elections.alaska.gov/results/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "ak/index.json",
+   "notes": "The Alaska Division of Elections results site (elections.alaska.gov) failed TLS certificate validation at retrieval, so it was not read."
+  },
+  {
+   "state": "AZ",
+   "name": "Arizona",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 84,
+   "by_office": {
+    "Governor": 1,
+    "US House": 9,
+    "Statewide Office": 6,
+    "Ballot Measure": 8,
+    "State Senate": 30,
+    "State House": 30
+   },
+   "source_url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+   "retrieved_at": "2026-11-04T18:46:16Z",
+   "results_as_of": "2026-11-04T12:19:08.2180528Z",
+   "file": "az/index.json",
+   "notes": null
+  },
+  {
+   "state": "AR",
+   "name": "Arkansas",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 135,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 4,
+    "Statewide Office": 6,
+    "Ballot Measure": 4,
+    "State Senate": 18,
+    "State House": 101
+   },
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "file": "ar/index.json",
+   "notes": null
+  },
+  {
+   "state": "CA",
+   "name": "California",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://electionresults.sos.ca.gov/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "ca/index.json",
+   "notes": "Not published here: the California Secretary of State results API (api.sos.ca.gov/returns) returned figures but its county status endpoint still showed September 16, 2024 timestamps, so the feed could not be confirmed as the live 2026 count. See the official results site."
+  },
+  {
+   "state": "CO",
+   "name": "Colorado",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 24,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 8,
+    "Ballot Measure": 14
+   },
+   "source_url": "https://results.enr.clarityelections.com/CO/127407/",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "results_as_of": null,
+   "file": "co/index.json",
+   "notes": null
+  },
+  {
+   "state": "CT",
+   "name": "Connecticut",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 6,
+   "by_office": {
+    "Governor": 1,
+    "US House": 5
+   },
+   "source_url": "https://ctemspublic.tgstg.net/",
+   "retrieved_at": "2026-11-04T18:58:07Z",
+   "results_as_of": null,
+   "file": "ct/index.json",
+   "notes": "Connecticut State Election Night Reporting: 708 of 775 (91.35%) precincts; 161 of 169 towns reporting. A candidate listed on more than one party line is shown once with votes summed across lines (per-line votes kept in party_lines)."
+  },
+  {
+   "state": "DE",
+   "name": "Delaware",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 57,
+   "by_office": {
+    "US Senate": 1,
+    "US House": 1,
+    "Statewide Office": 3,
+    "State Senate": 11,
+    "State House": 41
+   },
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "file": "de/index.json",
+   "notes": null
+  },
+  {
+   "state": "FL",
+   "name": "Florida",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 32,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 27,
+    "Ballot Measure": 3
+   },
+   "source_url": "https://floridaelectionwatch.gov/",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "results_as_of": null,
+   "file": "fl/index.json",
+   "notes": null
+  },
+  {
+   "state": "GA",
+   "name": "Georgia",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 259,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 14,
+    "Statewide Office": 7,
+    "State Senate": 56,
+    "State House": 180
+   },
+   "source_url": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection",
+   "retrieved_at": "2026-11-04T18:57:55Z",
+   "results_as_of": "2026-11-04T09:19:07.4133015Z",
+   "file": "ga/index.json",
+   "notes": null
+  },
+  {
+   "state": "HI",
+   "name": "Hawaii",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 92,
+   "by_office": {
+    "Governor": 1,
+    "US House": 2,
+    "Ballot Measure (statewide)": 2,
+    "State Senate": 6,
+    "State House": 31,
+    "OHA Trustee": 3,
+    "County Mayor": 2,
+    "County Council": 15,
+    "Ballot Measure (county)": 30
+   },
+   "source_url": "https://elections.hawaii.gov/election-results/",
+   "retrieved_at": "2026-11-04T18:57:59Z",
+   "results_as_of": "Wed, 04 Nov 2026 18:57:53 GMT",
+   "file": "hi/index.json",
+   "notes": null
+  },
+  {
+   "state": "ID",
+   "name": "Idaho",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 118,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 2,
+    "Statewide Office": 5,
+    "Ballot Measure": 4,
+    "State Senate": 35,
+    "State House": 70
+   },
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "file": "id/index.json",
+   "notes": null
+  },
+  {
+   "state": "IL",
+   "name": "Illinois",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://elections.il.gov/electionoperations/ElectionVoteTotals.aspx",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "il/index.json",
+   "notes": "The Illinois State Board of Elections vote-totals page listed only the 2026 General Primary at retrieval; November 3 general-election totals were not yet posted."
+  },
+  {
+   "state": "IN",
+   "name": "Indiana",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 9,
+   "by_office": {
+    "US House": 9
+   },
+   "source_url": "https://enr.indianavoters.in.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "results_as_of": "2026-11-04T13:02:28.697 (Indiana local time)",
+   "file": "in/index.json",
+   "notes": null
+  },
+  {
+   "state": "IA",
+   "name": "Iowa",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 7,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 4,
+    "Ballot Measure": 1
+   },
+   "source_url": "https://electionresults.iowa.gov/IA/127077/",
+   "retrieved_at": "2026-11-04T18:57:58Z",
+   "results_as_of": null,
+   "file": "ia/index.json",
+   "notes": null
+  },
+  {
+   "state": "KS",
+   "name": "Kansas",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://sos.ks.gov/elections/election-results.html",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "ks/index.json",
+   "notes": "The Kansas Secretary of State results page listed 2026 primary files only at retrieval; no November 3 general-election results were posted."
+  },
+  {
+   "state": "KY",
+   "name": "Kentucky",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://elect.ky.gov/results/2020-2029/Pages/2026.aspx",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "ky/index.json",
+   "notes": "The Kentucky State Board of Elections 2026 results page listed primary recap sheets only at retrieval; no November 3 general-election results were posted."
+  },
+  {
+   "state": "LA",
+   "name": "Louisiana",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 17,
+   "by_office": {
+    "US Senate": 1,
+    "US House": 6,
+    "Ballot Measure": 10
+   },
+   "source_url": "https://voterportal.sos.la.gov/graphical",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "file": "la/index.json",
+   "notes": null
+  },
+  {
+   "state": "ME",
+   "name": "Maine",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://www.maine.gov/sos/elections-voting/election-results-data",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "me/index.json",
+   "notes": "The Maine Secretary of State results pages returned HTTP 403 to automated requests at retrieval, so they were not read."
+  },
+  {
+   "state": "MD",
+   "name": "Maryland",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 14,
+   "by_office": {
+    "Governor": 1,
+    "US House": 8,
+    "Statewide Office": 2,
+    "Ballot Measure": 3
+   },
+   "source_url": "https://elections.maryland.gov/elections/2026/General_results/ElectionResultsDashboard.html",
+   "retrieved_at": "2026-11-04T18:58:08Z",
+   "results_as_of": "11/04/2026 09:21:22 AM (Eastern Time, per source)",
+   "file": "md/index.json",
+   "notes": null
+  },
+  {
+   "state": "MA",
+   "name": "Massachusetts",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://electionstats.state.ma.us/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "ma/index.json",
+   "notes": "The Massachusetts Elections Division database (electionstats.state.ma.us) listed only 2026 special elections at retrieval; the November 3 state general election was not yet loaded."
+  },
+  {
+   "state": "MI",
+   "name": "Michigan",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://mielections.us/election/results/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "mi/index.json",
+   "notes": "The Michigan Department of State results site (mielections.us) did not accept a connection at retrieval."
+  },
+  {
+   "state": "MN",
+   "name": "Minnesota",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 11,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 8,
+    "Statewide Office": 1
+   },
+   "source_url": "https://electionresults.sos.mn.gov/",
+   "retrieved_at": "2026-11-04T18:27:32Z",
+   "results_as_of": null,
+   "file": "mn/index.json",
+   "notes": "Minnesota's results site blocked further automated requests (bot-manager challenge) after the first pass. Retrieved: U.S. Senate, U.S. House 1-8, Governor and State Auditor. Not retrieved: Secretary of State, Attorney General and the constitutional amendment. See the official site for those."
+  },
+  {
+   "state": "MS",
+   "name": "Mississippi",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://www.sos.ms.gov/elections-voting/election-results",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "ms/index.json",
+   "notes": "The Mississippi Secretary of State results page listed March 2026 primary results only at retrieval; no November 3 results were posted."
+  },
+  {
+   "state": "MO",
+   "name": "Missouri",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://enr.sos.mo.gov/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "mo/index.json",
+   "notes": "The Missouri Secretary of State election-night site (enr.sos.mo.gov) is protected by a Cloudflare challenge that blocked automated page loads after the first page. We did not try to get around it."
+  },
+  {
+   "state": "MT",
+   "name": "Montana",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 6,
+   "by_office": {
+    "US Senate": 1,
+    "US House": 2,
+    "Ballot Measure": 3
+   },
+   "source_url": "https://electionresults.mt.gov/",
+   "retrieved_at": "2026-11-04T19:00:04Z",
+   "results_as_of": "11/4/2026 11:55:23 AM MT (MT)",
+   "file": "mt/index.json",
+   "notes": null
+  },
+  {
+   "state": "NE",
+   "name": "Nebraska",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 5,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 3
+   },
+   "source_url": "https://electionresults.nebraska.gov/",
+   "retrieved_at": "2026-11-04T18:59:47Z",
+   "results_as_of": "11/4/2026 5:58 AM CT (CT)",
+   "file": "ne/index.json",
+   "notes": null
+  },
+  {
+   "state": "NV",
+   "name": "Nevada",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 7,
+   "by_office": {
+    "Governor": 1,
+    "US House": 4,
+    "Ballot Measure": 2
+   },
+   "source_url": "https://silverstateelection.nv.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "results_as_of": "2026-11-04T11:04:42.5025889Z",
+   "file": "nv/index.json",
+   "notes": null
+  },
+  {
+   "state": "NH",
+   "name": "New Hampshire",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://www.sos.nh.gov/2026-general-election-results",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "nh/index.json",
+   "notes": "The New Hampshire Secretary of State 2026 General Election Results page lists each contest but says results will be linked when complete; no results files were linked at retrieval."
+  },
+  {
+   "state": "NJ",
+   "name": "New Jersey",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://www.nj.gov/state/elections/election-information-2026.shtml",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "nj/index.json",
+   "notes": "The New Jersey Division of Elections 2026 page listed candidate lists and primary results only at retrieval; no November 3 general-election results were posted."
+  },
+  {
+   "state": "NM",
+   "name": "New Mexico",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 8,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 3,
+    "Ballot Measure": 3
+   },
+   "source_url": "https://electionresults.sos.nm.gov/",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "results_as_of": "11/4/2026 4:56 AM MT (MT)",
+   "file": "nm/index.json",
+   "notes": null
+  },
+  {
+   "state": "NY",
+   "name": "New York",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 242,
+   "by_office": {
+    "Governor": 1,
+    "US House": 26,
+    "Statewide Office": 2,
+    "State Senate": 63,
+    "State House": 150
+   },
+   "source_url": "https://nyenr.elections.ny.gov/HomeNoJS.aspx",
+   "retrieved_at": "2026-11-04T18:58:10Z",
+   "results_as_of": "11/04/2026 12:21:02 PM (Eastern Time, per source)",
+   "file": "ny/index.json",
+   "notes": "New York State Board of Elections states on this page: \"these results do not include a significant number of unscanned emergency Election Day ballots from Westchester County. Accordingly, the results are incomplete and are subject to change as additional ballots are scanned and tabulated.\""
+  },
+  {
+   "state": "NC",
+   "name": "North Carolina",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 18,
+   "by_office": {
+    "US Senate": 1,
+    "US House": 14,
+    "Ballot Measure": 3
+   },
+   "source_url": "https://er.ncsbe.gov/?election_dt=11/03/2026&county_id=0&office=FED&contest=0",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "results_as_of": "Wed, 04 Nov 2026 11:40:40 GMT",
+   "file": "nc/index.json",
+   "notes": null
+  },
+  {
+   "state": "ND",
+   "name": "North Dakota",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://results.sos.nd.gov/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "nd/index.json",
+   "notes": "The North Dakota Secretary of State results site (results.sos.nd.gov) still displayed the 2024 General Election at retrieval; the 2026 general had not been loaded."
+  },
+  {
+   "state": "OH",
+   "name": "Ohio",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://liveresults.ohiosos.gov/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "oh/index.json",
+   "notes": "The Ohio Secretary of State live results site (liveresults.ohiosos.gov) served an interactive Cloudflare challenge that automated reads cannot complete. We did not try to get around it."
+  },
+  {
+   "state": "OK",
+   "name": "Oklahoma",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://results.okelections.us/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "ok/index.json",
+   "notes": "The Oklahoma State Election Board results site (results.okelections.us) returned HTTP 403 to automated requests at retrieval."
+  },
+  {
+   "state": "OR",
+   "name": "Oregon",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 8,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 6
+   },
+   "source_url": "https://results.oregonvotes.gov/",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "results_as_of": "11/4/2026 | 10:45 AM PT (Pacific Time, per source)",
+   "file": "or/index.json",
+   "notes": null
+  },
+  {
+   "state": "PA",
+   "name": "Pennsylvania",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 18,
+   "by_office": {
+    "Governor": 1,
+    "US House": 17
+   },
+   "source_url": "https://www.electionreturns.pa.gov/",
+   "retrieved_at": "2026-11-04T18:58:01Z",
+   "results_as_of": null,
+   "file": "pa/index.json",
+   "notes": "Source banner: 8,931 Out of 9,065 Districts (98.52%)  - IN PERSON BALLOT REPORTING ONLY"
+  },
+  {
+   "state": "RI",
+   "name": "Rhode Island",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 11,
+   "by_office": {
+    "Governor": 1,
+    "US House": 2,
+    "Statewide Office": 3,
+    "Ballot Measure": 5
+   },
+   "source_url": "https://electionresults.ri.gov/results/public/rhodeisland/elections/2026StatewideGeneralElection",
+   "retrieved_at": "2026-11-04T18:46:15Z",
+   "results_as_of": "2026-11-04T16:20:50.9813558Z",
+   "file": "ri/index.json",
+   "notes": null
+  },
+  {
+   "state": "SC",
+   "name": "South Carolina",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://www.enr-scvotes.org/SC/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "sc/index.json",
+   "notes": "The South Carolina Election Commission results site (enr-scvotes.org) listed no elections at retrieval."
+  },
+  {
+   "state": "SD",
+   "name": "South Dakota",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 7,
+   "by_office": {
+    "US Senate": 1,
+    "Governor": 1,
+    "US House": 1,
+    "Ballot Measure": 4
+   },
+   "source_url": "https://electionresults.sd.gov/",
+   "retrieved_at": "2026-11-04T19:00:01Z",
+   "results_as_of": "11/4/2026 12:55 PM CT (CT)",
+   "file": "sd/index.json",
+   "notes": null
+  },
+  {
+   "state": "TN",
+   "name": "Tennessee",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://elections.tn.gov/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "tn/index.json",
+   "notes": "The Tennessee Secretary of State results site (elections.tn.gov) required a human-verification check that automated reads cannot complete. We did not try to get around it."
+  },
+  {
+   "state": "TX",
+   "name": "Texas",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://results.texas-election.com/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "tx/index.json",
+   "notes": "The Texas Secretary of State results site (results.texas-election.com) did not yet list a 2026 general election at retrieval time; its election list ended at 2024."
+  },
+  {
+   "state": "UT",
+   "name": "Utah",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 96,
+   "by_office": {
+    "US House": 4,
+    "Ballot Measure": 2,
+    "State Senate": 15,
+    "State House": 75
+   },
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "file": "ut/index.json",
+   "notes": null
+  },
+  {
+   "state": "VT",
+   "name": "Vermont",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 7,
+   "by_office": {
+    "Governor": 1,
+    "US House": 1,
+    "Statewide Office": 5
+   },
+   "source_url": "https://electionresults.vermont.gov/",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+   "file": "vt/index.json",
+   "notes": null
+  },
+  {
+   "state": "VA",
+   "name": "Virginia",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 16,
+   "by_office": {
+    "US Senate": 1,
+    "US House": 11,
+    "Ballot Measure": 3,
+    "State House": 1
+   },
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "file": "va/index.json",
+   "notes": null
+  },
+  {
+   "state": "WA",
+   "name": "Washington",
+   "status": "Unofficial — not yet certified",
+   "results_status": "unofficial_results",
+   "contests": 135,
+   "by_office": {
+    "US House": 10,
+    "Ballot Measure": 3,
+    "State Senate": 24,
+    "State House": 98
+   },
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "file": "wa/index.json",
+   "notes": null
+  },
+  {
+   "state": "WV",
+   "name": "West Virginia",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://apps.sos.wv.gov/elections/results/",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "wv/index.json",
+   "notes": "The West Virginia Secretary of State results application listed no November 3, 2026 general-election results at retrieval."
+  },
+  {
+   "state": "WI",
+   "name": "Wisconsin",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://elections.wi.gov/elections/election-results/results-all",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "wi/index.json",
+   "notes": "The Wisconsin Elections Commission results page listed 2026 primary and spring results only at retrieval; general-election results are posted after the county canvass."
+  },
+  {
+   "state": "WY",
+   "name": "Wyoming",
+   "status": "Results pending from official source",
+   "results_status": "pending",
+   "contests": 0,
+   "by_office": {},
+   "source_url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx",
+   "retrieved_at": "2026-11-04T19:00:21Z",
+   "results_as_of": null,
+   "file": "wy/index.json",
+   "notes": "The Wyoming Secretary of State posted unofficial general-election results as PDF summaries whose text layer is unreadable (garbled font encoding). We did not OCR them, to avoid transcription errors; use the official PDFs linked here."
+  }
+ ],
+ "counts": {
+  "states_with_results": 28,
+  "states_pending": 22
+ }
+}

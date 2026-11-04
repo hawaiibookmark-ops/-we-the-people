@@ -1,0 +1,18 @@
+{
+ "state": "TX",
+ "name": "Texas",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://results.texas-election.com/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://results.texas-election.com/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Texas Secretary of State results site (results.texas-election.com) did not yet list a 2026 general election at retrieval time; its election list ended at 2024.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

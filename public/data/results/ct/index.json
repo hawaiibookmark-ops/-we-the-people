@@ -1,0 +1,522 @@
+{
+ "state": "CT",
+ "name": "Connecticut",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://ctemspublic.tgstg.net/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://ctemspublic.tgstg.net/",
+ "retrieved_at": "2026-11-04T18:58:07Z",
+ "results_as_of": null,
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor and Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1183535,
+   "candidates": [
+    {
+     "name": "Ned Lamont and Susan Bysiewicz",
+     "party": "Democratic Party / Working Families Party",
+     "votes": 688897,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Democratic Party",
+       "votes": 662607
+      },
+      {
+       "party": "Working Families Party",
+       "votes": 26290
+      }
+     ],
+     "pct": 58.21,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan Fazio and Matt Corey",
+     "party": "Republican Party / Independent Party",
+     "votes": 494589,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Republican Party",
+       "votes": 468529
+      },
+      {
+       "party": "Independent Party",
+       "votes": 26060
+      }
+     ],
+     "pct": 41.79,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Zenobia Adgers and Rick Adgers",
+     "party": "Write In",
+     "votes": 21,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Write In",
+       "votes": 21
+      }
+     ],
+     "pct": 0.0,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "L. Lee Whitnum and David Spirt",
+     "party": "Write In",
+     "votes": 17,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Write In",
+       "votes": 17
+      }
+     ],
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Christian Noe and Michael S. Grant",
+     "party": "Write In",
+     "votes": 11,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Write In",
+       "votes": 11
+      }
+     ],
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 708,
+    "total": 775
+   },
+   "results_as_of": null,
+   "source_url": "https://ctemspublic.tgstg.net/",
+   "retrieved_at": "2026-11-04T18:58:07Z",
+   "leading": "Ned Lamont and Susan Bysiewicz",
+   "margin_votes": 194308,
+   "margin_pct": 16.42,
+   "jurisdiction": "Statewide",
+   "id": "ct-001"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "Representative in Congress 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 218630,
+   "candidates": [
+    {
+     "name": "Luke Bronin",
+     "party": "Democratic Party",
+     "votes": 140596,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Democratic Party",
+       "votes": 140596
+      }
+     ],
+     "pct": 64.31,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Amy Chai",
+     "party": "Republican Party",
+     "votes": 74427,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Republican Party",
+       "votes": 74427
+      }
+     ],
+     "pct": 34.04,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mary L. Sanders",
+     "party": "Green Party",
+     "votes": 3594,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Green Party",
+       "votes": 3594
+      }
+     ],
+     "pct": 1.64,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Stewart Greenstein",
+     "party": "Write In",
+     "votes": 13,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Write In",
+       "votes": 13
+      }
+     ],
+     "pct": 0.01,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 708,
+    "total": 775
+   },
+   "results_as_of": null,
+   "source_url": "https://ctemspublic.tgstg.net/",
+   "retrieved_at": "2026-11-04T18:58:07Z",
+   "leading": "Luke Bronin",
+   "margin_votes": 66169,
+   "margin_pct": 30.27,
+   "jurisdiction": null,
+   "id": "ct-002"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "Representative in Congress 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 256895,
+   "candidates": [
+    {
+     "name": "Joe Courtney",
+     "party": "Democratic Party",
+     "votes": 156606,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Democratic Party",
+       "votes": 156606
+      }
+     ],
+     "pct": 60.96,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "George Patrick Austin",
+     "party": "Republican Party / Independent Party",
+     "votes": 100262,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Republican Party",
+       "votes": 94772
+      },
+      {
+       "party": "Independent Party",
+       "votes": 5490
+      }
+     ],
+     "pct": 39.03,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Kyle Gauck",
+     "party": "Write In",
+     "votes": 27,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Write In",
+       "votes": 27
+      }
+     ],
+     "pct": 0.01,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 708,
+    "total": 775
+   },
+   "results_as_of": null,
+   "source_url": "https://ctemspublic.tgstg.net/",
+   "retrieved_at": "2026-11-04T18:58:07Z",
+   "leading": "Joe Courtney",
+   "margin_votes": 56344,
+   "margin_pct": 21.93,
+   "jurisdiction": null,
+   "id": "ct-003"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "Representative in Congress 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 224176,
+   "candidates": [
+    {
+     "name": "Rosa L. DeLauro",
+     "party": "Democratic Party",
+     "votes": 133981,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Democratic Party",
+       "votes": 133981
+      }
+     ],
+     "pct": 59.77,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Christopher Lancia",
+     "party": "Republican Party",
+     "votes": 82474,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Republican Party",
+       "votes": 82474
+      }
+     ],
+     "pct": 36.79,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Thomas Egan",
+     "party": "Independent Party",
+     "votes": 7289,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Independent Party",
+       "votes": 7289
+      }
+     ],
+     "pct": 3.25,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Andrew Rice",
+     "party": "Write In",
+     "votes": 432,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Write In",
+       "votes": 432
+      }
+     ],
+     "pct": 0.19,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 708,
+    "total": 775
+   },
+   "results_as_of": null,
+   "source_url": "https://ctemspublic.tgstg.net/",
+   "retrieved_at": "2026-11-04T18:58:07Z",
+   "leading": "Rosa L. DeLauro",
+   "margin_votes": 51507,
+   "margin_pct": 22.98,
+   "jurisdiction": null,
+   "id": "ct-004"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "Representative in Congress 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 238945,
+   "candidates": [
+    {
+     "name": "Jim Himes",
+     "party": "Democratic Party",
+     "votes": 156442,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Democratic Party",
+       "votes": 156442
+      }
+     ],
+     "pct": 65.47,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Michael Ted Goldstein",
+     "party": "Republican Party",
+     "votes": 77960,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Republican Party",
+       "votes": 77960
+      }
+     ],
+     "pct": 32.63,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Benjamin Wesley",
+     "party": "Independent Party",
+     "votes": 4543,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Independent Party",
+       "votes": 4543
+      }
+     ],
+     "pct": 1.9,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 708,
+    "total": 775
+   },
+   "results_as_of": null,
+   "source_url": "https://ctemspublic.tgstg.net/",
+   "retrieved_at": "2026-11-04T18:58:07Z",
+   "leading": "Jim Himes",
+   "margin_votes": 78482,
+   "margin_pct": 32.84,
+   "jurisdiction": null,
+   "id": "ct-005"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "Representative in Congress 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 226188,
+   "candidates": [
+    {
+     "name": "Jahana Hayes",
+     "party": "Democratic Party / Working Families Party",
+     "votes": 131132,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Democratic Party",
+       "votes": 124499
+      },
+      {
+       "party": "Working Families Party",
+       "votes": 6633
+      }
+     ],
+     "pct": 57.97,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Chris Shea",
+     "party": "Republican Party",
+     "votes": 95011,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Republican Party",
+       "votes": 95011
+      }
+     ],
+     "pct": 42.01,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jonathan DeBarros",
+     "party": "Write In",
+     "votes": 45,
+     "write_in": false,
+     "party_lines": [
+      {
+       "party": "Write In",
+       "votes": 45
+      }
+     ],
+     "pct": 0.02,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 708,
+    "total": 775
+   },
+   "results_as_of": null,
+   "source_url": "https://ctemspublic.tgstg.net/",
+   "retrieved_at": "2026-11-04T18:58:07Z",
+   "leading": "Jahana Hayes",
+   "margin_votes": 36121,
+   "margin_pct": 15.96,
+   "jurisdiction": null,
+   "id": "ct-006"
+  }
+ ],
+ "notes": "Connecticut State Election Night Reporting: 708 of 775 (91.35%) precincts; 161 of 169 towns reporting. A candidate listed on more than one party line is shown once with votes summed across lines (per-line votes kept in party_lines).",
+ "official_pdfs": null,
+ "summary": {
+  "contests": 6,
+  "by_office": {
+   "Governor": 1,
+   "US House": 5
+  }
+ }
+}

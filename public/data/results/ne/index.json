@@ -1,0 +1,343 @@
+{
+ "state": "NE",
+ "name": "Nebraska",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.nebraska.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.nebraska.gov/",
+ "retrieved_at": "2026-11-04T18:59:47Z",
+ "results_as_of": "11/4/2026 5:58 AM CT (CT)",
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "United States Senator - 6  Year Term",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 735260,
+   "candidates": [
+    {
+     "name": "Pete Ricketts",
+     "party": "Republican",
+     "votes": 370411,
+     "write_in": false,
+     "pct": 50.38,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Dan Osborn",
+     "party": "By Petition",
+     "votes": 321218,
+     "write_in": false,
+     "pct": 43.69,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Robin Richards",
+     "party": "Nebraska Working People",
+     "votes": 18937,
+     "write_in": false,
+     "pct": 2.58,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Mike Marvin",
+     "party": "Legal Marijuana Now",
+     "votes": 15848,
+     "write_in": false,
+     "pct": 2.16,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Chuck Conboy",
+     "party": "America First",
+     "votes": 8846,
+     "write_in": false,
+     "pct": 1.2,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 1309,
+    "total": 1322
+   },
+   "results_as_of": "11/4/2026 5:58 AM CT",
+   "source_url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
+   "retrieved_at": "2026-11-04T18:59:47Z",
+   "leading": "Pete Ricketts",
+   "margin_votes": 49193,
+   "margin_pct": 6.69,
+   "jurisdiction": "Statewide",
+   "id": "ne-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor and Lt. Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 736722,
+   "candidates": [
+    {
+     "name": "Jim Pillen and Joe Kelly",
+     "party": "Republican",
+     "votes": 373465,
+     "write_in": false,
+     "pct": 50.69,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lynne Walz and Ben Steffen",
+     "party": "Democratic",
+     "votes": 311363,
+     "write_in": false,
+     "pct": 42.26,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Brett Lindstrom and Michael Picard",
+     "party": "America First",
+     "votes": 32362,
+     "write_in": false,
+     "pct": 4.39,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Rick Beard and Keenya Barnes",
+     "party": "Legal Marijuana Now",
+     "votes": 19532,
+     "write_in": false,
+     "pct": 2.65,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 1309,
+    "total": 1322
+   },
+   "results_as_of": "11/4/2026 5:58 AM CT",
+   "source_url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
+   "retrieved_at": "2026-11-04T18:59:47Z",
+   "leading": "Jim Pillen and Joe Kelly",
+   "margin_votes": 62102,
+   "margin_pct": 8.43,
+   "jurisdiction": "Statewide",
+   "id": "ne-002"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "Representative in Congress - 2  Year Term - District 01",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 245351,
+   "candidates": [
+    {
+     "name": "Mike Flood",
+     "party": "Republican",
+     "votes": 122874,
+     "write_in": false,
+     "pct": 50.08,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Chris Backemeyer",
+     "party": "Democratic",
+     "votes": 113806,
+     "write_in": false,
+     "pct": 46.38,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Nik Sandman",
+     "party": "Libertarian",
+     "votes": 4436,
+     "write_in": false,
+     "pct": 1.81,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Dan Hartong",
+     "party": "America First",
+     "votes": 4235,
+     "write_in": false,
+     "pct": 1.73,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 429,
+    "total": 438
+   },
+   "results_as_of": "11/4/2026 5:58 AM CT",
+   "source_url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=CG&map=DIST",
+   "retrieved_at": "2026-11-04T18:59:47Z",
+   "leading": "Mike Flood",
+   "margin_votes": 9068,
+   "margin_pct": 3.7,
+   "jurisdiction": null,
+   "id": "ne-003"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "Representative in Congress - 2  Year Term - District 02",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 245938,
+   "candidates": [
+    {
+     "name": "Denise Powell",
+     "party": "Democratic",
+     "votes": 138733,
+     "write_in": false,
+     "pct": 56.41,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Brinker Harding",
+     "party": "Republican",
+     "votes": 100895,
+     "write_in": false,
+     "pct": 41.02,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Eric Michael Foreman",
+     "party": "Libertarian",
+     "votes": 6310,
+     "write_in": false,
+     "pct": 2.57,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 334,
+    "total": 334
+   },
+   "results_as_of": "11/4/2026 5:58 AM CT",
+   "source_url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=CG&map=DIST",
+   "retrieved_at": "2026-11-04T18:59:47Z",
+   "leading": "Denise Powell",
+   "margin_votes": 37838,
+   "margin_pct": 15.39,
+   "jurisdiction": null,
+   "id": "ne-004"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "Representative in Congress - 2  Year Term - District 03",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 242592,
+   "candidates": [
+    {
+     "name": "Adrian Smith",
+     "party": "Republican",
+     "votes": 172321,
+     "write_in": false,
+     "pct": 71.03,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Becky Kelly Stille",
+     "party": "Democratic",
+     "votes": 48495,
+     "write_in": false,
+     "pct": 19.99,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mark Cohen",
+     "party": "By Petition",
+     "votes": 7974,
+     "write_in": false,
+     "pct": 3.29,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "David J. Else",
+     "party": "Legal Marijuana Now",
+     "votes": 7008,
+     "write_in": false,
+     "pct": 2.89,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Macey Budke",
+     "party": "Nebraska Working People",
+     "votes": 6794,
+     "write_in": false,
+     "pct": 2.8,
+     "rank": 5,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 635,
+    "total": 639
+   },
+   "results_as_of": "11/4/2026 5:58 AM CT",
+   "source_url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=CG&map=DIST",
+   "retrieved_at": "2026-11-04T18:59:47Z",
+   "leading": "Adrian Smith",
+   "margin_votes": 123826,
+   "margin_pct": 51.04,
+   "jurisdiction": null,
+   "id": "ne-005"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 5,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 3
+  }
+ }
+}

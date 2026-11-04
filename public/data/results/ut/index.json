@@ -1,0 +1,4184 @@
+{
+ "state": "UT",
+ "name": "Utah",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+ "retrieved_at": "2026-11-04T18:57:56Z",
+ "results_as_of": "2026-11-04T17:12:46.5651236Z",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "U.S. House District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 179481,
+   "candidates": [
+    {
+     "name": "Ben McAdams",
+     "party": null,
+     "votes": 128961,
+     "write_in": false,
+     "pct": 71.85,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Riley Owen",
+     "party": null,
+     "votes": 44607,
+     "write_in": false,
+     "pct": 24.85,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jesse West",
+     "party": null,
+     "votes": 3603,
+     "write_in": false,
+     "pct": 2.01,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Elias Henry Montgomery",
+     "party": null,
+     "votes": 2270,
+     "write_in": false,
+     "pct": 1.26,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Babak \"Bobby\" Darvish",
+     "party": null,
+     "votes": 40,
+     "write_in": true,
+     "pct": 0.02,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ben McAdams",
+   "margin_votes": 84354,
+   "margin_pct": 47.0,
+   "jurisdiction": null,
+   "id": "ut-001"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "U.S. House District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 192665,
+   "candidates": [
+    {
+     "name": "Blake D. Moore",
+     "party": null,
+     "votes": 95926,
+     "write_in": false,
+     "pct": 49.79,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Peter Crosby",
+     "party": null,
+     "votes": 83211,
+     "write_in": false,
+     "pct": 43.19,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Carlton E. Bowen",
+     "party": null,
+     "votes": 5635,
+     "write_in": false,
+     "pct": 2.92,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Robert M. Moesinger",
+     "party": null,
+     "votes": 4816,
+     "write_in": false,
+     "pct": 2.5,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Daniel Cottam",
+     "party": null,
+     "votes": 3077,
+     "write_in": false,
+     "pct": 1.6,
+     "rank": 5,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Blake D. Moore",
+   "margin_votes": 12715,
+   "margin_pct": 6.6,
+   "jurisdiction": null,
+   "id": "ut-002"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "U.S. House District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 169137,
+   "candidates": [
+    {
+     "name": "Celeste Maloy",
+     "party": null,
+     "votes": 97974,
+     "write_in": false,
+     "pct": 57.93,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Kent S. Udell",
+     "party": null,
+     "votes": 59899,
+     "write_in": false,
+     "pct": 35.41,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Cassie Easley",
+     "party": null,
+     "votes": 4636,
+     "write_in": false,
+     "pct": 2.74,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Michael R. Stoddard",
+     "party": null,
+     "votes": 3213,
+     "write_in": false,
+     "pct": 1.9,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ayden Scott",
+     "party": null,
+     "votes": 2428,
+     "write_in": false,
+     "pct": 1.44,
+     "rank": 5,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Adonis Hooslyn",
+     "party": null,
+     "votes": 987,
+     "write_in": false,
+     "pct": 0.58,
+     "rank": 6,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 19,
+    "total": 19
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Celeste Maloy",
+   "margin_votes": 38075,
+   "margin_pct": 22.52,
+   "jurisdiction": null,
+   "id": "ut-003"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "U.S. House District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 167676,
+   "candidates": [
+    {
+     "name": "Mike Kennedy",
+     "party": null,
+     "votes": 87002,
+     "write_in": false,
+     "pct": 51.89,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jonny Larsen",
+     "party": null,
+     "votes": 69735,
+     "write_in": false,
+     "pct": 41.59,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Steven Burt",
+     "party": null,
+     "votes": 6299,
+     "write_in": false,
+     "pct": 3.76,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Taylor Wright",
+     "party": null,
+     "votes": 4640,
+     "write_in": false,
+     "pct": 2.77,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 7,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mike Kennedy",
+   "margin_votes": 17267,
+   "margin_pct": 10.3,
+   "jurisdiction": null,
+   "id": "ut-004"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment A",
+   "title": "Constitutional Amendment A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 685325,
+   "candidates": [
+    {
+     "name": "FOR",
+     "party": null,
+     "votes": 412592,
+     "pct": 60.2,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Against",
+     "party": null,
+     "votes": 272733,
+     "pct": 39.8,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 29,
+    "total": 29
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "FOR",
+   "margin_votes": 139859,
+   "margin_pct": 20.4,
+   "jurisdiction": "Statewide",
+   "id": "ut-005"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment B",
+   "title": "Constitutional Amendment B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 691663,
+   "candidates": [
+    {
+     "name": "Against",
+     "party": null,
+     "votes": 430908,
+     "pct": 62.3,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "FOR",
+     "party": null,
+     "votes": 260755,
+     "pct": 37.7,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 29,
+    "total": 29
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Against",
+   "margin_votes": 170153,
+   "margin_pct": 24.6,
+   "jurisdiction": "Statewide",
+   "id": "ut-006"
+  },
+  {
+   "office": "State Senate",
+   "district": "1",
+   "title": "State Senate District 1 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 28165,
+   "candidates": [
+    {
+     "name": "Scott Sandall",
+     "party": null,
+     "votes": 18351,
+     "write_in": false,
+     "pct": 65.16,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Claudia Bigler",
+     "party": null,
+     "votes": 7486,
+     "write_in": false,
+     "pct": 26.58,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Julie Quinlan",
+     "party": null,
+     "votes": 2328,
+     "write_in": false,
+     "pct": 8.27,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Scott Sandall",
+   "margin_votes": 10865,
+   "margin_pct": 38.58,
+   "jurisdiction": null,
+   "id": "ut-007"
+  },
+  {
+   "office": "State Senate",
+   "district": "5",
+   "title": "State Senate District 5 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 23959,
+   "candidates": [
+    {
+     "name": "\"Cj\" Christina Hernandez",
+     "party": null,
+     "votes": 13719,
+     "write_in": false,
+     "pct": 57.26,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jill F. Koford",
+     "party": null,
+     "votes": 10240,
+     "write_in": false,
+     "pct": 42.74,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "\"Cj\" Christina Hernandez",
+   "margin_votes": 3479,
+   "margin_pct": 14.52,
+   "jurisdiction": null,
+   "id": "ut-008"
+  },
+  {
+   "office": "State Senate",
+   "district": "6",
+   "title": "State Senate District 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 24321,
+   "candidates": [
+    {
+     "name": "Tami Tran",
+     "party": null,
+     "votes": 13594,
+     "write_in": false,
+     "pct": 55.89,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jared Neal",
+     "party": null,
+     "votes": 9006,
+     "write_in": false,
+     "pct": 37.03,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Josh Smith",
+     "party": null,
+     "votes": 1721,
+     "write_in": false,
+     "pct": 7.08,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Tami Tran",
+   "margin_votes": 4588,
+   "margin_pct": 18.86,
+   "jurisdiction": null,
+   "id": "ut-009"
+  },
+  {
+   "office": "State Senate",
+   "district": "7",
+   "title": "State Senate District 7 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29387,
+   "candidates": [
+    {
+     "name": "Stephanie Hollist",
+     "party": null,
+     "votes": 16471,
+     "write_in": false,
+     "pct": 56.05,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Garret Rushforth",
+     "party": null,
+     "votes": 11493,
+     "write_in": false,
+     "pct": 39.11,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Jeffrey Ostler",
+     "party": null,
+     "votes": 1423,
+     "write_in": false,
+     "pct": 4.84,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Stephanie Hollist",
+   "margin_votes": 4978,
+   "margin_pct": 16.94,
+   "jurisdiction": null,
+   "id": "ut-010"
+  },
+  {
+   "office": "State Senate",
+   "district": "9",
+   "title": "State Senate District 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 28615,
+   "candidates": [
+    {
+     "name": "Jen Plumb",
+     "party": null,
+     "votes": 24256,
+     "write_in": false,
+     "pct": 84.77,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Thaddeus A Evans",
+     "party": null,
+     "votes": 3586,
+     "write_in": false,
+     "pct": 12.53,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "J. Lowry Snow",
+     "party": null,
+     "votes": 773,
+     "write_in": false,
+     "pct": 2.7,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jen Plumb",
+   "margin_votes": 20670,
+   "margin_pct": 72.24,
+   "jurisdiction": null,
+   "id": "ut-011"
+  },
+  {
+   "office": "State Senate",
+   "district": "11",
+   "title": "State Senate District 11 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19714,
+   "candidates": [
+    {
+     "name": "Emily Buss",
+     "party": null,
+     "votes": 9973,
+     "write_in": false,
+     "pct": 50.59,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brooks Benson",
+     "party": null,
+     "votes": 9741,
+     "write_in": false,
+     "pct": 49.41,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Emily Buss",
+   "margin_votes": 232,
+   "margin_pct": 1.18,
+   "jurisdiction": null,
+   "id": "ut-012"
+  },
+  {
+   "office": "State Senate",
+   "district": "12",
+   "title": "State Senate District 12",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17772,
+   "candidates": [
+    {
+     "name": "Karen Kwan",
+     "party": null,
+     "votes": 12143,
+     "write_in": false,
+     "pct": 68.33,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Deidre Tyler",
+     "party": null,
+     "votes": 5629,
+     "write_in": false,
+     "pct": 31.67,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Karen Kwan",
+   "margin_votes": 6514,
+   "margin_pct": 36.66,
+   "jurisdiction": null,
+   "id": "ut-013"
+  },
+  {
+   "office": "State Senate",
+   "district": "13",
+   "title": "State Senate District 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 23697,
+   "candidates": [
+    {
+     "name": "Silvia Catten",
+     "party": null,
+     "votes": 18416,
+     "write_in": false,
+     "pct": 77.71,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan L. Mahoney",
+     "party": null,
+     "votes": 4452,
+     "write_in": false,
+     "pct": 18.79,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Colin Smith",
+     "party": null,
+     "votes": 829,
+     "write_in": false,
+     "pct": 3.5,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Silvia Catten",
+   "margin_votes": 13964,
+   "margin_pct": 58.92,
+   "jurisdiction": null,
+   "id": "ut-014"
+  },
+  {
+   "office": "State Senate",
+   "district": "14",
+   "title": "State Senate District 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29020,
+   "candidates": [
+    {
+     "name": "Stephanie Pitcher",
+     "party": null,
+     "votes": 29020,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Stephanie Pitcher",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ut-015"
+  },
+  {
+   "office": "State Senate",
+   "district": "18",
+   "title": "State Senate District 18 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20808,
+   "candidates": [
+    {
+     "name": "Doug Fiefia",
+     "party": null,
+     "votes": 11542,
+     "write_in": false,
+     "pct": 55.47,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "A, Dane Anderson",
+     "party": null,
+     "votes": 9266,
+     "write_in": false,
+     "pct": 44.53,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Doug Fiefia",
+   "margin_votes": 2276,
+   "margin_pct": 10.94,
+   "jurisdiction": null,
+   "id": "ut-016"
+  },
+  {
+   "office": "State Senate",
+   "district": "19",
+   "title": "State Senate District 19 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 30534,
+   "candidates": [
+    {
+     "name": "Shana Anderson",
+     "party": null,
+     "votes": 17361,
+     "write_in": false,
+     "pct": 56.86,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kirk Cullimore",
+     "party": null,
+     "votes": 13173,
+     "write_in": false,
+     "pct": 43.14,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Shana Anderson",
+   "margin_votes": 4188,
+   "margin_pct": 13.72,
+   "jurisdiction": null,
+   "id": "ut-017"
+  },
+  {
+   "office": "State Senate",
+   "district": "20",
+   "title": "State Senate District 20 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 26906,
+   "candidates": [
+    {
+     "name": "Ronald M Winterton",
+     "party": null,
+     "votes": 17370,
+     "write_in": false,
+     "pct": 64.56,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Annette McRae",
+     "party": null,
+     "votes": 9536,
+     "write_in": false,
+     "pct": 35.44,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ronald M Winterton",
+   "margin_votes": 7834,
+   "margin_pct": 29.12,
+   "jurisdiction": null,
+   "id": "ut-018"
+  },
+  {
+   "office": "State Senate",
+   "district": "21",
+   "title": "State Senate District 21",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21329,
+   "candidates": [
+    {
+     "name": "Brady Brammer",
+     "party": null,
+     "votes": 11964,
+     "write_in": false,
+     "pct": 56.09,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kandee Myers",
+     "party": null,
+     "votes": 6428,
+     "write_in": false,
+     "pct": 30.14,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Wayne Woodfield",
+     "party": null,
+     "votes": 2937,
+     "write_in": false,
+     "pct": 13.77,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Brady Brammer",
+   "margin_votes": 5536,
+   "margin_pct": 25.95,
+   "jurisdiction": null,
+   "id": "ut-019"
+  },
+  {
+   "office": "State Senate",
+   "district": "23",
+   "title": "State Senate District 23",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15727,
+   "candidates": [
+    {
+     "name": "Keith Grover",
+     "party": null,
+     "votes": 8458,
+     "write_in": false,
+     "pct": 53.78,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tucker Smith",
+     "party": null,
+     "votes": 7269,
+     "write_in": false,
+     "pct": 46.22,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Keith Grover",
+   "margin_votes": 1189,
+   "margin_pct": 7.56,
+   "jurisdiction": null,
+   "id": "ut-020"
+  },
+  {
+   "office": "State Senate",
+   "district": "28",
+   "title": "State Senate District 28 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27171,
+   "candidates": [
+    {
+     "name": "Evan J Vickers",
+     "party": null,
+     "votes": 20475,
+     "write_in": false,
+     "pct": 75.36,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Richard S Robillard",
+     "party": null,
+     "votes": 6696,
+     "write_in": false,
+     "pct": 24.64,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Evan J Vickers",
+   "margin_votes": 13779,
+   "margin_pct": 50.72,
+   "jurisdiction": null,
+   "id": "ut-021"
+  },
+  {
+   "office": "State House",
+   "district": "1",
+   "title": "State House District 1 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11921,
+   "candidates": [
+    {
+     "name": "Thomas Peterson",
+     "party": null,
+     "votes": 8296,
+     "write_in": false,
+     "pct": 69.59,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Reid",
+     "party": null,
+     "votes": 2555,
+     "write_in": false,
+     "pct": 21.43,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Jason O'Dell",
+     "party": null,
+     "votes": 1070,
+     "write_in": false,
+     "pct": 8.98,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Thomas Peterson",
+   "margin_votes": 5741,
+   "margin_pct": 48.16,
+   "jurisdiction": null,
+   "id": "ut-022"
+  },
+  {
+   "office": "State House",
+   "district": "2",
+   "title": "State House District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9429,
+   "candidates": [
+    {
+     "name": "Mike Petersen",
+     "party": null,
+     "votes": 5719,
+     "write_in": false,
+     "pct": 60.65,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Barbara J. Haggerty",
+     "party": null,
+     "votes": 3710,
+     "write_in": false,
+     "pct": 39.35,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mike Petersen",
+   "margin_votes": 2009,
+   "margin_pct": 21.3,
+   "jurisdiction": null,
+   "id": "ut-023"
+  },
+  {
+   "office": "State House",
+   "district": "3",
+   "title": "State House District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7686,
+   "candidates": [
+    {
+     "name": "Patrick Belmont",
+     "party": null,
+     "votes": 4517,
+     "write_in": false,
+     "pct": 58.77,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jason E. Thompson",
+     "party": null,
+     "votes": 3169,
+     "write_in": false,
+     "pct": 41.23,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Patrick Belmont",
+   "margin_votes": 1348,
+   "margin_pct": 17.54,
+   "jurisdiction": null,
+   "id": "ut-024"
+  },
+  {
+   "office": "State House",
+   "district": "4",
+   "title": "State House District 4 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9272,
+   "candidates": [
+    {
+     "name": "Zane Woolstenhulme",
+     "party": null,
+     "votes": 4799,
+     "write_in": false,
+     "pct": 51.76,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tiara Auxier",
+     "party": null,
+     "votes": 4473,
+     "write_in": false,
+     "pct": 48.24,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Zane Woolstenhulme",
+   "margin_votes": 326,
+   "margin_pct": 3.52,
+   "jurisdiction": null,
+   "id": "ut-025"
+  },
+  {
+   "office": "State House",
+   "district": "5",
+   "title": "State House District 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10200,
+   "candidates": [
+    {
+     "name": "Casey Snider",
+     "party": null,
+     "votes": 6421,
+     "write_in": false,
+     "pct": 62.95,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kendra Penry",
+     "party": null,
+     "votes": 3779,
+     "write_in": false,
+     "pct": 37.05,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Casey Snider",
+   "margin_votes": 2642,
+   "margin_pct": 25.9,
+   "jurisdiction": null,
+   "id": "ut-026"
+  },
+  {
+   "office": "State House",
+   "district": "6",
+   "title": "State House District 6 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11444,
+   "candidates": [
+    {
+     "name": "Rob Bishop",
+     "party": null,
+     "votes": 7830,
+     "write_in": false,
+     "pct": 68.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "James Rich",
+     "party": null,
+     "votes": 3614,
+     "write_in": false,
+     "pct": 31.58,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Rob Bishop",
+   "margin_votes": 4216,
+   "margin_pct": 36.84,
+   "jurisdiction": null,
+   "id": "ut-027"
+  },
+  {
+   "office": "State House",
+   "district": "7",
+   "title": "State House District 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10018,
+   "candidates": [
+    {
+     "name": "Ryan D. Wilcox",
+     "party": null,
+     "votes": 5217,
+     "write_in": false,
+     "pct": 52.08,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bianca Mittendorf",
+     "party": null,
+     "votes": 4801,
+     "write_in": false,
+     "pct": 47.92,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ryan D. Wilcox",
+   "margin_votes": 416,
+   "margin_pct": 4.16,
+   "jurisdiction": null,
+   "id": "ut-028"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "State House District 8 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11781,
+   "candidates": [
+    {
+     "name": "Kim James",
+     "party": null,
+     "votes": 5911,
+     "write_in": false,
+     "pct": 50.17,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jason B Kyle",
+     "party": null,
+     "votes": 5414,
+     "write_in": false,
+     "pct": 45.96,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Libby Shelton",
+     "party": null,
+     "votes": 456,
+     "write_in": false,
+     "pct": 3.87,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Kim James",
+   "margin_votes": 497,
+   "margin_pct": 4.21,
+   "jurisdiction": null,
+   "id": "ut-029"
+  },
+  {
+   "office": "State House",
+   "district": "9",
+   "title": "State House District 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8702,
+   "candidates": [
+    {
+     "name": "Angela Choberka",
+     "party": null,
+     "votes": 4669,
+     "write_in": false,
+     "pct": 53.65,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jake Sawyer",
+     "party": null,
+     "votes": 4033,
+     "write_in": false,
+     "pct": 46.35,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Angela Choberka",
+   "margin_votes": 636,
+   "margin_pct": 7.3,
+   "jurisdiction": null,
+   "id": "ut-030"
+  },
+  {
+   "office": "State House",
+   "district": "10",
+   "title": "State House District 10",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8993,
+   "candidates": [
+    {
+     "name": "Rosemary T Lesser",
+     "party": null,
+     "votes": 5661,
+     "write_in": false,
+     "pct": 62.95,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Alvey",
+     "party": null,
+     "votes": 3332,
+     "write_in": false,
+     "pct": 37.05,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Rosemary T Lesser",
+   "margin_votes": 2329,
+   "margin_pct": 25.9,
+   "jurisdiction": null,
+   "id": "ut-031"
+  },
+  {
+   "office": "State House",
+   "district": "11",
+   "title": "State House District 11 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8916,
+   "candidates": [
+    {
+     "name": "Katy Hall",
+     "party": null,
+     "votes": 4506,
+     "write_in": false,
+     "pct": 50.54,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Dave Calder",
+     "party": null,
+     "votes": 4410,
+     "write_in": false,
+     "pct": 49.46,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Katy Hall",
+   "margin_votes": 96,
+   "margin_pct": 1.08,
+   "jurisdiction": null,
+   "id": "ut-032"
+  },
+  {
+   "office": "State House",
+   "district": "12",
+   "title": "State House District 12 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10358,
+   "candidates": [
+    {
+     "name": "Mike Schultz",
+     "party": null,
+     "votes": 5878,
+     "write_in": false,
+     "pct": 56.75,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Anna Graff",
+     "party": null,
+     "votes": 4480,
+     "write_in": false,
+     "pct": 43.25,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mike Schultz",
+   "margin_votes": 1398,
+   "margin_pct": 13.5,
+   "jurisdiction": null,
+   "id": "ut-033"
+  },
+  {
+   "office": "State House",
+   "district": "13",
+   "title": "State House District 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9436,
+   "candidates": [
+    {
+     "name": "Erik R. Craythorne",
+     "party": null,
+     "votes": 4974,
+     "write_in": false,
+     "pct": 52.71,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jeffrey Anderson",
+     "party": null,
+     "votes": 3841,
+     "write_in": false,
+     "pct": 40.71,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Tony De Mille",
+     "party": null,
+     "votes": 621,
+     "write_in": false,
+     "pct": 6.58,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Erik R. Craythorne",
+   "margin_votes": 1133,
+   "margin_pct": 12.0,
+   "jurisdiction": null,
+   "id": "ut-034"
+  },
+  {
+   "office": "State House",
+   "district": "14",
+   "title": "State House District 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8694,
+   "candidates": [
+    {
+     "name": "John Taylor",
+     "party": null,
+     "votes": 4733,
+     "write_in": false,
+     "pct": 54.44,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brandon Young",
+     "party": null,
+     "votes": 3961,
+     "write_in": false,
+     "pct": 45.56,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "John Taylor",
+   "margin_votes": 772,
+   "margin_pct": 8.88,
+   "jurisdiction": null,
+   "id": "ut-035"
+  },
+  {
+   "office": "State House",
+   "district": "15",
+   "title": "State House District 15",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10286,
+   "candidates": [
+    {
+     "name": "Ariel Defay",
+     "party": null,
+     "votes": 6160,
+     "write_in": false,
+     "pct": 59.89,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Anne Berbert",
+     "party": null,
+     "votes": 4126,
+     "write_in": false,
+     "pct": 40.11,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ariel Defay",
+   "margin_votes": 2034,
+   "margin_pct": 19.78,
+   "jurisdiction": null,
+   "id": "ut-036"
+  },
+  {
+   "office": "State House",
+   "district": "16",
+   "title": "State House District 16",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10064,
+   "candidates": [
+    {
+     "name": "Bob J Stevenson",
+     "party": null,
+     "votes": 5128,
+     "write_in": false,
+     "pct": 50.95,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Abigail Treasure",
+     "party": null,
+     "votes": 4936,
+     "write_in": false,
+     "pct": 49.05,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Bob J Stevenson",
+   "margin_votes": 192,
+   "margin_pct": 1.9,
+   "jurisdiction": null,
+   "id": "ut-037"
+  },
+  {
+   "office": "State House",
+   "district": "17",
+   "title": "State House District 17",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10800,
+   "candidates": [
+    {
+     "name": "Lili Bitner",
+     "party": null,
+     "votes": 6272,
+     "write_in": false,
+     "pct": 58.07,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Eric Last",
+     "party": null,
+     "votes": 4528,
+     "write_in": false,
+     "pct": 41.93,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Lili Bitner",
+   "margin_votes": 1744,
+   "margin_pct": 16.14,
+   "jurisdiction": null,
+   "id": "ut-038"
+  },
+  {
+   "office": "State House",
+   "district": "18",
+   "title": "State House District 18",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11169,
+   "candidates": [
+    {
+     "name": "Paul Cutler",
+     "party": null,
+     "votes": 6536,
+     "write_in": false,
+     "pct": 58.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Scott Troxel",
+     "party": null,
+     "votes": 4633,
+     "write_in": false,
+     "pct": 41.48,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Paul Cutler",
+   "margin_votes": 1903,
+   "margin_pct": 17.04,
+   "jurisdiction": null,
+   "id": "ut-039"
+  },
+  {
+   "office": "State House",
+   "district": "19",
+   "title": "State House District 19",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8258,
+   "candidates": [
+    {
+     "name": "Raymond P. Ward",
+     "party": null,
+     "votes": 8258,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Raymond P. Ward",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ut-040"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "State House District 20",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9024,
+   "candidates": [
+    {
+     "name": "Phil Graves",
+     "party": null,
+     "votes": 4691,
+     "write_in": false,
+     "pct": 51.98,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Melissa Ballard",
+     "party": null,
+     "votes": 4333,
+     "write_in": false,
+     "pct": 48.02,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Phil Graves",
+   "margin_votes": 358,
+   "margin_pct": 3.96,
+   "jurisdiction": null,
+   "id": "ut-041"
+  },
+  {
+   "office": "State House",
+   "district": "21",
+   "title": "State House District 21",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5879,
+   "candidates": [
+    {
+     "name": "Stephen Otterstrom",
+     "party": null,
+     "votes": 5879,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Stephen Otterstrom",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ut-042"
+  },
+  {
+   "office": "State House",
+   "district": "22",
+   "title": "State House District 22",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11589,
+   "candidates": [
+    {
+     "name": "Jen Dailey-Provost",
+     "party": null,
+     "votes": 10129,
+     "write_in": false,
+     "pct": 87.4,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Char Varga",
+     "party": null,
+     "votes": 1460,
+     "write_in": false,
+     "pct": 12.6,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jen Dailey-Provost",
+   "margin_votes": 8669,
+   "margin_pct": 74.8,
+   "jurisdiction": null,
+   "id": "ut-043"
+  },
+  {
+   "office": "State House",
+   "district": "23",
+   "title": "State House District 23 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15330,
+   "candidates": [
+    {
+     "name": "Hoang Nguyen",
+     "party": null,
+     "votes": 12693,
+     "write_in": false,
+     "pct": 82.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Franklin D. Robinson",
+     "party": null,
+     "votes": 2300,
+     "write_in": false,
+     "pct": 15.0,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Cabot W Nelson",
+     "party": null,
+     "votes": 337,
+     "write_in": false,
+     "pct": 2.2,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Hoang Nguyen",
+   "margin_votes": 10393,
+   "margin_pct": 67.8,
+   "jurisdiction": null,
+   "id": "ut-044"
+  },
+  {
+   "office": "State House",
+   "district": "24",
+   "title": "State House District 24",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11040,
+   "candidates": [
+    {
+     "name": "Grant Amjad Miller",
+     "party": null,
+     "votes": 9898,
+     "write_in": false,
+     "pct": 89.66,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Braeden J. Oswald",
+     "party": null,
+     "votes": 1142,
+     "write_in": false,
+     "pct": 10.34,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Grant Amjad Miller",
+   "margin_votes": 8756,
+   "margin_pct": 79.32,
+   "jurisdiction": null,
+   "id": "ut-045"
+  },
+  {
+   "office": "State House",
+   "district": "25",
+   "title": "State House District 25",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 4965,
+   "candidates": [
+    {
+     "name": "Angela Romero",
+     "party": null,
+     "votes": 3842,
+     "write_in": false,
+     "pct": 77.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Richard T Nowak",
+     "party": null,
+     "votes": 1123,
+     "write_in": false,
+     "pct": 22.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Angela Romero",
+   "margin_votes": 2719,
+   "margin_pct": 54.76,
+   "jurisdiction": null,
+   "id": "ut-046"
+  },
+  {
+   "office": "State House",
+   "district": "26",
+   "title": "State House District 26",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7400,
+   "candidates": [
+    {
+     "name": "Michael E Finch",
+     "party": null,
+     "votes": 4889,
+     "write_in": false,
+     "pct": 66.07,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Matt Macpherson",
+     "party": null,
+     "votes": 2511,
+     "write_in": false,
+     "pct": 33.93,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Michael E Finch",
+   "margin_votes": 2378,
+   "margin_pct": 32.14,
+   "jurisdiction": null,
+   "id": "ut-047"
+  },
+  {
+   "office": "State House",
+   "district": "27",
+   "title": "State House District 27",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7473,
+   "candidates": [
+    {
+     "name": "Liz Oates",
+     "party": null,
+     "votes": 4765,
+     "write_in": false,
+     "pct": 63.76,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Anthony Loubet",
+     "party": null,
+     "votes": 2708,
+     "write_in": false,
+     "pct": 36.24,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Liz Oates",
+   "margin_votes": 2057,
+   "margin_pct": 27.52,
+   "jurisdiction": null,
+   "id": "ut-048"
+  },
+  {
+   "office": "State House",
+   "district": "28",
+   "title": "State House District 28",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8201,
+   "candidates": [
+    {
+     "name": "Nicholeen Peck",
+     "party": null,
+     "votes": 4333,
+     "write_in": false,
+     "pct": 52.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Anita Dalrymple",
+     "party": null,
+     "votes": 3275,
+     "write_in": false,
+     "pct": 39.93,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Wales Nematollahi",
+     "party": null,
+     "votes": 593,
+     "write_in": false,
+     "pct": 7.23,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Nicholeen Peck",
+   "margin_votes": 1058,
+   "margin_pct": 12.91,
+   "jurisdiction": null,
+   "id": "ut-049"
+  },
+  {
+   "office": "State House",
+   "district": "29",
+   "title": "State House District 29 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9604,
+   "candidates": [
+    {
+     "name": "Sheldon Birch",
+     "party": null,
+     "votes": 6459,
+     "write_in": false,
+     "pct": 67.25,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Sara Snow",
+     "party": null,
+     "votes": 2296,
+     "write_in": false,
+     "pct": 23.91,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Tynley Bean",
+     "party": null,
+     "votes": 458,
+     "write_in": false,
+     "pct": 4.77,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Jonathan Garrard",
+     "party": null,
+     "votes": 391,
+     "write_in": false,
+     "pct": 4.07,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Sheldon Birch",
+   "margin_votes": 4163,
+   "margin_pct": 43.34,
+   "jurisdiction": null,
+   "id": "ut-050"
+  },
+  {
+   "office": "State House",
+   "district": "30",
+   "title": "State House District 30",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7872,
+   "candidates": [
+    {
+     "name": "Jake Fitisemanu",
+     "party": null,
+     "votes": 5155,
+     "write_in": false,
+     "pct": 65.49,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Dave Parke",
+     "party": null,
+     "votes": 2717,
+     "write_in": false,
+     "pct": 34.51,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jake Fitisemanu",
+   "margin_votes": 2438,
+   "margin_pct": 30.98,
+   "jurisdiction": null,
+   "id": "ut-051"
+  },
+  {
+   "office": "State House",
+   "district": "31",
+   "title": "State House District 31",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6725,
+   "candidates": [
+    {
+     "name": "Verona Mauga",
+     "party": null,
+     "votes": 4711,
+     "write_in": false,
+     "pct": 70.05,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Melody Jones",
+     "party": null,
+     "votes": 2014,
+     "write_in": false,
+     "pct": 29.95,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Verona Mauga",
+   "margin_votes": 2697,
+   "margin_pct": 40.1,
+   "jurisdiction": null,
+   "id": "ut-052"
+  },
+  {
+   "office": "State House",
+   "district": "32",
+   "title": "State House District 32",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9594,
+   "candidates": [
+    {
+     "name": "Sahara Hayes",
+     "party": null,
+     "votes": 7944,
+     "write_in": false,
+     "pct": 82.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Aileen Hampton",
+     "party": null,
+     "votes": 1650,
+     "write_in": false,
+     "pct": 17.2,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Sahara Hayes",
+   "margin_votes": 6294,
+   "margin_pct": 65.6,
+   "jurisdiction": null,
+   "id": "ut-053"
+  },
+  {
+   "office": "State House",
+   "district": "33",
+   "title": "State House District 33",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14698,
+   "candidates": [
+    {
+     "name": "Doug Owens",
+     "party": null,
+     "votes": 11469,
+     "write_in": false,
+     "pct": 78.03,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Anna Reeves",
+     "party": null,
+     "votes": 3229,
+     "write_in": false,
+     "pct": 21.97,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Doug Owens",
+   "margin_votes": 8240,
+   "margin_pct": 56.06,
+   "jurisdiction": null,
+   "id": "ut-054"
+  },
+  {
+   "office": "State House",
+   "district": "34",
+   "title": "State House District 34",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9457,
+   "candidates": [
+    {
+     "name": "Julie Jackson",
+     "party": null,
+     "votes": 9457,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Julie Jackson",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ut-055"
+  },
+  {
+   "office": "State House",
+   "district": "35",
+   "title": "State House District 35",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9824,
+   "candidates": [
+    {
+     "name": "Rosalba Dominguez",
+     "party": null,
+     "votes": 6577,
+     "write_in": false,
+     "pct": 66.95,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Monique I. Ketcham",
+     "party": null,
+     "votes": 3247,
+     "write_in": false,
+     "pct": 33.05,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Rosalba Dominguez",
+   "margin_votes": 3330,
+   "margin_pct": 33.9,
+   "jurisdiction": null,
+   "id": "ut-056"
+  },
+  {
+   "office": "State House",
+   "district": "36",
+   "title": "State House District 36",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10144,
+   "candidates": [
+    {
+     "name": "Blake Townsend",
+     "party": null,
+     "votes": 5545,
+     "write_in": false,
+     "pct": 54.66,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Dunnigan",
+     "party": null,
+     "votes": 4599,
+     "write_in": false,
+     "pct": 45.34,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Blake Townsend",
+   "margin_votes": 946,
+   "margin_pct": 9.32,
+   "jurisdiction": null,
+   "id": "ut-057"
+  },
+  {
+   "office": "State House",
+   "district": "37",
+   "title": "State House District 37",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6494,
+   "candidates": [
+    {
+     "name": "Ashlee Matthews",
+     "party": null,
+     "votes": 4251,
+     "write_in": false,
+     "pct": 65.46,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Casey Saxton",
+     "party": null,
+     "votes": 2243,
+     "write_in": false,
+     "pct": 34.54,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ashlee Matthews",
+   "margin_votes": 2008,
+   "margin_pct": 30.92,
+   "jurisdiction": null,
+   "id": "ut-058"
+  },
+  {
+   "office": "State House",
+   "district": "38",
+   "title": "State House District 38",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7071,
+   "candidates": [
+    {
+     "name": "Sergio Sotelo",
+     "party": null,
+     "votes": 4085,
+     "write_in": false,
+     "pct": 57.77,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chris McConnehey",
+     "party": null,
+     "votes": 2986,
+     "write_in": false,
+     "pct": 42.23,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Sergio Sotelo",
+   "margin_votes": 1099,
+   "margin_pct": 15.54,
+   "jurisdiction": null,
+   "id": "ut-059"
+  },
+  {
+   "office": "State House",
+   "district": "39",
+   "title": "State House District 39",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8405,
+   "candidates": [
+    {
+     "name": "Drew Howells",
+     "party": null,
+     "votes": 5055,
+     "write_in": false,
+     "pct": 60.14,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ken Ivory",
+     "party": null,
+     "votes": 3350,
+     "write_in": false,
+     "pct": 39.86,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Drew Howells",
+   "margin_votes": 1705,
+   "margin_pct": 20.28,
+   "jurisdiction": null,
+   "id": "ut-060"
+  },
+  {
+   "office": "State House",
+   "district": "40",
+   "title": "State House District 40",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6521,
+   "candidates": [
+    {
+     "name": "Andrew Stoddard",
+     "party": null,
+     "votes": 6521,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Andrew Stoddard",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ut-061"
+  },
+  {
+   "office": "State House",
+   "district": "41",
+   "title": "State House District 41",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14375,
+   "candidates": [
+    {
+     "name": "John Arthur",
+     "party": null,
+     "votes": 9761,
+     "write_in": false,
+     "pct": 67.9,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Darren Croft",
+     "party": null,
+     "votes": 4614,
+     "write_in": false,
+     "pct": 32.1,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "John Arthur",
+   "margin_votes": 5147,
+   "margin_pct": 35.8,
+   "jurisdiction": null,
+   "id": "ut-062"
+  },
+  {
+   "office": "State House",
+   "district": "42",
+   "title": "State House District 42",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14001,
+   "candidates": [
+    {
+     "name": "Iva Williams",
+     "party": null,
+     "votes": 7800,
+     "write_in": false,
+     "pct": 55.71,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Clint Okerlund",
+     "party": null,
+     "votes": 6201,
+     "write_in": false,
+     "pct": 44.29,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Iva Williams",
+   "margin_votes": 1599,
+   "margin_pct": 11.42,
+   "jurisdiction": null,
+   "id": "ut-063"
+  },
+  {
+   "office": "State House",
+   "district": "43",
+   "title": "State House District 43",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10597,
+   "candidates": [
+    {
+     "name": "Ofa Matagi",
+     "party": null,
+     "votes": 5970,
+     "write_in": false,
+     "pct": 56.34,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Steve Eliason",
+     "party": null,
+     "votes": 4627,
+     "write_in": false,
+     "pct": 43.66,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ofa Matagi",
+   "margin_votes": 1343,
+   "margin_pct": 12.68,
+   "jurisdiction": null,
+   "id": "ut-064"
+  },
+  {
+   "office": "State House",
+   "district": "44",
+   "title": "State House District 44",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10926,
+   "candidates": [
+    {
+     "name": "Jess Birtcher",
+     "party": null,
+     "votes": 5909,
+     "write_in": false,
+     "pct": 54.08,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jordan Teuscher",
+     "party": null,
+     "votes": 5017,
+     "write_in": false,
+     "pct": 45.92,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jess Birtcher",
+   "margin_votes": 892,
+   "margin_pct": 8.16,
+   "jurisdiction": null,
+   "id": "ut-065"
+  },
+  {
+   "office": "State House",
+   "district": "45",
+   "title": "State House District 45",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10544,
+   "candidates": [
+    {
+     "name": "Tracy Miller",
+     "party": null,
+     "votes": 5489,
+     "write_in": false,
+     "pct": 52.06,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Rod Moser",
+     "party": null,
+     "votes": 5055,
+     "write_in": false,
+     "pct": 47.94,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Tracy Miller",
+   "margin_votes": 434,
+   "margin_pct": 4.12,
+   "jurisdiction": null,
+   "id": "ut-066"
+  },
+  {
+   "office": "State House",
+   "district": "46",
+   "title": "State House District 46",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9382,
+   "candidates": [
+    {
+     "name": "Cal Roberts",
+     "party": null,
+     "votes": 4959,
+     "write_in": false,
+     "pct": 52.86,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Braxten Rutherford",
+     "party": null,
+     "votes": 4423,
+     "write_in": false,
+     "pct": 47.14,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Cal Roberts",
+   "margin_votes": 536,
+   "margin_pct": 5.72,
+   "jurisdiction": null,
+   "id": "ut-067"
+  },
+  {
+   "office": "State House",
+   "district": "47",
+   "title": "State House District 47",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6259,
+   "candidates": [
+    {
+     "name": "Mark A. Strong",
+     "party": null,
+     "votes": 6259,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mark A. Strong",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ut-068"
+  },
+  {
+   "office": "State House",
+   "district": "48",
+   "title": "State House District 48",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9240,
+   "candidates": [
+    {
+     "name": "Benyde Walker",
+     "party": null,
+     "votes": 4807,
+     "write_in": false,
+     "pct": 52.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jake Hunsaker",
+     "party": null,
+     "votes": 4433,
+     "write_in": false,
+     "pct": 47.98,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Benyde Walker",
+   "margin_votes": 374,
+   "margin_pct": 4.04,
+   "jurisdiction": null,
+   "id": "ut-069"
+  },
+  {
+   "office": "State House",
+   "district": "49",
+   "title": "State House District 49",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8011,
+   "candidates": [
+    {
+     "name": "Candice B. Pierucci",
+     "party": null,
+     "votes": 4115,
+     "write_in": false,
+     "pct": 51.37,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lillian Bowles",
+     "party": null,
+     "votes": 3896,
+     "write_in": false,
+     "pct": 48.63,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Candice B. Pierucci",
+   "margin_votes": 219,
+   "margin_pct": 2.74,
+   "jurisdiction": null,
+   "id": "ut-070"
+  },
+  {
+   "office": "State House",
+   "district": "50",
+   "title": "State House District 50",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5970,
+   "candidates": [
+    {
+     "name": "Stephanie Gricius",
+     "party": null,
+     "votes": 3393,
+     "write_in": false,
+     "pct": 56.83,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kristin Meyer",
+     "party": null,
+     "votes": 2577,
+     "write_in": false,
+     "pct": 43.17,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Stephanie Gricius",
+   "margin_votes": 816,
+   "margin_pct": 13.66,
+   "jurisdiction": null,
+   "id": "ut-071"
+  },
+  {
+   "office": "State House",
+   "district": "51",
+   "title": "State House District 51",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7697,
+   "candidates": [
+    {
+     "name": "Leah Hansen",
+     "party": null,
+     "votes": 4107,
+     "write_in": false,
+     "pct": 53.36,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brett Nielsen",
+     "party": null,
+     "votes": 3590,
+     "write_in": false,
+     "pct": 46.64,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Leah Hansen",
+   "margin_votes": 517,
+   "margin_pct": 6.72,
+   "jurisdiction": null,
+   "id": "ut-072"
+  },
+  {
+   "office": "State House",
+   "district": "52",
+   "title": "State House District 52",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6889,
+   "candidates": [
+    {
+     "name": "Cory Maloy",
+     "party": null,
+     "votes": 3568,
+     "write_in": false,
+     "pct": 51.79,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Nicole Melling",
+     "party": null,
+     "votes": 3247,
+     "write_in": false,
+     "pct": 47.13,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 74,
+     "write_in": true,
+     "pct": 1.07,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Cory Maloy",
+   "margin_votes": 321,
+   "margin_pct": 4.66,
+   "jurisdiction": null,
+   "id": "ut-073"
+  },
+  {
+   "office": "State House",
+   "district": "53",
+   "title": "State House District 53",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7432,
+   "candidates": [
+    {
+     "name": "Kay J. Christofferson",
+     "party": null,
+     "votes": 3834,
+     "write_in": false,
+     "pct": 51.59,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "John Boyd",
+     "party": null,
+     "votes": 2328,
+     "write_in": false,
+     "pct": 31.32,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin R Slater",
+     "party": null,
+     "votes": 1270,
+     "write_in": false,
+     "pct": 17.09,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Kay J. Christofferson",
+   "margin_votes": 1506,
+   "margin_pct": 20.27,
+   "jurisdiction": null,
+   "id": "ut-074"
+  },
+  {
+   "office": "State House",
+   "district": "54",
+   "title": "State House District 54",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8711,
+   "candidates": [
+    {
+     "name": "Kristen S. Chevrier",
+     "party": null,
+     "votes": 5732,
+     "write_in": false,
+     "pct": 65.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kristina Robinson",
+     "party": null,
+     "votes": 2979,
+     "write_in": false,
+     "pct": 34.2,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Kristen S. Chevrier",
+   "margin_votes": 2753,
+   "margin_pct": 31.6,
+   "jurisdiction": null,
+   "id": "ut-075"
+  },
+  {
+   "office": "State House",
+   "district": "55",
+   "title": "State House District 55",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7672,
+   "candidates": [
+    {
+     "name": "Jon Hawkins",
+     "party": null,
+     "votes": 4821,
+     "write_in": false,
+     "pct": 62.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Travis Hysell",
+     "party": null,
+     "votes": 2851,
+     "write_in": false,
+     "pct": 37.16,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jon Hawkins",
+   "margin_votes": 1970,
+   "margin_pct": 25.68,
+   "jurisdiction": null,
+   "id": "ut-076"
+  },
+  {
+   "office": "State House",
+   "district": "56",
+   "title": "State House District 56",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5692,
+   "candidates": [
+    {
+     "name": "Val L. Peterson",
+     "party": null,
+     "votes": 3148,
+     "write_in": false,
+     "pct": 55.31,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Natassja Grossman",
+     "party": null,
+     "votes": 2544,
+     "write_in": false,
+     "pct": 44.69,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Val L. Peterson",
+   "margin_votes": 604,
+   "margin_pct": 10.62,
+   "jurisdiction": null,
+   "id": "ut-077"
+  },
+  {
+   "office": "State House",
+   "district": "57",
+   "title": "State House District 57",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5133,
+   "candidates": [
+    {
+     "name": "Nelson Abbott",
+     "party": null,
+     "votes": 4145,
+     "write_in": false,
+     "pct": 80.75,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 988,
+     "write_in": true,
+     "pct": 19.25,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Nelson Abbott",
+   "margin_votes": 3157,
+   "margin_pct": 61.5,
+   "jurisdiction": null,
+   "id": "ut-078"
+  },
+  {
+   "office": "State House",
+   "district": "58",
+   "title": "State House District 58",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9256,
+   "candidates": [
+    {
+     "name": "David Shallenberger",
+     "party": null,
+     "votes": 5712,
+     "write_in": false,
+     "pct": 61.71,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Karli Black",
+     "party": null,
+     "votes": 3544,
+     "write_in": false,
+     "pct": 38.29,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "David Shallenberger",
+   "margin_votes": 2168,
+   "margin_pct": 23.42,
+   "jurisdiction": null,
+   "id": "ut-079"
+  },
+  {
+   "office": "State House",
+   "district": "59",
+   "title": "State House District 59 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12909,
+   "candidates": [
+    {
+     "name": "Celeste T. Johnson",
+     "party": null,
+     "votes": 6467,
+     "write_in": false,
+     "pct": 50.1,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Luke Searle",
+     "party": null,
+     "votes": 6442,
+     "write_in": false,
+     "pct": 49.9,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Celeste T. Johnson",
+   "margin_votes": 25,
+   "margin_pct": 0.2,
+   "jurisdiction": null,
+   "id": "ut-080"
+  },
+  {
+   "office": "State House",
+   "district": "60",
+   "title": "State House District 60",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1687,
+   "candidates": [
+    {
+     "name": "Grant Pace",
+     "party": null,
+     "votes": 1687,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Grant Pace",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ut-081"
+  },
+  {
+   "office": "State House",
+   "district": "61",
+   "title": "State House District 61",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5671,
+   "candidates": [
+    {
+     "name": "Lisa Shepherd",
+     "party": null,
+     "votes": 2806,
+     "write_in": false,
+     "pct": 49.48,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Alan Jimenez",
+     "party": null,
+     "votes": 2681,
+     "write_in": false,
+     "pct": 47.28,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Jennifer K Doud",
+     "party": null,
+     "votes": 184,
+     "write_in": false,
+     "pct": 3.24,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Lisa Shepherd",
+   "margin_votes": 125,
+   "margin_pct": 2.2,
+   "jurisdiction": null,
+   "id": "ut-082"
+  },
+  {
+   "office": "State House",
+   "district": "62",
+   "title": "State House District 62",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5245,
+   "candidates": [
+    {
+     "name": "David Chappell",
+     "party": null,
+     "votes": 2904,
+     "write_in": false,
+     "pct": 55.37,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Norm Thurston",
+     "party": null,
+     "votes": 2341,
+     "write_in": false,
+     "pct": 44.63,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "David Chappell",
+   "margin_votes": 563,
+   "margin_pct": 10.74,
+   "jurisdiction": null,
+   "id": "ut-083"
+  },
+  {
+   "office": "State House",
+   "district": "63",
+   "title": "State House District 63",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8604,
+   "candidates": [
+    {
+     "name": "Stephen L. Whyte",
+     "party": null,
+     "votes": 5481,
+     "write_in": false,
+     "pct": 63.7,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Youngquist",
+     "party": null,
+     "votes": 2374,
+     "write_in": false,
+     "pct": 27.59,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Julie Smith",
+     "party": null,
+     "votes": 749,
+     "write_in": false,
+     "pct": 8.71,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Stephen L. Whyte",
+   "margin_votes": 3107,
+   "margin_pct": 36.11,
+   "jurisdiction": null,
+   "id": "ut-084"
+  },
+  {
+   "office": "State House",
+   "district": "64",
+   "title": "State House District 64",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7645,
+   "candidates": [
+    {
+     "name": "Jackie Larson",
+     "party": null,
+     "votes": 4757,
+     "write_in": false,
+     "pct": 62.22,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Alan Wessman",
+     "party": null,
+     "votes": 2888,
+     "write_in": false,
+     "pct": 37.78,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jackie Larson",
+   "margin_votes": 1869,
+   "margin_pct": 24.44,
+   "jurisdiction": null,
+   "id": "ut-085"
+  },
+  {
+   "office": "State House",
+   "district": "65",
+   "title": "State House District 65",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5631,
+   "candidates": [
+    {
+     "name": "Doug Welton",
+     "party": null,
+     "votes": 5631,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Doug Welton",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ut-086"
+  },
+  {
+   "office": "State House",
+   "district": "66",
+   "title": "State House District 66 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9518,
+   "candidates": [
+    {
+     "name": "Troy Shelley",
+     "party": null,
+     "votes": 6944,
+     "write_in": false,
+     "pct": 72.96,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Breanne Mashek",
+     "party": null,
+     "votes": 1698,
+     "write_in": false,
+     "pct": 17.84,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Russ Hatch",
+     "party": null,
+     "votes": 876,
+     "write_in": false,
+     "pct": 9.2,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Troy Shelley",
+   "margin_votes": 5246,
+   "margin_pct": 55.12,
+   "jurisdiction": null,
+   "id": "ut-087"
+  },
+  {
+   "office": "State House",
+   "district": "67",
+   "title": "State House District 67 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10490,
+   "candidates": [
+    {
+     "name": "Jr Bird",
+     "party": null,
+     "votes": 7857,
+     "write_in": false,
+     "pct": 74.9,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Carl Ingwell",
+     "party": null,
+     "votes": 2633,
+     "write_in": false,
+     "pct": 25.1,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jr Bird",
+   "margin_votes": 5224,
+   "margin_pct": 49.8,
+   "jurisdiction": null,
+   "id": "ut-088"
+  },
+  {
+   "office": "State House",
+   "district": "68",
+   "title": "State House District 68 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10611,
+   "candidates": [
+    {
+     "name": "Scott H Chew",
+     "party": null,
+     "votes": 8971,
+     "write_in": false,
+     "pct": 84.54,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Sonya Ray",
+     "party": null,
+     "votes": 1640,
+     "write_in": false,
+     "pct": 15.46,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Scott H Chew",
+   "margin_votes": 7331,
+   "margin_pct": 69.08,
+   "jurisdiction": null,
+   "id": "ut-089"
+  },
+  {
+   "office": "State House",
+   "district": "69",
+   "title": "State House District 69 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12311,
+   "candidates": [
+    {
+     "name": "Logan J. Monson",
+     "party": null,
+     "votes": 7293,
+     "write_in": false,
+     "pct": 59.24,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tracie Yellowman Tso",
+     "party": null,
+     "votes": 5018,
+     "write_in": false,
+     "pct": 40.76,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 6,
+    "total": 6
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Logan J. Monson",
+   "margin_votes": 2275,
+   "margin_pct": 18.48,
+   "jurisdiction": null,
+   "id": "ut-090"
+  },
+  {
+   "office": "State House",
+   "district": "70",
+   "title": "State House District 70 (Multi-County)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11363,
+   "candidates": [
+    {
+     "name": "Carl R. Albrecht",
+     "party": null,
+     "votes": 9390,
+     "write_in": false,
+     "pct": 82.64,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Stacey D. Pendergraft",
+     "party": null,
+     "votes": 1736,
+     "write_in": false,
+     "pct": 15.28,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Zeno B. Parry",
+     "party": null,
+     "votes": 237,
+     "write_in": false,
+     "pct": 2.09,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Carl R. Albrecht",
+   "margin_votes": 7654,
+   "margin_pct": 67.36,
+   "jurisdiction": null,
+   "id": "ut-091"
+  },
+  {
+   "office": "State House",
+   "district": "71",
+   "title": "State House District 71",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10153,
+   "candidates": [
+    {
+     "name": "Rex P Shipp",
+     "party": null,
+     "votes": 7029,
+     "write_in": false,
+     "pct": 69.23,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Loveheart",
+     "party": null,
+     "votes": 3124,
+     "write_in": false,
+     "pct": 30.77,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Rex P Shipp",
+   "margin_votes": 3905,
+   "margin_pct": 38.46,
+   "jurisdiction": null,
+   "id": "ut-092"
+  },
+  {
+   "office": "State House",
+   "district": "72",
+   "title": "State House District 72",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11885,
+   "candidates": [
+    {
+     "name": "Joseph Elison",
+     "party": null,
+     "votes": 8090,
+     "write_in": false,
+     "pct": 68.07,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Eva M Weldon",
+     "party": null,
+     "votes": 3234,
+     "write_in": false,
+     "pct": 27.21,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "April A Pinkston",
+     "party": null,
+     "votes": 561,
+     "write_in": false,
+     "pct": 4.72,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Joseph Elison",
+   "margin_votes": 4856,
+   "margin_pct": 40.86,
+   "jurisdiction": null,
+   "id": "ut-093"
+  },
+  {
+   "office": "State House",
+   "district": "73",
+   "title": "State House District 73",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9311,
+   "candidates": [
+    {
+     "name": "Colin W. Jack",
+     "party": null,
+     "votes": 6396,
+     "write_in": false,
+     "pct": 68.69,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Glenn D Webb",
+     "party": null,
+     "votes": 2915,
+     "write_in": false,
+     "pct": 31.31,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Colin W. Jack",
+   "margin_votes": 3481,
+   "margin_pct": 37.38,
+   "jurisdiction": null,
+   "id": "ut-094"
+  },
+  {
+   "office": "State House",
+   "district": "74",
+   "title": "State House District 74",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12778,
+   "candidates": [
+    {
+     "name": "R. Neil Walter",
+     "party": null,
+     "votes": 8290,
+     "write_in": false,
+     "pct": 64.88,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jeffrey N Lipe",
+     "party": null,
+     "votes": 4488,
+     "write_in": false,
+     "pct": 35.12,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "R. Neil Walter",
+   "margin_votes": 3802,
+   "margin_pct": 29.76,
+   "jurisdiction": null,
+   "id": "ut-095"
+  },
+  {
+   "office": "State House",
+   "district": "75",
+   "title": "State House District 75",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9073,
+   "candidates": [
+    {
+     "name": "Walt Brooks",
+     "party": null,
+     "votes": 6277,
+     "write_in": false,
+     "pct": 69.18,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Rebecca Winsor",
+     "party": null,
+     "votes": 2796,
+     "write_in": false,
+     "pct": 30.82,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:12:46.5651236Z",
+   "source_url": "https://electionresults.utah.gov/results/public/utah/elections/General11032026",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Walt Brooks",
+   "margin_votes": 3481,
+   "margin_pct": 38.36,
+   "jurisdiction": null,
+   "id": "ut-096"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 96,
+  "by_office": {
+   "US House": 4,
+   "Ballot Measure": 2,
+   "State Senate": 15,
+   "State House": 75
+  }
+ }
+}

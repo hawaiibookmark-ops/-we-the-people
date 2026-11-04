@@ -1,0 +1,3289 @@
+{
+ "state": "VT",
+ "name": "Vermont",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.vermont.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.vermont.gov/",
+ "retrieved_at": "2026-11-04T18:58:11Z",
+ "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 617952,
+   "candidates": [
+    {
+     "name": "Phil Scott",
+     "party": "Republican",
+     "votes": 323674,
+     "write_in": false,
+     "pct": 52.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Amanda Janoo",
+     "party": "Dem/Prog",
+     "votes": 283128,
+     "write_in": false,
+     "pct": 45.82,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Judd",
+     "party": "Independent",
+     "votes": 5226,
+     "write_in": false,
+     "pct": 0.85,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "June Goodband",
+     "party": "Peace And Justice",
+     "votes": 2452,
+     "write_in": false,
+     "pct": 0.4,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Dean Roy",
+     "party": "Freedom And Unity",
+     "votes": 2270,
+     "write_in": false,
+     "pct": 0.37,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Other Write-In",
+     "party": null,
+     "votes": 1016,
+     "write_in": true,
+     "pct": 0.16,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 28,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 10,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Aly Richards",
+     "party": null,
+     "votes": 8,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Bryan Ponnwitz",
+     "party": null,
+     "votes": 6,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 10,
+     "incumbent": null
+    },
+    {
+     "name": "Cotie Stanley ",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 11,
+     "incumbent": null
+    },
+    {
+     "name": "Donald Trump",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 12,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 13,
+     "incumbent": null
+    },
+    {
+     "name": "Bryan Ponnwitz",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 14,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Michael Hoyt",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 15,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 16,
+     "incumbent": null
+    },
+    {
+     "name": "Jeffrey Nichols",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 17,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Billian",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 18,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Douglas",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 19,
+     "incumbent": null
+    },
+    {
+     "name": "Rodney Allen",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 20,
+     "incumbent": null
+    },
+    {
+     "name": "Ronald Veino",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 21,
+     "incumbent": null
+    },
+    {
+     "name": "Glen Sausville",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 22,
+     "incumbent": null
+    },
+    {
+     "name": "Luke She",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 23,
+     "incumbent": null
+    },
+    {
+     "name": "James Maybee Jr",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 24,
+     "incumbent": null
+    },
+    {
+     "name": "Victor Harwood",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 25,
+     "incumbent": null
+    },
+    {
+     "name": "Warren Roaf",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 26,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan Roy",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 27,
+     "incumbent": null
+    },
+    {
+     "name": "John Sunnunu",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 28,
+     "incumbent": null
+    },
+    {
+     "name": "Ally Richards",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 29,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Douglas",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 30,
+     "incumbent": null
+    },
+    {
+     "name": "Jonas Hastings",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 31,
+     "incumbent": null
+    },
+    {
+     "name": "Robert Ladue",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 32,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 33,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Garbitelli",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 34,
+     "incumbent": null
+    },
+    {
+     "name": "Nathan Cook",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 35,
+     "incumbent": null
+    },
+    {
+     "name": "Danielle Jankowski",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 36,
+     "incumbent": null
+    },
+    {
+     "name": "Jed Lipsky",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 37,
+     "incumbent": null
+    },
+    {
+     "name": "Jonas Hastings",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 38,
+     "incumbent": null
+    },
+    {
+     "name": "Gabe Messier",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 39,
+     "incumbent": null
+    },
+    {
+     "name": "Aly Richards",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 40,
+     "incumbent": null
+    },
+    {
+     "name": "Jay Shepard",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 41,
+     "incumbent": null
+    },
+    {
+     "name": "Charles Mraz",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 42,
+     "incumbent": null
+    },
+    {
+     "name": "Margo Nugent",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 43,
+     "incumbent": null
+    },
+    {
+     "name": "Aly Richards",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 44,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 45,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Scott",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 46,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Michael Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 47,
+     "incumbent": null
+    },
+    {
+     "name": "Roger Parker",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 48,
+     "incumbent": null
+    },
+    {
+     "name": "Otis Nelson",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 49,
+     "incumbent": null
+    },
+    {
+     "name": "JAP",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 50,
+     "incumbent": null
+    },
+    {
+     "name": "George Deblon",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 51,
+     "incumbent": null
+    },
+    {
+     "name": "John S. Rodgers",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 52,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Scott",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 53,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Xelly",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 54,
+     "incumbent": null
+    },
+    {
+     "name": "Andrew Gustufson",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 55,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 56,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Scott",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 57,
+     "incumbent": null
+    },
+    {
+     "name": "Alejandro E. Young H.",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 58,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Dubey",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 59,
+     "incumbent": null
+    },
+    {
+     "name": "Randy Brock",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 60,
+     "incumbent": null
+    },
+    {
+     "name": "Neil Ryan",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 61,
+     "incumbent": null
+    },
+    {
+     "name": "Tom Otterman",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 62,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Scott",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 63,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Scott",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 64,
+     "incumbent": null
+    },
+    {
+     "name": "Ron Boucher",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 65,
+     "incumbent": null
+    },
+    {
+     "name": "Tim Hall",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 66,
+     "incumbent": null
+    },
+    {
+     "name": "Kiven Hout",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 67,
+     "incumbent": null
+    },
+    {
+     "name": "Rick Sanchez",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 68,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Michael Hoyt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 69,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 70,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 71,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Michael Hoyt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 72,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "towns",
+    "reporting": 247,
+    "total": 247
+   },
+   "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+   "source_url": "https://electionresults.vermont.gov/",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Phil Scott",
+   "margin_votes": 40546,
+   "margin_pct": 6.56,
+   "blank_votes": 4020,
+   "jurisdiction": "Statewide",
+   "pct_basis": "Share of votes for listed candidates and write-ins; blank votes excluded.",
+   "notes": "Vermont reports by town; totals are the sum of the official town rows.",
+   "id": "vt-001"
+  },
+  {
+   "office": "US House",
+   "district": "At-large",
+   "title": "Representative to Congress (At-large)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 609086,
+   "candidates": [
+    {
+     "name": "Becca Balint",
+     "party": "Democratic",
+     "votes": 397318,
+     "write_in": false,
+     "pct": 65.23,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Gerald Malloy",
+     "party": "Republican",
+     "votes": 188030,
+     "write_in": false,
+     "pct": 30.87,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Suzanne \"Suz\" Seymour",
+     "party": "Independent",
+     "votes": 8724,
+     "write_in": false,
+     "pct": 1.43,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ryan P. Walton",
+     "party": "Independent",
+     "votes": 5384,
+     "write_in": false,
+     "pct": 0.88,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Phoenix K. Altair",
+     "party": "Independent",
+     "votes": 4680,
+     "write_in": false,
+     "pct": 0.77,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Adam Ortiz",
+     "party": "Independent",
+     "votes": 4388,
+     "write_in": false,
+     "pct": 0.72,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Other Write-In",
+     "party": null,
+     "votes": 486,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Molly Gray ",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Cris Ericson",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 10,
+     "incumbent": null
+    },
+    {
+     "name": "Aly Richards",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 11,
+     "incumbent": null
+    },
+    {
+     "name": "Eric Postel",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 12,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Morrissey",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 13,
+     "incumbent": null
+    },
+    {
+     "name": "Kirby Mene",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 14,
+     "incumbent": null
+    },
+    {
+     "name": "Lorraine Donatalli",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 15,
+     "incumbent": null
+    },
+    {
+     "name": "John Sunnunu",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 16,
+     "incumbent": null
+    },
+    {
+     "name": "Matt Montgomery",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 17,
+     "incumbent": null
+    },
+    {
+     "name": "Kasey Long",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 18,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Cook",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 19,
+     "incumbent": null
+    },
+    {
+     "name": "Danielle Jankowski",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 20,
+     "incumbent": null
+    },
+    {
+     "name": "Jonas Hastings",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 21,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Coester",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 22,
+     "incumbent": null
+    },
+    {
+     "name": "Richard Dynlo",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 23,
+     "incumbent": null
+    },
+    {
+     "name": "Greg Joly",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 24,
+     "incumbent": null
+    },
+    {
+     "name": "Molly Gray",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 25,
+     "incumbent": null
+    },
+    {
+     "name": "Amanda Janoo",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 26,
+     "incumbent": null
+    },
+    {
+     "name": "Ethan Swift",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 27,
+     "incumbent": null
+    },
+    {
+     "name": "Roger Parker",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 28,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Scott",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 29,
+     "incumbent": null
+    },
+    {
+     "name": "Owen Percy",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 30,
+     "incumbent": null
+    },
+    {
+     "name": "Cali",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 31,
+     "incumbent": null
+    },
+    {
+     "name": "JAP",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 32,
+     "incumbent": null
+    },
+    {
+     "name": "D Morrisseau",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 33,
+     "incumbent": null
+    },
+    {
+     "name": "Nicholas Rostow",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 34,
+     "incumbent": null
+    },
+    {
+     "name": "Gerald Malloy",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 35,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jim Sullivan",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 36,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Billian",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 37,
+     "incumbent": null
+    },
+    {
+     "name": "Julio Thompson",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 38,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 39,
+     "incumbent": null
+    },
+    {
+     "name": "Ben Foltz",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 40,
+     "incumbent": null
+    },
+    {
+     "name": "Gina Galfetti",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 41,
+     "incumbent": null
+    },
+    {
+     "name": "Molly Gray",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 42,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Marino ",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 43,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "towns",
+    "reporting": 247,
+    "total": 247
+   },
+   "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+   "source_url": "https://electionresults.vermont.gov/",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Becca Balint",
+   "margin_votes": 209288,
+   "margin_pct": 34.36,
+   "blank_votes": 12274,
+   "pct_basis": "Share of votes for listed candidates and write-ins; blank votes excluded.",
+   "notes": "Vermont reports by town; totals are the sum of the official town rows.",
+   "jurisdiction": null,
+   "id": "vt-002"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Attorney General",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 591738,
+   "candidates": [
+    {
+     "name": "Charity R. Clark",
+     "party": "Democratic",
+     "votes": 400770,
+     "write_in": false,
+     "pct": 67.73,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Edwin Howell Kemon",
+     "party": "Republican",
+     "votes": 189780,
+     "write_in": false,
+     "pct": 32.07,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Other Write-In",
+     "party": null,
+     "votes": 1080,
+     "write_in": true,
+     "pct": 0.18,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Sarah George",
+     "party": null,
+     "votes": 8,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 6,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Meredith Chaudoir",
+     "party": null,
+     "votes": 6,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Grant",
+     "party": null,
+     "votes": 6,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Cotie Stanley",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Welford",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 10,
+     "incumbent": null
+    },
+    {
+     "name": "Ian Sullivan",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 11,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Billian",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 12,
+     "incumbent": null
+    },
+    {
+     "name": "Corey Smyth",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 13,
+     "incumbent": null
+    },
+    {
+     "name": "Jacob Grayck",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 14,
+     "incumbent": null
+    },
+    {
+     "name": "Linda Joy Sullivan ",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 15,
+     "incumbent": null
+    },
+    {
+     "name": "Susan Young",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 16,
+     "incumbent": null
+    },
+    {
+     "name": "Dennis Pratt Jr",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 17,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan Roy",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 18,
+     "incumbent": null
+    },
+    {
+     "name": "Alexis McCloud",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 19,
+     "incumbent": null
+    },
+    {
+     "name": "Ace Archdeacon",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 20,
+     "incumbent": null
+    },
+    {
+     "name": "Kreature Roseingrave",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 21,
+     "incumbent": null
+    },
+    {
+     "name": "Rochelle Wilson",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 22,
+     "incumbent": null
+    },
+    {
+     "name": "Tj Donovan",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 23,
+     "incumbent": null
+    },
+    {
+     "name": "Holly Leach",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 24,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Cook",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 25,
+     "incumbent": null
+    },
+    {
+     "name": "Rory Thibault",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 26,
+     "incumbent": null
+    },
+    {
+     "name": "Jace Laquerre",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 27,
+     "incumbent": null
+    },
+    {
+     "name": "Julie Thompson",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 28,
+     "incumbent": null
+    },
+    {
+     "name": "Erica Marthage",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 29,
+     "incumbent": null
+    },
+    {
+     "name": "Jeff Messina",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 30,
+     "incumbent": null
+    },
+    {
+     "name": "Cali",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 31,
+     "incumbent": null
+    },
+    {
+     "name": "Daryl Raleigh",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 32,
+     "incumbent": null
+    },
+    {
+     "name": "Edwin Howell Kemon",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 33,
+     "incumbent": null
+    },
+    {
+     "name": "David Silver",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 34,
+     "incumbent": null
+    },
+    {
+     "name": "Devin Dale",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 35,
+     "incumbent": null
+    },
+    {
+     "name": "Tom Hango",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 36,
+     "incumbent": null
+    },
+    {
+     "name": "Blank",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 37,
+     "incumbent": null
+    },
+    {
+     "name": "Heidi Starr",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 38,
+     "incumbent": null
+    },
+    {
+     "name": "Bran Kranichfeld",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 39,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Dandeneau",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 40,
+     "incumbent": null
+    },
+    {
+     "name": "Tod Deloz",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 41,
+     "incumbent": null
+    },
+    {
+     "name": "Harland Miller III",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 42,
+     "incumbent": null
+    },
+    {
+     "name": "Blank",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 43,
+     "incumbent": null
+    },
+    {
+     "name": "Bram Kranichfeldt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 44,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Hunt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 45,
+     "incumbent": null
+    },
+    {
+     "name": "Sarah George",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 46,
+     "incumbent": null
+    },
+    {
+     "name": "Susan Capobianzo",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 47,
+     "incumbent": null
+    },
+    {
+     "name": "Todd Blanche",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 48,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "towns",
+    "reporting": 247,
+    "total": 247
+   },
+   "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+   "source_url": "https://electionresults.vermont.gov/",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Charity R. Clark",
+   "margin_votes": 210990,
+   "margin_pct": 35.66,
+   "blank_votes": 30346,
+   "jurisdiction": "Statewide",
+   "pct_basis": "Share of votes for listed candidates and write-ins; blank votes excluded.",
+   "notes": "Vermont reports by town; totals are the sum of the official town rows.",
+   "id": "vt-003"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Auditor of Accounts",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 588524,
+   "candidates": [
+    {
+     "name": "Tim Ashe",
+     "party": "Democratic",
+     "votes": 406560,
+     "write_in": false,
+     "pct": 69.08,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ivar Kronick",
+     "party": "Republican",
+     "votes": 181250,
+     "write_in": false,
+     "pct": 30.8,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Other Write-In",
+     "party": null,
+     "votes": 630,
+     "write_in": true,
+     "pct": 0.11,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 6,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Cotie Stanley ",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Aaron Fostman",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Corey Smyth",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Linda Joy Sullivan ",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Robert Testa Jr",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Wood",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 10,
+     "incumbent": null
+    },
+    {
+     "name": "Sheila Valley",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 11,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 12,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Cook",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 13,
+     "incumbent": null
+    },
+    {
+     "name": "Brandan Stroup",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 14,
+     "incumbent": null
+    },
+    {
+     "name": "Jonas Hasting",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 15,
+     "incumbent": null
+    },
+    {
+     "name": "Doug Goldsmith",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 16,
+     "incumbent": null
+    },
+    {
+     "name": "Jeremy Breault",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 17,
+     "incumbent": null
+    },
+    {
+     "name": "Nick Graeter",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 18,
+     "incumbent": null
+    },
+    {
+     "name": "Jace Laquesne",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 19,
+     "incumbent": null
+    },
+    {
+     "name": "Nicholas Greeter",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 20,
+     "incumbent": null
+    },
+    {
+     "name": "Saymam Arasa",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 21,
+     "incumbent": null
+    },
+    {
+     "name": "Greg Gero",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 22,
+     "incumbent": null
+    },
+    {
+     "name": "Mitchell Maynard",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 23,
+     "incumbent": null
+    },
+    {
+     "name": "Skylar Calacci",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 24,
+     "incumbent": null
+    },
+    {
+     "name": "Miro Weinberger",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 25,
+     "incumbent": null
+    },
+    {
+     "name": "Macey Adelaide",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 26,
+     "incumbent": null
+    },
+    {
+     "name": "Cali",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 27,
+     "incumbent": null
+    },
+    {
+     "name": "Trump",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 28,
+     "incumbent": null
+    },
+    {
+     "name": "Ivar Kronick",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 29,
+     "incumbent": null
+    },
+    {
+     "name": "Heidi Starr",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 30,
+     "incumbent": null
+    },
+    {
+     "name": "June Solsaa",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 31,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Billian",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 32,
+     "incumbent": null
+    },
+    {
+     "name": "Tom Otterman",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 33,
+     "incumbent": null
+    },
+    {
+     "name": "N Weigh",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 34,
+     "incumbent": null
+    },
+    {
+     "name": "Nicholas Grueter",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 35,
+     "incumbent": null
+    },
+    {
+     "name": "Ed Connors",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 36,
+     "incumbent": null
+    },
+    {
+     "name": "Teddy Hibberd",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 37,
+     "incumbent": null
+    },
+    {
+     "name": "Blank",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 38,
+     "incumbent": null
+    },
+    {
+     "name": "Mike Pieciak",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 39,
+     "incumbent": null
+    },
+    {
+     "name": "Allan Chamberlain",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 40,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Grant",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 41,
+     "incumbent": null
+    },
+    {
+     "name": "Rosy Blaylock",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 42,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Hunt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 43,
+     "incumbent": null
+    },
+    {
+     "name": "Lane Morrison",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 44,
+     "incumbent": null
+    },
+    {
+     "name": "Meg Gras",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 45,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Marino",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 46,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "towns",
+    "reporting": 247,
+    "total": 247
+   },
+   "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+   "source_url": "https://electionresults.vermont.gov/",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Tim Ashe",
+   "margin_votes": 225310,
+   "margin_pct": 38.28,
+   "blank_votes": 33154,
+   "jurisdiction": "Statewide",
+   "pct_basis": "Share of votes for listed candidates and write-ins; blank votes excluded.",
+   "notes": "Vermont reports by town; totals are the sum of the official town rows.",
+   "id": "vt-004"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 608438,
+   "candidates": [
+    {
+     "name": "Molly Gray",
+     "party": "Democratic",
+     "votes": 381802,
+     "write_in": false,
+     "pct": 62.75,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "John S. Rodgers",
+     "party": "Republican",
+     "votes": 225364,
+     "write_in": false,
+     "pct": 37.04,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Other Write-In",
+     "party": null,
+     "votes": 1142,
+     "write_in": true,
+     "pct": 0.19,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Aly Richards",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Nathan Cook",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan Maclaren",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan McLaren",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Lyman",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Douglas",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Cotie Stanley",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 10,
+     "incumbent": null
+    },
+    {
+     "name": "Joey Julkin ",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 11,
+     "incumbent": null
+    },
+    {
+     "name": "Karla Righi",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 12,
+     "incumbent": null
+    },
+    {
+     "name": "John Zuckerman",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 13,
+     "incumbent": null
+    },
+    {
+     "name": "Griffin Shumway",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 14,
+     "incumbent": null
+    },
+    {
+     "name": "Suzanne Seymore",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 15,
+     "incumbent": null
+    },
+    {
+     "name": "Travis Kelley",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 16,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 17,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Garbitelli",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 18,
+     "incumbent": null
+    },
+    {
+     "name": "Brad Reed",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 19,
+     "incumbent": null
+    },
+    {
+     "name": "Columbo Mamdani",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 20,
+     "incumbent": null
+    },
+    {
+     "name": "Tanya Vyhovsky",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 21,
+     "incumbent": null
+    },
+    {
+     "name": "Pearl Edelman",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 22,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan McClaren",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 23,
+     "incumbent": null
+    },
+    {
+     "name": "David Zuckermen",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 24,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan McLaren",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 25,
+     "incumbent": null
+    },
+    {
+     "name": "Rubie",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 26,
+     "incumbent": null
+    },
+    {
+     "name": "Carl Leroux",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 27,
+     "incumbent": null
+    },
+    {
+     "name": "Justin Daniels",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 28,
+     "incumbent": null
+    },
+    {
+     "name": "Raymond Sweeney Jr",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 29,
+     "incumbent": null
+    },
+    {
+     "name": "Richard Nelson",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 30,
+     "incumbent": null
+    },
+    {
+     "name": "Ty Creaser",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 31,
+     "incumbent": null
+    },
+    {
+     "name": "Donald Trump",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 32,
+     "incumbent": null
+    },
+    {
+     "name": "Roger Stauss",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 33,
+     "incumbent": null
+    },
+    {
+     "name": "Scott Gillette",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 34,
+     "incumbent": null
+    },
+    {
+     "name": "Russ Ingalls",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 35,
+     "incumbent": null
+    },
+    {
+     "name": "Bernie Sanders",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 36,
+     "incumbent": null
+    },
+    {
+     "name": "Dan French",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 37,
+     "incumbent": null
+    },
+    {
+     "name": "John S Rodgers",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 38,
+     "incumbent": null
+    },
+    {
+     "name": "Ester Charlston",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 39,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Pes",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 40,
+     "incumbent": null
+    },
+    {
+     "name": "Evan Meenan",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 41,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan McClaren",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 42,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Judd",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 43,
+     "incumbent": null
+    },
+    {
+     "name": "Cali",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 44,
+     "incumbent": null
+    },
+    {
+     "name": "JAP",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 45,
+     "incumbent": null
+    },
+    {
+     "name": "Esther Charlestin",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 46,
+     "incumbent": null
+    },
+    {
+     "name": "John Rodgers",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 47,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 48,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan McLaren",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 49,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Billian",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 50,
+     "incumbent": null
+    },
+    {
+     "name": "Boots",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 51,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Scott",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 52,
+     "incumbent": null
+    },
+    {
+     "name": "Nate Sullivan",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 53,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Scott",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 54,
+     "incumbent": null
+    },
+    {
+     "name": "David Zuckerman",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 55,
+     "incumbent": null
+    },
+    {
+     "name": "Ralph Corbo",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 56,
+     "incumbent": null
+    },
+    {
+     "name": "Charles Kimball",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 57,
+     "incumbent": null
+    },
+    {
+     "name": "David Bush",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 58,
+     "incumbent": null
+    },
+    {
+     "name": "Ralph Wiegens",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 59,
+     "incumbent": null
+    },
+    {
+     "name": "Blank",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 60,
+     "incumbent": null
+    },
+    {
+     "name": "Carey Crozier",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 61,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Judd",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 62,
+     "incumbent": null
+    },
+    {
+     "name": "Brendan Hawks",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 63,
+     "incumbent": null
+    },
+    {
+     "name": "David Zuckerman",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 64,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 65,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "towns",
+    "reporting": 247,
+    "total": 247
+   },
+   "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+   "source_url": "https://electionresults.vermont.gov/",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Molly Gray",
+   "margin_votes": 156438,
+   "margin_pct": 25.71,
+   "blank_votes": 13456,
+   "jurisdiction": "Statewide",
+   "pct_basis": "Share of votes for listed candidates and write-ins; blank votes excluded.",
+   "notes": "Vermont reports by town; totals are the sum of the official town rows.",
+   "id": "vt-005"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Secretary of State",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 590064,
+   "candidates": [
+    {
+     "name": "Sarah Copeland Hanzas",
+     "party": "Democratic",
+     "votes": 349252,
+     "write_in": false,
+     "pct": 59.19,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "H. Brooke Paige",
+     "party": "Republican",
+     "votes": 192252,
+     "write_in": false,
+     "pct": 32.58,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Rachel Shaw",
+     "party": "Progressive",
+     "votes": 47984,
+     "write_in": false,
+     "pct": 8.13,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Other Write-In",
+     "party": null,
+     "votes": 528,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Cotie Stanley",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Aaron Dickie",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Brown",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Noah Trader",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Cook",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 10,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Baker",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 11,
+     "incumbent": null
+    },
+    {
+     "name": "Donald Trump",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 12,
+     "incumbent": null
+    },
+    {
+     "name": "Miguel Levy",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 13,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Winters",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 14,
+     "incumbent": null
+    },
+    {
+     "name": "Cali",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 15,
+     "incumbent": null
+    },
+    {
+     "name": "H. Brooke Paige",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 16,
+     "incumbent": null
+    },
+    {
+     "name": "Amy Moore",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 17,
+     "incumbent": null
+    },
+    {
+     "name": "Christina Nolan",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 18,
+     "incumbent": null
+    },
+    {
+     "name": "Adam Bushey",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 19,
+     "incumbent": null
+    },
+    {
+     "name": "Taylor Olds",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 20,
+     "incumbent": null
+    },
+    {
+     "name": "John Starr",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 21,
+     "incumbent": null
+    },
+    {
+     "name": "Gregory Lewis",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 22,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Billian",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 23,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 24,
+     "incumbent": null
+    },
+    {
+     "name": "Robert Rotti",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 25,
+     "incumbent": null
+    },
+    {
+     "name": "Damon Cramer",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 26,
+     "incumbent": null
+    },
+    {
+     "name": "Blank",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 27,
+     "incumbent": null
+    },
+    {
+     "name": "Bram Kranichfeld",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 28,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Hunt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 29,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Mead",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 30,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Marino",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 31,
+     "incumbent": null
+    },
+    {
+     "name": "Jeffrey Real",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 32,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "towns",
+    "reporting": 247,
+    "total": 247
+   },
+   "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+   "source_url": "https://electionresults.vermont.gov/",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Sarah Copeland Hanzas",
+   "margin_votes": 157000,
+   "margin_pct": 26.61,
+   "blank_votes": 31862,
+   "jurisdiction": "Statewide",
+   "pct_basis": "Share of votes for listed candidates and write-ins; blank votes excluded.",
+   "notes": "Vermont reports by town; totals are the sum of the official town rows.",
+   "id": "vt-006"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "State Treasurer",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 594086,
+   "candidates": [
+    {
+     "name": "Mike Pieciak",
+     "party": "Democratic",
+     "votes": 369166,
+     "write_in": false,
+     "pct": 62.14,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lynn Lafleur",
+     "party": "Republican",
+     "votes": 185430,
+     "write_in": false,
+     "pct": 31.21,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Zachary Hampl",
+     "party": "Progressive",
+     "votes": 38480,
+     "write_in": false,
+     "pct": 6.48,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Other Write-In",
+     "party": null,
+     "votes": 954,
+     "write_in": true,
+     "pct": 0.16,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Cotie Stanley",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Billain",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Blank",
+     "party": null,
+     "votes": 4,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Hoyt",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Angelo Odato",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 10,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Cook",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 11,
+     "incumbent": null
+    },
+    {
+     "name": "Perry Mason",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 12,
+     "incumbent": null
+    },
+    {
+     "name": "Branden Stroup",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 13,
+     "incumbent": null
+    },
+    {
+     "name": "Bruce Melendy",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 14,
+     "incumbent": null
+    },
+    {
+     "name": "Jonas Hasting",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 15,
+     "incumbent": null
+    },
+    {
+     "name": "Garrit Smits",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 16,
+     "incumbent": null
+    },
+    {
+     "name": "Chandler Shover",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 17,
+     "incumbent": null
+    },
+    {
+     "name": "Jonathan West",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 18,
+     "incumbent": null
+    },
+    {
+     "name": "Cali",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 19,
+     "incumbent": null
+    },
+    {
+     "name": "Lynn Lafleur",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 20,
+     "incumbent": null
+    },
+    {
+     "name": "Adam Bushey",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 21,
+     "incumbent": null
+    },
+    {
+     "name": "Taylor Olds",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 22,
+     "incumbent": null
+    },
+    {
+     "name": "Jason Starr",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 23,
+     "incumbent": null
+    },
+    {
+     "name": "Vince Robinson",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 24,
+     "incumbent": null
+    },
+    {
+     "name": "Andrew Rowe",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 25,
+     "incumbent": null
+    },
+    {
+     "name": "Harland Clarke",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 26,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Markowski",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 27,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Dube",
+     "party": null,
+     "votes": 2,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 28,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 0,
+     "write_in": true,
+     "pct": 0.0,
+     "rank": 29,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Hunt",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 30,
+     "incumbent": null
+    },
+    {
+     "name": "Hugh Janus",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 31,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Mead",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 32,
+     "incumbent": null
+    },
+    {
+     "name": "Mike Pieciak",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 33,
+     "incumbent": null
+    },
+    {
+     "name": "Tony Cowart",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 34,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Marino",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 35,
+     "incumbent": null
+    },
+    {
+     "name": "H Brooke Paige",
+     "party": null,
+     "votes": 0,
+     "write_in": false,
+     "pct": 0.0,
+     "rank": 36,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "towns",
+    "reporting": 247,
+    "total": 247
+   },
+   "results_as_of": "11/04/2026 01:51 PM (Eastern Time, per source)",
+   "source_url": "https://electionresults.vermont.gov/",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Mike Pieciak",
+   "margin_votes": 183736,
+   "margin_pct": 30.93,
+   "blank_votes": 27448,
+   "jurisdiction": "Statewide",
+   "pct_basis": "Share of votes for listed candidates and write-ins; blank votes excluded.",
+   "notes": "Vermont reports by town; totals are the sum of the official town rows.",
+   "id": "vt-007"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 7,
+  "by_office": {
+   "Governor": 1,
+   "US House": 1,
+   "Statewide Office": 5
+  }
+ }
+}

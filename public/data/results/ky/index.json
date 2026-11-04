@@ -1,0 +1,18 @@
+{
+ "state": "KY",
+ "name": "Kentucky",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://elect.ky.gov/results/2020-2029/Pages/2026.aspx"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://elect.ky.gov/results/2020-2029/Pages/2026.aspx",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Kentucky State Board of Elections 2026 results page listed primary recap sheets only at retrieval; no November 3 general-election results were posted.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

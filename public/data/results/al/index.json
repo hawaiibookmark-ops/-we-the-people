@@ -1,0 +1,18 @@
+{
+ "state": "AL",
+ "name": "Alabama",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2026"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2026",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Alabama Secretary of State 2026 election page listed primary and runoff results and certifications only; no November 3 general-election results were posted there at retrieval.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

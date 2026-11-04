@@ -1,0 +1,2194 @@
+{
+ "state": "DE",
+ "name": "Delaware",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://elections.delaware.gov/results/enr/GE2026.html"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+ "retrieved_at": "2026-11-04T18:58:11Z",
+ "results_as_of": "2026-11-04T03:03:18.364-05:00",
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "U.S. Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 378111,
+   "candidates": [
+    {
+     "name": "Chris Coons",
+     "party": "Democratic",
+     "votes": 240347,
+     "write_in": false,
+     "pct": 63.57,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Michael \"Dr. Mike\" Katz",
+     "party": "Republican",
+     "votes": 137764,
+     "write_in": false,
+     "pct": 36.43,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 530,
+    "total": 530
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Chris Coons",
+   "margin_votes": 102583,
+   "margin_pct": 27.14,
+   "jurisdiction": "Statewide",
+   "id": "de-001"
+  },
+  {
+   "office": "US House",
+   "district": "At-large",
+   "title": "Representative In Congress",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 378433,
+   "candidates": [
+    {
+     "name": "Sarah McBride",
+     "party": "Democratic",
+     "votes": 243467,
+     "write_in": false,
+     "pct": 64.34,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Joseph \"Dr. Joe\" Arminio",
+     "party": "Republican",
+     "votes": 134966,
+     "write_in": false,
+     "pct": 35.66,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 530,
+    "total": 530
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Sarah McBride",
+   "margin_votes": 108501,
+   "margin_pct": 28.68,
+   "jurisdiction": null,
+   "id": "de-002"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Attorney General",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 377893,
+   "candidates": [
+    {
+     "name": "Kathy Jennings",
+     "party": "Democratic",
+     "votes": 240429,
+     "write_in": false,
+     "pct": 63.62,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "David C. \"Dave\" Graham",
+     "party": "Republican",
+     "votes": 137464,
+     "write_in": false,
+     "pct": 36.38,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 527,
+    "total": 527
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Kathy Jennings",
+   "margin_votes": 102965,
+   "margin_pct": 27.24,
+   "jurisdiction": "Statewide",
+   "id": "de-003"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Auditor of Accounts",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 376746,
+   "candidates": [
+    {
+     "name": "Lydia York",
+     "party": "Democratic",
+     "votes": 227502,
+     "write_in": false,
+     "pct": 60.39,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "April Callaway",
+     "party": "Republican",
+     "votes": 130879,
+     "write_in": false,
+     "pct": 34.74,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Austin Cassidy",
+     "party": "Independent of Delaware",
+     "votes": 18365,
+     "write_in": false,
+     "pct": 4.87,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 527,
+    "total": 527
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Lydia York",
+   "margin_votes": 96623,
+   "margin_pct": 25.65,
+   "jurisdiction": "Statewide",
+   "id": "de-004"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "State Treasurer",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 377352,
+   "candidates": [
+    {
+     "name": "Ted Lauzen",
+     "party": "Democratic",
+     "votes": 235597,
+     "write_in": false,
+     "pct": 62.43,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Ramone",
+     "party": "Republican",
+     "votes": 141755,
+     "write_in": false,
+     "pct": 37.57,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 527,
+    "total": 527
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Ted Lauzen",
+   "margin_votes": 93842,
+   "margin_pct": 24.86,
+   "jurisdiction": "Statewide",
+   "id": "de-005"
+  },
+  {
+   "office": "State Senate",
+   "district": "1",
+   "title": "State Senator District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19084,
+   "candidates": [
+    {
+     "name": "Dan Cruce",
+     "party": "Democratic",
+     "votes": 14558,
+     "write_in": false,
+     "pct": 76.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Hildi Bachtle",
+     "party": "Republican",
+     "votes": 3558,
+     "write_in": false,
+     "pct": 18.64,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Steven Washington",
+     "party": "Independent of Delaware",
+     "votes": 968,
+     "write_in": false,
+     "pct": 5.07,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 37,
+    "total": 37
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Dan Cruce",
+   "margin_votes": 11000,
+   "margin_pct": 57.64,
+   "jurisdiction": null,
+   "id": "de-006"
+  },
+  {
+   "office": "State Senate",
+   "district": "5",
+   "title": "State Senator District 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17890,
+   "candidates": [
+    {
+     "name": "Shay Frisby",
+     "party": "Democratic",
+     "votes": 12275,
+     "write_in": false,
+     "pct": 68.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brent Burdge",
+     "party": "Republican",
+     "votes": 4823,
+     "write_in": false,
+     "pct": 26.96,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Carolyn Frank",
+     "party": "Independent of Delaware",
+     "votes": 792,
+     "write_in": false,
+     "pct": 4.43,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 25,
+    "total": 25
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Shay Frisby",
+   "margin_votes": 7452,
+   "margin_pct": 41.65,
+   "jurisdiction": null,
+   "id": "de-007"
+  },
+  {
+   "office": "State Senate",
+   "district": "7",
+   "title": "State Senator District 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15065,
+   "candidates": [
+    {
+     "name": "Spiros Mantzavinos",
+     "party": "Democratic",
+     "votes": 10136,
+     "write_in": false,
+     "pct": 67.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Rowe",
+     "party": "Republican",
+     "votes": 4929,
+     "write_in": false,
+     "pct": 32.72,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 25,
+    "total": 25
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Spiros Mantzavinos",
+   "margin_votes": 5207,
+   "margin_pct": 34.56,
+   "jurisdiction": null,
+   "id": "de-008"
+  },
+  {
+   "office": "State Senate",
+   "district": "8",
+   "title": "State Senator District 8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14368,
+   "candidates": [
+    {
+     "name": "Mara Gorman",
+     "party": "Democratic",
+     "votes": 9538,
+     "write_in": false,
+     "pct": 66.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Shane Cavanaugh",
+     "party": "Republican",
+     "votes": 4830,
+     "write_in": false,
+     "pct": 33.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 22,
+    "total": 22
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Mara Gorman",
+   "margin_votes": 4708,
+   "margin_pct": 32.76,
+   "jurisdiction": null,
+   "id": "de-009"
+  },
+  {
+   "office": "State Senate",
+   "district": "9",
+   "title": "State Senator District 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10062,
+   "candidates": [
+    {
+     "name": "Jack Walsh",
+     "party": "Democratic",
+     "votes": 10062,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 20,
+    "total": 20
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Jack Walsh",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-010"
+  },
+  {
+   "office": "State Senate",
+   "district": "12",
+   "title": "State Senator District 12",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20013,
+   "candidates": [
+    {
+     "name": "Nicole Poore",
+     "party": "Democratic",
+     "votes": 14503,
+     "write_in": false,
+     "pct": 72.47,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Esposito",
+     "party": "Republican",
+     "votes": 5510,
+     "write_in": false,
+     "pct": 27.53,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 24,
+    "total": 24
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Nicole Poore",
+   "margin_votes": 8993,
+   "margin_pct": 44.94,
+   "jurisdiction": null,
+   "id": "de-011"
+  },
+  {
+   "office": "State Senate",
+   "district": "13",
+   "title": "State Senator District 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12315,
+   "candidates": [
+    {
+     "name": "Marie Pinkney",
+     "party": "Democratic",
+     "votes": 12315,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 23,
+    "total": 23
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Marie Pinkney",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-012"
+  },
+  {
+   "office": "State Senate",
+   "district": "14",
+   "title": "State Senator District 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19694,
+   "candidates": [
+    {
+     "name": "Kyra L. Hoffner",
+     "party": "Democratic",
+     "votes": 12243,
+     "write_in": false,
+     "pct": 62.17,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Pugh",
+     "party": "Republican",
+     "votes": 7451,
+     "write_in": false,
+     "pct": 37.83,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 23,
+    "total": 23
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Kyra L. Hoffner",
+   "margin_votes": 4792,
+   "margin_pct": 24.34,
+   "jurisdiction": null,
+   "id": "de-013"
+  },
+  {
+   "office": "State Senate",
+   "district": "15",
+   "title": "State Senator District 15",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18104,
+   "candidates": [
+    {
+     "name": "Emily A. Thompson",
+     "party": "Republican",
+     "votes": 10281,
+     "write_in": false,
+     "pct": 56.79,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Nisha Lodhavia",
+     "party": "Democratic",
+     "votes": 7823,
+     "write_in": false,
+     "pct": 43.21,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 31,
+    "total": 31
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Emily A. Thompson",
+   "margin_votes": 2458,
+   "margin_pct": 13.58,
+   "jurisdiction": null,
+   "id": "de-014"
+  },
+  {
+   "office": "State Senate",
+   "district": "19",
+   "title": "State Senator District 19",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 13938,
+   "candidates": [
+    {
+     "name": "Brian G. Pettyjohn",
+     "party": "Republican",
+     "votes": 13938,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 24,
+    "total": 24
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Brian G. Pettyjohn",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-015"
+  },
+  {
+   "office": "State Senate",
+   "district": "20",
+   "title": "State Senator District 20",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29545,
+   "candidates": [
+    {
+     "name": "Gerald W. Hocker",
+     "party": "Republican",
+     "votes": 16687,
+     "write_in": false,
+     "pct": 56.48,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Harry S. Gold",
+     "party": "Democratic",
+     "votes": 12858,
+     "write_in": false,
+     "pct": 43.52,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 28,
+    "total": 28
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Gerald W. Hocker",
+   "margin_votes": 3829,
+   "margin_pct": 12.96,
+   "jurisdiction": null,
+   "id": "de-016"
+  },
+  {
+   "office": "State House",
+   "district": "1",
+   "title": "State Representative District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7829,
+   "candidates": [
+    {
+     "name": "Nnamdi O. Chukwuocha",
+     "party": "Democratic",
+     "votes": 7145,
+     "write_in": false,
+     "pct": 91.26,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lisa McInnis",
+     "party": "Republican",
+     "votes": 684,
+     "write_in": false,
+     "pct": 8.74,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 16,
+    "total": 16
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Nnamdi O. Chukwuocha",
+   "margin_votes": 6461,
+   "margin_pct": 82.52,
+   "jurisdiction": null,
+   "id": "de-017"
+  },
+  {
+   "office": "State House",
+   "district": "2",
+   "title": "State Representative District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 4909,
+   "candidates": [
+    {
+     "name": "Michelle H. Booker",
+     "party": "Democratic",
+     "votes": 4909,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 21,
+    "total": 21
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Michelle H. Booker",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-018"
+  },
+  {
+   "office": "State House",
+   "district": "3",
+   "title": "State Representative District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5308,
+   "candidates": [
+    {
+     "name": "Branden Fletcher-Dominguez",
+     "party": "Democratic",
+     "votes": 4360,
+     "write_in": false,
+     "pct": 82.14,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Shawn L. Dottery",
+     "party": "Republican",
+     "votes": 543,
+     "write_in": false,
+     "pct": 10.23,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Dexter \"Dizzy\" Bland",
+     "party": "Independent of Delaware",
+     "votes": 405,
+     "write_in": false,
+     "pct": 7.63,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Branden Fletcher-Dominguez",
+   "margin_votes": 3817,
+   "margin_pct": 71.91,
+   "jurisdiction": null,
+   "id": "de-019"
+  },
+  {
+   "office": "State House",
+   "district": "4",
+   "title": "State Representative District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15697,
+   "candidates": [
+    {
+     "name": "Gregg Lindner",
+     "party": "Democratic",
+     "votes": 8039,
+     "write_in": false,
+     "pct": 51.21,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Dan Zitofsky",
+     "party": "Republican",
+     "votes": 7658,
+     "write_in": false,
+     "pct": 48.79,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Gregg Lindner",
+   "margin_votes": 381,
+   "margin_pct": 2.42,
+   "jurisdiction": null,
+   "id": "de-020"
+  },
+  {
+   "office": "State House",
+   "district": "5",
+   "title": "State Representative District 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6287,
+   "candidates": [
+    {
+     "name": "Kendra Johnson",
+     "party": "Democratic",
+     "votes": 6287,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Kendra Johnson",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-021"
+  },
+  {
+   "office": "State House",
+   "district": "6",
+   "title": "State Representative District 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10205,
+   "candidates": [
+    {
+     "name": "Rachel \"Rae\" Krantz",
+     "party": "Democratic",
+     "votes": 7455,
+     "write_in": false,
+     "pct": 73.05,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tanya Hettler",
+     "party": "Republican",
+     "votes": 2750,
+     "write_in": false,
+     "pct": 26.95,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Rachel \"Rae\" Krantz",
+   "margin_votes": 4705,
+   "margin_pct": 46.1,
+   "jurisdiction": null,
+   "id": "de-022"
+  },
+  {
+   "office": "State House",
+   "district": "7",
+   "title": "State Representative District 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7629,
+   "candidates": [
+    {
+     "name": "Larry Lambert",
+     "party": "Democratic",
+     "votes": 5948,
+     "write_in": false,
+     "pct": 77.97,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Shane Stoneman",
+     "party": "Republican",
+     "votes": 1681,
+     "write_in": false,
+     "pct": 22.03,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Larry Lambert",
+   "margin_votes": 4267,
+   "margin_pct": 55.94,
+   "jurisdiction": null,
+   "id": "de-023"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "State Representative District 8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10226,
+   "candidates": [
+    {
+     "name": "Sherae'A \"Rae\" Moore",
+     "party": "Democratic",
+     "votes": 6761,
+     "write_in": false,
+     "pct": 66.12,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Taylor",
+     "party": "Republican",
+     "votes": 3465,
+     "write_in": false,
+     "pct": 33.88,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Sherae'A \"Rae\" Moore",
+   "margin_votes": 3296,
+   "margin_pct": 32.24,
+   "jurisdiction": null,
+   "id": "de-024"
+  },
+  {
+   "office": "State House",
+   "district": "9",
+   "title": "State Representative District 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 13204,
+   "candidates": [
+    {
+     "name": "Ayanna Khan-Flowers",
+     "party": "Democratic",
+     "votes": 8451,
+     "write_in": false,
+     "pct": 64.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jamar Money",
+     "party": "Republican",
+     "votes": 4753,
+     "write_in": false,
+     "pct": 36.0,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Ayanna Khan-Flowers",
+   "margin_votes": 3698,
+   "margin_pct": 28.0,
+   "jurisdiction": null,
+   "id": "de-025"
+  },
+  {
+   "office": "State House",
+   "district": "10",
+   "title": "State Representative District 10",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9876,
+   "candidates": [
+    {
+     "name": "Melanie Ross Levin",
+     "party": "Democratic",
+     "votes": 6824,
+     "write_in": false,
+     "pct": 69.1,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Dolores Dunleavy",
+     "party": "Republican",
+     "votes": 3052,
+     "write_in": false,
+     "pct": 30.9,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Melanie Ross Levin",
+   "margin_votes": 3772,
+   "margin_pct": 38.2,
+   "jurisdiction": null,
+   "id": "de-026"
+  },
+  {
+   "office": "State House",
+   "district": "11",
+   "title": "State Representative District 11",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8910,
+   "candidates": [
+    {
+     "name": "Jeffrey N. Spiegelman",
+     "party": "Republican",
+     "votes": 5463,
+     "write_in": false,
+     "pct": 61.31,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tori Parker",
+     "party": "Democratic",
+     "votes": 3447,
+     "write_in": false,
+     "pct": 38.69,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Jeffrey N. Spiegelman",
+   "margin_votes": 2016,
+   "margin_pct": 22.62,
+   "jurisdiction": null,
+   "id": "de-027"
+  },
+  {
+   "office": "State House",
+   "district": "12",
+   "title": "State Representative District 12",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12864,
+   "candidates": [
+    {
+     "name": "Krista Griffith",
+     "party": "Democratic",
+     "votes": 8921,
+     "write_in": false,
+     "pct": 69.35,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Steve Pickering",
+     "party": "Republican",
+     "votes": 3943,
+     "write_in": false,
+     "pct": 30.65,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 17,
+    "total": 17
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Krista Griffith",
+   "margin_votes": 4978,
+   "margin_pct": 38.7,
+   "jurisdiction": null,
+   "id": "de-028"
+  },
+  {
+   "office": "State House",
+   "district": "13",
+   "title": "State Representative District 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5226,
+   "candidates": [
+    {
+     "name": "Deshanna U. Neal",
+     "party": "Democratic",
+     "votes": 5226,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Deshanna U. Neal",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-029"
+  },
+  {
+   "office": "State House",
+   "district": "14",
+   "title": "State Representative District 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14844,
+   "candidates": [
+    {
+     "name": "Claire Snyder-Hall",
+     "party": "Democratic",
+     "votes": 9564,
+     "write_in": false,
+     "pct": 64.43,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mike Simpler",
+     "party": "Republican",
+     "votes": 5280,
+     "write_in": false,
+     "pct": 35.57,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Claire Snyder-Hall",
+   "margin_votes": 4284,
+   "margin_pct": 28.86,
+   "jurisdiction": null,
+   "id": "de-030"
+  },
+  {
+   "office": "State House",
+   "district": "15",
+   "title": "State Representative District 15",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7009,
+   "candidates": [
+    {
+     "name": "Kamela T. Smith",
+     "party": "Democratic",
+     "votes": 7009,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Kamela T. Smith",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-031"
+  },
+  {
+   "office": "State House",
+   "district": "16",
+   "title": "State Representative District 16",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7091,
+   "candidates": [
+    {
+     "name": "Pamela Salaam",
+     "party": "Democratic",
+     "votes": 6018,
+     "write_in": false,
+     "pct": 84.87,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Enala A. Mwashitete",
+     "party": "Republican",
+     "votes": 1073,
+     "write_in": false,
+     "pct": 15.13,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Pamela Salaam",
+   "margin_votes": 4945,
+   "margin_pct": 69.74,
+   "jurisdiction": null,
+   "id": "de-032"
+  },
+  {
+   "office": "State House",
+   "district": "17",
+   "title": "State Representative District 17",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5956,
+   "candidates": [
+    {
+     "name": "Melissa Minor Brown",
+     "party": "Democratic",
+     "votes": 5956,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Melissa Minor Brown",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-033"
+  },
+  {
+   "office": "State House",
+   "district": "18",
+   "title": "State Representative District 18",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5881,
+   "candidates": [
+    {
+     "name": "Sophie Phillips",
+     "party": "Democratic",
+     "votes": 5881,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 9,
+    "total": 9
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Sophie Phillips",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-034"
+  },
+  {
+   "office": "State House",
+   "district": "19",
+   "title": "State Representative District 19",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7932,
+   "candidates": [
+    {
+     "name": "Kim Williams",
+     "party": "Democratic",
+     "votes": 5437,
+     "write_in": false,
+     "pct": 68.55,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Janyce Colmery",
+     "party": "Republican",
+     "votes": 2495,
+     "write_in": false,
+     "pct": 31.45,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Kim Williams",
+   "margin_votes": 2942,
+   "margin_pct": 37.1,
+   "jurisdiction": null,
+   "id": "de-035"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "State Representative District 20",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14976,
+   "candidates": [
+    {
+     "name": "Alonna Berry",
+     "party": "Democratic",
+     "votes": 8397,
+     "write_in": false,
+     "pct": 56.07,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Gene Dvornick",
+     "party": "Republican",
+     "votes": 6579,
+     "write_in": false,
+     "pct": 43.93,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Alonna Berry",
+   "margin_votes": 1818,
+   "margin_pct": 12.14,
+   "jurisdiction": null,
+   "id": "de-036"
+  },
+  {
+   "office": "State House",
+   "district": "21",
+   "title": "State Representative District 21",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6690,
+   "candidates": [
+    {
+     "name": "Frank Burns",
+     "party": "Democratic",
+     "votes": 6690,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Frank Burns",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-037"
+  },
+  {
+   "office": "State House",
+   "district": "22",
+   "title": "State Representative District 22",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11894,
+   "candidates": [
+    {
+     "name": "Mike Smith",
+     "party": "Republican",
+     "votes": 6400,
+     "write_in": false,
+     "pct": 53.81,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Alex Green",
+     "party": "Democratic",
+     "votes": 5494,
+     "write_in": false,
+     "pct": 46.19,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Mike Smith",
+   "margin_votes": 906,
+   "margin_pct": 7.62,
+   "jurisdiction": null,
+   "id": "de-038"
+  },
+  {
+   "office": "State House",
+   "district": "23",
+   "title": "State Representative District 23",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6272,
+   "candidates": [
+    {
+     "name": "Dave Redlawsk",
+     "party": "Democratic",
+     "votes": 6272,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Dave Redlawsk",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-039"
+  },
+  {
+   "office": "State House",
+   "district": "24",
+   "title": "State Representative District 24",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6681,
+   "candidates": [
+    {
+     "name": "Ed Osienski",
+     "party": "Democratic",
+     "votes": 5047,
+     "write_in": false,
+     "pct": 75.54,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Stephen P. Ondich",
+     "party": "Republican",
+     "votes": 1634,
+     "write_in": false,
+     "pct": 24.46,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Ed Osienski",
+   "margin_votes": 3413,
+   "margin_pct": 51.08,
+   "jurisdiction": null,
+   "id": "de-040"
+  },
+  {
+   "office": "State House",
+   "district": "25",
+   "title": "State Representative District 25",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5275,
+   "candidates": [
+    {
+     "name": "Cyndie Romer",
+     "party": "Democratic",
+     "votes": 5275,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Cyndie Romer",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-041"
+  },
+  {
+   "office": "State House",
+   "district": "26",
+   "title": "State Representative District 26",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5415,
+   "candidates": [
+    {
+     "name": "Madinah Wilson-Anton",
+     "party": "Democratic",
+     "votes": 5415,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 9,
+    "total": 9
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Madinah Wilson-Anton",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-042"
+  },
+  {
+   "office": "State House",
+   "district": "27",
+   "title": "State Representative District 27",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10334,
+   "candidates": [
+    {
+     "name": "Eric Morrison",
+     "party": "Democratic",
+     "votes": 6387,
+     "write_in": false,
+     "pct": 61.81,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mary \"Penny\" Kubin",
+     "party": "Republican",
+     "votes": 3947,
+     "write_in": false,
+     "pct": 38.19,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 16,
+    "total": 16
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Eric Morrison",
+   "margin_votes": 2440,
+   "margin_pct": 23.62,
+   "jurisdiction": null,
+   "id": "de-043"
+  },
+  {
+   "office": "State House",
+   "district": "28",
+   "title": "State Representative District 28",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5686,
+   "candidates": [
+    {
+     "name": "Tyeisha \"Tye\" Grier",
+     "party": "Democratic",
+     "votes": 5686,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Tyeisha \"Tye\" Grier",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-044"
+  },
+  {
+   "office": "State House",
+   "district": "29",
+   "title": "State Representative District 29",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8190,
+   "candidates": [
+    {
+     "name": "William Bush",
+     "party": "Democratic",
+     "votes": 8190,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "William Bush",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-045"
+  },
+  {
+   "office": "State House",
+   "district": "30",
+   "title": "State Representative District 30",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6277,
+   "candidates": [
+    {
+     "name": "Wm Shannon Morris",
+     "party": "Republican",
+     "votes": 6277,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 17,
+    "total": 17
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Wm Shannon Morris",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-046"
+  },
+  {
+   "office": "State House",
+   "district": "31",
+   "title": "State Representative District 31",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6698,
+   "candidates": [
+    {
+     "name": "Sean M. Lynn",
+     "party": "Democratic",
+     "votes": 5148,
+     "write_in": false,
+     "pct": 76.86,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Anton Brogden",
+     "party": "Republican",
+     "votes": 1550,
+     "write_in": false,
+     "pct": 23.14,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 10,
+    "total": 10
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Sean M. Lynn",
+   "margin_votes": 3598,
+   "margin_pct": 53.72,
+   "jurisdiction": null,
+   "id": "de-047"
+  },
+  {
+   "office": "State House",
+   "district": "32",
+   "title": "State Representative District 32",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 4203,
+   "candidates": [
+    {
+     "name": "Kerri Evelyn Harris",
+     "party": "Democratic",
+     "votes": 4203,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Kerri Evelyn Harris",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-048"
+  },
+  {
+   "office": "State House",
+   "district": "33",
+   "title": "State Representative District 33",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9062,
+   "candidates": [
+    {
+     "name": "Morgan Hudson",
+     "party": "Republican",
+     "votes": 4941,
+     "write_in": false,
+     "pct": 54.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joshua Pennington",
+     "party": "Democratic",
+     "votes": 4121,
+     "write_in": false,
+     "pct": 45.48,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Morgan Hudson",
+   "margin_votes": 820,
+   "margin_pct": 9.04,
+   "jurisdiction": null,
+   "id": "de-049"
+  },
+  {
+   "office": "State House",
+   "district": "34",
+   "title": "State Representative District 34",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9660,
+   "candidates": [
+    {
+     "name": "Annie Norman",
+     "party": "Democratic",
+     "votes": 4905,
+     "write_in": false,
+     "pct": 50.78,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lyndon D. Yearick",
+     "party": "Republican",
+     "votes": 4755,
+     "write_in": false,
+     "pct": 49.22,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Annie Norman",
+   "margin_votes": 150,
+   "margin_pct": 1.56,
+   "jurisdiction": null,
+   "id": "de-050"
+  },
+  {
+   "office": "State House",
+   "district": "35",
+   "title": "State Representative District 35",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5448,
+   "candidates": [
+    {
+     "name": "Jesse R. Vanderwende",
+     "party": "Republican",
+     "votes": 5448,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Jesse R. Vanderwende",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-051"
+  },
+  {
+   "office": "State House",
+   "district": "36",
+   "title": "State Representative District 36",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9686,
+   "candidates": [
+    {
+     "name": "Bryan William Shupe",
+     "party": "Republican",
+     "votes": 5220,
+     "write_in": false,
+     "pct": 53.89,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Andrew \"Andy\" Gorlich",
+     "party": "Democratic",
+     "votes": 4466,
+     "write_in": false,
+     "pct": 46.11,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Bryan William Shupe",
+   "margin_votes": 754,
+   "margin_pct": 7.78,
+   "jurisdiction": null,
+   "id": "de-052"
+  },
+  {
+   "office": "State House",
+   "district": "37",
+   "title": "State Representative District 37",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5425,
+   "candidates": [
+    {
+     "name": "Valerie Jones Giltner",
+     "party": "Republican",
+     "votes": 5425,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Valerie Jones Giltner",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-053"
+  },
+  {
+   "office": "State House",
+   "district": "38",
+   "title": "State Representative District 38",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17868,
+   "candidates": [
+    {
+     "name": "Carlie Carey",
+     "party": "Republican",
+     "votes": 9803,
+     "write_in": false,
+     "pct": 54.86,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Maureen Madden",
+     "party": "Democratic",
+     "votes": 8065,
+     "write_in": false,
+     "pct": 45.14,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Carlie Carey",
+   "margin_votes": 1738,
+   "margin_pct": 9.72,
+   "jurisdiction": null,
+   "id": "de-054"
+  },
+  {
+   "office": "State House",
+   "district": "39",
+   "title": "State Representative District 39",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 4396,
+   "candidates": [
+    {
+     "name": "Daniel B. Short",
+     "party": "Republican",
+     "votes": 4396,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 9,
+    "total": 9
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Daniel B. Short",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-055"
+  },
+  {
+   "office": "State House",
+   "district": "40",
+   "title": "State Representative District 40",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5346,
+   "candidates": [
+    {
+     "name": "Timothy Dale Dukes",
+     "party": "Republican",
+     "votes": 5346,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 9,
+    "total": 9
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "Timothy Dale Dukes",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "de-056"
+  },
+  {
+   "office": "State House",
+   "district": "41",
+   "title": "State Representative District 41",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11614,
+   "candidates": [
+    {
+     "name": "John Atkins",
+     "party": "Republican",
+     "votes": 6173,
+     "write_in": false,
+     "pct": 53.15,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan Stuckey",
+     "party": "Democratic",
+     "votes": 5441,
+     "write_in": false,
+     "pct": 46.85,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T03:03:18.364-05:00",
+   "source_url": "https://elections.delaware.gov/results/enr/GE2026.html",
+   "retrieved_at": "2026-11-04T18:58:11Z",
+   "leading": "John Atkins",
+   "margin_votes": 732,
+   "margin_pct": 6.3,
+   "jurisdiction": null,
+   "id": "de-057"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 57,
+  "by_office": {
+   "US Senate": 1,
+   "US House": 1,
+   "Statewide Office": 3,
+   "State Senate": 11,
+   "State House": 41
+  }
+ }
+}

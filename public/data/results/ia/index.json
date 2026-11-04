@@ -1,0 +1,416 @@
+{
+ "state": "IA",
+ "name": "Iowa",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.iowa.gov/IA/127077/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.iowa.gov/IA/127077/",
+ "retrieved_at": "2026-11-04T18:57:58Z",
+ "results_as_of": null,
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "United States Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1360839,
+   "candidates": [
+    {
+     "name": "Josh Turek",
+     "party": "DEM",
+     "votes": 686486,
+     "write_in": false,
+     "pct": 50.45,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ashley Hinson",
+     "party": "REP",
+     "votes": 630615,
+     "write_in": false,
+     "pct": 46.34,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas Laehn",
+     "party": "LIB",
+     "votes": 42052,
+     "write_in": false,
+     "pct": 3.09,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": "",
+     "votes": 1686,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 95,
+    "total": 99
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.iowa.gov/IA/127077/385624/json/en/summary.json",
+   "retrieved_at": "2026-11-04T18:57:58Z",
+   "leading": "Josh Turek",
+   "margin_votes": 55871,
+   "margin_pct": 4.11,
+   "jurisdiction": "Statewide",
+   "id": "ia-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor and Lt. Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1366516,
+   "candidates": [
+    {
+     "name": "Rob Sand and Dave Muhlbauer",
+     "party": "DEM",
+     "votes": 757326,
+     "write_in": false,
+     "pct": 55.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Zach Lahn and Derek Wulf",
+     "party": "REP",
+     "votes": 607415,
+     "write_in": false,
+     "pct": 44.45,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": "",
+     "votes": 1775,
+     "write_in": true,
+     "pct": 0.13,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 95,
+    "total": 99
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.iowa.gov/IA/127077/385624/json/en/summary.json",
+   "retrieved_at": "2026-11-04T18:57:58Z",
+   "leading": "Rob Sand and Dave Muhlbauer",
+   "margin_votes": 149911,
+   "margin_pct": 10.97,
+   "jurisdiction": "Statewide",
+   "id": "ia-002"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "United States Representative District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 345826,
+   "candidates": [
+    {
+     "name": "Christina Bohannan",
+     "party": "DEM",
+     "votes": 182396,
+     "write_in": false,
+     "pct": 52.74,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mariannette Miller-Meeks",
+     "party": "REP",
+     "votes": 150471,
+     "write_in": false,
+     "pct": 43.51,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Michael Bridgford",
+     "party": "",
+     "votes": 12603,
+     "write_in": false,
+     "pct": 3.64,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": "",
+     "votes": 356,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 18,
+    "total": 20
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.iowa.gov/IA/127077/385624/json/en/summary.json",
+   "retrieved_at": "2026-11-04T18:57:58Z",
+   "leading": "Christina Bohannan",
+   "margin_votes": 31925,
+   "margin_pct": 9.23,
+   "jurisdiction": null,
+   "id": "ia-003"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "United States Representative District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 346401,
+   "candidates": [
+    {
+     "name": "Lindsay James",
+     "party": "DEM",
+     "votes": 171484,
+     "write_in": false,
+     "pct": 49.5,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Joe Mitchell",
+     "party": "REP",
+     "votes": 157722,
+     "write_in": false,
+     "pct": 45.53,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Rick Stewart",
+     "party": "LIB",
+     "votes": 9500,
+     "write_in": false,
+     "pct": 2.74,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Dave Bushaw",
+     "party": "",
+     "votes": 7469,
+     "write_in": false,
+     "pct": 2.16,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": "",
+     "votes": 226,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 22,
+    "total": 22
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.iowa.gov/IA/127077/385624/json/en/summary.json",
+   "retrieved_at": "2026-11-04T18:57:58Z",
+   "leading": "Lindsay James",
+   "margin_votes": 13762,
+   "margin_pct": 3.97,
+   "jurisdiction": null,
+   "id": "ia-004"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "United States Representative District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 353527,
+   "candidates": [
+    {
+     "name": "Sarah Trone Garriott",
+     "party": "DEM",
+     "votes": 189217,
+     "write_in": false,
+     "pct": 53.52,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Zach Nunn",
+     "party": "REP",
+     "votes": 163441,
+     "write_in": false,
+     "pct": 46.23,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": "",
+     "votes": 869,
+     "write_in": true,
+     "pct": 0.25,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 21,
+    "total": 21
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.iowa.gov/IA/127077/385624/json/en/summary.json",
+   "retrieved_at": "2026-11-04T18:57:58Z",
+   "leading": "Sarah Trone Garriott",
+   "margin_votes": 25776,
+   "margin_pct": 7.29,
+   "jurisdiction": null,
+   "id": "ia-005"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "United States Representative District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 303137,
+   "candidates": [
+    {
+     "name": "Chris McGowan",
+     "party": "REP",
+     "votes": 178845,
+     "write_in": false,
+     "pct": 59.0,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Dave Dawson",
+     "party": "DEM",
+     "votes": 123940,
+     "write_in": false,
+     "pct": 40.89,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": "",
+     "votes": 352,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 34,
+    "total": 36
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.iowa.gov/IA/127077/385624/json/en/summary.json",
+   "retrieved_at": "2026-11-04T18:57:58Z",
+   "leading": "Chris McGowan",
+   "margin_votes": 54905,
+   "margin_pct": 18.11,
+   "jurisdiction": null,
+   "id": "ia-006"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment 1",
+   "title": "Constitutional Amendment 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1221197,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": "",
+     "votes": 686939,
+     "write_in": false,
+     "pct": 56.25,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": "",
+     "votes": 534258,
+     "write_in": false,
+     "pct": 43.75,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 95,
+    "total": 99
+   },
+   "results_as_of": null,
+   "source_url": "https://electionresults.iowa.gov/IA/127077/385624/json/en/summary.json",
+   "retrieved_at": "2026-11-04T18:57:58Z",
+   "leading": "Yes",
+   "margin_votes": 152681,
+   "margin_pct": 12.5,
+   "jurisdiction": "Statewide",
+   "id": "ia-007"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 7,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 4,
+   "Ballot Measure": 1
+  }
+ }
+}

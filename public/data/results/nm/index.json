@@ -1,0 +1,366 @@
+{
+ "state": "NM",
+ "name": "New Mexico",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.sos.nm.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.sos.nm.gov/",
+ "retrieved_at": "2026-11-04T19:00:12Z",
+ "results_as_of": "11/4/2026 4:56 AM MT (MT)",
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "United States Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 720722,
+   "candidates": [
+    {
+     "name": "Ben R Lujan",
+     "party": "Democrat",
+     "votes": 455165,
+     "write_in": false,
+     "pct": 63.15,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Larry E Marker",
+     "party": "Republican",
+     "votes": 265557,
+     "write_in": false,
+     "pct": 36.85,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 2204,
+    "total": 2204
+   },
+   "results_as_of": "11/4/2026 4:56 AM MT",
+   "source_url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "leading": "Ben R Lujan",
+   "margin_votes": 189608,
+   "margin_pct": 26.3,
+   "jurisdiction": "Statewide",
+   "id": "nm-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor and Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 721149,
+   "candidates": [
+    {
+     "name": "Deb Haaland and Stephanie Garcia Richard",
+     "party": "Democrat",
+     "votes": 412834,
+     "write_in": false,
+     "pct": 57.25,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Greggory D Hull and David M Gallegos",
+     "party": "Republican",
+     "votes": 308315,
+     "write_in": false,
+     "pct": 42.75,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 2204,
+    "total": 2204
+   },
+   "results_as_of": "11/4/2026 4:56 AM MT",
+   "source_url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=SW&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "leading": "Deb Haaland and Stephanie Garcia Richard",
+   "margin_votes": 104519,
+   "margin_pct": 14.5,
+   "jurisdiction": "Statewide",
+   "id": "nm-002"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "United States Representative DISTRICT 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 280562,
+   "candidates": [
+    {
+     "name": "Melanie Ann Stansbury",
+     "party": "Democrat",
+     "votes": 178261,
+     "write_in": false,
+     "pct": 63.54,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ndidiamaka Ekwua Charlene Okpareke",
+     "party": "Republican",
+     "votes": 102301,
+     "write_in": false,
+     "pct": 36.46,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 778,
+    "total": 778
+   },
+   "results_as_of": "11/4/2026 4:56 AM MT",
+   "source_url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "leading": "Melanie Ann Stansbury",
+   "margin_votes": 75960,
+   "margin_pct": 27.08,
+   "jurisdiction": null,
+   "id": "nm-003"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "United States Representative DISTRICT 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 209763,
+   "candidates": [
+    {
+     "name": "Gabriel Vasquez",
+     "party": "Democrat",
+     "votes": 123113,
+     "write_in": false,
+     "pct": 58.69,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Gregory G Cunningham",
+     "party": "Republican",
+     "votes": 86650,
+     "write_in": false,
+     "pct": 41.31,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 663,
+    "total": 663
+   },
+   "results_as_of": "11/4/2026 4:56 AM MT",
+   "source_url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "leading": "Gabriel Vasquez",
+   "margin_votes": 36463,
+   "margin_pct": 17.38,
+   "jurisdiction": null,
+   "id": "nm-004"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "United States Representative DISTRICT 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 227620,
+   "candidates": [
+    {
+     "name": "Teresa Leger Fernandez",
+     "party": "Democrat",
+     "votes": 139967,
+     "write_in": false,
+     "pct": 61.49,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Martin Zamora",
+     "party": "Republican",
+     "votes": 87653,
+     "write_in": false,
+     "pct": 38.51,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 763,
+    "total": 763
+   },
+   "results_as_of": "11/4/2026 4:56 AM MT",
+   "source_url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "leading": "Teresa Leger Fernandez",
+   "margin_votes": 52314,
+   "margin_pct": 22.98,
+   "jurisdiction": null,
+   "id": "nm-005"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment 1",
+   "title": "Constitutional Amendment 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 658805,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 494437,
+     "write_in": false,
+     "pct": 75.05,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 164368,
+     "write_in": false,
+     "pct": 24.95,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 2204,
+    "total": 2204
+   },
+   "results_as_of": "11/4/2026 4:56 AM MT",
+   "source_url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=SW&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "leading": "Yes",
+   "margin_votes": 330069,
+   "margin_pct": 50.1,
+   "description": "Proposing an amendment to Article 4, Section 22 of the Constitution of New Mexico to require the governor to provide veto messages on all bills vetoed in whole or in part and to provide that all bills passed by the legislature and not acted on by the governor will become law.",
+   "jurisdiction": "Statewide",
+   "id": "nm-006"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment 3",
+   "title": "Constitutional Amendment 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 632054,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 441916,
+     "write_in": false,
+     "pct": 69.92,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 190138,
+     "write_in": false,
+     "pct": 30.08,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 2204,
+    "total": 2204
+   },
+   "results_as_of": "11/4/2026 4:56 AM MT",
+   "source_url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=SW&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "leading": "Yes",
+   "margin_votes": 251778,
+   "margin_pct": 39.84,
+   "description": "Proposing an amendment to Article 12, Section 13 of the Constitution of New Mexico to establish nominating committees to provide lists of nominees to the governor for appointment of nonstudent members to the boards of regents of state educational institutions; providing that student members of boards of regents shall be appointed from a list provided by an elected student governing body of the institution; providing that, except for a student member, members of the boards of regents shall not have changed their political party registration in the twelve months preceding appointment.",
+   "jurisdiction": "Statewide",
+   "id": "nm-007"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment 4",
+   "title": "Constitutional Amendment 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 655179,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 415498,
+     "write_in": false,
+     "pct": 63.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 239681,
+     "write_in": false,
+     "pct": 36.58,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 2204,
+    "total": 2204
+   },
+   "results_as_of": "11/4/2026 4:56 AM MT",
+   "source_url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=SW&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:12Z",
+   "leading": "Yes",
+   "margin_votes": 175817,
+   "margin_pct": 26.84,
+   "description": "Proposing to amend Article 4, Section 10 of the Constitution of New Mexico to allow legislative compensation that is limited to the median household income for New Mexico, to require legislative compensation to be reduced if the median household income for New Mexico falls, to allow legislative compensation to be increased only if the median household income for New Mexico rises and to provide for delayed implementation.",
+   "jurisdiction": "Statewide",
+   "id": "nm-008"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 8,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 3,
+   "Ballot Measure": 3
+  }
+ }
+}

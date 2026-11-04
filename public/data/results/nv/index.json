@@ -1,0 +1,368 @@
+{
+ "state": "NV",
+ "name": "Nevada",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://silverstateelection.nv.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://silverstateelection.nv.gov/",
+ "retrieved_at": "2026-11-04T18:58:03Z",
+ "results_as_of": "2026-11-04T11:04:42.5025889Z",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 977638,
+   "candidates": [
+    {
+     "name": "Aaron D. Ford",
+     "party": "DEM",
+     "votes": 505738,
+     "write_in": false,
+     "pct": 51.73,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Lombardo",
+     "party": "REP",
+     "votes": 431367,
+     "write_in": false,
+     "pct": 44.12,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Danielle Ford",
+     "party": "NPP",
+     "votes": 26578,
+     "write_in": false,
+     "pct": 2.72,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "None of These Candidates",
+     "party": null,
+     "votes": 13955,
+     "write_in": false,
+     "pct": 1.43,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "2026-11-04T11:04:42.5025889Z",
+   "source_url": "https://silverstateelection.nv.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Aaron D. Ford",
+   "margin_votes": 74371,
+   "margin_pct": 7.61,
+   "jurisdiction": "Statewide",
+   "id": "nv-001"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "Representative In Congress, District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 215390,
+   "candidates": [
+    {
+     "name": "Dina Titus",
+     "party": "DEM",
+     "votes": 127098,
+     "write_in": false,
+     "pct": 59.01,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Carrie Ann Buck",
+     "party": "REP",
+     "votes": 81873,
+     "write_in": false,
+     "pct": 38.01,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Steven \"Chap\" St John",
+     "party": "NPP",
+     "votes": 3555,
+     "write_in": false,
+     "pct": 1.65,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Afzal \"Bobby\" Khan",
+     "party": "NPP",
+     "votes": 2864,
+     "write_in": false,
+     "pct": 1.33,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "2026-11-04T11:04:42.5025889Z",
+   "source_url": "https://silverstateelection.nv.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Dina Titus",
+   "margin_votes": 45225,
+   "margin_pct": 21.0,
+   "jurisdiction": null,
+   "id": "nv-002"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "Representative In Congress, District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 283775,
+   "candidates": [
+    {
+     "name": "Teresa F. Benitez-Thompson",
+     "party": "DEM",
+     "votes": 144014,
+     "write_in": false,
+     "pct": 50.75,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "David Flippo",
+     "party": "REP",
+     "votes": 125031,
+     "write_in": false,
+     "pct": 44.06,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Lynn Chapman",
+     "party": "IAP",
+     "votes": 14730,
+     "write_in": false,
+     "pct": 5.19,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "2026-11-04T11:04:42.5025889Z",
+   "source_url": "https://silverstateelection.nv.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Teresa F. Benitez-Thompson",
+   "margin_votes": 18983,
+   "margin_pct": 6.69,
+   "jurisdiction": null,
+   "id": "nv-003"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "Representative In Congress, District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 248325,
+   "candidates": [
+    {
+     "name": "Susie Lee",
+     "party": "DEM",
+     "votes": 146863,
+     "write_in": false,
+     "pct": 59.14,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Marty O'Donnell",
+     "party": "REP",
+     "votes": 95845,
+     "write_in": false,
+     "pct": 38.6,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jon Kamerath",
+     "party": "IAP",
+     "votes": 5617,
+     "write_in": false,
+     "pct": 2.26,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "2026-11-04T11:04:42.5025889Z",
+   "source_url": "https://silverstateelection.nv.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Susie Lee",
+   "margin_votes": 51018,
+   "margin_pct": 20.54,
+   "jurisdiction": null,
+   "id": "nv-004"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "Representative In Congress, District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 223099,
+   "candidates": [
+    {
+     "name": "Steven A. Horsford",
+     "party": "DEM",
+     "votes": 134980,
+     "write_in": false,
+     "pct": 60.5,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Cody K. Whipple",
+     "party": "REP",
+     "votes": 84017,
+     "write_in": false,
+     "pct": 37.66,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Russell Best",
+     "party": "IAP",
+     "votes": 2133,
+     "write_in": false,
+     "pct": 0.96,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "William Johnson",
+     "party": "NPP",
+     "votes": 1969,
+     "write_in": false,
+     "pct": 0.88,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "2026-11-04T11:04:42.5025889Z",
+   "source_url": "https://silverstateelection.nv.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Steven A. Horsford",
+   "margin_votes": 50963,
+   "margin_pct": 22.84,
+   "jurisdiction": null,
+   "id": "nv-005"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Statewide Ballot Question No. 6",
+   "title": "Statewide Ballot Question No. 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 949880,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 601533,
+     "write_in": false,
+     "pct": 63.33,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 348347,
+     "write_in": false,
+     "pct": 36.67,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "2026-11-04T11:04:42.5025889Z",
+   "source_url": "https://silverstateelection.nv.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Yes",
+   "margin_votes": 253186,
+   "margin_pct": 26.66,
+   "description": "Should the Nevada Constitution be amended to create an individual's fundamental right to an abortion, without interference by state or local governments, whenever the abortion is performed by a qualified healthcare professional until fetal viability or when necessary to protect the health or life of the pregnant individual at any point during the pregnancy?",
+   "jurisdiction": "Statewide",
+   "id": "nv-006"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Statewide Ballot Question No. 7",
+   "title": "Statewide Ballot Question No. 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 956480,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 595823,
+     "write_in": false,
+     "pct": 62.29,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 360657,
+     "write_in": false,
+     "pct": 37.71,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "2026-11-04T11:04:42.5025889Z",
+   "source_url": "https://silverstateelection.nv.gov/",
+   "retrieved_at": "2026-11-04T18:58:03Z",
+   "leading": "Yes",
+   "margin_votes": 235166,
+   "margin_pct": 24.58,
+   "description": "Should the Nevada Constitution be amended to require voters to either present photo identification to verify their identity when voting in-person or to provide certain personal information to verify their identity when voting by mail ballot?",
+   "jurisdiction": "Statewide",
+   "id": "nv-007"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 7,
+  "by_office": {
+   "Governor": 1,
+   "US House": 4,
+   "Ballot Measure": 2
+  }
+ }
+}

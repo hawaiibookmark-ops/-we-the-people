@@ -1,0 +1,943 @@
+{
+ "state": "LA",
+ "name": "Louisiana",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://voterportal.sos.la.gov/graphical"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://voterportal.sos.la.gov/graphical",
+ "retrieved_at": "2026-11-04T18:58:09Z",
+ "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "U. S. Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1466069,
+   "candidates": [
+    {
+     "name": "Julia Letlow",
+     "party": "REP",
+     "votes": 745963,
+     "pct": 50.88,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "\"Jamie\" Davis",
+     "party": "DEM",
+     "votes": 720106,
+     "pct": 49.12,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "Julia Letlow",
+   "margin_votes": 25857,
+   "margin_pct": 1.76,
+   "jurisdiction": "Statewide",
+   "id": "la-001"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "U.S. Representative, District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 263373,
+   "candidates": [
+    {
+     "name": "Steve Scalise",
+     "party": "REP",
+     "votes": 159890,
+     "pct": 60.71,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Lauren Jewett",
+     "party": "DEM",
+     "votes": 89428,
+     "pct": 33.95,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Randall Arrington",
+     "party": "REP",
+     "votes": 9776,
+     "pct": 3.71,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "E. \"Liddy\" Glass",
+     "party": "NOPTY",
+     "votes": 4279,
+     "pct": 1.62,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 522,
+    "total": 522
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "Steve Scalise",
+   "margin_votes": 70462,
+   "margin_pct": 26.76,
+   "notes": "Louisiana Secretary of State data marks this contest as able to have a runoff (CanHaveRunoff=1). No runoff has been stated for this contest in the feed.",
+   "jurisdiction": null,
+   "id": "la-002"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "U.S. Representative, District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 240582,
+   "candidates": [
+    {
+     "name": "Troy A. Carter, Sr.",
+     "party": "DEM",
+     "votes": 192258,
+     "pct": 79.91,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Peter Williams",
+     "party": "REP",
+     "votes": 36367,
+     "pct": 15.12,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Lisa Ballay",
+     "party": "LBT",
+     "votes": 6405,
+     "pct": 2.66,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Renada \"Honey\" Collins",
+     "party": "NOPTY",
+     "votes": 2999,
+     "pct": 1.25,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Walter \"Rocky\" Beach",
+     "party": "NOPTY",
+     "votes": 2553,
+     "pct": 1.06,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 613,
+    "total": 613
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "Troy A. Carter, Sr.",
+   "margin_votes": 155891,
+   "margin_pct": 64.79,
+   "notes": "Louisiana Secretary of State data marks this contest as able to have a runoff (CanHaveRunoff=1). No runoff has been stated for this contest in the feed.",
+   "jurisdiction": null,
+   "id": "la-003"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "U.S. Representative, District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 234994,
+   "candidates": [
+    {
+     "name": "\"Clay\" Higgins",
+     "party": "REP",
+     "votes": 129203,
+     "pct": 54.98,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "John Day",
+     "party": "DEM",
+     "votes": 49162,
+     "pct": 20.92,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Caleb \"With a C\" Walker",
+     "party": "DEM",
+     "votes": 19932,
+     "pct": 8.48,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Priscilla Gonzalez",
+     "party": "DEM",
+     "votes": 16828,
+     "pct": 7.16,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "\"Kate\" Cotten",
+     "party": "REP",
+     "votes": 15661,
+     "pct": 6.66,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Tia LeBrun",
+     "party": "NOPTY",
+     "votes": 4208,
+     "pct": 1.79,
+     "rank": 6,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 571,
+    "total": 571
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "\"Clay\" Higgins",
+   "margin_votes": 80041,
+   "margin_pct": 34.06,
+   "notes": "Louisiana Secretary of State data marks this contest as able to have a runoff (CanHaveRunoff=1). No runoff has been stated for this contest in the feed.",
+   "jurisdiction": null,
+   "id": "la-004"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "U.S. Representative, District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 230339,
+   "candidates": [
+    {
+     "name": "\"Mike\" Johnson",
+     "party": "REP",
+     "votes": 134739,
+     "pct": 58.5,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Conrad Cable",
+     "party": "DEM",
+     "votes": 52893,
+     "pct": 22.96,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "\"Matt\" Gromlich",
+     "party": "DEM",
+     "votes": 32866,
+     "pct": 14.27,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "\"Mike\" Nichols",
+     "party": "REP",
+     "votes": 7270,
+     "pct": 3.16,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Gordon Heslop",
+     "party": "REP",
+     "votes": 2571,
+     "pct": 1.12,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 684,
+    "total": 684
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "\"Mike\" Johnson",
+   "margin_votes": 81846,
+   "margin_pct": 35.54,
+   "notes": "Louisiana Secretary of State data marks this contest as able to have a runoff (CanHaveRunoff=1). No runoff has been stated for this contest in the feed.",
+   "jurisdiction": null,
+   "id": "la-005"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "U.S. Representative, District 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 227917,
+   "candidates": [
+    {
+     "name": "Patricia \"Pat\" Moore",
+     "party": "DEM",
+     "votes": 40789,
+     "pct": 17.9,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "\"Gabe\" Firment",
+     "party": "REP",
+     "votes": 39131,
+     "pct": 17.17,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Misti Cordell",
+     "party": "REP",
+     "votes": 33366,
+     "pct": 14.64,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Michael Echols",
+     "party": "REP",
+     "votes": 32902,
+     "pct": 14.44,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Stewart Cathey, Jr.",
+     "party": "REP",
+     "votes": 28160,
+     "pct": 12.36,
+     "rank": 5,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Antonio Wilson",
+     "party": "DEM",
+     "votes": 27364,
+     "pct": 12.01,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Dan McKay",
+     "party": "DEM",
+     "votes": 16047,
+     "pct": 7.04,
+     "rank": 7,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Austin Magee",
+     "party": "REP",
+     "votes": 7920,
+     "pct": 3.47,
+     "rank": 8,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Oscar \"Omar\" Dantzler",
+     "party": "REP",
+     "votes": 2238,
+     "pct": 0.98,
+     "rank": 9,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 791,
+    "total": 791
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "Patricia \"Pat\" Moore",
+   "margin_votes": 1658,
+   "margin_pct": 0.73,
+   "notes": "Louisiana Secretary of State data marks this contest as able to have a runoff (CanHaveRunoff=1). No runoff has been stated for this contest in the feed.",
+   "jurisdiction": null,
+   "id": "la-006"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "U.S. Representative, District 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 261951,
+   "candidates": [
+    {
+     "name": "Chauna Banks",
+     "party": "DEM",
+     "votes": 50878,
+     "pct": 19.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Blake Miguez",
+     "party": "REP",
+     "votes": 50213,
+     "pct": 19.17,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "\"Rick\" Edmonds",
+     "party": "REP",
+     "votes": 49241,
+     "pct": 18.8,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Lindsay \"Rubia\" Garcia",
+     "party": "DEM",
+     "votes": 33544,
+     "pct": 12.81,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Stephen Wagley",
+     "party": "REP",
+     "votes": 28169,
+     "pct": 10.75,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Patrick \"Pat\" Forbes",
+     "party": "DEM",
+     "votes": 23820,
+     "pct": 9.09,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Larry Davis III",
+     "party": "REP",
+     "votes": 11356,
+     "pct": 4.34,
+     "rank": 7,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Monique Appeaning",
+     "party": "REP",
+     "votes": 8109,
+     "pct": 3.1,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Rufus Craig",
+     "party": "LBT",
+     "votes": 3461,
+     "pct": 1.32,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Mebruer",
+     "party": "REP",
+     "votes": 3160,
+     "pct": 1.21,
+     "rank": 10,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 541,
+    "total": 541
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "Chauna Banks",
+   "margin_votes": 665,
+   "margin_pct": 0.25,
+   "notes": "Louisiana Secretary of State data marks this contest as able to have a runoff (CanHaveRunoff=1). No runoff has been stated for this contest in the feed.",
+   "jurisdiction": null,
+   "id": "la-007"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 1",
+   "title": "Constitutional Amendment 1: Allows a one-time transfer of a property tax exemption for surviving spouse of a disabled veteran",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1442419,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 1071202,
+     "pct": 74.26,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 371217,
+     "pct": 25.74,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "YES",
+   "margin_votes": 699985,
+   "margin_pct": 48.52,
+   "description": "Do you support an amendment to allow the surviving spouse of a deceased veteran with a service-connected disability, who receives the additional property tax exemption, to make a one-time transfer of the additional property tax exemption to a subsequent qualifying property? (Effective January 1, 2027) (Amends Article VII, Section 21(K)(1))",
+   "jurisdiction": "Statewide",
+   "id": "la-008"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 2",
+   "title": "Constitutional Amendment 2: Allows taxing authority to continue lower millage rate without losing ability to adjust to max rate",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1420681,
+   "candidates": [
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 824341,
+     "pct": 58.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 596340,
+     "pct": 41.98,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "NO",
+   "margin_votes": 228001,
+   "margin_pct": 16.04,
+   "description": "Do you support an amendment to allow a local taxing authority to continue to levy a lower millage rate without losing its ability to adjust to the maximum authorized millage rate from a prior year's reassessment? (Effective January 1, 2027) (Amends Article VII, Section 23(C))",
+   "jurisdiction": "Statewide",
+   "id": "la-009"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 3",
+   "title": "Constitutional Amendment 3: Prohibits release on bail for defendants who have been convicted of certain offenses against a child",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1433818,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 972108,
+     "pct": 67.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 461710,
+     "pct": 32.2,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "YES",
+   "margin_votes": 510398,
+   "margin_pct": 35.6,
+   "description": "Do you support an amendment to prohibit a defendant from being released on any post-conviction bail if the defendant is convicted of an aggravated offense against a minor child? (Adds Article I, Section 18(C))",
+   "jurisdiction": "Statewide",
+   "id": "la-010"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 4",
+   "title": "Constitutional Amendment 4: Sets a lifetime term limit on a person who has served as governor more than one and one-half terms",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1432512,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 801160,
+     "pct": 55.93,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 631352,
+     "pct": 44.07,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "YES",
+   "margin_votes": 169808,
+   "margin_pct": 11.86,
+   "description": "Do you support an amendment to prohibit a person who has served more than one and one-half terms as governor from being elected as governor for any future term? (Amends Article IV, Section 3(B))",
+   "jurisdiction": "Statewide",
+   "id": "la-011"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 5",
+   "title": "Constitutional Amendment 5: Authorizes retirement systems to apply funds to any unfunded accrued liability, not only the oldest",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1401075,
+   "candidates": [
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 874544,
+     "pct": 62.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 526531,
+     "pct": 37.58,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "NO",
+   "margin_votes": 348013,
+   "margin_pct": 24.84,
+   "description": "Do you support an amendment to authorize a state retirement system to apply any nonrecurring state monies it receives to any of its unfunded accrued liability rather than requiring application to its oldest unfunded accrued liability? (Amends Article VII, Section 10(D)(2)(b)(iii))",
+   "jurisdiction": "Statewide",
+   "id": "la-012"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 6",
+   "title": "Constitutional Amendment 6: Authorizes extension of an additional property tax exemption for owners who are 65 or older",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1416607,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 900356,
+     "pct": 63.56,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 516251,
+     "pct": 36.44,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "YES",
+   "margin_votes": 384105,
+   "margin_pct": 27.12,
+   "description": "Do you support an amendment to authorize parishes and municipalities to extend an additional property tax exemption for property subject to the homestead exemption that is owned and occupied by a person who is at least sixty-five years of age and who qualifies for the special assessment level? (Effective January 1, 2028) (Adds Article VII, Section 21(P))",
+   "jurisdiction": "Statewide",
+   "id": "la-013"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 7",
+   "title": "Constitutional Amendment 7: Authorizes the use of public funds to identify, inventory, remove, or replace certain water lines",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1416531,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 924321,
+     "pct": 65.25,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 492210,
+     "pct": 34.75,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "YES",
+   "margin_votes": 432111,
+   "margin_pct": 30.5,
+   "description": "Do you support an amendment to allow for the use of public funds by a political subdivision for the purpose of identifying, inventorying, removing or replacing drinking water utility service lines made of or affected by materials as specified or prescribed by the Lead and Copper Rule Improvements of the United States Environmental Protection Agency, promulgated October 30, 2024, or subsequent promulgation, on property owned by utility customers? (Amends Article VII, Section 14)",
+   "jurisdiction": "Statewide",
+   "id": "la-014"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 8",
+   "title": "Constitutional Amendment 8: Prohibits expropriation of property by a foreign adversary or an agent of a foreign adversary",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1411878,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 876953,
+     "pct": 62.11,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 534925,
+     "pct": 37.89,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "YES",
+   "margin_votes": 342028,
+   "margin_pct": 24.22,
+   "description": "Do you support an amendment to prohibit expropriation of property by a foreign adversary or an agent of a foreign adversary? (Amends Article I, Section 4(B)(4))",
+   "jurisdiction": "Statewide",
+   "id": "la-015"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 9",
+   "title": "Constitutional Amendment 9: Increases the income limit to qualify for the special assessment level for a homestead exemption",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1415626,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 823788,
+     "pct": 58.19,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 591838,
+     "pct": 41.81,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "YES",
+   "margin_votes": 231950,
+   "margin_pct": 16.38,
+   "description": "Do you support an amendment to increase the maximum amount of income a person may receive and still qualify for the special assessment level for residential property receiving the homestead exemption? (Effective January 1, 2027) (Amends Article VII, Section 18(G)(1)(a)(ii))",
+   "jurisdiction": "Statewide",
+   "id": "la-016"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment 10",
+   "title": "Constitutional Amendment 10: Allows property tax exemption of rehabilitated blighted property under conditions provided by law",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1408176,
+   "candidates": [
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 749063,
+     "pct": 53.19,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 659113,
+     "pct": 46.81,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 3722,
+    "total": 3722
+   },
+   "results_as_of": "2026-11-04T05:00:19.380 (Central Time, per source)",
+   "source_url": "https://voterportal.sos.la.gov/static/20261103/RacesCandidates_Multiparish.htm",
+   "retrieved_at": "2026-11-04T18:58:09Z",
+   "leading": "NO",
+   "margin_votes": 89950,
+   "margin_pct": 6.38,
+   "description": "Do you support an amendment to allow property tax exemptions for blighted or derelict properties that have been rehabilitated, and to require the legislature to enact laws providing for administration of these exemptions? (Effective January 1, 2027) (Adds Article VII, Section 21(P))",
+   "jurisdiction": "Statewide",
+   "id": "la-017"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 17,
+  "by_office": {
+   "US Senate": 1,
+   "US House": 6,
+   "Ballot Measure": 10
+  }
+ }
+}

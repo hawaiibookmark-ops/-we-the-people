@@ -1,0 +1,18 @@
+{
+ "state": "OK",
+ "name": "Oklahoma",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://results.okelections.us/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://results.okelections.us/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Oklahoma State Election Board results site (results.okelections.us) returned HTTP 403 to automated requests at retrieval.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

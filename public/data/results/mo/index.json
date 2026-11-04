@@ -1,0 +1,18 @@
+{
+ "state": "MO",
+ "name": "Missouri",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://enr.sos.mo.gov/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://enr.sos.mo.gov/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Missouri Secretary of State election-night site (enr.sos.mo.gov) is protected by a Cloudflare challenge that blocked automated page loads after the first page. We did not try to get around it.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

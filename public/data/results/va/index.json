@@ -1,0 +1,951 @@
+{
+ "state": "VA",
+ "name": "Virginia",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://enr.elections.virginia.gov/results/public/virginia/2026-November-General"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+ "retrieved_at": "2026-11-04T18:57:56Z",
+ "results_as_of": "2026-11-04T18:54:08.5375355Z",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "Member, United States Senate",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 3551873,
+   "candidates": [
+    {
+     "name": "Mark R. Warner",
+     "party": "D",
+     "votes": 2168828,
+     "write_in": false,
+     "pct": 61.06,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Bert Mizusawa",
+     "party": "R",
+     "votes": 1373640,
+     "write_in": false,
+     "pct": 38.67,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 9405,
+     "write_in": true,
+     "pct": 0.26,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 133,
+    "total": 133
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mark R. Warner",
+   "margin_votes": 795188,
+   "margin_pct": 22.39,
+   "jurisdiction": "Statewide",
+   "id": "va-001"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "Member, House of Representatives (1st District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 407278,
+   "candidates": [
+    {
+     "name": "Shannon L. Taylor",
+     "party": "D",
+     "votes": 207877,
+     "write_in": false,
+     "pct": 51.04,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Robert J. \"Rob\" Wittman",
+     "party": "R",
+     "votes": 198417,
+     "write_in": false,
+     "pct": 48.72,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 984,
+     "write_in": true,
+     "pct": 0.24,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 18,
+    "total": 18
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Shannon L. Taylor",
+   "margin_votes": 9460,
+   "margin_pct": 2.32,
+   "jurisdiction": null,
+   "id": "va-002"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "Member, House of Representatives (2nd District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 336794,
+   "candidates": [
+    {
+     "name": "Elaine G. Luria",
+     "party": "D",
+     "votes": 178696,
+     "write_in": false,
+     "pct": 53.06,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jen A. Kiggans",
+     "party": "R",
+     "votes": 150080,
+     "write_in": false,
+     "pct": 44.56,
+     "rank": 2,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "J. Matt Baker",
+     "party": "I",
+     "votes": 4576,
+     "write_in": false,
+     "pct": 1.36,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Geral D. \"Bishop\" Staten",
+     "party": "I",
+     "votes": 3002,
+     "write_in": false,
+     "pct": 0.89,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 440,
+     "write_in": true,
+     "pct": 0.13,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 8,
+    "total": 8
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Elaine G. Luria",
+   "margin_votes": 28616,
+   "margin_pct": 8.5,
+   "jurisdiction": null,
+   "id": "va-003"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "Member, House of Representatives (3rd District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 247003,
+   "candidates": [
+    {
+     "name": "Robert C. \"Bobby\" Scott",
+     "party": "D",
+     "votes": 179292,
+     "write_in": false,
+     "pct": 72.59,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Edwin Rivera, Jr.",
+     "party": "R",
+     "votes": 59380,
+     "write_in": false,
+     "pct": 24.04,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Makiba A. Gaines",
+     "party": "I",
+     "votes": 3923,
+     "write_in": false,
+     "pct": 1.59,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Stephen C. Woll",
+     "party": "I",
+     "votes": 3905,
+     "write_in": false,
+     "pct": 1.58,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 503,
+     "write_in": true,
+     "pct": 0.2,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Robert C. \"Bobby\" Scott",
+   "margin_votes": 119912,
+   "margin_pct": 48.55,
+   "jurisdiction": null,
+   "id": "va-004"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "Member, House of Representatives (4th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 308920,
+   "candidates": [
+    {
+     "name": "Jennifer L. McClellan",
+     "party": "D",
+     "votes": 223004,
+     "write_in": false,
+     "pct": 72.19,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Robert P. \"Family Man\" Murray, Jr.",
+     "party": "R",
+     "votes": 81042,
+     "write_in": false,
+     "pct": 26.23,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Joan E. \"Andrews\" Bell",
+     "party": "I",
+     "votes": 4143,
+     "write_in": false,
+     "pct": 1.34,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 731,
+     "write_in": true,
+     "pct": 0.24,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jennifer L. McClellan",
+   "margin_votes": 141962,
+   "margin_pct": 45.96,
+   "jurisdiction": null,
+   "id": "va-005"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "Member, House of Representatives (5th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 360938,
+   "candidates": [
+    {
+     "name": "John J. McGuire III",
+     "party": "R",
+     "votes": 181248,
+     "write_in": false,
+     "pct": 50.22,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Tom S. P. Perriello",
+     "party": "D",
+     "votes": 173189,
+     "write_in": false,
+     "pct": 47.98,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Cooke C. Harvey",
+     "party": "I",
+     "votes": 5790,
+     "write_in": false,
+     "pct": 1.6,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 711,
+     "write_in": true,
+     "pct": 0.2,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 24,
+    "total": 24
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "John J. McGuire III",
+   "margin_votes": 8059,
+   "margin_pct": 2.24,
+   "jurisdiction": null,
+   "id": "va-006"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "Member, House of Representatives (6th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 316598,
+   "candidates": [
+    {
+     "name": "Ben L. Cline",
+     "party": "R",
+     "votes": 175790,
+     "write_in": false,
+     "pct": 55.52,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Beth A. Macy",
+     "party": "D",
+     "votes": 140201,
+     "write_in": false,
+     "pct": 44.28,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 607,
+     "write_in": true,
+     "pct": 0.19,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 23,
+    "total": 23
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ben L. Cline",
+   "margin_votes": 35589,
+   "margin_pct": 11.24,
+   "jurisdiction": null,
+   "id": "va-007"
+  },
+  {
+   "office": "US House",
+   "district": "7",
+   "title": "Member, House of Representatives (7th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 320552,
+   "candidates": [
+    {
+     "name": "Eugene S. Vindman",
+     "party": "D",
+     "votes": 191361,
+     "write_in": false,
+     "pct": 59.7,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Doug A. Ollivant",
+     "party": "R",
+     "votes": 121014,
+     "write_in": false,
+     "pct": 37.75,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Alaha Ahrar",
+     "party": "I",
+     "votes": 3020,
+     "write_in": false,
+     "pct": 0.94,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Taner E. Demirci Lopez",
+     "party": "L",
+     "votes": 2632,
+     "write_in": false,
+     "pct": 0.82,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Randall A. Terry",
+     "party": "I",
+     "votes": 1197,
+     "write_in": false,
+     "pct": 0.37,
+     "rank": 5,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Joshua E. Ertle",
+     "party": "I",
+     "votes": 785,
+     "write_in": false,
+     "pct": 0.24,
+     "rank": 6,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 543,
+     "write_in": true,
+     "pct": 0.17,
+     "rank": 7,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Eugene S. Vindman",
+   "margin_votes": 70347,
+   "margin_pct": 21.95,
+   "jurisdiction": null,
+   "id": "va-008"
+  },
+  {
+   "office": "US House",
+   "district": "8",
+   "title": "Member, House of Representatives (8th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 312405,
+   "candidates": [
+    {
+     "name": "Donald S. Beyer, Jr.",
+     "party": "D",
+     "votes": 247775,
+     "write_in": false,
+     "pct": 79.31,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Tony A. Sabio",
+     "party": "R",
+     "votes": 56230,
+     "write_in": false,
+     "pct": 18.0,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Tim S. Sharman",
+     "party": "I",
+     "votes": 3892,
+     "write_in": false,
+     "pct": 1.25,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Shelly M. Arnoldi",
+     "party": "L",
+     "votes": 3648,
+     "write_in": false,
+     "pct": 1.17,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 860,
+     "write_in": true,
+     "pct": 0.28,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Donald S. Beyer, Jr.",
+   "margin_votes": 191545,
+   "margin_pct": 61.31,
+   "jurisdiction": null,
+   "id": "va-009"
+  },
+  {
+   "office": "US House",
+   "district": "9",
+   "title": "Member, House of Representatives (9th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 293826,
+   "candidates": [
+    {
+     "name": "H. Morgan Griffith",
+     "party": "R",
+     "votes": 193790,
+     "write_in": false,
+     "pct": 65.95,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Joy A. Powers",
+     "party": "D",
+     "votes": 99441,
+     "write_in": false,
+     "pct": 33.84,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 595,
+     "write_in": true,
+     "pct": 0.2,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 28,
+    "total": 28
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "H. Morgan Griffith",
+   "margin_votes": 94349,
+   "margin_pct": 32.11,
+   "jurisdiction": null,
+   "id": "va-010"
+  },
+  {
+   "office": "US House",
+   "district": "10",
+   "title": "Member, House of Representatives (10th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 328985,
+   "candidates": [
+    {
+     "name": "Suhas Subramanyam",
+     "party": "D",
+     "votes": 201943,
+     "write_in": false,
+     "pct": 61.38,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Dave T. Beckwith",
+     "party": "R",
+     "votes": 120307,
+     "write_in": false,
+     "pct": 36.57,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ahsen Mujeeb Malik",
+     "party": "I",
+     "votes": 6098,
+     "write_in": false,
+     "pct": 1.85,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 637,
+     "write_in": true,
+     "pct": 0.19,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 7,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Suhas Subramanyam",
+   "margin_votes": 81636,
+   "margin_pct": 24.81,
+   "jurisdiction": null,
+   "id": "va-011"
+  },
+  {
+   "office": "US House",
+   "district": "11",
+   "title": "Member, House of Representatives (11th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 318066,
+   "candidates": [
+    {
+     "name": "James R. Walkinshaw",
+     "party": "D",
+     "votes": 234391,
+     "write_in": false,
+     "pct": 73.69,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Arthur G. Purves",
+     "party": "R",
+     "votes": 78657,
+     "write_in": false,
+     "pct": 24.73,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Dianne L. Blais",
+     "party": "G",
+     "votes": 3993,
+     "write_in": false,
+     "pct": 1.26,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 1025,
+     "write_in": true,
+     "pct": 0.32,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "James R. Walkinshaw",
+   "margin_votes": 155734,
+   "margin_pct": 48.96,
+   "jurisdiction": null,
+   "id": "va-012"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Proposed Constitutional Amendment Question 1",
+   "title": "Proposed Constitutional Amendment Question 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 3497222,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 2181730,
+     "pct": 62.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 1315492,
+     "pct": 37.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 133,
+    "total": 133
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Yes",
+   "margin_votes": 866238,
+   "margin_pct": 24.76,
+   "jurisdiction": "Statewide",
+   "id": "va-013"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Proposed Constitutional Amendment Question 2",
+   "title": "Proposed Constitutional Amendment Question 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 3527949,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 2024754,
+     "pct": 57.39,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 1503195,
+     "pct": 42.61,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 133,
+    "total": 133
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Yes",
+   "margin_votes": 521559,
+   "margin_pct": 14.78,
+   "jurisdiction": "Statewide",
+   "id": "va-014"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Proposed Constitutional Amendment Question 3",
+   "title": "Proposed Constitutional Amendment Question 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 3521253,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 1988440,
+     "pct": 56.47,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 1532813,
+     "pct": 43.53,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 133,
+    "total": 133
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Yes",
+   "margin_votes": 455627,
+   "margin_pct": 12.94,
+   "jurisdiction": "Statewide",
+   "id": "va-015"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "Member, House of Delegates (20th District)",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 23500,
+   "candidates": [
+    {
+     "name": "Sonia Ruth Vasquez Luna",
+     "party": "D",
+     "votes": 16365,
+     "write_in": false,
+     "pct": 69.64,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Nathaniel \"Nate\" Fritzen",
+     "party": "R",
+     "votes": 7083,
+     "write_in": false,
+     "pct": 30.14,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-In",
+     "party": null,
+     "votes": 52,
+     "write_in": true,
+     "pct": 0.22,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:54:08.5375355Z",
+   "source_url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Sonia Ruth Vasquez Luna",
+   "margin_votes": 9282,
+   "margin_pct": 39.5,
+   "jurisdiction": null,
+   "id": "va-016"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 16,
+  "by_office": {
+   "US Senate": 1,
+   "US House": 11,
+   "Ballot Measure": 3,
+   "State House": 1
+  }
+ }
+}

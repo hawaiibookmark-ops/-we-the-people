@@ -1,0 +1,18 @@
+{
+ "state": "TN",
+ "name": "Tennessee",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://elections.tn.gov/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://elections.tn.gov/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Tennessee Secretary of State results site (elections.tn.gov) required a human-verification check that automated reads cannot complete. We did not try to get around it.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

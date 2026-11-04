@@ -1,0 +1,18 @@
+{
+ "state": "NH",
+ "name": "New Hampshire",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://www.sos.nh.gov/2026-general-election-results"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://www.sos.nh.gov/2026-general-election-results",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The New Hampshire Secretary of State 2026 General Election Results page lists each contest but says results will be linked when complete; no results files were linked at retrieval.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

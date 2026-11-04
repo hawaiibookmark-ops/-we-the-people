@@ -1,0 +1,327 @@
+{
+ "state": "MT",
+ "name": "Montana",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.mt.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.mt.gov/",
+ "retrieved_at": "2026-11-04T19:00:04Z",
+ "results_as_of": "11/4/2026 11:55:23 AM MT (MT)",
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "UNITED STATES SENATOR",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 457297,
+   "candidates": [
+    {
+     "name": "Kurt Alme",
+     "party": "Republican",
+     "votes": 223085,
+     "write_in": false,
+     "pct": 48.78,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Seth Bodnar",
+     "party": "Independent",
+     "votes": 170948,
+     "write_in": false,
+     "pct": 37.38,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Alani Bankhead",
+     "party": "Democrat",
+     "votes": 54875,
+     "write_in": false,
+     "pct": 12.0,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Kyle Austin",
+     "party": "Libertarian",
+     "votes": 8389,
+     "write_in": false,
+     "pct": 1.83,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 502,
+    "total": 728
+   },
+   "results_as_of": "11/4/2026 11:55:23 AM MT",
+   "source_url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:04Z",
+   "leading": "Kurt Alme",
+   "margin_votes": 52137,
+   "margin_pct": 11.4,
+   "jurisdiction": "Statewide",
+   "id": "mt-001"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "UNITED STATES REPRESENTATIVE 1ST CONGRESSIONAL",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 238442,
+   "candidates": [
+    {
+     "name": "Sam Forstag",
+     "party": "Democrat",
+     "votes": 118981,
+     "write_in": false,
+     "pct": 49.9,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Aaron Flint",
+     "party": "Republican",
+     "votes": 112664,
+     "write_in": false,
+     "pct": 47.25,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Nick Sheedy",
+     "party": "Libertarian",
+     "votes": 6797,
+     "write_in": false,
+     "pct": 2.85,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 179,
+    "total": 346
+   },
+   "results_as_of": "11/4/2026 11:55:23 AM MT",
+   "source_url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:04Z",
+   "leading": "Sam Forstag",
+   "margin_votes": 6317,
+   "margin_pct": 2.65,
+   "jurisdiction": null,
+   "id": "mt-002"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "UNITED STATES REPRESENTATIVE 2ND CONGRESSIONAL",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 217878,
+   "candidates": [
+    {
+     "name": "Troy Downing",
+     "party": "Republican",
+     "votes": 126739,
+     "write_in": false,
+     "pct": 58.17,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Brian J Miller",
+     "party": "Democrat",
+     "votes": 70161,
+     "write_in": false,
+     "pct": 32.2,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Michael D Eisenhauer",
+     "party": "Independent",
+     "votes": 17003,
+     "write_in": false,
+     "pct": 7.8,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Patrick McCracken",
+     "party": "Libertarian",
+     "votes": 3975,
+     "write_in": false,
+     "pct": 1.82,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 324,
+    "total": 383
+   },
+   "results_as_of": "11/4/2026 11:55:23 AM MT",
+   "source_url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:04Z",
+   "leading": "Troy Downing",
+   "margin_votes": 56578,
+   "margin_pct": 25.97,
+   "jurisdiction": null,
+   "id": "mt-003"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "CI-132 CONSTITUTIONAL INITIATIVE NO. 132",
+   "title": "CI-132 CONSTITUTIONAL INITIATIVE NO. 132",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 449868,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 306080,
+     "write_in": false,
+     "pct": 68.04,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 143788,
+     "write_in": false,
+     "pct": 31.96,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 502,
+    "total": 728
+   },
+   "results_as_of": "11/4/2026 11:55:23 AM MT",
+   "source_url": "https://electionresults.mt.gov/resultsSW.aspx?type=BQ&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:04Z",
+   "leading": "Yes",
+   "margin_votes": 162292,
+   "margin_pct": 36.08,
+   "jurisdiction": "Statewide",
+   "id": "mt-004"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "CI-133 CONSTITUTIONAL INITIATIVE NO. 133",
+   "title": "CI-133 CONSTITUTIONAL INITIATIVE NO. 133",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 441198,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 287412,
+     "write_in": false,
+     "pct": 65.14,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 153786,
+     "write_in": false,
+     "pct": 34.86,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 502,
+    "total": 728
+   },
+   "results_as_of": "11/4/2026 11:55:23 AM MT",
+   "source_url": "https://electionresults.mt.gov/resultsSW.aspx?type=BQ&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:04Z",
+   "leading": "Yes",
+   "margin_votes": 133626,
+   "margin_pct": 30.28,
+   "jurisdiction": "Statewide",
+   "id": "mt-005"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "I-194 INITIATIVE NO. 194",
+   "title": "I-194 INITIATIVE NO. 194",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 438058,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 286206,
+     "write_in": false,
+     "pct": 65.34,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 151852,
+     "write_in": false,
+     "pct": 34.66,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 502,
+    "total": 728
+   },
+   "results_as_of": "11/4/2026 11:55:23 AM MT",
+   "source_url": "https://electionresults.mt.gov/resultsSW.aspx?type=BQ&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:04Z",
+   "leading": "Yes",
+   "margin_votes": 134354,
+   "margin_pct": 30.68,
+   "jurisdiction": "Statewide",
+   "id": "mt-006"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 6,
+  "by_office": {
+   "US Senate": 1,
+   "US House": 2,
+   "Ballot Measure": 3
+  }
+ }
+}

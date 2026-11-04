@@ -1,0 +1,18 @@
+{
+ "state": "MI",
+ "name": "Michigan",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://mielections.us/election/results/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://mielections.us/election/results/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Michigan Department of State results site (mielections.us) did not accept a connection at retrieval.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

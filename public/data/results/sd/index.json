@@ -1,0 +1,322 @@
+{
+ "state": "SD",
+ "name": "South Dakota",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.sd.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://electionresults.sd.gov/",
+ "retrieved_at": "2026-11-04T19:00:01Z",
+ "results_as_of": "11/4/2026 12:55 PM CT (CT)",
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "United States Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 305062,
+   "candidates": [
+    {
+     "name": "Mike Rounds",
+     "party": "Republican",
+     "votes": 184572,
+     "write_in": false,
+     "pct": 60.5,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Brian L Bengs",
+     "party": "Independent",
+     "votes": 120490,
+     "write_in": false,
+     "pct": 39.5,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 671,
+    "total": 671
+   },
+   "results_as_of": "11/4/2026 12:55 PM CT",
+   "source_url": "https://electionresults.sd.gov/resultsSW.aspx?type=SWR&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:01Z",
+   "leading": "Mike Rounds",
+   "margin_votes": 64082,
+   "margin_pct": 21.0,
+   "jurisdiction": "Statewide",
+   "id": "sd-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor and Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 304455,
+   "candidates": [
+    {
+     "name": "Larry Rhoden and Tony Venhuizen",
+     "party": "Republican",
+     "votes": 193318,
+     "write_in": false,
+     "pct": 63.5,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Dan Ahlers and Steven McCleerey",
+     "party": "Democratic",
+     "votes": 111137,
+     "write_in": false,
+     "pct": 36.5,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 671,
+    "total": 671
+   },
+   "results_as_of": "11/4/2026 12:55 PM CT",
+   "source_url": "https://electionresults.sd.gov/resultsSW.aspx?type=SWR&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:01Z",
+   "leading": "Larry Rhoden and Tony Venhuizen",
+   "margin_votes": 82181,
+   "margin_pct": 27.0,
+   "jurisdiction": "Statewide",
+   "id": "sd-002"
+  },
+  {
+   "office": "US House",
+   "district": "At-large",
+   "title": "United States Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 305544,
+   "candidates": [
+    {
+     "name": "Marty Jackley",
+     "party": "Republican",
+     "votes": 195571,
+     "write_in": false,
+     "pct": 64.01,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Nicole \"Nikki\" Gronli",
+     "party": "Democratic",
+     "votes": 109973,
+     "write_in": false,
+     "pct": 35.99,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 671,
+    "total": 671
+   },
+   "results_as_of": "11/4/2026 12:55 PM CT",
+   "source_url": "https://electionresults.sd.gov/resultsSW.aspx?type=SWR&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:01Z",
+   "leading": "Marty Jackley",
+   "margin_votes": 85598,
+   "margin_pct": 28.02,
+   "jurisdiction": null,
+   "id": "sd-003"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment I",
+   "title": "Constitutional Amendment I",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 296585,
+   "candidates": [
+    {
+     "name": "No",
+     "party": null,
+     "votes": 165397,
+     "write_in": false,
+     "pct": 55.77,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 131188,
+     "write_in": false,
+     "pct": 44.23,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 671,
+    "total": 671
+   },
+   "results_as_of": "11/4/2026 12:55 PM CT",
+   "source_url": "https://electionresults.sd.gov/resultsSW.aspx?type=BQ&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:01Z",
+   "leading": "No",
+   "margin_votes": 34209,
+   "margin_pct": 11.54,
+   "description": "An Amendment to the South Dakota Constitution that Repeals Expanded Medicaid Coverage if Federal Funding for the Program Drops below 90%.",
+   "jurisdiction": "Statewide",
+   "id": "sd-004"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment J",
+   "title": "Constitutional Amendment J",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 298656,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 183743,
+     "write_in": false,
+     "pct": 61.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 114913,
+     "write_in": false,
+     "pct": 38.48,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 671,
+    "total": 671
+   },
+   "results_as_of": "11/4/2026 12:55 PM CT",
+   "source_url": "https://electionresults.sd.gov/resultsSW.aspx?type=BQ&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:01Z",
+   "leading": "Yes",
+   "margin_votes": 68830,
+   "margin_pct": 23.04,
+   "description": "An Amendment to the South Dakota Constitution Clarifying that an Individual Must Be a Citizen of the United States to be Eligible to Vote.",
+   "jurisdiction": "Statewide",
+   "id": "sd-005"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment K",
+   "title": "Constitutional Amendment K",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 293025,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 178556,
+     "write_in": false,
+     "pct": 60.94,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 114469,
+     "write_in": false,
+     "pct": 39.06,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 671,
+    "total": 671
+   },
+   "results_as_of": "11/4/2026 12:55 PM CT",
+   "source_url": "https://electionresults.sd.gov/resultsSW.aspx?type=BQ&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:01Z",
+   "leading": "Yes",
+   "margin_votes": 64087,
+   "margin_pct": 21.88,
+   "description": "An Amendment to the South Dakota Constitution Establishing the Trust for Unclaimed Property Fund.",
+   "jurisdiction": "Statewide",
+   "id": "sd-006"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Constitutional Amendment L",
+   "title": "Constitutional Amendment L",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 297501,
+   "candidates": [
+    {
+     "name": "No",
+     "party": null,
+     "votes": 171345,
+     "write_in": false,
+     "pct": 57.59,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 126156,
+     "write_in": false,
+     "pct": 42.41,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts fully reported",
+    "reporting": 671,
+    "total": 671
+   },
+   "results_as_of": "11/4/2026 12:55 PM CT",
+   "source_url": "https://electionresults.sd.gov/resultsSW.aspx?type=BQ&map=CTY",
+   "retrieved_at": "2026-11-04T19:00:01Z",
+   "leading": "No",
+   "margin_votes": 45189,
+   "margin_pct": 15.18,
+   "description": "An Amendment to the South Dakota Constitution Requiring that a Proposed Constitutional Amendment or Revision Receive an Affirmative Vote of Sixty Percent of the Votes Cast.",
+   "jurisdiction": "Statewide",
+   "id": "sd-007"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 7,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 1,
+   "Ballot Measure": 4
+  }
+ }
+}

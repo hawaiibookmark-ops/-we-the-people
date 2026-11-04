@@ -1,0 +1,4901 @@
+{
+ "state": "ID",
+ "name": "Idaho",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://results.voteidaho.gov/results/public/id/elections/nov2026"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+ "retrieved_at": "2026-11-04T18:46:17Z",
+ "results_as_of": "2026-11-04T18:09:59.470892Z",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "United States Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 710006,
+   "candidates": [
+    {
+     "name": "Jim Risch",
+     "party": "REP",
+     "votes": 401284,
+     "write_in": false,
+     "pct": 56.52,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Todd Achilles",
+     "party": "IND",
+     "votes": 238232,
+     "write_in": false,
+     "pct": 33.55,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Natalie M Fleming",
+     "party": "IND",
+     "votes": 49861,
+     "write_in": false,
+     "pct": 7.02,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Matt Loesby",
+     "party": "LIB",
+     "votes": 20629,
+     "write_in": false,
+     "pct": 2.91,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jim Risch",
+   "margin_votes": 163052,
+   "margin_pct": 22.97,
+   "jurisdiction": "Statewide",
+   "id": "id-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 712825,
+   "candidates": [
+    {
+     "name": "Brad Little",
+     "party": "REP",
+     "votes": 406791,
+     "write_in": false,
+     "pct": 57.07,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Terri Pickens",
+     "party": "DEM",
+     "votes": 230586,
+     "write_in": false,
+     "pct": 32.35,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "John R. Stegner",
+     "party": "IND",
+     "votes": 54161,
+     "write_in": false,
+     "pct": 7.6,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Paul Sand",
+     "party": "LIB",
+     "votes": 11522,
+     "write_in": false,
+     "pct": 1.62,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Pro-Life",
+     "party": "CON",
+     "votes": 9474,
+     "write_in": false,
+     "pct": 1.33,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Jacob Burnett",
+     "party": "IND",
+     "votes": 291,
+     "write_in": true,
+     "pct": 0.04,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Brad Little",
+   "margin_votes": 176205,
+   "margin_pct": 24.72,
+   "jurisdiction": "Statewide",
+   "id": "id-002"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "United States Representative District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 378320,
+   "candidates": [
+    {
+     "name": "Russ Fulcher",
+     "party": "REP",
+     "votes": 243131,
+     "write_in": false,
+     "pct": 64.27,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Kaylee Peterson",
+     "party": "DEM",
+     "votes": 108812,
+     "write_in": false,
+     "pct": 28.76,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Sarah Zabel",
+     "party": "IND",
+     "votes": 22970,
+     "write_in": false,
+     "pct": 6.07,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Brendan J. Gomez",
+     "party": "CON",
+     "votes": 3407,
+     "write_in": false,
+     "pct": 0.9,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 19,
+    "total": 19
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Russ Fulcher",
+   "margin_votes": 134319,
+   "margin_pct": 35.51,
+   "jurisdiction": null,
+   "id": "id-003"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "United States Representative District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 330398,
+   "candidates": [
+    {
+     "name": "Mike Simpson",
+     "party": "REP",
+     "votes": 170721,
+     "write_in": false,
+     "pct": 51.67,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ellie Gilbreath",
+     "party": "DEM",
+     "votes": 133062,
+     "write_in": false,
+     "pct": 40.27,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Tripp Charles Hutchinson",
+     "party": "IND",
+     "votes": 11628,
+     "write_in": false,
+     "pct": 3.52,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Emre Houser",
+     "party": "IND",
+     "votes": 7848,
+     "write_in": false,
+     "pct": 2.38,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Will Johanson",
+     "party": "LIB",
+     "votes": 7139,
+     "write_in": false,
+     "pct": 2.16,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 26,
+    "total": 26
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Mike Simpson",
+   "margin_votes": 37659,
+   "margin_pct": 11.4,
+   "jurisdiction": null,
+   "id": "id-004"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Attorney General",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 703870,
+   "candidates": [
+    {
+     "name": "Raul R. Labrador",
+     "party": "REP",
+     "votes": 421135,
+     "write_in": false,
+     "pct": 59.83,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lori Hickman",
+     "party": "DEM",
+     "votes": 282735,
+     "write_in": false,
+     "pct": 40.17,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Raul R. Labrador",
+   "margin_votes": 138400,
+   "margin_pct": 19.66,
+   "jurisdiction": "Statewide",
+   "id": "id-005"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 701320,
+   "candidates": [
+    {
+     "name": "Scott Bedke",
+     "party": "REP",
+     "votes": 445434,
+     "write_in": false,
+     "pct": 63.51,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Eric Myricks",
+     "party": "DEM",
+     "votes": 255886,
+     "write_in": false,
+     "pct": 36.49,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Scott Bedke",
+   "margin_votes": 189548,
+   "margin_pct": 27.02,
+   "jurisdiction": "Statewide",
+   "id": "id-006"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Secretary of State",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 700230,
+   "candidates": [
+    {
+     "name": "Phil McGrane",
+     "party": "REP",
+     "votes": 471830,
+     "write_in": false,
+     "pct": 67.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Shawn Keenan",
+     "party": "DEM",
+     "votes": 228400,
+     "write_in": false,
+     "pct": 32.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Phil McGrane",
+   "margin_votes": 243430,
+   "margin_pct": 34.76,
+   "jurisdiction": "Statewide",
+   "id": "id-007"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "State Treasurer",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 695154,
+   "candidates": [
+    {
+     "name": "Julie A. Ellsworth",
+     "party": "REP",
+     "votes": 455126,
+     "write_in": false,
+     "pct": 65.47,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin A Jones",
+     "party": "DEM",
+     "votes": 240028,
+     "write_in": false,
+     "pct": 34.53,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Julie A. Ellsworth",
+   "margin_votes": 215098,
+   "margin_pct": 30.94,
+   "jurisdiction": "Statewide",
+   "id": "id-008"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Superintendent of Public Instruction",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 696822,
+   "candidates": [
+    {
+     "name": "Debbie Critchfield",
+     "party": "REP",
+     "votes": 429110,
+     "write_in": false,
+     "pct": 61.58,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Becky Sundin Mitchell",
+     "party": "DEM",
+     "votes": 242950,
+     "write_in": false,
+     "pct": 34.87,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Teresa Roundy",
+     "party": "CON",
+     "votes": 24762,
+     "write_in": false,
+     "pct": 3.55,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Debbie Critchfield",
+   "margin_votes": 186160,
+   "margin_pct": 26.71,
+   "jurisdiction": "Statewide",
+   "id": "id-009"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Proposition 1: Reproductive Freedom & Privacy Act",
+   "title": "Proposition 1: Reproductive Freedom & Privacy Act",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 722925,
+   "candidates": [
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 404373,
+     "pct": 55.94,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 318552,
+     "pct": 44.06,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "NO",
+   "margin_votes": 85821,
+   "margin_pct": 11.88,
+   "jurisdiction": "Statewide",
+   "description": "<p>Measure creating right to abortion before fetus viability, and post-viability to protect health; right to privacy; healthcare provider liability protections.</p>",
+   "id": "id-010"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Idaho Constitutional Amendment: House Joint Resolution 4",
+   "title": "Idaho Constitutional Amendment: House Joint Resolution 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 710500,
+   "candidates": [
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 470841,
+     "pct": 66.27,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 239659,
+     "pct": 33.73,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "NO",
+   "margin_votes": 231182,
+   "margin_pct": 32.54,
+   "jurisdiction": "Statewide",
+   "description": "<p>Shall Section 26, Article III of the Constitution of the State of Idaho be amended to provide that only the Idaho Legislature shall have the power and authority to legalize the growing, producing, manufacturing, transporting, selling, delivering, dispensing, administering, prescribing, distributing, possessing, or using of marijuana, narcotics, or other psychoactive substances?</p>",
+   "id": "id-011"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Idaho Constitutional Amendment: House Joint Resolution 6",
+   "title": "Idaho Constitutional Amendment: House Joint Resolution 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 708038,
+   "candidates": [
+    {
+     "name": "YES",
+     "party": null,
+     "votes": 447189,
+     "pct": 63.16,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "NO",
+     "party": null,
+     "votes": 260849,
+     "pct": 36.84,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "YES",
+   "margin_votes": 186340,
+   "margin_pct": 26.32,
+   "jurisdiction": "Statewide",
+   "description": "<p>Shall Article X of the Constitution of the State of Idaho be amended by the addition of a new Section 8, to provide that the English language shall be the official language for the State of Idaho, and to further provide that, except as required by federal law, English shall be used in all public proceedings, public documents, public instruction, and any other public acts of any public institution in the State of Idaho?</p>",
+   "id": "id-012"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Advisory Question: House Bill 932",
+   "title": "Advisory Question: House Bill 932",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 528084,
+   "candidates": [
+    {
+     "name": "Winchester Model 1873 “Gun that Won the West” (.44-40)",
+     "party": null,
+     "votes": 164257,
+     "pct": 31.1,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Winchester Model 1894 (.30-30)",
+     "party": null,
+     "votes": 133674,
+     "pct": 25.31,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "1873 Colt Single Action Army Revolver “Peacemaker” (.45 Colt)",
+     "party": null,
+     "votes": 80616,
+     "pct": 15.27,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Remington Model 700 bolt-action rifle (.30-06)",
+     "party": null,
+     "votes": 65718,
+     "pct": 12.44,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Colt M1911 .45 automatic Colt pistol (.45 ACP)",
+     "party": null,
+     "votes": 46350,
+     "pct": 8.78,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "M1 Garand rifle (.30-06)",
+     "party": null,
+     "votes": 37469,
+     "pct": 7.1,
+     "rank": 6,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 44,
+    "total": 44
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Winchester Model 1873 “Gun that Won the West” (.44-40)",
+   "margin_votes": 30583,
+   "margin_pct": 5.79,
+   "jurisdiction": "Statewide",
+   "id": "id-013"
+  },
+  {
+   "office": "State Senate",
+   "district": "1",
+   "title": "State Senator District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25907,
+   "candidates": [
+    {
+     "name": "Scott Herndon",
+     "party": "REP",
+     "votes": 14838,
+     "write_in": false,
+     "pct": 57.27,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Steve Johnson",
+     "party": "IND",
+     "votes": 11069,
+     "write_in": false,
+     "pct": 42.73,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Scott Herndon",
+   "margin_votes": 3769,
+   "margin_pct": 14.54,
+   "jurisdiction": null,
+   "id": "id-014"
+  },
+  {
+   "office": "State Senate",
+   "district": "2",
+   "title": "State Senator District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21937,
+   "candidates": [
+    {
+     "name": "Phil Hart",
+     "party": "REP",
+     "votes": 16982,
+     "write_in": false,
+     "pct": 77.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Valerie Wade",
+     "party": "DEM",
+     "votes": 4955,
+     "write_in": false,
+     "pct": 22.59,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Phil Hart",
+   "margin_votes": 12027,
+   "margin_pct": 54.82,
+   "jurisdiction": null,
+   "id": "id-015"
+  },
+  {
+   "office": "State Senate",
+   "district": "3",
+   "title": "State Senator District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25094,
+   "candidates": [
+    {
+     "name": "Doug \"Doug O\" Okuniewicz",
+     "party": "REP",
+     "votes": 19374,
+     "write_in": false,
+     "pct": 77.21,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Seguin",
+     "party": "DEM",
+     "votes": 5720,
+     "write_in": false,
+     "pct": 22.79,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Doug \"Doug O\" Okuniewicz",
+   "margin_votes": 13654,
+   "margin_pct": 54.42,
+   "jurisdiction": null,
+   "id": "id-016"
+  },
+  {
+   "office": "State Senate",
+   "district": "4",
+   "title": "State Senator District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18835,
+   "candidates": [
+    {
+     "name": "Ben Toews",
+     "party": "REP",
+     "votes": 11413,
+     "write_in": false,
+     "pct": 60.59,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Carissa Brewer",
+     "party": "DEM",
+     "votes": 7422,
+     "write_in": false,
+     "pct": 39.41,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Ben Toews",
+   "margin_votes": 3991,
+   "margin_pct": 21.18,
+   "jurisdiction": null,
+   "id": "id-017"
+  },
+  {
+   "office": "State Senate",
+   "district": "5",
+   "title": "State Senator District 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20958,
+   "candidates": [
+    {
+     "name": "Carl J Bjerke",
+     "party": "REP",
+     "votes": 15920,
+     "write_in": false,
+     "pct": 75.96,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Adam Chapman",
+     "party": "DEM",
+     "votes": 5038,
+     "write_in": false,
+     "pct": 24.04,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Carl J Bjerke",
+   "margin_votes": 10882,
+   "margin_pct": 51.92,
+   "jurisdiction": null,
+   "id": "id-018"
+  },
+  {
+   "office": "State Senate",
+   "district": "6",
+   "title": "State Senator District 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21193,
+   "candidates": [
+    {
+     "name": "Dan Foreman",
+     "party": "REP",
+     "votes": 11172,
+     "write_in": false,
+     "pct": 52.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Robin Weldy",
+     "party": "DEM",
+     "votes": 10021,
+     "write_in": false,
+     "pct": 47.28,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Dan Foreman",
+   "margin_votes": 1151,
+   "margin_pct": 5.44,
+   "jurisdiction": null,
+   "id": "id-019"
+  },
+  {
+   "office": "State Senate",
+   "district": "7",
+   "title": "State Senator District 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20274,
+   "candidates": [
+    {
+     "name": "Cindy Carlson",
+     "party": "REP",
+     "votes": 14518,
+     "write_in": false,
+     "pct": 71.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Patrice Yeatter",
+     "party": "DEM",
+     "votes": 5756,
+     "write_in": false,
+     "pct": 28.39,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Cindy Carlson",
+   "margin_votes": 8762,
+   "margin_pct": 43.22,
+   "jurisdiction": null,
+   "id": "id-020"
+  },
+  {
+   "office": "State Senate",
+   "district": "8",
+   "title": "State Senator District 8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14976,
+   "candidates": [
+    {
+     "name": "Christy Zito",
+     "party": "REP",
+     "votes": 14976,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Christy Zito",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-021"
+  },
+  {
+   "office": "State Senate",
+   "district": "9",
+   "title": "State Senator District 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19158,
+   "candidates": [
+    {
+     "name": "Brandon Shippy",
+     "party": "REP",
+     "votes": 15031,
+     "write_in": false,
+     "pct": 78.46,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Janice Martell",
+     "party": "DEM",
+     "votes": 4127,
+     "write_in": false,
+     "pct": 21.54,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Brandon Shippy",
+   "margin_votes": 10904,
+   "margin_pct": 56.92,
+   "jurisdiction": null,
+   "id": "id-022"
+  },
+  {
+   "office": "State Senate",
+   "district": "10",
+   "title": "State Senator District 10",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27396,
+   "candidates": [
+    {
+     "name": "Tammy Nichols",
+     "party": "REP",
+     "votes": 20702,
+     "write_in": false,
+     "pct": 75.57,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Nancy M Parker",
+     "party": "DEM",
+     "votes": 6694,
+     "write_in": false,
+     "pct": 24.43,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Tammy Nichols",
+   "margin_votes": 14008,
+   "margin_pct": 51.14,
+   "jurisdiction": null,
+   "id": "id-023"
+  },
+  {
+   "office": "State Senate",
+   "district": "11",
+   "title": "State Senator District 11",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12860,
+   "candidates": [
+    {
+     "name": "Camille Blaylock",
+     "party": "REP",
+     "votes": 7078,
+     "write_in": false,
+     "pct": 55.04,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Susan Counsil",
+     "party": "DEM",
+     "votes": 5385,
+     "write_in": false,
+     "pct": 41.87,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Esther Ma",
+     "party": "CON",
+     "votes": 397,
+     "write_in": false,
+     "pct": 3.09,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Camille Blaylock",
+   "margin_votes": 1693,
+   "margin_pct": 13.17,
+   "jurisdiction": null,
+   "id": "id-024"
+  },
+  {
+   "office": "State Senate",
+   "district": "12",
+   "title": "State Senator District 12",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17321,
+   "candidates": [
+    {
+     "name": "Ben Adams",
+     "party": "REP",
+     "votes": 10980,
+     "write_in": false,
+     "pct": 63.39,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Krystal Flippence",
+     "party": "DEM",
+     "votes": 6341,
+     "write_in": false,
+     "pct": 36.61,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Ben Adams",
+   "margin_votes": 4639,
+   "margin_pct": 26.78,
+   "jurisdiction": null,
+   "id": "id-025"
+  },
+  {
+   "office": "State Senate",
+   "district": "13",
+   "title": "State Senator District 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 16410,
+   "candidates": [
+    {
+     "name": "Brian Lenney",
+     "party": "REP",
+     "votes": 10088,
+     "write_in": false,
+     "pct": 61.47,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Letishia Silva",
+     "party": "DEM",
+     "votes": 6322,
+     "write_in": false,
+     "pct": 38.53,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Brian Lenney",
+   "margin_votes": 3766,
+   "margin_pct": 22.94,
+   "jurisdiction": null,
+   "id": "id-026"
+  },
+  {
+   "office": "State Senate",
+   "district": "14",
+   "title": "State Senator District 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 26300,
+   "candidates": [
+    {
+     "name": "C. Scott Grow",
+     "party": "REP",
+     "votes": 21595,
+     "write_in": false,
+     "pct": 82.11,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kirsten Faith Richardson",
+     "party": "CON",
+     "votes": 4705,
+     "write_in": false,
+     "pct": 17.89,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "C. Scott Grow",
+   "margin_votes": 16890,
+   "margin_pct": 64.22,
+   "jurisdiction": null,
+   "id": "id-027"
+  },
+  {
+   "office": "State Senate",
+   "district": "15",
+   "title": "State Senator District 15",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20844,
+   "candidates": [
+    {
+     "name": "Nancy Gregory",
+     "party": "DEM",
+     "votes": 11365,
+     "write_in": false,
+     "pct": 54.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Desi Burbank",
+     "party": "REP",
+     "votes": 9479,
+     "write_in": false,
+     "pct": 45.48,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Nancy Gregory",
+   "margin_votes": 1886,
+   "margin_pct": 9.04,
+   "jurisdiction": null,
+   "id": "id-028"
+  },
+  {
+   "office": "State Senate",
+   "district": "16",
+   "title": "State Senator District 16",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20674,
+   "candidates": [
+    {
+     "name": "Soñia Galaviz",
+     "party": "DEM",
+     "votes": 13819,
+     "write_in": false,
+     "pct": 66.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Geoffrey Surbeck",
+     "party": "REP",
+     "votes": 6855,
+     "write_in": false,
+     "pct": 33.16,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Soñia Galaviz",
+   "margin_votes": 6964,
+   "margin_pct": 33.68,
+   "jurisdiction": null,
+   "id": "id-029"
+  },
+  {
+   "office": "State Senate",
+   "district": "17",
+   "title": "State Senator District 17",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19916,
+   "candidates": [
+    {
+     "name": "Carrie Semmelroth",
+     "party": "DEM",
+     "votes": 13213,
+     "write_in": false,
+     "pct": 66.34,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Benjamin Chafetz",
+     "party": "REP",
+     "votes": 6703,
+     "write_in": false,
+     "pct": 33.66,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Carrie Semmelroth",
+   "margin_votes": 6510,
+   "margin_pct": 32.68,
+   "jurisdiction": null,
+   "id": "id-030"
+  },
+  {
+   "office": "State Senate",
+   "district": "18",
+   "title": "State Senator District 18",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15719,
+   "candidates": [
+    {
+     "name": "Janie Ward-Engelking",
+     "party": "DEM",
+     "votes": 15719,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Janie Ward-Engelking",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-031"
+  },
+  {
+   "office": "State Senate",
+   "district": "19",
+   "title": "State Senator District 19",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29377,
+   "candidates": [
+    {
+     "name": "Melissa Wintrow",
+     "party": "DEM",
+     "votes": 20742,
+     "write_in": false,
+     "pct": 70.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Melissa J. Christian",
+     "party": "REP",
+     "votes": 8635,
+     "write_in": false,
+     "pct": 29.39,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Melissa Wintrow",
+   "margin_votes": 12107,
+   "margin_pct": 41.22,
+   "jurisdiction": null,
+   "id": "id-032"
+  },
+  {
+   "office": "State Senate",
+   "district": "20",
+   "title": "State Senator District 20",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22961,
+   "candidates": [
+    {
+     "name": "Josh Keyser",
+     "party": "REP",
+     "votes": 13918,
+     "write_in": false,
+     "pct": 60.62,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Pamela Renee Wilson",
+     "party": "DEM",
+     "votes": 9043,
+     "write_in": false,
+     "pct": 39.38,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Josh Keyser",
+   "margin_votes": 4875,
+   "margin_pct": 21.24,
+   "jurisdiction": null,
+   "id": "id-033"
+  },
+  {
+   "office": "State Senate",
+   "district": "21",
+   "title": "State Senator District 21",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15399,
+   "candidates": [
+    {
+     "name": "Treg A. Bernt",
+     "party": "REP",
+     "votes": 15399,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Treg A. Bernt",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-034"
+  },
+  {
+   "office": "State Senate",
+   "district": "22",
+   "title": "State Senator District 22",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25109,
+   "candidates": [
+    {
+     "name": "Lori Den Hartog",
+     "party": "REP",
+     "votes": 14650,
+     "write_in": false,
+     "pct": 58.35,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Karlie Easley",
+     "party": "DEM",
+     "votes": 10459,
+     "write_in": false,
+     "pct": 41.65,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Lori Den Hartog",
+   "margin_votes": 4191,
+   "margin_pct": 16.7,
+   "jurisdiction": null,
+   "id": "id-035"
+  },
+  {
+   "office": "State Senate",
+   "district": "23",
+   "title": "State Senator District 23",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20060,
+   "candidates": [
+    {
+     "name": "Todd Lakey",
+     "party": "REP",
+     "votes": 14813,
+     "write_in": false,
+     "pct": 73.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Paul Morgan",
+     "party": "DEM",
+     "votes": 5247,
+     "write_in": false,
+     "pct": 26.16,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Todd Lakey",
+   "margin_votes": 9566,
+   "margin_pct": 47.68,
+   "jurisdiction": null,
+   "id": "id-036"
+  },
+  {
+   "office": "State Senate",
+   "district": "24",
+   "title": "State Senator District 24",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17637,
+   "candidates": [
+    {
+     "name": "Brent D Reinke",
+     "party": "REP",
+     "votes": 13541,
+     "write_in": false,
+     "pct": 76.78,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Jo Durfee",
+     "party": "DEM",
+     "votes": 4096,
+     "write_in": false,
+     "pct": 23.22,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Brent D Reinke",
+   "margin_votes": 9445,
+   "margin_pct": 53.56,
+   "jurisdiction": null,
+   "id": "id-037"
+  },
+  {
+   "office": "State Senate",
+   "district": "25",
+   "title": "State Senator District 25",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14282,
+   "candidates": [
+    {
+     "name": "Casey Swensen",
+     "party": "REP",
+     "votes": 9207,
+     "write_in": false,
+     "pct": 64.47,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "W. Lane Startin",
+     "party": "DEM",
+     "votes": 5075,
+     "write_in": false,
+     "pct": 35.53,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Casey Swensen",
+   "margin_votes": 4132,
+   "margin_pct": 28.94,
+   "jurisdiction": null,
+   "id": "id-038"
+  },
+  {
+   "office": "State Senate",
+   "district": "26",
+   "title": "State Senator District 26",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18974,
+   "candidates": [
+    {
+     "name": "Ron Taylor",
+     "party": "DEM",
+     "votes": 10719,
+     "write_in": false,
+     "pct": 56.49,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bryan Hyde",
+     "party": "REP",
+     "votes": 7330,
+     "write_in": false,
+     "pct": 38.63,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Shaila Tate",
+     "party": "IND",
+     "votes": 925,
+     "write_in": false,
+     "pct": 4.88,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Ron Taylor",
+   "margin_votes": 3389,
+   "margin_pct": 17.86,
+   "jurisdiction": null,
+   "id": "id-039"
+  },
+  {
+   "office": "State Senate",
+   "district": "27",
+   "title": "State Senator District 27",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14298,
+   "candidates": [
+    {
+     "name": "Kelly Arthur Anthon",
+     "party": "REP",
+     "votes": 11124,
+     "write_in": false,
+     "pct": 77.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Margo Saunders",
+     "party": "DEM",
+     "votes": 3174,
+     "write_in": false,
+     "pct": 22.2,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Kelly Arthur Anthon",
+   "margin_votes": 7950,
+   "margin_pct": 55.6,
+   "jurisdiction": null,
+   "id": "id-040"
+  },
+  {
+   "office": "State Senate",
+   "district": "28",
+   "title": "State Senator District 28",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18575,
+   "candidates": [
+    {
+     "name": "Jim Guthrie",
+     "party": "REP",
+     "votes": 12695,
+     "write_in": false,
+     "pct": 68.34,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mandy Peace",
+     "party": "DEM",
+     "votes": 5880,
+     "write_in": false,
+     "pct": 31.66,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jim Guthrie",
+   "margin_votes": 6815,
+   "margin_pct": 36.68,
+   "jurisdiction": null,
+   "id": "id-041"
+  },
+  {
+   "office": "State Senate",
+   "district": "29",
+   "title": "State Senator District 29",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17747,
+   "candidates": [
+    {
+     "name": "James D. Ruchti",
+     "party": "DEM",
+     "votes": 10439,
+     "write_in": false,
+     "pct": 58.82,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "John Crowder",
+     "party": "REP",
+     "votes": 7308,
+     "write_in": false,
+     "pct": 41.18,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "James D. Ruchti",
+   "margin_votes": 3131,
+   "margin_pct": 17.64,
+   "jurisdiction": null,
+   "id": "id-042"
+  },
+  {
+   "office": "State Senate",
+   "district": "30",
+   "title": "State Senator District 30",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 16124,
+   "candidates": [
+    {
+     "name": "Julie VanOrden",
+     "party": "REP",
+     "votes": 12259,
+     "write_in": false,
+     "pct": 76.03,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joni Lin Sorensen",
+     "party": "DEM",
+     "votes": 3865,
+     "write_in": false,
+     "pct": 23.97,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Julie VanOrden",
+   "margin_votes": 8394,
+   "margin_pct": 52.06,
+   "jurisdiction": null,
+   "id": "id-043"
+  },
+  {
+   "office": "State Senate",
+   "district": "31",
+   "title": "State Senator District 31",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20187,
+   "candidates": [
+    {
+     "name": "Van T. Burtenshaw",
+     "party": "REP",
+     "votes": 16285,
+     "write_in": false,
+     "pct": 80.67,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Gerrard",
+     "party": "DEM",
+     "votes": 3902,
+     "write_in": false,
+     "pct": 19.33,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Van T. Burtenshaw",
+   "margin_votes": 12383,
+   "margin_pct": 61.34,
+   "jurisdiction": null,
+   "id": "id-044"
+  },
+  {
+   "office": "State Senate",
+   "district": "32",
+   "title": "State Senator District 32",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17493,
+   "candidates": [
+    {
+     "name": "Kevin J Cook",
+     "party": "REP",
+     "votes": 12679,
+     "write_in": false,
+     "pct": 72.48,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Konnor Whitfield",
+     "party": "DEM",
+     "votes": 4814,
+     "write_in": false,
+     "pct": 27.52,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Kevin J Cook",
+   "margin_votes": 7865,
+   "margin_pct": 44.96,
+   "jurisdiction": null,
+   "id": "id-045"
+  },
+  {
+   "office": "State Senate",
+   "district": "33",
+   "title": "State Senator District 33",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15181,
+   "candidates": [
+    {
+     "name": "Dave Lent",
+     "party": "REP",
+     "votes": 8321,
+     "write_in": false,
+     "pct": 54.81,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jan Brown",
+     "party": "DEM",
+     "votes": 6860,
+     "write_in": false,
+     "pct": 45.19,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Dave Lent",
+   "margin_votes": 1461,
+   "margin_pct": 9.62,
+   "jurisdiction": null,
+   "id": "id-046"
+  },
+  {
+   "office": "State Senate",
+   "district": "34",
+   "title": "State Senator District 34",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11248,
+   "candidates": [
+    {
+     "name": "Doug Ricks",
+     "party": "REP",
+     "votes": 9092,
+     "write_in": false,
+     "pct": 80.83,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ethan Sanford",
+     "party": "DEM",
+     "votes": 2156,
+     "write_in": false,
+     "pct": 19.17,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Doug Ricks",
+   "margin_votes": 6936,
+   "margin_pct": 61.66,
+   "jurisdiction": null,
+   "id": "id-047"
+  },
+  {
+   "office": "State Senate",
+   "district": "35",
+   "title": "State Senator District 35",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21489,
+   "candidates": [
+    {
+     "name": "Mark Harris",
+     "party": "REP",
+     "votes": 15042,
+     "write_in": false,
+     "pct": 70.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Marty Rotz Kilhefner",
+     "party": "DEM",
+     "votes": 6447,
+     "write_in": false,
+     "pct": 30.0,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Mark Harris",
+   "margin_votes": 8595,
+   "margin_pct": 40.0,
+   "jurisdiction": null,
+   "id": "id-048"
+  },
+  {
+   "office": "State House",
+   "district": "1",
+   "title": "State Representative District 1 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25752,
+   "candidates": [
+    {
+     "name": "Jane Sauter",
+     "party": "REP",
+     "votes": 17307,
+     "write_in": false,
+     "pct": 67.21,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Karen Matthee",
+     "party": "DEM",
+     "votes": 8445,
+     "write_in": false,
+     "pct": 32.79,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jane Sauter",
+   "margin_votes": 8862,
+   "margin_pct": 34.42,
+   "jurisdiction": null,
+   "id": "id-049"
+  },
+  {
+   "office": "State House",
+   "district": "1",
+   "title": "State Representative District 1 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25872,
+   "candidates": [
+    {
+     "name": "Cornel Rasor",
+     "party": "REP",
+     "votes": 16545,
+     "write_in": false,
+     "pct": 63.95,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kathryn Larson",
+     "party": "IND",
+     "votes": 9327,
+     "write_in": false,
+     "pct": 36.05,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Cornel Rasor",
+   "margin_votes": 7218,
+   "margin_pct": 27.9,
+   "jurisdiction": null,
+   "id": "id-050"
+  },
+  {
+   "office": "State House",
+   "district": "2",
+   "title": "State Representative District 2 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21858,
+   "candidates": [
+    {
+     "name": "Heather Scott",
+     "party": "REP",
+     "votes": 17383,
+     "write_in": false,
+     "pct": 79.53,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Birgid Niedenzu",
+     "party": "DEM",
+     "votes": 4475,
+     "write_in": false,
+     "pct": 20.47,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Heather Scott",
+   "margin_votes": 12908,
+   "margin_pct": 59.06,
+   "jurisdiction": null,
+   "id": "id-051"
+  },
+  {
+   "office": "State House",
+   "district": "2",
+   "title": "State Representative District 2 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21766,
+   "candidates": [
+    {
+     "name": "Dale Hawkins",
+     "party": "REP",
+     "votes": 16995,
+     "write_in": false,
+     "pct": 78.08,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Sabine Krier",
+     "party": "DEM",
+     "votes": 4771,
+     "write_in": false,
+     "pct": 21.92,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Dale Hawkins",
+   "margin_votes": 12224,
+   "margin_pct": 56.16,
+   "jurisdiction": null,
+   "id": "id-052"
+  },
+  {
+   "office": "State House",
+   "district": "3",
+   "title": "State Representative District 3 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25085,
+   "candidates": [
+    {
+     "name": "Vito Barbieri",
+     "party": "REP",
+     "votes": 19129,
+     "write_in": false,
+     "pct": 76.26,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Melissa Mateer",
+     "party": "DEM",
+     "votes": 5956,
+     "write_in": false,
+     "pct": 23.74,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Vito Barbieri",
+   "margin_votes": 13173,
+   "margin_pct": 52.52,
+   "jurisdiction": null,
+   "id": "id-053"
+  },
+  {
+   "office": "State House",
+   "district": "3",
+   "title": "State Representative District 3 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19450,
+   "candidates": [
+    {
+     "name": "Jordan Redman",
+     "party": "REP",
+     "votes": 19450,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jordan Redman",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-054"
+  },
+  {
+   "office": "State House",
+   "district": "4",
+   "title": "State Representative District 4 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18651,
+   "candidates": [
+    {
+     "name": "Joe Alfieri",
+     "party": "REP",
+     "votes": 11272,
+     "write_in": false,
+     "pct": 60.44,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Maxwell McSwain",
+     "party": "DEM",
+     "votes": 7379,
+     "write_in": false,
+     "pct": 39.56,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Joe Alfieri",
+   "margin_votes": 3893,
+   "margin_pct": 20.88,
+   "jurisdiction": null,
+   "id": "id-055"
+  },
+  {
+   "office": "State House",
+   "district": "4",
+   "title": "State Representative District 4 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18750,
+   "candidates": [
+    {
+     "name": "Elaine Price",
+     "party": "REP",
+     "votes": 11230,
+     "write_in": false,
+     "pct": 59.89,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Aaron Hayes",
+     "party": "DEM",
+     "votes": 7520,
+     "write_in": false,
+     "pct": 40.11,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Elaine Price",
+   "margin_votes": 3710,
+   "margin_pct": 19.78,
+   "jurisdiction": null,
+   "id": "id-056"
+  },
+  {
+   "office": "State House",
+   "district": "5",
+   "title": "State Representative District 5 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20951,
+   "candidates": [
+    {
+     "name": "Ron Mendive",
+     "party": "REP",
+     "votes": 15756,
+     "write_in": false,
+     "pct": 75.2,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mirna Pleines",
+     "party": "DEM",
+     "votes": 5195,
+     "write_in": false,
+     "pct": 24.8,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Ron Mendive",
+   "margin_votes": 10561,
+   "margin_pct": 50.4,
+   "jurisdiction": null,
+   "id": "id-057"
+  },
+  {
+   "office": "State House",
+   "district": "5",
+   "title": "State Representative District 5 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20877,
+   "candidates": [
+    {
+     "name": "Tony Wisniewski",
+     "party": "REP",
+     "votes": 15739,
+     "write_in": false,
+     "pct": 75.39,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lee Wallace",
+     "party": "DEM",
+     "votes": 5138,
+     "write_in": false,
+     "pct": 24.61,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Tony Wisniewski",
+   "margin_votes": 10601,
+   "margin_pct": 50.78,
+   "jurisdiction": null,
+   "id": "id-058"
+  },
+  {
+   "office": "State House",
+   "district": "6",
+   "title": "State Representative District 6 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21101,
+   "candidates": [
+    {
+     "name": "Colton Bennett",
+     "party": "REP",
+     "votes": 11388,
+     "write_in": false,
+     "pct": 53.97,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Trish Carter-Goodheart",
+     "party": "DEM",
+     "votes": 9713,
+     "write_in": false,
+     "pct": 46.03,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Colton Bennett",
+   "margin_votes": 1675,
+   "margin_pct": 7.94,
+   "jurisdiction": null,
+   "id": "id-059"
+  },
+  {
+   "office": "State House",
+   "district": "6",
+   "title": "State Representative District 6 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21278,
+   "candidates": [
+    {
+     "name": "Brandon Mitchell",
+     "party": "REP",
+     "votes": 11631,
+     "write_in": false,
+     "pct": 54.66,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kathy Dawes",
+     "party": "DEM",
+     "votes": 9647,
+     "write_in": false,
+     "pct": 45.34,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Brandon Mitchell",
+   "margin_votes": 1984,
+   "margin_pct": 9.32,
+   "jurisdiction": null,
+   "id": "id-060"
+  },
+  {
+   "office": "State House",
+   "district": "7",
+   "title": "State Representative District 7 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20240,
+   "candidates": [
+    {
+     "name": "Kyle Harris",
+     "party": "REP",
+     "votes": 14544,
+     "write_in": false,
+     "pct": 71.86,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Larry Nostrant",
+     "party": "DEM",
+     "votes": 5696,
+     "write_in": false,
+     "pct": 28.14,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Kyle Harris",
+   "margin_votes": 8848,
+   "margin_pct": 43.72,
+   "jurisdiction": null,
+   "id": "id-061"
+  },
+  {
+   "office": "State House",
+   "district": "7",
+   "title": "State Representative District 7 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20293,
+   "candidates": [
+    {
+     "name": "Charlie Shepherd",
+     "party": "REP",
+     "votes": 14412,
+     "write_in": false,
+     "pct": 71.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Pete Gertonson",
+     "party": "DEM",
+     "votes": 5881,
+     "write_in": false,
+     "pct": 28.98,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Charlie Shepherd",
+   "margin_votes": 8531,
+   "margin_pct": 42.04,
+   "jurisdiction": null,
+   "id": "id-062"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "State Representative District 8 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19171,
+   "candidates": [
+    {
+     "name": "Rob Beiswenger",
+     "party": "REP",
+     "votes": 11641,
+     "write_in": false,
+     "pct": 60.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Heather S. Lewis",
+     "party": "IND",
+     "votes": 7530,
+     "write_in": false,
+     "pct": 39.28,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Rob Beiswenger",
+   "margin_votes": 4111,
+   "margin_pct": 21.44,
+   "jurisdiction": null,
+   "id": "id-063"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "State Representative District 8 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19240,
+   "candidates": [
+    {
+     "name": "Brian Beckley",
+     "party": "REP",
+     "votes": 12681,
+     "write_in": false,
+     "pct": 65.91,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jared Dawson",
+     "party": "DEM",
+     "votes": 6559,
+     "write_in": false,
+     "pct": 34.09,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Brian Beckley",
+   "margin_votes": 6122,
+   "margin_pct": 31.82,
+   "jurisdiction": null,
+   "id": "id-064"
+  },
+  {
+   "office": "State House",
+   "district": "9",
+   "title": "State Representative District 9 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 16425,
+   "candidates": [
+    {
+     "name": "John C. Shirts",
+     "party": "REP",
+     "votes": 16425,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "John C. Shirts",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-065"
+  },
+  {
+   "office": "State House",
+   "district": "9",
+   "title": "State Representative District 9 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18994,
+   "candidates": [
+    {
+     "name": "Judy Boyle",
+     "party": "REP",
+     "votes": 14727,
+     "write_in": false,
+     "pct": 77.54,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lupita Connor",
+     "party": "DEM",
+     "votes": 4267,
+     "write_in": false,
+     "pct": 22.46,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Judy Boyle",
+   "margin_votes": 10460,
+   "margin_pct": 55.08,
+   "jurisdiction": null,
+   "id": "id-066"
+  },
+  {
+   "office": "State House",
+   "district": "10",
+   "title": "State Representative District 10 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27286,
+   "candidates": [
+    {
+     "name": "Mike Moyle",
+     "party": "REP",
+     "votes": 20799,
+     "write_in": false,
+     "pct": 76.23,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Hofferber",
+     "party": "DEM",
+     "votes": 6487,
+     "write_in": false,
+     "pct": 23.77,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Mike Moyle",
+   "margin_votes": 14312,
+   "margin_pct": 52.46,
+   "jurisdiction": null,
+   "id": "id-067"
+  },
+  {
+   "office": "State House",
+   "district": "10",
+   "title": "State Representative District 10 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27283,
+   "candidates": [
+    {
+     "name": "Bruce D. Skaug",
+     "party": "REP",
+     "votes": 20666,
+     "write_in": false,
+     "pct": 75.75,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Beth Ann McFalls",
+     "party": "DEM",
+     "votes": 6617,
+     "write_in": false,
+     "pct": 24.25,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Bruce D. Skaug",
+   "margin_votes": 14049,
+   "margin_pct": 51.5,
+   "jurisdiction": null,
+   "id": "id-068"
+  },
+  {
+   "office": "State House",
+   "district": "11",
+   "title": "State Representative District 11 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8999,
+   "candidates": [
+    {
+     "name": "Kent A. Marmon",
+     "party": "REP",
+     "votes": 8999,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Kent A. Marmon",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-069"
+  },
+  {
+   "office": "State House",
+   "district": "11",
+   "title": "State Representative District 11 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12761,
+   "candidates": [
+    {
+     "name": "Debbie Geyer",
+     "party": "REP",
+     "votes": 7401,
+     "write_in": false,
+     "pct": 58.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joshua Preminger",
+     "party": "DEM",
+     "votes": 5360,
+     "write_in": false,
+     "pct": 42.0,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Debbie Geyer",
+   "margin_votes": 2041,
+   "margin_pct": 16.0,
+   "jurisdiction": null,
+   "id": "id-070"
+  },
+  {
+   "office": "State House",
+   "district": "12",
+   "title": "State Representative District 12 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17210,
+   "candidates": [
+    {
+     "name": "Jeff Cornilles",
+     "party": "REP",
+     "votes": 11014,
+     "write_in": false,
+     "pct": 64.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Sterling Barnett",
+     "party": "DEM",
+     "votes": 6196,
+     "write_in": false,
+     "pct": 36.0,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jeff Cornilles",
+   "margin_votes": 4818,
+   "margin_pct": 28.0,
+   "jurisdiction": null,
+   "id": "id-071"
+  },
+  {
+   "office": "State House",
+   "district": "12",
+   "title": "State Representative District 12 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17279,
+   "candidates": [
+    {
+     "name": "Jaron Crane",
+     "party": "REP",
+     "votes": 10844,
+     "write_in": false,
+     "pct": 62.76,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Curtis James",
+     "party": "DEM",
+     "votes": 6435,
+     "write_in": false,
+     "pct": 37.24,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jaron Crane",
+   "margin_votes": 4409,
+   "margin_pct": 25.52,
+   "jurisdiction": null,
+   "id": "id-072"
+  },
+  {
+   "office": "State House",
+   "district": "13",
+   "title": "State Representative District 13 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 16397,
+   "candidates": [
+    {
+     "name": "Brent J Crane",
+     "party": "REP",
+     "votes": 10209,
+     "write_in": false,
+     "pct": 62.26,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Cliff Hohman",
+     "party": "DEM",
+     "votes": 6188,
+     "write_in": false,
+     "pct": 37.74,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Brent J Crane",
+   "margin_votes": 4021,
+   "margin_pct": 24.52,
+   "jurisdiction": null,
+   "id": "id-073"
+  },
+  {
+   "office": "State House",
+   "district": "13",
+   "title": "State Representative District 13 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 16345,
+   "candidates": [
+    {
+     "name": "Steven Tanner",
+     "party": "REP",
+     "votes": 10254,
+     "write_in": false,
+     "pct": 62.73,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Cody Gorman",
+     "party": "DEM",
+     "votes": 6091,
+     "write_in": false,
+     "pct": 37.27,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Steven Tanner",
+   "margin_votes": 4163,
+   "margin_pct": 25.46,
+   "jurisdiction": null,
+   "id": "id-074"
+  },
+  {
+   "office": "State House",
+   "district": "14",
+   "title": "State Representative District 14 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 28087,
+   "candidates": [
+    {
+     "name": "Ted Hill",
+     "party": "REP",
+     "votes": 20803,
+     "write_in": false,
+     "pct": 74.07,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jo Daly",
+     "party": "DEM",
+     "votes": 7284,
+     "write_in": false,
+     "pct": 25.93,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Ted Hill",
+   "margin_votes": 13519,
+   "margin_pct": 48.14,
+   "jurisdiction": null,
+   "id": "id-075"
+  },
+  {
+   "office": "State House",
+   "district": "14",
+   "title": "State Representative District 14 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 28155,
+   "candidates": [
+    {
+     "name": "Josh Tanner",
+     "party": "REP",
+     "votes": 20552,
+     "write_in": false,
+     "pct": 73.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Valerie Ruxton",
+     "party": "DEM",
+     "votes": 7603,
+     "write_in": false,
+     "pct": 27.0,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Josh Tanner",
+   "margin_votes": 12949,
+   "margin_pct": 46.0,
+   "jurisdiction": null,
+   "id": "id-076"
+  },
+  {
+   "office": "State House",
+   "district": "15",
+   "title": "State Representative District 15 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20976,
+   "candidates": [
+    {
+     "name": "Steve Berch",
+     "party": "DEM",
+     "votes": 12227,
+     "write_in": false,
+     "pct": 58.29,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Steve Keyser",
+     "party": "REP",
+     "votes": 8749,
+     "write_in": false,
+     "pct": 41.71,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Steve Berch",
+   "margin_votes": 3478,
+   "margin_pct": 16.58,
+   "jurisdiction": null,
+   "id": "id-077"
+  },
+  {
+   "office": "State House",
+   "district": "15",
+   "title": "State Representative District 15 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20758,
+   "candidates": [
+    {
+     "name": "Jae Etchart",
+     "party": "DEM",
+     "votes": 11070,
+     "write_in": false,
+     "pct": 53.33,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Dori Healey",
+     "party": "REP",
+     "votes": 9688,
+     "write_in": false,
+     "pct": 46.67,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jae Etchart",
+   "margin_votes": 1382,
+   "margin_pct": 6.66,
+   "jurisdiction": null,
+   "id": "id-078"
+  },
+  {
+   "office": "State House",
+   "district": "16",
+   "title": "State Representative District 16 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20657,
+   "candidates": [
+    {
+     "name": "Megan Woller",
+     "party": "DEM",
+     "votes": 13778,
+     "write_in": false,
+     "pct": 66.7,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jackie Davidson",
+     "party": "REP",
+     "votes": 6879,
+     "write_in": false,
+     "pct": 33.3,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Megan Woller",
+   "margin_votes": 6899,
+   "margin_pct": 33.4,
+   "jurisdiction": null,
+   "id": "id-079"
+  },
+  {
+   "office": "State House",
+   "district": "16",
+   "title": "State Representative District 16 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20581,
+   "candidates": [
+    {
+     "name": "Annie Haws",
+     "party": "DEM",
+     "votes": 14121,
+     "write_in": false,
+     "pct": 68.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chandler Stewart Hadraba",
+     "party": "REP",
+     "votes": 6460,
+     "write_in": false,
+     "pct": 31.39,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Annie Haws",
+   "margin_votes": 7661,
+   "margin_pct": 37.22,
+   "jurisdiction": null,
+   "id": "id-080"
+  },
+  {
+   "office": "State House",
+   "district": "17",
+   "title": "State Representative District 17 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19971,
+   "candidates": [
+    {
+     "name": "John Gannon",
+     "party": "DEM",
+     "votes": 13548,
+     "write_in": false,
+     "pct": 67.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "James R Nechwedowich",
+     "party": "REP",
+     "votes": 6423,
+     "write_in": false,
+     "pct": 32.16,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "John Gannon",
+   "margin_votes": 7125,
+   "margin_pct": 35.68,
+   "jurisdiction": null,
+   "id": "id-081"
+  },
+  {
+   "office": "State House",
+   "district": "17",
+   "title": "State Representative District 17 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19917,
+   "candidates": [
+    {
+     "name": "Megan Egbert",
+     "party": "DEM",
+     "votes": 13288,
+     "write_in": false,
+     "pct": 66.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Justin Alexander Peter Hughes",
+     "party": "REP",
+     "votes": 6629,
+     "write_in": false,
+     "pct": 33.28,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Megan Egbert",
+   "margin_votes": 6659,
+   "margin_pct": 33.44,
+   "jurisdiction": null,
+   "id": "id-082"
+  },
+  {
+   "office": "State House",
+   "district": "18",
+   "title": "State Representative District 18 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15570,
+   "candidates": [
+    {
+     "name": "Ilana Rubel",
+     "party": "DEM",
+     "votes": 15570,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Ilana Rubel",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-083"
+  },
+  {
+   "office": "State House",
+   "district": "18",
+   "title": "State Representative District 18 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18015,
+   "candidates": [
+    {
+     "name": "Brooke Green",
+     "party": "DEM",
+     "votes": 14902,
+     "write_in": false,
+     "pct": 82.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Bishop",
+     "party": "LIB",
+     "votes": 3113,
+     "write_in": false,
+     "pct": 17.28,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Brooke Green",
+   "margin_votes": 11789,
+   "margin_pct": 65.44,
+   "jurisdiction": null,
+   "id": "id-084"
+  },
+  {
+   "office": "State House",
+   "district": "19",
+   "title": "State Representative District 19 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29282,
+   "candidates": [
+    {
+     "name": "Monica C. Church",
+     "party": "DEM",
+     "votes": 20654,
+     "write_in": false,
+     "pct": 70.53,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bryan Hopkins",
+     "party": "REP",
+     "votes": 8628,
+     "write_in": false,
+     "pct": 29.47,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Monica C. Church",
+   "margin_votes": 12026,
+   "margin_pct": 41.06,
+   "jurisdiction": null,
+   "id": "id-085"
+  },
+  {
+   "office": "State House",
+   "district": "19",
+   "title": "State Representative District 19 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29198,
+   "candidates": [
+    {
+     "name": "Chris Mathias",
+     "party": "DEM",
+     "votes": 20701,
+     "write_in": false,
+     "pct": 70.9,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Stanley Roach",
+     "party": "REP",
+     "votes": 8497,
+     "write_in": false,
+     "pct": 29.1,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Chris Mathias",
+   "margin_votes": 12204,
+   "margin_pct": 41.8,
+   "jurisdiction": null,
+   "id": "id-086"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "State Representative District 20 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22944,
+   "candidates": [
+    {
+     "name": "Joe A Palmer",
+     "party": "REP",
+     "votes": 14002,
+     "write_in": false,
+     "pct": 61.03,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jennifer Stephens",
+     "party": "DEM",
+     "votes": 8942,
+     "write_in": false,
+     "pct": 38.97,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Joe A Palmer",
+   "margin_votes": 5060,
+   "margin_pct": 22.06,
+   "jurisdiction": null,
+   "id": "id-087"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "State Representative District 20 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22868,
+   "candidates": [
+    {
+     "name": "James D. Holtzclaw",
+     "party": "REP",
+     "votes": 14099,
+     "write_in": false,
+     "pct": 61.65,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mary A Mosley",
+     "party": "DEM",
+     "votes": 8769,
+     "write_in": false,
+     "pct": 38.35,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "James D. Holtzclaw",
+   "margin_votes": 5330,
+   "margin_pct": 23.3,
+   "jurisdiction": null,
+   "id": "id-088"
+  },
+  {
+   "office": "State House",
+   "district": "21",
+   "title": "State Representative District 21 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20598,
+   "candidates": [
+    {
+     "name": "James Petzke",
+     "party": "REP",
+     "votes": 12548,
+     "write_in": false,
+     "pct": 60.92,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Camille Allan",
+     "party": "DEM",
+     "votes": 8050,
+     "write_in": false,
+     "pct": 39.08,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "James Petzke",
+   "margin_votes": 4498,
+   "margin_pct": 21.84,
+   "jurisdiction": null,
+   "id": "id-089"
+  },
+  {
+   "office": "State House",
+   "district": "21",
+   "title": "State Representative District 21 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20654,
+   "candidates": [
+    {
+     "name": "Jeff Ehlers",
+     "party": "REP",
+     "votes": 12293,
+     "write_in": false,
+     "pct": 59.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Casey Hess",
+     "party": "DEM",
+     "votes": 8361,
+     "write_in": false,
+     "pct": 40.48,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jeff Ehlers",
+   "margin_votes": 3932,
+   "margin_pct": 19.04,
+   "jurisdiction": null,
+   "id": "id-090"
+  },
+  {
+   "office": "State House",
+   "district": "22",
+   "title": "State Representative District 22 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25036,
+   "candidates": [
+    {
+     "name": "Kelly Walton",
+     "party": "REP",
+     "votes": 14629,
+     "write_in": false,
+     "pct": 58.43,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Loren Petty",
+     "party": "DEM",
+     "votes": 10407,
+     "write_in": false,
+     "pct": 41.57,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Kelly Walton",
+   "margin_votes": 4222,
+   "margin_pct": 16.86,
+   "jurisdiction": null,
+   "id": "id-091"
+  },
+  {
+   "office": "State House",
+   "district": "22",
+   "title": "State Representative District 22 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25079,
+   "candidates": [
+    {
+     "name": "Jason A. Monks",
+     "party": "REP",
+     "votes": 14535,
+     "write_in": false,
+     "pct": 57.96,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Amanda Easley",
+     "party": "DEM",
+     "votes": 10544,
+     "write_in": false,
+     "pct": 42.04,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jason A. Monks",
+   "margin_votes": 3991,
+   "margin_pct": 15.92,
+   "jurisdiction": null,
+   "id": "id-092"
+  },
+  {
+   "office": "State House",
+   "district": "23",
+   "title": "State Representative District 23 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18796,
+   "candidates": [
+    {
+     "name": "Chris Bruce",
+     "party": "REP",
+     "votes": 15492,
+     "write_in": false,
+     "pct": 82.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Paul M Smith",
+     "party": "CON",
+     "votes": 3304,
+     "write_in": false,
+     "pct": 17.58,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Chris Bruce",
+   "margin_votes": 12188,
+   "margin_pct": 64.84,
+   "jurisdiction": null,
+   "id": "id-093"
+  },
+  {
+   "office": "State House",
+   "district": "23",
+   "title": "State Representative District 23 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20037,
+   "candidates": [
+    {
+     "name": "Shawn R Dygert",
+     "party": "REP",
+     "votes": 14701,
+     "write_in": false,
+     "pct": 73.37,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joe Fuller",
+     "party": "DEM",
+     "votes": 5336,
+     "write_in": false,
+     "pct": 26.63,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Shawn R Dygert",
+   "margin_votes": 9365,
+   "margin_pct": 46.74,
+   "jurisdiction": null,
+   "id": "id-094"
+  },
+  {
+   "office": "State House",
+   "district": "24",
+   "title": "State Representative District 24 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17629,
+   "candidates": [
+    {
+     "name": "Clint Hostetler",
+     "party": "REP",
+     "votes": 12245,
+     "write_in": false,
+     "pct": 69.46,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Moxley",
+     "party": "IND",
+     "votes": 5384,
+     "write_in": false,
+     "pct": 30.54,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Clint Hostetler",
+   "margin_votes": 6861,
+   "margin_pct": 38.92,
+   "jurisdiction": null,
+   "id": "id-095"
+  },
+  {
+   "office": "State House",
+   "district": "24",
+   "title": "State Representative District 24 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14691,
+   "candidates": [
+    {
+     "name": "Chance Requa",
+     "party": "REP",
+     "votes": 14691,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Chance Requa",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-096"
+  },
+  {
+   "office": "State House",
+   "district": "25",
+   "title": "State Representative District 25 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14374,
+   "candidates": [
+    {
+     "name": "Grayson Stone",
+     "party": "REP",
+     "votes": 9070,
+     "write_in": false,
+     "pct": 63.1,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Marla Palmer",
+     "party": "DEM",
+     "votes": 5304,
+     "write_in": false,
+     "pct": 36.9,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Grayson Stone",
+   "margin_votes": 3766,
+   "margin_pct": 26.2,
+   "jurisdiction": null,
+   "id": "id-097"
+  },
+  {
+   "office": "State House",
+   "district": "25",
+   "title": "State Representative District 25 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 14183,
+   "candidates": [
+    {
+     "name": "Cherie Vollmer",
+     "party": "REP",
+     "votes": 8851,
+     "write_in": false,
+     "pct": 62.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Liyah Babayan",
+     "party": "IND",
+     "votes": 5332,
+     "write_in": false,
+     "pct": 37.59,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Cherie Vollmer",
+   "margin_votes": 3519,
+   "margin_pct": 24.82,
+   "jurisdiction": null,
+   "id": "id-098"
+  },
+  {
+   "office": "State House",
+   "district": "26",
+   "title": "State Representative District 26 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19009,
+   "candidates": [
+    {
+     "name": "Anita Janis",
+     "party": "DEM",
+     "votes": 9694,
+     "write_in": false,
+     "pct": 51.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mike Pohanka",
+     "party": "REP",
+     "votes": 8337,
+     "write_in": false,
+     "pct": 43.86,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Bella Schiffler",
+     "party": "IND",
+     "votes": 978,
+     "write_in": false,
+     "pct": 5.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Anita Janis",
+   "margin_votes": 1357,
+   "margin_pct": 7.14,
+   "jurisdiction": null,
+   "id": "id-099"
+  },
+  {
+   "office": "State House",
+   "district": "26",
+   "title": "State Representative District 26 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18822,
+   "candidates": [
+    {
+     "name": "Kevin Marsh",
+     "party": "DEM",
+     "votes": 11103,
+     "write_in": false,
+     "pct": 58.99,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lyle Johnstone",
+     "party": "REP",
+     "votes": 7719,
+     "write_in": false,
+     "pct": 41.01,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Kevin Marsh",
+   "margin_votes": 3384,
+   "margin_pct": 17.98,
+   "jurisdiction": null,
+   "id": "id-100"
+  },
+  {
+   "office": "State House",
+   "district": "27",
+   "title": "State Representative District 27 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12363,
+   "candidates": [
+    {
+     "name": "Douglas T Pickett",
+     "party": "REP",
+     "votes": 12363,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Douglas T Pickett",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-101"
+  },
+  {
+   "office": "State House",
+   "district": "27",
+   "title": "State Representative District 27 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12595,
+   "candidates": [
+    {
+     "name": "Clay Handy",
+     "party": "REP",
+     "votes": 12595,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Clay Handy",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-102"
+  },
+  {
+   "office": "State House",
+   "district": "28",
+   "title": "State Representative District 28 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18455,
+   "candidates": [
+    {
+     "name": "Richard (Rick) Cheatum",
+     "party": "REP",
+     "votes": 11929,
+     "write_in": false,
+     "pct": 64.64,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kim Jackman",
+     "party": "DEM",
+     "votes": 6526,
+     "write_in": false,
+     "pct": 35.36,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Richard (Rick) Cheatum",
+   "margin_votes": 5403,
+   "margin_pct": 29.28,
+   "jurisdiction": null,
+   "id": "id-103"
+  },
+  {
+   "office": "State House",
+   "district": "28",
+   "title": "State Representative District 28 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18446,
+   "candidates": [
+    {
+     "name": "Dan Garner",
+     "party": "REP",
+     "votes": 12645,
+     "write_in": false,
+     "pct": 68.55,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jayson Meline",
+     "party": "DEM",
+     "votes": 5801,
+     "write_in": false,
+     "pct": 31.45,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Dan Garner",
+   "margin_votes": 6844,
+   "margin_pct": 37.1,
+   "jurisdiction": null,
+   "id": "id-104"
+  },
+  {
+   "office": "State House",
+   "district": "29",
+   "title": "State Representative District 29 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17757,
+   "candidates": [
+    {
+     "name": "Mary Shea",
+     "party": "DEM",
+     "votes": 10009,
+     "write_in": false,
+     "pct": 56.37,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Dustin W. Manwaring",
+     "party": "REP",
+     "votes": 7748,
+     "write_in": false,
+     "pct": 43.63,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Mary Shea",
+   "margin_votes": 2261,
+   "margin_pct": 12.74,
+   "jurisdiction": null,
+   "id": "id-105"
+  },
+  {
+   "office": "State House",
+   "district": "29",
+   "title": "State Representative District 29 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17727,
+   "candidates": [
+    {
+     "name": "Nate Roberts",
+     "party": "DEM",
+     "votes": 9897,
+     "write_in": false,
+     "pct": 55.83,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jennifer Miles",
+     "party": "REP",
+     "votes": 7830,
+     "write_in": false,
+     "pct": 44.17,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Nate Roberts",
+   "margin_votes": 2067,
+   "margin_pct": 11.66,
+   "jurisdiction": null,
+   "id": "id-106"
+  },
+  {
+   "office": "State House",
+   "district": "30",
+   "title": "State Representative District 30 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 13612,
+   "candidates": [
+    {
+     "name": "David Cannon",
+     "party": "REP",
+     "votes": 13612,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "David Cannon",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-107"
+  },
+  {
+   "office": "State House",
+   "district": "30",
+   "title": "State Representative District 30 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15977,
+   "candidates": [
+    {
+     "name": "Ben G. Fuhriman",
+     "party": "REP",
+     "votes": 11867,
+     "write_in": false,
+     "pct": 74.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bree Buckingham",
+     "party": "DEM",
+     "votes": 4110,
+     "write_in": false,
+     "pct": 25.72,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Ben G. Fuhriman",
+   "margin_votes": 7757,
+   "margin_pct": 48.56,
+   "jurisdiction": null,
+   "id": "id-108"
+  },
+  {
+   "office": "State House",
+   "district": "31",
+   "title": "State Representative District 31 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20079,
+   "candidates": [
+    {
+     "name": "Jerald Dallas Raymond",
+     "party": "REP",
+     "votes": 16116,
+     "write_in": false,
+     "pct": 80.26,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kindsey Smith",
+     "party": "DEM",
+     "votes": 3963,
+     "write_in": false,
+     "pct": 19.74,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jerald Dallas Raymond",
+   "margin_votes": 12153,
+   "margin_pct": 60.52,
+   "jurisdiction": null,
+   "id": "id-109"
+  },
+  {
+   "office": "State House",
+   "district": "31",
+   "title": "State Representative District 31 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20098,
+   "candidates": [
+    {
+     "name": "Rod Furniss",
+     "party": "REP",
+     "votes": 15864,
+     "write_in": false,
+     "pct": 78.93,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Wendy Norman",
+     "party": "DEM",
+     "votes": 4234,
+     "write_in": false,
+     "pct": 21.07,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Rod Furniss",
+   "margin_votes": 11630,
+   "margin_pct": 57.86,
+   "jurisdiction": null,
+   "id": "id-110"
+  },
+  {
+   "office": "State House",
+   "district": "32",
+   "title": "State Representative District 32 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12274,
+   "candidates": [
+    {
+     "name": "Stephanie Mickelsen",
+     "party": "REP",
+     "votes": 12274,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Stephanie Mickelsen",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-111"
+  },
+  {
+   "office": "State House",
+   "district": "32",
+   "title": "State Representative District 32 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17292,
+   "candidates": [
+    {
+     "name": "Erin Bingham",
+     "party": "REP",
+     "votes": 12261,
+     "write_in": false,
+     "pct": 70.91,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kamber Weninger",
+     "party": "DEM",
+     "votes": 5031,
+     "write_in": false,
+     "pct": 29.09,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Erin Bingham",
+   "margin_votes": 7230,
+   "margin_pct": 41.82,
+   "jurisdiction": null,
+   "id": "id-112"
+  },
+  {
+   "office": "State House",
+   "district": "33",
+   "title": "State Representative District 33 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15326,
+   "candidates": [
+    {
+     "name": "Barbara Ehardt",
+     "party": "REP",
+     "votes": 7955,
+     "write_in": false,
+     "pct": 51.91,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chance Marshall",
+     "party": "DEM",
+     "votes": 7371,
+     "write_in": false,
+     "pct": 48.09,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Barbara Ehardt",
+   "margin_votes": 584,
+   "margin_pct": 3.82,
+   "jurisdiction": null,
+   "id": "id-113"
+  },
+  {
+   "office": "State House",
+   "district": "33",
+   "title": "State Representative District 33 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15093,
+   "candidates": [
+    {
+     "name": "Marco Erickson",
+     "party": "REP",
+     "votes": 8393,
+     "write_in": false,
+     "pct": 55.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Todd DeVries",
+     "party": "DEM",
+     "votes": 6700,
+     "write_in": false,
+     "pct": 44.39,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Marco Erickson",
+   "margin_votes": 1693,
+   "margin_pct": 11.22,
+   "jurisdiction": null,
+   "id": "id-114"
+  },
+  {
+   "office": "State House",
+   "district": "34",
+   "title": "State Representative District 34 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10018,
+   "candidates": [
+    {
+     "name": "Jon O Weber",
+     "party": "REP",
+     "votes": 10018,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Jon O Weber",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-115"
+  },
+  {
+   "office": "State House",
+   "district": "34",
+   "title": "State Representative District 34 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9996,
+   "candidates": [
+    {
+     "name": "Britt Raybould",
+     "party": "REP",
+     "votes": 9996,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Britt Raybould",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "id-116"
+  },
+  {
+   "office": "State House",
+   "district": "35",
+   "title": "State Representative District 35 Seat A",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21391,
+   "candidates": [
+    {
+     "name": "Mike Veile",
+     "party": "REP",
+     "votes": 14838,
+     "write_in": false,
+     "pct": 69.37,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Walter Boyd",
+     "party": "DEM",
+     "votes": 6553,
+     "write_in": false,
+     "pct": 30.63,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Mike Veile",
+   "margin_votes": 8285,
+   "margin_pct": 38.74,
+   "jurisdiction": null,
+   "id": "id-117"
+  },
+  {
+   "office": "State House",
+   "district": "35",
+   "title": "State Representative District 35 Seat B",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21343,
+   "candidates": [
+    {
+     "name": "Joshua D. Wheeler",
+     "party": "REP",
+     "votes": 14863,
+     "write_in": false,
+     "pct": 69.64,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Kaufman",
+     "party": "DEM",
+     "votes": 6480,
+     "write_in": false,
+     "pct": 30.36,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T18:09:59.470892Z",
+   "source_url": "https://results.voteidaho.gov/results/public/id/elections/nov2026",
+   "retrieved_at": "2026-11-04T18:46:17Z",
+   "leading": "Joshua D. Wheeler",
+   "margin_votes": 8383,
+   "margin_pct": 39.28,
+   "jurisdiction": null,
+   "id": "id-118"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 118,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 2,
+   "Statewide Office": 5,
+   "Ballot Measure": 4,
+   "State Senate": 35,
+   "State House": 70
+  }
+ }
+}

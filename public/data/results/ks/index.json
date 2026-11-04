@@ -1,0 +1,18 @@
+{
+ "state": "KS",
+ "name": "Kansas",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://sos.ks.gov/elections/election-results.html"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://sos.ks.gov/elections/election-results.html",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Kansas Secretary of State results page listed 2026 primary files only at retrieval; no November 3 general-election results were posted.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

@@ -1,0 +1,460 @@
+{
+ "state": "OR",
+ "name": "Oregon",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://results.oregonvotes.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://results.oregonvotes.gov/",
+ "retrieved_at": "2026-11-04T18:58:19Z",
+ "results_as_of": "11/4/2026 | 10:45 AM PT (Pacific Time, per source)",
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "US Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1527987,
+   "candidates": [
+    {
+     "name": "Jeff Merkley",
+     "party": "Democrat, Working Families",
+     "votes": 864411,
+     "write_in": false,
+     "pct": 56.57,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "David Brock Smith",
+     "party": "Republican",
+     "votes": 619239,
+     "write_in": false,
+     "pct": 40.53,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Chris Henry",
+     "party": "Progressive, Pacific Green",
+     "votes": 28843,
+     "write_in": false,
+     "pct": 1.89,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "votes": 14371,
+     "write_in": false,
+     "pct": 0.94,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1123,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "11/4/2026 | 10:45 AM PT",
+   "source_url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "leading": "Jeff Merkley",
+   "margin_votes": 245172,
+   "margin_pct": 16.04,
+   "notes": "Oregon counts ballots by county; the source page shows \"0 out of N precincts reported\" for every contest, so no precinct-reporting figure is given here.",
+   "jurisdiction": "Statewide",
+   "id": "or-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1537747,
+   "candidates": [
+    {
+     "name": "Tina Kotek",
+     "party": "Democrat, Working Families",
+     "votes": 795725,
+     "write_in": false,
+     "pct": 51.75,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Christine Drazan",
+     "party": "Republican, Libertarian",
+     "votes": 699400,
+     "write_in": false,
+     "pct": 45.48,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Brett Smith",
+     "party": "Pacific Green",
+     "votes": 40739,
+     "write_in": false,
+     "pct": 2.65,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1883,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "11/4/2026 | 10:45 AM PT",
+   "source_url": "https://results.oregonvotes.gov/resultsSW.aspx?type=SWPAR&map=CTY",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "leading": "Tina Kotek",
+   "margin_votes": 96325,
+   "margin_pct": 6.27,
+   "notes": "Oregon counts ballots by county; the source page shows \"0 out of N precincts reported\" for every contest, so no precinct-reporting figure is given here.",
+   "jurisdiction": "Statewide",
+   "id": "or-002"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "US Representative, 1st District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 221748,
+   "candidates": [
+    {
+     "name": "Suzanne Bonamici",
+     "party": "Democrat, Working Families",
+     "votes": 154258,
+     "write_in": false,
+     "pct": 69.56,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Barbara J Kahl",
+     "party": "Republican",
+     "votes": 67166,
+     "write_in": false,
+     "pct": 30.29,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 324,
+     "write_in": true,
+     "pct": 0.15,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "11/4/2026 | 10:45 AM PT",
+   "source_url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "leading": "Suzanne Bonamici",
+   "margin_votes": 87092,
+   "margin_pct": 39.27,
+   "notes": "Oregon counts ballots by county; the source page shows \"0 out of N precincts reported\" for every contest, so no precinct-reporting figure is given here.",
+   "jurisdiction": null,
+   "id": "or-003"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "US Representative, 2nd District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 301779,
+   "candidates": [
+    {
+     "name": "Cliff Bentz",
+     "party": "Republican",
+     "votes": 185635,
+     "write_in": false,
+     "pct": 61.51,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Chris Beck",
+     "party": "Democrat, Independent",
+     "votes": 115706,
+     "write_in": false,
+     "pct": 38.34,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 438,
+     "write_in": true,
+     "pct": 0.15,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "11/4/2026 | 10:45 AM PT",
+   "source_url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "leading": "Cliff Bentz",
+   "margin_votes": 69929,
+   "margin_pct": 23.17,
+   "notes": "Oregon counts ballots by county; the source page shows \"0 out of N precincts reported\" for every contest, so no precinct-reporting figure is given here.",
+   "jurisdiction": null,
+   "id": "or-004"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "US Representative, 3rd District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 215986,
+   "candidates": [
+    {
+     "name": "Maxine E Dexter",
+     "party": "Democrat",
+     "votes": 164418,
+     "write_in": false,
+     "pct": 76.12,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Loran Ayles",
+     "party": "Republican",
+     "votes": 51095,
+     "write_in": false,
+     "pct": 23.66,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 473,
+     "write_in": true,
+     "pct": 0.22,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "11/4/2026 | 10:45 AM PT",
+   "source_url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "leading": "Maxine E Dexter",
+   "margin_votes": 113323,
+   "margin_pct": 52.46,
+   "notes": "Oregon counts ballots by county; the source page shows \"0 out of N precincts reported\" for every contest, so no precinct-reporting figure is given here.",
+   "jurisdiction": null,
+   "id": "or-005"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "US Representative, 4th District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 274213,
+   "candidates": [
+    {
+     "name": "Val Hoyle",
+     "party": "Democrat, Working Families",
+     "votes": 148193,
+     "write_in": false,
+     "pct": 54.04,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Monique DeSpain",
+     "party": "Republican, Libertarian",
+     "votes": 117593,
+     "write_in": false,
+     "pct": 42.88,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Justin Filip",
+     "party": "Pacific Green, Progressive",
+     "votes": 8215,
+     "write_in": false,
+     "pct": 3.0,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 212,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "11/4/2026 | 10:45 AM PT",
+   "source_url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "leading": "Val Hoyle",
+   "margin_votes": 30600,
+   "margin_pct": 11.16,
+   "notes": "Oregon counts ballots by county; the source page shows \"0 out of N precincts reported\" for every contest, so no precinct-reporting figure is given here.",
+   "jurisdiction": null,
+   "id": "or-006"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "US Representative, 5th District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 307098,
+   "candidates": [
+    {
+     "name": "Janelle S Bynum",
+     "party": "Democrat",
+     "votes": 166185,
+     "write_in": false,
+     "pct": 54.11,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Patti Adair",
+     "party": "Republican, Libertarian",
+     "votes": 134477,
+     "write_in": false,
+     "pct": 43.79,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Andrea Townsend",
+     "party": "Pacific Green",
+     "votes": 6133,
+     "write_in": false,
+     "pct": 2.0,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 303,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "11/4/2026 | 10:45 AM PT",
+   "source_url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "leading": "Janelle S Bynum",
+   "margin_votes": 31708,
+   "margin_pct": 10.32,
+   "notes": "Oregon counts ballots by county; the source page shows \"0 out of N precincts reported\" for every contest, so no precinct-reporting figure is given here.",
+   "jurisdiction": null,
+   "id": "or-007"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "US Representative, 6th District",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 196631,
+   "candidates": [
+    {
+     "name": "Andrea Salinas",
+     "party": "Democrat, Independent",
+     "votes": 113919,
+     "write_in": false,
+     "pct": 57.94,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "David Russ",
+     "party": "Republican",
+     "votes": 82550,
+     "write_in": false,
+     "pct": 41.98,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 162,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": "11/4/2026 | 10:45 AM PT",
+   "source_url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+   "retrieved_at": "2026-11-04T18:58:19Z",
+   "leading": "Andrea Salinas",
+   "margin_votes": 31369,
+   "margin_pct": 15.96,
+   "notes": "Oregon counts ballots by county; the source page shows \"0 out of N precincts reported\" for every contest, so no precinct-reporting figure is given here.",
+   "jurisdiction": null,
+   "id": "or-008"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 8,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 6
+  }
+ }
+}

@@ -1,0 +1,1712 @@
+{
+ "state": "FL",
+ "name": "Florida",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://floridaelectionwatch.gov/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://floridaelectionwatch.gov/",
+ "retrieved_at": "2026-11-04T18:58:00Z",
+ "results_as_of": null,
+ "official_results_flag": null,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "United States Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8271813,
+   "candidates": [
+    {
+     "name": "Ashley Moody",
+     "party": "REP",
+     "votes": 4208004,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 50.87,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "DEM",
+     "votes": 3969271,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 47.99,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Neil J. Gillespie",
+     "party": "NPA",
+     "votes": 94538,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USSenator",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Ashley Moody",
+   "margin_votes": 238733,
+   "margin_pct": 2.88,
+   "jurisdiction": "Statewide",
+   "id": "fl-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor and Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8261740,
+   "candidates": [
+    {
+     "name": "Byron Donalds and Bryan Avila",
+     "party": "REP",
+     "votes": 4132334,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 50.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "David Jolly and Gwen Graham",
+     "party": "DEM",
+     "votes": 4024639,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 48.71,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Scott Eckhard Jewett and Nicole Skelly",
+     "party": "LPF",
+     "votes": 37889,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 0.46,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Frank J. Russo and Rachel Rodriguez",
+     "party": "NPA",
+     "votes": 23201,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 0.28,
+     "rank": 4,
+     "incumbent": null
+    },
+    {
+     "name": "Charles Burkett and Ruben A. Coto",
+     "party": "NPA",
+     "votes": 15239,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 0.18,
+     "rank": 5,
+     "incumbent": null
+    },
+    {
+     "name": "Dean Ocean Abrams and Joe Van Vactor",
+     "party": "NPA",
+     "votes": 12535,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 0.15,
+     "rank": 6,
+     "incumbent": null
+    },
+    {
+     "name": "Jeffrey Peter \"Dr. Jeff\" Datto and Juan Santana",
+     "party": "NPA",
+     "votes": 8312,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 0.1,
+     "rank": 7,
+     "incumbent": null
+    },
+    {
+     "name": "Moliere \"Moe\" Dimanche and Benjiman Rojas",
+     "party": "NPA",
+     "votes": 7591,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 0.09,
+     "rank": 8,
+     "incumbent": null
+    },
+    {
+     "name": "Kathy Anderson and Daniel Nokovich",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 9,
+     "incumbent": null
+    },
+    {
+     "name": "Erik Morris and LeRoy Alaways",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 10,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/StateOffices/Governor",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Byron Donalds and Bryan Avila",
+   "margin_votes": 107695,
+   "margin_pct": 1.31,
+   "jurisdiction": "Statewide",
+   "id": "fl-002"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "Representative in Congress, District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 290474,
+   "candidates": [
+    {
+     "name": "Jimmy Patronis",
+     "party": "REP",
+     "votes": 181723,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 62.56,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Gay Valimont",
+     "party": "DEM",
+     "votes": 103429,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 35.61,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Tyler L. Davis",
+     "party": "NPA",
+     "votes": 5322,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.83,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Jimmy Patronis",
+   "margin_votes": 78294,
+   "margin_pct": 26.95,
+   "jurisdiction": null,
+   "id": "fl-003"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "Representative in Congress, District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 308760,
+   "candidates": [
+    {
+     "name": "Austin Rogers",
+     "party": "REP",
+     "votes": 160968,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 52.13,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Amanda Marie Green",
+     "party": "DEM",
+     "votes": 147792,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 47.87,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Austin Rogers",
+   "margin_votes": 13176,
+   "margin_pct": 4.26,
+   "jurisdiction": null,
+   "id": "fl-004"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "Representative in Congress, District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 299778,
+   "candidates": [
+    {
+     "name": "Kat Cammack",
+     "party": "REP",
+     "votes": 165313,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 55.15,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Seth Harp",
+     "party": "DEM",
+     "votes": 128866,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 42.99,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mike Klein",
+     "party": "NPA",
+     "votes": 5599,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.87,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Kat Cammack",
+   "margin_votes": 36447,
+   "margin_pct": 12.16,
+   "jurisdiction": null,
+   "id": "fl-005"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "Representative in Congress, District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 300932,
+   "candidates": [
+    {
+     "name": "Aaron Bean",
+     "party": "REP",
+     "votes": 151114,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 50.22,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "LaShonda \"L.J.\" Holloway",
+     "party": "DEM",
+     "votes": 144795,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 48.12,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Todd Schaefer",
+     "party": "NPA",
+     "votes": 3191,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.06,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mike Sell",
+     "party": "FFP",
+     "votes": 1832,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 0.61,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Aaron Bean",
+   "margin_votes": 6319,
+   "margin_pct": 2.1,
+   "jurisdiction": null,
+   "id": "fl-006"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "Representative in Congress, District 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 333038,
+   "candidates": [
+    {
+     "name": "John H. Rutherford",
+     "party": "REP",
+     "votes": 187917,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 56.43,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Rachel Grage",
+     "party": "DEM",
+     "votes": 145121,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 43.57,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "William Lintag Upham",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "John H. Rutherford",
+   "margin_votes": 42796,
+   "margin_pct": 12.86,
+   "jurisdiction": null,
+   "id": "fl-007"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "Representative in Congress, District 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 331241,
+   "candidates": [
+    {
+     "name": "Randy Fine",
+     "party": "REP",
+     "votes": 195252,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 58.95,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Eric Yonce",
+     "party": "DEM",
+     "votes": 132264,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 39.93,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Andrew Parrott",
+     "party": "LPF",
+     "votes": 3725,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.12,
+     "rank": 3,
+     "incumbent": null
+    },
+    {
+     "name": "Alec Pavlik",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Randy Fine",
+   "margin_votes": 62988,
+   "margin_pct": 19.02,
+   "jurisdiction": null,
+   "id": "fl-008"
+  },
+  {
+   "office": "US House",
+   "district": "7",
+   "title": "Representative in Congress, District 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 324157,
+   "candidates": [
+    {
+     "name": "Ryan Elijah",
+     "party": "REP",
+     "votes": 161189,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 49.73,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Bale Dalton",
+     "party": "DEM",
+     "votes": 159488,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 49.2,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Christopher Dennison",
+     "party": "LPF",
+     "votes": 3480,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.07,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Ryan Elijah",
+   "margin_votes": 1701,
+   "margin_pct": 0.53,
+   "jurisdiction": null,
+   "id": "fl-009"
+  },
+  {
+   "office": "US House",
+   "district": "8",
+   "title": "Representative in Congress, District 8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 319449,
+   "candidates": [
+    {
+     "name": "Mike Haridopolos",
+     "party": "REP",
+     "votes": 169863,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 53.17,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jennifer Jenkins",
+     "party": "DEM",
+     "votes": 149586,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 46.83,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Mike Haridopolos",
+   "margin_votes": 20277,
+   "margin_pct": 6.34,
+   "jurisdiction": null,
+   "id": "fl-010"
+  },
+  {
+   "office": "US House",
+   "district": "9",
+   "title": "Representative in Congress, District 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 284871,
+   "candidates": [
+    {
+     "name": "Darren Soto",
+     "party": "DEM",
+     "votes": 143174,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 50.26,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Dan Green",
+     "party": "REP",
+     "votes": 141697,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 49.74,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Darren Soto",
+   "margin_votes": 1477,
+   "margin_pct": 0.52,
+   "jurisdiction": null,
+   "id": "fl-011"
+  },
+  {
+   "office": "US House",
+   "district": "11",
+   "title": "Representative in Congress, District 11",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 365581,
+   "candidates": [
+    {
+     "name": "Joe Strada",
+     "party": "REP",
+     "votes": 193518,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 52.93,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "James Pericola",
+     "party": "DEM",
+     "votes": 168108,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 45.98,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Ralph Groves",
+     "party": "LPF",
+     "votes": 3955,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.08,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Joe Strada",
+   "margin_votes": 25410,
+   "margin_pct": 6.95,
+   "jurisdiction": null,
+   "id": "fl-012"
+  },
+  {
+   "office": "US House",
+   "district": "12",
+   "title": "Representative in Congress, District 12",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 285838,
+   "candidates": [
+    {
+     "name": "Gus Michael Bilirakis",
+     "party": "REP",
+     "votes": 150746,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 52.74,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Kimberly Overman",
+     "party": "DEM",
+     "votes": 131309,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 45.94,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Branden Scrivener",
+     "party": "NPA",
+     "votes": 3783,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.32,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Gus Michael Bilirakis",
+   "margin_votes": 19437,
+   "margin_pct": 6.8,
+   "jurisdiction": null,
+   "id": "fl-013"
+  },
+  {
+   "office": "US House",
+   "district": "13",
+   "title": "Representative in Congress, District 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 313496,
+   "candidates": [
+    {
+     "name": "Anna Paulina Luna",
+     "party": "REP",
+     "votes": 155117,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 49.48,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Leela Gray",
+     "party": "DEM",
+     "votes": 152600,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 48.68,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Tony D'Arrigo",
+     "party": "NPA",
+     "votes": 5779,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.84,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Anna Paulina Luna",
+   "margin_votes": 2517,
+   "margin_pct": 0.8,
+   "jurisdiction": null,
+   "id": "fl-014"
+  },
+  {
+   "office": "US House",
+   "district": "14",
+   "title": "Representative in Congress, District 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 299915,
+   "candidates": [
+    {
+     "name": "Kathy Castor",
+     "party": "DEM",
+     "votes": 153586,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 51.21,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mike Beltran",
+     "party": "REP",
+     "votes": 137599,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 45.88,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Brian Lambert",
+     "party": "LPF",
+     "votes": 8730,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 2.91,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Salomon Hernandez Sr.",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Keith Varian",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 5,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Kathy Castor",
+   "margin_votes": 15987,
+   "margin_pct": 5.33,
+   "jurisdiction": null,
+   "id": "fl-015"
+  },
+  {
+   "office": "US House",
+   "district": "15",
+   "title": "Representative in Congress, District 15",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 300641,
+   "candidates": [
+    {
+     "name": "Laurel Lee",
+     "party": "REP",
+     "votes": 163251,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 54.3,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Robert People",
+     "party": "DEM",
+     "votes": 137390,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 45.7,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Angie Boone",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Laurel Lee",
+   "margin_votes": 25861,
+   "margin_pct": 8.6,
+   "jurisdiction": null,
+   "id": "fl-016"
+  },
+  {
+   "office": "US House",
+   "district": "16",
+   "title": "Representative in Congress, District 16",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 342729,
+   "candidates": [
+    {
+     "name": "Sydney Gruters",
+     "party": "REP",
+     "votes": 175512,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 51.21,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Kelly Kirschner",
+     "party": "DEM",
+     "votes": 160942,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 46.96,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mark Davis",
+     "party": "NPA",
+     "votes": 6275,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.83,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Sydney Gruters",
+   "margin_votes": 14570,
+   "margin_pct": 4.25,
+   "jurisdiction": null,
+   "id": "fl-017"
+  },
+  {
+   "office": "US House",
+   "district": "17",
+   "title": "Representative in Congress, District 17",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 357633,
+   "candidates": [
+    {
+     "name": "Greg Steube",
+     "party": "REP",
+     "votes": 209055,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 58.46,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Matthew Montavon",
+     "party": "DEM",
+     "votes": 143570,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 40.14,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Michael J. Quirk",
+     "party": "NPA",
+     "votes": 5008,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.4,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Greg Steube",
+   "margin_votes": 65485,
+   "margin_pct": 18.32,
+   "jurisdiction": null,
+   "id": "fl-018"
+  },
+  {
+   "office": "US House",
+   "district": "18",
+   "title": "Representative in Congress, District 18",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 273264,
+   "candidates": [
+    {
+     "name": "Scott Franklin",
+     "party": "REP",
+     "votes": 137590,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 50.35,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Curtis Gibson",
+     "party": "DEM",
+     "votes": 127564,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 46.68,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Deva Simmons",
+     "party": "NPA",
+     "votes": 8110,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 2.97,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Scott Franklin",
+   "margin_votes": 10026,
+   "margin_pct": 3.67,
+   "jurisdiction": null,
+   "id": "fl-019"
+  },
+  {
+   "office": "US House",
+   "district": "19",
+   "title": "Representative in Congress, District 19",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 325015,
+   "candidates": [
+    {
+     "name": "Jim Schwartzel",
+     "party": "REP",
+     "votes": 198668,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 61.13,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Victor Arias",
+     "party": "DEM",
+     "votes": 122351,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 37.64,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Seth Haskin",
+     "party": "NPA",
+     "votes": 3996,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.23,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Alexandra Zakhvatayev",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Jim Schwartzel",
+   "margin_votes": 76317,
+   "margin_pct": 23.49,
+   "jurisdiction": null,
+   "id": "fl-020"
+  },
+  {
+   "office": "US House",
+   "district": "20",
+   "title": "Representative in Congress, District 20",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 245505,
+   "candidates": [
+    {
+     "name": "Debbie Wasserman Schultz",
+     "party": "DEM",
+     "votes": 182554,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 74.36,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Brent Andersen",
+     "party": "REP",
+     "votes": 53361,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 21.74,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Kedner Maxime",
+     "party": "IND",
+     "votes": 9590,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 3.91,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Debbie Wasserman Schultz",
+   "margin_votes": 129193,
+   "margin_pct": 52.62,
+   "jurisdiction": null,
+   "id": "fl-021"
+  },
+  {
+   "office": "US House",
+   "district": "21",
+   "title": "Representative in Congress, District 21",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 340657,
+   "candidates": [
+    {
+     "name": "Brian Mast",
+     "party": "REP",
+     "votes": 183773,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 53.95,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "James T. Martin",
+     "party": "DEM",
+     "votes": 152430,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 44.75,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Alexander Cooke",
+     "party": "NPA",
+     "votes": 4454,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.31,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "David Fabrikant",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Brian Mast",
+   "margin_votes": 31343,
+   "margin_pct": 9.2,
+   "jurisdiction": null,
+   "id": "fl-022"
+  },
+  {
+   "office": "US House",
+   "district": "22",
+   "title": "Representative in Congress, District 22",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 294933,
+   "candidates": [
+    {
+     "name": "Pia Dandiya",
+     "party": "DEM",
+     "votes": 153047,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 51.89,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Casey Askar",
+     "party": "REP",
+     "votes": 141886,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 48.11,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Pia Dandiya",
+   "margin_votes": 11161,
+   "margin_pct": 3.78,
+   "jurisdiction": null,
+   "id": "fl-023"
+  },
+  {
+   "office": "US House",
+   "district": "23",
+   "title": "Representative in Congress, District 23",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 258707,
+   "candidates": [
+    {
+     "name": "Lois Frankel",
+     "party": "DEM",
+     "votes": 169831,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 65.65,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Deborah Adeimy",
+     "party": "REP",
+     "votes": 88876,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 34.35,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Lois Frankel",
+   "margin_votes": 80955,
+   "margin_pct": 31.3,
+   "jurisdiction": null,
+   "id": "fl-024"
+  },
+  {
+   "office": "US House",
+   "district": "24",
+   "title": "Representative in Congress, District 24",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 204353,
+   "candidates": [
+    {
+     "name": "Oliver G. Gilbert III",
+     "party": "DEM",
+     "votes": 164819,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 80.65,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Te Mayonna Brown",
+     "party": "REP",
+     "votes": 39534,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 19.35,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Patricia Gonzalez",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Oliver G. Gilbert III",
+   "margin_votes": 125285,
+   "margin_pct": 61.3,
+   "jurisdiction": null,
+   "id": "fl-025"
+  },
+  {
+   "office": "US House",
+   "district": "25",
+   "title": "Representative in Congress, District 25",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 280416,
+   "candidates": [
+    {
+     "name": "Jared Moskowitz",
+     "party": "DEM",
+     "votes": 143753,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 51.26,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Scott Singer",
+     "party": "REP",
+     "votes": 130787,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 46.64,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Peter Jassenoff",
+     "party": "LPF",
+     "votes": 5876,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 2.1,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Michaelangelo Hamilton",
+     "party": "WRI",
+     "votes": 0,
+     "write_in": true,
+     "official_page_marker": "loser",
+     "pct": 0.0,
+     "rank": 4,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Jared Moskowitz",
+   "margin_votes": 12966,
+   "margin_pct": 4.62,
+   "jurisdiction": null,
+   "id": "fl-026"
+  },
+  {
+   "office": "US House",
+   "district": "26",
+   "title": "Representative in Congress, District 26",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 229670,
+   "candidates": [
+    {
+     "name": "Mario Diaz-Balart",
+     "party": "REP",
+     "votes": 114547,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 49.87,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Nicole Locklin",
+     "party": "DEM",
+     "votes": 112775,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 49.1,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Deborah Ann Meidinger Hosey",
+     "party": "NPA",
+     "votes": 2348,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.02,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Mario Diaz-Balart",
+   "margin_votes": 1772,
+   "margin_pct": 0.77,
+   "jurisdiction": null,
+   "id": "fl-027"
+  },
+  {
+   "office": "US House",
+   "district": "27",
+   "title": "Representative in Congress, District 27",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 247832,
+   "candidates": [
+    {
+     "name": "Maria Elvira Salazar",
+     "party": "REP",
+     "votes": 124474,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 50.23,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Eliott Rodriguez",
+     "party": "DEM",
+     "votes": 123358,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 49.77,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Maria Elvira Salazar",
+   "margin_votes": 1116,
+   "margin_pct": 0.46,
+   "jurisdiction": null,
+   "id": "fl-028"
+  },
+  {
+   "office": "US House",
+   "district": "28",
+   "title": "Representative in Congress, District 28",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 236260,
+   "candidates": [
+    {
+     "name": "Carlos A. Gimenez",
+     "party": "REP",
+     "votes": 124978,
+     "write_in": false,
+     "official_page_marker": "winner",
+     "pct": 52.9,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Phil \"Felipe\" Ehr",
+     "party": "DEM",
+     "votes": 107839,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 45.64,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Eddy Rojas",
+     "party": "NPA",
+     "votes": 3443,
+     "write_in": false,
+     "official_page_marker": "loser",
+     "pct": 1.46,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Carlos A. Gimenez",
+   "margin_votes": 17139,
+   "margin_pct": 7.26,
+   "jurisdiction": null,
+   "id": "fl-029"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment No. 1",
+   "title": "Amendment No. 1: Budget Stabilization Fund",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7751538,
+   "candidates": [
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "votes": 4580981,
+     "pct": 59.1,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "votes": 3170557,
+     "pct": 40.9,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/Amendments",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "No for Rejection",
+   "margin_votes": 1410424,
+   "margin_pct": 18.2,
+   "notes": "Florida Election Watch states: \"Amendments require 60% to pass.\"",
+   "jurisdiction": "Statewide",
+   "id": "fl-030"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment No. 2",
+   "title": "Amendment No. 2: Exemption of Tangible Personal Property on Agricultural Land From Taxation",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7803689,
+   "candidates": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "votes": 4542890,
+     "pct": 58.21,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "votes": 3260799,
+     "pct": 41.79,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/Amendments",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Yes for Approval",
+   "margin_votes": 1282091,
+   "margin_pct": 16.42,
+   "notes": "Florida Election Watch states: \"Amendments require 60% to pass.\"",
+   "jurisdiction": "Statewide",
+   "id": "fl-031"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Amendment No. 3",
+   "title": "Amendment No. 3: Increased Homestead Exemption; Lower Cap On Increases In Non-Homestead Property Assessments",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7933991,
+   "candidates": [
+    {
+     "name": "Yes for Approval",
+     "party": null,
+     "votes": 4917796,
+     "pct": 61.98,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No for Rejection",
+     "party": null,
+     "votes": 3016195,
+     "pct": 38.02,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": null,
+   "results_as_of": null,
+   "source_url": "https://floridaelectionwatch.gov/Amendments",
+   "retrieved_at": "2026-11-04T18:58:00Z",
+   "leading": "Yes for Approval",
+   "margin_votes": 1901601,
+   "margin_pct": 23.96,
+   "notes": "Florida Election Watch states: \"Amendments require 60% to pass.\"",
+   "jurisdiction": "Statewide",
+   "id": "fl-032"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 32,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 27,
+   "Ballot Measure": 3
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "state": "CA",
+ "name": "California",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://electionresults.sos.ca.gov/"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://electionresults.sos.ca.gov/",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "Not published here: the California Secretary of State results API (api.sos.ca.gov/returns) returned figures but its county status endpoint still showed September 16, 2024 timestamps, so the feed could not be confirmed as the live 2026 count. See the official results site.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

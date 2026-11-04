@@ -1,0 +1,6594 @@
+{
+ "state": "WA",
+ "name": "Washington",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://results.votewa.gov/results/public/washington/elections/20261103"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+ "retrieved_at": "2026-11-04T18:57:56Z",
+ "results_as_of": "2026-11-04T17:08:35.8686059Z",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "Congressional District 1 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 188722,
+   "candidates": [
+    {
+     "name": "Suzan DelBene",
+     "party": "DEM",
+     "votes": 128234,
+     "write_in": false,
+     "pct": 67.95,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Mary Silva",
+     "party": "REP",
+     "votes": 59950,
+     "write_in": false,
+     "pct": 31.77,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 538,
+     "write_in": true,
+     "pct": 0.29,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Suzan DelBene",
+   "margin_votes": 68284,
+   "margin_pct": 36.18,
+   "jurisdiction": null,
+   "id": "wa-001"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "Congressional District 2 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 235434,
+   "candidates": [
+    {
+     "name": "Rick Larsen",
+     "party": "DEM",
+     "votes": 159891,
+     "write_in": false,
+     "pct": 67.91,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Edwin H. Feller",
+     "party": "REP",
+     "votes": 74732,
+     "write_in": false,
+     "pct": 31.74,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 811,
+     "write_in": true,
+     "pct": 0.34,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 5
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Rick Larsen",
+   "margin_votes": 85159,
+   "margin_pct": 36.17,
+   "jurisdiction": null,
+   "id": "wa-002"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "Congressional District 3 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 260925,
+   "candidates": [
+    {
+     "name": "Marie Gluesenkamp Perez",
+     "party": "DEM",
+     "votes": 143417,
+     "write_in": false,
+     "pct": 54.96,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "John Braun",
+     "party": "REP",
+     "votes": 115271,
+     "write_in": false,
+     "pct": 44.18,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 2237,
+     "write_in": true,
+     "pct": 0.86,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 6,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Marie Gluesenkamp Perez",
+   "margin_votes": 28146,
+   "margin_pct": 10.78,
+   "jurisdiction": null,
+   "id": "wa-003"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "Congressional District 4 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 136961,
+   "candidates": [
+    {
+     "name": "Amanda McKinney",
+     "party": "REP",
+     "votes": 74133,
+     "write_in": false,
+     "pct": 54.13,
+     "rank": 1,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "John Duresky",
+     "party": "DEM",
+     "votes": 62569,
+     "write_in": false,
+     "pct": 45.68,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 259,
+     "write_in": true,
+     "pct": 0.19,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 6,
+    "total": 8
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Amanda McKinney",
+   "margin_votes": 11564,
+   "margin_pct": 8.45,
+   "jurisdiction": null,
+   "id": "wa-004"
+  },
+  {
+   "office": "US House",
+   "district": "5",
+   "title": "Congressional District 5 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 192113,
+   "candidates": [
+    {
+     "name": "Michael Baumgartner",
+     "party": "REP",
+     "votes": 96663,
+     "write_in": false,
+     "pct": 50.32,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Carmela Conroy",
+     "party": "DEM",
+     "votes": 94806,
+     "write_in": false,
+     "pct": 49.35,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 644,
+     "write_in": true,
+     "pct": 0.34,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Michael Baumgartner",
+   "margin_votes": 1857,
+   "margin_pct": 0.97,
+   "jurisdiction": null,
+   "id": "wa-005"
+  },
+  {
+   "office": "US House",
+   "district": "6",
+   "title": "Congressional District 6 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 237177,
+   "candidates": [
+    {
+     "name": "Emily Randall",
+     "party": "DEM",
+     "votes": 153397,
+     "write_in": false,
+     "pct": 64.68,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Teresa Fox",
+     "party": "REP",
+     "votes": 83371,
+     "write_in": false,
+     "pct": 35.15,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 409,
+     "write_in": true,
+     "pct": 0.17,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 6
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Emily Randall",
+   "margin_votes": 70026,
+   "margin_pct": 29.53,
+   "jurisdiction": null,
+   "id": "wa-006"
+  },
+  {
+   "office": "US House",
+   "district": "7",
+   "title": "Congressional District 7 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 203145,
+   "candidates": [
+    {
+     "name": "Pramila Jayapal",
+     "party": "DEM",
+     "votes": 177700,
+     "write_in": false,
+     "pct": 87.47,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Nirav Sheth",
+     "party": "REP",
+     "votes": 24654,
+     "write_in": false,
+     "pct": 12.14,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 791,
+     "write_in": true,
+     "pct": 0.39,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Pramila Jayapal",
+   "margin_votes": 153046,
+   "margin_pct": 75.33,
+   "jurisdiction": null,
+   "id": "wa-007"
+  },
+  {
+   "office": "US House",
+   "district": "8",
+   "title": "Congressional District 8 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 219010,
+   "candidates": [
+    {
+     "name": "Kim Schrier",
+     "party": "DEM",
+     "votes": 125927,
+     "write_in": false,
+     "pct": 57.5,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Spencer Meline",
+     "party": "REP",
+     "votes": 92610,
+     "write_in": false,
+     "pct": 42.29,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 473,
+     "write_in": true,
+     "pct": 0.22,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 6
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Kim Schrier",
+   "margin_votes": 33317,
+   "margin_pct": 15.21,
+   "jurisdiction": null,
+   "id": "wa-008"
+  },
+  {
+   "office": "US House",
+   "district": "9",
+   "title": "Congressional District 9 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 140882,
+   "candidates": [
+    {
+     "name": "Adam Smith",
+     "party": "DEM",
+     "votes": 105825,
+     "write_in": false,
+     "pct": 75.12,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Doug Basler",
+     "party": "REP",
+     "votes": 34118,
+     "write_in": false,
+     "pct": 24.22,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 939,
+     "write_in": true,
+     "pct": 0.67,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Adam Smith",
+   "margin_votes": 71707,
+   "margin_pct": 50.9,
+   "jurisdiction": null,
+   "id": "wa-009"
+  },
+  {
+   "office": "US House",
+   "district": "10",
+   "title": "Congressional District 10 - U.S. Representative",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 165409,
+   "candidates": [
+    {
+     "name": "Marilyn Strickland",
+     "party": "DEM",
+     "votes": 106481,
+     "write_in": false,
+     "pct": 64.37,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Chris D. Chung",
+     "party": "REP",
+     "votes": 57982,
+     "write_in": false,
+     "pct": 35.05,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 946,
+     "write_in": true,
+     "pct": 0.57,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Marilyn Strickland",
+   "margin_votes": 48499,
+   "margin_pct": 29.32,
+   "jurisdiction": null,
+   "id": "wa-010"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Initiative Measure No. IL26-001",
+   "title": "Initiative Measure No. IL26-001",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1930464,
+   "candidates": [
+    {
+     "name": "No",
+     "party": null,
+     "votes": 1018262,
+     "pct": 52.75,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 912202,
+     "pct": 47.25,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 33,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "No",
+   "margin_votes": 106060,
+   "margin_pct": 5.5,
+   "jurisdiction": "Statewide",
+   "description": "<p>Initiative Measure No. IL26-001 concerns parental rights relating to their children in public school.</p><p class=\"text-start\">This measure would repeal amendments to a statute listing certain rights of parents and guardians of public-school children and re-enact the law as it was originally enacted by Initiative to the Legislature 2081.</p>",
+   "id": "wa-011"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Initiative Measure No. IL26-638",
+   "title": "Initiative Measure No. IL26-638",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1971731,
+   "candidates": [
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 1119192,
+     "pct": 56.76,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "No",
+     "party": null,
+     "votes": 852539,
+     "pct": 43.24,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 33,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Yes",
+   "margin_votes": 266653,
+   "margin_pct": 13.52,
+   "jurisdiction": "Statewide",
+   "description": "<p>Initiative Measure No. IL26-638 concerns participation in athletics at K-12 schools.</p><p class=\"text-start\">This measure would prohibit students it defines as “biologically male” from competing in certain school athletic activities intended for female students only. It would require verification of biological sex by students’ healthcare providers.</p>",
+   "id": "wa-012"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Initiative Measure No. IP26-645",
+   "title": "Initiative Measure No. IP26-645",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 1982335,
+   "candidates": [
+    {
+     "name": "No",
+     "party": null,
+     "votes": 1152229,
+     "pct": 58.12,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Yes",
+     "party": null,
+     "votes": 830106,
+     "pct": 41.88,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 33,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "No",
+   "margin_votes": 322123,
+   "margin_pct": 16.24,
+   "jurisdiction": "Statewide",
+   "description": "<p>Initiative Measure No. IP26-645 concerns state and local taxes.</p><p class=\"text-start\">This measure would repeal a 9.9% tax on annual individual income over $1,000,000; prohibit taxes measured by individual income and taxes on individual income or the receipt of individual income; and define “income.” This measure would decrease funding for public K-12 education, higher education (including universities and community colleges), and human services (primarily healthcare).</p>",
+   "id": "wa-013"
+  },
+  {
+   "office": "State Senate",
+   "district": "6",
+   "title": "Legislative District 6 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 26748,
+   "candidates": [
+    {
+     "name": "Jeff Holy",
+     "party": "REP",
+     "votes": 24381,
+     "write_in": false,
+     "pct": 91.15,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 2367,
+     "write_in": true,
+     "pct": 8.85,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jeff Holy",
+   "margin_votes": 22014,
+   "margin_pct": 82.3,
+   "jurisdiction": null,
+   "id": "wa-014"
+  },
+  {
+   "office": "State Senate",
+   "district": "7",
+   "title": "Legislative District 7 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 38153,
+   "candidates": [
+    {
+     "name": "Shelly Short",
+     "party": "REP",
+     "votes": 25198,
+     "write_in": false,
+     "pct": 66.04,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ronald L McCoy",
+     "party": "IND",
+     "votes": 12723,
+     "write_in": false,
+     "pct": 33.35,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 232,
+     "write_in": true,
+     "pct": 0.61,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Shelly Short",
+   "margin_votes": 12475,
+   "margin_pct": 32.69,
+   "jurisdiction": null,
+   "id": "wa-015"
+  },
+  {
+   "office": "State Senate",
+   "district": "8",
+   "title": "Legislative District 8 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27407,
+   "candidates": [
+    {
+     "name": "Nikki Torres",
+     "party": "REP",
+     "votes": 14268,
+     "write_in": false,
+     "pct": 52.06,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Gabe Galbraith",
+     "party": "REP",
+     "votes": 12607,
+     "write_in": false,
+     "pct": 46.0,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 532,
+     "write_in": true,
+     "pct": 1.94,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Nikki Torres",
+   "margin_votes": 1661,
+   "margin_pct": 6.06,
+   "jurisdiction": null,
+   "id": "wa-016"
+  },
+  {
+   "office": "State Senate",
+   "district": "13",
+   "title": "Legislative District 13 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22643,
+   "candidates": [
+    {
+     "name": "Alex Ybarra",
+     "party": "REP",
+     "votes": 21877,
+     "write_in": false,
+     "pct": 96.62,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 766,
+     "write_in": true,
+     "pct": 3.38,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Alex Ybarra",
+   "margin_votes": 21111,
+   "margin_pct": 93.24,
+   "jurisdiction": null,
+   "id": "wa-017"
+  },
+  {
+   "office": "State Senate",
+   "district": "15",
+   "title": "Legislative District 15 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25529,
+   "candidates": [
+    {
+     "name": "Jeremie Dufault",
+     "party": "REP",
+     "votes": 24095,
+     "write_in": false,
+     "pct": 94.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1434,
+     "write_in": true,
+     "pct": 5.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jeremie Dufault",
+   "margin_votes": 22661,
+   "margin_pct": 88.76,
+   "jurisdiction": null,
+   "id": "wa-018"
+  },
+  {
+   "office": "State Senate",
+   "district": "21",
+   "title": "Legislative District 21 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 40774,
+   "candidates": [
+    {
+     "name": "Marko Liias",
+     "party": "DEM",
+     "votes": 29473,
+     "write_in": false,
+     "pct": 72.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Riaz Khan",
+     "party": "REP",
+     "votes": 11185,
+     "write_in": false,
+     "pct": 27.43,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 116,
+     "write_in": true,
+     "pct": 0.28,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Marko Liias",
+   "margin_votes": 18288,
+   "margin_pct": 44.85,
+   "jurisdiction": null,
+   "id": "wa-019"
+  },
+  {
+   "office": "State Senate",
+   "district": "26",
+   "title": "Legislative District 26 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 57119,
+   "candidates": [
+    {
+     "name": "Deborah Krishnadasan",
+     "party": "DEM",
+     "votes": 32723,
+     "write_in": false,
+     "pct": 57.29,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Parker",
+     "party": "REP",
+     "votes": 24338,
+     "write_in": false,
+     "pct": 42.61,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 58,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Deborah Krishnadasan",
+   "margin_votes": 8385,
+   "margin_pct": 14.68,
+   "jurisdiction": null,
+   "id": "wa-020"
+  },
+  {
+   "office": "State Senate",
+   "district": "29",
+   "title": "Legislative District 29 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 24371,
+   "candidates": [
+    {
+     "name": "Sharlett Mena",
+     "party": "DEM",
+     "votes": 16856,
+     "write_in": false,
+     "pct": 69.16,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "David Anderson",
+     "party": "DEM",
+     "votes": 6493,
+     "write_in": false,
+     "pct": 26.64,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1022,
+     "write_in": true,
+     "pct": 4.19,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Sharlett Mena",
+   "margin_votes": 10363,
+   "margin_pct": 42.52,
+   "jurisdiction": null,
+   "id": "wa-021"
+  },
+  {
+   "office": "State Senate",
+   "district": "30",
+   "title": "Legislative District 30 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25078,
+   "candidates": [
+    {
+     "name": "Claire Wilson",
+     "party": "DEM",
+     "votes": 16106,
+     "write_in": false,
+     "pct": 64.22,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Rutland",
+     "party": "REP",
+     "votes": 8949,
+     "write_in": false,
+     "pct": 35.68,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 23,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Claire Wilson",
+   "margin_votes": 7157,
+   "margin_pct": 28.54,
+   "jurisdiction": null,
+   "id": "wa-022"
+  },
+  {
+   "office": "State Senate",
+   "district": "31",
+   "title": "Legislative District 31 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43471,
+   "candidates": [
+    {
+     "name": "Phil Fortunato",
+     "party": "REP",
+     "votes": 23299,
+     "write_in": false,
+     "pct": 53.6,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tamara Stramel",
+     "party": "DEM",
+     "votes": 20130,
+     "write_in": false,
+     "pct": 46.31,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 42,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Phil Fortunato",
+   "margin_votes": 3169,
+   "margin_pct": 7.29,
+   "jurisdiction": null,
+   "id": "wa-023"
+  },
+  {
+   "office": "State Senate",
+   "district": "32",
+   "title": "Legislative District 32 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 39623,
+   "candidates": [
+    {
+     "name": "Cindy Ryu",
+     "party": "DEM",
+     "votes": 19642,
+     "write_in": false,
+     "pct": 49.57,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jesse Salomon",
+     "party": "DEM",
+     "votes": 19290,
+     "write_in": false,
+     "pct": 48.68,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 691,
+     "write_in": true,
+     "pct": 1.74,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Cindy Ryu",
+   "margin_votes": 352,
+   "margin_pct": 0.89,
+   "jurisdiction": null,
+   "id": "wa-024"
+  },
+  {
+   "office": "State Senate",
+   "district": "33",
+   "title": "Legislative District 33 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21933,
+   "candidates": [
+    {
+     "name": "Tina L. Orwall",
+     "party": "DEM",
+     "votes": 20767,
+     "write_in": false,
+     "pct": 94.68,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1166,
+     "write_in": true,
+     "pct": 5.32,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Tina L. Orwall",
+   "margin_votes": 19601,
+   "margin_pct": 89.36,
+   "jurisdiction": null,
+   "id": "wa-025"
+  },
+  {
+   "office": "State Senate",
+   "district": "34",
+   "title": "Legislative District 34 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 35406,
+   "candidates": [
+    {
+     "name": "Emily Alvarado",
+     "party": "DEM",
+     "votes": 34455,
+     "write_in": false,
+     "pct": 97.31,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 951,
+     "write_in": true,
+     "pct": 2.69,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Emily Alvarado",
+   "margin_votes": 33504,
+   "margin_pct": 94.62,
+   "jurisdiction": null,
+   "id": "wa-026"
+  },
+  {
+   "office": "State Senate",
+   "district": "35",
+   "title": "Legislative District 35 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43419,
+   "candidates": [
+    {
+     "name": "Carolina Mejia",
+     "party": "DEM",
+     "votes": 22376,
+     "write_in": false,
+     "pct": 51.54,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Drew C MacEwen",
+     "party": "REP",
+     "votes": 20996,
+     "write_in": false,
+     "pct": 48.36,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 47,
+     "write_in": true,
+     "pct": 0.11,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Carolina Mejia",
+   "margin_votes": 1380,
+   "margin_pct": 3.18,
+   "jurisdiction": null,
+   "id": "wa-027"
+  },
+  {
+   "office": "State Senate",
+   "district": "36",
+   "title": "Legislative District 36 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 45078,
+   "candidates": [
+    {
+     "name": "Noel C. Frame",
+     "party": "DEM",
+     "votes": 39677,
+     "write_in": false,
+     "pct": 88.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jillian England",
+     "party": "REP",
+     "votes": 5325,
+     "write_in": false,
+     "pct": 11.81,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 76,
+     "write_in": true,
+     "pct": 0.17,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Noel C. Frame",
+   "margin_votes": 34352,
+   "margin_pct": 76.21,
+   "jurisdiction": null,
+   "id": "wa-028"
+  },
+  {
+   "office": "State Senate",
+   "district": "37",
+   "title": "Legislative District 37 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 32597,
+   "candidates": [
+    {
+     "name": "Chipalo Street",
+     "party": "DEM",
+     "votes": 24152,
+     "write_in": false,
+     "pct": 74.09,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tatiana Brown",
+     "party": "DEM",
+     "votes": 8079,
+     "write_in": false,
+     "pct": 24.78,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 366,
+     "write_in": true,
+     "pct": 1.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Chipalo Street",
+   "margin_votes": 16073,
+   "margin_pct": 49.31,
+   "jurisdiction": null,
+   "id": "wa-029"
+  },
+  {
+   "office": "State Senate",
+   "district": "38",
+   "title": "Legislative District 38 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 34986,
+   "candidates": [
+    {
+     "name": "June Robinson",
+     "party": "DEM",
+     "votes": 23094,
+     "write_in": false,
+     "pct": 66.01,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brad Bender",
+     "party": "REP",
+     "votes": 11842,
+     "write_in": false,
+     "pct": 33.85,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 50,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "June Robinson",
+   "margin_votes": 11252,
+   "margin_pct": 32.16,
+   "jurisdiction": null,
+   "id": "wa-030"
+  },
+  {
+   "office": "State Senate",
+   "district": "42",
+   "title": "Legislative District 42 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 60384,
+   "candidates": [
+    {
+     "name": "Michael Alvarez Shepard",
+     "party": "DEM",
+     "votes": 34061,
+     "write_in": false,
+     "pct": 56.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Erika Creydt",
+     "party": "REP",
+     "votes": 26265,
+     "write_in": false,
+     "pct": 43.5,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 58,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Michael Alvarez Shepard",
+   "margin_votes": 7796,
+   "margin_pct": 12.91,
+   "jurisdiction": null,
+   "id": "wa-031"
+  },
+  {
+   "office": "State Senate",
+   "district": "43",
+   "title": "Legislative District 43 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 33899,
+   "candidates": [
+    {
+     "name": "Jamie Pedersen",
+     "party": "DEM",
+     "votes": 25706,
+     "write_in": false,
+     "pct": 75.83,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Hannah Sabio-Howell",
+     "party": "DEM",
+     "votes": 7821,
+     "write_in": false,
+     "pct": 23.07,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 372,
+     "write_in": true,
+     "pct": 1.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jamie Pedersen",
+   "margin_votes": 17885,
+   "margin_pct": 52.76,
+   "jurisdiction": null,
+   "id": "wa-032"
+  },
+  {
+   "office": "State Senate",
+   "district": "44",
+   "title": "Legislative District 44 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 44088,
+   "candidates": [
+    {
+     "name": "John Lovick",
+     "party": "DEM",
+     "votes": 27767,
+     "write_in": false,
+     "pct": 62.98,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Sherri Larkin",
+     "party": "REP",
+     "votes": 16288,
+     "write_in": false,
+     "pct": 36.94,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 33,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "John Lovick",
+   "margin_votes": 11479,
+   "margin_pct": 26.04,
+   "jurisdiction": null,
+   "id": "wa-033"
+  },
+  {
+   "office": "State Senate",
+   "district": "45",
+   "title": "Legislative District 45 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 32943,
+   "candidates": [
+    {
+     "name": "Manka Dhingra",
+     "party": "DEM",
+     "votes": 30291,
+     "write_in": false,
+     "pct": 91.95,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 2652,
+     "write_in": true,
+     "pct": 8.05,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Manka Dhingra",
+   "margin_votes": 27639,
+   "margin_pct": 83.9,
+   "jurisdiction": null,
+   "id": "wa-034"
+  },
+  {
+   "office": "State Senate",
+   "district": "46",
+   "title": "Legislative District 46 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 41471,
+   "candidates": [
+    {
+     "name": "Javier Valdez",
+     "party": "DEM",
+     "votes": 37250,
+     "write_in": false,
+     "pct": 89.82,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Sandra Stephens",
+     "party": "REP",
+     "votes": 4161,
+     "write_in": false,
+     "pct": 10.03,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 60,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Javier Valdez",
+   "margin_votes": 33089,
+   "margin_pct": 79.79,
+   "jurisdiction": null,
+   "id": "wa-035"
+  },
+  {
+   "office": "State Senate",
+   "district": "47",
+   "title": "Legislative District 47 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29944,
+   "candidates": [
+    {
+     "name": "Claudia Kauffman",
+     "party": "DEM",
+     "votes": 18257,
+     "write_in": false,
+     "pct": 60.97,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kristina Soltys",
+     "party": "REP",
+     "votes": 11646,
+     "write_in": false,
+     "pct": 38.89,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 41,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Claudia Kauffman",
+   "margin_votes": 6611,
+   "margin_pct": 22.08,
+   "jurisdiction": null,
+   "id": "wa-036"
+  },
+  {
+   "office": "State Senate",
+   "district": "48",
+   "title": "Legislative District 48 - State Senator",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22193,
+   "candidates": [
+    {
+     "name": "Vandana Slatter",
+     "party": "DEM",
+     "votes": 21288,
+     "write_in": false,
+     "pct": 95.92,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 905,
+     "write_in": true,
+     "pct": 4.08,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Vandana Slatter",
+   "margin_votes": 20383,
+   "margin_pct": 91.84,
+   "jurisdiction": null,
+   "id": "wa-037"
+  },
+  {
+   "office": "State House",
+   "district": "1",
+   "title": "Legislative District 1 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 44312,
+   "candidates": [
+    {
+     "name": "Davina Duerr",
+     "party": "DEM",
+     "votes": 32579,
+     "write_in": false,
+     "pct": 73.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Maggie Wang",
+     "party": "REP",
+     "votes": 11692,
+     "write_in": false,
+     "pct": 26.39,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 41,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Davina Duerr",
+   "margin_votes": 20887,
+   "margin_pct": 47.13,
+   "jurisdiction": null,
+   "id": "wa-038"
+  },
+  {
+   "office": "State House",
+   "district": "1",
+   "title": "Legislative District 1 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 44181,
+   "candidates": [
+    {
+     "name": "Shelley Kloba",
+     "party": "DEM",
+     "votes": 32185,
+     "write_in": false,
+     "pct": 72.85,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Cliff Moon",
+     "party": "REP",
+     "votes": 11936,
+     "write_in": false,
+     "pct": 27.02,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 60,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Shelley Kloba",
+   "margin_votes": 20249,
+   "margin_pct": 45.83,
+   "jurisdiction": null,
+   "id": "wa-039"
+  },
+  {
+   "office": "State House",
+   "district": "2",
+   "title": "Legislative District 2 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 34698,
+   "candidates": [
+    {
+     "name": "Andrew Barkis",
+     "party": "REP",
+     "votes": 20058,
+     "write_in": false,
+     "pct": 57.81,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "William Dehnel",
+     "party": "LDP",
+     "votes": 14584,
+     "write_in": false,
+     "pct": 42.03,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 56,
+     "write_in": true,
+     "pct": 0.16,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Andrew Barkis",
+   "margin_votes": 5474,
+   "margin_pct": 15.78,
+   "jurisdiction": null,
+   "id": "wa-040"
+  },
+  {
+   "office": "State House",
+   "district": "2",
+   "title": "Legislative District 2 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 34761,
+   "candidates": [
+    {
+     "name": "Matt Marshall",
+     "party": "REP",
+     "votes": 19841,
+     "write_in": false,
+     "pct": 57.08,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Angela Taylor",
+     "party": "DEM",
+     "votes": 14881,
+     "write_in": false,
+     "pct": 42.81,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 39,
+     "write_in": true,
+     "pct": 0.11,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Matt Marshall",
+   "margin_votes": 4960,
+   "margin_pct": 14.27,
+   "jurisdiction": null,
+   "id": "wa-041"
+  },
+  {
+   "office": "State House",
+   "district": "3",
+   "title": "Legislative District 3 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 39563,
+   "candidates": [
+    {
+     "name": "Natasha Hill",
+     "party": "DE2",
+     "votes": 26909,
+     "write_in": false,
+     "pct": 68.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tony Kiepe",
+     "party": "REP",
+     "votes": 12569,
+     "write_in": false,
+     "pct": 31.77,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 85,
+     "write_in": true,
+     "pct": 0.21,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Natasha Hill",
+   "margin_votes": 14340,
+   "margin_pct": 36.25,
+   "jurisdiction": null,
+   "id": "wa-042"
+  },
+  {
+   "office": "State House",
+   "district": "3",
+   "title": "Legislative District 3 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 39524,
+   "candidates": [
+    {
+     "name": "Luc Jasmin III",
+     "party": "DEM",
+     "votes": 26253,
+     "write_in": false,
+     "pct": 66.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Natalie Poulson",
+     "party": "REP",
+     "votes": 13199,
+     "write_in": false,
+     "pct": 33.39,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 72,
+     "write_in": true,
+     "pct": 0.18,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Luc Jasmin III",
+   "margin_votes": 13054,
+   "margin_pct": 33.03,
+   "jurisdiction": null,
+   "id": "wa-043"
+  },
+  {
+   "office": "State House",
+   "district": "4",
+   "title": "Legislative District 4 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 35942,
+   "candidates": [
+    {
+     "name": "Hillary Q. Pham",
+     "party": "REP",
+     "votes": 17174,
+     "write_in": false,
+     "pct": 47.78,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Trent Maier",
+     "party": "REP",
+     "votes": 16212,
+     "write_in": false,
+     "pct": 45.11,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 2556,
+     "write_in": true,
+     "pct": 7.11,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Hillary Q. Pham",
+   "margin_votes": 962,
+   "margin_pct": 2.67,
+   "jurisdiction": null,
+   "id": "wa-044"
+  },
+  {
+   "office": "State House",
+   "district": "4",
+   "title": "Legislative District 4 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 41401,
+   "candidates": [
+    {
+     "name": "Rob Chase",
+     "party": "REP",
+     "votes": 22360,
+     "write_in": false,
+     "pct": 54.01,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Rob Tupper",
+     "party": "DEM",
+     "votes": 18939,
+     "write_in": false,
+     "pct": 45.75,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 102,
+     "write_in": true,
+     "pct": 0.25,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Rob Chase",
+   "margin_votes": 3421,
+   "margin_pct": 8.26,
+   "jurisdiction": null,
+   "id": "wa-045"
+  },
+  {
+   "office": "State House",
+   "district": "5",
+   "title": "Legislative District 5 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 44530,
+   "candidates": [
+    {
+     "name": "Zach Hall",
+     "party": "DEM",
+     "votes": 25784,
+     "write_in": false,
+     "pct": 57.9,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michelle Bennett",
+     "party": "REP",
+     "votes": 18701,
+     "write_in": false,
+     "pct": 42.0,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 45,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Zach Hall",
+   "margin_votes": 7083,
+   "margin_pct": 15.9,
+   "jurisdiction": null,
+   "id": "wa-046"
+  },
+  {
+   "office": "State House",
+   "district": "5",
+   "title": "Legislative District 5 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 44371,
+   "candidates": [
+    {
+     "name": "Lisa Callan",
+     "party": "DEM",
+     "votes": 26435,
+     "write_in": false,
+     "pct": 59.58,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Patrick Peacock",
+     "party": "REP",
+     "votes": 17883,
+     "write_in": false,
+     "pct": 40.3,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 53,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Lisa Callan",
+   "margin_votes": 8552,
+   "margin_pct": 19.28,
+   "jurisdiction": null,
+   "id": "wa-047"
+  },
+  {
+   "office": "State House",
+   "district": "6",
+   "title": "Legislative District 6 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 37552,
+   "candidates": [
+    {
+     "name": "Alan Nolan",
+     "party": "REP",
+     "votes": 19345,
+     "write_in": false,
+     "pct": 51.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michaela Kelso",
+     "party": "DEM",
+     "votes": 18130,
+     "write_in": false,
+     "pct": 48.28,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 77,
+     "write_in": true,
+     "pct": 0.21,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Alan Nolan",
+   "margin_votes": 1215,
+   "margin_pct": 3.24,
+   "jurisdiction": null,
+   "id": "wa-048"
+  },
+  {
+   "office": "State House",
+   "district": "6",
+   "title": "Legislative District 6 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 37585,
+   "candidates": [
+    {
+     "name": "Jonathan Bingle",
+     "party": "REP",
+     "votes": 20468,
+     "write_in": false,
+     "pct": 54.46,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Julia Payne",
+     "party": "DEM",
+     "votes": 17028,
+     "write_in": false,
+     "pct": 45.31,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 89,
+     "write_in": true,
+     "pct": 0.24,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jonathan Bingle",
+   "margin_votes": 3440,
+   "margin_pct": 9.15,
+   "jurisdiction": null,
+   "id": "wa-049"
+  },
+  {
+   "office": "State House",
+   "district": "7",
+   "title": "Legislative District 7 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 28975,
+   "candidates": [
+    {
+     "name": "Andrew Engell",
+     "party": "REP",
+     "votes": 27854,
+     "write_in": false,
+     "pct": 96.13,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1121,
+     "write_in": true,
+     "pct": 3.87,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Andrew Engell",
+   "margin_votes": 26733,
+   "margin_pct": 92.26,
+   "jurisdiction": null,
+   "id": "wa-050"
+  },
+  {
+   "office": "State House",
+   "district": "7",
+   "title": "Legislative District 7 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 28655,
+   "candidates": [
+    {
+     "name": "Hunter Abell",
+     "party": "REP",
+     "votes": 27581,
+     "write_in": false,
+     "pct": 96.25,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1074,
+     "write_in": true,
+     "pct": 3.75,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 5,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Hunter Abell",
+   "margin_votes": 26507,
+   "margin_pct": 92.5,
+   "jurisdiction": null,
+   "id": "wa-051"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "Legislative District 8 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22098,
+   "candidates": [
+    {
+     "name": "Stephanie Barnard",
+     "party": "REP",
+     "votes": 21344,
+     "write_in": false,
+     "pct": 96.59,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 754,
+     "write_in": true,
+     "pct": 3.41,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Stephanie Barnard",
+   "margin_votes": 20590,
+   "margin_pct": 93.18,
+   "jurisdiction": null,
+   "id": "wa-052"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "Legislative District 8 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22169,
+   "candidates": [
+    {
+     "name": "April Connors",
+     "party": "REP",
+     "votes": 21393,
+     "write_in": false,
+     "pct": 96.5,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 776,
+     "write_in": true,
+     "pct": 3.5,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "April Connors",
+   "margin_votes": 20617,
+   "margin_pct": 93.0,
+   "jurisdiction": null,
+   "id": "wa-053"
+  },
+  {
+   "office": "State House",
+   "district": "9",
+   "title": "Legislative District 9 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 32482,
+   "candidates": [
+    {
+     "name": "Mary Dye",
+     "party": "REP",
+     "votes": 30454,
+     "write_in": false,
+     "pct": 93.76,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 2028,
+     "write_in": true,
+     "pct": 6.24,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 7,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mary Dye",
+   "margin_votes": 28426,
+   "margin_pct": 87.52,
+   "jurisdiction": null,
+   "id": "wa-054"
+  },
+  {
+   "office": "State House",
+   "district": "9",
+   "title": "Legislative District 9 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43251,
+   "candidates": [
+    {
+     "name": "Joe Schmick",
+     "party": "REP",
+     "votes": 26566,
+     "write_in": false,
+     "pct": 61.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Karina Wallace",
+     "party": "DEM",
+     "votes": 16624,
+     "write_in": false,
+     "pct": 38.44,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 61,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 7,
+    "total": 7
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Joe Schmick",
+   "margin_votes": 9942,
+   "margin_pct": 22.98,
+   "jurisdiction": null,
+   "id": "wa-055"
+  },
+  {
+   "office": "State House",
+   "district": "10",
+   "title": "Legislative District 10 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 46700,
+   "candidates": [
+    {
+     "name": "Clyde Shavers",
+     "party": "DEM",
+     "votes": 27545,
+     "write_in": false,
+     "pct": 58.98,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Robert (Chili) Hicks",
+     "party": "REP",
+     "votes": 19119,
+     "write_in": false,
+     "pct": 40.94,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 36,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Clyde Shavers",
+   "margin_votes": 8426,
+   "margin_pct": 18.04,
+   "jurisdiction": null,
+   "id": "wa-056"
+  },
+  {
+   "office": "State House",
+   "district": "10",
+   "title": "Legislative District 10 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 46579,
+   "candidates": [
+    {
+     "name": "Dave Paul",
+     "party": "DEM",
+     "votes": 28230,
+     "write_in": false,
+     "pct": 60.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tim Hazelo",
+     "party": "REP",
+     "votes": 18306,
+     "write_in": false,
+     "pct": 39.3,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 43,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Dave Paul",
+   "margin_votes": 9924,
+   "margin_pct": 21.31,
+   "jurisdiction": null,
+   "id": "wa-057"
+  },
+  {
+   "office": "State House",
+   "district": "11",
+   "title": "Legislative District 11 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 24170,
+   "candidates": [
+    {
+     "name": "David Hackney",
+     "party": "DEM",
+     "votes": 14058,
+     "write_in": false,
+     "pct": 58.16,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ashley Fedan",
+     "party": "DEM",
+     "votes": 9230,
+     "write_in": false,
+     "pct": 38.19,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 882,
+     "write_in": true,
+     "pct": 3.65,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "David Hackney",
+   "margin_votes": 4828,
+   "margin_pct": 19.97,
+   "jurisdiction": null,
+   "id": "wa-058"
+  },
+  {
+   "office": "State House",
+   "district": "11",
+   "title": "Legislative District 11 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21566,
+   "candidates": [
+    {
+     "name": "Steve Bergquist",
+     "party": "DEM",
+     "votes": 20600,
+     "write_in": false,
+     "pct": 95.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 966,
+     "write_in": true,
+     "pct": 4.48,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Steve Bergquist",
+   "margin_votes": 19634,
+   "margin_pct": 91.04,
+   "jurisdiction": null,
+   "id": "wa-059"
+  },
+  {
+   "office": "State House",
+   "district": "12",
+   "title": "Legislative District 12 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 48572,
+   "candidates": [
+    {
+     "name": "Stacy Willoughby",
+     "party": "DEM",
+     "votes": 24997,
+     "write_in": false,
+     "pct": 51.46,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Burnett",
+     "party": "REP",
+     "votes": 23542,
+     "write_in": false,
+     "pct": 48.47,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 33,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Stacy Willoughby",
+   "margin_votes": 1455,
+   "margin_pct": 2.99,
+   "jurisdiction": null,
+   "id": "wa-060"
+  },
+  {
+   "office": "State House",
+   "district": "12",
+   "title": "Legislative District 12 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 48416,
+   "candidates": [
+    {
+     "name": "Mike Steele",
+     "party": "REP",
+     "votes": 26329,
+     "write_in": false,
+     "pct": 54.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Maggie Adams",
+     "party": "DEM",
+     "votes": 22031,
+     "write_in": false,
+     "pct": 45.5,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 56,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mike Steele",
+   "margin_votes": 4298,
+   "margin_pct": 8.88,
+   "jurisdiction": null,
+   "id": "wa-061"
+  },
+  {
+   "office": "State House",
+   "district": "13",
+   "title": "Legislative District 13 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29635,
+   "candidates": [
+    {
+     "name": "Tom Dent",
+     "party": "REP",
+     "votes": 19715,
+     "write_in": false,
+     "pct": 66.53,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Juan \"Jerry\" Garcia",
+     "party": "DEM",
+     "votes": 9880,
+     "write_in": false,
+     "pct": 33.34,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 40,
+     "write_in": true,
+     "pct": 0.13,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Tom Dent",
+   "margin_votes": 9835,
+   "margin_pct": 33.19,
+   "jurisdiction": null,
+   "id": "wa-062"
+  },
+  {
+   "office": "State House",
+   "district": "13",
+   "title": "Legislative District 13 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25249,
+   "candidates": [
+    {
+     "name": "Joshua Thompson",
+     "party": "REP",
+     "votes": 13241,
+     "write_in": false,
+     "pct": 52.44,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Deanna Martinez",
+     "party": "REP",
+     "votes": 11402,
+     "write_in": false,
+     "pct": 45.16,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 606,
+     "write_in": true,
+     "pct": 2.4,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Joshua Thompson",
+   "margin_votes": 1839,
+   "margin_pct": 7.28,
+   "jurisdiction": null,
+   "id": "wa-063"
+  },
+  {
+   "office": "State House",
+   "district": "14",
+   "title": "Legislative District 14 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15293,
+   "candidates": [
+    {
+     "name": "Chelsea Dimas",
+     "party": "DEM",
+     "votes": 8400,
+     "write_in": false,
+     "pct": 54.93,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Gloria Mendoza",
+     "party": "REP",
+     "votes": 6834,
+     "write_in": false,
+     "pct": 44.69,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 59,
+     "write_in": true,
+     "pct": 0.39,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Chelsea Dimas",
+   "margin_votes": 1566,
+   "margin_pct": 10.24,
+   "jurisdiction": null,
+   "id": "wa-064"
+  },
+  {
+   "office": "State House",
+   "district": "14",
+   "title": "Legislative District 14 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 15402,
+   "candidates": [
+    {
+     "name": "Ezequiel Morfin",
+     "party": "DEM",
+     "votes": 8520,
+     "write_in": false,
+     "pct": 55.32,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Deb Manjarrez",
+     "party": "REP",
+     "votes": 6821,
+     "write_in": false,
+     "pct": 44.29,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 61,
+     "write_in": true,
+     "pct": 0.4,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ezequiel Morfin",
+   "margin_votes": 1699,
+   "margin_pct": 11.03,
+   "jurisdiction": null,
+   "id": "wa-065"
+  },
+  {
+   "office": "State House",
+   "district": "15",
+   "title": "Legislative District 15 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 32753,
+   "candidates": [
+    {
+     "name": "Chris Corry",
+     "party": "REP",
+     "votes": 20542,
+     "write_in": false,
+     "pct": 62.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jack McEntire",
+     "party": "DEM",
+     "votes": 12178,
+     "write_in": false,
+     "pct": 37.18,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 33,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Chris Corry",
+   "margin_votes": 8364,
+   "margin_pct": 25.54,
+   "jurisdiction": null,
+   "id": "wa-066"
+  },
+  {
+   "office": "State House",
+   "district": "15",
+   "title": "Legislative District 15 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 32225,
+   "candidates": [
+    {
+     "name": "Reedy Berg",
+     "party": "REP",
+     "votes": 20292,
+     "write_in": false,
+     "pct": 62.97,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Liz Hallock",
+     "party": "NKP",
+     "votes": 11815,
+     "write_in": false,
+     "pct": 36.66,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 118,
+     "write_in": true,
+     "pct": 0.37,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Reedy Berg",
+   "margin_votes": 8477,
+   "margin_pct": 26.31,
+   "jurisdiction": null,
+   "id": "wa-067"
+  },
+  {
+   "office": "State House",
+   "district": "16",
+   "title": "Legislative District 16 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27992,
+   "candidates": [
+    {
+     "name": "Mark Klicker",
+     "party": "REP",
+     "votes": 16046,
+     "write_in": false,
+     "pct": 57.32,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kyle Palmer",
+     "party": "DEM",
+     "votes": 11932,
+     "write_in": false,
+     "pct": 42.63,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 14,
+     "write_in": true,
+     "pct": 0.05,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mark Klicker",
+   "margin_votes": 4114,
+   "margin_pct": 14.69,
+   "jurisdiction": null,
+   "id": "wa-068"
+  },
+  {
+   "office": "State House",
+   "district": "16",
+   "title": "Legislative District 16 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27924,
+   "candidates": [
+    {
+     "name": "Skyler Rude",
+     "party": "REP",
+     "votes": 15164,
+     "write_in": false,
+     "pct": 54.3,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Derek Sarley",
+     "party": "DEM",
+     "votes": 12741,
+     "write_in": false,
+     "pct": 45.63,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 19,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 4,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Skyler Rude",
+   "margin_votes": 2423,
+   "margin_pct": 8.67,
+   "jurisdiction": null,
+   "id": "wa-069"
+  },
+  {
+   "office": "State House",
+   "district": "17",
+   "title": "Legislative District 17 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 56216,
+   "candidates": [
+    {
+     "name": "Ben Christly",
+     "party": "DEM",
+     "votes": 31540,
+     "write_in": false,
+     "pct": 56.11,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Waters",
+     "party": "REP",
+     "votes": 24587,
+     "write_in": false,
+     "pct": 43.74,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 89,
+     "write_in": true,
+     "pct": 0.16,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ben Christly",
+   "margin_votes": 6953,
+   "margin_pct": 12.37,
+   "jurisdiction": null,
+   "id": "wa-070"
+  },
+  {
+   "office": "State House",
+   "district": "17",
+   "title": "Legislative District 17 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 56267,
+   "candidates": [
+    {
+     "name": "Diana H. Perez",
+     "party": "DEM",
+     "votes": 31791,
+     "write_in": false,
+     "pct": 56.5,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "David Stuebe",
+     "party": "REP",
+     "votes": 24407,
+     "write_in": false,
+     "pct": 43.38,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 69,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Diana H. Perez",
+   "margin_votes": 7384,
+   "margin_pct": 13.12,
+   "jurisdiction": null,
+   "id": "wa-071"
+  },
+  {
+   "office": "State House",
+   "district": "18",
+   "title": "Legislative District 18 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 53391,
+   "candidates": [
+    {
+     "name": "Randi L. Knott",
+     "party": "DEM",
+     "votes": 28922,
+     "write_in": false,
+     "pct": 54.17,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Stephanie McClintock",
+     "party": "REP",
+     "votes": 24393,
+     "write_in": false,
+     "pct": 45.69,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 76,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 0,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Randi L. Knott",
+   "margin_votes": 4529,
+   "margin_pct": 8.48,
+   "jurisdiction": null,
+   "id": "wa-072"
+  },
+  {
+   "office": "State House",
+   "district": "18",
+   "title": "Legislative District 18 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 53282,
+   "candidates": [
+    {
+     "name": "Deken Letinich",
+     "party": "DEM",
+     "votes": 29719,
+     "write_in": false,
+     "pct": 55.78,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "John Ley",
+     "party": "REP",
+     "votes": 23457,
+     "write_in": false,
+     "pct": 44.02,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 106,
+     "write_in": true,
+     "pct": 0.2,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 0,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Deken Letinich",
+   "margin_votes": 6262,
+   "margin_pct": 11.76,
+   "jurisdiction": null,
+   "id": "wa-073"
+  },
+  {
+   "office": "State House",
+   "district": "19",
+   "title": "Legislative District 19 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 51172,
+   "candidates": [
+    {
+     "name": "Jim Walsh",
+     "party": "REP",
+     "votes": 27870,
+     "write_in": false,
+     "pct": 54.46,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Moynihan",
+     "party": "DEM",
+     "votes": 23241,
+     "write_in": false,
+     "pct": 45.42,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 61,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 6,
+    "total": 6
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jim Walsh",
+   "margin_votes": 4629,
+   "margin_pct": 9.04,
+   "jurisdiction": null,
+   "id": "wa-074"
+  },
+  {
+   "office": "State House",
+   "district": "19",
+   "title": "Legislative District 19 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 50805,
+   "candidates": [
+    {
+     "name": "Joel McEntire",
+     "party": "REP",
+     "votes": 27409,
+     "write_in": false,
+     "pct": 53.95,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Terry Carlson",
+     "party": "DEM",
+     "votes": 23281,
+     "write_in": false,
+     "pct": 45.82,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 115,
+     "write_in": true,
+     "pct": 0.23,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 6,
+    "total": 6
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Joel McEntire",
+   "margin_votes": 4128,
+   "margin_pct": 8.13,
+   "jurisdiction": null,
+   "id": "wa-075"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "Legislative District 20 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 60057,
+   "candidates": [
+    {
+     "name": "Peter Abbarno",
+     "party": "REP",
+     "votes": 38266,
+     "write_in": false,
+     "pct": 63.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Andy Zahn",
+     "party": "DEM",
+     "votes": 21641,
+     "write_in": false,
+     "pct": 36.03,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 150,
+     "write_in": true,
+     "pct": 0.25,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Peter Abbarno",
+   "margin_votes": 16625,
+   "margin_pct": 27.69,
+   "jurisdiction": null,
+   "id": "wa-076"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "Legislative District 20 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 60034,
+   "candidates": [
+    {
+     "name": "Ed Orcutt",
+     "party": "REP",
+     "votes": 36802,
+     "write_in": false,
+     "pct": 61.3,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Evan Jones",
+     "party": "DEM",
+     "votes": 23107,
+     "write_in": false,
+     "pct": 38.49,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 125,
+     "write_in": true,
+     "pct": 0.21,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 4
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Ed Orcutt",
+   "margin_votes": 13695,
+   "margin_pct": 22.81,
+   "jurisdiction": null,
+   "id": "wa-077"
+  },
+  {
+   "office": "State House",
+   "district": "21",
+   "title": "Legislative District 21 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 38222,
+   "candidates": [
+    {
+     "name": "Strom Peterson",
+     "party": "DEM",
+     "votes": 22475,
+     "write_in": false,
+     "pct": 58.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jason Moon",
+     "party": "DEM",
+     "votes": 15218,
+     "write_in": false,
+     "pct": 39.81,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 529,
+     "write_in": true,
+     "pct": 1.38,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Strom Peterson",
+   "margin_votes": 7257,
+   "margin_pct": 18.99,
+   "jurisdiction": null,
+   "id": "wa-078"
+  },
+  {
+   "office": "State House",
+   "district": "21",
+   "title": "Legislative District 21 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 39811,
+   "candidates": [
+    {
+     "name": "Lillian Ortiz-Self",
+     "party": "DEM",
+     "votes": 28865,
+     "write_in": false,
+     "pct": 72.51,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bruce Guthrie",
+     "party": "LIB",
+     "votes": 10734,
+     "write_in": false,
+     "pct": 26.96,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 212,
+     "write_in": true,
+     "pct": 0.53,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Lillian Ortiz-Self",
+   "margin_votes": 18131,
+   "margin_pct": 45.55,
+   "jurisdiction": null,
+   "id": "wa-079"
+  },
+  {
+   "office": "State House",
+   "district": "22",
+   "title": "Legislative District 22 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 35240,
+   "candidates": [
+    {
+     "name": "Beth Doglio",
+     "party": "DEM",
+     "votes": 25877,
+     "write_in": false,
+     "pct": 73.43,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Don Hewett",
+     "party": "REP",
+     "votes": 9268,
+     "write_in": false,
+     "pct": 26.3,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 95,
+     "write_in": true,
+     "pct": 0.27,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Beth Doglio",
+   "margin_votes": 16609,
+   "margin_pct": 47.13,
+   "jurisdiction": null,
+   "id": "wa-080"
+  },
+  {
+   "office": "State House",
+   "district": "22",
+   "title": "Legislative District 22 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 31921,
+   "candidates": [
+    {
+     "name": "Lisa Parshley",
+     "party": "DEM",
+     "votes": 22387,
+     "write_in": false,
+     "pct": 70.13,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jamie Keenan-deVargas",
+     "party": "DEM",
+     "votes": 8671,
+     "write_in": false,
+     "pct": 27.16,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 863,
+     "write_in": true,
+     "pct": 2.7,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Lisa Parshley",
+   "margin_votes": 13716,
+   "margin_pct": 42.97,
+   "jurisdiction": null,
+   "id": "wa-081"
+  },
+  {
+   "office": "State House",
+   "district": "23",
+   "title": "Legislative District 23 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 48693,
+   "candidates": [
+    {
+     "name": "Tarra Simmons",
+     "party": "DEM",
+     "votes": 24236,
+     "write_in": false,
+     "pct": 49.77,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Daria Ilgen",
+     "party": "DEM",
+     "votes": 23776,
+     "write_in": false,
+     "pct": 48.83,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 681,
+     "write_in": true,
+     "pct": 1.4,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Tarra Simmons",
+   "margin_votes": 460,
+   "margin_pct": 0.94,
+   "jurisdiction": null,
+   "id": "wa-082"
+  },
+  {
+   "office": "State House",
+   "district": "23",
+   "title": "Legislative District 23 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 52119,
+   "candidates": [
+    {
+     "name": "Greg Nance",
+     "party": "DEM",
+     "votes": 36882,
+     "write_in": false,
+     "pct": 70.76,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Lance Byrd",
+     "party": "REP",
+     "votes": 15158,
+     "write_in": false,
+     "pct": 29.08,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 79,
+     "write_in": true,
+     "pct": 0.15,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Greg Nance",
+   "margin_votes": 21724,
+   "margin_pct": 41.68,
+   "jurisdiction": null,
+   "id": "wa-083"
+  },
+  {
+   "office": "State House",
+   "district": "24",
+   "title": "Legislative District 24 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 47443,
+   "candidates": [
+    {
+     "name": "Adam Bernbaum",
+     "party": "DEM",
+     "votes": 31035,
+     "write_in": false,
+     "pct": 65.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Eric W. Pratt",
+     "party": "REP",
+     "votes": 16374,
+     "write_in": false,
+     "pct": 34.51,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 34,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Adam Bernbaum",
+   "margin_votes": 14661,
+   "margin_pct": 30.91,
+   "jurisdiction": null,
+   "id": "wa-084"
+  },
+  {
+   "office": "State House",
+   "district": "24",
+   "title": "Legislative District 24 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 46536,
+   "candidates": [
+    {
+     "name": "Kaylee Kuehn",
+     "party": "DEM",
+     "votes": 27766,
+     "write_in": false,
+     "pct": 59.67,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Marcia Kelbon",
+     "party": "NO",
+     "votes": 18651,
+     "write_in": false,
+     "pct": 40.08,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 119,
+     "write_in": true,
+     "pct": 0.26,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Kaylee Kuehn",
+   "margin_votes": 9115,
+   "margin_pct": 19.59,
+   "jurisdiction": null,
+   "id": "wa-085"
+  },
+  {
+   "office": "State House",
+   "district": "25",
+   "title": "Legislative District 25 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 37580,
+   "candidates": [
+    {
+     "name": "David Berg",
+     "party": "DEM",
+     "votes": 19068,
+     "write_in": false,
+     "pct": 50.74,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Keaton",
+     "party": "REP",
+     "votes": 18462,
+     "write_in": false,
+     "pct": 49.13,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 50,
+     "write_in": true,
+     "pct": 0.13,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "David Berg",
+   "margin_votes": 606,
+   "margin_pct": 1.61,
+   "jurisdiction": null,
+   "id": "wa-086"
+  },
+  {
+   "office": "State House",
+   "district": "25",
+   "title": "Legislative District 25 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 37534,
+   "candidates": [
+    {
+     "name": "Cyndy Jacobsen",
+     "party": "REP",
+     "votes": 18794,
+     "write_in": false,
+     "pct": 50.07,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jenn Marie Strickling",
+     "party": "DEM",
+     "votes": 18685,
+     "write_in": false,
+     "pct": 49.78,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 55,
+     "write_in": true,
+     "pct": 0.15,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Cyndy Jacobsen",
+   "margin_votes": 109,
+   "margin_pct": 0.29,
+   "jurisdiction": null,
+   "id": "wa-087"
+  },
+  {
+   "office": "State House",
+   "district": "26",
+   "title": "Legislative District 26 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 56912,
+   "candidates": [
+    {
+     "name": "Adison Richards",
+     "party": "DEM",
+     "votes": 32166,
+     "write_in": false,
+     "pct": 56.52,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "David Olson",
+     "party": "REP",
+     "votes": 24686,
+     "write_in": false,
+     "pct": 43.38,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 60,
+     "write_in": true,
+     "pct": 0.11,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Adison Richards",
+   "margin_votes": 7480,
+   "margin_pct": 13.14,
+   "jurisdiction": null,
+   "id": "wa-088"
+  },
+  {
+   "office": "State House",
+   "district": "26",
+   "title": "Legislative District 26 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 56938,
+   "candidates": [
+    {
+     "name": "Renee Hernandez Greenfield",
+     "party": "DEM",
+     "votes": 31204,
+     "write_in": false,
+     "pct": 54.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Katy Cornell",
+     "party": "REP",
+     "votes": 25660,
+     "write_in": false,
+     "pct": 45.07,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 74,
+     "write_in": true,
+     "pct": 0.13,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Renee Hernandez Greenfield",
+   "margin_votes": 5544,
+   "margin_pct": 9.73,
+   "jurisdiction": null,
+   "id": "wa-089"
+  },
+  {
+   "office": "State House",
+   "district": "27",
+   "title": "Legislative District 27 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43619,
+   "candidates": [
+    {
+     "name": "Laurie Jinkins",
+     "party": "DEM",
+     "votes": 33355,
+     "write_in": false,
+     "pct": 76.47,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Carole Sue Braaten",
+     "party": "REP",
+     "votes": 10158,
+     "write_in": false,
+     "pct": 23.29,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 106,
+     "write_in": true,
+     "pct": 0.24,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Laurie Jinkins",
+   "margin_votes": 23197,
+   "margin_pct": 53.18,
+   "jurisdiction": null,
+   "id": "wa-090"
+  },
+  {
+   "office": "State House",
+   "district": "27",
+   "title": "Legislative District 27 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 35708,
+   "candidates": [
+    {
+     "name": "Jake Fey",
+     "party": "DEM",
+     "votes": 34058,
+     "write_in": false,
+     "pct": 95.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1650,
+     "write_in": true,
+     "pct": 4.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jake Fey",
+   "margin_votes": 32408,
+   "margin_pct": 90.76,
+   "jurisdiction": null,
+   "id": "wa-091"
+  },
+  {
+   "office": "State House",
+   "district": "28",
+   "title": "Legislative District 28 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 34681,
+   "candidates": [
+    {
+     "name": "Mari Leavitt",
+     "party": "DEM",
+     "votes": 22329,
+     "write_in": false,
+     "pct": 64.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kathy Richardson",
+     "party": "REP",
+     "votes": 12296,
+     "write_in": false,
+     "pct": 35.45,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 56,
+     "write_in": true,
+     "pct": 0.16,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mari Leavitt",
+   "margin_votes": 10033,
+   "margin_pct": 28.93,
+   "jurisdiction": null,
+   "id": "wa-092"
+  },
+  {
+   "office": "State House",
+   "district": "28",
+   "title": "Legislative District 28 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 33691,
+   "candidates": [
+    {
+     "name": "Dan Bronoske",
+     "party": "DEM",
+     "votes": 22471,
+     "write_in": false,
+     "pct": 66.7,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kerry Hills",
+     "party": "NON",
+     "votes": 11020,
+     "write_in": false,
+     "pct": 32.71,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 200,
+     "write_in": true,
+     "pct": 0.59,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Dan Bronoske",
+   "margin_votes": 11451,
+   "margin_pct": 33.99,
+   "jurisdiction": null,
+   "id": "wa-093"
+  },
+  {
+   "office": "State House",
+   "district": "29",
+   "title": "Legislative District 29 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 24093,
+   "candidates": [
+    {
+     "name": "Krista Perez",
+     "party": "DEM",
+     "votes": 11875,
+     "write_in": false,
+     "pct": 49.29,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Melanie Morgan",
+     "party": "DEM",
+     "votes": 11134,
+     "write_in": false,
+     "pct": 46.21,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1084,
+     "write_in": true,
+     "pct": 4.5,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Krista Perez",
+   "margin_votes": 741,
+   "margin_pct": 3.08,
+   "jurisdiction": null,
+   "id": "wa-094"
+  },
+  {
+   "office": "State House",
+   "district": "29",
+   "title": "Legislative District 29 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 23802,
+   "candidates": [
+    {
+     "name": "Patrick Stickney",
+     "party": "DEM",
+     "votes": 11361,
+     "write_in": false,
+     "pct": 47.73,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joe Bushnell",
+     "party": "DEM",
+     "votes": 11348,
+     "write_in": false,
+     "pct": 47.68,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1093,
+     "write_in": true,
+     "pct": 4.59,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Patrick Stickney",
+   "margin_votes": 13,
+   "margin_pct": 0.05,
+   "jurisdiction": null,
+   "id": "wa-095"
+  },
+  {
+   "office": "State House",
+   "district": "30",
+   "title": "Legislative District 30 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25022,
+   "candidates": [
+    {
+     "name": "Jamila E. Taylor",
+     "party": "DEM",
+     "votes": 16402,
+     "write_in": false,
+     "pct": 65.55,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tiffany Bowyer",
+     "party": "REP",
+     "votes": 8592,
+     "write_in": false,
+     "pct": 34.34,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 28,
+     "write_in": true,
+     "pct": 0.11,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jamila E. Taylor",
+   "margin_votes": 7810,
+   "margin_pct": 31.21,
+   "jurisdiction": null,
+   "id": "wa-096"
+  },
+  {
+   "office": "State House",
+   "district": "30",
+   "title": "Legislative District 30 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 24635,
+   "candidates": [
+    {
+     "name": "Kristine Reeves",
+     "party": "DEM",
+     "votes": 16123,
+     "write_in": false,
+     "pct": 65.45,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Paul McDaniel",
+     "party": "IND",
+     "votes": 8434,
+     "write_in": false,
+     "pct": 34.24,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 78,
+     "write_in": true,
+     "pct": 0.32,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Kristine Reeves",
+   "margin_votes": 7689,
+   "margin_pct": 31.21,
+   "jurisdiction": null,
+   "id": "wa-097"
+  },
+  {
+   "office": "State House",
+   "district": "31",
+   "title": "Legislative District 31 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43288,
+   "candidates": [
+    {
+     "name": "Drew Stokesbary",
+     "party": "REP",
+     "votes": 24212,
+     "write_in": false,
+     "pct": 55.93,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Stephen Szczurko-Walton",
+     "party": "DEM",
+     "votes": 19034,
+     "write_in": false,
+     "pct": 43.97,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 42,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Drew Stokesbary",
+   "margin_votes": 5178,
+   "margin_pct": 11.96,
+   "jurisdiction": null,
+   "id": "wa-098"
+  },
+  {
+   "office": "State House",
+   "district": "31",
+   "title": "Legislative District 31 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43225,
+   "candidates": [
+    {
+     "name": "Joshua Penner",
+     "party": "REP",
+     "votes": 22998,
+     "write_in": false,
+     "pct": 53.21,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "John Bielka",
+     "party": "DE2",
+     "votes": 20167,
+     "write_in": false,
+     "pct": 46.66,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 60,
+     "write_in": true,
+     "pct": 0.14,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Joshua Penner",
+   "margin_votes": 2831,
+   "margin_pct": 6.55,
+   "jurisdiction": null,
+   "id": "wa-099"
+  },
+  {
+   "office": "State House",
+   "district": "32",
+   "title": "Legislative District 32 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 38677,
+   "candidates": [
+    {
+     "name": "Danica Noble",
+     "party": "DEM",
+     "votes": 19368,
+     "write_in": false,
+     "pct": 50.08,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Scully",
+     "party": "DEM",
+     "votes": 18602,
+     "write_in": false,
+     "pct": 48.1,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 707,
+     "write_in": true,
+     "pct": 1.83,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Danica Noble",
+   "margin_votes": 766,
+   "margin_pct": 1.98,
+   "jurisdiction": null,
+   "id": "wa-100"
+  },
+  {
+   "office": "State House",
+   "district": "32",
+   "title": "Legislative District 32 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 38502,
+   "candidates": [
+    {
+     "name": "Lauren Davis",
+     "party": "DEM",
+     "votes": 28231,
+     "write_in": false,
+     "pct": 73.32,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Imraan Siddiqi",
+     "party": "DEM",
+     "votes": 9613,
+     "write_in": false,
+     "pct": 24.97,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 658,
+     "write_in": true,
+     "pct": 1.71,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Lauren Davis",
+   "margin_votes": 18618,
+   "margin_pct": 48.35,
+   "jurisdiction": null,
+   "id": "wa-101"
+  },
+  {
+   "office": "State House",
+   "district": "33",
+   "title": "Legislative District 33 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 26682,
+   "candidates": [
+    {
+     "name": "Edwin Obras",
+     "party": "DEM",
+     "votes": 19331,
+     "write_in": false,
+     "pct": 72.45,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Martinez",
+     "party": "REP",
+     "votes": 7283,
+     "write_in": false,
+     "pct": 27.3,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 68,
+     "write_in": true,
+     "pct": 0.25,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Edwin Obras",
+   "margin_votes": 12048,
+   "margin_pct": 45.15,
+   "jurisdiction": null,
+   "id": "wa-102"
+  },
+  {
+   "office": "State House",
+   "district": "33",
+   "title": "Legislative District 33 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 26492,
+   "candidates": [
+    {
+     "name": "Mia Su-Ling Gregerson",
+     "party": "DEM",
+     "votes": 19339,
+     "write_in": false,
+     "pct": 73.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Yuri Marinchik",
+     "party": "REP",
+     "votes": 7076,
+     "write_in": false,
+     "pct": 26.71,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 77,
+     "write_in": true,
+     "pct": 0.29,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mia Su-Ling Gregerson",
+   "margin_votes": 12263,
+   "margin_pct": 46.29,
+   "jurisdiction": null,
+   "id": "wa-103"
+  },
+  {
+   "office": "State House",
+   "district": "34",
+   "title": "Legislative District 34 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 34844,
+   "candidates": [
+    {
+     "name": "Brianna K. Thomas",
+     "party": "DEM",
+     "votes": 33915,
+     "write_in": false,
+     "pct": 97.33,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 929,
+     "write_in": true,
+     "pct": 2.67,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Brianna K. Thomas",
+   "margin_votes": 32986,
+   "margin_pct": 94.66,
+   "jurisdiction": null,
+   "id": "wa-104"
+  },
+  {
+   "office": "State House",
+   "district": "34",
+   "title": "Legislative District 34 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 39725,
+   "candidates": [
+    {
+     "name": "Joe Fitzgibbon",
+     "party": "DEM",
+     "votes": 27294,
+     "write_in": false,
+     "pct": 68.71,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Anito",
+     "party": "DEM",
+     "votes": 11857,
+     "write_in": false,
+     "pct": 29.85,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 574,
+     "write_in": true,
+     "pct": 1.44,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Joe Fitzgibbon",
+   "margin_votes": 15437,
+   "margin_pct": 38.86,
+   "jurisdiction": null,
+   "id": "wa-105"
+  },
+  {
+   "office": "State House",
+   "district": "35",
+   "title": "Legislative District 35 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43350,
+   "candidates": [
+    {
+     "name": "Dan Griffey",
+     "party": "REP",
+     "votes": 21755,
+     "write_in": false,
+     "pct": 50.18,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Pierson",
+     "party": "DEM",
+     "votes": 21543,
+     "write_in": false,
+     "pct": 49.7,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 52,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Dan Griffey",
+   "margin_votes": 212,
+   "margin_pct": 0.48,
+   "jurisdiction": null,
+   "id": "wa-106"
+  },
+  {
+   "office": "State House",
+   "district": "35",
+   "title": "Legislative District 35 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43323,
+   "candidates": [
+    {
+     "name": "Travis Couture",
+     "party": "REP",
+     "votes": 21839,
+     "write_in": false,
+     "pct": 50.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Maria Littlesun",
+     "party": "DEM",
+     "votes": 21431,
+     "write_in": false,
+     "pct": 49.47,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 53,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 3,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Travis Couture",
+   "margin_votes": 408,
+   "margin_pct": 0.94,
+   "jurisdiction": null,
+   "id": "wa-107"
+  },
+  {
+   "office": "State House",
+   "district": "36",
+   "title": "Legislative District 36 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 38057,
+   "candidates": [
+    {
+     "name": "Julia Grant Reed",
+     "party": "DEM",
+     "votes": 37463,
+     "write_in": false,
+     "pct": 98.44,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 594,
+     "write_in": true,
+     "pct": 1.56,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Julia Grant Reed",
+   "margin_votes": 36869,
+   "margin_pct": 96.88,
+   "jurisdiction": null,
+   "id": "wa-108"
+  },
+  {
+   "office": "State House",
+   "district": "36",
+   "title": "Legislative District 36 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 37971,
+   "candidates": [
+    {
+     "name": "Liz Berry",
+     "party": "DEM",
+     "votes": 37388,
+     "write_in": false,
+     "pct": 98.46,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 583,
+     "write_in": true,
+     "pct": 1.54,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Liz Berry",
+   "margin_votes": 36805,
+   "margin_pct": 96.92,
+   "jurisdiction": null,
+   "id": "wa-109"
+  },
+  {
+   "office": "State House",
+   "district": "37",
+   "title": "Legislative District 37 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 33151,
+   "candidates": [
+    {
+     "name": "Kelabe Tewolde",
+     "party": "DEM",
+     "votes": 20500,
+     "write_in": false,
+     "pct": 61.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Sharon Tomiko Santos",
+     "party": "DEM",
+     "votes": 12350,
+     "write_in": false,
+     "pct": 37.25,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 301,
+     "write_in": true,
+     "pct": 0.91,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Kelabe Tewolde",
+   "margin_votes": 8150,
+   "margin_pct": 24.59,
+   "jurisdiction": null,
+   "id": "wa-110"
+  },
+  {
+   "office": "State House",
+   "district": "37",
+   "title": "Legislative District 37 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 32640,
+   "candidates": [
+    {
+     "name": "Jaelynn Scott",
+     "party": "DEM",
+     "votes": 28465,
+     "write_in": false,
+     "pct": 87.21,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Evon McCorkle",
+     "party": "IND",
+     "votes": 3899,
+     "write_in": false,
+     "pct": 11.95,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 276,
+     "write_in": true,
+     "pct": 0.85,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jaelynn Scott",
+   "margin_votes": 24566,
+   "margin_pct": 75.26,
+   "jurisdiction": null,
+   "id": "wa-111"
+  },
+  {
+   "office": "State House",
+   "district": "38",
+   "title": "Legislative District 38 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 33656,
+   "candidates": [
+    {
+     "name": "Julio Cortes",
+     "party": "DEM",
+     "votes": 22557,
+     "write_in": false,
+     "pct": 67.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Thomas (Jeff) Kelly",
+     "party": "CAC",
+     "votes": 10813,
+     "write_in": false,
+     "pct": 32.13,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 286,
+     "write_in": true,
+     "pct": 0.85,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Julio Cortes",
+   "margin_votes": 11744,
+   "margin_pct": 34.89,
+   "jurisdiction": null,
+   "id": "wa-112"
+  },
+  {
+   "office": "State House",
+   "district": "38",
+   "title": "Legislative District 38 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27762,
+   "candidates": [
+    {
+     "name": "Mary Fosse",
+     "party": "DEM",
+     "votes": 25847,
+     "write_in": false,
+     "pct": 93.1,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 1915,
+     "write_in": true,
+     "pct": 6.9,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Mary Fosse",
+   "margin_votes": 23932,
+   "margin_pct": 86.2,
+   "jurisdiction": null,
+   "id": "wa-113"
+  },
+  {
+   "office": "State House",
+   "district": "39",
+   "title": "Legislative District 39 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 41260,
+   "candidates": [
+    {
+     "name": "Sam Low",
+     "party": "REP",
+     "votes": 21770,
+     "write_in": false,
+     "pct": 52.76,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kathryn Lewandowsky",
+     "party": "DEM",
+     "votes": 19451,
+     "write_in": false,
+     "pct": 47.14,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 39,
+     "write_in": true,
+     "pct": 0.09,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Sam Low",
+   "margin_votes": 2319,
+   "margin_pct": 5.62,
+   "jurisdiction": null,
+   "id": "wa-114"
+  },
+  {
+   "office": "State House",
+   "district": "39",
+   "title": "Legislative District 39 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 41110,
+   "candidates": [
+    {
+     "name": "Steve Ewing",
+     "party": "REP",
+     "votes": 20672,
+     "write_in": false,
+     "pct": 50.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ida Keeley",
+     "party": "DEM",
+     "votes": 20390,
+     "write_in": false,
+     "pct": 49.6,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 48,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 2
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Steve Ewing",
+   "margin_votes": 282,
+   "margin_pct": 0.68,
+   "jurisdiction": null,
+   "id": "wa-115"
+  },
+  {
+   "office": "State House",
+   "district": "40",
+   "title": "Legislative District 40 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 53749,
+   "candidates": [
+    {
+     "name": "Debra Lekanoff",
+     "party": "DEM",
+     "votes": 40274,
+     "write_in": false,
+     "pct": 74.93,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Cindy Carter",
+     "party": "REP",
+     "votes": 13433,
+     "write_in": false,
+     "pct": 24.99,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 42,
+     "write_in": true,
+     "pct": 0.08,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Debra Lekanoff",
+   "margin_votes": 26841,
+   "margin_pct": 49.94,
+   "jurisdiction": null,
+   "id": "wa-116"
+  },
+  {
+   "office": "State House",
+   "district": "40",
+   "title": "Legislative District 40 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 52659,
+   "candidates": [
+    {
+     "name": "Alex Ramel",
+     "party": "DEM",
+     "votes": 40235,
+     "write_in": false,
+     "pct": 76.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Segault",
+     "party": "NO",
+     "votes": 12303,
+     "write_in": false,
+     "pct": 23.36,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 121,
+     "write_in": true,
+     "pct": 0.23,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 2,
+    "total": 3
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Alex Ramel",
+   "margin_votes": 27932,
+   "margin_pct": 53.05,
+   "jurisdiction": null,
+   "id": "wa-117"
+  },
+  {
+   "office": "State House",
+   "district": "41",
+   "title": "Legislative District 41 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 38665,
+   "candidates": [
+    {
+     "name": "Janice Zahn",
+     "party": "DEM",
+     "votes": 27442,
+     "write_in": false,
+     "pct": 70.97,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Elle Nguyen",
+     "party": "REP",
+     "votes": 11153,
+     "write_in": false,
+     "pct": 28.85,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 70,
+     "write_in": true,
+     "pct": 0.18,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Janice Zahn",
+   "margin_votes": 16289,
+   "margin_pct": 42.12,
+   "jurisdiction": null,
+   "id": "wa-118"
+  },
+  {
+   "office": "State House",
+   "district": "41",
+   "title": "Legislative District 41 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 38264,
+   "candidates": [
+    {
+     "name": "My-Linh T Thai",
+     "party": "DEM",
+     "votes": 23038,
+     "write_in": false,
+     "pct": 60.21,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Rosen",
+     "party": "IND",
+     "votes": 15170,
+     "write_in": false,
+     "pct": 39.65,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 56,
+     "write_in": true,
+     "pct": 0.15,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "My-Linh T Thai",
+   "margin_votes": 7868,
+   "margin_pct": 20.56,
+   "jurisdiction": null,
+   "id": "wa-119"
+  },
+  {
+   "office": "State House",
+   "district": "42",
+   "title": "Legislative District 42 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 60244,
+   "candidates": [
+    {
+     "name": "Alicia Rule",
+     "party": "DEM",
+     "votes": 35314,
+     "write_in": false,
+     "pct": 58.62,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Misty Flowers",
+     "party": "REP",
+     "votes": 24871,
+     "write_in": false,
+     "pct": 41.28,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 59,
+     "write_in": true,
+     "pct": 0.1,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Alicia Rule",
+   "margin_votes": 10443,
+   "margin_pct": 17.34,
+   "jurisdiction": null,
+   "id": "wa-120"
+  },
+  {
+   "office": "State House",
+   "district": "42",
+   "title": "Legislative District 42 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 60314,
+   "candidates": [
+    {
+     "name": "Joe Timmons",
+     "party": "DEM",
+     "votes": 34022,
+     "write_in": false,
+     "pct": 56.41,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Justin Pike",
+     "party": "REP",
+     "votes": 26253,
+     "write_in": false,
+     "pct": 43.53,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 39,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Joe Timmons",
+   "margin_votes": 7769,
+   "margin_pct": 12.88,
+   "jurisdiction": null,
+   "id": "wa-121"
+  },
+  {
+   "office": "State House",
+   "district": "43",
+   "title": "Legislative District 43 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 33125,
+   "candidates": [
+    {
+     "name": "Nicole Macri",
+     "party": "DEM",
+     "votes": 30439,
+     "write_in": false,
+     "pct": 91.89,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Alby Clendennin",
+     "party": "DEM",
+     "votes": 2338,
+     "write_in": false,
+     "pct": 7.06,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 348,
+     "write_in": true,
+     "pct": 1.05,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Nicole Macri",
+   "margin_votes": 28101,
+   "margin_pct": 84.83,
+   "jurisdiction": null,
+   "id": "wa-122"
+  },
+  {
+   "office": "State House",
+   "district": "43",
+   "title": "Legislative District 43 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 27461,
+   "candidates": [
+    {
+     "name": "Shaun Scott",
+     "party": "DEM",
+     "votes": 26710,
+     "write_in": false,
+     "pct": 97.27,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 751,
+     "write_in": true,
+     "pct": 2.73,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Shaun Scott",
+   "margin_votes": 25959,
+   "margin_pct": 94.54,
+   "jurisdiction": null,
+   "id": "wa-123"
+  },
+  {
+   "office": "State House",
+   "district": "44",
+   "title": "Legislative District 44 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43862,
+   "candidates": [
+    {
+     "name": "Brandy Donaghy",
+     "party": "DEM",
+     "votes": 26671,
+     "write_in": false,
+     "pct": 60.81,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Elder",
+     "party": "REP",
+     "votes": 17161,
+     "write_in": false,
+     "pct": 39.12,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 30,
+     "write_in": true,
+     "pct": 0.07,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Brandy Donaghy",
+   "margin_votes": 9510,
+   "margin_pct": 21.69,
+   "jurisdiction": null,
+   "id": "wa-124"
+  },
+  {
+   "office": "State House",
+   "district": "44",
+   "title": "Legislative District 44 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 43855,
+   "candidates": [
+    {
+     "name": "April Berg",
+     "party": "DEM",
+     "votes": 27178,
+     "write_in": false,
+     "pct": 61.97,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tonya Stadlman",
+     "party": "REP",
+     "votes": 16651,
+     "write_in": false,
+     "pct": 37.97,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 26,
+     "write_in": true,
+     "pct": 0.06,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "April Berg",
+   "margin_votes": 10527,
+   "margin_pct": 24.0,
+   "jurisdiction": null,
+   "id": "wa-125"
+  },
+  {
+   "office": "State House",
+   "district": "45",
+   "title": "Legislative District 45 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 41984,
+   "candidates": [
+    {
+     "name": "Roger Goodman",
+     "party": "DEM",
+     "votes": 30110,
+     "write_in": false,
+     "pct": 71.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "JoAnn Tolentino",
+     "party": "REP",
+     "votes": 11822,
+     "write_in": false,
+     "pct": 28.16,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 52,
+     "write_in": true,
+     "pct": 0.12,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Roger Goodman",
+   "margin_votes": 18288,
+   "margin_pct": 43.56,
+   "jurisdiction": null,
+   "id": "wa-126"
+  },
+  {
+   "office": "State House",
+   "district": "45",
+   "title": "Legislative District 45 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 41110,
+   "candidates": [
+    {
+     "name": "Vanessa Kritzer",
+     "party": "DEM",
+     "votes": 30741,
+     "write_in": false,
+     "pct": 74.78,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "John P Gibbons",
+     "party": "REP",
+     "votes": 10251,
+     "write_in": false,
+     "pct": 24.94,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 118,
+     "write_in": true,
+     "pct": 0.29,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Vanessa Kritzer",
+   "margin_votes": 20490,
+   "margin_pct": 49.84,
+   "jurisdiction": null,
+   "id": "wa-127"
+  },
+  {
+   "office": "State House",
+   "district": "46",
+   "title": "Legislative District 46 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 39665,
+   "candidates": [
+    {
+     "name": "Gerry Pollet",
+     "party": "DEM",
+     "votes": 25715,
+     "write_in": false,
+     "pct": 64.83,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Will Dreher",
+     "party": "DEM",
+     "votes": 13652,
+     "write_in": false,
+     "pct": 34.42,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 298,
+     "write_in": true,
+     "pct": 0.75,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Gerry Pollet",
+   "margin_votes": 12063,
+   "margin_pct": 30.41,
+   "jurisdiction": null,
+   "id": "wa-128"
+  },
+  {
+   "office": "State House",
+   "district": "46",
+   "title": "Legislative District 46 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 40328,
+   "candidates": [
+    {
+     "name": "Darya Farivar",
+     "party": "DEM",
+     "votes": 36296,
+     "write_in": false,
+     "pct": 90.0,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Rodney 'Star' Thornley",
+     "party": "IND",
+     "votes": 3857,
+     "write_in": false,
+     "pct": 9.56,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 175,
+     "write_in": true,
+     "pct": 0.43,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Darya Farivar",
+   "margin_votes": 32439,
+   "margin_pct": 80.44,
+   "jurisdiction": null,
+   "id": "wa-129"
+  },
+  {
+   "office": "State House",
+   "district": "47",
+   "title": "Legislative District 47 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 28902,
+   "candidates": [
+    {
+     "name": "Debra Jean Entenman",
+     "party": "DEM",
+     "votes": 18275,
+     "write_in": false,
+     "pct": 63.23,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Cobi Clark",
+     "party": "LIB",
+     "votes": 10390,
+     "write_in": false,
+     "pct": 35.95,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 237,
+     "write_in": true,
+     "pct": 0.82,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Debra Jean Entenman",
+   "margin_votes": 7885,
+   "margin_pct": 27.28,
+   "jurisdiction": null,
+   "id": "wa-130"
+  },
+  {
+   "office": "State House",
+   "district": "47",
+   "title": "Legislative District 47 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29677,
+   "candidates": [
+    {
+     "name": "Chris Stearns",
+     "party": "DEM",
+     "votes": 18501,
+     "write_in": false,
+     "pct": 62.34,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ted Cooke",
+     "party": "REP",
+     "votes": 11128,
+     "write_in": false,
+     "pct": 37.5,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 48,
+     "write_in": true,
+     "pct": 0.16,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Chris Stearns",
+   "margin_votes": 7373,
+   "margin_pct": 24.84,
+   "jurisdiction": null,
+   "id": "wa-131"
+  },
+  {
+   "office": "State House",
+   "district": "48",
+   "title": "Legislative District 48 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 28230,
+   "candidates": [
+    {
+     "name": "Osman Salahuddin",
+     "party": "DEM",
+     "votes": 19542,
+     "write_in": false,
+     "pct": 69.22,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jeffery Poppe",
+     "party": "REP",
+     "votes": 8635,
+     "write_in": false,
+     "pct": 30.59,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 53,
+     "write_in": true,
+     "pct": 0.19,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Osman Salahuddin",
+   "margin_votes": 10907,
+   "margin_pct": 38.63,
+   "jurisdiction": null,
+   "id": "wa-132"
+  },
+  {
+   "office": "State House",
+   "district": "48",
+   "title": "Legislative District 48 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25676,
+   "candidates": [
+    {
+     "name": "Jessica Forsythe",
+     "party": "DEM",
+     "votes": 13117,
+     "write_in": false,
+     "pct": 51.09,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Amy Walen",
+     "party": "DEM",
+     "votes": 12066,
+     "write_in": false,
+     "pct": 46.99,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 493,
+     "write_in": true,
+     "pct": 1.92,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 1,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Jessica Forsythe",
+   "margin_votes": 1051,
+   "margin_pct": 4.1,
+   "jurisdiction": null,
+   "id": "wa-133"
+  },
+  {
+   "office": "State House",
+   "district": "49",
+   "title": "Legislative District 49 - State Representative Pos. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 42837,
+   "candidates": [
+    {
+     "name": "Kim D. Harless",
+     "party": "DEM",
+     "votes": 30170,
+     "write_in": false,
+     "pct": 70.43,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Sarah Mittelman",
+     "party": "REP",
+     "votes": 12566,
+     "write_in": false,
+     "pct": 29.33,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 101,
+     "write_in": true,
+     "pct": 0.24,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 0,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Kim D. Harless",
+   "margin_votes": 17604,
+   "margin_pct": 41.1,
+   "jurisdiction": null,
+   "id": "wa-134"
+  },
+  {
+   "office": "State House",
+   "district": "49",
+   "title": "Legislative District 49 - State Representative Pos. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 42635,
+   "candidates": [
+    {
+     "name": "Monica Jurado Stonier",
+     "party": "DEM",
+     "votes": 30850,
+     "write_in": false,
+     "pct": 72.36,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Derek Thompson",
+     "party": "REP",
+     "votes": 11684,
+     "write_in": false,
+     "pct": 27.4,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Write-in",
+     "party": null,
+     "votes": 101,
+     "write_in": true,
+     "pct": 0.24,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "counties/jurisdictions",
+    "reporting": 0,
+    "total": 1
+   },
+   "results_as_of": "2026-11-04T17:08:35.8686059Z",
+   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+   "retrieved_at": "2026-11-04T18:57:56Z",
+   "leading": "Monica Jurado Stonier",
+   "margin_votes": 19166,
+   "margin_pct": 44.96,
+   "jurisdiction": null,
+   "id": "wa-135"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 135,
+  "by_office": {
+   "US House": 10,
+   "Ballot Measure": 3,
+   "State Senate": 24,
+   "State House": 98
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "state": "WY",
+ "name": "Wyoming",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx"
+ },
+ "status": "Results pending from official source",
+ "results_status": "pending",
+ "source_url": "https://sos.wyo.gov/Elections/Docs/2026/2026GeneralResults.aspx",
+ "retrieved_at": "2026-11-04T19:00:21Z",
+ "contests": [],
+ "pending_reason": "The Wyoming Secretary of State posted unofficial general-election results as PDF summaries whose text layer is unreadable (garbled font encoding). We did not OCR them, to avoid transcription errors; use the official PDFs linked here.",
+ "summary": {
+  "contests": 0,
+  "by_office": {}
+ }
+}

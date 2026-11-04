@@ -1,0 +1,4848 @@
+{
+ "state": "AR",
+ "name": "Arkansas",
+ "election_date": "2026-11-03",
+ "links": {
+  "results": "https://arkansas.tally-enr.com/"
+ },
+ "status": "Unofficial — not yet certified",
+ "results_status": "unofficial_results",
+ "source_url": "https://arkansas.tally-enr.com/",
+ "retrieved_at": "2026-11-04T18:58:14Z",
+ "results_as_of": "2026-11-04T14:26:55.5036547Z",
+ "official_results_flag": false,
+ "contests": [
+  {
+   "office": "US Senate",
+   "district": null,
+   "title": "U.S. Senate",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 885676,
+   "candidates": [
+    {
+     "name": "Tom Cotton",
+     "party": "Republican",
+     "votes": 480576,
+     "write_in": false,
+     "pct": 54.26,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Hallie Shoffner",
+     "party": "Democratic",
+     "votes": 375620,
+     "write_in": false,
+     "pct": 42.41,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Jeff Wadlin",
+     "party": "Libertarian",
+     "votes": 29480,
+     "write_in": false,
+     "pct": 3.33,
+     "rank": 3,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Tom Cotton",
+   "margin_votes": 104956,
+   "margin_pct": 11.85,
+   "jurisdiction": "Statewide",
+   "id": "ar-001"
+  },
+  {
+   "office": "Governor",
+   "district": null,
+   "title": "Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 885615,
+   "candidates": [
+    {
+     "name": "Sarah Huckabee Sanders",
+     "party": "Republican",
+     "votes": 477090,
+     "write_in": false,
+     "pct": 53.87,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Fred Love",
+     "party": "Democratic",
+     "votes": 341645,
+     "write_in": false,
+     "pct": 38.58,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Colt Shelby",
+     "party": "Libertarian",
+     "votes": 66880,
+     "write_in": false,
+     "pct": 7.55,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Sarah Huckabee Sanders",
+   "margin_votes": 135445,
+   "margin_pct": 15.29,
+   "jurisdiction": "Statewide",
+   "id": "ar-002"
+  },
+  {
+   "office": "US House",
+   "district": "1",
+   "title": "U.S. Representative, District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 193961,
+   "candidates": [
+    {
+     "name": "Rick Crawford",
+     "party": "Republican",
+     "votes": 126952,
+     "write_in": false,
+     "pct": 65.45,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Terri Yarbrough Green",
+     "party": "Democratic",
+     "votes": 60073,
+     "write_in": false,
+     "pct": 30.97,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Steve G. Parsons",
+     "party": "Libertarian",
+     "votes": 6936,
+     "write_in": false,
+     "pct": 3.58,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 712,
+    "total": 712
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Rick Crawford",
+   "margin_votes": 66879,
+   "margin_pct": 34.48,
+   "jurisdiction": null,
+   "id": "ar-003"
+  },
+  {
+   "office": "US House",
+   "district": "2",
+   "title": "U.S. Representative, District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 250452,
+   "candidates": [
+    {
+     "name": "French Hill",
+     "party": "Republican",
+     "votes": 127427,
+     "write_in": false,
+     "pct": 50.88,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Jones",
+     "party": "Democratic",
+     "votes": 123025,
+     "write_in": false,
+     "pct": 49.12,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 404,
+    "total": 404
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "French Hill",
+   "margin_votes": 4402,
+   "margin_pct": 1.76,
+   "jurisdiction": null,
+   "id": "ar-004"
+  },
+  {
+   "office": "US House",
+   "district": "3",
+   "title": "U.S. Representative, District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 231905,
+   "candidates": [
+    {
+     "name": "Steve Womack",
+     "party": "Republican",
+     "votes": 127303,
+     "write_in": false,
+     "pct": 54.89,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Robb Ryerse",
+     "party": "Democratic",
+     "votes": 96189,
+     "write_in": false,
+     "pct": 41.48,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "Bobby Wilson",
+     "party": "Libertarian",
+     "votes": 8413,
+     "write_in": false,
+     "pct": 3.63,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 833,
+    "total": 833
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Steve Womack",
+   "margin_votes": 31114,
+   "margin_pct": 13.41,
+   "jurisdiction": null,
+   "id": "ar-005"
+  },
+  {
+   "office": "US House",
+   "district": "4",
+   "title": "U.S. Representative, District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 200406,
+   "candidates": [
+    {
+     "name": "Bruce Westerman",
+     "party": "Republican",
+     "votes": 131253,
+     "write_in": false,
+     "pct": 65.49,
+     "rank": 1,
+     "incumbent": true,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    },
+    {
+     "name": "James \"Rus\" Russell, III",
+     "party": "Democratic",
+     "votes": 69153,
+     "write_in": false,
+     "pct": 34.51,
+     "rank": 2,
+     "incumbent": false,
+     "incumbent_source": "FEC candidate file (incumbent/challenger/open-seat code)"
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 820,
+    "total": 820
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Bruce Westerman",
+   "margin_votes": 62100,
+   "margin_pct": 30.98,
+   "jurisdiction": null,
+   "id": "ar-006"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Attorney General",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 682789,
+   "candidates": [
+    {
+     "name": "Tim Griffin",
+     "party": "Republican",
+     "votes": 682789,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Tim Griffin",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": "Statewide",
+   "id": "ar-007"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Auditor of State",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 671726,
+   "candidates": [
+    {
+     "name": "Dennis Milligan",
+     "party": "Republican",
+     "votes": 671726,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Dennis Milligan",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": "Statewide",
+   "id": "ar-008"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Commissioner of State Lands",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 822550,
+   "candidates": [
+    {
+     "name": "Cole Jester",
+     "party": "Republican",
+     "votes": 527061,
+     "write_in": false,
+     "pct": 64.08,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Christopher Olson",
+     "party": "Libertarian",
+     "votes": 295489,
+     "write_in": false,
+     "pct": 35.92,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Cole Jester",
+   "margin_votes": 231572,
+   "margin_pct": 28.16,
+   "jurisdiction": "Statewide",
+   "id": "ar-009"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Lieutenant Governor",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 839027,
+   "candidates": [
+    {
+     "name": "Leslie Rutledge",
+     "party": "Republican",
+     "votes": 536039,
+     "write_in": false,
+     "pct": 63.89,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Kalagias",
+     "party": "Libertarian",
+     "votes": 302988,
+     "write_in": false,
+     "pct": 36.11,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Leslie Rutledge",
+   "margin_votes": 233051,
+   "margin_pct": 27.78,
+   "jurisdiction": "Statewide",
+   "id": "ar-010"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "Secretary of State",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 877977,
+   "candidates": [
+    {
+     "name": "Kim Hammer",
+     "party": "Republican",
+     "votes": 490380,
+     "write_in": false,
+     "pct": 55.85,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kelly Grappe",
+     "party": "Democratic",
+     "votes": 347435,
+     "write_in": false,
+     "pct": 39.57,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Pakko",
+     "party": "Libertarian",
+     "votes": 40162,
+     "write_in": false,
+     "pct": 4.57,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Kim Hammer",
+   "margin_votes": 142945,
+   "margin_pct": 16.28,
+   "jurisdiction": "Statewide",
+   "id": "ar-011"
+  },
+  {
+   "office": "Statewide Office",
+   "district": null,
+   "title": "State Treasurer",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 679853,
+   "candidates": [
+    {
+     "name": "John Thurston",
+     "party": "Republican",
+     "votes": 679853,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "John Thurston",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": "Statewide",
+   "id": "ar-012"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Issue No. 1",
+   "title": "Issue No. 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 862859,
+   "candidates": [
+    {
+     "name": "For",
+     "party": "Independent",
+     "votes": 595974,
+     "write_in": false,
+     "pct": 69.07,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Against",
+     "party": "Independent",
+     "votes": 266885,
+     "write_in": false,
+     "pct": 30.93,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2762,
+    "total": 2762
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "For",
+   "margin_votes": 329089,
+   "margin_pct": 38.14,
+   "jurisdiction": "Statewide",
+   "id": "ar-013"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Issue No. 2",
+   "title": "Issue No. 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 865055,
+   "candidates": [
+    {
+     "name": "For",
+     "party": "Independent",
+     "votes": 612402,
+     "write_in": false,
+     "pct": 70.79,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Against",
+     "party": "Independent",
+     "votes": 252653,
+     "write_in": false,
+     "pct": 29.21,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2761,
+    "total": 2761
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "For",
+   "margin_votes": 359749,
+   "margin_pct": 41.58,
+   "jurisdiction": "Statewide",
+   "id": "ar-014"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Issue No. 3",
+   "title": "Issue No. 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 850262,
+   "candidates": [
+    {
+     "name": "Against",
+     "party": "Independent",
+     "votes": 431039,
+     "write_in": false,
+     "pct": 50.69,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "For",
+     "party": "Independent",
+     "votes": 419223,
+     "write_in": false,
+     "pct": 49.31,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Against",
+   "margin_votes": 11816,
+   "margin_pct": 1.38,
+   "jurisdiction": "Statewide",
+   "id": "ar-015"
+  },
+  {
+   "office": "Ballot Measure",
+   "district": "Issue No. 4",
+   "title": "Issue No. 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 843684,
+   "candidates": [
+    {
+     "name": "For",
+     "party": "Independent",
+     "votes": 475810,
+     "write_in": false,
+     "pct": 56.4,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Against",
+     "party": "Independent",
+     "votes": 367874,
+     "write_in": false,
+     "pct": 43.6,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 2768,
+    "total": 2768
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "For",
+   "margin_votes": 107936,
+   "margin_pct": 12.8,
+   "jurisdiction": "Statewide",
+   "id": "ar-016"
+  },
+  {
+   "office": "State Senate",
+   "district": "1",
+   "title": "State Senate District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22881,
+   "candidates": [
+    {
+     "name": "Harrell Wilson",
+     "party": "Republican",
+     "votes": 15646,
+     "write_in": false,
+     "pct": 68.38,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Tomeka Butler",
+     "party": "Democratic",
+     "votes": 7235,
+     "write_in": false,
+     "pct": 31.62,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 130,
+    "total": 130
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Harrell Wilson",
+   "margin_votes": 8411,
+   "margin_pct": 36.76,
+   "jurisdiction": null,
+   "id": "ar-017"
+  },
+  {
+   "office": "State Senate",
+   "district": "2",
+   "title": "State Senate District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18304,
+   "candidates": [
+    {
+     "name": "Matt Stone",
+     "party": "Republican",
+     "votes": 18304,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 67,
+    "total": 67
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Matt Stone",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-018"
+  },
+  {
+   "office": "State Senate",
+   "district": "7",
+   "title": "State Senate District 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22058,
+   "candidates": [
+    {
+     "name": "Alan Clark",
+     "party": "Republican",
+     "votes": 22058,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 67,
+    "total": 67
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Alan Clark",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-019"
+  },
+  {
+   "office": "State Senate",
+   "district": "9",
+   "title": "State Senate District 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18885,
+   "candidates": [
+    {
+     "name": "Jessie McGruder",
+     "party": "Democratic",
+     "votes": 12078,
+     "write_in": false,
+     "pct": 63.96,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Kenny Phillips",
+     "party": "Republican",
+     "votes": 6807,
+     "write_in": false,
+     "pct": 36.04,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 89,
+    "total": 89
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jessie McGruder",
+   "margin_votes": 5271,
+   "margin_pct": 27.92,
+   "jurisdiction": null,
+   "id": "ar-020"
+  },
+  {
+   "office": "State Senate",
+   "district": "10",
+   "title": "State Senate District 10",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17658,
+   "candidates": [
+    {
+     "name": "Ronald Caldwell",
+     "party": "Republican",
+     "votes": 17658,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 124,
+    "total": 124
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Ronald Caldwell",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-021"
+  },
+  {
+   "office": "State Senate",
+   "district": "11",
+   "title": "State Senate District 11",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 21148,
+   "candidates": [
+    {
+     "name": "Ricky Hill",
+     "party": "Republican",
+     "votes": 21148,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 67,
+    "total": 67
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Ricky Hill",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-022"
+  },
+  {
+   "office": "State Senate",
+   "district": "13",
+   "title": "State Senate District 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 34140,
+   "candidates": [
+    {
+     "name": "Allison Grigsby Sweatman",
+     "party": "Democratic",
+     "votes": 18101,
+     "write_in": false,
+     "pct": 53.02,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Brandon Achor",
+     "party": "Republican",
+     "votes": 16039,
+     "write_in": false,
+     "pct": 46.98,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 35,
+    "total": 35
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Allison Grigsby Sweatman",
+   "margin_votes": 2062,
+   "margin_pct": 6.04,
+   "jurisdiction": null,
+   "id": "ar-023"
+  },
+  {
+   "office": "State Senate",
+   "district": "14",
+   "title": "State Senate District 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 34010,
+   "candidates": [
+    {
+     "name": "Clarke Tucker",
+     "party": "Democratic",
+     "votes": 26113,
+     "write_in": false,
+     "pct": 76.78,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mark S. Foster",
+     "party": "Libertarian",
+     "votes": 7897,
+     "write_in": false,
+     "pct": 23.22,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 37,
+    "total": 37
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Clarke Tucker",
+   "margin_votes": 18216,
+   "margin_pct": 53.56,
+   "jurisdiction": null,
+   "id": "ar-024"
+  },
+  {
+   "office": "State Senate",
+   "district": "15",
+   "title": "State Senate District 15",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19192,
+   "candidates": [
+    {
+     "name": "Tara Shephard",
+     "party": "Democratic",
+     "votes": 19192,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 27,
+    "total": 27
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Tara Shephard",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-025"
+  },
+  {
+   "office": "State Senate",
+   "district": "16",
+   "title": "State Senate District 16",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 29193,
+   "candidates": [
+    {
+     "name": "Rodney Wright",
+     "party": "Republican",
+     "votes": 17095,
+     "write_in": false,
+     "pct": 58.56,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Joshua Irby",
+     "party": "Democratic",
+     "votes": 12098,
+     "write_in": false,
+     "pct": 41.44,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 30,
+    "total": 30
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Rodney Wright",
+   "margin_votes": 4997,
+   "margin_pct": 17.12,
+   "jurisdiction": null,
+   "id": "ar-026"
+  },
+  {
+   "office": "State Senate",
+   "district": "21",
+   "title": "State Senate District 21",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17779,
+   "candidates": [
+    {
+     "name": "Jeremy Wooldridge",
+     "party": "Republican",
+     "votes": 17779,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 66,
+    "total": 66
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jeremy Wooldridge",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-027"
+  },
+  {
+   "office": "State Senate",
+   "district": "24",
+   "title": "State Senate District 24",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 25896,
+   "candidates": [
+    {
+     "name": "Missy Thomas Irvin",
+     "party": "Republican",
+     "votes": 25896,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 75,
+    "total": 75
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Missy Thomas Irvin",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-028"
+  },
+  {
+   "office": "State Senate",
+   "district": "27",
+   "title": "State Senate District 27",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 18684,
+   "candidates": [
+    {
+     "name": "Justin Boyd",
+     "party": "Republican",
+     "votes": 10015,
+     "write_in": false,
+     "pct": 53.6,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Eduardo Guzman",
+     "party": "Democratic",
+     "votes": 8669,
+     "write_in": false,
+     "pct": 46.4,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 61,
+    "total": 61
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Justin Boyd",
+   "margin_votes": 1346,
+   "margin_pct": 7.2,
+   "jurisdiction": null,
+   "id": "ar-029"
+  },
+  {
+   "office": "State Senate",
+   "district": "28",
+   "title": "State Senate District 28",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 22267,
+   "candidates": [
+    {
+     "name": "Bryan B. King",
+     "party": "Republican",
+     "votes": 22267,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 61,
+    "total": 61
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Bryan B. King",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-030"
+  },
+  {
+   "office": "State Senate",
+   "district": "30",
+   "title": "State Senate District 30",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 19946,
+   "candidates": [
+    {
+     "name": "Denise Garner",
+     "party": "Democratic",
+     "votes": 19946,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 59,
+    "total": 59
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Denise Garner",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-031"
+  },
+  {
+   "office": "State Senate",
+   "district": "31",
+   "title": "State Senate District 31",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12960,
+   "candidates": [
+    {
+     "name": "Clint Penzo",
+     "party": "Republican",
+     "votes": 12960,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 57,
+    "total": 57
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Clint Penzo",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-032"
+  },
+  {
+   "office": "State Senate",
+   "district": "32",
+   "title": "State Senate District 32",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 17740,
+   "candidates": [
+    {
+     "name": "Joshua P. Bryant",
+     "party": "Republican",
+     "votes": 17740,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 129,
+    "total": 129
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Joshua P. Bryant",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-033"
+  },
+  {
+   "office": "State Senate",
+   "district": "35",
+   "title": "State Senate District 35",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 20831,
+   "candidates": [
+    {
+     "name": "Tyler Dees",
+     "party": "Republican",
+     "votes": 20831,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 149,
+    "total": 149
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Tyler Dees",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-034"
+  },
+  {
+   "office": "State House",
+   "district": "1",
+   "title": "State Representative District 1",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6368,
+   "candidates": [
+    {
+     "name": "Mark A. Nichols",
+     "party": "Republican",
+     "votes": 6368,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Mark A. Nichols",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-035"
+  },
+  {
+   "office": "State House",
+   "district": "2",
+   "title": "State Representative District 2",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7478,
+   "candidates": [
+    {
+     "name": "Trey Steimel",
+     "party": "Republican",
+     "votes": 7478,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 30,
+    "total": 30
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Trey Steimel",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-036"
+  },
+  {
+   "office": "State House",
+   "district": "3",
+   "title": "State Representative District 3",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10392,
+   "candidates": [
+    {
+     "name": "Stetson Painter",
+     "party": "Republican",
+     "votes": 7913,
+     "write_in": false,
+     "pct": 76.15,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Carrie Huddleston",
+     "party": "Democratic",
+     "votes": 2479,
+     "write_in": false,
+     "pct": 23.85,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Stetson Painter",
+   "margin_votes": 5434,
+   "margin_pct": 52.3,
+   "jurisdiction": null,
+   "id": "ar-037"
+  },
+  {
+   "office": "State House",
+   "district": "4",
+   "title": "State Representative District 4",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8614,
+   "candidates": [
+    {
+     "name": "Jason Nazarenko",
+     "party": "Republican",
+     "votes": 8614,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 33,
+    "total": 33
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jason Nazarenko",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-038"
+  },
+  {
+   "office": "State House",
+   "district": "5",
+   "title": "State Representative District 5",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8158,
+   "candidates": [
+    {
+     "name": "Mike Bishop",
+     "party": "Republican",
+     "votes": 8158,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 10,
+    "total": 10
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Mike Bishop",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-039"
+  },
+  {
+   "office": "State House",
+   "district": "6",
+   "title": "State Representative District 6",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7244,
+   "candidates": [
+    {
+     "name": "Cody Rogers",
+     "party": "Republican",
+     "votes": 7244,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Cody Rogers",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-040"
+  },
+  {
+   "office": "State House",
+   "district": "7",
+   "title": "State Representative District 7",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6117,
+   "candidates": [
+    {
+     "name": "Brit McKenzie",
+     "party": "Republican",
+     "votes": 6117,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 37,
+    "total": 37
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Brit McKenzie",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-041"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "State Representative District 8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11827,
+   "candidates": [
+    {
+     "name": "Kara Armas",
+     "party": "Republican",
+     "votes": 7063,
+     "write_in": false,
+     "pct": 59.72,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Parker John Stohlton",
+     "party": "Democratic",
+     "votes": 4764,
+     "write_in": false,
+     "pct": 40.28,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 69,
+    "total": 69
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Kara Armas",
+   "margin_votes": 2299,
+   "margin_pct": 19.44,
+   "jurisdiction": null,
+   "id": "ar-042"
+  },
+  {
+   "office": "State House",
+   "district": "8",
+   "title": "State Representative District 8",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8694,
+   "candidates": [
+    {
+     "name": "Brian Armas",
+     "party": "Republican",
+     "votes": 8694,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 69,
+    "total": 69
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Brian Armas",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-043"
+  },
+  {
+   "office": "State House",
+   "district": "9",
+   "title": "State Representative District 9",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 4224,
+   "candidates": [
+    {
+     "name": "Diana Gonzales Worthen",
+     "party": "Democratic",
+     "votes": 2937,
+     "write_in": false,
+     "pct": 69.53,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Matt Goff",
+     "party": "Republican",
+     "votes": 1287,
+     "write_in": false,
+     "pct": 30.47,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Diana Gonzales Worthen",
+   "margin_votes": 1650,
+   "margin_pct": 39.06,
+   "jurisdiction": null,
+   "id": "ar-044"
+  },
+  {
+   "office": "State House",
+   "district": "10",
+   "title": "State Representative District 10",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11649,
+   "candidates": [
+    {
+     "name": "Jacob Allen",
+     "party": "Democratic",
+     "votes": 5923,
+     "write_in": false,
+     "pct": 50.85,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mindy McAlindon",
+     "party": "Republican",
+     "votes": 5726,
+     "write_in": false,
+     "pct": 49.15,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 36,
+    "total": 36
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jacob Allen",
+   "margin_votes": 197,
+   "margin_pct": 1.7,
+   "jurisdiction": null,
+   "id": "ar-045"
+  },
+  {
+   "office": "State House",
+   "district": "11",
+   "title": "State Representative District 11",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6372,
+   "candidates": [
+    {
+     "name": "Rey Hernandez",
+     "party": "Democratic",
+     "votes": 3331,
+     "write_in": false,
+     "pct": 52.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Rebecca Burkes",
+     "party": "Republican",
+     "votes": 3041,
+     "write_in": false,
+     "pct": 47.72,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 29,
+    "total": 29
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Rey Hernandez",
+   "margin_votes": 290,
+   "margin_pct": 4.56,
+   "jurisdiction": null,
+   "id": "ar-046"
+  },
+  {
+   "office": "State House",
+   "district": "12",
+   "title": "State Representative District 12",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11147,
+   "candidates": [
+    {
+     "name": "Hope Hendren Duke",
+     "party": "Republican",
+     "votes": 11147,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 63,
+    "total": 63
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Hope Hendren Duke",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-047"
+  },
+  {
+   "office": "State House",
+   "district": "13",
+   "title": "State Representative District 13",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8087,
+   "candidates": [
+    {
+     "name": "Mitchell Smith",
+     "party": "Democratic",
+     "votes": 4446,
+     "write_in": false,
+     "pct": 54.98,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Scott Richardson",
+     "party": "Republican",
+     "votes": 3641,
+     "write_in": false,
+     "pct": 45.02,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 41,
+    "total": 41
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Mitchell Smith",
+   "margin_votes": 805,
+   "margin_pct": 9.96,
+   "jurisdiction": null,
+   "id": "ar-048"
+  },
+  {
+   "office": "State House",
+   "district": "14",
+   "title": "State Representative District 14",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10211,
+   "candidates": [
+    {
+     "name": "Nick Burkes",
+     "party": "Republican",
+     "votes": 5288,
+     "write_in": false,
+     "pct": 51.79,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Timothy J. Heron, Jr",
+     "party": "Democratic",
+     "votes": 4923,
+     "write_in": false,
+     "pct": 48.21,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 55,
+    "total": 55
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Nick Burkes",
+   "margin_votes": 365,
+   "margin_pct": 3.58,
+   "jurisdiction": null,
+   "id": "ar-049"
+  },
+  {
+   "office": "State House",
+   "district": "15",
+   "title": "State Representative District 15",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7956,
+   "candidates": [
+    {
+     "name": "Daniel Holtmeyer",
+     "party": "Democratic",
+     "votes": 4280,
+     "write_in": false,
+     "pct": 53.8,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "John P. Carr",
+     "party": "Republican",
+     "votes": 3676,
+     "write_in": false,
+     "pct": 46.2,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 20,
+    "total": 20
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Daniel Holtmeyer",
+   "margin_votes": 604,
+   "margin_pct": 7.6,
+   "jurisdiction": null,
+   "id": "ar-050"
+  },
+  {
+   "office": "State House",
+   "district": "16",
+   "title": "State Representative District 16",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12537,
+   "candidates": [
+    {
+     "name": "Kendon Underwood",
+     "party": "Republican",
+     "votes": 7304,
+     "write_in": false,
+     "pct": 58.26,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Letisha Hinds",
+     "party": "Democratic",
+     "votes": 5233,
+     "write_in": false,
+     "pct": 41.74,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 62,
+    "total": 62
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Kendon Underwood",
+   "margin_votes": 2071,
+   "margin_pct": 16.52,
+   "jurisdiction": null,
+   "id": "ar-051"
+  },
+  {
+   "office": "State House",
+   "district": "17",
+   "title": "State Representative District 17",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6829,
+   "candidates": [
+    {
+     "name": "Randy Torres",
+     "party": "Republican",
+     "votes": 6829,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 63,
+    "total": 63
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Randy Torres",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-052"
+  },
+  {
+   "office": "State House",
+   "district": "18",
+   "title": "State Representative District 18",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7994,
+   "candidates": [
+    {
+     "name": "Robin Lundstrum",
+     "party": "Republican",
+     "votes": 7994,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 41,
+    "total": 41
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Robin Lundstrum",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-053"
+  },
+  {
+   "office": "State House",
+   "district": "19",
+   "title": "State Representative District 19",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9121,
+   "candidates": [
+    {
+     "name": "Jamie Atkinson",
+     "party": "Democratic",
+     "votes": 5092,
+     "write_in": false,
+     "pct": 55.83,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Steve Unger",
+     "party": "Republican",
+     "votes": 4029,
+     "write_in": false,
+     "pct": 44.17,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 26,
+    "total": 26
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jamie Atkinson",
+   "margin_votes": 1063,
+   "margin_pct": 11.66,
+   "jurisdiction": null,
+   "id": "ar-054"
+  },
+  {
+   "office": "State House",
+   "district": "20",
+   "title": "State Representative District 20",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8937,
+   "candidates": [
+    {
+     "name": "Max Deitchler",
+     "party": "Democratic",
+     "votes": 8937,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 22,
+    "total": 22
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Max Deitchler",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-055"
+  },
+  {
+   "office": "State House",
+   "district": "21",
+   "title": "State Representative District 21",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5313,
+   "candidates": [
+    {
+     "name": "Nicole Clowney",
+     "party": "Democratic",
+     "votes": 5313,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Nicole Clowney",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-056"
+  },
+  {
+   "office": "State House",
+   "district": "22",
+   "title": "State Representative District 22",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6604,
+   "candidates": [
+    {
+     "name": "David Whitaker",
+     "party": "Democratic",
+     "votes": 6604,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 23,
+    "total": 23
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "David Whitaker",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-057"
+  },
+  {
+   "office": "State House",
+   "district": "23",
+   "title": "State Representative District 23",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10592,
+   "candidates": [
+    {
+     "name": "Kendra Moore",
+     "party": "Republican",
+     "votes": 6035,
+     "write_in": false,
+     "pct": 56.98,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Laura Marsh",
+     "party": "Independent",
+     "votes": 4557,
+     "write_in": false,
+     "pct": 43.02,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 46,
+    "total": 46
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Kendra Moore",
+   "margin_votes": 1478,
+   "margin_pct": 13.96,
+   "jurisdiction": null,
+   "id": "ar-058"
+  },
+  {
+   "office": "State House",
+   "district": "24",
+   "title": "State Representative District 24",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8686,
+   "candidates": [
+    {
+     "name": "Charlene Fite",
+     "party": "Republican",
+     "votes": 6767,
+     "write_in": false,
+     "pct": 77.91,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Ryan Intchauspe",
+     "party": "Democratic",
+     "votes": 1919,
+     "write_in": false,
+     "pct": 22.09,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 16,
+    "total": 16
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Charlene Fite",
+   "margin_votes": 4848,
+   "margin_pct": 55.82,
+   "jurisdiction": null,
+   "id": "ar-059"
+  },
+  {
+   "office": "State House",
+   "district": "25",
+   "title": "State Representative District 25",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 11075,
+   "candidates": [
+    {
+     "name": "Chad Puryear",
+     "party": "Republican",
+     "votes": 7119,
+     "write_in": false,
+     "pct": 64.28,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Courtney King",
+     "party": "Democratic",
+     "votes": 3956,
+     "write_in": false,
+     "pct": 35.72,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Chad Puryear",
+   "margin_votes": 3163,
+   "margin_pct": 28.56,
+   "jurisdiction": null,
+   "id": "ar-060"
+  },
+  {
+   "office": "State House",
+   "district": "26",
+   "title": "State Representative District 26",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7451,
+   "candidates": [
+    {
+     "name": "James Eaton",
+     "party": "Republican",
+     "votes": 7451,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 37,
+    "total": 37
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "James Eaton",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-061"
+  },
+  {
+   "office": "State House",
+   "district": "27",
+   "title": "State Representative District 27",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9122,
+   "candidates": [
+    {
+     "name": "Steven Walker",
+     "party": "Republican",
+     "votes": 9122,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 76,
+    "total": 76
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Steven Walker",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-062"
+  },
+  {
+   "office": "State House",
+   "district": "28",
+   "title": "State Representative District 28",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7633,
+   "candidates": [
+    {
+     "name": "Bart Schulz",
+     "party": "Republican",
+     "votes": 7633,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 47,
+    "total": 47
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Bart Schulz",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-063"
+  },
+  {
+   "office": "State House",
+   "district": "29",
+   "title": "State Representative District 29",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7507,
+   "candidates": [
+    {
+     "name": "Rick McClure",
+     "party": "Republican",
+     "votes": 5289,
+     "write_in": false,
+     "pct": 70.45,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Deonna Morgan",
+     "party": "Democratic",
+     "votes": 2218,
+     "write_in": false,
+     "pct": 29.55,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 25,
+    "total": 25
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Rick McClure",
+   "margin_votes": 3071,
+   "margin_pct": 40.9,
+   "jurisdiction": null,
+   "id": "ar-064"
+  },
+  {
+   "office": "State House",
+   "district": "30",
+   "title": "State Representative District 30",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6504,
+   "candidates": [
+    {
+     "name": "Josh Longmire",
+     "party": "Republican",
+     "votes": 6504,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 23,
+    "total": 23
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Josh Longmire",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-065"
+  },
+  {
+   "office": "State House",
+   "district": "31",
+   "title": "State Representative District 31",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6176,
+   "candidates": [
+    {
+     "name": "Jimmy Gazaway",
+     "party": "Republican",
+     "votes": 6176,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 9,
+    "total": 9
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jimmy Gazaway",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-066"
+  },
+  {
+   "office": "State House",
+   "district": "32",
+   "title": "State Representative District 32",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6972,
+   "candidates": [
+    {
+     "name": "Erika Askeland",
+     "party": "Democratic",
+     "votes": 3537,
+     "write_in": false,
+     "pct": 50.73,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jack Ladyman",
+     "party": "Republican",
+     "votes": 3435,
+     "write_in": false,
+     "pct": 49.27,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 20,
+    "total": 20
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Erika Askeland",
+   "margin_votes": 102,
+   "margin_pct": 1.46,
+   "jurisdiction": null,
+   "id": "ar-067"
+  },
+  {
+   "office": "State House",
+   "district": "33",
+   "title": "State Representative District 33",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6208,
+   "candidates": [
+    {
+     "name": "Jon Milligan",
+     "party": "Republican",
+     "votes": 6208,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 23,
+    "total": 23
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jon Milligan",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-068"
+  },
+  {
+   "office": "State House",
+   "district": "34",
+   "title": "State Representative District 34",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5666,
+   "candidates": [
+    {
+     "name": "Joey L. Carr",
+     "party": "Republican",
+     "votes": 2948,
+     "write_in": false,
+     "pct": 52.03,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Middlebrook",
+     "party": "Democratic",
+     "votes": 2718,
+     "write_in": false,
+     "pct": 47.97,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 10,
+    "total": 10
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Joey L. Carr",
+   "margin_votes": 230,
+   "margin_pct": 4.06,
+   "jurisdiction": null,
+   "id": "ar-069"
+  },
+  {
+   "office": "State House",
+   "district": "35",
+   "title": "State Representative District 35",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7316,
+   "candidates": [
+    {
+     "name": "Audrey P. Willis",
+     "party": "Democratic",
+     "votes": 4218,
+     "write_in": false,
+     "pct": 57.65,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Robert Thorne, Jr.",
+     "party": "Republican",
+     "votes": 3098,
+     "write_in": false,
+     "pct": 42.35,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Audrey P. Willis",
+   "margin_votes": 1120,
+   "margin_pct": 15.3,
+   "jurisdiction": null,
+   "id": "ar-070"
+  },
+  {
+   "office": "State House",
+   "district": "36",
+   "title": "State Representative District 36",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5769,
+   "candidates": [
+    {
+     "name": "Johnny Rye",
+     "party": "Republican",
+     "votes": 3400,
+     "write_in": false,
+     "pct": 58.94,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Shamal C. Carter",
+     "party": "Democratic",
+     "votes": 2369,
+     "write_in": false,
+     "pct": 41.06,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 23,
+    "total": 23
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Johnny Rye",
+   "margin_votes": 1031,
+   "margin_pct": 17.88,
+   "jurisdiction": null,
+   "id": "ar-071"
+  },
+  {
+   "office": "State House",
+   "district": "37",
+   "title": "State Representative District 37",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6244,
+   "candidates": [
+    {
+     "name": "Steve Hollowell",
+     "party": "Republican",
+     "votes": 6244,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 37,
+    "total": 37
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Steve Hollowell",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-072"
+  },
+  {
+   "office": "State House",
+   "district": "38",
+   "title": "State Representative District 38",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7036,
+   "candidates": [
+    {
+     "name": "Dwight Tosh",
+     "party": "Republican",
+     "votes": 7036,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 36,
+    "total": 36
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Dwight Tosh",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-073"
+  },
+  {
+   "office": "State House",
+   "district": "39",
+   "title": "State Representative District 39",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5946,
+   "candidates": [
+    {
+     "name": "Wayne Long",
+     "party": "Republican",
+     "votes": 5946,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 33,
+    "total": 33
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Wayne Long",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-074"
+  },
+  {
+   "office": "State House",
+   "district": "40",
+   "title": "State Representative District 40",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6566,
+   "candidates": [
+    {
+     "name": "Shad Pearce",
+     "party": "Republican",
+     "votes": 6566,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 25,
+    "total": 25
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Shad Pearce",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-075"
+  },
+  {
+   "office": "State House",
+   "district": "41",
+   "title": "State Representative District 41",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10162,
+   "candidates": [
+    {
+     "name": "Alyssa Brown",
+     "party": "Republican",
+     "votes": 10162,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 42,
+    "total": 42
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Alyssa Brown",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-076"
+  },
+  {
+   "office": "State House",
+   "district": "42",
+   "title": "State Representative District 42",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9746,
+   "candidates": [
+    {
+     "name": "Jeremy Riddle",
+     "party": "Republican",
+     "votes": 9746,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 20,
+    "total": 20
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jeremy Riddle",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-077"
+  },
+  {
+   "office": "State House",
+   "district": "43",
+   "title": "State Representative District 43",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8127,
+   "candidates": [
+    {
+     "name": "Rick Beck",
+     "party": "Republican",
+     "votes": 8127,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 43,
+    "total": 43
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Rick Beck",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-078"
+  },
+  {
+   "office": "State House",
+   "district": "44",
+   "title": "State Representative District 44",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7585,
+   "candidates": [
+    {
+     "name": "Bill Teeter",
+     "party": "Republican",
+     "votes": 7585,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 16,
+    "total": 16
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Bill Teeter",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-079"
+  },
+  {
+   "office": "State House",
+   "district": "45",
+   "title": "State Representative District 45",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8234,
+   "candidates": [
+    {
+     "name": "Aaron M. Pilkington",
+     "party": "Republican",
+     "votes": 5254,
+     "write_in": false,
+     "pct": 63.81,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Debra Hobbs",
+     "party": "Independent",
+     "votes": 2980,
+     "write_in": false,
+     "pct": 36.19,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Aaron M. Pilkington",
+   "margin_votes": 2274,
+   "margin_pct": 27.62,
+   "jurisdiction": null,
+   "id": "ar-080"
+  },
+  {
+   "office": "State House",
+   "district": "46",
+   "title": "State Representative District 46",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7519,
+   "candidates": [
+    {
+     "name": "Tonya Fletcher",
+     "party": "Republican",
+     "votes": 7519,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 56,
+    "total": 56
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Tonya Fletcher",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-081"
+  },
+  {
+   "office": "State House",
+   "district": "47",
+   "title": "State Representative District 47",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8454,
+   "candidates": [
+    {
+     "name": "Lee Johnson",
+     "party": "Republican",
+     "votes": 8454,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 36,
+    "total": 36
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Lee Johnson",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-082"
+  },
+  {
+   "office": "State House",
+   "district": "48",
+   "title": "State Representative District 48",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6322,
+   "candidates": [
+    {
+     "name": "Ryan A. Rose",
+     "party": "Republican",
+     "votes": 4409,
+     "write_in": false,
+     "pct": 69.74,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Orion Jackson",
+     "party": "Libertarian",
+     "votes": 1913,
+     "write_in": false,
+     "pct": 30.26,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 10,
+    "total": 10
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Ryan A. Rose",
+   "margin_votes": 2496,
+   "margin_pct": 39.48,
+   "jurisdiction": null,
+   "id": "ar-083"
+  },
+  {
+   "office": "State House",
+   "district": "49",
+   "title": "State Representative District 49",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 2898,
+   "candidates": [
+    {
+     "name": "Jay Richardson",
+     "party": "Democratic",
+     "votes": 2898,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jay Richardson",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-084"
+  },
+  {
+   "office": "State House",
+   "district": "50",
+   "title": "State Representative District 50",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7557,
+   "candidates": [
+    {
+     "name": "Zack Gramlich",
+     "party": "Republican",
+     "votes": 4274,
+     "write_in": false,
+     "pct": 56.56,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Wendy Peer",
+     "party": "Democratic",
+     "votes": 3283,
+     "write_in": false,
+     "pct": 43.44,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 16,
+    "total": 16
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Zack Gramlich",
+   "margin_votes": 991,
+   "margin_pct": 13.12,
+   "jurisdiction": null,
+   "id": "ar-085"
+  },
+  {
+   "office": "State House",
+   "district": "51",
+   "title": "State Representative District 51",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9881,
+   "candidates": [
+    {
+     "name": "Cindy Crawford",
+     "party": "Republican",
+     "votes": 6161,
+     "write_in": false,
+     "pct": 62.35,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jane-Ellen Udouj-Kutchka",
+     "party": "Democratic",
+     "votes": 3720,
+     "write_in": false,
+     "pct": 37.65,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 37,
+    "total": 37
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Cindy Crawford",
+   "margin_votes": 2441,
+   "margin_pct": 24.7,
+   "jurisdiction": null,
+   "id": "ar-086"
+  },
+  {
+   "office": "State House",
+   "district": "52",
+   "title": "State Representative District 52",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6714,
+   "candidates": [
+    {
+     "name": "Brent Montgomery",
+     "party": "Republican",
+     "votes": 6714,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 54,
+    "total": 54
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Brent Montgomery",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-087"
+  },
+  {
+   "office": "State House",
+   "district": "53",
+   "title": "State Representative District 53",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6578,
+   "candidates": [
+    {
+     "name": "Matt Duffield",
+     "party": "Republican",
+     "votes": 4012,
+     "write_in": false,
+     "pct": 60.99,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jennifer Lewter",
+     "party": "Democratic",
+     "votes": 2566,
+     "write_in": false,
+     "pct": 39.01,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Matt Duffield",
+   "margin_votes": 1446,
+   "margin_pct": 21.98,
+   "jurisdiction": null,
+   "id": "ar-088"
+  },
+  {
+   "office": "State House",
+   "district": "54",
+   "title": "State Representative District 54",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9949,
+   "candidates": [
+    {
+     "name": "Mary Bentley",
+     "party": "Republican",
+     "votes": 6321,
+     "write_in": false,
+     "pct": 63.53,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Doug Corbitt",
+     "party": "Democratic",
+     "votes": 3628,
+     "write_in": false,
+     "pct": 36.47,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 37,
+    "total": 37
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Mary Bentley",
+   "margin_votes": 2693,
+   "margin_pct": 27.06,
+   "jurisdiction": null,
+   "id": "ar-089"
+  },
+  {
+   "office": "State House",
+   "district": "55",
+   "title": "State Representative District 55",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9269,
+   "candidates": [
+    {
+     "name": "Cynthia Nations",
+     "party": "Democratic",
+     "votes": 4773,
+     "write_in": false,
+     "pct": 51.49,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Matt Brown",
+     "party": "Republican",
+     "votes": 4496,
+     "write_in": false,
+     "pct": 48.51,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Cynthia Nations",
+   "margin_votes": 277,
+   "margin_pct": 2.98,
+   "jurisdiction": null,
+   "id": "ar-090"
+  },
+  {
+   "office": "State House",
+   "district": "56",
+   "title": "State Representative District 56",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8456,
+   "candidates": [
+    {
+     "name": "Steve Magie",
+     "party": "Democratic",
+     "votes": 5140,
+     "write_in": false,
+     "pct": 60.79,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Brannan",
+     "party": "Republican",
+     "votes": 3316,
+     "write_in": false,
+     "pct": 39.21,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Steve Magie",
+   "margin_votes": 1824,
+   "margin_pct": 21.58,
+   "jurisdiction": null,
+   "id": "ar-091"
+  },
+  {
+   "office": "State House",
+   "district": "57",
+   "title": "State Representative District 57",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9083,
+   "candidates": [
+    {
+     "name": "Cameron Cooper",
+     "party": "Republican",
+     "votes": 9083,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 31,
+    "total": 31
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Cameron Cooper",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-092"
+  },
+  {
+   "office": "State House",
+   "district": "58",
+   "title": "State Representative District 58",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8650,
+   "candidates": [
+    {
+     "name": "Les Eaves",
+     "party": "Republican",
+     "votes": 6436,
+     "write_in": false,
+     "pct": 74.4,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Jocelyn Fry",
+     "party": "Libertarian",
+     "votes": 2214,
+     "write_in": false,
+     "pct": 25.6,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 26,
+    "total": 26
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Les Eaves",
+   "margin_votes": 4222,
+   "margin_pct": 48.8,
+   "jurisdiction": null,
+   "id": "ar-093"
+  },
+  {
+   "office": "State House",
+   "district": "59",
+   "title": "State Representative District 59",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7368,
+   "candidates": [
+    {
+     "name": "Jim Wooten",
+     "party": "Republican",
+     "votes": 7368,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 36,
+    "total": 36
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jim Wooten",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-094"
+  },
+  {
+   "office": "State House",
+   "district": "60",
+   "title": "State Representative District 60",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9403,
+   "candidates": [
+    {
+     "name": "Roger Dale Lynch",
+     "party": "Republican",
+     "votes": 6285,
+     "write_in": false,
+     "pct": 66.84,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Beverly Coleman-Keown",
+     "party": "Democratic",
+     "votes": 2172,
+     "write_in": false,
+     "pct": 23.1,
+     "rank": 2,
+     "incumbent": null
+    },
+    {
+     "name": "Quendy Gibbins Medlin",
+     "party": "Independent",
+     "votes": 946,
+     "write_in": false,
+     "pct": 10.06,
+     "rank": 3,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 47,
+    "total": 47
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Roger Dale Lynch",
+   "margin_votes": 4113,
+   "margin_pct": 43.74,
+   "jurisdiction": null,
+   "id": "ar-095"
+  },
+  {
+   "office": "State House",
+   "district": "61",
+   "title": "State Representative District 61",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7571,
+   "candidates": [
+    {
+     "name": "Jeremiah Moore",
+     "party": "Republican",
+     "votes": 5429,
+     "write_in": false,
+     "pct": 71.71,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Garrett Sheeks",
+     "party": "Libertarian",
+     "votes": 2142,
+     "write_in": false,
+     "pct": 28.29,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 68,
+    "total": 68
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jeremiah Moore",
+   "margin_votes": 3287,
+   "margin_pct": 43.42,
+   "jurisdiction": null,
+   "id": "ar-096"
+  },
+  {
+   "office": "State House",
+   "district": "62",
+   "title": "State Representative District 62",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7456,
+   "candidates": [
+    {
+     "name": "Dexter R. Miller",
+     "party": "Democratic",
+     "votes": 4031,
+     "write_in": false,
+     "pct": 54.06,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Mark D. McElroy",
+     "party": "Republican",
+     "votes": 3425,
+     "write_in": false,
+     "pct": 45.94,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 88,
+    "total": 88
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Dexter R. Miller",
+   "margin_votes": 606,
+   "margin_pct": 8.12,
+   "jurisdiction": null,
+   "id": "ar-097"
+  },
+  {
+   "office": "State House",
+   "district": "63",
+   "title": "State Representative District 63",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 4706,
+   "candidates": [
+    {
+     "name": "Lincoln Barnett",
+     "party": "Democratic",
+     "votes": 4706,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 17,
+    "total": 17
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Lincoln Barnett",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-098"
+  },
+  {
+   "office": "State House",
+   "district": "64",
+   "title": "State Representative District 64",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6619,
+   "candidates": [
+    {
+     "name": "Kenneth B. Ferguson",
+     "party": "Democratic",
+     "votes": 6619,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 72,
+    "total": 72
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Kenneth B. Ferguson",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-099"
+  },
+  {
+   "office": "State House",
+   "district": "65",
+   "title": "State Representative District 65",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5350,
+   "candidates": [
+    {
+     "name": "Glenn Barnes",
+     "party": "Democratic",
+     "votes": 5350,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 84,
+    "total": 84
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Glenn Barnes",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-100"
+  },
+  {
+   "office": "State House",
+   "district": "66",
+   "title": "State Representative District 66",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6287,
+   "candidates": [
+    {
+     "name": "Mark W. Perry",
+     "party": "Democratic",
+     "votes": 6287,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 11,
+    "total": 11
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Mark W. Perry",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-101"
+  },
+  {
+   "office": "State House",
+   "district": "67",
+   "title": "State Representative District 67",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10560,
+   "candidates": [
+    {
+     "name": "Andrew Cade Eberly",
+     "party": "Democratic",
+     "votes": 5873,
+     "write_in": false,
+     "pct": 55.62,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Karilyn Brown",
+     "party": "Republican",
+     "votes": 4687,
+     "write_in": false,
+     "pct": 44.38,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Andrew Cade Eberly",
+   "margin_votes": 1186,
+   "margin_pct": 11.24,
+   "jurisdiction": null,
+   "id": "ar-102"
+  },
+  {
+   "office": "State House",
+   "district": "68",
+   "title": "State Representative District 68",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8114,
+   "candidates": [
+    {
+     "name": "Brian S. Evans",
+     "party": "Republican",
+     "votes": 8114,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 26,
+    "total": 26
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Brian S. Evans",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-103"
+  },
+  {
+   "office": "State House",
+   "district": "69",
+   "title": "State Representative District 69",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8883,
+   "candidates": [
+    {
+     "name": "David Ray",
+     "party": "Republican",
+     "votes": 5466,
+     "write_in": false,
+     "pct": 61.53,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Dean Hunter",
+     "party": "Democratic",
+     "votes": 3417,
+     "write_in": false,
+     "pct": 38.47,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "David Ray",
+   "margin_votes": 2049,
+   "margin_pct": 23.06,
+   "jurisdiction": null,
+   "id": "ar-104"
+  },
+  {
+   "office": "State House",
+   "district": "70",
+   "title": "State Representative District 70",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12716,
+   "candidates": [
+    {
+     "name": "Alex Holladay",
+     "party": "Democratic",
+     "votes": 6944,
+     "write_in": false,
+     "pct": 54.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Bo Renshaw",
+     "party": "Republican",
+     "votes": 5772,
+     "write_in": false,
+     "pct": 45.39,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Alex Holladay",
+   "margin_votes": 1172,
+   "margin_pct": 9.22,
+   "jurisdiction": null,
+   "id": "ar-105"
+  },
+  {
+   "office": "State House",
+   "district": "71",
+   "title": "State Representative District 71",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10868,
+   "candidates": [
+    {
+     "name": "Cassandra Mayes",
+     "party": "Democratic",
+     "votes": 6023,
+     "write_in": false,
+     "pct": 55.42,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Stephen Bright",
+     "party": "Republican",
+     "votes": 4845,
+     "write_in": false,
+     "pct": 44.58,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Cassandra Mayes",
+   "margin_votes": 1178,
+   "margin_pct": 10.84,
+   "jurisdiction": null,
+   "id": "ar-106"
+  },
+  {
+   "office": "State House",
+   "district": "72",
+   "title": "State Representative District 72",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5314,
+   "candidates": [
+    {
+     "name": "Talesha Dokes",
+     "party": "Democratic",
+     "votes": 5314,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 10,
+    "total": 10
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Talesha Dokes",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-107"
+  },
+  {
+   "office": "State House",
+   "district": "73",
+   "title": "State Representative District 73",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10325,
+   "candidates": [
+    {
+     "name": "Andrew Collins",
+     "party": "Democratic",
+     "votes": 10325,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 16,
+    "total": 16
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Andrew Collins",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-108"
+  },
+  {
+   "office": "State House",
+   "district": "74",
+   "title": "State Representative District 74",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10005,
+   "candidates": [
+    {
+     "name": "Tippi McCullough",
+     "party": "Democratic",
+     "votes": 10005,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Tippi McCullough",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-109"
+  },
+  {
+   "office": "State House",
+   "district": "75",
+   "title": "State Representative District 75",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12307,
+   "candidates": [
+    {
+     "name": "Ashley Hudson",
+     "party": "Democratic",
+     "votes": 7582,
+     "write_in": false,
+     "pct": 61.61,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Hunter Sadler",
+     "party": "Republican",
+     "votes": 4725,
+     "write_in": false,
+     "pct": 38.39,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Ashley Hudson",
+   "margin_votes": 2857,
+   "margin_pct": 23.22,
+   "jurisdiction": null,
+   "id": "ar-110"
+  },
+  {
+   "office": "State House",
+   "district": "76",
+   "title": "State Representative District 76",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6611,
+   "candidates": [
+    {
+     "name": "Joy Springer",
+     "party": "Democratic",
+     "votes": 6104,
+     "write_in": false,
+     "pct": 92.33,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Isbac Ceja",
+     "party": "Republican",
+     "votes": 507,
+     "write_in": false,
+     "pct": 7.67,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Joy Springer",
+   "margin_votes": 5597,
+   "margin_pct": 84.66,
+   "jurisdiction": null,
+   "id": "ar-111"
+  },
+  {
+   "office": "State House",
+   "district": "77",
+   "title": "State Representative District 77",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7487,
+   "candidates": [
+    {
+     "name": "JP Steven Person",
+     "party": "Democratic",
+     "votes": 7487,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 12,
+    "total": 12
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "JP Steven Person",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-112"
+  },
+  {
+   "office": "State House",
+   "district": "78",
+   "title": "State Representative District 78",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 10268,
+   "candidates": [
+    {
+     "name": "Keith Brooks",
+     "party": "Republican",
+     "votes": 10268,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 21,
+    "total": 21
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Keith Brooks",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-113"
+  },
+  {
+   "office": "State House",
+   "district": "79",
+   "title": "State Representative District 79",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5679,
+   "candidates": [
+    {
+     "name": "Michael D. Mason",
+     "party": "Democratic",
+     "votes": 5679,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 8,
+    "total": 8
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Michael D. Mason",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-114"
+  },
+  {
+   "office": "State House",
+   "district": "80",
+   "title": "State Representative District 80",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7100,
+   "candidates": [
+    {
+     "name": "Denise Ennett",
+     "party": "Democratic",
+     "votes": 6144,
+     "write_in": false,
+     "pct": 86.54,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Daniel Stuckey",
+     "party": "Libertarian",
+     "votes": 956,
+     "write_in": false,
+     "pct": 13.46,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Denise Ennett",
+   "margin_votes": 5188,
+   "margin_pct": 73.08,
+   "jurisdiction": null,
+   "id": "ar-115"
+  },
+  {
+   "office": "State House",
+   "district": "81",
+   "title": "State Representative District 81",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 9080,
+   "candidates": [
+    {
+     "name": "RJ Hawk",
+     "party": "Republican",
+     "votes": 4588,
+     "write_in": false,
+     "pct": 50.53,
+     "rank": 1,
+     "incumbent": null
+    },
+    {
+     "name": "Gina Thomas-Littlejohn",
+     "party": "Democratic",
+     "votes": 4492,
+     "write_in": false,
+     "pct": 49.47,
+     "rank": 2,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 14,
+    "total": 14
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "RJ Hawk",
+   "margin_votes": 96,
+   "margin_pct": 1.06,
+   "jurisdiction": null,
+   "id": "ar-116"
+  },
+  {
+   "office": "State House",
+   "district": "82",
+   "title": "State Representative District 82",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6429,
+   "candidates": [
+    {
+     "name": "Tony Furman",
+     "party": "Republican",
+     "votes": 6429,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Tony Furman",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-117"
+  },
+  {
+   "office": "State House",
+   "district": "83",
+   "title": "State Representative District 83",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 12159,
+   "candidates": [
+    {
+     "name": "Paul Childress",
+     "party": "Republican",
+     "votes": 12159,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Paul Childress",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-118"
+  },
+  {
+   "office": "State House",
+   "district": "84",
+   "title": "State Representative District 84",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5975,
+   "candidates": [
+    {
+     "name": "R Rep Les Warren",
+     "party": "Republican",
+     "votes": 5975,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 19,
+    "total": 19
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "R Rep Les Warren",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-119"
+  },
+  {
+   "office": "State House",
+   "district": "85",
+   "title": "State Representative District 85",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8005,
+   "candidates": [
+    {
+     "name": "R Rep Richard McGrew",
+     "party": "Republican",
+     "votes": 8005,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 18,
+    "total": 18
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "R Rep Richard McGrew",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-120"
+  },
+  {
+   "office": "State House",
+   "district": "86",
+   "title": "State Representative District 86",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7741,
+   "candidates": [
+    {
+     "name": "John Maddox",
+     "party": "Republican",
+     "votes": 7741,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 36,
+    "total": 36
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "John Maddox",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-121"
+  },
+  {
+   "office": "State House",
+   "district": "87",
+   "title": "State Representative District 87",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6251,
+   "candidates": [
+    {
+     "name": "DeAnn Vaught",
+     "party": "Republican",
+     "votes": 6251,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 32,
+    "total": 32
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "DeAnn Vaught",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-122"
+  },
+  {
+   "office": "State House",
+   "district": "88",
+   "title": "State Representative District 88",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5254,
+   "candidates": [
+    {
+     "name": "Dolly Henley",
+     "party": "Republican",
+     "votes": 5254,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 35,
+    "total": 35
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Dolly Henley",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-123"
+  },
+  {
+   "office": "State House",
+   "district": "89",
+   "title": "State Representative District 89",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7056,
+   "candidates": [
+    {
+     "name": "Justin Gonzales",
+     "party": "Republican",
+     "votes": 7056,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 49,
+    "total": 49
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Justin Gonzales",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-124"
+  },
+  {
+   "office": "State House",
+   "district": "90",
+   "title": "State Representative District 90",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7018,
+   "candidates": [
+    {
+     "name": "Richard Womack",
+     "party": "Republican",
+     "votes": 7018,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 27,
+    "total": 27
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Richard Womack",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-125"
+  },
+  {
+   "office": "State House",
+   "district": "91",
+   "title": "State Representative District 91",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6439,
+   "candidates": [
+    {
+     "name": "R Rep Bruce Cozart",
+     "party": "Republican",
+     "votes": 6439,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 15,
+    "total": 15
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "R Rep Bruce Cozart",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-126"
+  },
+  {
+   "office": "State House",
+   "district": "92",
+   "title": "State Representative District 92",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 8295,
+   "candidates": [
+    {
+     "name": "Dawn Creekmore",
+     "party": "Republican",
+     "votes": 8295,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 25,
+    "total": 25
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Dawn Creekmore",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-127"
+  },
+  {
+   "office": "State House",
+   "district": "93",
+   "title": "State Representative District 93",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7632,
+   "candidates": [
+    {
+     "name": "Mike Holcomb",
+     "party": "Republican",
+     "votes": 7632,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 63,
+    "total": 63
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Mike Holcomb",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-128"
+  },
+  {
+   "office": "State House",
+   "district": "94",
+   "title": "State Representative District 94",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6127,
+   "candidates": [
+    {
+     "name": "John Kyle Day",
+     "party": "Republican",
+     "votes": 6127,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 37,
+    "total": 37
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "John Kyle Day",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-129"
+  },
+  {
+   "office": "State House",
+   "district": "95",
+   "title": "State Representative District 95",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6592,
+   "candidates": [
+    {
+     "name": "Howard M. Beaty Jr.",
+     "party": "Republican",
+     "votes": 6592,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 45,
+    "total": 45
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Howard M. Beaty Jr.",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-130"
+  },
+  {
+   "office": "State House",
+   "district": "96",
+   "title": "State Representative District 96",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6021,
+   "candidates": [
+    {
+     "name": "Sonia E Barker",
+     "party": "Republican",
+     "votes": 6021,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 39,
+    "total": 39
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Sonia E Barker",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-131"
+  },
+  {
+   "office": "State House",
+   "district": "97",
+   "title": "State Representative District 97",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6856,
+   "candidates": [
+    {
+     "name": "Jim Andrews",
+     "party": "Republican",
+     "votes": 6856,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 20,
+    "total": 20
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Jim Andrews",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-132"
+  },
+  {
+   "office": "State House",
+   "district": "98",
+   "title": "State Representative District 98",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 6358,
+   "candidates": [
+    {
+     "name": "Wade Andrews",
+     "party": "Republican",
+     "votes": 6358,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 35,
+    "total": 35
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Wade Andrews",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-133"
+  },
+  {
+   "office": "State House",
+   "district": "99",
+   "title": "State Representative District 99",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 7191,
+   "candidates": [
+    {
+     "name": "Beth Anne Rankin Baker",
+     "party": "Republican",
+     "votes": 7191,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 23,
+    "total": 23
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Beth Anne Rankin Baker",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-134"
+  },
+  {
+   "office": "State House",
+   "district": "100",
+   "title": "State Representative District 100",
+   "vote_for": 1,
+   "status": "Unofficial — not yet certified",
+   "total_votes": 5638,
+   "candidates": [
+    {
+     "name": "Carol Dalby",
+     "party": "Republican",
+     "votes": 5638,
+     "write_in": false,
+     "pct": 100.0,
+     "rank": 1,
+     "incumbent": null
+    }
+   ],
+   "reporting": {
+    "unit": "precincts",
+    "reporting": 13,
+    "total": 13
+   },
+   "results_as_of": "2026-11-04T14:26:55.5036547Z",
+   "source_url": "https://arkansas.tally-enr.com/",
+   "retrieved_at": "2026-11-04T18:58:14Z",
+   "leading": "Carol Dalby",
+   "notes": "Unopposed or single candidate on official feed.",
+   "jurisdiction": null,
+   "id": "ar-135"
+  }
+ ],
+ "notes": null,
+ "official_pdfs": null,
+ "summary": {
+  "contests": 135,
+  "by_office": {
+   "US Senate": 1,
+   "Governor": 1,
+   "US House": 4,
+   "Statewide Office": 6,
+   "Ballot Measure": 4,
+   "State Senate": 18,
+   "State House": 101
+  }
+ }
+}

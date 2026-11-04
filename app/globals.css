@@ -385,3 +385,33 @@ footer {
   .mast-inner { flex-direction: column; }
   .brand strong { font-size: 26px; }
 }
+
+/* Election Results */
+.state-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.state-chip {
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 12px;
+  min-width: 40px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+}
+.state-chip.pend { color: var(--muted); border-style: dashed; }
+.state-chip.on { background: var(--navy); color: var(--paper); border-style: solid; }
+.chip { cursor: pointer; font: inherit; font-size: 13px; }
+.chip.on { background: var(--navy); color: var(--paper); }
+.result-state h2 { margin: 24px 0 4px; }
+.result-card { margin: 12px 0; }
+.result-card h3 { font-size: 17px; margin: 0 0 4px; }
+.result-meta { margin: 4px 0; }
+.result-list { list-style: none; margin: 8px 0; padding: 0; }
+.result-row { margin: 8px 0; }
+.result-line { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.result-name small, .result-num small { color: var(--muted); font-family: "Avenir Next", "Segoe UI", sans-serif; }
+.result-name .tag { margin-left: 6px; }
+.lead-tag { background: var(--paper-2); }
+.bar { height: 6px; background: var(--paper-2); margin-top: 3px; }
+.bar span { display: block; height: 100%; background: var(--navy-2); }
+.result-row.lead .bar span { background: var(--rule); }
