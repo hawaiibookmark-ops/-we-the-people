@@ -111,6 +111,11 @@ function ResultsBody({
                         ? ` · Certified primary votes: ${c.primaryVotes.toLocaleString()}`
                         : ""}
                   </div>
+                  {c.fecId ? (
+                    <p className="src">
+                      <a href={`/aipac/?id=${c.fecId}`}>AIPAC PAC / United Democracy Project filings for this candidate</a>
+                    </p>
+                  ) : null}
                   {c.olvrStatus ? (
                     <p className="olvr">
                       {c.olvrStatus}
