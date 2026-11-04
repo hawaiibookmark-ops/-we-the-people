@@ -16,6 +16,7 @@ export function Header() {
   const pro = usePrefixed("/pro/");
   const about = usePrefixed("/about/");
   const results = usePrefixed("/results/");
+  const aipac = usePrefixed("/aipac/");
   return (
     <header className="mast">
       <div className="wrap mast-inner">
@@ -26,6 +27,7 @@ export function Header() {
         <nav>
           <a href={home}>Lookup</a>
           <a href={results}>Election Results</a>
+          <a href={aipac}>AIPAC money</a>
           <a href={pro}>Early Supporter</a>
           <a href={about}>Sources</a>
         </nav>
